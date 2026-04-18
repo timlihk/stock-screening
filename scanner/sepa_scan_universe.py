@@ -186,12 +186,41 @@ def atr(high, low, close, window):
                     (low - prev_close).abs()], axis=1).max(axis=1)
     return tr.rolling(window).mean().iloc[-1]
 
+def hh_hl_stats(high, low, window=60):
+    """Count sessions making higher high AND higher low over the last `window` days.
+    Returns (count, pct). Orderly uptrends have high ratios (>=40%).
+    Inspired by VladPetrariu/Qullamaggie-breakout-scanner's HH/HL structure score."""
+    if len(high) < window + 1:
+        return 0, 0.0
+    h = high.iloc[-(window + 1):]
+    l = low.iloc[-(window + 1):]
+    hh = (h.values[1:] > h.values[:-1])
+    hl = (l.values[1:] > l.values[:-1])
+    count = int((hh & hl).sum())
+    return count, count / window * 100
+
+def candle_quality_stats(open_, high, low, close, window=21):
+    """Average body/range ratio over the last `window` days.
+    Vlad's tiers: 0.52+ ideal, 0.44+ ok, 0.38+ barcode, <0.38 poor.
+    Filters out choppy 'barcode' price action.
+    Also returns ABR% (average body range as % of price)."""
+    if len(close) < window:
+        return np.nan, np.nan
+    o = open_.iloc[-window:]; h = high.iloc[-window:]
+    l = low.iloc[-window:];   c = close.iloc[-window:]
+    body = (c - o).abs()
+    rng = (h - l).replace(0, np.nan)
+    body_range_ratio = (body / rng).mean()
+    abr_pct = (body / c).mean() * 100
+    return float(body_range_ratio), float(abr_pct)
+
 def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     if df is None or df.empty:
         return None
     df = df.dropna(how="all")
     close = df["Close"].dropna(); high = df["High"].dropna()
     low = df["Low"].dropna();     vol  = df["Volume"].dropna()
+    open_ = df["Open"].dropna() if "Open" in df.columns else close
     if len(close) < 220:
         return None
 
@@ -252,7 +281,15 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     ma20 = close.rolling(20).mean().iloc[-1]
     breakout_confirm = (price > ma20 and not np.isnan(vol_ratio)
                         and vol_ratio >= 1.5 and above_pivot)
-    setup_score = vcp_score + sum([atr_compression, tight_range, power_play, breakout_confirm])
+
+    # Structure-quality signals (Vlad-inspired)
+    hh_hl_count, hh_hl_pct = hh_hl_stats(high, low, window=60)
+    hh_hl_orderly = hh_hl_pct >= 40            # >=40% of last 60 sessions are HH/HL
+    candle_quality, abr21_pct = candle_quality_stats(open_, high, low, close, window=21)
+    candle_orderly = not np.isnan(candle_quality) and candle_quality >= 0.44  # Vlad's "ok" tier
+
+    setup_score = vcp_score + sum([atr_compression, tight_range, power_play,
+                                    breakout_confirm, hh_hl_orderly, candle_orderly])
 
     out = dict(
         ticker=tkr, price=price,
@@ -264,6 +301,8 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         contracting_pbs=contracting_pbs, vol_dry_up=vol_dry_up,
         atr_compression=atr_compression, tight_range=tight_range,
         power_play=power_play, breakout_confirm=breakout_confirm,
+        hh_hl_count=hh_hl_count, hh_hl_pct=hh_hl_pct, hh_hl_orderly=hh_hl_orderly,
+        candle_quality=candle_quality, abr21_pct=abr21_pct, candle_orderly=candle_orderly,
         pct_to_pivot=pct_to_pivot, setup_score=setup_score,
     )
 
@@ -340,7 +379,8 @@ def parse_args():
     p.add_argument("--min-adv-usd", type=float, default=50e6,
                    help="Min 20-day avg dollar volume ($)")
     p.add_argument("--include-etf", action="store_true")
-    p.add_argument("--min-setup-score", type=int, default=3)
+    p.add_argument("--min-setup-score", type=int, default=4,
+                   help="Minimum composite setup score (0-10). Default 4.")
     p.add_argument("--use-qullamaggie", action="store_true", default=True)
     p.add_argument("--no-qullamaggie", dest="use_qullamaggie", action="store_false")
     p.add_argument("--max-tickers", type=int, default=0,
@@ -408,6 +448,17 @@ def main():
     df = full_scan(liq["ticker"].tolist(), spy["ret_1y"],
                    use_qullamaggie=args.use_qullamaggie)
     df = df.merge(liq[["ticker", "adv_usd"]], on="ticker", how="left")
+
+    # Universe-relative RS: percentile rank (0-100) of ret_1y across all
+    # analyzed tickers. Replaces plain "rs_vs_spy" as the cleaner momentum
+    # ranking per IBD/Qullamaggie methodology.
+    if "ret_1y" in df.columns:
+        df["rs_pct_rank"] = df["ret_1y"].rank(pct=True, method="average") * 100
+        df["rs_top_20"] = df["rs_pct_rank"] >= 80   # top quintile
+    else:
+        df["rs_pct_rank"] = np.nan
+        df["rs_top_20"] = False
+
     df.to_csv(f"{args.output_dir}/results_universe_{date_tag}.csv", index=False)
 
     passers = df[df.all_pass].copy()
@@ -416,13 +467,14 @@ def main():
     shortlist = passers[passers.setup_score >= args.min_setup_score].copy()
     if args.use_qullamaggie and "qm_score" in shortlist.columns:
         shortlist = shortlist.sort_values(
-            ["setup_score", "qm_score", "rs_vs_spy"], ascending=[False, False, False])
+            ["setup_score", "qm_score", "rs_pct_rank"], ascending=[False, False, False])
     else:
-        shortlist = shortlist.sort_values(["setup_score", "rs_vs_spy"], ascending=[False, False])
+        shortlist = shortlist.sort_values(["setup_score", "rs_pct_rank"], ascending=[False, False])
 
     cols = ["ticker", "price", "pct_from_hi", "pct_to_pivot", "vcp_score",
             "tight_range", "power_play", "breakout_confirm",
-            "vol_ratio", "rs_vs_spy", "setup_score"]
+            "hh_hl_pct", "candle_quality", "hh_hl_orderly", "candle_orderly",
+            "vol_ratio", "rs_vs_spy", "rs_pct_rank", "setup_score"]
     if args.use_qullamaggie:
         cols += ["ret_1m", "ret_3m", "adr_pct", "qm_score"]
     print(f"\n=== COMPOSITE SHORTLIST (setup_score>={args.min_setup_score}): {len(shortlist)} ===\n")

@@ -16,9 +16,9 @@ on:
         required: true
         default: "50000000"
       min_setup_score:
-        description: "Minimum composite setup score (0-8)"
+        description: "Minimum composite setup score (0-10)"
         required: true
-        default: "3"
+        default: "4"
       use_qullamaggie:
         description: "Include Qullamaggie momentum signals"
         required: true
@@ -70,7 +70,7 @@ jobs:
           EXCHANGES="${{ github.event.inputs.exchanges || 'nasdaq,nyse' }}"
           MIN_PRICE="${{ github.event.inputs.min_price || '5' }}"
           MIN_ADV="${{ github.event.inputs.min_adv_usd || '50000000' }}"
-          MIN_SCORE="${{ github.event.inputs.min_setup_score || '3' }}"
+          MIN_SCORE="${{ github.event.inputs.min_setup_score || '4' }}"
           USE_QM="${{ github.event.inputs.use_qullamaggie || 'true' }}"
           USE_FV="${{ github.event.inputs.use_finviz_prefilter || 'true' }}"
           SRC="${{ github.event.inputs.universe_source || 'sec_edgar' }}"
@@ -120,11 +120,10 @@ jobs:
           csv = f"{p}/results_universe_{date}.csv"
           df = pd.read_csv(csv)
           passers = df[df.all_pass == True].copy()
-          if "qm_score" in passers.columns:
-              passers = passers.sort_values(["setup_score", "qm_score", "rs_vs_spy"],
-                                             ascending=[False, False, False])
-          else:
-              passers = passers.sort_values(["setup_score", "rs_vs_spy"], ascending=[False, False])
+          sort_cols = ["setup_score"]
+          if "qm_score" in passers.columns: sort_cols.append("qm_score")
+          sort_cols.append("rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy")
+          passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
           top = passers.head(20).ticker.tolist()
           with open(f"{p}/shortlist.txt", "w") as f:
               for t in top:
@@ -132,6 +131,8 @@ jobs:
                   note = f"Setup {int(row.setup_score)}"
                   if "qm_score" in row and pd.notna(row["qm_score"]):
                       note += f" · QM {int(row['qm_score'])}"
+                  if "rs_pct_rank" in row and pd.notna(row["rs_pct_rank"]):
+                      note += f" · RSpct {int(row['rs_pct_rank'])}"
                   note += f" · RS {row.rs_vs_spy:+.0f}"
                   f.write(f"{t}|{note}\n")
           print(f"Top shortlist: {top}")
