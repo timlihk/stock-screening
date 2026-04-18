@@ -137,34 +137,73 @@ jobs:
             --date "${{ steps.params.outputs.date }}" \
             2>&1 | tee public/results/latest/scan.log
 
-      - name: Build chart page from top shortlist
+      - name: Sector rotation dashboard
+        run: |
+          python3 scanner/sector_scan.py \
+            --output-dir public/results/latest \
+            --date "${{ steps.params.outputs.date }}"
+
+      - name: Build shortlist (with earnings filter + sector bonus)
+        env:
+          DATE: ${{ steps.params.outputs.date }}
+          DESC_CACHE: public/cache/descriptions.json
+          EARNINGS_CACHE: public/cache/earnings.json
+          SECTORS_JSON: public/results/latest/sectors.json
         run: |
           python3 - <<'PY'
-          import os, pandas as pd
+          import os, sys, pandas as pd
+          sys.path.insert(0, "scanner")
+          from earnings import get_earnings_map
+          from sector_align import load_sector_ranks, load_description_cache, sector_bonus_for, sector_name_for
+
           p = "public/results/latest"
           date = os.environ["DATE"].replace("-", "")
           csv = f"{p}/results_universe_{date}.csv"
           df = pd.read_csv(csv)
           passers = df[df.all_pass == True].copy()
-          sort_cols = ["setup_score"]
+
+          # Apply sector bonus from the freshly-computed sector dashboard
+          sector_ranks = load_sector_ranks()
+          desc_cache = load_description_cache()
+          passers["sector_name"] = passers["ticker"].apply(lambda t: sector_name_for(t, desc_cache))
+          passers["sector_bonus"] = passers["ticker"].apply(lambda t: sector_bonus_for(t, sector_ranks, desc_cache))
+          passers["adjusted_score"] = passers["setup_score"] + passers["sector_bonus"]
+
+          # Sort by adjusted_score then qm_score then rs_pct_rank
+          sort_cols = ["adjusted_score"]
           if "qm_score" in passers.columns: sort_cols.append("qm_score")
           sort_cols.append("rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy")
           passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
-          top = passers.head(20).ticker.tolist()
+
+          # Fetch earnings proximity for top 40 candidates (larger pool because
+          # some will get filtered out by the earnings guard)
+          candidate_tickers = passers.head(40)["ticker"].tolist()
+          earnings = get_earnings_map(candidate_tickers)
+          passers["days_to_earnings"] = passers["ticker"].map(lambda t: earnings.get(t, 999))
+          passers["near_earnings"] = passers["days_to_earnings"] <= 10
+
+          # Final shortlist: drop near-earnings names, take top 20
+          tradable = passers[~passers["near_earnings"]].head(20)
+
           with open(f"{p}/shortlist.txt", "w") as f:
-              for t in top:
-                  row = passers[passers.ticker == t].iloc[0]
-                  note = f"Setup {int(row.setup_score)}"
+              for _, row in tradable.iterrows():
+                  t = row["ticker"]
+                  note_parts = [f"Setup {row.adjusted_score:.1f}"]
                   if "qm_score" in row and pd.notna(row["qm_score"]):
-                      note += f" · QM {int(row['qm_score'])}"
+                      note_parts.append(f"QM {int(row['qm_score'])}")
                   if "rs_pct_rank" in row and pd.notna(row["rs_pct_rank"]):
-                      note += f" · RSpct {int(row['rs_pct_rank'])}"
-                  note += f" · RS {row.rs_vs_spy:+.0f}"
-                  f.write(f"{t}|{note}\n")
-          print(f"Top shortlist: {top}")
+                      note_parts.append(f"RSpct {int(row['rs_pct_rank'])}")
+                  if row.get("sector_name"):
+                      note_parts.append(f"{row['sector_name']}")
+                  if row["days_to_earnings"] < 999:
+                      note_parts.append(f"Earn {int(row['days_to_earnings'])}d")
+                  note_parts.append(f"RS {row.rs_vs_spy:+.0f}")
+                  f.write(f"{t}|{' · '.join(note_parts)}\n")
+
+          removed = len(passers.head(20)) - len(tradable) + len(passers[passers["near_earnings"]].head(20))
+          print(f"Top 20 shortlist: {tradable.ticker.tolist()}")
+          print(f"  dropped {len(passers[passers['near_earnings']].head(40))} candidates for earnings proximity")
           PY
-        env:
-          DATE: ${{ steps.params.outputs.date }}
 
       - name: Generate chart page (SEPA shortlist)
         env:
@@ -202,12 +241,6 @@ jobs:
               --no-open
             cp "$(ls -t /tmp/sepa-scan/charts_*.html | head -1)" public/results/latest/rs_leaders_charts.html
           fi
-
-      - name: Sector rotation dashboard
-        run: |
-          python3 scanner/sector_scan.py \
-            --output-dir public/results/latest \
-            --date "${{ steps.params.outputs.date }}"
 
       - name: Write metadata JSON
         run: |
