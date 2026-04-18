@@ -125,7 +125,12 @@ async function handleListRuns(env) {
 
 async function proxyGithubRaw(pathname, env) {
   const { GITHUB_REPO } = env;
-  const target = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/public${pathname}`;
+  // Extension-less paths (e.g. /results/latest/charts) — assume .html, since
+  // the browser may have stripped the extension via CF Pages' html_handling
+  // default on the landing-page link.
+  const hasExt = /\.[a-z0-9]{1,5}$/i.test(pathname);
+  const resolvedPath = hasExt ? pathname : `${pathname}.html`;
+  const target = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/public${resolvedPath}`;
   const resp = await fetch(target, {
     cf: { cacheTtl: 60, cacheEverything: true },
     headers: { "User-Agent": "stock-screening-worker" },
@@ -136,11 +141,11 @@ async function proxyGithubRaw(pathname, env) {
       headers: CORS_HEADERS,
     });
   }
-  const contentType = pathname.endsWith(".json") ? "application/json"
-    : pathname.endsWith(".csv") ? "text/csv"
-    : pathname.endsWith(".html") ? "text/html"
-    : pathname.endsWith(".log") ? "text/plain"
-    : pathname.endsWith(".txt") ? "text/plain"
+  const contentType = resolvedPath.endsWith(".json") ? "application/json"
+    : resolvedPath.endsWith(".csv") ? "text/csv"
+    : resolvedPath.endsWith(".html") ? "text/html; charset=utf-8"
+    : resolvedPath.endsWith(".log") ? "text/plain"
+    : resolvedPath.endsWith(".txt") ? "text/plain"
     : "application/octet-stream";
   return new Response(resp.body, {
     status: 200,

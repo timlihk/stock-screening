@@ -8,8 +8,12 @@ workers_dev = true
 GITHUB_REPO = "timlihk/stock-screening"
 WORKFLOW_FILE = "scan.yml"
 
-# Bind the built landing page + results as static assets so the same Worker
-# serves both the UI and the /api/* endpoints.
+# Bind the built landing page as static assets. Results are fetched live from
+# GitHub raw by the Worker, so set run_worker_first = true to guarantee the
+# Worker's /results/* proxy handler always runs (otherwise a stale locally-bundled
+# charts.html would shadow the live version) and disable .html-stripping.
 [assets]
 directory = "../public"
 binding = "ASSETS"
+run_worker_first = true
+html_handling = "none"
