@@ -35,7 +35,13 @@ export default {
       return handleRunStatus(url, env);
     }
 
-    // Fallback: serve static assets (landing page, results/ directory)
+    // Proxy /results/* from GitHub raw so CI-committed scan outputs show up
+    // without redeploying the Worker. Cached at CF edge for 60s.
+    if (url.pathname.startsWith("/results/")) {
+      return proxyGithubRaw(url.pathname, env);
+    }
+
+    // Fallback: serve bundled static assets (landing page)
     if (env.ASSETS) {
       if (url.pathname.endsWith("/")) url.pathname += "index.html";
       return env.ASSETS.fetch(new Request(url.toString(), request));
@@ -115,6 +121,35 @@ async function handleListRuns(env) {
     html_url: r.html_url,
   }));
   return json({ runs });
+}
+
+async function proxyGithubRaw(pathname, env) {
+  const { GITHUB_REPO } = env;
+  const target = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/public${pathname}`;
+  const resp = await fetch(target, {
+    cf: { cacheTtl: 60, cacheEverything: true },
+    headers: { "User-Agent": "stock-screening-worker" },
+  });
+  if (!resp.ok) {
+    return new Response(`Not found: ${pathname}`, {
+      status: resp.status,
+      headers: CORS_HEADERS,
+    });
+  }
+  const contentType = pathname.endsWith(".json") ? "application/json"
+    : pathname.endsWith(".csv") ? "text/csv"
+    : pathname.endsWith(".html") ? "text/html"
+    : pathname.endsWith(".log") ? "text/plain"
+    : pathname.endsWith(".txt") ? "text/plain"
+    : "application/octet-stream";
+  return new Response(resp.body, {
+    status: 200,
+    headers: {
+      "content-type": contentType,
+      "cache-control": "public, max-age=60",
+      ...CORS_HEADERS,
+    },
+  });
 }
 
 async function handleRunStatus(url, env) {
