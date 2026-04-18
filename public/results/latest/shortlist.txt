@@ -1,20 +1,20 @@
-TERN|Setup 6 · QM 3 · RS +2214
-APLS|Setup 5 · QM 3 · RS +89
-ACLX|Setup 5 · QM 3 · RS +53
-CYTK|Setup 5 · QM 2 · RS +34
-UNF|Setup 5 · QM 2 · RS +16
-USFD|Setup 5 · QM 2 · RS +16
-ARR|Setup 5 · QM 2 · RS +13
-AGX|Setup 4 · QM 4 · RS +269
-COGT|Setup 4 · QM 3 · RS +736
-CNTA|Setup 4 · QM 3 · RS +199
-CAMT|Setup 4 · QM 3 · RS +174
-SSRM|Setup 4 · QM 3 · RS +153
-SRRK|Setup 4 · QM 3 · RS +31
-HYMC|Setup 4 · QM 2 · RS +1144
-TSEM|Setup 4 · QM 2 · RS +529
-BTSG|Setup 4 · QM 2 · RS +145
-MIRM|Setup 4 · QM 2 · RS +116
-AU|Setup 4 · QM 2 · RS +114
-SCCO|Setup 4 · QM 2 · RS +103
-MT|Setup 4 · QM 2 · RS +98
+TERN|Setup 7 · QM 3 · RSpct 99 · RS +2214
+ARR|Setup 7 · QM 2 · RSpct 61 · RS +13
+AGX|Setup 6 · QM 4 · RSpct 95 · RS +269
+CAMT|Setup 6 · QM 3 · RSpct 92 · RS +174
+ACLX|Setup 6 · QM 3 · RSpct 77 · RS +53
+HYMC|Setup 6 · QM 2 · RSpct 99 · RS +1144
+BTSG|Setup 6 · QM 2 · RSpct 89 · RS +145
+AU|Setup 6 · QM 2 · RSpct 87 · RS +114
+MT|Setup 6 · QM 2 · RSpct 85 · RS +98
+KGC|Setup 6 · QM 2 · RSpct 85 · RS +97
+STNG|Setup 6 · QM 2 · RSpct 84 · RS +89
+PAAS|Setup 6 · QM 2 · RSpct 82 · RS +76
+NEM|Setup 6 · QM 2 · RSpct 81 · RS +74
+MOG-A|Setup 6 · QM 2 · RSpct 79 · RS +62
+TECK|Setup 6 · QM 2 · RSpct 73 · RS +42
+ROST|Setup 6 · QM 2 · RSpct 69 · RS +29
+CASY|Setup 6 · QM 2 · RSpct 69 · RS +29
+AGI|Setup 6 · QM 2 · RSpct 67 · RS +26
+SLB|Setup 6 · QM 2 · RSpct 65 · RS +22
+LYG|Setup 6 · QM 2 · RSpct 64 · RS +21
