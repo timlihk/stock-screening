@@ -56,6 +56,28 @@
        text-transform: uppercase; letter-spacing: 0.5px; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
+  .archetype-grid {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  @media (max-width: 720px) { .archetype-grid { grid-template-columns: 1fr; } }
+  .archetype {
+    background: #1b2029; border: 1px solid var(--border);
+    border-radius: 8px; padding: 14px 16px;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .archetype .head { display: flex; justify-content: space-between; align-items: baseline; }
+  .archetype .title { font-weight: 600; font-size: 14px; color: var(--text); }
+  .archetype .attrib { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+  .archetype .desc { font-size: 12px; color: var(--muted); line-height: 1.45; }
+  .archetype .count { font-size: 11px; color: var(--muted); }
+  .pill {
+    display: inline-block; padding: 3px 9px; border-radius: 10px;
+    font-size: 12px; background: #0f1115; border: 1px solid var(--border);
+    color: var(--text); font-weight: 500;
+  }
+  .pill-row { display: flex; flex-wrap: wrap; gap: 5px 6px; min-height: 24px; }
+  .archetype .actions { display: flex; gap: 12px; margin-top: auto; padding-top: 4px; font-size: 12px; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 6px; }
   .pill { display: inline-block; padding: 2px 8px; border-radius: 10px;
           font-size: 11px; background: #1b2029; border: 1px solid var(--border); }
@@ -154,14 +176,69 @@
   </div>
 
   <div class="card">
-    <h2>Latest results</h2>
+    <h2>Latest scan · screens by setup archetype</h2>
     <p class="sub" id="latestInfo">Loading…</p>
-    <div class="row" style="gap:14px; flex-wrap:wrap;">
-      <a id="chartsLink" href="/results/latest/charts.html" target="_blank">📈 SEPA chart dashboard</a>
-      <a id="rsChartsLink" href="/results/latest/rs_leaders_charts.html" target="_blank">🚀 RS leaders charts</a>
+
+    <div class="archetype-grid">
+      <div class="archetype" data-arch="sepa_vcp">
+        <div class="head">
+          <span class="title">📘 SEPA / VCP</span>
+          <span class="attrib">Minervini</span>
+        </div>
+        <div class="desc">Stage-2 uptrend with contracting volatility into a tight base. Enters on pivot break with volume.</div>
+        <div class="pill-row names" id="names-sepa_vcp"><span class="count">Loading…</span></div>
+        <div class="actions">
+          <a href="/results/latest/charts_sepa_vcp.html" target="_blank">Open charts →</a>
+          <a href="/results/latest/shortlist_sepa_vcp.txt" target="_blank">Raw list</a>
+        </div>
+      </div>
+
+      <div class="archetype" data-arch="power_play">
+        <div class="head">
+          <span class="title">🚀 Power Play</span>
+          <span class="attrib">Minervini · Jeff Sun</span>
+        </div>
+        <div class="desc">6-month advance &gt; 85% followed by tight 15-day digestion within ±5/−15%. Explosive continuation pattern.</div>
+        <div class="pill-row names" id="names-power_play"><span class="count">Loading…</span></div>
+        <div class="actions">
+          <a href="/results/latest/charts_power_play.html" target="_blank">Open charts →</a>
+          <a href="/results/latest/shortlist_power_play.txt" target="_blank">Raw list</a>
+        </div>
+      </div>
+
+      <div class="archetype" data-arch="qm_continuation">
+        <div class="head">
+          <span class="title">🏄 QM Continuation</span>
+          <span class="attrib">Kristjan Kullamägi</span>
+        </div>
+        <div class="desc">Top-1-2% momentum riding the rising 10/20 EMA with tight consolidation. Entry on range-high break.</div>
+        <div class="pill-row names" id="names-qm_continuation"><span class="count">Loading…</span></div>
+        <div class="actions">
+          <a href="/results/latest/charts_qm_continuation.html" target="_blank">Open charts →</a>
+          <a href="/results/latest/shortlist_qm_continuation.txt" target="_blank">Raw list</a>
+        </div>
+      </div>
+
+      <div class="archetype" data-arch="expansion_tight">
+        <div class="head">
+          <span class="title">🎯 Expansion → Tight</span>
+          <span class="attrib">First principles</span>
+        </div>
+        <div class="desc">Recent expansion above pivot with tight 5-day range (±5% or less). Not extended from 50MA.</div>
+        <div class="pill-row names" id="names-expansion_tight"><span class="count">Loading…</span></div>
+        <div class="actions">
+          <a href="/results/latest/charts_expansion_tight.html" target="_blank">Open charts →</a>
+          <a href="/results/latest/shortlist_expansion_tight.txt" target="_blank">Raw list</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="gap:14px; flex-wrap:wrap; margin-top: 18px;">
+      <a id="chartsLink" href="/results/latest/charts.html" target="_blank">📈 Unified top-20 (all archetypes)</a>
+      <a id="rsChartsLink" href="/results/latest/rs_leaders_charts.html" target="_blank">🏆 RS leaders (momentum only)</a>
       <a id="sectorsLink" href="/results/latest/sectors.html" target="_blank">🗺️ Sector rotation</a>
-      <a id="csvLink" href="#" target="_blank">📊 Results CSV</a>
-      <a id="rsCsvLink" href="/results/latest/rs_leaders.json" target="_blank">RS leaders JSON</a>
+      <a id="csvLink" href="#" target="_blank">📊 Full results CSV</a>
+      <a id="rsCsvLink" href="/results/latest/rs_leaders.json" target="_blank">RS JSON</a>
       <a id="logLink" href="/results/latest/scan.log" target="_blank">Scan log</a>
     </div>
   </div>
@@ -251,8 +328,38 @@ async function loadLatest() {
   }
 }
 
-document.getElementById("refreshBtn").addEventListener("click", () => { loadRuns(); loadLatest(); });
-loadRuns(); loadLatest();
+async function loadArchetypes() {
+  const archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"];
+  for (const arch of archetypes) {
+    const target = document.getElementById(`names-${arch}`);
+    if (!target) continue;
+    try {
+      const r = await fetch(`/results/latest/shortlist_${arch}.txt`, { cache: "no-store" });
+      if (!r.ok) { target.innerHTML = '<span class="count">(no data yet)</span>'; continue; }
+      const text = (await r.text()).trim();
+      if (!text) {
+        target.innerHTML = '<span class="count">(no matches today)</span>';
+        continue;
+      }
+      const lines = text.split("\n").filter(Boolean);
+      const card = target.closest(".archetype");
+      const pills = lines.slice(0, 8).map((line) => {
+        const [ticker, note] = line.split("|", 2);
+        const safeNote = (note || "").replace(/"/g, "&quot;");
+        return `<span class="pill" title="${safeNote}">${ticker}</span>`;
+      }).join("");
+      const more = lines.length > 8 ? ` <span class="count">+${lines.length - 8} more</span>` : "";
+      target.innerHTML = pills + more;
+    } catch {
+      target.innerHTML = '<span class="count">(error loading)</span>';
+    }
+  }
+}
+
+document.getElementById("refreshBtn").addEventListener("click", () => {
+  loadRuns(); loadLatest(); loadArchetypes();
+});
+loadRuns(); loadLatest(); loadArchetypes();
 </script>
 </body>
 </html>

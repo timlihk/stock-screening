@@ -180,14 +180,17 @@ jobs:
           passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
 
           # Evaluate ranked candidates in batches so only earnings-checked names
-          # can qualify for the final shortlist.
+          # can qualify for the final shortlist. Check a larger pool (up to 80)
+          # so we have enough post-filter survivors per archetype for separate
+          # per-archetype dashboards.
           earnings = {}
           selected_rows = []
           checked_candidates = 0
           dropped_for_earnings = 0
           batch_size = 40
+          max_checked = 80
 
-          for start in range(0, len(passers), batch_size):
+          for start in range(0, min(len(passers), max_checked), batch_size):
               chunk = passers.iloc[start:start + batch_size].copy()
               if chunk.empty:
                   break
@@ -199,49 +202,82 @@ jobs:
               checked_candidates += len(chunk)
               dropped_for_earnings += int(chunk["near_earnings"].sum())
               selected_rows.extend(chunk[~chunk["near_earnings"]].to_dict(orient="records"))
-              if len(selected_rows) >= 20:
-                  break
 
-          tradable = pd.DataFrame(selected_rows).head(20)
+          survivors = pd.DataFrame(selected_rows)
+          tradable = survivors.head(20)
 
+          def format_note(row):
+              parts = [f"{row.get('primary_setup', 'setup')} {row.setup_score:.0f}"]
+              if "entry_score" in row and pd.notna(row["entry_score"]):
+                  parts.append(f"Entry {int(row['entry_score'])}")
+              if "leadership_score" in row and pd.notna(row["leadership_score"]):
+                  parts.append(f"Lead {int(row['leadership_score'])}")
+              if "qm_score" in row and pd.notna(row["qm_score"]):
+                  parts.append(f"QM {int(row['qm_score'])}")
+              if "rs_pct_rank" in row and pd.notna(row["rs_pct_rank"]):
+                  parts.append(f"RSpct {int(row['rs_pct_rank'])}")
+              if row.get("sector_name") and str(row["sector_name"]) != "nan":
+                  parts.append(f"{row['sector_name']}")
+              if pd.notna(row.get("days_to_earnings")) and row["days_to_earnings"] < 999:
+                  parts.append(f"Earn {int(row['days_to_earnings'])}d")
+              parts.append(f"RS {row.rs_vs_spy:+.0f}")
+              return " · ".join(parts)
+
+          # Unified shortlist (top 20 across all archetypes)
           with open(f"{p}/shortlist.txt", "w") as f:
               for _, row in tradable.iterrows():
-                  t = row["ticker"]
-                  note_parts = [f"{row.get('primary_setup', 'setup')} {row.setup_score:.0f}"]
-                  if "entry_score" in row and pd.notna(row["entry_score"]):
-                      note_parts.append(f"Entry {int(row['entry_score'])}")
-                  if "leadership_score" in row and pd.notna(row["leadership_score"]):
-                      note_parts.append(f"Lead {int(row['leadership_score'])}")
-                  if "qm_score" in row and pd.notna(row["qm_score"]):
-                      note_parts.append(f"QM {int(row['qm_score'])}")
-                  if "rs_pct_rank" in row and pd.notna(row["rs_pct_rank"]):
-                      note_parts.append(f"RSpct {int(row['rs_pct_rank'])}")
-                  if row.get("sector_name"):
-                      note_parts.append(f"{row['sector_name']}")
-                  if row["days_to_earnings"] < 999:
-                      note_parts.append(f"Earn {int(row['days_to_earnings'])}d")
-                  note_parts.append(f"RS {row.rs_vs_spy:+.0f}")
-                  f.write(f"{t}|{' · '.join(note_parts)}\n")
+                  f.write(f"{row['ticker']}|{format_note(row)}\n")
+
+          # Per-archetype shortlists (top 10 each) — powers the separate dashboards
+          archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
+          for arch in archetypes:
+              subset = survivors[survivors["primary_setup"] == arch].head(10)
+              with open(f"{p}/shortlist_{arch}.txt", "w") as f:
+                  for _, row in subset.iterrows():
+                      f.write(f"{row['ticker']}|{format_note(row)}\n")
+              print(f"  {arch}: {len(subset)} names")
 
           print(f"Top 20 shortlist: {tradable.ticker.tolist()}")
           print(f"  checked {checked_candidates} candidates for earnings proximity")
           print(f"  dropped {dropped_for_earnings} candidates for earnings proximity")
           PY
 
-      - name: Generate chart page (SEPA shortlist)
+      - name: Generate chart page (unified top-20 shortlist)
         env:
           DESC_CACHE: public/cache/descriptions.json
         run: |
           mkdir -p public/cache
           rm -f /tmp/sepa-scan/charts_*.html
-          TICKERS=$(awk -F'|' '{print $1}' public/results/latest/shortlist.txt | paste -sd ',' -)
-          python3 scanner/build_chart_page.py \
-            --date "${{ steps.params.outputs.date }}" \
-            --tickers "$TICKERS" \
-            --notes-file public/results/latest/shortlist.txt \
-            --no-open
-          # exactly one file should be present; use ls -t just in case
-          cp "$(ls -t /tmp/sepa-scan/charts_*.html | head -1)" public/results/latest/charts.html
+          if [ -s public/results/latest/shortlist.txt ]; then
+            TICKERS=$(awk -F'|' '{print $1}' public/results/latest/shortlist.txt | paste -sd ',' -)
+            python3 scanner/build_chart_page.py \
+              --date "${{ steps.params.outputs.date }}" \
+              --tickers "$TICKERS" \
+              --notes-file public/results/latest/shortlist.txt \
+              --no-open
+            cp "$(ls -t /tmp/sepa-scan/charts_*.html | head -1)" public/results/latest/charts.html
+          fi
+
+      - name: Generate per-archetype chart pages
+        env:
+          DESC_CACHE: public/cache/descriptions.json
+        run: |
+          for arch in sepa_vcp power_play qm_continuation expansion_tight; do
+            SHORTLIST="public/results/latest/shortlist_${arch}.txt"
+            if [ -s "$SHORTLIST" ]; then
+              rm -f /tmp/sepa-scan/charts_*.html
+              TICKERS=$(awk -F'|' '{print $1}' "$SHORTLIST" | paste -sd ',' -)
+              python3 scanner/build_chart_page.py \
+                --date "${{ steps.params.outputs.date }}" \
+                --tickers "$TICKERS" \
+                --notes-file "$SHORTLIST" \
+                --no-open
+              cp "$(ls -t /tmp/sepa-scan/charts_*.html | head -1)" "public/results/latest/charts_${arch}.html"
+              echo "built charts_${arch}.html"
+            else
+              echo "skip ${arch}: shortlist empty"
+            fi
+          done
 
       - name: RS leaders (IBD-style, top 50 by universe RS percentile)
         env:
