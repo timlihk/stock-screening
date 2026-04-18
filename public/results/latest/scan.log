@@ -21,6 +21,10 @@
   liquidity batch 10/19: 400 tickers
   liquidity batch 11/19: 400 tickers
   liquidity batch 12/19: 400 tickers
+Failed to get ticker 'MPB' reason: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+1 Failed download:
+['MPB']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
   liquidity batch 13/19: 400 tickers
   liquidity batch 14/19: 400 tickers
   liquidity batch 15/19: 400 tickers
@@ -50,7 +54,7 @@ IWM: price=275.78  50MA=256.94  200MA=244.37  above200=True  above50=True  1y=+5
 
 ticker  price  pct_from_hi  pct_to_pivot  vcp_score  tight_range  power_play  breakout_confirm  hh_hl_pct  candle_quality  hh_hl_orderly  candle_orderly  vol_ratio  rs_vs_spy  rs_pct_rank  setup_score  ret_1m  ret_3m  adr_pct  qm_score
   TERN  52.65        -0.98         -0.98          3         True        True             False      40.00            0.42           True           False       0.51    2213.80        99.79            7   10.19   43.85     1.04         3
-   ARR  17.64        -3.88          0.46          3         True       False              True      45.00            0.56           True            True       1.57      13.45        61.11            7    7.59   -3.88     2.64         2
+   ARR  17.64        -3.88          0.46          3         True       False              True      46.67            0.56           True            True       1.57      13.45        61.11            7    7.59   -3.88     2.64         2
    AGX 597.88        -1.87         -1.87          3         True       False             False      40.00            0.46           True            True       1.33     268.54        95.07            6   27.26   56.03     5.87         4
   CAMT 179.78        -0.53         -0.53          3         True       False             False      46.67            0.46           True            True       1.40     173.59        92.01            6    7.85   23.20     5.50         3
   ACLX 115.05        -0.04         -0.04          3         True       False             False      40.00            0.32           True           False       0.43      52.93        77.78            6    0.47   66.88     0.17         3
@@ -68,7 +72,7 @@ ticker  price  pct_from_hi  pct_to_pivot  vcp_score  tight_range  power_play  br
   CASY 754.72        -0.53         -0.53          3         True       False             False      43.33            0.46           True            True       0.40      29.08        69.31            6   12.73   17.96     2.59         2
    AGI  49.35       -10.74          1.17          3         True       False             False      48.33            0.44           True            True       0.87      26.35        67.92            6   17.81   26.97     4.20         2
    SLB  52.66        -1.57         -1.57          3         True       False             False      43.33            0.51           True            True       1.04      22.27        65.56            6   16.20   13.35     3.71         2
-   LYG   5.68        -6.89          1.25          3         True       False             False      46.67            0.47           True            True       0.73      20.50        64.93            6   13.88    6.00     2.31         2
+   LYG   5.68        -6.89          1.25          3         True       False             False      46.67            0.47           True            True       0.73      20.50        64.86            6   13.88    6.00     2.31         2
   BURL 347.26         0.00          2.38          3         True       False             False      40.00            0.44           True            True       0.78      16.79        63.06            6   15.59   13.37     2.95         2
    UNF 263.13        -4.28          0.38          3         True       False             False      38.33            0.55          False            True       0.66      16.20        62.50            6   -1.71   25.59     1.95         2
   RGLD 268.12       -11.73         -1.25          3         True       False             False      40.00            0.48           True            True       0.60       8.42        57.50            6   10.75    1.31     3.55         2
@@ -133,4 +137,4 @@ ticker  price  ret_1m  ret_3m  ret_6m  adr_pct  qm_momentum  qm_ema_ride  qm_con
    KGS  63.25   13.88   69.29   90.11     3.08         True         True              True         3            3         0.00
   LASR  70.43    2.76   60.29  122.18     8.28         True         True             False         3            4        -1.84
 
-=== Done in 9.5 min · results at public/results/latest/results_universe_20260418.csv ===
+=== Done in 7.7 min · results at public/results/latest/results_universe_20260418.csv ===
