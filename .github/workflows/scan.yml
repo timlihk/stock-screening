@@ -141,16 +141,18 @@ jobs:
           DATE: ${{ steps.params.outputs.date }}
 
       - name: Generate chart page
+        env:
+          DESC_CACHE: public/cache/descriptions.json
         run: |
-          cd public/results/latest
-          TICKERS=$(awk -F'|' '{print $1}' shortlist.txt | paste -sd ',' -)
-          python3 ../../../scanner/build_chart_page.py \
+          mkdir -p public/cache
+          TICKERS=$(awk -F'|' '{print $1}' public/results/latest/shortlist.txt | paste -sd ',' -)
+          python3 scanner/build_chart_page.py \
             --date "${{ steps.params.outputs.date }}" \
             --tickers "$TICKERS" \
-            --notes-file shortlist.txt \
+            --notes-file public/results/latest/shortlist.txt \
             --no-open
-          # build_chart_page writes to /tmp/sepa-scan by default; copy it here
-          cp /tmp/sepa-scan/charts_*.html charts.html || true
+          # build_chart_page writes to /tmp/sepa-scan by default; copy it into place.
+          cp /tmp/sepa-scan/charts_*.html public/results/latest/charts.html || true
 
       - name: Write metadata JSON
         run: |
@@ -176,7 +178,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/results/latest/
+          git add public/results/latest/ public/cache/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

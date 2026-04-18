@@ -19,6 +19,13 @@ import argparse, json, os, subprocess, sys, warnings
 warnings.filterwarnings("ignore")
 import yfinance as yf
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from descriptions import get_descriptions
+    HAVE_CACHE = True
+except ImportError:
+    HAVE_CACHE = False
+
 OUT_DIR = "/tmp/sepa-scan"
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -165,6 +172,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 """
 
 def fetch_info(tickers):
+    # Prefer the persistent cache module if available (handles rate limits +
+    # inter-run reuse). Fall back to direct yfinance for local-only use.
+    if HAVE_CACHE:
+        return get_descriptions(tickers)
     info = {}
     for t in tickers:
         try:
