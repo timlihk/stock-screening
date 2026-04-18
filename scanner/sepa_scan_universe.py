@@ -21,6 +21,7 @@ Usage:
         --date 2026-04-18
 """
 import argparse, json, os, sys, time, warnings
+import os.path
 from io import StringIO
 
 warnings.filterwarnings("ignore")
@@ -288,8 +289,18 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     candle_quality, abr21_pct = candle_quality_stats(open_, high, low, close, window=21)
     candle_orderly = not np.isnan(candle_quality) and candle_quality >= 0.44  # Vlad's "ok" tier
 
+    # Jeff Sun extensions
+    # 1) ATR% extension from 50-MA — entry ceiling at ≤ 4× (anti-chase)
+    atr14 = atr(high, low, close, 14)
+    atr50ma_ext = ((price - ma50) / atr14) if (not np.isnan(atr14) and atr14 > 0 and not np.isnan(ma50)) else np.nan
+    not_extended_50ma = not np.isnan(atr50ma_ext) and atr50ma_ext <= 4.0
+    # 2) 1-week compression — price range within ±5% over last 5 sessions
+    ret_5d = (price / close.iloc[-6] - 1) * 100 if len(close) >= 6 else np.nan
+    compression_1w = not np.isnan(ret_5d) and abs(ret_5d) <= 5
+
     setup_score = vcp_score + sum([atr_compression, tight_range, power_play,
-                                    breakout_confirm, hh_hl_orderly, candle_orderly])
+                                    breakout_confirm, hh_hl_orderly, candle_orderly,
+                                    not_extended_50ma, compression_1w])
 
     out = dict(
         ticker=tkr, price=price,
@@ -303,6 +314,8 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         power_play=power_play, breakout_confirm=breakout_confirm,
         hh_hl_count=hh_hl_count, hh_hl_pct=hh_hl_pct, hh_hl_orderly=hh_hl_orderly,
         candle_quality=candle_quality, abr21_pct=abr21_pct, candle_orderly=candle_orderly,
+        atr50ma_ext=atr50ma_ext, not_extended_50ma=not_extended_50ma,
+        ret_5d=ret_5d, compression_1w=compression_1w,
         pct_to_pivot=pct_to_pivot, setup_score=setup_score,
     )
 
@@ -375,12 +388,16 @@ def parse_args():
     p.add_argument("--use-finviz-prefilter", action="store_true",
                    help="Pre-filter universe via Finviz (much faster)")
     p.add_argument("--finviz-above-sma", type=int, default=50, choices=[0, 20, 50, 200])
+    p.add_argument("--institutional-buying", action="store_true",
+                   help="Finviz: only include stocks with positive institutional transactions")
+    p.add_argument("--exclude-biotech", action="store_true",
+                   help="Post-scan: drop biotech names (uses description cache for sector/industry)")
     p.add_argument("--min-price", type=float, default=5.0)
     p.add_argument("--min-adv-usd", type=float, default=50e6,
                    help="Min 20-day avg dollar volume ($)")
     p.add_argument("--include-etf", action="store_true")
-    p.add_argument("--min-setup-score", type=int, default=4,
-                   help="Minimum composite setup score (0-10). Default 4.")
+    p.add_argument("--min-setup-score", type=int, default=5,
+                   help="Minimum composite setup score (0-12). Default 5.")
     p.add_argument("--use-qullamaggie", action="store_true", default=True)
     p.add_argument("--no-qullamaggie", dest="use_qullamaggie", action="store_false")
     p.add_argument("--max-tickers", type=int, default=0,
@@ -417,6 +434,7 @@ def main():
             min_price=args.min_price,
             min_avg_vol=200_000,
             above_sma=args.finviz_above_sma or None,
+            institutional_buying=args.institutional_buying,
         )
     else:
         universe = fetch_universe(exchanges, include_etf=args.include_etf)
@@ -464,6 +482,25 @@ def main():
     passers = df[df.all_pass].copy()
     print(f"\n=== TREND-TEMPLATE PASS RATE: {len(passers)}/{len(df)} ===")
 
+    # Jeff Sun "no biotechs" — drop Healthcare/Biotechnology names using the
+    # description cache's sector/industry fields. Unknown tickers pass through;
+    # the cache fills organically so more get filtered on each subsequent run.
+    if args.exclude_biotech:
+        cache_path = os.environ.get("DESC_CACHE", "public/cache/descriptions.json")
+        if os.path.exists(cache_path):
+            with open(cache_path) as f:
+                desc_cache = json.load(f)
+            def _is_biotech(t):
+                info = desc_cache.get(t, {})
+                sector = (info.get("sector") or "").lower()
+                industry = (info.get("industry") or "").lower()
+                return sector == "healthcare" and "biotech" in industry
+            before = len(passers)
+            passers = passers[~passers["ticker"].apply(_is_biotech)].copy()
+            print(f"  exclude-biotech: removed {before - len(passers)} names", file=sys.stderr)
+        else:
+            print(f"  exclude-biotech: description cache missing; no filter applied", file=sys.stderr)
+
     shortlist = passers[passers.setup_score >= args.min_setup_score].copy()
     if args.use_qullamaggie and "qm_score" in shortlist.columns:
         shortlist = shortlist.sort_values(
@@ -474,6 +511,7 @@ def main():
     cols = ["ticker", "price", "pct_from_hi", "pct_to_pivot", "vcp_score",
             "tight_range", "power_play", "breakout_confirm",
             "hh_hl_pct", "candle_quality", "hh_hl_orderly", "candle_orderly",
+            "atr50ma_ext", "not_extended_50ma", "ret_5d", "compression_1w",
             "vol_ratio", "rs_vs_spy", "rs_pct_rank", "setup_score"]
     if args.use_qullamaggie:
         cols += ["ret_1m", "ret_3m", "adr_pct", "qm_score"]

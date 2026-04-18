@@ -95,6 +95,7 @@ def finviz_prefilter(
     min_avg_vol: int = 200_000,
     above_sma: int | None = 50,
     performance_26w_over: float | None = None,
+    institutional_buying: bool = False,
     max_results: int = 5000,
 ) -> list[str]:
     """
@@ -145,6 +146,11 @@ def finviz_prefilter(
     elif above_sma == 200:
         tokens.append("ta_sma200_pa")
 
+    # Institutional transactions — Jeff Sun's "quiet accumulation" filter.
+    # fa_insttrans_pos = "Positive (>0)" in Finviz's Institutional Transactions bucket.
+    if institutional_buying:
+        tokens.append("fa_insttrans_pos")
+
     # Performance 26-week
     if performance_26w_over is not None:
         if performance_26w_over >= 50:
@@ -194,6 +200,7 @@ def resolve_universe(
     min_price: float = 5,
     min_avg_vol: int = 200_000,
     above_sma: int | None = 50,
+    institutional_buying: bool = False,
 ) -> list[str]:
     """Return the ticker list for scanning.
 
@@ -224,6 +231,7 @@ def resolve_universe(
                 min_price=min_price,
                 min_avg_vol=min_avg_vol,
                 above_sma=above_sma,
+                institutional_buying=institutional_buying,
             )
         except Exception as e:
             print(f"  Finviz pre-filter failed ({e}); using full base universe", file=sys.stderr)

@@ -16,9 +16,9 @@ on:
         required: true
         default: "50000000"
       min_setup_score:
-        description: "Minimum composite setup score (0-10)"
+        description: "Minimum composite setup score (0-12)"
         required: true
-        default: "4"
+        default: "5"
       use_qullamaggie:
         description: "Include Qullamaggie momentum signals"
         required: true
@@ -37,6 +37,18 @@ on:
         default: "sec_edgar"
         type: choice
         options: ["sec_edgar", "nasdaq_trader"]
+      exclude_biotech:
+        description: "Exclude biotech names (Jeff Sun rule)"
+        required: true
+        default: "false"
+        type: choice
+        options: ["true", "false"]
+      institutional_buying:
+        description: "Require positive institutional transactions (Finviz filter)"
+        required: true
+        default: "false"
+        type: choice
+        options: ["true", "false"]
   schedule:
     # 22:00 UTC weekdays = 5pm EST (winter) / 6pm EDT (summer).
     # All three screeners (SEPA shortlist, RS leaders, sector rotation) run
@@ -72,10 +84,12 @@ jobs:
           EXCHANGES="${{ github.event.inputs.exchanges || 'nasdaq,nyse' }}"
           MIN_PRICE="${{ github.event.inputs.min_price || '5' }}"
           MIN_ADV="${{ github.event.inputs.min_adv_usd || '50000000' }}"
-          MIN_SCORE="${{ github.event.inputs.min_setup_score || '4' }}"
+          MIN_SCORE="${{ github.event.inputs.min_setup_score || '5' }}"
           USE_QM="${{ github.event.inputs.use_qullamaggie || 'true' }}"
           USE_FV="${{ github.event.inputs.use_finviz_prefilter || 'true' }}"
           SRC="${{ github.event.inputs.universe_source || 'sec_edgar' }}"
+          XBIO="${{ github.event.inputs.exclude_biotech || 'false' }}"
+          INST="${{ github.event.inputs.institutional_buying || 'false' }}"
           echo "exchanges=$EXCHANGES" >> "$GITHUB_OUTPUT"
           echo "min_price=$MIN_PRICE" >> "$GITHUB_OUTPUT"
           echo "min_adv=$MIN_ADV" >> "$GITHUB_OUTPUT"
@@ -83,6 +97,8 @@ jobs:
           echo "use_qm=$USE_QM" >> "$GITHUB_OUTPUT"
           echo "use_fv=$USE_FV" >> "$GITHUB_OUTPUT"
           echo "src=$SRC" >> "$GITHUB_OUTPUT"
+          echo "xbio=$XBIO" >> "$GITHUB_OUTPUT"
+          echo "inst=$INST" >> "$GITHUB_OUTPUT"
           echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
           echo "run_id=$(date -u +%Y%m%dT%H%M%SZ)" >> "$GITHUB_OUTPUT"
 
@@ -101,10 +117,18 @@ jobs:
           if [ "${{ steps.params.outputs.use_fv }}" = "true" ]; then
             FV_FLAG="--use-finviz-prefilter"
           fi
+          XBIO_FLAG=""
+          if [ "${{ steps.params.outputs.xbio }}" = "true" ]; then
+            XBIO_FLAG="--exclude-biotech"
+          fi
+          INST_FLAG=""
+          if [ "${{ steps.params.outputs.inst }}" = "true" ]; then
+            INST_FLAG="--institutional-buying"
+          fi
           python3 scanner/sepa_scan_universe.py \
             --exchanges "${{ steps.params.outputs.exchanges }}" \
             --universe-source "${{ steps.params.outputs.src }}" \
-            $FV_FLAG \
+            $FV_FLAG $XBIO_FLAG $INST_FLAG \
             --min-price "${{ steps.params.outputs.min_price }}" \
             --min-adv-usd "${{ steps.params.outputs.min_adv }}" \
             --min-setup-score "${{ steps.params.outputs.min_score }}" \
@@ -198,7 +222,9 @@ jobs:
               "min_setup_score": "${{ steps.params.outputs.min_score }}",
               "use_qullamaggie": "${{ steps.params.outputs.use_qm }}",
               "use_finviz_prefilter": "${{ steps.params.outputs.use_fv }}",
-              "universe_source": "${{ steps.params.outputs.src }}"
+              "universe_source": "${{ steps.params.outputs.src }}",
+              "exclude_biotech": "${{ steps.params.outputs.xbio }}",
+              "institutional_buying": "${{ steps.params.outputs.inst }}"
             },
             "triggered_by": "${{ github.event_name }}",
             "actor": "${{ github.actor }}"

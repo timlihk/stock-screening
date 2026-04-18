@@ -93,9 +93,9 @@
           <div class="hint">50M = liquid mid/large cap. 10M = includes many small caps.</div>
         </div>
         <div>
-          <label>Min composite setup score (0-10)</label>
-          <input type="number" name="min_setup_score" value="4" min="0" max="10" />
-          <div class="hint">Now 10 max — added HH/HL + candle quality. 4 = solid, 6 = elite, 8+ = rare.</div>
+          <label>Min composite setup score (0-12)</label>
+          <input type="number" name="min_setup_score" value="5" min="0" max="12" />
+          <div class="hint">Now 12 max — added Jeff Sun's ATR-50MA + 1-week compression. 5 = solid, 7 = elite, 9+ = rare.</div>
         </div>
         <div>
           <label>Include Qullamaggie momentum signals</label>
@@ -117,6 +117,22 @@
             <option value="sec_edgar" selected>SEC EDGAR (authoritative)</option>
             <option value="nasdaq_trader">Nasdaq Trader (legacy)</option>
           </select>
+        </div>
+        <div>
+          <label>Exclude biotech (Jeff Sun rule)</label>
+          <select name="exclude_biotech">
+            <option value="false" selected>No — include biotechs</option>
+            <option value="true">Yes — exclude biotechs</option>
+          </select>
+          <div class="hint">Uses description cache; unknown names pass through.</div>
+        </div>
+        <div>
+          <label>Institutional buying filter</label>
+          <select name="institutional_buying">
+            <option value="false" selected>Off</option>
+            <option value="true">On — require positive inst. transactions</option>
+          </select>
+          <div class="hint">Adds Finviz <code>fa_insttrans_pos</code> token.</div>
         </div>
       </div>
       <div class="row">
@@ -169,6 +185,8 @@ function fmtInputs(fd) {
     use_qullamaggie: fd.get("use_qullamaggie"),
     use_finviz_prefilter: fd.get("use_finviz_prefilter"),
     universe_source: fd.get("universe_source"),
+    exclude_biotech: fd.get("exclude_biotech"),
+    institutional_buying: fd.get("institutional_buying"),
   };
 }
 
