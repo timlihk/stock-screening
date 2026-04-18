@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+node_modules/
+.wrangler/
+dist/
+.DS_Store
+*.log
+# local test outputs
+/tmp/
+public/results/latest/charts.html
+!public/results/latest/.gitkeep

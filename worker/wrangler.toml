@@ -1,0 +1,15 @@
+name = "stock-screening"
+main = "worker.js"
+compatibility_date = "2026-04-18"
+workers_dev = true
+
+# Vars (non-secret). Set GITHUB_TOKEN via `wrangler secret put GITHUB_TOKEN`.
+[vars]
+GITHUB_REPO = "timlihk/stock-screening"
+WORKFLOW_FILE = "scan.yml"
+
+# Bind the built landing page + results as static assets so the same Worker
+# serves both the UI and the /api/* endpoints.
+[assets]
+directory = "../public"
+binding = "ASSETS"

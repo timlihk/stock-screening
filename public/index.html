@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SEPA + Qullamaggie Screen</title>
+<style>
+  :root { color-scheme: dark; --accent:#7ab3ff; --bg:#0f1115; --card:#161a22; --border:#262b36; --muted:#9aa0a6; --text:#e6e6e6; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 20px;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.5;
+  }
+  .container { max-width: 920px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin: 0 0 24px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 20px 22px; margin-bottom: 20px;
+  }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px;
+       color: var(--muted); margin: 0 0 16px; font-weight: 600; }
+  .grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px;
+  }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+  label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  input[type=text], input[type=number], select {
+    width: 100%; background: #1b2029; border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text); padding: 8px 10px;
+    font-size: 13px; font-family: inherit;
+  }
+  input:focus, select:focus { outline: none; border-color: var(--accent); }
+  .checks { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 2px; }
+  .checks label { display: inline-flex; align-items: center; gap: 6px;
+                  font-size: 13px; color: var(--text); cursor: pointer; }
+  button {
+    background: var(--accent); color: #0a0f18; border: none;
+    padding: 10px 22px; font-size: 14px; font-weight: 600;
+    border-radius: 6px; cursor: pointer; font-family: inherit;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button.secondary { background: #1b2029; color: var(--text); border: 1px solid var(--border); }
+  .row { display: flex; gap: 10px; align-items: center; margin-top: 12px; }
+  .status { margin-top: 14px; padding: 10px 12px; border-radius: 6px;
+            font-size: 13px; background: #1b2029; border: 1px solid var(--border);
+            display: none; }
+  .status.show { display: block; }
+  .status.ok { border-color: #2e5b3f; }
+  .status.err { border-color: #5b2e2e; color: #f5c0c0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: 11px;
+       text-transform: uppercase; letter-spacing: 0.5px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 10px;
+          font-size: 11px; background: #1b2029; border: 1px solid var(--border); }
+  .pill.success { border-color: #2e5b3f; color: #9ed9a8; }
+  .pill.fail { border-color: #5b2e2e; color: #f5c0c0; }
+  .pill.running { border-color: #5b5b2e; color: #ddd89e; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>SEPA + Qullamaggie Screen</h1>
+  <p class="sub">Scan Nasdaq + NYSE for Minervini trend-template passers with VCP structure and Qullamaggie momentum. Runs on GitHub Actions; results land in <code>public/results/latest/</code>.</p>
+
+  <div class="card">
+    <h2>Scan thresholds</h2>
+    <form id="scanForm">
+      <div class="grid">
+        <div>
+          <label>Exchanges</label>
+          <div class="checks">
+            <label><input type="checkbox" name="ex_nasdaq" checked /> Nasdaq</label>
+            <label><input type="checkbox" name="ex_nyse" checked /> NYSE</label>
+            <label><input type="checkbox" name="ex_amex" /> AMEX</label>
+            <label><input type="checkbox" name="ex_arca" /> ARCA</label>
+            <label><input type="checkbox" name="ex_bats" /> BATS</label>
+          </div>
+        </div>
+        <div>
+          <label>Min share price (USD)</label>
+          <input type="number" name="min_price" value="5" step="0.5" min="0" />
+        </div>
+        <div>
+          <label>Min 20-day avg dollar volume (USD)</label>
+          <input type="number" name="min_adv_usd" value="50000000" step="10000000" min="0" />
+          <div class="hint">50M = liquid mid/large cap. 10M = includes many small caps.</div>
+        </div>
+        <div>
+          <label>Min composite setup score (0-8)</label>
+          <input type="number" name="min_setup_score" value="3" min="0" max="8" />
+          <div class="hint">3 = solid. 4 = elite. 5+ = rare.</div>
+        </div>
+        <div>
+          <label>Include Qullamaggie momentum signals</label>
+          <select name="use_qullamaggie">
+            <option value="true" selected>Yes</option>
+            <option value="false">No</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit">Queue scan</button>
+        <button type="button" class="secondary" id="refreshBtn">Refresh runs</button>
+      </div>
+      <div class="status" id="status"></div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Recent runs</h2>
+    <table id="runsTable">
+      <thead>
+        <tr><th>Status</th><th>Event</th><th>Actor</th><th>Started</th><th>Link</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Latest results</h2>
+    <p class="sub" id="latestInfo">Loading…</p>
+    <div class="row" style="gap:14px; flex-wrap:wrap;">
+      <a id="chartsLink" href="/results/latest/charts.html" target="_blank">Open chart dashboard</a>
+      <a id="csvLink" href="#" target="_blank">Download results CSV</a>
+      <a id="logLink" href="/results/latest/scan.log" target="_blank">View scan log</a>
+    </div>
+  </div>
+</div>
+
+<script>
+const form = document.getElementById("scanForm");
+const statusEl = document.getElementById("status");
+const runsBody = document.querySelector("#runsTable tbody");
+const latestInfo = document.getElementById("latestInfo");
+const csvLink = document.getElementById("csvLink");
+
+function fmtInputs(fd) {
+  const exchanges = ["nasdaq", "nyse", "amex", "arca", "bats"]
+    .filter((x) => fd.get(`ex_${x}`)).join(",");
+  return {
+    exchanges,
+    min_price: fd.get("min_price"),
+    min_adv_usd: fd.get("min_adv_usd"),
+    min_setup_score: fd.get("min_setup_score"),
+    use_qullamaggie: fd.get("use_qullamaggie"),
+  };
+}
+
+function showStatus(msg, kind) {
+  statusEl.className = `status show ${kind || ""}`;
+  statusEl.innerHTML = msg;
+}
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const inputs = fmtInputs(new FormData(form));
+  if (!inputs.exchanges) { showStatus("Pick at least one exchange.", "err"); return; }
+  showStatus("Queuing…");
+  try {
+    const r = await fetch("/api/scan", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(inputs),
+    });
+    const data = await r.json();
+    if (!r.ok) { showStatus(`Error: ${data.error || r.status}`, "err"); return; }
+    showStatus(`${data.message} <a href="${data.runs_url}" target="_blank">View runs on GitHub</a>`, "ok");
+    setTimeout(loadRuns, 1500);
+  } catch (err) {
+    showStatus(`Error: ${err.message}`, "err");
+  }
+});
+
+async function loadRuns() {
+  try {
+    const r = await fetch("/api/runs");
+    const data = await r.json();
+    if (!r.ok) { runsBody.innerHTML = `<tr><td colspan="5">Error: ${data.error}</td></tr>`; return; }
+    runsBody.innerHTML = data.runs.map((run) => {
+      const pillClass = run.conclusion === "success" ? "success"
+        : run.conclusion === "failure" ? "fail"
+        : run.status === "in_progress" || run.status === "queued" ? "running" : "";
+      const pillText = run.conclusion || run.status;
+      return `<tr>
+        <td><span class="pill ${pillClass}">${pillText}</span></td>
+        <td>${run.event}</td>
+        <td>${run.actor || ""}</td>
+        <td>${new Date(run.created_at).toLocaleString()}</td>
+        <td><a href="${run.html_url}" target="_blank">log</a></td>
+      </tr>`;
+    }).join("") || `<tr><td colspan="5">No runs yet.</td></tr>`;
+  } catch (err) {
+    runsBody.innerHTML = `<tr><td colspan="5">Error: ${err.message}</td></tr>`;
+  }
+}
+
+async function loadLatest() {
+  try {
+    const r = await fetch("/results/latest/meta.json", { cache: "no-store" });
+    if (!r.ok) { latestInfo.textContent = "No scan results yet."; return; }
+    const meta = await r.json();
+    const i = meta.inputs || {};
+    latestInfo.innerHTML = `Scan from <b>${meta.date}</b> · exchanges=<code>${i.exchanges}</code> · min price=$${i.min_price} · ADV ≥ $${Number(i.min_adv_usd).toLocaleString()} · score ≥ ${i.min_setup_score} · QM=${i.use_qullamaggie}`;
+    csvLink.href = `/results/latest/results_universe_${meta.date.replace(/-/g, "")}.csv`;
+  } catch {
+    latestInfo.textContent = "No scan results yet.";
+  }
+}
+
+document.getElementById("refreshBtn").addEventListener("click", () => { loadRuns(); loadLatest(); });
+loadRuns(); loadLatest();
+</script>
+</body>
+</html>

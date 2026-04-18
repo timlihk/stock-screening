@@ -1,0 +1,157 @@
+name: SEPA scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      exchanges:
+        description: "Comma-separated exchanges (nasdaq,nyse,amex,arca,bats)"
+        required: true
+        default: "nasdaq,nyse"
+      min_price:
+        description: "Minimum share price (USD)"
+        required: true
+        default: "5"
+      min_adv_usd:
+        description: "Minimum 20-day avg dollar volume (USD)"
+        required: true
+        default: "50000000"
+      min_setup_score:
+        description: "Minimum composite setup score (0-8)"
+        required: true
+        default: "3"
+      use_qullamaggie:
+        description: "Include Qullamaggie momentum signals"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+  schedule:
+    # 21:15 UTC weekdays = ~17:15 ET, ~30 min after US close
+    - cron: "15 21 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sepa-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scanner/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scanner/requirements.txt
+
+      - name: Resolve parameters
+        id: params
+        run: |
+          EXCHANGES="${{ github.event.inputs.exchanges || 'nasdaq,nyse' }}"
+          MIN_PRICE="${{ github.event.inputs.min_price || '5' }}"
+          MIN_ADV="${{ github.event.inputs.min_adv_usd || '50000000' }}"
+          MIN_SCORE="${{ github.event.inputs.min_setup_score || '3' }}"
+          USE_QM="${{ github.event.inputs.use_qullamaggie || 'true' }}"
+          echo "exchanges=$EXCHANGES" >> "$GITHUB_OUTPUT"
+          echo "min_price=$MIN_PRICE" >> "$GITHUB_OUTPUT"
+          echo "min_adv=$MIN_ADV" >> "$GITHUB_OUTPUT"
+          echo "min_score=$MIN_SCORE" >> "$GITHUB_OUTPUT"
+          echo "use_qm=$USE_QM" >> "$GITHUB_OUTPUT"
+          echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+          echo "run_id=$(date -u +%Y%m%dT%H%M%SZ)" >> "$GITHUB_OUTPUT"
+
+      - name: Run SEPA universe scan
+        id: scan
+        run: |
+          mkdir -p public/results/latest
+          QM_FLAG="--use-qullamaggie"
+          if [ "${{ steps.params.outputs.use_qm }}" = "false" ]; then
+            QM_FLAG="--no-qullamaggie"
+          fi
+          python3 scanner/sepa_scan_universe.py \
+            --exchanges "${{ steps.params.outputs.exchanges }}" \
+            --min-price "${{ steps.params.outputs.min_price }}" \
+            --min-adv-usd "${{ steps.params.outputs.min_adv }}" \
+            --min-setup-score "${{ steps.params.outputs.min_score }}" \
+            $QM_FLAG \
+            --output-dir public/results/latest \
+            --date "${{ steps.params.outputs.date }}" \
+            2>&1 | tee public/results/latest/scan.log
+
+      - name: Build chart page from top shortlist
+        run: |
+          python3 - <<'PY'
+          import os, pandas as pd
+          p = "public/results/latest"
+          date = os.environ["DATE"].replace("-", "")
+          csv = f"{p}/results_universe_{date}.csv"
+          df = pd.read_csv(csv)
+          passers = df[df.all_pass == True].copy()
+          if "qm_score" in passers.columns:
+              passers = passers.sort_values(["setup_score", "qm_score", "rs_vs_spy"],
+                                             ascending=[False, False, False])
+          else:
+              passers = passers.sort_values(["setup_score", "rs_vs_spy"], ascending=[False, False])
+          top = passers.head(20).ticker.tolist()
+          with open(f"{p}/shortlist.txt", "w") as f:
+              for t in top:
+                  row = passers[passers.ticker == t].iloc[0]
+                  note = f"Setup {int(row.setup_score)}"
+                  if "qm_score" in row and pd.notna(row["qm_score"]):
+                      note += f" · QM {int(row['qm_score'])}"
+                  note += f" · RS {row.rs_vs_spy:+.0f}"
+                  f.write(f"{t}|{note}\n")
+          print(f"Top shortlist: {top}")
+          PY
+        env:
+          DATE: ${{ steps.params.outputs.date }}
+
+      - name: Generate chart page
+        run: |
+          cd public/results/latest
+          TICKERS=$(awk -F'|' '{print $1}' shortlist.txt | paste -sd ',' -)
+          python3 ../../../scanner/build_chart_page.py \
+            --date "${{ steps.params.outputs.date }}" \
+            --tickers "$TICKERS" \
+            --notes-file shortlist.txt \
+            --no-open
+          # build_chart_page writes to /tmp/sepa-scan by default; copy it here
+          cp /tmp/sepa-scan/charts_*.html charts.html || true
+
+      - name: Write metadata JSON
+        run: |
+          cat > public/results/latest/meta.json <<EOF
+          {
+            "run_id": "${{ steps.params.outputs.run_id }}",
+            "date": "${{ steps.params.outputs.date }}",
+            "inputs": {
+              "exchanges": "${{ steps.params.outputs.exchanges }}",
+              "min_price": "${{ steps.params.outputs.min_price }}",
+              "min_adv_usd": "${{ steps.params.outputs.min_adv }}",
+              "min_setup_score": "${{ steps.params.outputs.min_score }}",
+              "use_qullamaggie": "${{ steps.params.outputs.use_qm }}"
+            },
+            "triggered_by": "${{ github.event_name }}",
+            "actor": "${{ github.actor }}"
+          }
+          EOF
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/results/latest/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "scan: ${{ steps.params.outputs.date }} · ${{ steps.params.outputs.exchanges }} · \$${{ steps.params.outputs.min_adv }}"
+            git push
+          fi
