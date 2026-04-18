@@ -20,7 +20,8 @@ import pandas as pd
 import requests
 
 CACHE_DIR = os.environ.get("SCREEN_CACHE_DIR", "/tmp/sepa-scan/cache")
-SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "stock-screening contact@example.com")
+# SEC requires a real contact email in the UA per their fair-use policy.
+SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "stock-screening tim@timli.net")
 SEC_URL = "https://www.sec.gov/files/company_tickers_exchange.json"
 
 # SEC EDGAR uses these exchange strings:
@@ -47,8 +48,14 @@ def fetch_sec_edgar_universe(
         with open(cache_path) as f:
             payload = json.load(f)
     else:
-        print(f"  fetching SEC EDGAR universe...", file=sys.stderr)
-        r = requests.get(SEC_URL, headers={"User-Agent": SEC_USER_AGENT, "Accept": "application/json"}, timeout=30)
+        print(f"  fetching SEC EDGAR universe (UA: {SEC_USER_AGENT})...", file=sys.stderr)
+        headers = {
+            "User-Agent": SEC_USER_AGENT,
+            "Accept": "application/json",
+            "Accept-Encoding": "gzip, deflate",
+            "Host": "www.sec.gov",
+        }
+        r = requests.get(SEC_URL, headers=headers, timeout=30)
         r.raise_for_status()
         payload = r.json()
         with open(cache_path, "w") as f:
@@ -196,9 +203,14 @@ def resolve_universe(
         to cut the universe before expensive OHLCV pulls.
     """
     if source == "sec_edgar":
-        base = fetch_sec_edgar_universe(exchanges=exchanges)
+        try:
+            base = fetch_sec_edgar_universe(exchanges=exchanges)
+        except Exception as e:
+            print(f"  SEC EDGAR failed ({e}); falling back to Nasdaq Trader", file=sys.stderr)
+            from sepa_scan_universe import fetch_universe as legacy_fetch
+            base = legacy_fetch(exchanges)
+            source = "nasdaq_trader (fallback)"
     elif source == "nasdaq_trader":
-        # Kept as a lazy import so removing it wouldn't break SEC-only users.
         from sepa_scan_universe import fetch_universe as legacy_fetch
         base = legacy_fetch(exchanges)
     else:

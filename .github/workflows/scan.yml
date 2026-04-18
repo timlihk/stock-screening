@@ -87,8 +87,9 @@ jobs:
       - name: Run SEPA universe scan
         id: scan
         env:
-          SEC_USER_AGENT: "stock-screening github-actions@timlihk"
+          SEC_USER_AGENT: "stock-screening tim@timli.net"
         run: |
+          set -o pipefail
           mkdir -p public/results/latest
           QM_FLAG="--use-qullamaggie"
           if [ "${{ steps.params.outputs.use_qm }}" = "false" ]; then
