@@ -1,20 +1,20 @@
-ARR|Setup 9.3 · QM 2 · RSpct 61 · Real Estate · Earn 11d · RS +13
-STNG|Setup 9.0 · QM 2 · RSpct 84 · Energy · Earn 11d · RS +89
-AU|Setup 8.6 · QM 2 · RSpct 87 · Materials · Earn 19d · RS +114
-MT|Setup 8.6 · QM 2 · RSpct 85 · Materials · Earn 11d · RS +98
-KGC|Setup 8.6 · QM 2 · RSpct 85 · Materials · Earn 11d · RS +97
-PAAS|Setup 8.6 · QM 2 · RSpct 82 · Materials · Earn 17d · RS +76
-AGI|Setup 8.6 · QM 2 · RSpct 67 · Materials · Earn 11d · RS +26
-CAMT|Setup 8.4 · QM 3 · RSpct 92 · Technology · Earn 30d · RS +174
-AGX|Setup 8.1 · QM 4 · RSpct 95 · Industrials · Earn 46d · RS +269
-BURL|Setup 8.0 · QM 2 · RSpct 63 · nan · Earn 39d · RS +17
-UNF|Setup 8.0 · QM 2 · RSpct 62 · nan · Earn 73d · RS +16
-RGLD|Setup 8.0 · QM 2 · RSpct 57 · nan · Earn 18d · RS +8
-GLNG|Setup 8.0 · QM 1 · RSpct 55 · nan · Earn 31d · RS +6
-HYMC|Setup 7.6 · QM 2 · RSpct 99 · Materials · Earn 25d · RS +1144
-ROST|Setup 7.5 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 33d · RS +29
-CASY|Setup 7.5 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
-TERN|Setup 7.2 · QM 3 · RSpct 99 · Health Care · Earn 19d · RS +2214
-BTSG|Setup 7.2 · QM 2 · RSpct 89 · Health Care · Earn 12d · RS +145
-CELC|Setup 7.0 · QM 3 · RSpct 99 · nan · Earn 25d · RS +1089
-ATI|Setup 7.0 · QM 3 · RSpct 93 · nan · Earn 11d · RS +224
+APG|expansion_tight 7 · Entry 5 · Lead 6 · QM 2 · RSpct 80 · nan · RS +67
+SGML|expansion_tight 7 · Entry 4 · Lead 6 · QM 3 · RSpct 87 · nan · RS +118
+SQM|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 88 · nan · RS +120
+DBD|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · nan · RS +74
+ESE|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · nan · RS +72
+ON|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 86 · nan · RS +106
+JBHT|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 79 · nan · RS +62
+CLS|expansion_tight 7 · Entry 4 · Lead 5 · QM 2 · RSpct 96 · nan · RS +355
+SAIA|expansion_tight 6 · Entry 5 · Lead 4 · QM 1 · RSpct 50 · nan · RS -0
+HSBC|expansion_tight 6 · Entry 4 · Lead 6 · QM 2 · RSpct 76 · nan · RS +50
+VIK|expansion_tight 6 · Entry 4 · Lead 6 · QM 1 · RSpct 82 · nan · RS +77
+FLS|expansion_tight 6 · Entry 4 · Lead 5 · QM 1 · RSpct 80 · nan · RS +65
+NUVL|expansion_tight 6 · Entry 4 · Lead 4 · QM 2 · RSpct 63 · nan · RS +17
+TEL|qm_continuation 6 · Entry 5 · Lead 4 · QM 2 · RSpct 79 · nan · RS +59
+WCC|qm_continuation 6 · Entry 4 · Lead 6 · QM 3 · RSpct 83 · nan · RS +81
+EVR|qm_continuation 6 · Entry 4 · Lead 4 · QM 2 · RSpct 80 · nan · RS +69
+AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · nan · RS +22
+FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · nan · RS +147
+MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · nan · RS +148
+WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · nan · RS +34
