@@ -140,7 +140,7 @@ jobs:
         env:
           DATE: ${{ steps.params.outputs.date }}
 
-      - name: Generate chart page
+      - name: Generate chart page (SEPA shortlist)
         env:
           DESC_CACHE: public/cache/descriptions.json
         run: |
@@ -151,8 +151,33 @@ jobs:
             --tickers "$TICKERS" \
             --notes-file public/results/latest/shortlist.txt \
             --no-open
-          # build_chart_page writes to /tmp/sepa-scan by default; copy it into place.
           cp /tmp/sepa-scan/charts_*.html public/results/latest/charts.html || true
+
+      - name: RS leaders (IBD-style, top 50 by universe RS percentile)
+        env:
+          DESC_CACHE: public/cache/descriptions.json
+        run: |
+          DATE_TAG=$(echo "${{ steps.params.outputs.date }}" | tr -d '-')
+          python3 scanner/rs_leaders.py \
+            --results-csv "public/results/latest/results_universe_${DATE_TAG}.csv" \
+            --output-dir public/results/latest \
+            --top-n 50
+          # Chart page for the top 12 of the RS leader list
+          if [ -s public/results/latest/rs_leaders.txt ]; then
+            TICKERS=$(awk -F'|' '{print $1}' public/results/latest/rs_leaders.txt | head -12 | paste -sd ',' -)
+            python3 scanner/build_chart_page.py \
+              --date "${{ steps.params.outputs.date }} — RS Leaders" \
+              --tickers "$TICKERS" \
+              --notes-file public/results/latest/rs_leaders.txt \
+              --no-open
+            cp /tmp/sepa-scan/charts_*.html public/results/latest/rs_leaders_charts.html || true
+          fi
+
+      - name: Sector rotation dashboard
+        run: |
+          python3 scanner/sector_scan.py \
+            --output-dir public/results/latest \
+            --date "${{ steps.params.outputs.date }}"
 
       - name: Write metadata JSON
         run: |
