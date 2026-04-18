@@ -208,7 +208,17 @@ jobs:
           git add public/results/latest/ public/cache/
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "scan: ${{ steps.params.outputs.date }} · ${{ steps.params.outputs.exchanges }} · \$${{ steps.params.outputs.min_adv }}"
-            git push
+            exit 0
           fi
+          git commit -m "scan: ${{ steps.params.outputs.date }} · ${{ steps.params.outputs.exchanges }} · \$${{ steps.params.outputs.min_adv }}"
+          # Retry up to 3 times to reconcile with any concurrent pushes.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "push succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "push failed on attempt $attempt; rebasing and retrying"
+            git pull --rebase origin main
+          done
+          echo "push failed after 3 attempts"
+          exit 1
