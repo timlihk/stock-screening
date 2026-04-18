@@ -1,20 +1,20 @@
-ARR|Setup 9 · QM 2 · RSpct 61 · RS +13
-AGX|Setup 8 · QM 4 · RSpct 95 · RS +269
-TERN|Setup 8 · QM 3 · RSpct 99 · RS +2214
-CAMT|Setup 8 · QM 3 · RSpct 92 · RS +174
-BTSG|Setup 8 · QM 2 · RSpct 89 · RS +145
-AU|Setup 8 · QM 2 · RSpct 87 · RS +114
-MT|Setup 8 · QM 2 · RSpct 85 · RS +98
-KGC|Setup 8 · QM 2 · RSpct 85 · RS +97
-STNG|Setup 8 · QM 2 · RSpct 84 · RS +89
-PAAS|Setup 8 · QM 2 · RSpct 82 · RS +76
-NEM|Setup 8 · QM 2 · RSpct 81 · RS +74
-MOG-A|Setup 8 · QM 2 · RSpct 79 · RS +62
-ROST|Setup 8 · QM 2 · RSpct 69 · RS +29
-CASY|Setup 8 · QM 2 · RSpct 69 · RS +29
-AGI|Setup 8 · QM 2 · RSpct 67 · RS +26
-SLB|Setup 8 · QM 2 · RSpct 65 · RS +22
-LYG|Setup 8 · QM 2 · RSpct 64 · RS +21
-BURL|Setup 8 · QM 2 · RSpct 63 · RS +17
-UNF|Setup 8 · QM 2 · RSpct 62 · RS +16
-RGLD|Setup 8 · QM 2 · RSpct 57 · RS +8
+ARR|Setup 9.3 · QM 2 · RSpct 61 · Real Estate · Earn 11d · RS +13
+STNG|Setup 9.0 · QM 2 · RSpct 84 · Energy · Earn 11d · RS +89
+AU|Setup 8.6 · QM 2 · RSpct 87 · Materials · Earn 19d · RS +114
+MT|Setup 8.6 · QM 2 · RSpct 85 · Materials · Earn 11d · RS +98
+KGC|Setup 8.6 · QM 2 · RSpct 85 · Materials · Earn 11d · RS +97
+PAAS|Setup 8.6 · QM 2 · RSpct 82 · Materials · Earn 17d · RS +76
+AGI|Setup 8.6 · QM 2 · RSpct 67 · Materials · Earn 11d · RS +26
+CAMT|Setup 8.4 · QM 3 · RSpct 92 · Technology · Earn 30d · RS +174
+AGX|Setup 8.1 · QM 4 · RSpct 95 · Industrials · Earn 46d · RS +269
+BURL|Setup 8.0 · QM 2 · RSpct 63 · nan · Earn 39d · RS +17
+UNF|Setup 8.0 · QM 2 · RSpct 62 · nan · Earn 73d · RS +16
+RGLD|Setup 8.0 · QM 2 · RSpct 57 · nan · Earn 18d · RS +8
+GLNG|Setup 8.0 · QM 1 · RSpct 55 · nan · Earn 31d · RS +6
+HYMC|Setup 7.6 · QM 2 · RSpct 99 · Materials · Earn 25d · RS +1144
+ROST|Setup 7.5 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 33d · RS +29
+CASY|Setup 7.5 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
+TERN|Setup 7.2 · QM 3 · RSpct 99 · Health Care · Earn 19d · RS +2214
+BTSG|Setup 7.2 · QM 2 · RSpct 89 · Health Care · Earn 12d · RS +145
+CELC|Setup 7.0 · QM 3 · RSpct 99 · nan · Earn 25d · RS +1089
+ATI|Setup 7.0 · QM 3 · RSpct 93 · nan · Earn 11d · RS +224
