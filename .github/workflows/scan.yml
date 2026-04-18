@@ -38,8 +38,10 @@ on:
         type: choice
         options: ["sec_edgar", "nasdaq_trader"]
   schedule:
-    # 21:15 UTC weekdays = ~17:15 ET, ~30 min after US close
-    - cron: "15 21 * * 1-5"
+    # 22:00 UTC weekdays = 5pm EST (winter) / 6pm EDT (summer).
+    # All three screeners (SEPA shortlist, RS leaders, sector rotation) run
+    # in the same job, so the daily run produces everything at once.
+    - cron: "0 22 * * 1-5"
 
 permissions:
   contents: write
