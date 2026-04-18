@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>SEPA Finalists — 2026-04-18</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 20px;
+    background: #0f1115; color: #e6e6e6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.45;
+  }
+  h1 { font-size: 18px; margin: 0 0 4px; letter-spacing: .3px; }
+  .sub { font-size: 12px; color: #9aa0a6; margin: 0 0 20px; }
+  .row {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .card {
+    background: #161a22; border: 1px solid #262b36;
+    border-radius: 8px; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .card header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 9px 14px; background: #1b2029; border-bottom: 1px solid #262b36;
+    font-size: 13px;
+  }
+  .tag { color: #9aa0a6; font-size: 11px; }
+  .chart { height: 520px; width: 100%; }
+  .desc { padding: 14px 16px; font-size: 13px; overflow-y: auto; }
+  .desc .meta { font-size: 12px; color: #9aa0a6; margin-bottom: 10px; }
+  .desc .stats {
+    display: flex; flex-wrap: wrap; gap: 6px 10px; margin-bottom: 12px;
+  }
+  .desc .stats span {
+    background: #1b2029; padding: 3px 8px; border-radius: 4px;
+    font-size: 11px; color: #c6cbd3; border: 1px solid #262b36;
+  }
+  .desc .summary { color: #cfd4dc; font-size: 12.5px; white-space: pre-wrap; }
+  .desc a { color: #7ab3ff; text-decoration: none; font-size: 11px; }
+  .desc a:hover { text-decoration: underline; }
+  @media (max-width: 1100px) {
+    .row { grid-template-columns: 1fr; }
+    .chart { height: 420px; }
+  }
+</style>
+</head>
+<body>
+<h1>SEPA Finalists — 2026-04-18</h1>
+<p class="sub">1-year daily view · SMA 10 / 20 / 50 / 200 · ranked by buy-zone proximity + VCP quality</p>
+
+<div id="container"></div>
+
+<script>
+  const finalists = [{"t": "APG", "note": "expansion_tight 7 \u00b7 Entry 5 \u00b7 Lead 6 \u00b7 QM 2 \u00b7 RSpct 80 \u00b7 RS +67"}, {"t": "SGML", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 3 \u00b7 RSpct 87 \u00b7 RS +118"}, {"t": "SQM", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 2 \u00b7 RSpct 88 \u00b7 RS +120"}, {"t": "DBD", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 2 \u00b7 RSpct 81 \u00b7 RS +74"}, {"t": "ESE", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 2 \u00b7 RSpct 81 \u00b7 RS +72"}, {"t": "ON", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 1 \u00b7 RSpct 86 \u00b7 RS +106"}, {"t": "JBHT", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 1 \u00b7 RSpct 79 \u00b7 RS +62"}, {"t": "CLS", "note": "expansion_tight 7 \u00b7 Entry 4 \u00b7 Lead 5 \u00b7 QM 2 \u00b7 RSpct 96 \u00b7 RS +355"}, {"t": "SAIA", "note": "expansion_tight 6 \u00b7 Entry 5 \u00b7 Lead 4 \u00b7 QM 1 \u00b7 RSpct 50 \u00b7 RS -0"}, {"t": "HSBC", "note": "expansion_tight 6 \u00b7 Entry 4 \u00b7 Lead 6 \u00b7 QM 2 \u00b7 RSpct 76 \u00b7 RS +50"}];
+  const info = {"APG": {"country": "United States", "employees": 29000, "industry": "Engineering & Construction", "marketCap": 20170571776, "name": "APi Group Corporation", "sector": "Industrials", "summary": "APi Group Corporation provides fire and life safety, security, elevator and escalator, and specialty services worldwide. It operates in two segments, Safety Services and Specialty Services. The company offers fire protection solutions; electronic security systems; and elevators and escalators, including the design, installation, inspection, service, and monitoring of life safety systems to high tech services, advanced manufacturing, healthcare, fulfillment and distribution centers, and critical infrastructure end markets. It also provides various specialty contracting, fabrication and distribution, and infrastructure and utility services to critical infrastructure, high tech services, and healthcare end markets. The company was formerly known as J2 Acquisition Limited and changed its name to APi Group Corporation in October 2019. APi Group Corporation was founded in 1926 and is headquartered in New Brighton, Minnesota.", "website": "https://www.apigroupcorp.com"}, "SGML": {"country": "Canada", "employees": 560, "industry": "Other Industrial Metals & Mining", "marketCap": 2196866560, "name": "Sigma Lithium Corporation", "sector": "Basic Materials", "summary": "Sigma Lithium Corporation engages in the exploration and development of lithium deposits in Brazil. It serves lithium-ion battery supply chain for electric vehicle industries. The company was formerly known as Sigma Lithium Resources Corporation and changed its name to Sigma Lithium Corporation in July 2021. Sigma Lithium Corporation is based in Toronto, Canada.", "website": "https://www.sigmalithiumresources.com"}, "SQM": {"country": "Chile", "employees": 7739, "industry": "Specialty Chemicals", "marketCap": 25364639744, "name": "Sociedad Qu\u00edmica y Minera de Chile S.A.", "sector": "Basic Materials", "summary": "Sociedad Qu\u00edmica y Minera de Chile S.A. produces and sells specialty plant nutrients, and iodine and its derivatives worldwide. The company offers sodium potassium nitrate, specialty blends, and other specialty fertilizers under Ultrasol, Qrop, Speedfol, Allganic, Ultrasoline, Prop, and Prohydric brands. It also provides iodine and its derivatives for use in medical, agricultural, industrial, and human and animal nutrition products comprising x-ray contrast media, biocides, antiseptics and disinfectants, pharmaceutical intermediates, polarizing films for LCD and LED screens, chemicals, organic compounds, and pigments, as well as added to edible salt to prevent iodine deficiency disorders. In addition, the company produces lithium carbonate and lithium hydroxide which are used in the production of cathode material for, secondary batteries; lithium chloride; and basic lithium chemicals and lithium derivatives used in lubricating greases for heat-resistant glass, chips for the ceramic and glazing industry, and air conditioning chemicals, as well as other pharmaceutical syntheses and metal alloys. Further, it produces potassium sulfate; and potassium chloride which are used to nourish various crops. Additionally, the company produces and markets industrial chemicals, such as sodium nitrate mainly used in the production of glass and explosives, metal processing and recycling, and production of insulating materials and adhesives; potassium nitrate used as a raw material to produce frits and special glass, as well as in the enamel, metal treatment, and pyrotechnic sectors; solar salts used as a thermal storage medium in solar power generation plants; and potassium chloride as an additive in oil drilling and food processing sectors. Furthermore, it is involved in the sale of third-party fertilizers; and the exploration of copper, gold, and silver deposits. The company was founded in 1926 and is headquartered in Santiago, Chile.", "website": "https://www.sqm.com"}, "DBD": {"country": "United States", "employees": 20000, "industry": "Software - Application", "marketCap": 3122310656, "name": "Diebold Nixdorf, Incorporated", "sector": "Technology", "summary": "Diebold Nixdorf, Incorporated engages in the automating, digitizing, and transforming the way people bank and shop worldwide. It operates through two segments, Banking and Retail. The company offers automated teller machines, cash recyclers, dispensers, teller automation tools, and kiosk technologies. The Banking segment manufactures and sells branch automation solutions, including DN Series recyclers, ATMs, cash recycling technology, and the DN Teller Cash Recycler and Dual Tower Recycler, as well as provides multi-vendor service capabilities and DN Vynamic software for enhanced connectivity and analytics. It offers professional services such as systems integration, customization, project management, and consulting for integrated solutions. The Retail segment offers modular and integrated electronic point-of-sale (EPOS) systems, self-checkout solutions like DN Series EASY ONE and EASY MAX Kiosk, BEETLE POS systems, and a broad range of peripherals, including printers, scales, and mobile scanners. It also provides the DN Vynamic Retail Platform, which includes industry-specific solutions for fuel, convenience, specialty, fashion, and grocery; and platforms for digital receipts, rewards, data analysis, and compliance, as well as offers maintenance, support, global integration, remote device monitoring, and advisory services utilizing AI for predictive diagnostics and operational efficiencies. In addition, the company provides integrated core operations supporting security and efficient cash management, with offerings including installation, maintenance, managed services, automation, and data intelligence via the Allconnect data engine. The company was formerly known as Diebold, Incorporated and changed its name to Diebold Nixdorf, Incorporated in December 2016. Diebold Nixdorf, Incorporated was founded in 1859 and is headquartered in North Canton, Ohio.", "website": "https://www.dieboldnixdorf.com"}, "ESE": {"country": "United States", "employees": 3359, "industry": "Scientific & Technical Instruments", "marketCap": 8155093504, "name": "ESCO Technologies Inc.", "sector": "Technology", "summary": "ESCO Technologies Inc. provides engineered components and systems for aviation, navy, defense, and industrial customers. The Aerospace & Defense segment designs and manufactures specialty filtration products, including hydraulic filter elements and fluid control devices used in commercial and defense aerospace applications; miniature electro-explosive devices for military aircraft ejection seats and missile arming devices; manufactures and sells mission-critical bushings, pins, sleeves, and precision-tolerance machined components for landing gear, rotor heads, engine mounts, flight controls, and actuation systems for the aerospace and defense industries; designs, develops and manufactures elastomeric-based signature reduction solutions for U.S. naval vessels; and provides mission-critical signature and power management solutions. The Utility Solutions Group segment develops, manufactures, and delivers diagnostic testing solutions; and designs and manufactures decision support tools for the renewable energy industry, primarily wind and solar. The RF Test & Measurement segment designs and manufactures products and systems to measure and control RF energy for research and development, regulatory compliance, and medical and security applications; and turnkey systems, such as RF test facilities and measurement systems, acoustic test enclosures, RF and magnetically shielded rooms, and secure communication facilities. This segment also supplies RF absorptive materials, filters, antennas, field probes, test cells, proprietary measurement software, and other test accessories; and offers calibration and product tests, feedthrough capacitors, high current power, telephone, data and control line filters, and high-altitude electromagnetic protection filters. It distributes its products through distributors, sales representatives, direct sales teams, and in-house sales personnel. The company was incorporated in 1990 and is based in Saint Louis, Missouri.", "website": "https://www.escotechnologies.com"}, "ON": {"country": "United States", "employees": 22600, "industry": "Semiconductors", "marketCap": 32707645440, "name": "ON Semiconductor Corporation", "sector": "Technology", "summary": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. It operates through three segments: Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module, and integrated semiconductor devices designed to enable power conversion, including power switching, signal conditioning, and circuit protection technologies. Its Analog and Mixed-Signal Group segment designs and develops analog and mixed-signal solutions, including power management, sensor interface, connectivity, and standard products for automotive, industrial automation, AI data centers, computing, and mobile end markets. The Intelligent Sensing Group segment develops complementary metal-oxide-semiconductor image sensors, image signal processors, short-wave infrared sensors, and other products, as well as photon-counting technologies, including single-photon avalanche diode arrays and silicon photomultiplier devices for depth sensing, factory automation, safety systems, and robotics industries. ON Semiconductor Corporation was incorporated in 1992 and is headquartered in Scottsdale, Arizona.", "website": "https://www.onsemi.com"}, "JBHT": {"country": "United States", "employees": 31750, "industry": "Integrated Freight & Logistics", "marketCap": 23185567744, "name": "J.B. Hunt Transport Services, Inc.", "sector": "Industrials", "summary": "J.B. Hunt Transport Services, Inc. provides surface transportation, delivery, and logistic services in the United States. It operates through five segments: Intermodal, Dedicated Contract Services, Integrated Capacity Solutions, Final Mile Services, and Truckload. The JBI segment offers intermodal freight solutions. It operates 124,838 pieces of company-owned trailing equipment; owns and maintains its chassis fleet of 104,474 units; and manages a fleet of 5,880 company-owned tractors, 308 independent contractor trucks, and 8,704 company drivers. The DCS segment designs, develops, and executes supply chain solutions that support various transportation networks. As of December 31, 2025, it operated 11,878 company-owned trucks, 761 customer-owned trucks, and a contractor trucks. It operates 26,767 owned pieces of trailing equipment and 5,218 customer-owned trailers. The ICS segment provides freight brokerage and transportation logistics solutions; flatbed, refrigerated, expedited, and less-than-truckload, as well as dry-van and intermodal solutions; online multimodal marketplace; and logistics management services for customers to outsource their transportation functions. The FMS segment delivers services through 1,085 company-owned trucks, 169 customer-owned trucks, and 39 independent contractor trucks; and 1,091 owned pieces of trailing equipment and 98 customer-owned trailers. The JBT segment provides dry-van freight services by utilizing tractors and trailers operating over roads and highways through two company-owned tractors and 12,658 company-owned trailers. It transports or arranges for the transportation of freight, such as general merchandise, specialty consumer items, appliances, home furnishings, forest, paper, rubber, plastic products, food, beverages, building materials, apparel, accessories, soaps, cosmetics, automotive parts, agricultural products, electronics, and chemicals. The company was incorporated in 1961 and is headquartered in Lowell, Arkansas.", "website": "https://www.jbhunt.com"}, "CLS": {"country": "Canada", "employees": 23803, "industry": "Electronic Components", "marketCap": 45566914560, "name": "Celestica Inc.", "sector": "Technology", "summary": "Celestica Inc., together with its subsidiaries, provides supply chain solutions in Asia, North America, and internationally. It operates through two segments, Advanced Technology Solutions, and Connectivity and Cloud Solutions. The company offers a range of product manufacturing and related supply chain services, including design and development, new product introduction, engineering services, component sourcing, electronics manufacturing and assembly, testing, mechanical assembly, systems integration, precision machining, logistics, asset management, product licensing, and after-market repair and return services. It also provides hardware platform solutions, which includes development of infrastructure platforms, and hardware and software design solutions and services, including open-source software that can be used as-is or customized for specific applications; and management of program, including design and supply chain, manufacturing, and after-market support, including IT asset disposition and asset management services. The company offers its products and services to original equipment manufacturers, and cloud-based and other service providers, including hyperscalers, and other companies in aerospace and defense, industrial, HealthTech, capital equipment, communications, and enterprise markets. The company has a strategic collaboration with Advanced Micro Devices, Inc. for the development of Helios, a rack-scale AI platform. The company was incorporated in 1994 and is headquartered in Toronto, Canada.", "website": "https://www.celestica.com"}, "SAIA": {"country": "United States", "employees": 13734, "industry": "Trucking", "marketCap": 11580439552, "name": "Saia, Inc.", "sector": "Industrials", "summary": "Saia, Inc., together with its subsidiaries, operates as a transportation company in North America. The company provides less-than-truckload services for shipments between 100 and 10,000 pounds. It also offers other value-added services, including brokered truckload, expedited transportation, and other logistics services. As of December 31, 2025, it operated 213 owned and leased terminals; and owned approximately 7,700 tractors and 26,500 trailers. The company was formerly known as SCS Transportation, Inc. and changed its name to Saia, Inc. in July 2002. Saia, Inc. was founded in 1924 and is headquartered in Johns Creek, Georgia.", "website": "https://www.saia.com"}, "HSBC": {"country": "United Kingdom", "employees": 208720, "industry": "Banks - Diversified", "marketCap": 319321276416, "name": "HSBC Holdings plc", "sector": "Financial Services", "summary": "HSBC Holdings plc engages in the provision of banking and financial products and services worldwide. It operates through four segments: Hong Kong, UK, Corporate and Institutional Banking, and International Wealth and Premier Banking. The Hong Kong segment is involved in the retail banking and wealth and commercial banking of HSBC Hong Kong and Hang Seng Bank. The UK segment engages in UK retail banking and wealth, as well as first direct and M&S Bank, UK Commercial Banking, and HSBC Innovation Bank. The Corporate and Institutional Banking segment is involved in transaction banking and capital markets. The International Wealth and Premier Banking segment is involved in the business comprising premier banking outside of Hong Kong and the UK, its private bank, asset management, and insurance businesses. The company was founded in 1865 and is headquartered in London, the United Kingdom.", "website": "https://www.hsbc.com"}};
+
+  function fmtCap(c) {
+    if (!c) return "";
+    if (c >= 1e12) return "$" + (c / 1e12).toFixed(1) + "T";
+    if (c >= 1e9)  return "$" + (c / 1e9).toFixed(2) + "B";
+    if (c >= 1e6)  return "$" + (c / 1e6).toFixed(0) + "M";
+    return "$" + c;
+  }
+
+  const container = document.getElementById("container");
+
+  finalists.forEach(({ t, note }, idx) => {
+    const meta = info[t] || {};
+    const cap = fmtCap(meta.marketCap);
+    const emp = meta.employees ? meta.employees.toLocaleString() + " empl." : "";
+    const sector = [meta.sector, meta.industry].filter(Boolean).join(" · ");
+    const country = meta.country || "";
+    const summary = meta.summary || "(no description available from Yahoo Finance)";
+    const website = meta.website
+      ? `<a href="${meta.website}" target="_blank" rel="noreferrer">${meta.website.replace(/^https?:\/\//, "")}</a>`
+      : "";
+
+    const row = document.createElement("div");
+    row.className = "row";
+    row.innerHTML = `
+      <div class="card">
+        <header>
+          <div><strong>${t}</strong> <span class="tag">${note ? "· " + note : ""}</span></div>
+          <span class="tag">#${idx + 1}</span>
+        </header>
+        <div class="chart" id="chart-${t}"></div>
+      </div>
+      <div class="card">
+        <header>
+          <div><strong>${meta.name || t}</strong></div>
+          <span class="tag">${cap}</span>
+        </header>
+        <div class="desc">
+          <div class="meta">${sector}${country ? " · " + country : ""}</div>
+          <div class="stats">
+            ${cap ? `<span>Mkt Cap ${cap}</span>` : ""}
+            ${emp ? `<span>${emp}</span>` : ""}
+            ${website ? `<span>${website}</span>` : ""}
+          </div>
+          <div class="summary">${summary}</div>
+        </div>
+      </div>
+    `;
+    container.appendChild(row);
+
+    const w = document.createElement("script");
+    w.type = "text/javascript";
+    w.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+    w.async = true;
+    w.innerHTML = JSON.stringify({
+      autosize: true,
+      symbol: t,
+      interval: "D",
+      timezone: "America/New_York",
+      theme: "dark",
+      style: "1",
+      locale: "en",
+      range: "12M",
+      withdateranges: true,
+      allow_symbol_change: true,
+      hide_side_toolbar: false,
+      save_image: false,
+      studies: [
+        { id: "MASimple@tv-basicstudies", inputs: { length: 10 } },
+        { id: "MASimple@tv-basicstudies", inputs: { length: 20 } },
+        { id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
+        { id: "MASimple@tv-basicstudies", inputs: { length: 200 } }
+      ],
+      support_host: "https://www.tradingview.com"
+    });
+    document.getElementById(`chart-${t}`).appendChild(w);
+  });
+</script>
+</body>
+</html>

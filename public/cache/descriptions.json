@@ -54,6 +54,39 @@
     "summary": "Argan, Inc., through its subsidiaries, provides engineering, procurement, construction, commissioning, maintenance, project development, and technical consulting services to the power generation market in the United States, Republic of Ireland, and the United Kingdom. It operates through three segments: Power, Industrial, and Teledata. Its Power segment offers engineering, procurement, and construction, as well as designing, building, and commissioning of large-scale energy projects; and design, construction, project management, start-up, and operation, as well as provides technical consulting services; and turbine, boiler, and large rotating equipment. This segment serves independent power producers, public utilities, power plant equipment suppliers, and other commercial firms. The company's Industrial segment provides field services that support new plant construction and additions; maintenance turnarounds; shutdowns and emergency mobilizations for industrial plants; and fabricates, delivers, and installation of metal components, such as piping systems and pressure vessels. Its Teledata segment offers trenchless directional boring and excavation for underground communication and power networks; aerial cabling; high and low voltage electric lines; and private area outdoor lighting systems, as well as installs buried cable. It also provides structured cabling, terminations, and connectivity that offers the physical transport for high-speed data, voice, video, and security networks; and utility construction services and comprehensive technology wiring solutions. This segment serves electricity cooperative, state and federal government agencies, counties and municipalities, and technology-oriented government contracting firms, as well as customers in the mid-Atlantic region of the United States. Argan, Inc. was incorporated in 1961 and is headquartered in Arlington, Virginia.",
     "website": "https://www.arganinc.com"
   },
+  "AME": {
+    "_ts": 1776526532.6262076,
+    "country": "United States",
+    "employees": 22500,
+    "industry": "Specialty Industrial Machinery",
+    "marketCap": 54118993920,
+    "name": "AMETEK, Inc.",
+    "sector": "Industrials",
+    "summary": "AMETEK, Inc. manufactures and sells electronic instruments (EIG) and electromechanical (EMG) devices in the United States and internationally. It operates through EIG and EMG segments. The company offers advanced instruments for the process, aerospace, power, and industrial markets; process and analytical instruments for the oil and gas, petrochemical, pharmaceutical, semiconductor, automation, and food and beverage industries; instruments to the laboratory equipment, ultra-precision manufacturing, medical, and test and measurement markets; power quality monitoring and metering devices, uninterruptible power supplies, programmable power and electromagnetic compatibility test equipment, and gas turbines sensors; dashboard instruments for heavy trucks and other vehicles; instrumentation and controls for food and beverage industries; and aircraft and engine sensors, embedded computing, monitoring, power supplies, fuel and fluid measurement, and data acquisition systems for aerospace and defense industry. It also provides engineered medical components and devices, automation solutions, thermal management systems, specialty metals, and electrical interconnects; single-use and consumable surgical instruments, implantable components, and drug delivery systems; engineered electrical connectors and electronics packaging; precision motion control products for data storage, medical devices, business equipment, automation, and other application; high-purity powdered metals, strips and foils, specialty clad metals, and metal matrix composites; motor-blower systems and heat exchangers for thermal management, military and commercial aircraft, and military ground vehicles; and motors used in commercial appliances, food and beverage machines, hydraulic pumps, and industrial blowers, as well as operates a network of aviation maintenance, repair, and overhaul facilities. AMETEK, Inc. was incorporated in 1930 and is headquartered in Berwyn, Pennsylvania.",
+    "website": "https://www.ametek.com"
+  },
+  "APG": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 29000,
+    "industry": "Engineering & Construction",
+    "marketCap": 20170571776,
+    "name": "APi Group Corporation",
+    "sector": "Industrials",
+    "summary": "APi Group Corporation provides fire and life safety, security, elevator and escalator, and specialty services worldwide. It operates in two segments, Safety Services and Specialty Services. The company offers fire protection solutions; electronic security systems; and elevators and escalators, including the design, installation, inspection, service, and monitoring of life safety systems to high tech services, advanced manufacturing, healthcare, fulfillment and distribution centers, and critical infrastructure end markets. It also provides various specialty contracting, fabrication and distribution, and infrastructure and utility services to critical infrastructure, high tech services, and healthcare end markets. The company was formerly known as J2 Acquisition Limited and changed its name to APi Group Corporation in October 2019. APi Group Corporation was founded in 1926 and is headquartered in New Brighton, Minnesota.",
+    "website": "https://www.apigroupcorp.com"
+  },
+  "AROC": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 1350,
+    "industry": "Oil & Gas Equipment & Services",
+    "marketCap": 6361495552,
+    "name": "Archrock, Inc.",
+    "sector": "Energy",
+    "summary": "Archrock, Inc., together with its subsidiaries, operates as an energy infrastructure company in the United States. The company operates in two segments, Contract Operations and Aftermarket Services. It engages in the designing, sourcing, owning, installing, operating, servicing, repairing, and maintaining of its owned fleet of natural gas compression equipment to provide natural gas compression services. The company also sells over-the-counter parts and components, as well as provides operations, major and routine maintenance, overhaul, and reconfiguration services to customers who own compression equipment. It serves integrated and independent oil and natural gas processors, gatherers, and transporters. Archrock, Inc. was formerly known as Exterran Holdings, Inc. and changed its name to Archrock, Inc. in November 2015. The company was founded in 1990 and is headquartered in Houston, Texas.",
+    "website": "https://www.archrock.com"
+  },
   "ARR": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -131,6 +164,17 @@
     "summary": "Babcock & Wilcox Enterprises, Inc., together with its subsidiaries, provides energy and emissions control solutions to industrial, electrical utility, municipal, and other customers in the United States, Canada, the United Kingdom, Indonesia, and the Philippines. The company offers BrightLoop chemical looping technology, which produces steam, hydrogen, or syngas for applications in the energy, industrial, and agricultural sectors. It also provides steam generation equipment, including aftermarket parts, construction, maintenance, and field services; steam generation systems, such as package boilers, watertube and firetube waste heat boilers, and other boilers to medium and heavy industrial customers. The company was founded in 1867 and is headquartered in Akron, Ohio.",
     "website": "https://www.babcock.com"
   },
+  "CAH": {
+    "_ts": 1776526540.22005,
+    "country": "United States",
+    "employees": 53084,
+    "industry": "Medical Distribution",
+    "marketCap": 50355273728,
+    "name": "Cardinal Health, Inc.",
+    "sector": "Healthcare",
+    "summary": "Cardinal Health, Inc. operates as a healthcare services and products company in the United States and internationally. It operates in two segments: Pharmaceutical and Specialty Solutions, and Global Medical Products and Distribution. The company provides customized solutions for hospitals, healthcare systems, pharmacies, ambulatory surgery centers, clinical laboratories, physician offices, and patients in the home. It distributes branded and generic pharmaceutical, specialty pharmaceutical, and over-the-counter healthcare and consumer products. The company also provides services to pharmaceutical manufacturers and healthcare providers for specialty pharmaceutical products; pharmacy management services to hospitals; operates pharmacies, including pharmacies in community health centers; and repackages generic pharmaceuticals and over-the-counter healthcare products. In addition, it manufactures, sources, and distributes Cardinal Health branded medical, surgical, and laboratory products and devices that include exam and surgical gloves; needles, syringe, and sharps disposals; compression, incontinence, nutritional delivery, and wound care products; single-use surgical drapes, gowns, and apparel products; fluid suction and collection systems; urology products; operating room supply products; and electrode product lines. Further, the company distributes a range of national brand products, including medical, surgical, and laboratory products; provides supply chain services and solutions to hospitals, ambulatory surgery centers, clinical laboratories, and other healthcare providers; and assembles and sells sterile and non-sterile procedure kits. Additionally, it manufactures, prepares, and delivers radiopharmaceuticals; and optimizes direct shipments through integrated technology solutions. The company was incorporated in 1979 and is headquartered in Dublin, Ohio.",
+    "website": "https://www.cardinalhealth.com"
+  },
   "CAMT": {
     "_ts": 1776482612.3358293,
     "country": "Israel",
@@ -164,6 +208,50 @@
     "summary": "Celcuity Inc., a clinical-stage biotechnology company, focuses on the development of targeted therapies for the treatment of various solid tumors in the United States. The company's lead drug candidate includes Gedatolisib, which selectively targets various Class I isoforms of phosphatidylinositol-3-kinase (PI3K) and the two mechanistic targets of rapamycin (mTOR) sub-complexes, mTORC1 and mTORC2 to treat patients with hormone receptor positive (HR+), human epidermal growth factor receptor 2 negative (HER2-) or HR+/HER2-, advanced or metastatic breast cancer (ABC), and patients with metastatic castration resistant prostate cancer (mCRPC). The company had a license agreement with Pfizer Inc. for the development and commercialization rights to Gedatolisib. Celcuity Inc. was incorporated in 2011 and is based in Minneapolis, Minnesota.",
     "website": "https://www.celcuity.com"
   },
+  "CLS": {
+    "_ts": 1776526513.6243865,
+    "country": "Canada",
+    "employees": 23803,
+    "industry": "Electronic Components",
+    "marketCap": 45566914560,
+    "name": "Celestica Inc.",
+    "sector": "Technology",
+    "summary": "Celestica Inc., together with its subsidiaries, provides supply chain solutions in Asia, North America, and internationally. It operates through two segments, Advanced Technology Solutions, and Connectivity and Cloud Solutions. The company offers a range of product manufacturing and related supply chain services, including design and development, new product introduction, engineering services, component sourcing, electronics manufacturing and assembly, testing, mechanical assembly, systems integration, precision machining, logistics, asset management, product licensing, and after-market repair and return services. It also provides hardware platform solutions, which includes development of infrastructure platforms, and hardware and software design solutions and services, including open-source software that can be used as-is or customized for specific applications; and management of program, including design and supply chain, manufacturing, and after-market support, including IT asset disposition and asset management services. The company offers its products and services to original equipment manufacturers, and cloud-based and other service providers, including hyperscalers, and other companies in aerospace and defense, industrial, HealthTech, capital equipment, communications, and enterprise markets. The company has a strategic collaboration with Advanced Micro Devices, Inc. for the development of Helios, a rack-scale AI platform. The company was incorporated in 1994 and is headquartered in Toronto, Canada.",
+    "website": "https://www.celestica.com"
+  },
+  "DBD": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 20000,
+    "industry": "Software - Application",
+    "marketCap": 3122310656,
+    "name": "Diebold Nixdorf, Incorporated",
+    "sector": "Technology",
+    "summary": "Diebold Nixdorf, Incorporated engages in the automating, digitizing, and transforming the way people bank and shop worldwide. It operates through two segments, Banking and Retail. The company offers automated teller machines, cash recyclers, dispensers, teller automation tools, and kiosk technologies. The Banking segment manufactures and sells branch automation solutions, including DN Series recyclers, ATMs, cash recycling technology, and the DN Teller Cash Recycler and Dual Tower Recycler, as well as provides multi-vendor service capabilities and DN Vynamic software for enhanced connectivity and analytics. It offers professional services such as systems integration, customization, project management, and consulting for integrated solutions. The Retail segment offers modular and integrated electronic point-of-sale (EPOS) systems, self-checkout solutions like DN Series EASY ONE and EASY MAX Kiosk, BEETLE POS systems, and a broad range of peripherals, including printers, scales, and mobile scanners. It also provides the DN Vynamic Retail Platform, which includes industry-specific solutions for fuel, convenience, specialty, fashion, and grocery; and platforms for digital receipts, rewards, data analysis, and compliance, as well as offers maintenance, support, global integration, remote device monitoring, and advisory services utilizing AI for predictive diagnostics and operational efficiencies. In addition, the company provides integrated core operations supporting security and efficient cash management, with offerings including installation, maintenance, managed services, automation, and data intelligence via the Allconnect data engine. The company was formerly known as Diebold, Incorporated and changed its name to Diebold Nixdorf, Incorporated in December 2016. Diebold Nixdorf, Incorporated was founded in 1859 and is headquartered in North Canton, Ohio.",
+    "website": "https://www.dieboldnixdorf.com"
+  },
+  "DOV": {
+    "_ts": 1776526540.22005,
+    "country": "United States",
+    "employees": 24000,
+    "industry": "Specialty Industrial Machinery",
+    "marketCap": 29545232384,
+    "name": "Dover Corporation",
+    "sector": "Industrials",
+    "summary": "Dover Corporation provides equipment and components, consumable supplies, aftermarket parts, software and digital solutions, and support services worldwide. The company's Engineered Products segment provides various equipment, component, software, solution, and services that are used in vehicle aftermarket, aerospace and defense, industrial winch and hoist, and fluid dispensing end-market. This segment offers software solutions and services used in light and heavy-duty vehicle lifts, wheel service equipment, vehicle diagnostics, and vehicle collision repair solutions; winches, hoists, bearings, drives, and electric monitoring system; and radio frequency and microwave filters and switches, and signal intelligence solutions, as well as soldering and fluid dispensing solutions. Its Clean Energy & Fueling segment offers component, equipment, and software and service solution enabling safe storage and transport of fuel, cryogenic gases, and hazardous fluids, as well as operation of retail fueling and vehicle wash establishment. The company's Imaging & Identification segment provides precision marking and coding, product traceability equipment, brand protection, and digital textile printing equipment and solution, as well as consumable, software, and service to packaged and consumer goods, pharmaceutical, industrial manufacturing, textile, and other end-market. Its Pumps & Process Solutions segment manufactures specialty pump, connector, flow meter, fluid connecting solution, plastics and polymer processing equipment, and engineered components for rotating and reciprocating machines. The company's Climate & Sustainability Technologies segment manufactures refrigeration system, refrigeration display case, commercial glass refrigerator and freezer door, and brazed plate heat exchanger for industrial heating and cooling, and residential climate control applications. Dover Corporation was incorporated in 1947 and is headquartered in Downers Grove, Illinois.",
+    "website": "https://www.dovercorporation.com"
+  },
+  "EA": {
+    "_ts": 1776526540.22005,
+    "country": "United States",
+    "employees": 14500,
+    "industry": "Electronic Gaming & Multimedia",
+    "marketCap": 51009216512,
+    "name": "Electronic Arts Inc.",
+    "sector": "Communication Services",
+    "summary": "Electronic Arts Inc. develops, markets, publishes, and delivers games, content, and services for game consoles, PCs, and mobile phones worldwide. It develops and publishes games and services across various genres, such as sports, racing, first-person shooter, action, role-playing, and simulation; and live services offerings, including extra content and subscription offerings through its global football and American football franchises, such as EA SPORTS College Football and EA SPORTS Madden NFL, as well as based on its IP comprising The Sims, Apex Legends, and Battlefield. The company markets and sells its games and services through digital distribution and retail channels; and directly to mass market retailers, specialty stores, and distribution arrangements. Electronic Arts Inc. was incorporated in 1982 and is headquartered in Redwood City, California.",
+    "website": "https://www.ea.com"
+  },
   "ERAS": {
     "_ts": 1776482631.8091784,
     "country": "United States",
@@ -174,6 +262,61 @@
     "sector": "Healthcare",
     "summary": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's product pipeline includes ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-mutated solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-mutated solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGFR and RAS/MAPK solid tumors. It has license agreement with Guangzhou Joyo Pharmatech Co., Ltd to develop, manufacture, and commercialize certain pan-RAS inhibitors; Medshine Discovery Inc. to develop, manufacture, and commercialize certain pan-KRAS inhibitors; Novartis Pharma AG to develop, manufacture, use, and commercialize naporafenib; NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds; and Asana BioSciences, LLC to develop and commercialize ERAS-007 and certain other related compounds. The company has a clinical trial collaboration and supply agreement with Tango Therapeutics, Inc. for the evaluation of ERAS-0015. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
     "website": "https://www.erasca.com"
+  },
+  "ESE": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 3359,
+    "industry": "Scientific & Technical Instruments",
+    "marketCap": 8155093504,
+    "name": "ESCO Technologies Inc.",
+    "sector": "Technology",
+    "summary": "ESCO Technologies Inc. provides engineered components and systems for aviation, navy, defense, and industrial customers. The Aerospace & Defense segment designs and manufactures specialty filtration products, including hydraulic filter elements and fluid control devices used in commercial and defense aerospace applications; miniature electro-explosive devices for military aircraft ejection seats and missile arming devices; manufactures and sells mission-critical bushings, pins, sleeves, and precision-tolerance machined components for landing gear, rotor heads, engine mounts, flight controls, and actuation systems for the aerospace and defense industries; designs, develops and manufactures elastomeric-based signature reduction solutions for U.S. naval vessels; and provides mission-critical signature and power management solutions. The Utility Solutions Group segment develops, manufactures, and delivers diagnostic testing solutions; and designs and manufactures decision support tools for the renewable energy industry, primarily wind and solar. The RF Test & Measurement segment designs and manufactures products and systems to measure and control RF energy for research and development, regulatory compliance, and medical and security applications; and turnkey systems, such as RF test facilities and measurement systems, acoustic test enclosures, RF and magnetically shielded rooms, and secure communication facilities. This segment also supplies RF absorptive materials, filters, antennas, field probes, test cells, proprietary measurement software, and other test accessories; and offers calibration and product tests, feedthrough capacitors, high current power, telephone, data and control line filters, and high-altitude electromagnetic protection filters. It distributes its products through distributors, sales representatives, direct sales teams, and in-house sales personnel. The company was incorporated in 1990 and is based in Saint Louis, Missouri.",
+    "website": "https://www.escotechnologies.com"
+  },
+  "EVR": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 2544,
+    "industry": "Capital Markets",
+    "marketCap": 14373213184,
+    "name": "Evercore Inc.",
+    "sector": "Financial Services",
+    "summary": "Evercore Inc., together with its subsidiaries, operates as an independent investment banking firm in the Americas, Europe, Middle East, Africa, and Asia-Pacific. The company operates through two segments, Investment Banking & Equities, and Investment Management. The Investment Banking & Equities segment offers strategic advisory services, such as mergers, and acquisitions, strategic, defense, and shareholder advisory, special committee assignments, and real estate strategic advisory; private capital advisory and fundraising, market risk management and hedging, private capital markets and debt advisory, liability management and restructuring, and equity capital markets execution and advisory services; and research, sales, and trading professionals services on a content-led platform to its institutional investor clients. The Investment Management segment provides wealth management services to high-net-worth individuals, foundations, and endowments. The company was formerly known as Evercore Partners Inc. and changed its name to Evercore Inc. in August 2017. Evercore Inc. was founded in 1995 and is headquartered in New York, New York.",
+    "website": "https://www.evercore.com"
+  },
+  "FIX": {
+    "_ts": 1776526540.22005,
+    "country": "United States",
+    "employees": 22700,
+    "industry": "Engineering & Construction",
+    "marketCap": 58070081536,
+    "name": "Comfort Systems USA, Inc.",
+    "sector": "Industrials",
+    "summary": "Comfort Systems USA, Inc., together with its subsidiaries, provides mechanical and electrical installation, renovation, maintenance, repair, and replacement services for the mechanical and electrical services industry in the United States. The company operates through two segments: Mechanical and Electrical. It offers heating, ventilation, and air conditioning systems, as well as plumbing, electrical, piping and controls, off-site construction, monitoring, and fire protection. The company is also involved in the design, engineering, integration, installation, and start-up of mechanical, electrical, and plumbing (MEP) and related systems in new buildings; and renovation, expansion, maintenance, monitoring, repair, and replacement of systems in existing buildings. In addition, it provides remote monitoring of power usage, temperature, pressure, humidity and air flow for MEP and other building systems. The company serves building owners and developers, general contractors, architects, consulting engineers, and property managers in the commercial, industrial, and institutional markets. Comfort Systems USA, Inc. was founded in 1917 and is headquartered in Houston, Texas.",
+    "website": "https://comfortsystemsusa.com"
+  },
+  "FLS": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 16000,
+    "industry": "Specialty Industrial Machinery",
+    "marketCap": 10711812096,
+    "name": "Flowserve Corporation",
+    "sector": "Industrials",
+    "summary": "Flowserve Corporation designs, manufactures, distributes, and services industrial flow management equipment in the United States, Canada, Mexico, Europe, the Middle East, Africa, and the Asia Pacific. The company operates in two segments, Flowserve Pumps Division (FPD) and Flow Control Division (FCD). It offers custom engineered pumps, pre-configured industrial pumps, pump systems, mechanical seals, auxiliary systems, replacement parts, and related services; and manufactures gas-lubricated mechanical seals for gas pipelines and in the energy production and process markets. The company also provides equipment services, including installation, commissioning services, seal systems spare parts, repairs, advanced diagnostics, re-rate and upgrade solutions, retrofit programs, and machining and asset management solutions. In addition, it offers engineered-to-order and configured-to-order isolation valves, control valves, valve automation products and related services and equipment; and actuators, positioners, and switches used to control, direct and manage the flow of liquids, gases and multi-phase fluids, and are a part of any flow control system. Further, the company provides equipment maintenance services for flow control systems, including advanced diagnostics, repair, installation, commissioning, retrofit programs, and field machining capabilities. It sells its products under the Valtek, Argus, Worcester, Limitorque, and Durco brands. The company serves oil and gas, power generation, chemical, water management and general industries, including pharmaceuticals, mining, food and beverage, steel, and pulp and paper industries. It distributes its products through direct sales, distributors, and sales representatives. Flowserve Corporation was founded in 1790 and is headquartered in Irving, Texas.",
+    "website": "https://www.flowserve.com"
+  },
+  "FTI": {
+    "_ts": 1776526513.6243865,
+    "country": "United Kingdom",
+    "employees": 21975,
+    "industry": "Oil & Gas Equipment & Services",
+    "marketCap": 28225308672,
+    "name": "TechnipFMC plc",
+    "sector": "Energy",
+    "summary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation. It provides subsea production systems; subsea processing systems; subsea umbilicals, risers and flowlines; vessels; drilling, installation, and intervention and plug and abandonment; maintenance, asset integrity, and production management; robotics; and subsea studio digital platform. The Surface Technologies segment designs, manufactures, and services products and systems used in land and shallow water exploration and production of oil and natural gas. This segment offers drilling; surface wellheads and production trees systems; iComplete, a pressure control system; fracturing tree systems, fracturing valve greasing systems, hydraulic or electric control units, service-less valves, fracturing manifold systems, and rigid and flexible flowlines; flexible pipes; safety and integrity systems, multiphase meter modules, in-line separation and processing systems, compact ball valves for manifolds, and standard pumps; well control and integrity systems; and skid solutions. It also offers planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservation, intervention, integrity, decommissioning, and abandonment; and supplies flowline products and services. TechnipFMC plc was founded in 1884 and is headquartered in Newcastle Upon Tyne, the United Kingdom.",
+    "website": "https://www.technipfmc.com"
   },
   "GLNG": {
     "_ts": 1776524226.5328085,
@@ -186,6 +329,28 @@
     "summary": "Golar LNG Limited designs, converts, owns, and operates marine infrastructure for the liquefaction of natural gas. The company operates in two segments, FLNG, and Corporate and Other. It engages in the regasification, storage, and liquefied natural gas (LNG) carrier transportation operations; operation of floating liquefaction natural gas (FLNG) vessels or projects; transportation of LNG carriers; and vessel management activities. The company was founded in 1946 and is headquartered in Hamilton, Bermuda.",
     "website": "https://www.golarlng.com"
   },
+  "GSAT": {
+    "_ts": 1776526532.6262076,
+    "country": "United States",
+    "employees": 477,
+    "industry": "Telecom Services",
+    "marketCap": 10289861632,
+    "name": "Globalstar, Inc.",
+    "sector": "Communication Services",
+    "summary": "Globalstar, Inc. provides mobile satellite services in the United States, Canada, Europe, Central and South America, and internationally. It offers duplex two-way voice and data products, including mobile voice and data services and equipment for remote business continuity, recreational usage, safety, emergency preparedness and response, and other applications. The company also provides data transmissions using a mobile or fixed device that transmits the location of the device and other information to a central monitoring station, including commercial IoT products; communication and data transmissions using SPOT family of devices, such as SPOT X, SPOT Gen4, and SPOT Trace that emergency alerts, and transmit messages and the location of the device; and voice communication and data transmissions. In addition, it offers commercial IoT devices to track assets comprising cargo containers and rail cars, monitor utility meters, and monitor oil and gas assets; small satellite transmitter modules, such as the STX-3, ST-150 and ST100, and chips that enable an integrator's products to access its network; engineering and other communication services using MSS and terrestrial spectrum licenses; and hardware and software designs to develop specific applications operating over satellite network, as well as the installation of gateways and antennas. It distributes its products through retailers and sales force, as well as www.findmespot.com e-commerce website. The company serves forestry, maritime, government, oil and gas, mining, leisure, emergency services, construction, and transportation sectors. Globalstar, Inc. was founded in 1993 and is headquartered in Covington, Louisiana.",
+    "website": "https://www.globalstar.com"
+  },
+  "HSBC": {
+    "_ts": 1776526513.6243865,
+    "country": "United Kingdom",
+    "employees": 208720,
+    "industry": "Banks - Diversified",
+    "marketCap": 319321276416,
+    "name": "HSBC Holdings plc",
+    "sector": "Financial Services",
+    "summary": "HSBC Holdings plc engages in the provision of banking and financial products and services worldwide. It operates through four segments: Hong Kong, UK, Corporate and Institutional Banking, and International Wealth and Premier Banking. The Hong Kong segment is involved in the retail banking and wealth and commercial banking of HSBC Hong Kong and Hang Seng Bank. The UK segment engages in UK retail banking and wealth, as well as first direct and M&S Bank, UK Commercial Banking, and HSBC Innovation Bank. The Corporate and Institutional Banking segment is involved in transaction banking and capital markets. The International Wealth and Premier Banking segment is involved in the business comprising premier banking outside of Hong Kong and the UK, its private bank, asset management, and insurance businesses. The company was founded in 1865 and is headquartered in London, the United Kingdom.",
+    "website": "https://www.hsbc.com"
+  },
   "HYMC": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -196,6 +361,17 @@
     "sector": "Basic Materials",
     "summary": "Hycroft Mining Holding Corporation, together with its subsidiaries, operates as a gold and silver exploration and development company in the United States. Its property, Hycroft Mine, consists of 25 patented claims covering approximately 1,855 acres and 3,249 unpatented lode and placer claims spanning 62,298 acres located 54 miles northwest of Winnemucca in Nevada. The company is based in Winnemucca, Nevada.",
     "website": "https://www.hycroftmining.com"
+  },
+  "JBHT": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 31750,
+    "industry": "Integrated Freight & Logistics",
+    "marketCap": 23185567744,
+    "name": "J.B. Hunt Transport Services, Inc.",
+    "sector": "Industrials",
+    "summary": "J.B. Hunt Transport Services, Inc. provides surface transportation, delivery, and logistic services in the United States. It operates through five segments: Intermodal, Dedicated Contract Services, Integrated Capacity Solutions, Final Mile Services, and Truckload. The JBI segment offers intermodal freight solutions. It operates 124,838 pieces of company-owned trailing equipment; owns and maintains its chassis fleet of 104,474 units; and manages a fleet of 5,880 company-owned tractors, 308 independent contractor trucks, and 8,704 company drivers. The DCS segment designs, develops, and executes supply chain solutions that support various transportation networks. As of December 31, 2025, it operated 11,878 company-owned trucks, 761 customer-owned trucks, and a contractor trucks. It operates 26,767 owned pieces of trailing equipment and 5,218 customer-owned trailers. The ICS segment provides freight brokerage and transportation logistics solutions; flatbed, refrigerated, expedited, and less-than-truckload, as well as dry-van and intermodal solutions; online multimodal marketplace; and logistics management services for customers to outsource their transportation functions. The FMS segment delivers services through 1,085 company-owned trucks, 169 customer-owned trucks, and 39 independent contractor trucks; and 1,091 owned pieces of trailing equipment and 98 customer-owned trailers. The JBT segment provides dry-van freight services by utilizing tractors and trailers operating over roads and highways through two company-owned tractors and 12,658 company-owned trailers. It transports or arranges for the transportation of freight, such as general merchandise, specialty consumer items, appliances, home furnishings, forest, paper, rubber, plastic products, food, beverages, building materials, apparel, accessories, soaps, cosmetics, automotive parts, agricultural products, electronics, and chemicals. The company was incorporated in 1961 and is headquartered in Lowell, Arkansas.",
+    "website": "https://www.jbhunt.com"
   },
   "KGC": {
     "_ts": 1776482612.3358293,
@@ -218,6 +394,17 @@
     "sector": "Healthcare",
     "summary": "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Its lead product candidate is tarcocimab tedromer (KSI-301), an anti-vascular endothelial growth factor (VEGF) antibody biopolymer that has complete Phase 3 clinical study to treat high prevalence retinal vascular diseases; and in Phase 3 clinical study for the treatment of diabetic retinopathy, wet age-related macular degeneration (AMD), retinal vein occlusion, and diabetic macular edema, as well as in Phase 2/3 clinical study to treat wet AMD. The company's preclinical stage product candidate includes KSI-501, an anti- interleukin-6 (IL-6) and VEGF-trap bispecific antibody biopolymer conjugate for high prevalence retinal vascular diseases; and KSI-101 (KSI-501P), a bispecific protein targeting IL-6 and VEGF developed for patients who have retinal fluid and inflammation. The company was formerly known as Oligasis, LLC and changed its name to Kodiak Sciences Inc. in September 2015. Kodiak Sciences Inc. was incorporated in 2009 and is based in Palo Alto, California.",
     "website": "https://kodiak.com"
+  },
+  "KYMR": {
+    "_ts": 1776526532.6262076,
+    "country": "United States",
+    "employees": 238,
+    "industry": "Biotechnology",
+    "marketCap": 7160854016,
+    "name": "Kymera Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Kymera Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on discovering and developing small molecule therapeutics that selectively degrade disease-causing proteins by harnessing the body's own natural protein degradation system. It engages in developing KT-621, an oral STAT6 degrader in Phase 2b clinical trials for moderate to severe atopic dermatitis, asthma, COPD, EoE, CRSwNP, CSU, PN, BP, and others; KT-579, an oral IRF5 degrader in Phase 1 trials for autoimmune diseases such as systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, SSc, DM, and others; KT-485/SAR447971, IRAK4 program, which is in Phase II clinical trial for the treatment of immunology-inflammation diseases, including hidradenitis suppurativa and atopic dermatitis; and cyclin-dependent kinase 2 (CDK2) with broad oncology treatment potential, including in breast cancer and other solid tumors. The company has a strategic alliance with Sanofi S.A. for the development of drug candidates targeting IRAK4 outside the oncology and immuno-oncology fields. Kymera Therapeutics, Inc. was incorporated in 2015 and is headquartered in Watertown, Massachusetts.",
+    "website": "https://www.kymeratx.com"
   },
   "LITE": {
     "_ts": 1776482631.8091784,
@@ -252,6 +439,17 @@
     "summary": "Lloyds Banking Group plc, together with its subsidiaries, provides a range of banking and financial products and services for retail and commercial customers in the United Kingdom. It operates in three segments: Retail; Commercial Banking; and Insurance, Pensions and Investments. The Retail segment offers a range of financial service products, including current accounts, savings, mortgages, credit cards, unsecured loans, motor finance, and leasing solutions to personal customers. Its Commercial Banking segment provides lending, transactional banking, working capital management, debt financing, and risk management services to small and medium businesses, corporates, and institutions. The Insurance, Pensions and Investments segment offers insurance, investment, and pension management products and services. It also provides life assurance; and digital banking services. The company offers its products and services under the Lloyds Bank, Halifax, Bank of Scotland, Scottish Widows, MBNA, Schroders Personal Wealth, Black Horse, Lex Autolease, Birmingham Midshires, LDC, AMC, Embark Group, Lloyds Living, Cavendish Online, Tusker, and HGP brands. The company was formerly known as Lloyds TSB Group plc and changed its name to Lloyds Banking Group plc in January 2009. Lloyds Banking Group plc was founded in 1695 and is headquartered in London, the United Kingdom.",
     "website": "https://www.lloydsbankinggroup.com"
   },
+  "MKSI": {
+    "_ts": 1776526540.22005,
+    "country": "United States",
+    "employees": 10200,
+    "industry": "Scientific & Technical Instruments",
+    "marketCap": 18755151872,
+    "name": "MKS Inc.",
+    "sector": "Technology",
+    "summary": "MKS Inc. provides foundational technology solutions to semiconductor manufacturing, electronics and packaging, and specialty industrial applications in the United States, China, South Korea, Japan, Taiwan, Singapore, and internationally. The company operates through Vacuum Solutions Division (VSD), Photonics Solutions Division (PSD), and Material Solutions Division (MSD) segments. Its VSD segment provides foundational technology solutions, including pressure measurement and control, flow measurement and control, gas and vapor delivery, gas composition analysis, electronic control technology, reactive gas generation and delivery, power generation and delivery, and fiber optic temperature and position sensing. The PSD segment offers range of solutions, which include lasers, photonics, optics, precision motion control, and vibration control. Its MSD segment develops, process, and manufactures technologies comprising advanced surface modification, electroless and electrolytic plating, and surface finishing for chemistry, equipment, and services markets, as well as high-technology applications. In addition, the company sells its products and services through direct sales, network of independent distributors, and sales representatives, as well as websites, including product catalogs. MKS Inc. was formerly known as MKS Instruments, Inc. and changed its name to MKS Inc. in May 2025. The company was incorporated in 1961 and is based in Andover, Massachusetts.",
+    "website": "https://www.mks.com"
+  },
   "MOG-A": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -274,6 +472,28 @@
     "summary": "ArcelorMittal S.A., together with its subsidiaries, operates as integrated steel and mining companies in the Americas, Europe, Asia, and Africa. It offers semi-finished flat products, including slabs; finished flat products comprising plates, hot- and cold-rolled coils and sheets, hot-dipped and electro-galvanized coils and sheets, tinplate, and color coated coils and sheets; semi-finished long products, such as blooms and billets; finished long products consisting of bars, wire-rods, structural sections, rails, sheet piles, and wire-products; and seamless and welded pipes and tubes. The company also provides mining products, such as iron ore lumps, fines, concentrate, pellets, and sinter feeds; and coking coal. It sells its products to various customers in the automotive, appliance, engineering, construction, energy, and machinery industries through a centralized marketing organization, and distributors. The company operates iron ore mining activities in Brazil, Bosnia, Liberia, Mexico, South Africa, and Ukraine, as well as in India and in Canada. ArcelorMittal S.A. was founded in 1976 and is headquartered in Luxembourg, Luxembourg.",
     "website": "https://corporate.arcelormittal.com"
   },
+  "MTSI": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 2000,
+    "industry": "Semiconductors",
+    "marketCap": 20776065024,
+    "name": "MACOM Technology Solutions Holdings, Inc.",
+    "sector": "Technology",
+    "summary": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The company serves carrier infrastructure, which comprise long-haul/metro, 5G and 6G infrastructure, satellite communications, and fiber-to-the-X/passive optical network; industrial and defense, including military and commercial radar, RF jammers, electronic countermeasures, and communication data links, as well as multi-market applications, such as industrial, medical, test and measurement, and scientific applications; and data centers. It sells its products through direct sales force, applications engineering staff, independent sales representatives, resellers, and distributors. The company operates in the United States, China, Japan, Singapore, South Korea, Taiwan, and internationally. MACOM Technology Solutions Holdings, Inc. was formerly known as M/A-Com Technology Solutions Holdings, Inc. and changed its name to MACOM Technology Solutions Holdings, Inc. in 2016. MACOM Technology Solutions Holdings, Inc. was founded in 1950 and is based in Lowell, Massachusetts.",
+    "website": "https://www.macom.com"
+  },
+  "MUFG": {
+    "_ts": 1776526532.6262076,
+    "country": "Japan",
+    "employees": 150800,
+    "industry": "Banks - Diversified",
+    "marketCap": 208933421056,
+    "name": "Mitsubishi UFJ Financial Group, Inc.",
+    "sector": "Financial Services",
+    "summary": "Mitsubishi UFJ Financial Group, Inc. operates as a bank holding company that engages in a range of financial businesses in Japan, the United States, Europe, Asia/Oceania, and internationally. It operates through seven segments: Digital Services, Retail & Commercial Banking, Japanese Corporate & Investment Banking, Global Commercial Banking, Asset Management & Investor Services, Global Corporate & Investment Banking, and Global Markets. The company offers commercial banking, trust banking, and securities products and services to retail and small-and medium-sized enterprise customers. It also provides mergers and acquisitions, debt and equity issuance, financial advice, and real estate-related services; credit cards; and trust banking and securities products and services, as well as engages in the lending, fund settlement, inheritance, asset management, business and asset succession solutions, and foreign exchange businesses. In addition, the company offers corporate banking services, such as project finance, export credit agency finance, and financing through asset-backed commercial paper; investment and transaction banking services for corporations, financial institutions, sovereign and multinational organizations, and institutional investors; and asset management and investor services, including pension fund management and administration, pension structure advisory, payments to beneficiaries, and investment trust services for retail customers. Further, it provides loans, deposits, fund transfers, hedging, and investment services, as well as corporate customers; finances for automotive and consumer goods; sells and trades in fixed-income instruments, currencies, equities, and equities; offers investment products comprising mutual funds, structured bonds, and notes; originates and distributes of financial products; and provides insurance and treasury services. Mitsubishi UFJ Financial Group, Inc. was founded in 1880 and is headquartered in Tokyo, Japan.",
+    "website": "https://www.mufg.jp"
+  },
   "NEM": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -284,6 +504,28 @@
     "sector": "Basic Materials",
     "summary": "Newmont Corporation operates as a gold producer. It also explores for copper, silver, lead, zinc, and other metals. It has operations and/or assets in the United States, Papua New Guinea, Australia, Ghana, Suriname, Argentina, Dominican Republic, Chile, Peru, Ecuador, Mexico, and Canada. The company was founded in 1916 and is headquartered in Denver, Colorado.",
     "website": "https://www.newmont.com"
+  },
+  "NUVL": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 228,
+    "industry": "Biotechnology",
+    "marketCap": 8459975168,
+    "name": "Nuvalent, Inc.",
+    "sector": "Healthcare",
+    "summary": "Nuvalent, Inc., a clinical-stage biopharmaceutical company, engages in the development of therapies for patients with cancer. Its lead product candidates are Zidesamtinib (NVL-520), a novel ROS1-selective inhibitor to address the clinical challenges of emergent treatment resistance, central nervous system (CNS)-related adverse events, and brain metastases that may limit the use of ROS1 tyrosine kinase inhibitors (TKIs) for patients with ROS proto-oncogene 1 (ROS1)-positive non-small cell lung cancer (NSCLC) which is under the Phase 2 portion of the ARROS-1 Phase 1/2 clinical trial; Neladalkib (NVL-655), a brain-penetrant ALK-selective inhibitor, to address the clinical challenges of emergent treatment resistance, CNS-related adverse events, and brain metastases that might limit the use of first-, second-, and third-generation ALK inhibitors that is under the Phase 2 portion of the ALKOVE-1 clinical trial; and NVL-330, a brain-penetrant human epidermal growth factor receptor 2 (HER2)-selective inhibitor designed to treat tumors driven by HER2ex20, brain metastases, and avoiding treatment-limiting adverse events including due to off-target inhibition of wild-type EGFR that is in Phase 1a/1b clinical trial. The company was incorporated in 2017 and is headquartered in Cambridge, Massachusetts.",
+    "website": "https://nuvalent.com"
+  },
+  "ON": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 22600,
+    "industry": "Semiconductors",
+    "marketCap": 32707645440,
+    "name": "ON Semiconductor Corporation",
+    "sector": "Technology",
+    "summary": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. It operates through three segments: Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module, and integrated semiconductor devices designed to enable power conversion, including power switching, signal conditioning, and circuit protection technologies. Its Analog and Mixed-Signal Group segment designs and develops analog and mixed-signal solutions, including power management, sensor interface, connectivity, and standard products for automotive, industrial automation, AI data centers, computing, and mobile end markets. The Intelligent Sensing Group segment develops complementary metal-oxide-semiconductor image sensors, image signal processors, short-wave infrared sensors, and other products, as well as photon-counting technologies, including single-photon avalanche diode arrays and silicon photomultiplier devices for depth sensing, factory automation, safety systems, and robotics industries. ON Semiconductor Corporation was incorporated in 1992 and is headquartered in Scottsdale, Arizona.",
+    "website": "https://www.onsemi.com"
   },
   "PAAS": {
     "_ts": 1776482612.3358293,
@@ -296,6 +538,28 @@
     "summary": "Pan American Silver Corp. engages in the exploration, mine development, extraction, processing, refining, and reclamation of mines in Chile, Peru, Brazil, Mexico, Canada, Argentina, Bolivia, and Guatemala. The Silver segment includes the La Colorada, Juanicipio, Cerro Moro, Huaron, and San Vicente mines. The Gold segment comprises the Jacobina, El Pe\u00f1on, Timmins, Shahuindo, Minera Florida, and Dolores mines. It explores silver, gold, zinc, lead, and copper deposits. The company was formerly known as Pan American Minerals Corp. and changed its name to Pan American Silver Corp. in April 1995. Pan American Silver Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
     "website": "https://www.panamericansilver.com"
   },
+  "PCVX": {
+    "_ts": 1776526532.6262076,
+    "country": "United States",
+    "employees": 507,
+    "industry": "Biotechnology",
+    "marketCap": 9053609984,
+    "name": "Vaxcyte, Inc.",
+    "sector": "Healthcare",
+    "summary": "Vaxcyte, Inc., a clinical-stage vaccine innovation company, develops conjugate and novel protein vaccines to prevent or treat bacterial infectious diseases. Its lead vaccine candidate is VAX-24, a 24-valent carrier-sparing investigational pneumococcal conjugate vaccine (PCV) for the prevention of invasive pneumococcal disease (IPD) in infants. The company also develops VAX-31, a 31-valent, carrier-sparing investigational PCV for the prevention of IPD in adults and children; VAX-A1, a novel conjugate vaccine candidate to prevent disease caused by Group A Streptococcus; VAX-PG, a novel protein vaccine candidate targeting the keystone pathogen responsible for periodontitis; VAX-GI, a novel preclinical vaccine candidate for the treatment of dysentery and shigellosis, which is caused by Shigella bacteria; and VAX-XL, a third-generation pneumococcal conjugate vaccine. The company was formerly known as SutroVax, Inc. and changed its name to Vaxcyte, Inc. in May 2020. Vaxcyte, Inc. was incorporated in 2013 and is headquartered in San Carlos, California.",
+    "website": "https://vaxcyte.com"
+  },
+  "PPLT": {
+    "_ts": 1776526532.6262076,
+    "country": "",
+    "employees": 0,
+    "industry": "",
+    "marketCap": 0,
+    "name": "abrdn Physical Platinum Shares ETF",
+    "sector": "",
+    "summary": "The fund designed for investors who want a cost-effective and convenient way to invest in platinum with minimal credit risk. Advantages of investing in the Shares include Ease and Flexibility of Investment, Expenses, Minimal Credit Risk.",
+    "website": ""
+  },
   "RGLD": {
     "_ts": 1776524226.5328085,
     "country": "United States",
@@ -307,6 +571,17 @@
     "summary": "Royal Gold, Inc., together with its subsidiaries, acquires and manages precious metal streams, royalties, and related interests in North America, South and Central America, Europe, the Middle East, Africa, and the Australia Pacific. It operates through Acquisition and Management of Stream Interests and Acquisition and Management of Royalty Interests segments. The company engages in the acquisition of existing stream and royalty interests; and the financing of projects that are in production, development, or in the exploration stage in exchange for stream or royalty interests, which consists of gold, silver, copper, nickel, zinc, lead, molybdenum, diamonds, uranium, iron, platinum, palladium, rhodium, lithium, titanium, cobalt, barite, tungsten, and coal. Its properties are located in Canada, Chile, the Dominican Republic, the United States, Zambia, Australia, Ghana, Brazil, Mexico, Bolivia, Argentina, Nicaragua, Macedonia, Botswana, Spain, and internationally. Royal Gold, Inc. was incorporated in 1981 and is based in Denver, Colorado.",
     "website": "https://www.royalgold.com"
   },
+  "ROK": {
+    "_ts": 1776526532.6262076,
+    "country": "United States",
+    "employees": 26000,
+    "industry": "Specialty Industrial Machinery",
+    "marketCap": 46741848064,
+    "name": "Rockwell Automation, Inc.",
+    "sector": "Industrials",
+    "summary": "Rockwell Automation, Inc., together with its subsidiaries, provides industrial automation and digital transformation solutions in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. It operates in three segments: Intelligent Devices, Software & Control, and Lifecycle Services. The company offers drives, motion, advanced material handling, safety, sensing, industrial components, hardware, software, and configured-to-order products; and control and visualization software and hardware, digital twin, simulation and information software, network and security infrastructure, and custom-engineered systems. It also provides digital consulting, professional services, engineered-to-order solutions, recurring services, cybersecurity, safety, remote monitoring, customer technical support and repair, asset management and optimization consulting, and training, as well as spare parts. The company sells its products through independent distributors in relation to its direct sales force. It serves discrete end markets, including automotive, semiconductor, e-commerce, and warehouse automation; hybrid end markets, such as food and beverage, life sciences, and tire; and process end markets comprising energy, mining, and chemicals. The company was formerly known as Rockwell International Corporation and changed its name to Rockwell Automation, Inc. in February 2002. Rockwell Automation, Inc. was founded in 1903 and is headquartered in Milwaukee, Wisconsin.",
+    "website": "https://www.rockwellautomation.com"
+  },
   "ROST": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -317,6 +592,39 @@
     "sector": "Consumer Cyclical",
     "summary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California.",
     "website": "https://www.rossstores.com"
+  },
+  "SAIA": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 13734,
+    "industry": "Trucking",
+    "marketCap": 11580439552,
+    "name": "Saia, Inc.",
+    "sector": "Industrials",
+    "summary": "Saia, Inc., together with its subsidiaries, operates as a transportation company in North America. The company provides less-than-truckload services for shipments between 100 and 10,000 pounds. It also offers other value-added services, including brokered truckload, expedited transportation, and other logistics services. As of December 31, 2025, it operated 213 owned and leased terminals; and owned approximately 7,700 tractors and 26,500 trailers. The company was formerly known as SCS Transportation, Inc. and changed its name to Saia, Inc. in July 2002. Saia, Inc. was founded in 1924 and is headquartered in Johns Creek, Georgia.",
+    "website": "https://www.saia.com"
+  },
+  "SGML": {
+    "_ts": 1776526513.6243865,
+    "country": "Canada",
+    "employees": 560,
+    "industry": "Other Industrial Metals & Mining",
+    "marketCap": 2196866560,
+    "name": "Sigma Lithium Corporation",
+    "sector": "Basic Materials",
+    "summary": "Sigma Lithium Corporation engages in the exploration and development of lithium deposits in Brazil. It serves lithium-ion battery supply chain for electric vehicle industries. The company was formerly known as Sigma Lithium Resources Corporation and changed its name to Sigma Lithium Corporation in July 2021. Sigma Lithium Corporation is based in Toronto, Canada.",
+    "website": "https://www.sigmalithiumresources.com"
+  },
+  "SKM": {
+    "_ts": 1776526532.6262076,
+    "country": "South Korea",
+    "employees": 0,
+    "industry": "Telecom Services",
+    "marketCap": 14522439680,
+    "name": "SK Telecom Co., Ltd.",
+    "sector": "Communication Services",
+    "summary": "SK Telecom Co., Ltd. engages in the provision of wireless telecommunication services in South Korea. The company operates through three segments: Cellular Services, Fixed-Line Telecommunications Services, and Other Businesses. The Cellular Services segment offers wireless voice and data transmission, Internet of Things solutions, platform, cloud, smart factory solutions, subscription, advertising and curated shopping under T Deal brand name, and metaverse platform-based services, as well as sells wireless devices. Its Fixed-Line Telecommunications Services segment provides fixed-line telephone services; broadband Internet services; media platform services, such as Internet protocol TV and cable TV; and business communications services. The Other Businesses segment offers T-commerce services, as well as portal services under Nate brand name. In addition, it provides call center management, base station maintenance, information gathering and consulting, database and internet website, and broadcasting programs; manufactures non-memory and other electronic integrated circuits; international telecommunication and mobile; and operates information and communications facilities, and mobile virtual network, as well as engages in telecommunications and communication device retail business. SK Telecom Co., Ltd. was incorporated in 1984 and is based in Seoul, South Korea.",
+    "website": "https://www.sktelecom.com"
   },
   "SLB": {
     "_ts": 1776482612.3358293,
@@ -340,6 +648,17 @@
     "summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the United States, Europe, the Middle East, Africa, Asia, and internationally. The company offers solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
     "website": "https://www.sandisk.com"
   },
+  "SQM": {
+    "_ts": 1776526513.6243865,
+    "country": "Chile",
+    "employees": 7739,
+    "industry": "Specialty Chemicals",
+    "marketCap": 25364639744,
+    "name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
+    "sector": "Basic Materials",
+    "summary": "Sociedad Qu\u00edmica y Minera de Chile S.A. produces and sells specialty plant nutrients, and iodine and its derivatives worldwide. The company offers sodium potassium nitrate, specialty blends, and other specialty fertilizers under Ultrasol, Qrop, Speedfol, Allganic, Ultrasoline, Prop, and Prohydric brands. It also provides iodine and its derivatives for use in medical, agricultural, industrial, and human and animal nutrition products comprising x-ray contrast media, biocides, antiseptics and disinfectants, pharmaceutical intermediates, polarizing films for LCD and LED screens, chemicals, organic compounds, and pigments, as well as added to edible salt to prevent iodine deficiency disorders. In addition, the company produces lithium carbonate and lithium hydroxide which are used in the production of cathode material for, secondary batteries; lithium chloride; and basic lithium chemicals and lithium derivatives used in lubricating greases for heat-resistant glass, chips for the ceramic and glazing industry, and air conditioning chemicals, as well as other pharmaceutical syntheses and metal alloys. Further, it produces potassium sulfate; and potassium chloride which are used to nourish various crops. Additionally, the company produces and markets industrial chemicals, such as sodium nitrate mainly used in the production of glass and explosives, metal processing and recycling, and production of insulating materials and adhesives; potassium nitrate used as a raw material to produce frits and special glass, as well as in the enamel, metal treatment, and pyrotechnic sectors; solar salts used as a thermal storage medium in solar power generation plants; and potassium chloride as an additive in oil drilling and food processing sectors. Furthermore, it is involved in the sale of third-party fertilizers; and the exploration of copper, gold, and silver deposits. The company was founded in 1926 and is headquartered in Santiago, Chile.",
+    "website": "https://www.sqm.com"
+  },
   "STNG": {
     "_ts": 1776482612.3358293,
     "country": "Monaco",
@@ -361,6 +680,17 @@
     "sector": "Basic Materials",
     "summary": "Teck Resources Limited engages in research, exploration, development, processing, smelting, refining, and reclamation of mineral properties in Asia, the Americas, and Europe. It operates through Copper and Zinc segments. The company offers copper, zinc, and lead concentrates, as well as refined zinc, lead, and silver. It also produces lead, precious metals, molybdenum, fertilizers, and other metals; and sells refined metals or concentrates. In addition, it explores for gold. The company was formerly known as Teck Cominco Limited and changed its name to Teck Resources Limited in April 2009. Teck Resources Limited was founded in 1913 and is based in Vancouver, Canada.",
     "website": "https://www.teck.com"
+  },
+  "TEL": {
+    "_ts": 1776526513.6243865,
+    "country": "Ireland",
+    "employees": 90000,
+    "industry": "Electronic Components",
+    "marketCap": 72250826752,
+    "name": "TE Connectivity plc",
+    "sector": "Technology",
+    "summary": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the Asia\u0096Pacific, and the Americas. The company operates through two reportable segments, Transportation Solutions and Industrial Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, back shells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, microfluidic devices, and sensor manufacturing services as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland.",
+    "website": "https://www.te.com"
   },
   "TERN": {
     "_ts": 1776482612.3358293,
@@ -394,5 +724,38 @@
     "sector": "Industrials",
     "summary": "UniFirst Corporation provides workplace uniforms and protective work wear clothing in the United States, Europe, and Canada. It operates in three segments: Uniform & Facility Service Solutions; First Aid & Safety Solutions; and Other. The company offers uniforms, including shirts, pants, jackets, coveralls, lab coats, smocks, and aprons; specialized protective wear comprising flame resistant and high visibility garments; and first aid cabinet services and other safety supplies, as well as safety training services. It also engages in the rent and sale of non-garment items and services that include industrial wiping products, floor mats, dry and wet mops, and other textile products, as well as the wholesale distribution and pill packaging operations for non-prescription medicines. In addition, the company provides garment service options, including full-service rental and lease programs. Further, it offers restroom and cleaning supplies, such as air fresheners, paper products, gloves, masks, hand soaps, and sanitizers. Additionally, it provides specialized services, including decontamination and cleaning of work clothes and other items that have been exposed to radioactive materials and services special cleanroom protective wear. The company serves automobile service centers and dealers, delivery services, food and general merchandise retailers, manufacturers, maintenance facilities, restaurants and food-related businesses, business service companies, soft and durable goods wholesalers, transportation companies, energy producing operations, and healthcare providers, as well as others that require employee clothing on the job for image, identification, protection, or utility purposes. UniFirst Corporation was founded in 1936 and is headquartered in Wilmington, Massachusetts.",
     "website": "https://www.unifirst.com"
+  },
+  "VIK": {
+    "_ts": 1776526513.6243865,
+    "country": "Bermuda",
+    "employees": 13000,
+    "industry": "Travel Services",
+    "marketCap": 38272905216,
+    "name": "Viking Holdings Ltd",
+    "sector": "Consumer Cyclical",
+    "summary": "Viking Holdings Ltd focused on providing passenger cruises in North America, the United Kingdom, and internationally. It operates through the River and Ocean segments. The Group defines its products based on the type of cruise offering and language of the cruise service. The River segment provides river cruises outside the United States for English-speaking passengers. The Ocean segment provides ocean cruises for English-speaking passengers. The company provides expedition cruises for English-speaking passengers, Mississippi River cruises for English-speaking passengers and Viking Asia, which includes cruises in languages other than English provided. As of December 31, 2025, Viking Holdings Ltd operated a fleet of 103 ships, including 89 river vessels comprising 59 Longships, 12 smaller classes based on the Longship design,15 other river vessels, and three river vessel charters, including the Viking Saigon, Viking Mississippi, and the Viking Tonle; 12 ocean ships and 2 expedition ships. The company was formerly known as MISA Investments Limited and changed its name to Viking Holdings Ltd in November 2016. The company was founded in 1997 and is based in Pembroke, Bermuda.",
+    "website": "https://www.viking.com"
+  },
+  "WBS": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 4498,
+    "industry": "Banks - Regional",
+    "marketCap": 11829893120,
+    "name": "Webster Financial Corporation",
+    "sector": "Financial Services",
+    "summary": "Webster Financial Corporation operates as the bank holding company for Webster Bank, National Association that provides various financial products and services to businesses, individuals, and families in the United States. It operates through three segments: Commercial Banking, Healthcare Financial Services, and Consumer Banking. The company offers checking, savings, and money market accounts; time deposits; individual retirement account retirement savings; certificates of deposit; mortgages; home equity loans and lines of credit; business lines of credit; overdrafts; and term, commercial mortgages, student, PPA, SBA, and personal loans. It also provides commercial lending; financial planning, life and long-term insurance, personal retirement, and portfolio management solutions; employee retirement plans; credit cards; payroll services; automated clearing house payables and wires; bill pay, remote deposit capture, merchant, and lockbox services; treasury management and investment services; private banking services; wealth management services; and online and mobile banking services. Webster Financial Corporation was founded in 1870 and is headquartered in Stamford, Connecticut.",
+    "website": "https://www.websterbank.com"
+  },
+  "WCC": {
+    "_ts": 1776526513.6243865,
+    "country": "United States",
+    "employees": 21000,
+    "industry": "Industrial Distribution",
+    "marketCap": 15526071296,
+    "name": "WESCO International, Inc.",
+    "sector": "Industrials",
+    "summary": "WESCO International, Inc. provides business-to-business distribution, logistics services, and supply chain solutions in the United States, Canada, and internationally. It operates through three segments: Electrical & Electronic Solutions (EES), Communications & Security Solutions (CSS), and Utility & Broadband Solutions (UBS). The EES segment offers electrical equipment and supplies, automation and connected devices, security, lighting, wire and cable, and safety, as well as maintenance, repair, and operating (MRO) products. This segment also offers project execution solutions, direct and indirect manufacturing supply chain optimization programs, lighting and renewables advisory services, and digital and automation solutions. The CSS segment provides data center, network infrastructure, and security solutions. This segment sells products directly to security and network, professional audio/visual, and systems integrators, as well as data communications contractors. It also provides professional A/V, safety, facilities, and energy management solutions. The UBS segment offers products and services to investor-owned utilities, electric power cooperatives and municipalities, service and wireless providers, broadband operators, and contractors. This segment's products include wires and cables, transformers, transmission and distribution hardware, switches, protective devices, connectors, lighting and connectivity products, conduits, fiber and power cables, pole line hardware, racks, cabinets, safety and MRO products, and wireless devices. It also offers fiber project management, high and medium voltage project design and support, pre-wired meters and capacitor banks, meter testing and advanced metering infrastructure installation, personal protective equipment, dielectric testing, and tool repair, as well as emergency response, storage yard, materials, and logistics management solutions. The company was founded in 1922 and is headquartered in Pittsburgh, Pennsylvania.",
+    "website": "https://www.wesco.com"
   }
 }

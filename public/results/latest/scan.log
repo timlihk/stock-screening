@@ -122,4 +122,4 @@ ticker  price  ret_1m  ret_3m  ret_6m  adr_pct  qm_momentum  qm_ema_ride  qm_con
   ACHC  27.00   16.38  131.16    9.14     4.70         True         True              True         3                      6            4        -0.84
   PTON   5.10   25.93  -19.43  -32.18     7.74         True         True             False         3                      6            4       -43.33
 
-=== Done in 11.1 min · results at public/results/latest/results_universe_20260418.csv ===
+=== Done in 8.3 min · results at public/results/latest/results_universe_20260418.csv ===

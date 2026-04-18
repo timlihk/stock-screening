@@ -8,13 +8,3 @@ JBHT|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 79 · RS +62
 CLS|expansion_tight 7 · Entry 4 · Lead 5 · QM 2 · RSpct 96 · RS +355
 SAIA|expansion_tight 6 · Entry 5 · Lead 4 · QM 1 · RSpct 50 · RS -0
 HSBC|expansion_tight 6 · Entry 4 · Lead 6 · QM 2 · RSpct 76 · RS +50
-VIK|expansion_tight 6 · Entry 4 · Lead 6 · QM 1 · RSpct 82 · RS +77
-FLS|expansion_tight 6 · Entry 4 · Lead 5 · QM 1 · RSpct 80 · RS +65
-NUVL|expansion_tight 6 · Entry 4 · Lead 4 · QM 2 · RSpct 63 · RS +17
-TEL|qm_continuation 6 · Entry 5 · Lead 4 · QM 2 · RSpct 79 · RS +59
-WCC|qm_continuation 6 · Entry 4 · Lead 6 · QM 3 · RSpct 83 · RS +81
-EVR|qm_continuation 6 · Entry 4 · Lead 4 · QM 2 · RSpct 80 · RS +69
-AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · RS +22
-FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · RS +147
-MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · RS +148
-WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · RS +34
