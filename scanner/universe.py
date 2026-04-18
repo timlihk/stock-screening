@@ -111,10 +111,9 @@ def finviz_prefilter(
     """
     tokens: list[str] = []
 
-    # Exchanges
-    ex_parts = [FINVIZ_EXCHANGE_TOKENS[e.lower()] for e in exchanges if e.lower() in FINVIZ_EXCHANGE_TOKENS]
-    if ex_parts:
-        tokens.append("|".join(ex_parts))
+    # Exchange filter: Finviz's free screener is single-value for exchange,
+    # so piping two exchange tokens yields 0 results. We skip this filter and
+    # rely on the base universe (SEC EDGAR) to constrain exchanges upstream.
 
     # Price bucket
     price_map = {5: "sh_price_o5", 7: "sh_price_o7", 10: "sh_price_o10",
@@ -219,16 +218,28 @@ def resolve_universe(
     print(f"  base universe ({source}): {len(base)}", file=sys.stderr)
 
     if use_finviz_prefilter:
-        fv = finviz_prefilter(
-            exchanges=exchanges,
-            min_price=min_price,
-            min_avg_vol=min_avg_vol,
-            above_sma=above_sma,
-        )
+        try:
+            fv = finviz_prefilter(
+                exchanges=exchanges,
+                min_price=min_price,
+                min_avg_vol=min_avg_vol,
+                above_sma=above_sma,
+            )
+        except Exception as e:
+            print(f"  Finviz pre-filter failed ({e}); using full base universe", file=sys.stderr)
+            return base
         print(f"  Finviz candidates: {len(fv)}", file=sys.stderr)
+        if len(fv) < 50:
+            # Suspiciously small — likely a broken filter or Finviz blocked us.
+            # Fall back to the full base universe rather than crashing downstream.
+            print(f"  too few Finviz candidates; using full base universe", file=sys.stderr)
+            return base
         base_set = set(base)
         intersected = sorted(t for t in fv if t in base_set)
         print(f"  after Finviz intersection: {len(intersected)}", file=sys.stderr)
+        if len(intersected) < 50:
+            print(f"  intersection too small; using full base universe", file=sys.stderr)
+            return base
         return intersected
 
     return base

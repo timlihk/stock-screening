@@ -386,9 +386,22 @@ def main():
 
     print(f"\n[3/4] Liquidity pass (price >= ${args.min_price:.2f}, ADV >= ${args.min_adv_usd:,.0f})...",
           file=sys.stderr)
+    if not universe:
+        print("  ERROR: universe is empty; cannot continue", file=sys.stderr)
+        # Write an empty results file so downstream steps can gracefully report no data.
+        pd.DataFrame(columns=["ticker", "price", "all_pass", "setup_score"]).to_csv(
+            f"{args.output_dir}/results_universe_{date_tag}.csv", index=False)
+        sys.exit(2)
+
     liq = liquidity_pass(universe, args.min_price, args.min_adv_usd)
     liq.to_csv(f"{args.output_dir}/universe_liquid_{date_tag}.csv", index=False)
     print(f"  liquid survivors: {len(liq)}", file=sys.stderr)
+
+    if liq.empty:
+        print("  ERROR: no tickers passed liquidity filter", file=sys.stderr)
+        pd.DataFrame(columns=["ticker", "price", "all_pass", "setup_score"]).to_csv(
+            f"{args.output_dir}/results_universe_{date_tag}.csv", index=False)
+        sys.exit(3)
 
     print(f"\n[4/4] Full SEPA scan on {len(liq)} survivors (Qullamaggie={args.use_qullamaggie})...",
           file=sys.stderr)
