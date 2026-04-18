@@ -104,6 +104,20 @@
             <option value="false">No</option>
           </select>
         </div>
+        <div>
+          <label>Finviz pre-filter (fast path)</label>
+          <select name="use_finviz_prefilter">
+            <option value="true" selected>On — trims universe 3-10x</option>
+            <option value="false">Off — scan full universe</option>
+          </select>
+        </div>
+        <div>
+          <label>Universe source</label>
+          <select name="universe_source">
+            <option value="sec_edgar" selected>SEC EDGAR (authoritative)</option>
+            <option value="nasdaq_trader">Nasdaq Trader (legacy)</option>
+          </select>
+        </div>
       </div>
       <div class="row">
         <button type="submit">Queue scan</button>
@@ -150,6 +164,8 @@ function fmtInputs(fd) {
     min_adv_usd: fd.get("min_adv_usd"),
     min_setup_score: fd.get("min_setup_score"),
     use_qullamaggie: fd.get("use_qullamaggie"),
+    use_finviz_prefilter: fd.get("use_finviz_prefilter"),
+    universe_source: fd.get("universe_source"),
   };
 }
 

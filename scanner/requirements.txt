@@ -2,3 +2,4 @@ yfinance==0.2.*
 pandas>=2.2
 numpy>=1.26
 requests>=2.31
+finvizfinance>=0.14   # optional, only used when --use-finviz-prefilter is set

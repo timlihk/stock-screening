@@ -29,6 +29,13 @@ import pandas as pd
 import requests
 import yfinance as yf
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from universe import resolve_universe
+    HAVE_UNIVERSE_MODULE = True
+except ImportError:
+    HAVE_UNIVERSE_MODULE = False
+
 BENCH = ["SPY", "QQQ", "IWM"]
 OUT_DIR_DEFAULT = "/tmp/sepa-scan"
 
@@ -324,6 +331,11 @@ def parse_args():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--exchanges", default="nasdaq,nyse",
                    help="Comma-separated: nasdaq, nyse, amex, arca, bats")
+    p.add_argument("--universe-source", default="sec_edgar",
+                   choices=["sec_edgar", "nasdaq_trader"])
+    p.add_argument("--use-finviz-prefilter", action="store_true",
+                   help="Pre-filter universe via Finviz (much faster)")
+    p.add_argument("--finviz-above-sma", type=int, default=50, choices=[0, 20, 50, 200])
     p.add_argument("--min-price", type=float, default=5.0)
     p.add_argument("--min-adv-usd", type=float, default=50e6,
                    help="Min 20-day avg dollar volume ($)")
@@ -355,8 +367,19 @@ def main():
         print(f"{e['label']}: price={e['price']:.2f}  50MA={e['ma50']:.2f}  200MA={e['ma200']:.2f}  "
               f"above200={e['above_ma200']}  above50={e['above_ma50']}  1y={e['ret_1y']:+.1f}%")
 
-    print(f"\n[2/4] Fetching universe from Nasdaq Trader ({', '.join(exchanges)})...", file=sys.stderr)
-    universe = fetch_universe(exchanges, include_etf=args.include_etf)
+    print(f"\n[2/4] Fetching universe (source={args.universe_source}, exchanges={', '.join(exchanges)})...",
+          file=sys.stderr)
+    if HAVE_UNIVERSE_MODULE:
+        universe = resolve_universe(
+            source=args.universe_source,
+            exchanges=exchanges,
+            use_finviz_prefilter=args.use_finviz_prefilter,
+            min_price=args.min_price,
+            min_avg_vol=200_000,
+            above_sma=args.finviz_above_sma or None,
+        )
+    else:
+        universe = fetch_universe(exchanges, include_etf=args.include_etf)
     if args.max_tickers:
         universe = universe[:args.max_tickers]
     print(f"  universe size: {len(universe)}", file=sys.stderr)

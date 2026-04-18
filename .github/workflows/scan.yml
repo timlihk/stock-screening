@@ -25,6 +25,18 @@ on:
         default: "true"
         type: choice
         options: ["true", "false"]
+      use_finviz_prefilter:
+        description: "Use Finviz pre-filter (fast, ~3x speedup)"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      universe_source:
+        description: "Universe provider (sec_edgar is authoritative)"
+        required: true
+        default: "sec_edgar"
+        type: choice
+        options: ["sec_edgar", "nasdaq_trader"]
   schedule:
     # 21:15 UTC weekdays = ~17:15 ET, ~30 min after US close
     - cron: "15 21 * * 1-5"
@@ -60,24 +72,36 @@ jobs:
           MIN_ADV="${{ github.event.inputs.min_adv_usd || '50000000' }}"
           MIN_SCORE="${{ github.event.inputs.min_setup_score || '3' }}"
           USE_QM="${{ github.event.inputs.use_qullamaggie || 'true' }}"
+          USE_FV="${{ github.event.inputs.use_finviz_prefilter || 'true' }}"
+          SRC="${{ github.event.inputs.universe_source || 'sec_edgar' }}"
           echo "exchanges=$EXCHANGES" >> "$GITHUB_OUTPUT"
           echo "min_price=$MIN_PRICE" >> "$GITHUB_OUTPUT"
           echo "min_adv=$MIN_ADV" >> "$GITHUB_OUTPUT"
           echo "min_score=$MIN_SCORE" >> "$GITHUB_OUTPUT"
           echo "use_qm=$USE_QM" >> "$GITHUB_OUTPUT"
+          echo "use_fv=$USE_FV" >> "$GITHUB_OUTPUT"
+          echo "src=$SRC" >> "$GITHUB_OUTPUT"
           echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
           echo "run_id=$(date -u +%Y%m%dT%H%M%SZ)" >> "$GITHUB_OUTPUT"
 
       - name: Run SEPA universe scan
         id: scan
+        env:
+          SEC_USER_AGENT: "stock-screening github-actions@timlihk"
         run: |
           mkdir -p public/results/latest
           QM_FLAG="--use-qullamaggie"
           if [ "${{ steps.params.outputs.use_qm }}" = "false" ]; then
             QM_FLAG="--no-qullamaggie"
           fi
+          FV_FLAG=""
+          if [ "${{ steps.params.outputs.use_fv }}" = "true" ]; then
+            FV_FLAG="--use-finviz-prefilter"
+          fi
           python3 scanner/sepa_scan_universe.py \
             --exchanges "${{ steps.params.outputs.exchanges }}" \
+            --universe-source "${{ steps.params.outputs.src }}" \
+            $FV_FLAG \
             --min-price "${{ steps.params.outputs.min_price }}" \
             --min-adv-usd "${{ steps.params.outputs.min_adv }}" \
             --min-setup-score "${{ steps.params.outputs.min_score }}" \
@@ -137,7 +161,9 @@ jobs:
               "min_price": "${{ steps.params.outputs.min_price }}",
               "min_adv_usd": "${{ steps.params.outputs.min_adv }}",
               "min_setup_score": "${{ steps.params.outputs.min_score }}",
-              "use_qullamaggie": "${{ steps.params.outputs.use_qm }}"
+              "use_qullamaggie": "${{ steps.params.outputs.use_qm }}",
+              "use_finviz_prefilter": "${{ steps.params.outputs.use_fv }}",
+              "universe_source": "${{ steps.params.outputs.src }}"
             },
             "triggered_by": "${{ github.event_name }}",
             "actor": "${{ github.actor }}"

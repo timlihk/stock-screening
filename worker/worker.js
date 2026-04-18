@@ -149,6 +149,8 @@ function normalizeInputs(body) {
     min_adv_usd: String(body.min_adv_usd ?? "50000000"),
     min_setup_score: String(body.min_setup_score ?? "3"),
     use_qullamaggie: String(body.use_qullamaggie ?? "true"),
+    use_finviz_prefilter: String(body.use_finviz_prefilter ?? "true"),
+    universe_source: String(body.universe_source ?? "sec_edgar"),
   };
 }
 
@@ -163,6 +165,8 @@ function validateInputs(i) {
   const nScore = Number(i.min_setup_score);
   if (!Number.isInteger(nScore) || nScore < 0 || nScore > 8) return "min_setup_score must be 0-8";
   if (!["true", "false"].includes(i.use_qullamaggie)) return "use_qullamaggie must be true/false";
+  if (!["true", "false"].includes(i.use_finviz_prefilter)) return "use_finviz_prefilter must be true/false";
+  if (!["sec_edgar", "nasdaq_trader"].includes(i.universe_source)) return "invalid universe_source";
   return null;
 }
 
