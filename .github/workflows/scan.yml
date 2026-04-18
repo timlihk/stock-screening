@@ -147,13 +147,15 @@ jobs:
           DESC_CACHE: public/cache/descriptions.json
         run: |
           mkdir -p public/cache
+          rm -f /tmp/sepa-scan/charts_*.html
           TICKERS=$(awk -F'|' '{print $1}' public/results/latest/shortlist.txt | paste -sd ',' -)
           python3 scanner/build_chart_page.py \
             --date "${{ steps.params.outputs.date }}" \
             --tickers "$TICKERS" \
             --notes-file public/results/latest/shortlist.txt \
             --no-open
-          cp /tmp/sepa-scan/charts_*.html public/results/latest/charts.html || true
+          # exactly one file should be present; use ls -t just in case
+          cp "$(ls -t /tmp/sepa-scan/charts_*.html | head -1)" public/results/latest/charts.html
 
       - name: RS leaders (IBD-style, top 50 by universe RS percentile)
         env:
@@ -166,13 +168,15 @@ jobs:
             --top-n 50
           # Chart page for the top 12 of the RS leader list
           if [ -s public/results/latest/rs_leaders.txt ]; then
+            rm -f /tmp/sepa-scan/charts_*.html
             TICKERS=$(awk -F'|' '{print $1}' public/results/latest/rs_leaders.txt | head -12 | paste -sd ',' -)
+            # plain date -- don't embed title in date since it becomes part of the filename
             python3 scanner/build_chart_page.py \
-              --date "${{ steps.params.outputs.date }} — RS Leaders" \
+              --date "${{ steps.params.outputs.date }}" \
               --tickers "$TICKERS" \
               --notes-file public/results/latest/rs_leaders.txt \
               --no-open
-            cp /tmp/sepa-scan/charts_*.html public/results/latest/rs_leaders_charts.html || true
+            cp "$(ls -t /tmp/sepa-scan/charts_*.html | head -1)" public/results/latest/rs_leaders_charts.html
           fi
 
       - name: Sector rotation dashboard
