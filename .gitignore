@@ -7,8 +7,5 @@ node_modules/
 .wrangler/
 dist/
 .DS_Store
-*.log
-# local test outputs
+# local test outputs (CI-generated results at public/results/latest/ are committed)
 /tmp/
-public/results/latest/charts.html
-!public/results/latest/.gitkeep
