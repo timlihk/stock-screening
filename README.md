@@ -13,8 +13,9 @@ browser ──HTTP──▶ Cloudflare Worker ──GH API──▶ GitHub Actio
 ```
 
 - **Scanner** (`scanner/`): Python. Fetches Nasdaq Trader symbol directory,
-  applies liquidity + SEPA trend template + VCP-lite + Deepvue/Minervini
-  extensions + optional Qullamaggie momentum layer.
+  applies liquidity, then scores separate breakout families instead of one
+  blended momentum bucket: SEPA/VCP, power-play continuation, Qullamaggie
+  continuation, and recent expansion followed by tight digestion.
 - **Workflow** (`.github/workflows/scan.yml`): `workflow_dispatch` with inputs,
   plus daily cron at 17:15 ET. Commits `public/results/latest/` back to `main`.
 - **Landing page** (`public/index.html`): form that posts thresholds to the Worker.
@@ -25,12 +26,19 @@ browser ──HTTP──▶ Cloudflare Worker ──GH API──▶ GitHub Actio
 
 | Layer | What it checks | Source |
 |---|---|---|
-| Trend template (8 points) | MA alignment, 52w position, RS > 0 vs SPY | Minervini |
-| VCP-lite (0-4) | Contracting pullbacks, range tightening, volume dry-up | SEPA literature |
-| Deepvue/Minervini (+4) | ATR compression, 5-day tight range, Power Play, breakout confirmation | Deepvue partnership |
-| Qullamaggie (0-4) | 1/3/6-mo top-momentum, 10/20 EMA ride, ADR% ≥ 5%, tight consolidation | Kristjan Kullamägi |
+| Stock quality | Trend template, longer-term RS, distance from highs, orderly structure | Minervini + leadership filters |
+| Entry quality | Base quality, pivot proximity, quiet pullback, accumulation vs distribution | First-principles breakout logic |
+| Setup families | `sepa_vcp`, `power_play`, `qm_continuation`, `expansion_tight` | Minervini, Jeff Sun, Kullamägi |
+| Regime filter | SPY/QQQ/IWM trend state changes minimum setup and entry thresholds | Breakout tape filter |
 
-Final `setup_score` = 0–8. Shortlist threshold is configurable (default 3).
+The scanner no longer treats every trader input as one additive `setup_score`.
+Instead it identifies the best-fitting setup family for each ticker, then ranks
+within a regime-aware shortlist using:
+
+- `primary_setup`: best-fitting breakout archetype
+- `setup_score`: strength inside that archetype
+- `entry_score`: how usable the entry is now
+- `leadership_score`: how strong the stock itself is
 
 ## Local run
 
@@ -42,7 +50,7 @@ python3 scanner/sepa_scan_universe.py \
     --min-price 5 \
     --min-adv-usd 50000000 \
     --use-qullamaggie \
-    --min-setup-score 3
+    --min-setup-score 6
 ```
 
 ## Deploy (one-time setup)

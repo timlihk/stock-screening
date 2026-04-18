@@ -215,6 +215,139 @@ def candle_quality_stats(open_, high, low, close, window=21):
     abr_pct = (body / c).mean() * 100
     return float(body_range_ratio), float(abr_pct)
 
+
+def close_in_range_stats(high, low, close, window=10):
+    """Average close location within each day's range over the trailing window."""
+    if len(close) < window:
+        return np.nan
+    h = high.iloc[-window:]
+    l = low.iloc[-window:]
+    c = close.iloc[-window:]
+    rng = (h - l).replace(0, np.nan)
+    loc = ((c - l) / rng).clip(lower=0, upper=1)
+    return float(loc.mean())
+
+
+def volume_pressure_stats(open_, close, vol, window=20):
+    """Return up/down volume ratio over the trailing window."""
+    if len(close) < window or len(vol) < window:
+        return np.nan
+    o = open_.iloc[-window:]
+    c = close.iloc[-window:]
+    v = vol.iloc[-window:]
+    up_vol = v[c >= o].sum()
+    down_vol = v[c < o].sum()
+    if down_vol <= 0:
+        return np.inf if up_vol > 0 else np.nan
+    return float(up_vol / down_vol)
+
+
+def distribution_day_count(close, vol, window=20):
+    """Count high-volume down days, a simple proxy for institutional selling."""
+    if len(close) < window + 1 or len(vol) < window + 1:
+        return 0
+    c = close.iloc[-(window + 1):]
+    v = vol.iloc[-(window + 1):]
+    down = c.pct_change() < -0.002
+    heavier = v > v.shift(1)
+    return int((down & heavier).iloc[1:].sum())
+
+
+def quiet_down_weeks(close, vol, weeks=6):
+    """Count down weeks that occur on lighter volume than the prior week."""
+    df = pd.DataFrame({"Close": close, "Volume": vol})
+    w = df.resample("W-FRI").agg({"Close": "last", "Volume": "sum"}).dropna()
+    if len(w) < weeks + 1:
+        return 0
+    last = w.iloc[-(weeks + 1):]
+    down = last["Close"].diff() < 0
+    lighter = last["Volume"] < last["Volume"].shift(1)
+    return int((down & lighter).iloc[1:].sum())
+
+
+def recent_expansion_profile(close, high, low, vol, lookback=15):
+    """Detect a recent expansion day followed by constructive digestion."""
+    if len(close) < lookback + 21:
+        return {"recent_expansion": False, "post_expansion_tight": False}
+
+    avg_vol_20 = vol.iloc[-(lookback + 20):-lookback].mean()
+    recent = pd.DataFrame({
+        "close": close.iloc[-lookback:],
+        "high": high.iloc[-lookback:],
+        "low": low.iloc[-lookback:],
+        "vol": vol.iloc[-lookback:],
+    })
+    day_ret = recent["close"].pct_change().fillna(0)
+    vol_ratio = recent["vol"] / avg_vol_20 if avg_vol_20 > 0 else np.nan
+    expansion_mask = (day_ret >= 0.05) & (vol_ratio >= 1.8)
+    if not expansion_mask.any():
+        return {"recent_expansion": False, "post_expansion_tight": False}
+
+    anchor_idx = recent.index[expansion_mask][-1]
+    post = recent.loc[anchor_idx:]
+    ref_close = post["close"].iloc[0]
+    drawdown_pct = (post["low"].min() / ref_close - 1) * 100
+    rebound_range_pct = (post["high"].max() / post["low"].min() - 1) * 100
+    return {
+        "recent_expansion": True,
+        "post_expansion_tight": drawdown_pct >= -10 and rebound_range_pct <= 18,
+    }
+
+
+def base_structure(close, high, low):
+    """Pick the best recent base and return its pivot/shape metrics."""
+    price = close.iloc[-1]
+    best = None
+    for length in (25, 35, 45, 55, 65):
+        if len(close) < length:
+            continue
+        c = close.iloc[-length:]
+        h = high.iloc[-length:]
+        l = low.iloc[-length:]
+        base_high = float(h.max())
+        base_low = float(l.min())
+        if base_high <= 0 or base_high <= base_low:
+            continue
+        depth_pct = (base_high - base_low) / base_high * 100
+        if depth_pct < 6 or depth_pct > 40:
+            continue
+        last10_high = float(h.iloc[-10:].max())
+        last10_low = float(l.iloc[-10:].min())
+        tightness_pct = (last10_high - last10_low) / price * 100 if price > 0 else np.nan
+        close_position = (price - base_low) / (base_high - base_low)
+        pivot_pos = int(np.argmax(h.values))
+        pivot_age = length - 1 - pivot_pos
+        pct_to_pivot = (price / base_high - 1) * 100
+        score = abs(depth_pct - 18) + tightness_pct + abs(min(pct_to_pivot, 0)) * 1.5
+        if close_position < 0.6 or pivot_age < 3:
+            score += 100
+        candidate = {
+            "base_length": length,
+            "base_depth_pct": depth_pct,
+            "base_tightness_pct": tightness_pct,
+            "base_close_position": close_position,
+            "pivot": base_high,
+            "pivot_age": pivot_age,
+            "pct_to_pivot": pct_to_pivot,
+            "base_valid": close_position >= 0.6 and pivot_age >= 3 and tightness_pct <= 15,
+            "base_score": score,
+        }
+        if best is None or candidate["base_score"] < best["base_score"]:
+            best = candidate
+    if best is None:
+        return {
+            "base_length": np.nan,
+            "base_depth_pct": np.nan,
+            "base_tightness_pct": np.nan,
+            "base_close_position": np.nan,
+            "pivot": np.nan,
+            "pivot_age": np.nan,
+            "pct_to_pivot": np.nan,
+            "base_valid": False,
+            "base_score": np.nan,
+        }
+    return best
+
 def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     if df is None or df.empty:
         return None
@@ -288,6 +421,18 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     hh_hl_orderly = hh_hl_pct >= 40            # >=40% of last 60 sessions are HH/HL
     candle_quality, abr21_pct = candle_quality_stats(open_, high, low, close, window=21)
     candle_orderly = not np.isnan(candle_quality) and candle_quality >= 0.44  # Vlad's "ok" tier
+    avg_close_in_range = close_in_range_stats(high, low, close, window=10)
+    close_in_upper_range = not np.isnan(avg_close_in_range) and avg_close_in_range >= 0.60
+    up_down_vol_ratio = volume_pressure_stats(open_, close, vol, window=20)
+    accumulation_support = (not np.isnan(up_down_vol_ratio) and up_down_vol_ratio >= 1.20)
+    distribution_days = distribution_day_count(close, vol, window=20)
+    quiet_pullback_weeks = quiet_down_weeks(close, vol, weeks=6)
+    quiet_pullback = quiet_pullback_weeks >= 2
+    expansion = recent_expansion_profile(close, high, low, vol, lookback=15)
+    base = base_structure(close, high, low)
+    pivot = base["pivot"]
+    pct_to_pivot = base["pct_to_pivot"]
+    breakout_ready = not np.isnan(pct_to_pivot) and -3.0 <= pct_to_pivot <= 2.0
 
     # Jeff Sun extensions
     # 1) ATR% extension from 50-MA — entry ceiling at ≤ 4× (anti-chase)
@@ -298,9 +443,56 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     ret_5d = (price / close.iloc[-6] - 1) * 100 if len(close) >= 6 else np.nan
     compression_1w = not np.isnan(ret_5d) and abs(ret_5d) <= 5
 
-    setup_score = vcp_score + sum([atr_compression, tight_range, power_play,
-                                    breakout_confirm, hh_hl_orderly, candle_orderly,
-                                    not_extended_50ma, compression_1w])
+    leadership_score = sum([
+        all_pass,
+        not np.isnan(ret_6m) and ret_6m >= 30,
+        pct_from_hi >= -12,
+        hh_hl_orderly,
+        price > ma20,
+        not np.isnan(rs_vs_spy) and rs_vs_spy >= 10,
+    ])
+    entry_score = sum([
+        base["base_valid"],
+        breakout_ready,
+        quiet_pullback,
+        close_in_upper_range,
+        accumulation_support,
+        distribution_days <= 2,
+        not_extended_50ma,
+    ])
+
+    sepa_vcp_score = sum([
+        all_pass,
+        base["base_valid"],
+        pb_count >= 2,
+        contracting_pbs,
+        contracting_range,
+        quiet_pullback or vol_dry_up,
+        breakout_ready,
+        close_in_upper_range,
+        accumulation_support,
+        distribution_days <= 2,
+    ])
+    power_play_score = sum([
+        not np.isnan(ret_6m) and ret_6m >= 85,
+        not np.isnan(ret_15d) and -12 <= ret_15d <= 8,
+        pct_from_hi >= -12,
+        price > ma20,
+        tight_range or base["base_tightness_pct"] <= 12,
+        quiet_pullback or vol_dry_up,
+        not_extended_50ma,
+        close_in_upper_range,
+    ])
+
+    qm_score = 0
+    qm_momentum = False
+    qm_ema_ride = False
+    adr_pct = np.nan
+    qm_adr_pct = False
+    qm_consolidation = False
+    qm_continuation_score = 0
+    ret_1m = np.nan
+    ret_3m = np.nan
 
     out = dict(
         ticker=tkr, price=price,
@@ -316,7 +508,18 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         candle_quality=candle_quality, abr21_pct=abr21_pct, candle_orderly=candle_orderly,
         atr50ma_ext=atr50ma_ext, not_extended_50ma=not_extended_50ma,
         ret_5d=ret_5d, compression_1w=compression_1w,
-        pct_to_pivot=pct_to_pivot, setup_score=setup_score,
+        avg_close_in_range=avg_close_in_range, close_in_upper_range=close_in_upper_range,
+        up_down_vol_ratio=up_down_vol_ratio, accumulation_support=accumulation_support,
+        distribution_days=distribution_days, quiet_pullback_weeks=quiet_pullback_weeks,
+        quiet_pullback=quiet_pullback,
+        recent_expansion=expansion["recent_expansion"],
+        post_expansion_tight=expansion["post_expansion_tight"],
+        base_length=base["base_length"], base_depth_pct=base["base_depth_pct"],
+        base_tightness_pct=base["base_tightness_pct"], base_close_position=base["base_close_position"],
+        pivot_age=base["pivot_age"], breakout_ready=breakout_ready,
+        leadership_score=leadership_score, entry_score=entry_score,
+        sepa_vcp_score=sepa_vcp_score, power_play_score=power_play_score,
+        pct_to_pivot=pct_to_pivot, pivot=pivot,
     )
 
     if use_qullamaggie:
@@ -336,14 +539,64 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         adr_pct = ((high - low) / close).tail(20).mean() * 100
         qm_adr_pct = adr_pct >= 5
         # Tight consolidation proxy (reuse 5-day range tightness)
-        qm_consolidation = tight_range
+        qm_consolidation = tight_range or quiet_pullback
         qm_score = sum([qm_momentum, qm_ema_ride, qm_adr_pct, qm_consolidation])
+        qm_continuation_score = sum([
+            qm_momentum,
+            qm_ema_ride,
+            qm_adr_pct,
+            qm_consolidation,
+            close_in_upper_range,
+            accumulation_support,
+            distribution_days <= 2,
+            not_extended_50ma,
+        ])
         out.update(dict(
             ret_1m=ret_1m, ret_3m=ret_3m,
             qm_momentum=qm_momentum, qm_ema_ride=qm_ema_ride,
             adr_pct=adr_pct, qm_adr_pct=qm_adr_pct,
             qm_consolidation=qm_consolidation, qm_score=qm_score,
+            qm_continuation_score=qm_continuation_score,
         ))
+
+    expansion_tight_score = sum([
+        expansion["recent_expansion"],
+        expansion["post_expansion_tight"],
+        pct_from_hi >= -12,
+        close_in_upper_range,
+        accumulation_support,
+        distribution_days <= 2,
+        not_extended_50ma,
+        breakout_ready or price > ma20,
+    ])
+
+    family_scores = {
+        "sepa_vcp": sepa_vcp_score,
+        "power_play": power_play_score,
+        "qm_continuation": qm_continuation_score if use_qullamaggie else 0,
+        "expansion_tight": expansion_tight_score,
+    }
+    primary_setup = max(family_scores, key=family_scores.get)
+    setup_score = family_scores[primary_setup]
+    primary_thresholds = {
+        "sepa_vcp": 7,
+        "power_play": 6,
+        "qm_continuation": 6,
+        "expansion_tight": 6,
+    }
+    primary_setup_valid = setup_score >= primary_thresholds.get(primary_setup, 99)
+    if not primary_setup_valid:
+        primary_setup = "none"
+
+    out.update(dict(
+        expansion_tight_score=expansion_tight_score,
+        primary_setup=primary_setup,
+        primary_setup_score=setup_score,
+        setup_score=setup_score,
+        primary_setup_valid=primary_setup_valid,
+        stock_quality=leadership_score,
+        entry_quality=entry_score,
+    ))
     return out
 
 def full_scan(tickers, spy_ret_1y, use_qullamaggie=True, batch=400):
@@ -378,6 +631,37 @@ def env_stats(c, label):
     ret_1y = (price / c.iloc[-252] - 1) * 100
     return dict(label=label, price=price, ma50=ma50, ma200=ma200,
                 above_ma200=price > ma200, above_ma50=price > ma50, ret_1y=ret_1y)
+
+
+def market_regime_profile(spy, qqq, iwm):
+    score = sum([
+        spy["above_ma50"], spy["above_ma200"],
+        qqq["above_ma50"], qqq["above_ma200"],
+        iwm["above_ma50"],
+        spy["ret_1y"] > 0, qqq["ret_1y"] > 0,
+    ])
+    if score >= 6:
+        label = "risk_on"
+        min_setup = 6
+        min_entry = 4
+        min_leadership = 4
+    elif score >= 4:
+        label = "mixed"
+        min_setup = 6
+        min_entry = 5
+        min_leadership = 4
+    else:
+        label = "risk_off"
+        min_setup = 7
+        min_entry = 5
+        min_leadership = 5
+    return {
+        "label": label,
+        "score": score,
+        "min_setup": min_setup,
+        "min_entry": min_entry,
+        "min_leadership": min_leadership,
+    }
 
 def parse_args():
     p = argparse.ArgumentParser(description=__doc__)
@@ -423,6 +707,10 @@ def main():
     for e in (spy, qqq, iwm):
         print(f"{e['label']}: price={e['price']:.2f}  50MA={e['ma50']:.2f}  200MA={e['ma200']:.2f}  "
               f"above200={e['above_ma200']}  above50={e['above_ma50']}  1y={e['ret_1y']:+.1f}%")
+    regime = market_regime_profile(spy, qqq, iwm)
+    print(f"Regime: {regime['label']} (score={regime['score']}/7, "
+          f"min_setup={regime['min_setup']}, min_entry={regime['min_entry']}, "
+          f"min_leadership={regime['min_leadership']})")
 
     print(f"\n[2/4] Fetching universe (source={args.universe_source}, exchanges={', '.join(exchanges)})...",
           file=sys.stderr)
@@ -477,10 +765,23 @@ def main():
         df["rs_pct_rank"] = np.nan
         df["rs_top_20"] = False
 
+    df["market_regime"] = regime["label"]
+    df["regime_score"] = regime["score"]
+    df["regime_eligible"] = (
+        df["primary_setup_valid"]
+        & (df["setup_score"] >= np.maximum(args.min_setup_score, regime["min_setup"]))
+        & (df["entry_score"] >= regime["min_entry"])
+        & (df["leadership_score"] >= regime["min_leadership"])
+    )
+
     df.to_csv(f"{args.output_dir}/results_universe_{date_tag}.csv", index=False)
 
-    passers = df[df.all_pass].copy()
-    print(f"\n=== TREND-TEMPLATE PASS RATE: {len(passers)}/{len(df)} ===")
+    passers = df[df["regime_eligible"]].copy()
+    print(f"\n=== TREND-TEMPLATE PASS RATE: {int(df['all_pass'].sum())}/{len(df)} ===")
+    print(f"=== REGIME-ELIGIBLE SETUPS: {len(passers)}/{len(df)} ===")
+    if not passers.empty:
+        family_counts = passers["primary_setup"].value_counts().to_dict()
+        print(f"Eligible setup mix: {family_counts}")
 
     # Jeff Sun "no biotechs" — drop Healthcare/Biotechnology names using the
     # description cache's sector/industry fields. Unknown tickers pass through;
@@ -501,31 +802,39 @@ def main():
         else:
             print(f"  exclude-biotech: description cache missing; no filter applied", file=sys.stderr)
 
-    shortlist = passers[passers.setup_score >= args.min_setup_score].copy()
-    if args.use_qullamaggie and "qm_score" in shortlist.columns:
-        shortlist = shortlist.sort_values(
-            ["setup_score", "qm_score", "rs_pct_rank"], ascending=[False, False, False])
-    else:
-        shortlist = shortlist.sort_values(["setup_score", "rs_pct_rank"], ascending=[False, False])
+    shortlist = passers.copy()
+    family_order = {"sepa_vcp": 0, "power_play": 1, "qm_continuation": 2, "expansion_tight": 3}
+    shortlist["family_rank"] = shortlist["primary_setup"].map(family_order).fillna(99)
+    sort_cols = ["family_rank", "setup_score", "entry_score", "leadership_score", "rs_pct_rank"]
+    shortlist = shortlist.sort_values(sort_cols, ascending=[True, False, False, False, False])
 
-    cols = ["ticker", "price", "pct_from_hi", "pct_to_pivot", "vcp_score",
-            "tight_range", "power_play", "breakout_confirm",
-            "hh_hl_pct", "candle_quality", "hh_hl_orderly", "candle_orderly",
-            "atr50ma_ext", "not_extended_50ma", "ret_5d", "compression_1w",
-            "vol_ratio", "rs_vs_spy", "rs_pct_rank", "setup_score"]
+    cols = ["ticker", "primary_setup", "price", "pct_from_hi", "pct_to_pivot",
+            "base_length", "base_depth_pct", "base_tightness_pct",
+            "leadership_score", "entry_score", "setup_score",
+            "sepa_vcp_score", "power_play_score", "expansion_tight_score",
+            "breakout_ready", "quiet_pullback_weeks", "distribution_days",
+            "avg_close_in_range", "up_down_vol_ratio", "vol_ratio",
+            "rs_vs_spy", "rs_pct_rank"]
     if args.use_qullamaggie:
-        cols += ["ret_1m", "ret_3m", "adr_pct", "qm_score"]
-    print(f"\n=== COMPOSITE SHORTLIST (setup_score>={args.min_setup_score}): {len(shortlist)} ===\n")
+        cols += ["ret_1m", "ret_3m", "adr_pct", "qm_score", "qm_continuation_score"]
+    print(f"\n=== BREAKOUT SHORTLIST ({regime['label']}, setup_score>={max(args.min_setup_score, regime['min_setup'])}): {len(shortlist)} ===\n")
     print(shortlist[cols].head(50).to_string(index=False, float_format=lambda x: f"{x:.2f}"))
 
     # Qullamaggie-focused cut (independent of SEPA score)
     if args.use_qullamaggie and "qm_score" in df.columns:
-        qm_only = df[(df.qm_score >= 3) & (df.price >= args.min_price)].copy()
-        qm_only = qm_only.sort_values("qm_score", ascending=False)
-        print(f"\n=== QULLAMAGGIE HIGH-SCORE (qm_score>=3): {len(qm_only)} ===")
+        qm_only = df[
+            (df["primary_setup"] == "qm_continuation")
+            & (df["qm_continuation_score"] >= 6)
+            & (df["entry_score"] >= regime["min_entry"])
+        ].copy()
+        qm_only = qm_only.sort_values(
+            ["qm_continuation_score", "entry_score", "rs_pct_rank"],
+            ascending=[False, False, False]
+        )
+        print(f"\n=== QULLAMAGGIE CONTINUATION CANDIDATES: {len(qm_only)} ===")
         qm_cols = ["ticker", "price", "ret_1m", "ret_3m", "ret_6m",
                    "adr_pct", "qm_momentum", "qm_ema_ride", "qm_consolidation",
-                   "qm_score", "setup_score", "pct_from_hi"]
+                   "qm_score", "qm_continuation_score", "entry_score", "pct_from_hi"]
         print(qm_only[qm_cols].head(30).to_string(index=False, float_format=lambda x: f"{x:.2f}"))
 
     elapsed = time.time() - t0

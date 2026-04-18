@@ -18,6 +18,7 @@ import os
 import random
 import sys
 import time
+from datetime import timezone
 from pathlib import Path
 
 import pandas as pd
@@ -42,26 +43,53 @@ def _save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, indent=2, sort_keys=True) + "\n")
 
 
-def _fetch_next_earnings_days(ticker: str, retries: int = 2) -> int:
-    """Return days to next earnings announcement, or UNKNOWN if unavailable."""
+def _days_until(event_ts: float, now_ts: float) -> int | None:
+    """Return integer days until the event, or None if it has already passed."""
+    delta_seconds = event_ts - now_ts
+    if delta_seconds <= 0:
+        return None
+    return int(delta_seconds // 86400)
+
+
+def _cached_days(entry: dict, now_ts: float) -> int | None:
+    """Return current days-to-earnings from a cache entry, or None if unusable."""
+    event_ts = entry.get("event_ts")
+    if isinstance(event_ts, (int, float)):
+        return _days_until(float(event_ts), now_ts)
+
+    # Backward compatibility with the original cache format.
+    cached_days = entry.get("days")
+    cached_at = entry.get("_ts")
+    if not isinstance(cached_days, (int, float)) or not isinstance(cached_at, (int, float)):
+        return None
+    if int(cached_days) >= UNKNOWN:
+        return UNKNOWN
+    adjusted = int(cached_days) - int((now_ts - float(cached_at)) // 86400)
+    return adjusted if adjusted > 0 else None
+
+
+def _fetch_next_earnings_info(ticker: str, retries: int = 2) -> tuple[int, float | None]:
+    """Return (days to next earnings, event timestamp), or UNKNOWN if unavailable."""
     for attempt in range(retries):
         try:
             df = yf.Ticker(ticker).earnings_dates
             if df is None or len(df) == 0:
-                return UNKNOWN
+                return UNKNOWN, None
             now = pd.Timestamp.now(tz=df.index.tz)
             future = df[df.index > now]
             if len(future) == 0:
-                return UNKNOWN
-            delta = future.index[0] - now
-            return int(delta.days)
+                return UNKNOWN, None
+            event_at = future.index[0].to_pydatetime()
+            event_ts = event_at.astimezone(timezone.utc).timestamp()
+            days = _days_until(event_ts, time.time())
+            return (days if days is not None else UNKNOWN), event_ts
         except Exception as e:
             msg = str(e).lower()
             if "too many requests" in msg or "rate" in msg or "429" in msg:
                 time.sleep((2 ** attempt) + random.random())
                 continue
-            return UNKNOWN
-    return UNKNOWN
+            return UNKNOWN, None
+    return UNKNOWN, None
 
 
 def get_earnings_map(tickers: list[str]) -> dict[str, int]:
@@ -74,20 +102,24 @@ def get_earnings_map(tickers: list[str]) -> dict[str, int]:
 
     for t in tickers:
         entry = cache.get(t)
-        if entry and entry.get("_ts", 0) > cutoff and "days" in entry:
-            # If cached "days" is near zero, the earnings date has probably passed;
-            # trust the cache until TTL expires to avoid re-fetching churn.
-            result[t] = int(entry["days"])
-        else:
+        if not entry or entry.get("_ts", 0) <= cutoff:
             to_fetch.append(t)
+            continue
+        cached_days = _cached_days(entry, now)
+        if cached_days is None:
+            to_fetch.append(t)
+            continue
+        result[t] = int(cached_days)
 
     if to_fetch:
         print(f"  earnings cache: {len(tickers) - len(to_fetch)} hit, {len(to_fetch)} miss",
               file=sys.stderr)
 
     for idx, t in enumerate(to_fetch):
-        days = _fetch_next_earnings_days(t)
-        cache[t] = {"days": days, "_ts": now}
+        days, event_ts = _fetch_next_earnings_info(t)
+        cache[t] = {"_ts": now, "days": days}
+        if event_ts is not None:
+            cache[t]["event_ts"] = event_ts
         result[t] = days
         if idx < len(to_fetch) - 1:
             time.sleep(0.6)   # rate-limit hygiene
