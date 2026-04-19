@@ -87,6 +87,18 @@
     "revenue_yoy_growth": null,
     "sample_quarters": 8
   },
+  "ASND": {
+    "_ts": 1776599355.3581786,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 0
+  },
   "ATI": {
     "_ts": 1776597966.2045534,
     "earnings_accelerating": false,
