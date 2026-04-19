@@ -351,6 +351,17 @@
     "summary": "Evercore Inc., together with its subsidiaries, operates as an independent investment banking firm in the Americas, Europe, Middle East, Africa, and Asia-Pacific. The company operates through two segments, Investment Banking & Equities, and Investment Management. The Investment Banking & Equities segment offers strategic advisory services, such as mergers, and acquisitions, strategic, defense, and shareholder advisory, special committee assignments, and real estate strategic advisory; private capital advisory and fundraising, market risk management and hedging, private capital markets and debt advisory, liability management and restructuring, and equity capital markets execution and advisory services; and research, sales, and trading professionals services on a content-led platform to its institutional investor clients. The Investment Management segment provides wealth management services to high-net-worth individuals, foundations, and endowments. The company was formerly known as Evercore Partners Inc. and changed its name to Evercore Inc. in August 2017. Evercore Inc. was founded in 1995 and is headquartered in New York, New York.",
     "website": "https://www.evercore.com"
   },
+  "FCX": {
+    "_ts": 1776597291.9278603,
+    "country": "United States",
+    "employees": 29000,
+    "industry": "Copper",
+    "marketCap": 100905926656,
+    "name": "Freeport-McMoRan Inc.",
+    "sector": "Basic Materials",
+    "summary": "Freeport-McMoRan Inc. engages in the mining of mineral properties in North America, South America, and Indonesia. It primarily explores for copper, gold, molybdenum, silver, and other metals. The company's assets include the Grasberg minerals district in Indonesia; Morenci, Bagdad, Safford, Sierrita, and Miami in Arizona; Chino and Tyrone in New Mexico; and Henderson and Climax in Colorado, North America, as well as Cerro Verde in Peru and El Abra in Chile. Freeport-McMoRan Inc. was formerly known as Freeport-McMoRan Copper & Gold Inc. and changed its name to Freeport-McMoRan Inc. in July 2014. The company was incorporated in 1987 and is headquartered in Phoenix, Arizona.",
+    "website": "https://fcx.com"
+  },
   "FIX": {
     "_ts": 1776526540.22005,
     "country": "United States",
@@ -648,6 +659,28 @@
     "summary": "Vaxcyte, Inc., a clinical-stage vaccine innovation company, develops conjugate and novel protein vaccines to prevent or treat bacterial infectious diseases. Its lead vaccine candidate is VAX-24, a 24-valent carrier-sparing investigational pneumococcal conjugate vaccine (PCV) for the prevention of invasive pneumococcal disease (IPD) in infants. The company also develops VAX-31, a 31-valent, carrier-sparing investigational PCV for the prevention of IPD in adults and children; VAX-A1, a novel conjugate vaccine candidate to prevent disease caused by Group A Streptococcus; VAX-PG, a novel protein vaccine candidate targeting the keystone pathogen responsible for periodontitis; VAX-GI, a novel preclinical vaccine candidate for the treatment of dysentery and shigellosis, which is caused by Shigella bacteria; and VAX-XL, a third-generation pneumococcal conjugate vaccine. The company was formerly known as SutroVax, Inc. and changed its name to Vaxcyte, Inc. in May 2020. Vaxcyte, Inc. was incorporated in 2013 and is headquartered in San Carlos, California.",
     "website": "https://vaxcyte.com"
   },
+  "PLD": {
+    "_ts": 1776597291.9278603,
+    "country": "United States",
+    "employees": 2802,
+    "industry": "REIT - Industrial",
+    "marketCap": 135266672640,
+    "name": "Prologis, Inc.",
+    "sector": "Real Estate",
+    "summary": "Prologis, Inc. is a self-administered and self-managed REIT and is the sole general partner of Prologis, L.P. through which it holds substantially all of its assets. We operate Prologis, Inc. and Prologis, L.P. as one enterprise and, therefore, our discussion and analysis refer to Prologis, Inc. and its consolidated subsidiaries, including Prologis, L.P. We invest in real estate through wholly owned subsidiaries and other entities through which we co-invest with partners and investors (co-investment ventures). We have a significant ownership interest in the co-investment ventures, which are either consolidated or unconsolidated based on our level of control of the entity. Prologis, Inc. began operating as a fully integrated real estate company in 1997 and elected to be taxed as a REIT under the Internal Revenue Code of 1986, as amended (Internal Revenue Code or IRC). We believe the current organization and method of operation enable Prologis, Inc. to maintain its status as a REIT. Prologis, L.P. was also formed in 1997. We operate, manage and measure the operating performance of our properties on an owned and managed (O&M) basis. Our O&M portfolio includes our consolidated properties as well as properties owned by our unconsolidated co investment ventures, which we manage. We make operating decisions based on our total O&M portfolio as we manage the properties without regard to their ownership. Prologis, Inc. was incorporated in 1983 in Maryland, USA.",
+    "website": "https://www.prologis.com"
+  },
+  "POWL": {
+    "_ts": 1776597291.9278603,
+    "country": "United States",
+    "employees": 3143,
+    "industry": "Electrical Equipment & Parts",
+    "marketCap": 8779234304,
+    "name": "Powell Industries, Inc.",
+    "sector": "Industrials",
+    "summary": "Powell Industries, Inc., together with its subsidiaries, designs, develops, manufactures, sells, and services custom-engineered equipment and systems. The company's products portfolio includes integrated power control room substations, custom-engineered modules, and electrical houses; and traditional and arc-resistant distribution switchgears and control gears, medium-voltage circuit breakers, monitoring and control communications systems, motor control centers, switches, and bus duct systems. It also provides field service inspection, installation, commissioning, modification, and repair services; spare parts; retrofit and retrofill components for existing systems; and replacement circuit breakers for switchgears. The company serves onshore and offshore production, liquefied natural gas facilities and terminals, pipelines and refineries, petrochemical, electric utility, light rail traction power, mining and metals, pulp and paper, data centers, commercial construction, and other industrial markets, as well as universities and government entities. It operates in the United States, Canada, the Middle East, Africa, Europe, Mexico, the Asia/Pacific, and Central and South America. Powell Industries, Inc. was founded in 1947 and is headquartered in Houston, Texas.",
+    "website": "https://www.powellind.com"
+  },
   "PPLT": {
     "_ts": 1776526532.6262076,
     "country": "",
@@ -735,6 +768,17 @@
     "sector": "Communication Services",
     "summary": "SK Telecom Co., Ltd. engages in the provision of wireless telecommunication services in South Korea. The company operates through three segments: Cellular Services, Fixed-Line Telecommunications Services, and Other Businesses. The Cellular Services segment offers wireless voice and data transmission, Internet of Things solutions, platform, cloud, smart factory solutions, subscription, advertising and curated shopping under T Deal brand name, and metaverse platform-based services, as well as sells wireless devices. Its Fixed-Line Telecommunications Services segment provides fixed-line telephone services; broadband Internet services; media platform services, such as Internet protocol TV and cable TV; and business communications services. The Other Businesses segment offers T-commerce services, as well as portal services under Nate brand name. In addition, it provides call center management, base station maintenance, information gathering and consulting, database and internet website, and broadcasting programs; manufactures non-memory and other electronic integrated circuits; international telecommunication and mobile; and operates information and communications facilities, and mobile virtual network, as well as engages in telecommunications and communication device retail business. SK Telecom Co., Ltd. was incorporated in 1984 and is based in Seoul, South Korea.",
     "website": "https://www.sktelecom.com"
+  },
+  "SLAB": {
+    "_ts": 1776597291.9278603,
+    "country": "United States",
+    "employees": 1930,
+    "industry": "Semiconductors",
+    "marketCap": 7018646016,
+    "name": "Silicon Laboratories Inc.",
+    "sector": "Technology",
+    "summary": "Silicon Laboratories Inc., a fabless semiconductor company, provides mixed-signal analog intensive products in the United States, China, Taiwan, and internationally. Its products are used in various electronic products in a range of applications for the industrial Internet of Things (IoT), including connected home and security, industrial automation and control, smart metering and agriculture, smart street lighting, renewable energy, electric vehicle supply equipment, industrial wearables and equipment, commercial building automation, consumer electronics, asset tracking, and medical instrumentation; and commercial IoT applications, including smart buildings and lighting, access controls, asset tracking, electronic shelf labels, theft protection, power tools, and enterprise access points. The company's smart home applications comprise smart home cameras, locks, gateways, residential lighting, window shades/blinds, heating, ventilation, air conditioning, switches, smoke/CO detectors, sensors, and home security panels; and connected health applications, including diabetes management, consumer health and fitness, elderly care, patient monitoring, and activity tracking, as well as provides wireless microcontrollers products. It sells its products through its direct sales force, as well as a network of independent sales representatives and distributors. The company was founded in 1996 and is headquartered in Austin, Texas.",
+    "website": "https://www.silabs.com"
   },
   "SLB": {
     "_ts": 1776482612.3358293,
@@ -878,5 +922,16 @@
     "sector": "Industrials",
     "summary": "WESCO International, Inc. provides business-to-business distribution, logistics services, and supply chain solutions in the United States, Canada, and internationally. It operates through three segments: Electrical & Electronic Solutions (EES), Communications & Security Solutions (CSS), and Utility & Broadband Solutions (UBS). The EES segment offers electrical equipment and supplies, automation and connected devices, security, lighting, wire and cable, and safety, as well as maintenance, repair, and operating (MRO) products. This segment also offers project execution solutions, direct and indirect manufacturing supply chain optimization programs, lighting and renewables advisory services, and digital and automation solutions. The CSS segment provides data center, network infrastructure, and security solutions. This segment sells products directly to security and network, professional audio/visual, and systems integrators, as well as data communications contractors. It also provides professional A/V, safety, facilities, and energy management solutions. The UBS segment offers products and services to investor-owned utilities, electric power cooperatives and municipalities, service and wireless providers, broadband operators, and contractors. This segment's products include wires and cables, transformers, transmission and distribution hardware, switches, protective devices, connectors, lighting and connectivity products, conduits, fiber and power cables, pole line hardware, racks, cabinets, safety and MRO products, and wireless devices. It also offers fiber project management, high and medium voltage project design and support, pre-wired meters and capacitor banks, meter testing and advanced metering infrastructure installation, personal protective equipment, dielectric testing, and tool repair, as well as emergency response, storage yard, materials, and logistics management solutions. The company was founded in 1922 and is headquartered in Pittsburgh, Pennsylvania.",
     "website": "https://www.wesco.com"
+  },
+  "WULF": {
+    "_ts": 1776597291.9278603,
+    "country": "United States",
+    "employees": 141,
+    "industry": "Capital Markets",
+    "marketCap": 10111370240,
+    "name": "TeraWulf Inc.",
+    "sector": "Financial Services",
+    "summary": "TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.",
+    "website": "https://www.terawulf.com"
   }
 }
