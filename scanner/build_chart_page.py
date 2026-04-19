@@ -156,12 +156,27 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       allow_symbol_change: true,
       hide_side_toolbar: false,
       save_image: false,
+      // 4 different MA types so studies_overrides can color each distinctly.
+      // TradingView's embed widget applies overrides globally per study-name,
+      // so 4 MASimple instances would all share one color. Using SMA/EMA/WMA/HMA
+      // gives 4 separate override keys. At these lookbacks the visual behavior
+      // of these MA flavors is near-identical to pure SMAs.
       studies: [
-        { id: "MASimple@tv-basicstudies", inputs: { length: 10 } },
-        { id: "MASimple@tv-basicstudies", inputs: { length: 20 } },
-        { id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
-        { id: "MASimple@tv-basicstudies", inputs: { length: 200 } }
+        { id: "MASimple@tv-basicstudies", inputs: { length: 10 } },       // red
+        { id: "MAExponential@tv-basicstudies", inputs: { length: 20 } },  // orange
+        { id: "MAWeighted@tv-basicstudies", inputs: { length: 50 } },     // blue
+        { id: "MAHull@tv-basicstudies", inputs: { length: 200 } }         // purple
       ],
+      studies_overrides: {
+        "Moving Average.plot.color":              "#ef4444",  // SMA 10
+        "Moving Average.plot.linewidth":          1,
+        "Moving Average Exponential.plot.color":  "#f59e0b",  // EMA 20
+        "Moving Average Exponential.plot.linewidth": 1,
+        "Moving Average Weighted.plot.color":     "#3b82f6",  // WMA 50
+        "Moving Average Weighted.plot.linewidth": 2,
+        "Hull Moving Average.plot.color":         "#a855f7",  // HMA 200
+        "Hull Moving Average.plot.linewidth":     2
+      },
       support_host: "https://www.tradingview.com"
     });
     document.getElementById(`chart-${t}`).appendChild(w);
