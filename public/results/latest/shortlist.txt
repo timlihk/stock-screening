@@ -1,20 +1,20 @@
-APG|expansion_tight 7 · Entry 5 · Lead 6 · QM 2 · RSpct 80 · Industrials · RS +67
-SGML|expansion_tight 7 · Entry 4 · Lead 6 · QM 3 · RSpct 87 · Materials · RS +118
-SQM|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 88 · Materials · RS +120
-DBD|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · Technology · RS +74
-ESE|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · Technology · RS +72
-ON|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 86 · Technology · RS +106
-JBHT|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 79 · Industrials · RS +62
-CLS|expansion_tight 7 · Entry 4 · Lead 5 · QM 2 · RSpct 96 · Technology · RS +355
-SAIA|expansion_tight 6 · Entry 5 · Lead 4 · QM 1 · RSpct 50 · Industrials · RS -0
-VIK|expansion_tight 6 · Entry 4 · Lead 6 · QM 1 · RSpct 82 · Consumer Discretionary · RS +77
-HSBC|expansion_tight 6 · Entry 4 · Lead 6 · QM 2 · RSpct 76 · Financials · RS +50
-FLS|expansion_tight 6 · Entry 4 · Lead 5 · QM 1 · RSpct 80 · Industrials · RS +65
-NUVL|expansion_tight 6 · Entry 4 · Lead 4 · QM 2 · RSpct 63 · Health Care · RS +17
-TEL|qm_continuation 6 · Entry 5 · Lead 4 · QM 2 · RSpct 79 · Technology · RS +59
-WCC|qm_continuation 6 · Entry 4 · Lead 6 · QM 3 · RSpct 83 · Industrials · RS +81
-EVR|qm_continuation 6 · Entry 4 · Lead 4 · QM 2 · RSpct 80 · Financials · RS +69
-AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · Energy · RS +22
-FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · Energy · RS +147
-MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · Technology · RS +148
-WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · Financials · RS +34
+CASY|sepa_vcp 8 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
+ARR|sepa_vcp 8 · Entry 5 · Lead 6 · Tight 2/3 · QM 2 · RSpct 61 · Real Estate · Earn 11d · RS +13
+AME|sepa_vcp 7 · Entry 6 · Lead 6 · Tight 2/3 · QM 2 · RSpct 61 · Industrials · Earn 11d · RS +13
+GSAT|sepa_vcp 7 · Entry 5 · Lead 11 · Tight 0/3 · QM 3 · RSpct 95 · Communication Services · Earn 18d · RS +274
+SKM|sepa_vcp 7 · Entry 5 · Lead 9 · Tight 1/3 · QM 3 · RSpct 70 · Communication Services · Earn 22d · RS +33
+SLAB|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 86 · Earn 23d · RS +100
+ALSN|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 59 · Earn 11d · RS +11
+KYMR|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 93 · Health Care · Earn 19d · RS +214
+PCVX|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 82 · Health Care · Earn 17d · RS +77
+HWM|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 2/3 · QM 2 · RSpct 81 · Earn 18d · RS +70
+AXSM|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 1/3 · QM 2 · RSpct 74 · Earn 15d · RS +44
+TKR|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 2/3 · QM 2 · RSpct 74 · Earn 17d · RS +43
+CSCO|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 2/3 · QM 2 · RSpct 65 · Earn 24d · RS +22
+ATMU|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 2/3 · QM 2 · RSpct 78 · Earn 12d · RS +55
+RBC|sepa_vcp 7 · Entry 5 · Lead 6 · Tight 2/3 · QM 2 · RSpct 75 · Earn 26d · RS +48
+ITT|sepa_vcp 7 · Entry 5 · Lead 6 · Tight 2/3 · QM 2 · RSpct 72 · Earn 17d · RS +38
+MFC|sepa_vcp 7 · Entry 5 · Lead 6 · Tight 1/3 · QM 2 · RSpct 52 · Earn 24d · RS +2
+ENS|sepa_vcp 7 · Entry 4 · Lead 11 · Tight 2/3 · QM 2 · RSpct 87 · Earn 31d · RS +108
+BTSG|sepa_vcp 7 · Entry 4 · Lead 11 · Tight 2/3 · QM 2 · RSpct 89 · Health Care · Earn 12d · RS +145
+CM|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 1/3 · QM 2 · RSpct 77 · Earn 39d · RS +53

@@ -1,10 +1,10 @@
-APG|expansion_tight 7 · Entry 5 · Lead 6 · QM 2 · RSpct 80 · Industrials · RS +67
-SGML|expansion_tight 7 · Entry 4 · Lead 6 · QM 3 · RSpct 87 · Materials · RS +118
-SQM|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 88 · Materials · RS +120
-DBD|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · Technology · RS +74
-ESE|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · Technology · RS +72
-ON|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 86 · Technology · RS +106
-JBHT|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 79 · Industrials · RS +62
-CLS|expansion_tight 7 · Entry 4 · Lead 5 · QM 2 · RSpct 96 · Technology · RS +355
-SAIA|expansion_tight 6 · Entry 5 · Lead 4 · QM 1 · RSpct 50 · Industrials · RS -0
-VIK|expansion_tight 6 · Entry 4 · Lead 6 · QM 1 · RSpct 82 · Consumer Discretionary · RS +77
+APG|expansion_tight 7 · Entry 5 · Lead 9 · Tight 1/3 · QM 2 · RSpct 80 · Industrials · RS +67
+SGML|expansion_tight 7 · Entry 4 · Lead 11 · Tight 0/3 · QM 3 · RSpct 87 · Materials · RS +118
+ON|expansion_tight 7 · Entry 4 · Lead 10 · Tight 0/3 · QM 1 · RSpct 86 · Technology · RS +106
+SQM|expansion_tight 7 · Entry 4 · Lead 9 · Tight 0/3 · QM 2 · RSpct 88 · Materials · RS +120
+CLS|expansion_tight 7 · Entry 4 · Lead 9 · Tight 0/3 · QM 2 · RSpct 96 · Technology · RS +355
+DBD|expansion_tight 7 · Entry 4 · Lead 9 · Tight 2/3 · QM 2 · RSpct 81 · Technology · RS +74
+JBHT|expansion_tight 7 · Entry 4 · Lead 9 · Tight 0/3 · QM 1 · RSpct 79 · Industrials · RS +62
+ESE|expansion_tight 7 · Entry 4 · Lead 8 · Tight 2/3 · QM 2 · RSpct 81 · Technology · RS +72
+SAIA|expansion_tight 6 · Entry 5 · Lead 6 · Tight 0/3 · QM 1 · RSpct 50 · Industrials · RS -0
+VIK|expansion_tight 6 · Entry 4 · Lead 9 · Tight 0/3 · QM 1 · RSpct 82 · Consumer Discretionary · RS +77
