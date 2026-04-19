@@ -1,10 +1,10 @@
-AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · RS +22
-FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · RS +147
-MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · RS +148
-WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · RS +34
-CAH|power_play 7 · Entry 4 · Lead 5 · QM 2 · RSpct 66 · RS +24
-DOV|power_play 7 · Entry 4 · Lead 5 · QM 2 · RSpct 51 · RS +0
-EA|power_play 7 · Entry 4 · Lead 4 · QM 2 · RSpct 55 · RS +7
+AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · Energy · RS +22
+FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · Energy · RS +147
+MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · Technology · RS +148
+WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · Financials · RS +34
+DOV|power_play 7 · Entry 4 · Lead 5 · QM 2 · RSpct 51 · Industrials · RS +0
+CAH|power_play 7 · Entry 4 · Lead 5 · QM 2 · RSpct 66 · Health Care · RS +24
+EA|power_play 7 · Entry 4 · Lead 4 · QM 2 · RSpct 55 · Communication Services · RS +7
+MKSI|power_play 6 · Entry 4 · Lead 6 · QM 3 · RSpct 95 · Technology · RS +304
+FIX|power_play 6 · Entry 4 · Lead 6 · QM 2 · RSpct 96 · Industrials · RS +337
 ATI|power_play 6 · Entry 4 · Lead 6 · QM 3 · RSpct 93 · Industrials · Earn 11d · RS +224
-MKSI|power_play 6 · Entry 4 · Lead 6 · QM 3 · RSpct 95 · RS +304
-FIX|power_play 6 · Entry 4 · Lead 6 · QM 2 · RSpct 96 · RS +337

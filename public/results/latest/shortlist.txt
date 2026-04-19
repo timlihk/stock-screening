@@ -1,20 +1,20 @@
-APG|expansion_tight 7 · Entry 5 · Lead 6 · QM 2 · RSpct 80 · RS +67
-SGML|expansion_tight 7 · Entry 4 · Lead 6 · QM 3 · RSpct 87 · RS +118
-SQM|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 88 · RS +120
-DBD|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · RS +74
-ESE|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · RS +72
-ON|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 86 · RS +106
-JBHT|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 79 · RS +62
-CLS|expansion_tight 7 · Entry 4 · Lead 5 · QM 2 · RSpct 96 · RS +355
-SAIA|expansion_tight 6 · Entry 5 · Lead 4 · QM 1 · RSpct 50 · RS -0
-HSBC|expansion_tight 6 · Entry 4 · Lead 6 · QM 2 · RSpct 76 · RS +50
-VIK|expansion_tight 6 · Entry 4 · Lead 6 · QM 1 · RSpct 82 · RS +77
-FLS|expansion_tight 6 · Entry 4 · Lead 5 · QM 1 · RSpct 80 · RS +65
-NUVL|expansion_tight 6 · Entry 4 · Lead 4 · QM 2 · RSpct 63 · RS +17
-TEL|qm_continuation 6 · Entry 5 · Lead 4 · QM 2 · RSpct 79 · RS +59
-WCC|qm_continuation 6 · Entry 4 · Lead 6 · QM 3 · RSpct 83 · RS +81
-EVR|qm_continuation 6 · Entry 4 · Lead 4 · QM 2 · RSpct 80 · RS +69
-AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · RS +22
-FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · RS +147
-MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · RS +148
-WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · RS +34
+APG|expansion_tight 7 · Entry 5 · Lead 6 · QM 2 · RSpct 80 · Industrials · RS +67
+SGML|expansion_tight 7 · Entry 4 · Lead 6 · QM 3 · RSpct 87 · Materials · RS +118
+SQM|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 88 · Materials · RS +120
+DBD|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · Technology · RS +74
+ESE|expansion_tight 7 · Entry 4 · Lead 6 · QM 2 · RSpct 81 · Technology · RS +72
+ON|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 86 · Technology · RS +106
+JBHT|expansion_tight 7 · Entry 4 · Lead 6 · QM 1 · RSpct 79 · Industrials · RS +62
+CLS|expansion_tight 7 · Entry 4 · Lead 5 · QM 2 · RSpct 96 · Technology · RS +355
+SAIA|expansion_tight 6 · Entry 5 · Lead 4 · QM 1 · RSpct 50 · Industrials · RS -0
+VIK|expansion_tight 6 · Entry 4 · Lead 6 · QM 1 · RSpct 82 · Consumer Discretionary · RS +77
+HSBC|expansion_tight 6 · Entry 4 · Lead 6 · QM 2 · RSpct 76 · Financials · RS +50
+FLS|expansion_tight 6 · Entry 4 · Lead 5 · QM 1 · RSpct 80 · Industrials · RS +65
+NUVL|expansion_tight 6 · Entry 4 · Lead 4 · QM 2 · RSpct 63 · Health Care · RS +17
+TEL|qm_continuation 6 · Entry 5 · Lead 4 · QM 2 · RSpct 79 · Technology · RS +59
+WCC|qm_continuation 6 · Entry 4 · Lead 6 · QM 3 · RSpct 83 · Industrials · RS +81
+EVR|qm_continuation 6 · Entry 4 · Lead 4 · QM 2 · RSpct 80 · Financials · RS +69
+AROC|power_play 7 · Entry 5 · Lead 6 · QM 2 · RSpct 65 · Energy · RS +22
+FTI|power_play 7 · Entry 5 · Lead 5 · QM 1 · RSpct 90 · Energy · RS +147
+MTSI|power_play 7 · Entry 4 · Lead 6 · QM 3 · RSpct 90 · Technology · RS +148
+WBS|power_play 7 · Entry 4 · Lead 6 · QM 2 · RSpct 70 · Financials · RS +34

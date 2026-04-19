@@ -1,10 +1,10 @@
-MUFG|sepa_vcp 8 · Entry 6 · Lead 4 · QM 2 · RSpct 66 · RS +23
+MUFG|sepa_vcp 8 · Entry 6 · Lead 4 · QM 2 · RSpct 66 · Financials · RS +23
 CASY|sepa_vcp 8 · Entry 5 · Lead 6 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
 ARR|sepa_vcp 8 · Entry 5 · Lead 5 · QM 2 · RSpct 61 · Real Estate · Earn 11d · RS +13
-AME|sepa_vcp 7 · Entry 6 · Lead 5 · QM 2 · RSpct 61 · Earn 11d · RS +13
+AME|sepa_vcp 7 · Entry 6 · Lead 5 · QM 2 · RSpct 61 · Industrials · Earn 11d · RS +13
+ROK|sepa_vcp 7 · Entry 6 · Lead 4 · QM 2 · RSpct 76 · Industrials · Earn 17d · RS +48
 PPLT|sepa_vcp 7 · Entry 6 · Lead 4 · QM 2 · RSpct 83 · RS +81
-ROK|sepa_vcp 7 · Entry 6 · Lead 4 · QM 2 · RSpct 76 · Earn 17d · RS +48
-GSAT|sepa_vcp 7 · Entry 5 · Lead 6 · QM 3 · RSpct 95 · Earn 18d · RS +274
-SKM|sepa_vcp 7 · Entry 5 · Lead 6 · QM 3 · RSpct 70 · Earn 23d · RS +33
-KYMR|sepa_vcp 7 · Entry 5 · Lead 6 · QM 2 · RSpct 93 · Earn 19d · RS +214
-PCVX|sepa_vcp 7 · Entry 5 · Lead 6 · QM 2 · RSpct 82 · Earn 18d · RS +77
+TKR|sepa_vcp 7 · Entry 5 · Lead 6 · QM 2 · RSpct 74 · Earn 17d · RS +43
+ALSN|sepa_vcp 7 · Entry 5 · Lead 6 · QM 2 · RSpct 59 · Earn 11d · RS +11
+GSAT|sepa_vcp 7 · Entry 5 · Lead 6 · QM 3 · RSpct 95 · Communication Services · Earn 18d · RS +274
+SKM|sepa_vcp 7 · Entry 5 · Lead 6 · QM 3 · RSpct 70 · Communication Services · Earn 22d · RS +33
