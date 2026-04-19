@@ -177,7 +177,10 @@ jobs:
           if "qm_continuation_score" in passers.columns:
               sort_cols.append("qm_continuation_score")
           sort_cols.append("rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy")
-          passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
+          passers = passers.sort_values(
+              sort_cols,
+              ascending=[True] + [False] * (len(sort_cols) - 1),
+          )
 
           # Evaluate ranked candidates in batches so only earnings-checked names
           # can qualify for the final shortlist. Check a larger pool (up to 80)
