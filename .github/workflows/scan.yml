@@ -143,17 +143,20 @@ jobs:
             --output-dir public/results/latest \
             --date "${{ steps.params.outputs.date }}"
 
-      - name: Build shortlist (with earnings filter + sector bonus)
+      - name: Build shortlist (earnings filter + sector bonus + fundamentals)
         env:
           DATE: ${{ steps.params.outputs.date }}
           DESC_CACHE: public/cache/descriptions.json
           EARNINGS_CACHE: public/cache/earnings.json
+          FUNDAMENTALS_CACHE: public/cache/fundamentals.json
           SECTORS_JSON: public/results/latest/sectors.json
+          SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
         run: |
           python3 - <<'PY'
           import os, sys, pandas as pd
           sys.path.insert(0, "scanner")
           from earnings import get_earnings_map
+          from fundamentals import get_fundamentals_map
           from sector_align import load_sector_ranks, load_description_cache, sector_bonus_for, sector_name_for
 
           p = "public/results/latest"
@@ -170,12 +173,27 @@ jobs:
           passers["sector_name"] = passers["ticker"].apply(lambda t: sector_name_for(t, desc_cache))
           passers["sector_bonus"] = passers["ticker"].apply(lambda t: sector_bonus_for(t, sector_ranks, desc_cache))
 
+          # SimFin fundamentals — pulled only for regime-eligible passers,
+          # 30-day disk cache. Adds fundamental_score (0-5) based on revenue
+          # + net-income YoY growth and acceleration. Graceful degradation
+          # if SIMFIN_API_KEY isn't set.
+          fund_map = get_fundamentals_map(passers["ticker"].tolist())
+          def _fund(t, key, default=0):
+              entry = fund_map.get(t) or {}
+              v = entry.get(key)
+              return v if v is not None else default
+          passers["fundamental_score"] = passers["ticker"].apply(lambda t: _fund(t, "fundamental_score"))
+          passers["revenue_yoy_growth"] = passers["ticker"].apply(lambda t: _fund(t, "revenue_yoy_growth", None))
+          passers["net_income_yoy_growth"] = passers["ticker"].apply(lambda t: _fund(t, "net_income_yoy_growth", None))
+          passers["earnings_accelerating"] = passers["ticker"].apply(lambda t: _fund(t, "earnings_accelerating", None))
+
           # Unified ranking: normalized family strength (excess above that
-          # family's threshold). Raw max(family_scores) would mechanically
-          # favor sepa_vcp (scale 0-10 vs. 0-8 for the others).
+          # family's threshold). Fundamentals ranks next — the SEPA "is this
+          # a real compounder" gate. Then entry/leadership/sector/ties.
           rank_col = "rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy"
-          sort_cols = ["best_family_excess", "entry_score", "leadership_score",
-                       "sector_bonus", "qualified_count", rank_col]
+          sort_cols = ["best_family_excess", "fundamental_score", "entry_score",
+                       "leadership_score", "sector_bonus", "qualified_count",
+                       rank_col]
           passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
 
           # Evaluate ranked candidates in batches so only earnings-checked names
@@ -239,6 +257,8 @@ jobs:
                   parts.append(f"Lead {int(row['leadership_score'])}")
               if "tightness_score" in row and pd.notna(row["tightness_score"]):
                   parts.append(f"Tight {int(row['tightness_score'])}/3")
+              if "fundamental_score" in row and pd.notna(row["fundamental_score"]) and int(row["fundamental_score"]) > 0:
+                  parts.append(f"Fund {int(row['fundamental_score'])}/5")
               if "qm_score" in row and pd.notna(row["qm_score"]):
                   parts.append(f"QM {int(row['qm_score'])}")
               if "rs_pct_rank" in row and pd.notna(row["rs_pct_rank"]):
