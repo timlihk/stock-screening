@@ -1,7 +1,7 @@
 """
 Earnings proximity cache.
 
-Returns days-to-next-earnings for any ticker. Cached on disk (7-day TTL)
+Returns business-days-to-next-earnings for any ticker. Cached on disk (7-day TTL)
 since earnings calendars don't change often inside a week. All three traders
 (Minervini, Qullamaggie, Jeff Sun) refuse to enter within ~10 business days
 of an earnings report — gap risk is asymmetric.
@@ -21,6 +21,7 @@ import time
 from datetime import timezone
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import yfinance as yf
 
@@ -44,11 +45,12 @@ def _save_cache(cache: dict) -> None:
 
 
 def _days_until(event_ts: float, now_ts: float) -> int | None:
-    """Return integer days until the event, or None if it has already passed."""
-    delta_seconds = event_ts - now_ts
-    if delta_seconds <= 0:
+    """Return business days until the event, or None if it has already passed."""
+    if event_ts <= now_ts:
         return None
-    return int(delta_seconds // 86400)
+    start_date = pd.Timestamp(now_ts, unit="s", tz="UTC").date()
+    event_date = pd.Timestamp(event_ts, unit="s", tz="UTC").date()
+    return int(np.busday_count(start_date, event_date))
 
 
 def _cached_days(entry: dict, now_ts: float) -> int | None:
@@ -64,12 +66,15 @@ def _cached_days(entry: dict, now_ts: float) -> int | None:
         return None
     if int(cached_days) >= UNKNOWN:
         return UNKNOWN
-    adjusted = int(cached_days) - int((now_ts - float(cached_at)) // 86400)
+    cached_date = pd.Timestamp(float(cached_at), unit="s", tz="UTC").date()
+    now_date = pd.Timestamp(now_ts, unit="s", tz="UTC").date()
+    elapsed_business_days = int(np.busday_count(cached_date, now_date))
+    adjusted = int(cached_days) - elapsed_business_days
     return adjusted if adjusted > 0 else None
 
 
 def _fetch_next_earnings_info(ticker: str, retries: int = 2) -> tuple[int, float | None]:
-    """Return (days to next earnings, event timestamp), or UNKNOWN if unavailable."""
+    """Return (business days to next earnings, event timestamp), or UNKNOWN if unavailable."""
     for attempt in range(retries):
         try:
             df = yf.Ticker(ticker).earnings_dates
@@ -93,7 +98,7 @@ def _fetch_next_earnings_info(ticker: str, retries: int = 2) -> tuple[int, float
 
 
 def get_earnings_map(tickers: list[str]) -> dict[str, int]:
-    """Return {ticker: days_to_next_earnings}. UNKNOWN (999) = no upcoming date."""
+    """Return {ticker: business_days_to_next_earnings}. UNKNOWN (999) = no upcoming date."""
     cache = _load_cache()
     now = time.time()
     cutoff = now - TTL_DAYS * 86400
@@ -135,4 +140,4 @@ if __name__ == "__main__":
     out = get_earnings_map(tickers)
     for t, d in out.items():
         tag = "NEAR" if d <= 10 else ("~1mo" if d <= 30 else "ok")
-        print(f"{t}: {d} days ({tag})")
+        print(f"{t}: {d} business days ({tag})")

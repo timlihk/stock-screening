@@ -179,17 +179,29 @@ jobs:
           passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
 
           # Evaluate ranked candidates in batches so only earnings-checked names
-          # can qualify for the final shortlist. Check a larger pool (up to 80)
-          # so we have enough post-filter survivors per archetype for separate
-          # per-archetype dashboards.
+          # can qualify for the final shortlist. Keep scanning until the
+          # unified top-20 and per-archetype dashboards have enough survivors,
+          # or until we exhaust the ranked passers.
           earnings = {}
           selected_rows = []
           checked_candidates = 0
           dropped_for_earnings = 0
           batch_size = 40
-          max_checked = 80
+          archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
 
-          for start in range(0, min(len(passers), max_checked), batch_size):
+          def enough_survivors(rows):
+              if len(rows) < 20:
+                  return False
+              survivors = pd.DataFrame(rows)
+              for arch in archetypes:
+                  qual_col = f"{arch}_qualifies"
+                  if qual_col not in survivors.columns:
+                      return False
+                  if int(survivors[qual_col].sum()) < 10:
+                      return False
+              return True
+
+          for start in range(0, len(passers), batch_size):
               chunk = passers.iloc[start:start + batch_size].copy()
               if chunk.empty:
                   break
@@ -201,6 +213,8 @@ jobs:
               checked_candidates += len(chunk)
               dropped_for_earnings += int(chunk["near_earnings"].sum())
               selected_rows.extend(chunk[~chunk["near_earnings"]].to_dict(orient="records"))
+              if enough_survivors(selected_rows):
+                  break
 
           survivors = pd.DataFrame(selected_rows)
           tradable = survivors.head(20)
@@ -245,7 +259,6 @@ jobs:
           # dashboards. Multi-membership: a name is in every archetype for
           # which it qualifies (not just its primary). Each per-archetype
           # list is sorted by that family's own score.
-          archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
           for arch in archetypes:
               qual_col = f"{arch}_qualifies"
               score_col = f"{arch}_score"
@@ -257,7 +270,7 @@ jobs:
               if score_col in subset.columns:
                   subset = subset.sort_values(
                       [score_col, "entry_score", "leadership_score",
-                       "sector_bonus", "rs_pct_rank"],
+                       "sector_bonus", rank_col],
                       ascending=[False, False, False, False, False],
                   )
               subset = subset.head(10)

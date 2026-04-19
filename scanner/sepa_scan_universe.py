@@ -37,6 +37,17 @@ try:
 except ImportError:
     HAVE_UNIVERSE_MODULE = False
 
+try:
+    from sector_align import (
+        load_description_cache as load_sector_description_cache,
+        load_sector_ranks,
+        sector_bonus_for,
+        sector_name_for,
+    )
+    HAVE_SECTOR_ALIGN = True
+except ImportError:
+    HAVE_SECTOR_ALIGN = False
+
 BENCH = ["SPY", "QQQ", "IWM"]
 OUT_DIR_DEFAULT = "/tmp/sepa-scan"
 
@@ -851,7 +862,11 @@ def main():
     print(f"\n=== TREND-TEMPLATE PASS RATE: {int(df['all_pass'].sum())}/{len(df)} ===")
     print(f"=== REGIME-ELIGIBLE SETUPS: {len(passers)}/{len(df)} ===")
     if not passers.empty:
-        family_counts = passers["primary_setup"].value_counts().to_dict()
+        family_counts = {}
+        for arch in FAMILY_THRESHOLDS:
+            qual_col = f"{arch}_qualifies"
+            if qual_col in passers.columns:
+                family_counts[arch] = int(passers[qual_col].sum())
         print(f"Eligible setup mix: {family_counts}")
 
     # Jeff Sun "no biotechs" — drop Healthcare/Biotechnology names using the
@@ -873,14 +888,32 @@ def main():
         else:
             print(f"  exclude-biotech: description cache missing; no filter applied", file=sys.stderr)
 
+    # Optional sector overlay for the local scanner summary. In the workflow,
+    # sector_scan.py runs separately and the published shortlist always applies
+    # this bonus. For standalone scanner runs we apply it only when a sector
+    # dashboard JSON is already available.
+    passers["sector_bonus"] = 0.0
+    passers["sector_name"] = None
+    if HAVE_SECTOR_ALIGN:
+        sector_ranks = load_sector_ranks()
+        if sector_ranks:
+            desc_cache = load_sector_description_cache()
+            passers["sector_name"] = passers["ticker"].apply(lambda t: sector_name_for(t, desc_cache))
+            passers["sector_bonus"] = passers["ticker"].apply(
+                lambda t: sector_bonus_for(t, sector_ranks, desc_cache)
+            )
+            print("  sector bonus applied to local shortlist summary", file=sys.stderr)
+        else:
+            print("  sector bonus skipped locally (sectors.json unavailable)", file=sys.stderr)
+
     # Unified ranking: sort by normalized family strength (excess above each
     # archetype's threshold) rather than raw max(family_scores) — the scores
     # are on different scales (sepa_vcp 0-10, others 0-8), so raw max would
     # mechanically favor SEPA names.
     shortlist = passers.copy()
     sort_cols = ["best_family_excess", "entry_score", "leadership_score",
-                 "qualified_count", "rs_pct_rank"]
-    shortlist = shortlist.sort_values(sort_cols, ascending=[False, False, False, False, False])
+                 "sector_bonus", "qualified_count", "rs_pct_rank"]
+    shortlist = shortlist.sort_values(sort_cols, ascending=[False, False, False, False, False, False])
 
     cols = ["ticker", "primary_setup", "also_fits", "qualified_count",
             "best_family_excess", "best_family_pct",
@@ -888,6 +921,7 @@ def main():
             "base_length", "base_depth_pct", "base_tightness_pct",
             "tightness_score",
             "leadership_score", "entry_score", "setup_score",
+            "sector_bonus",
             "sepa_vcp_score", "power_play_score", "expansion_tight_score",
             "breakout_ready", "quiet_pullback_weeks", "distribution_days",
             "avg_close_in_range", "up_down_vol_ratio", "vol_ratio",
@@ -900,13 +934,12 @@ def main():
     # Qullamaggie-focused cut (independent of SEPA score)
     if args.use_qullamaggie and "qm_score" in df.columns:
         qm_only = df[
-            (df["primary_setup"] == "qm_continuation")
-            & (df["qm_continuation_score"] >= 6)
+            (df["qm_continuation_qualifies"] == True)
             & (df["entry_score"] >= regime["min_entry"])
         ].copy()
         qm_only = qm_only.sort_values(
-            ["qm_continuation_score", "entry_score", "rs_pct_rank"],
-            ascending=[False, False, False]
+            ["qm_continuation_score", "leadership_score", "rs_pct_rank"],
+            ascending=[False, False, False],
         )
         print(f"\n=== QULLAMAGGIE CONTINUATION CANDIDATES: {len(qm_only)} ===")
         qm_cols = ["ticker", "price", "ret_1m", "ret_3m", "ret_6m",

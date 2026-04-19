@@ -1,9 +1,10 @@
 """
 Sector alignment: bonus/penalty based on ticker's sector ETF rank.
 
-A stock in a top-quintile sector (by 3-month return) gets +bonus to its
-setup_score; a stock in a bottom-quintile sector gets -penalty. "Fish where
-the fish are."
+A stock in a top-quintile sector gets +bonus to its setup; a stock in a
+bottom-quintile sector gets -penalty. Sector strength is blended across 1-, 3-,
+and 6-month returns to avoid overreacting to a single quarter. "Fish where the
+fish are."
 
 Uses sectors.json (produced by sector_scan.py) for per-sector ranking and the
 description cache (public/cache/descriptions.json) for per-ticker sector lookup.
@@ -18,6 +19,11 @@ from pathlib import Path
 
 SECTORS_JSON = Path(os.environ.get("SECTORS_JSON", "public/results/latest/sectors.json"))
 DESC_CACHE = Path(os.environ.get("DESC_CACHE", "public/cache/descriptions.json"))
+SECTOR_BLEND_WEIGHTS = {
+    "ret_1m": 0.2,
+    "ret_3m": 0.5,
+    "ret_6m": 0.3,
+}
 
 # GICS sector names in SEC/Yahoo terminology -> our sector_scan.py ETF names
 SECTOR_NAME_MAP = {
@@ -36,8 +42,17 @@ SECTOR_NAME_MAP = {
 }
 
 
+def _percentile_ranks(rows: list[dict], metric: str) -> dict[str, float]:
+    rows = [r for r in rows if r.get(metric) is not None]
+    if not rows:
+        return {}
+    rows.sort(key=lambda r: r.get(metric, -999), reverse=True)
+    n = len(rows)
+    return {r["name"]: ((n - idx) / n) * 100 for idx, r in enumerate(rows)}
+
+
 def load_sector_ranks() -> dict[str, float]:
-    """Map {sector_display_name: percentile_rank_0_to_100} by 3-month return."""
+    """Map {sector_display_name: blended percentile rank_0_to_100}."""
     if not SECTORS_JSON.exists():
         return {}
     with open(SECTORS_JSON) as f:
@@ -45,14 +60,21 @@ def load_sector_ranks() -> dict[str, float]:
     sector_rows = [r for r in data.get("rows", []) if r.get("group") == "sector"]
     if not sector_rows:
         return {}
-    sector_rows.sort(key=lambda r: r.get("ret_3m", -999), reverse=True)
-    n = len(sector_rows)
-    ranks = {}
-    for idx, r in enumerate(sector_rows):
-        # Top sector => 100, bottom => ~0
-        pct = ((n - idx) / n) * 100
-        ranks[r["name"]] = pct
-    return ranks
+
+    blended = {r["name"]: 0.0 for r in sector_rows}
+    total_weight = 0.0
+    for metric, weight in SECTOR_BLEND_WEIGHTS.items():
+        metric_ranks = _percentile_ranks(sector_rows, metric)
+        if not metric_ranks:
+            continue
+        total_weight += weight
+        for name, pct in metric_ranks.items():
+            blended[name] = blended.get(name, 0.0) + weight * pct
+
+    if total_weight > 0:
+        return {name: round(score / total_weight, 2) for name, score in blended.items()}
+    # Fallback if blended fields are missing.
+    return _percentile_ranks(sector_rows, "ret_3m")
 
 
 def load_description_cache() -> dict:
@@ -66,7 +88,7 @@ def load_description_cache() -> dict:
 
 
 def sector_bonus_for(ticker: str, sector_ranks: dict[str, float], desc_cache: dict) -> float:
-    """Return bonus in [-1, +1] based on ticker's sector 3-mo RS percentile.
+    """Return bonus in [-1, +1] based on ticker's sector blended RS percentile.
     Unknown ticker => 0 (neutral)."""
     info = desc_cache.get(ticker, {})
     sector_raw = info.get("sector") or ""
