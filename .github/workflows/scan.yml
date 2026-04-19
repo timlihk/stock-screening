@@ -215,6 +215,8 @@ jobs:
                   parts.append(f"Entry {int(row['entry_score'])}")
               if "leadership_score" in row and pd.notna(row["leadership_score"]):
                   parts.append(f"Lead {int(row['leadership_score'])}")
+              if "tightness_score" in row and pd.notna(row["tightness_score"]):
+                  parts.append(f"Tight {int(row['tightness_score'])}/3")
               if "qm_score" in row and pd.notna(row["qm_score"]):
                   parts.append(f"QM {int(row['qm_score'])}")
               if "rs_pct_rank" in row and pd.notna(row["rs_pct_rank"]):
