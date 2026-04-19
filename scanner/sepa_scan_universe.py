@@ -58,12 +58,12 @@ OUT_DIR_DEFAULT = "/tmp/sepa-scan"
 FAMILY_THRESHOLDS = {
     "sepa_vcp":        6,   # 0-8 scale
     "power_play":      6,   # 0-8
-    "qm_continuation": 5,   # 0-6
+    "qm_continuation": 6,   # 0-8
 }
 FAMILY_MAX_SCORES = {
     "sepa_vcp":        8,
     "power_play":      8,
-    "qm_continuation": 6,
+    "qm_continuation": 8,
 }
 
 # ---------------------------- Universe ---------------------------------------
@@ -584,6 +584,8 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
             qm_consolidation,
             support_score >= 2,
             not_extended_50ma,
+            price > ma20,
+            pct_from_hi >= -12,
         ])
         out.update(dict(
             ret_1m=ret_1m, ret_3m=ret_3m,
@@ -603,7 +605,9 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         "power_play": power_play_score,
         "qm_continuation": qm_continuation_score if use_qullamaggie else 0,
     }
-    # Family_max differs across archetypes (SEPA 0-8, power play 0-8, QM 0-6),
+    # Family_max differs across archetypes if their check counts diverge. Keep
+    # them explicit so cross-family ranking is normalized against each family's
+    # actual ceiling rather than assumed to be comparable raw.
     # so raw scores are
     # NOT directly comparable across families. Both normalizations exposed:
     #   excess   = score - threshold  (zero-centered on "just passes")
