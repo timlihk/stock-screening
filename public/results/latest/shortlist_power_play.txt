@@ -1,10 +1,10 @@
 FTI|power_play 7 · Entry 5 · Lead 8 · Tight 1/3 · QM 1 · RSpct 90 · Energy · RS +147
-SLAB|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · QM 2 · RSpct 86 · Technology · Earn 16d · RS +100
-CASY|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
-AROC|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · QM 2 · RSpct 65 · Energy · RS +22
-CSCO|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · QM 2 · RSpct 65 · Technology · Earn 17d · RS +22
-ROST|power_play 7 · +sepa_vcp · Entry 4 · Lead 8 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 33d · RS +29
+SLAB|power_play 7 · +qm_continuation · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · QM 2 · RSpct 86 · Technology · Earn 16d · RS +100
+CASY|power_play 7 · +sepa_vcp/qm_continuation · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
+AROC|power_play 7 · +qm_continuation · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · QM 2 · RSpct 65 · Energy · RS +22
+CSCO|power_play 7 · +sepa_vcp/qm_continuation · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · QM 2 · RSpct 65 · Technology · Earn 17d · RS +22
+ROST|power_play 7 · +sepa_vcp/qm_continuation · Entry 4 · Lead 8 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 33d · RS +29
 SATL|power_play 7 · +qm_continuation · Entry 4 · Lead 6 · Tight 0/3 · QM 3 · RSpct 72 · RS +37
-EA|power_play 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 55 · Communication Services · RS +7
+EA|power_play 7 · +qm_continuation · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 55 · Communication Services · RS +7
 FCX|power_play 6 · +qm_continuation · Entry 5 · Lead 10 · Tight 2/3 · Fund 1/5 · QM 3 · RSpct 82 · Materials · RS +77
-CMI|power_play 6 · Entry 5 · Lead 9 · Tight 2/3 · Fund 2/5 · QM 2 · RSpct 84 · Earn 16d · RS +91
+CMI|power_play 6 · +qm_continuation · Entry 5 · Lead 9 · Tight 2/3 · Fund 2/5 · QM 2 · RSpct 84 · Industrials · Earn 16d · RS +91
