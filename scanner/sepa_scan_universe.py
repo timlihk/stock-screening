@@ -398,10 +398,13 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     pct_to_pivot = (price / pivot - 1) * 100 if not np.isnan(pivot) else np.nan
     above_pivot = pct_to_pivot > 0
 
-    # Deepvue/Minervini extensions
-    atr10 = atr(high, low, close, 10); atr50 = atr(high, low, close, 50)
-    atr_ratio = (atr10 / atr50) if (not np.isnan(atr10) and atr50 > 0) else np.nan
-    atr_compression = not np.isnan(atr_ratio) and atr_ratio <= 0.55
+    # ATR is computed once with a single window (14) and reused everywhere.
+    # Previously: atr(10)/atr(50) for atr_ratio and atr(14) separately for
+    # not_extended_50ma — inconsistent. Unified to atr(14) and atr(50).
+    atr14 = atr(high, low, close, 14)
+    atr50 = atr(high, low, close, 50)
+    atr_ratio = (atr14 / atr50) if (not np.isnan(atr14) and atr50 > 0) else np.nan
+    atr_compression = not np.isnan(atr_ratio) and atr_ratio <= 0.65
     if len(close) >= 5:
         r5_hi, r5_lo = high.iloc[-5:].max(), low.iloc[-5:].min()
         range5_pct = (r5_hi - r5_lo) / price * 100
@@ -434,23 +437,39 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     pct_to_pivot = base["pct_to_pivot"]
     breakout_ready = not np.isnan(pct_to_pivot) and -3.0 <= pct_to_pivot <= 2.0
 
-    # Jeff Sun extensions
+    # Jeff Sun extensions (reuse unified atr14 from above)
     # 1) ATR% extension from 50-MA — entry ceiling at ≤ 4× (anti-chase)
-    atr14 = atr(high, low, close, 14)
     atr50ma_ext = ((price - ma50) / atr14) if (not np.isnan(atr14) and atr14 > 0 and not np.isnan(ma50)) else np.nan
     not_extended_50ma = not np.isnan(atr50ma_ext) and atr50ma_ext <= 4.0
     # 2) 1-week compression — price range within ±5% over last 5 sessions
     ret_5d = (price / close.iloc[-6] - 1) * 100 if len(close) >= 6 else np.nan
     compression_1w = not np.isnan(ret_5d) and abs(ret_5d) <= 5
 
-    leadership_score = sum([
-        all_pass,
-        not np.isnan(ret_6m) and ret_6m >= 30,
-        pct_from_hi >= -12,
-        hh_hl_orderly,
-        price > ma20,
-        not np.isnan(rs_vs_spy) and rs_vs_spy >= 10,
-    ])
+    # Consolidated tightness (0-3 ordinal): merges the three partly-redundant
+    # "tight" signals into one human-readable measure. Each point is a distinct
+    # dimension of tightness:
+    #   +1 price range (5-day high-low as % of price)
+    #   +1 ATR compression (atr14 / atr50 baseline)
+    #   +1 directional compression (abs 5-day return)
+    tightness_score = int(tight_range) + int(atr_compression) + int(compression_1w)
+
+    # Leadership score (0-12) — tiered instead of flat 0/1 checks so that
+    # *bigger* movers with *cleaner* structure separate from marginal leaders.
+    # Each return-based dimension gets 0-3 based on which threshold bucket it
+    # clears; structure signals stay binary.
+    def _tier(value, bins):
+        if value is None or (isinstance(value, float) and np.isnan(value)):
+            return 0
+        return sum(1 for b in bins if value >= b)
+
+    leadership_score = (
+        int(all_pass)                                    # gate: 0/1
+        + _tier(ret_6m,     [30, 60, 100])               # 0-3: 30/60/100% 6-mo ret
+        + _tier(pct_from_hi, [-12, -5, -1])              # 0-3: within 12/5/1% of 52wH
+        + int(hh_hl_orderly)                             # 0/1
+        + int(price > ma20)                              # 0/1
+        + _tier(rs_vs_spy,  [10, 50, 100])               # 0-3: RS outperformance tiers
+    )
     entry_score = sum([
         base["base_valid"],
         breakout_ready,
@@ -508,6 +527,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         candle_quality=candle_quality, abr21_pct=abr21_pct, candle_orderly=candle_orderly,
         atr50ma_ext=atr50ma_ext, not_extended_50ma=not_extended_50ma,
         ret_5d=ret_5d, compression_1w=compression_1w,
+        tightness_score=tightness_score,
         avg_close_in_range=avg_close_in_range, close_in_upper_range=close_in_upper_range,
         up_down_vol_ratio=up_down_vol_ratio, accumulation_support=accumulation_support,
         distribution_days=distribution_days, quiet_pullback_weeks=quiet_pullback_weeks,
@@ -640,21 +660,23 @@ def market_regime_profile(spy, qqq, iwm):
         iwm["above_ma50"],
         spy["ret_1y"] > 0, qqq["ret_1y"] > 0,
     ])
+    # leadership_score now ranges 0-12 (tiered). Thresholds scale accordingly
+    # from the prior 0-6 scale (risk_on 4 -> 6, risk_off 5 -> 8).
     if score >= 6:
         label = "risk_on"
         min_setup = 6
         min_entry = 4
-        min_leadership = 4
+        min_leadership = 6
     elif score >= 4:
         label = "mixed"
         min_setup = 6
         min_entry = 5
-        min_leadership = 4
+        min_leadership = 7
     else:
         label = "risk_off"
         min_setup = 7
         min_entry = 5
-        min_leadership = 5
+        min_leadership = 8
     return {
         "label": label,
         "score": score,
@@ -810,6 +832,7 @@ def main():
 
     cols = ["ticker", "primary_setup", "price", "pct_from_hi", "pct_to_pivot",
             "base_length", "base_depth_pct", "base_tightness_pct",
+            "tightness_score",
             "leadership_score", "entry_score", "setup_score",
             "sepa_vcp_score", "power_play_score", "expansion_tight_score",
             "breakout_ready", "quiet_pullback_weeks", "distribution_days",
