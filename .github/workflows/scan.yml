@@ -169,18 +169,14 @@ jobs:
           desc_cache = load_description_cache()
           passers["sector_name"] = passers["ticker"].apply(lambda t: sector_name_for(t, desc_cache))
           passers["sector_bonus"] = passers["ticker"].apply(lambda t: sector_bonus_for(t, sector_ranks, desc_cache))
-          family_order = {"sepa_vcp": 0, "power_play": 1, "qm_continuation": 2, "expansion_tight": 3}
-          passers["family_rank"] = passers["primary_setup"].map(family_order).fillna(99)
 
-          # Sort by family-specific setup strength, then entry quality and RS.
-          sort_cols = ["family_rank", "setup_score", "entry_score", "leadership_score", "sector_bonus"]
-          if "qm_continuation_score" in passers.columns:
-              sort_cols.append("qm_continuation_score")
-          sort_cols.append("rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy")
-          passers = passers.sort_values(
-              sort_cols,
-              ascending=[True] + [False] * (len(sort_cols) - 1),
-          )
+          # Unified ranking: normalized family strength (excess above that
+          # family's threshold). Raw max(family_scores) would mechanically
+          # favor sepa_vcp (scale 0-10 vs. 0-8 for the others).
+          rank_col = "rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy"
+          sort_cols = ["best_family_excess", "entry_score", "leadership_score",
+                       "sector_bonus", "qualified_count", rank_col]
+          passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
 
           # Evaluate ranked candidates in batches so only earnings-checked names
           # can qualify for the final shortlist. Check a larger pool (up to 80)
@@ -209,8 +205,20 @@ jobs:
           survivors = pd.DataFrame(selected_rows)
           tradable = survivors.head(20)
 
-          def format_note(row):
-              parts = [f"{row.get('primary_setup', 'setup')} {row.setup_score:.0f}"]
+          def format_note(row, arch=None):
+              # `arch` is the archetype this note is being written for (when
+              # building a per-archetype shortlist). If the name qualifies for
+              # additional families beyond `arch`, show them as "+other_arch".
+              headline_arch = arch or row.get("primary_setup", "setup")
+              headline_score_col = f"{headline_arch}_score" if headline_arch and headline_arch != "setup" else "setup_score"
+              headline_score = row.get(headline_score_col, row.get("setup_score", 0))
+              parts = [f"{headline_arch} {headline_score:.0f}"]
+              # "also fits" → other archetypes this name qualifies for
+              all_arches = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
+              also = [a for a in all_arches
+                      if a != headline_arch and row.get(f"{a}_qualifies", False)]
+              if also:
+                  parts.append("+" + "/".join(also))
               if "entry_score" in row and pd.notna(row["entry_score"]):
                   parts.append(f"Entry {int(row['entry_score'])}")
               if "leadership_score" in row and pd.notna(row["leadership_score"]):
@@ -233,13 +241,29 @@ jobs:
               for _, row in tradable.iterrows():
                   f.write(f"{row['ticker']}|{format_note(row)}\n")
 
-          # Per-archetype shortlists (top 10 each) — powers the separate dashboards
+          # Per-archetype shortlists (top 10 each) — powers the separate
+          # dashboards. Multi-membership: a name is in every archetype for
+          # which it qualifies (not just its primary). Each per-archetype
+          # list is sorted by that family's own score.
           archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
           for arch in archetypes:
-              subset = survivors[survivors["primary_setup"] == arch].head(10)
+              qual_col = f"{arch}_qualifies"
+              score_col = f"{arch}_score"
+              if qual_col not in survivors.columns:
+                  open(f"{p}/shortlist_{arch}.txt", "w").close()
+                  print(f"  {arch}: qualification column missing — skipping")
+                  continue
+              subset = survivors[survivors[qual_col] == True].copy()
+              if score_col in subset.columns:
+                  subset = subset.sort_values(
+                      [score_col, "entry_score", "leadership_score",
+                       "sector_bonus", "rs_pct_rank"],
+                      ascending=[False, False, False, False, False],
+                  )
+              subset = subset.head(10)
               with open(f"{p}/shortlist_{arch}.txt", "w") as f:
                   for _, row in subset.iterrows():
-                      f.write(f"{row['ticker']}|{format_note(row)}\n")
+                      f.write(f"{row['ticker']}|{format_note(row, arch=arch)}\n")
               print(f"  {arch}: {len(subset)} names")
 
           print(f"Top 20 shortlist: {tradable.ticker.tolist()}")

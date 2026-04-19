@@ -40,6 +40,23 @@ except ImportError:
 BENCH = ["SPY", "QQQ", "IWM"]
 OUT_DIR_DEFAULT = "/tmp/sepa-scan"
 
+# Setup family calibration. Thresholds are the minimum score to "qualify" as
+# that archetype. family_max is the ceiling each score can hit (they differ
+# because each family has a different number of component signals). Both are
+# needed to normalize across families — raw scores are not directly comparable.
+FAMILY_THRESHOLDS = {
+    "sepa_vcp":        7,   # 0-10 scale
+    "power_play":      6,   # 0-8
+    "qm_continuation": 6,   # 0-8
+    "expansion_tight": 6,   # 0-8
+}
+FAMILY_MAX_SCORES = {
+    "sepa_vcp":        10,
+    "power_play":      8,
+    "qm_continuation": 8,
+    "expansion_tight": 8,
+}
+
 # ---------------------------- Universe ---------------------------------------
 
 NASDAQ_URL = "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt"
@@ -590,30 +607,62 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         breakout_ready or price > ma20,
     ])
 
+    # Multi-membership classification. Each setup family has a minimum score
+    # to "qualify" as that archetype. A name can qualify for ZERO, ONE, or
+    # MULTIPLE families — argmax-forcing each ticker into a single bucket is
+    # lossy. Keep primary_setup as a display headline (the family with the
+    # biggest excess above its threshold, if any).
     family_scores = {
         "sepa_vcp": sepa_vcp_score,
         "power_play": power_play_score,
         "qm_continuation": qm_continuation_score if use_qullamaggie else 0,
         "expansion_tight": expansion_tight_score,
     }
-    primary_setup = max(family_scores, key=family_scores.get)
-    setup_score = family_scores[primary_setup]
-    primary_thresholds = {
-        "sepa_vcp": 7,
-        "power_play": 6,
-        "qm_continuation": 6,
-        "expansion_tight": 6,
-    }
-    primary_setup_valid = setup_score >= primary_thresholds.get(primary_setup, 99)
-    if not primary_setup_valid:
+    # Family_max differs (sepa_vcp is 0-10, others 0-8), so raw scores are
+    # NOT directly comparable across families. Both normalizations exposed:
+    #   excess   = score - threshold  (zero-centered on "just passes")
+    #   pct_max  = score / family_max (absolute fill fraction)
+    family_excess = {name: family_scores[name] - FAMILY_THRESHOLDS[name]
+                     for name in FAMILY_THRESHOLDS}
+    family_pct_max = {name: family_scores[name] / FAMILY_MAX_SCORES[name]
+                      for name in FAMILY_MAX_SCORES}
+    qualifies_as = {name: family_scores[name] >= FAMILY_THRESHOLDS[name]
+                    for name in FAMILY_THRESHOLDS}
+    # Disable qm if caller opted out
+    if not use_qullamaggie:
+        qualifies_as["qm_continuation"] = False
+
+    qualified = [n for n, q in qualifies_as.items() if q]
+    also_fits = []
+    if qualified:
+        # Primary = qualifying family with biggest excess (ties: higher raw score)
+        primary_setup = max(
+            qualified,
+            key=lambda n: (family_excess[n], family_scores[n]),
+        )
+        also_fits = [n for n in qualified if n != primary_setup]
+    else:
         primary_setup = "none"
+    primary_setup_valid = primary_setup != "none"
+    setup_score = family_scores[primary_setup] if primary_setup_valid else 0
+
+    best_family_excess = max(family_excess.values())
+    best_family_pct = max(family_pct_max.values())
 
     out.update(dict(
         expansion_tight_score=expansion_tight_score,
+        sepa_vcp_qualifies=qualifies_as["sepa_vcp"],
+        power_play_qualifies=qualifies_as["power_play"],
+        qm_continuation_qualifies=qualifies_as["qm_continuation"],
+        expansion_tight_qualifies=qualifies_as["expansion_tight"],
+        qualified_count=len(qualified),
+        also_fits=",".join(also_fits) if also_fits else "",
         primary_setup=primary_setup,
         primary_setup_score=setup_score,
         setup_score=setup_score,
         primary_setup_valid=primary_setup_valid,
+        best_family_excess=best_family_excess,
+        best_family_pct=best_family_pct,
         stock_quality=leadership_score,
         entry_quality=entry_score,
     ))
@@ -824,13 +873,18 @@ def main():
         else:
             print(f"  exclude-biotech: description cache missing; no filter applied", file=sys.stderr)
 
+    # Unified ranking: sort by normalized family strength (excess above each
+    # archetype's threshold) rather than raw max(family_scores) — the scores
+    # are on different scales (sepa_vcp 0-10, others 0-8), so raw max would
+    # mechanically favor SEPA names.
     shortlist = passers.copy()
-    family_order = {"sepa_vcp": 0, "power_play": 1, "qm_continuation": 2, "expansion_tight": 3}
-    shortlist["family_rank"] = shortlist["primary_setup"].map(family_order).fillna(99)
-    sort_cols = ["family_rank", "setup_score", "entry_score", "leadership_score", "rs_pct_rank"]
-    shortlist = shortlist.sort_values(sort_cols, ascending=[True, False, False, False, False])
+    sort_cols = ["best_family_excess", "entry_score", "leadership_score",
+                 "qualified_count", "rs_pct_rank"]
+    shortlist = shortlist.sort_values(sort_cols, ascending=[False, False, False, False, False])
 
-    cols = ["ticker", "primary_setup", "price", "pct_from_hi", "pct_to_pivot",
+    cols = ["ticker", "primary_setup", "also_fits", "qualified_count",
+            "best_family_excess", "best_family_pct",
+            "price", "pct_from_hi", "pct_to_pivot",
             "base_length", "base_depth_pct", "base_tightness_pct",
             "tightness_score",
             "leadership_score", "entry_score", "setup_score",
