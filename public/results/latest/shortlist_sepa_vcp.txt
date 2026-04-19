@@ -1,10 +1,10 @@
 CASY|sepa_vcp 8 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
 ARR|sepa_vcp 8 · Entry 5 · Lead 6 · Tight 2/3 · QM 2 · RSpct 61 · Real Estate · Earn 11d · RS +13
-AME|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · QM 2 · RSpct 61 · Industrials · Earn 11d · RS +13
-GSAT|sepa_vcp 7 · +qm_continuation/expansion_tight · Entry 5 · Lead 11 · Tight 0/3 · QM 3 · RSpct 95 · Communication Services · Earn 18d · RS +274
-SKM|sepa_vcp 7 · +qm_continuation · Entry 5 · Lead 9 · Tight 1/3 · QM 3 · RSpct 70 · Communication Services · Earn 22d · RS +33
-SLAB|sepa_vcp 7 · +power_play/qm_continuation/expansion_tight · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 86 · Earn 23d · RS +100
-ALSN|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 59 · Consumer Discretionary · Earn 11d · RS +11
-KYMR|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 93 · Health Care · Earn 19d · RS +214
-PCVX|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · QM 2 · RSpct 82 · Health Care · Earn 17d · RS +77
-CSCO|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · QM 2 · RSpct 65 · Technology · Earn 24d · RS +22
+GSAT|sepa_vcp 7 · +qm_continuation/expansion_tight · Entry 5 · Lead 11 · Tight 0/3 · Fund 2/5 · QM 3 · RSpct 95 · Communication Services · Earn 13d · RS +274
+SKM|sepa_vcp 7 · +qm_continuation · Entry 5 · Lead 9 · Tight 1/3 · QM 3 · RSpct 70 · Communication Services · Earn 15d · RS +33
+SLAB|sepa_vcp 7 · +power_play/qm_continuation/expansion_tight · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · QM 2 · RSpct 86 · Technology · Earn 16d · RS +100
+KYMR|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 93 · Health Care · Earn 19d · RS +214
+PCVX|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 2/5 · QM 2 · RSpct 82 · Health Care · Earn 12d · RS +77
+CSCO|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · QM 2 · RSpct 65 · Technology · Earn 17d · RS +22
+HWM|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 81 · Industrials · Earn 13d · RS +70
+TKR|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · QM 2 · RSpct 74 · Industrials · Earn 12d · RS +43
