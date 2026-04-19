@@ -56,14 +56,14 @@ OUT_DIR_DEFAULT = "/tmp/sepa-scan"
 # because each family has a different number of component signals). Both are
 # needed to normalize across families — raw scores are not directly comparable.
 FAMILY_THRESHOLDS = {
-    "sepa_vcp":        7,   # 0-10 scale
+    "sepa_vcp":        6,   # 0-8 scale
     "power_play":      6,   # 0-8
-    "qm_continuation": 6,   # 0-8
+    "qm_continuation": 5,   # 0-6
 }
 FAMILY_MAX_SCORES = {
-    "sepa_vcp":        10,
+    "sepa_vcp":        8,
     "power_play":      8,
-    "qm_continuation": 8,
+    "qm_continuation": 6,
 }
 
 # ---------------------------- Universe ---------------------------------------
@@ -418,12 +418,6 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     contracting_pbs = pb_count >= 3 and pullbacks[-3] > pullbacks[-2] > pullbacks[-1]
     contracting_range = len(wrange) >= 5 and np.mean(wrange[-2:]) < np.mean(wrange[:3]) * 0.7
     vol_dry_up = len(wvol) >= 5 and wvol[-1] < np.mean(wvol[:-1]) * 0.8
-    vcp_score = sum([contracting_pbs, contracting_range, vol_dry_up, pb_count >= 3])
-
-    pivot = close.iloc[-16:-1].max() if len(close) >= 20 else np.nan
-    pct_to_pivot = (price / pivot - 1) * 100 if not np.isnan(pivot) else np.nan
-    above_pivot = pct_to_pivot > 0
-
     # ATR is computed once with a single window (14) and reused everywhere.
     # Previously: atr(10)/atr(50) for atr_ratio and atr(14) separately for
     # not_extended_50ma — inconsistent. Unified to atr(14) and atr(50).
@@ -439,11 +433,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     tight_range = not np.isnan(range5_pct) and range5_pct <= 8
     ret_6m = (price / close.iloc[-126] - 1) * 100 if len(close) >= 126 else np.nan
     ret_15d = (price / close.iloc[-16] - 1) * 100 if len(close) >= 16 else np.nan
-    power_play = (not np.isnan(ret_6m) and not np.isnan(ret_15d)
-                  and ret_6m > 85 and -15 <= ret_15d <= 5)
     ma20 = close.rolling(20).mean().iloc[-1]
-    breakout_confirm = (price > ma20 and not np.isnan(vol_ratio)
-                        and vol_ratio >= 1.5 and above_pivot)
 
     # Structure-quality signals (Vlad-inspired)
     hh_hl_count, hh_hl_pct = hh_hl_stats(high, low, window=60)
@@ -515,9 +505,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         contracting_range,
         quiet_pullback or vol_dry_up,
         breakout_ready,
-        close_in_upper_range,
-        accumulation_support,
-        distribution_days <= 2,
+        support_score >= 2,
     ])
     power_play_digest = quiet_pullback or vol_dry_up or expansion["post_expansion_tight"]
     power_play_score = sum([
@@ -528,7 +516,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         tightness_score >= 2 or base["base_tightness_pct"] <= 12,
         power_play_digest,
         not_extended_50ma,
-        close_in_upper_range,
+        support_score >= 2,
     ])
 
     qm_score = 0
@@ -545,12 +533,11 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         ticker=tkr, price=price,
         pct_from_hi=pct_from_hi, pct_above_lo=pct_above_lo,
         ret_1y=ret_1y, rs_vs_spy=rs_vs_spy,
-        vol_ratio=vol_ratio, all_pass=all_pass, vcp_score=vcp_score,
+        vol_ratio=vol_ratio, all_pass=all_pass,
         atr_ratio=atr_ratio, range5_pct=range5_pct,
         ret_6m=ret_6m, ret_15d=ret_15d,
         contracting_pbs=contracting_pbs, vol_dry_up=vol_dry_up,
         atr_compression=atr_compression, tight_range=tight_range,
-        power_play=power_play, breakout_confirm=breakout_confirm,
         hh_hl_count=hh_hl_count, hh_hl_pct=hh_hl_pct, hh_hl_orderly=hh_hl_orderly,
         candle_quality=candle_quality, abr21_pct=abr21_pct, candle_orderly=candle_orderly,
         atr50ma_ext=atr50ma_ext, not_extended_50ma=not_extended_50ma,
@@ -595,9 +582,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
             qm_ema_ride,
             qm_adr_pct,
             qm_consolidation,
-            close_in_upper_range,
-            accumulation_support,
-            distribution_days <= 2,
+            support_score >= 2,
             not_extended_50ma,
         ])
         out.update(dict(
@@ -618,7 +603,8 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         "power_play": power_play_score,
         "qm_continuation": qm_continuation_score if use_qullamaggie else 0,
     }
-    # Family_max differs (sepa_vcp is 0-10, others 0-8), so raw scores are
+    # Family_max differs across archetypes (SEPA 0-8, power play 0-8, QM 0-6),
+    # so raw scores are
     # NOT directly comparable across families. Both normalizations exposed:
     #   excess   = score - threshold  (zero-centered on "just passes")
     #   pct_max  = score / family_max (absolute fill fraction)
@@ -661,8 +647,6 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         primary_setup_valid=primary_setup_valid,
         best_family_excess=best_family_excess,
         best_family_pct=best_family_pct,
-        stock_quality=leadership_score,
-        entry_quality=entry_score,
     ))
     return out
 
@@ -895,8 +879,8 @@ def main():
 
     # Unified ranking: sort by normalized family strength (excess above each
     # archetype's threshold) rather than raw max(family_scores) — the scores
-    # are on different scales (sepa_vcp 0-10, others 0-8), so raw max would
-    # mechanically favor SEPA names.
+    # are on different scales across families, so raw max would mechanically
+    # favor higher-ceiling archetypes.
     shortlist = passers.copy()
     sort_cols = ["best_family_excess", "entry_score", "leadership_score",
                  "sector_bonus", "qualified_count", "rs_pct_rank"]

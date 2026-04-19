@@ -3,14 +3,13 @@ SimFin fundamentals cache.
 
 Pulls the last ~6 quarters of P&L for each ticker, computes:
 - Revenue YoY growth (latest Q vs same Q 4 quarters ago)
-- Net-income YoY growth
+- Net-income YoY growth with sign-aware loss/turnaround handling
 - Revenue QoQ growth (latest Q vs prior Q)
-- Earnings acceleration (current YoY growth > prior YoY growth)
+- Revenue acceleration (current revenue YoY > prior quarter revenue YoY)
+- Earnings acceleration (current net-income YoY > prior quarter net-income YoY)
 
-Disk-cached with a 30-day TTL — companies report quarterly, so the cache
-rarely goes stale between runs. Cost budget: ~1 API call per ticker per
-30 days. For a 100-ticker passer pool, that's 100 calls/month; SimFin free
-tier allows 100k/month so we're orders of magnitude under.
+Disk-cached with a 30-day TTL, but invalidated early after a known earnings
+event so pre-report fundamentals do not survive into the post-report window.
 
 API reference: https://backend.simfin.com/api/v3/
 Auth:         Authorization: api-key <KEY>   (hyphenated!)
@@ -28,6 +27,7 @@ from pathlib import Path
 import requests
 
 CACHE_PATH = Path(os.environ.get("FUNDAMENTALS_CACHE", "public/cache/fundamentals.json"))
+EARNINGS_CACHE_PATH = Path(os.environ.get("EARNINGS_CACHE", "public/cache/earnings.json"))
 TTL_DAYS = 30
 BASE_URL = "https://backend.simfin.com/api/v3"
 
@@ -45,6 +45,15 @@ def _load_cache() -> dict:
     if CACHE_PATH.exists():
         try:
             return json.loads(CACHE_PATH.read_text())
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+
+def _load_earnings_cache() -> dict:
+    if EARNINGS_CACHE_PATH.exists():
+        try:
+            return json.loads(EARNINGS_CACHE_PATH.read_text())
         except json.JSONDecodeError:
             return {}
     return {}
@@ -126,6 +135,7 @@ def _compute_metrics(quarters: list[dict]) -> dict:
         "net_income_yoy_growth": None,
         "revenue_qoq_growth":    None,
         "net_income_qoq_growth": None,
+        "revenue_accelerating":  None,
         "earnings_accelerating": None,
         "latest_period":         None,
         "sample_quarters":       len(quarters),
@@ -145,18 +155,43 @@ def _compute_metrics(quarters: list[dict]) -> dict:
         except Exception:
             return None
 
-    out["revenue_yoy_growth"]    = _pct(latest.get("revenue"),    year_ago.get("revenue"))
-    out["net_income_yoy_growth"] = _pct(latest.get("net_income"), year_ago.get("net_income"))
-    out["revenue_qoq_growth"]    = _pct(latest.get("revenue"),    prior_q.get("revenue"))
-    out["net_income_qoq_growth"] = _pct(latest.get("net_income"), prior_q.get("net_income"))
+    def _profit_pct(a, b):
+        if a is None or b is None:
+            return None
+        try:
+            a = float(a)
+            b = float(b)
+        except Exception:
+            return None
+        if b == 0:
+            if a > 0:
+                return 1000.0
+            if a < 0:
+                return -1000.0
+            return 0.0
+        if b > 0:
+            return (a / b - 1) * 100
+        if a >= 0:
+            return ((a + abs(b)) / abs(b)) * 100
+        return ((abs(b) - abs(a)) / abs(b)) * 100
 
-    # "Accelerating" — current YoY growth exceeds prior quarter's YoY growth
+    out["revenue_yoy_growth"]    = _pct(latest.get("revenue"),    year_ago.get("revenue"))
+    out["net_income_yoy_growth"] = _profit_pct(latest.get("net_income"), year_ago.get("net_income"))
+    out["revenue_qoq_growth"]    = _pct(latest.get("revenue"),    prior_q.get("revenue"))
+    out["net_income_qoq_growth"] = _profit_pct(latest.get("net_income"), prior_q.get("net_income"))
+
+    # "Accelerating" — current YoY growth exceeds prior quarter's YoY growth.
     if len(quarters) >= 6:
         prior_year_ago = quarters[-6]
-        prior_yoy = _pct(prior_q.get("revenue"), prior_year_ago.get("revenue"))
-        curr_yoy = out["revenue_yoy_growth"]
-        if prior_yoy is not None and curr_yoy is not None:
-            out["earnings_accelerating"] = curr_yoy > prior_yoy
+        prior_rev_yoy = _pct(prior_q.get("revenue"), prior_year_ago.get("revenue"))
+        curr_rev_yoy = out["revenue_yoy_growth"]
+        if prior_rev_yoy is not None and curr_rev_yoy is not None:
+            out["revenue_accelerating"] = curr_rev_yoy > prior_rev_yoy
+
+        prior_ni_yoy = _profit_pct(prior_q.get("net_income"), prior_year_ago.get("net_income"))
+        curr_ni_yoy = out["net_income_yoy_growth"]
+        if prior_ni_yoy is not None and curr_ni_yoy is not None:
+            out["earnings_accelerating"] = curr_ni_yoy > prior_ni_yoy
     return out
 
 
@@ -190,6 +225,7 @@ def get_fundamentals_map(tickers: list[str], stale_days: int = TTL_DAYS) -> dict
         return {}
 
     cache = _load_cache()
+    earnings_cache = _load_earnings_cache()
     now_ts = time.time()
     cutoff = now_ts - stale_days * 86400
     current_year = datetime.now().year
@@ -202,7 +238,14 @@ def get_fundamentals_map(tickers: list[str], stale_days: int = TTL_DAYS) -> dict
     to_fetch: list[str] = []
     for t in tickers:
         entry = cache.get(t)
-        if entry and entry.get("_ts", 0) > cutoff and "fundamental_score" in entry:
+        earnings_entry = earnings_cache.get(t) or {}
+        earnings_event_ts = earnings_entry.get("event_ts")
+        stale_after_report = (
+            isinstance(earnings_event_ts, (int, float))
+            and entry is not None
+            and entry.get("_ts", 0) < float(earnings_event_ts) <= now_ts
+        )
+        if entry and entry.get("_ts", 0) > cutoff and "fundamental_score" in entry and not stale_after_report:
             result[t] = {k: v for k, v in entry.items() if k != "_ts"}
         else:
             to_fetch.append(t)
