@@ -176,6 +176,8 @@ jobs:
         env:
           DESC_CACHE: public/cache/descriptions.json
         run: |
+          rm -f public/results/latest/shortlist_expansion_tight.txt \
+                public/results/latest/charts_expansion_tight.html
           for arch in sepa_vcp power_play qm_continuation; do
             SHORTLIST="public/results/latest/shortlist_${arch}.txt"
             if [ -s "$SHORTLIST" ]; then
@@ -254,7 +256,7 @@ jobs:
               exit 0
             fi
             echo "push failed on attempt $attempt; rebasing and retrying"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
           done
           echo "push failed after 3 attempts"
           exit 1
