@@ -219,18 +219,6 @@
         </div>
       </div>
 
-      <div class="archetype" data-arch="expansion_tight">
-        <div class="head">
-          <span class="title">🎯 Expansion → Tight</span>
-          <span class="attrib">First principles</span>
-        </div>
-        <div class="desc">Recent expansion above pivot with tight 5-day range (±5% or less). Not extended from 50MA.</div>
-        <div class="pill-row names" id="names-expansion_tight"><span class="count">Loading…</span></div>
-        <div class="actions">
-          <a href="/results/latest/charts_expansion_tight.html" target="_blank">Open charts →</a>
-          <a href="/results/latest/shortlist_expansion_tight.txt" target="_blank">Raw list</a>
-        </div>
-      </div>
     </div>
 
     <div class="row" style="gap:14px; flex-wrap:wrap; margin-top: 18px;">
@@ -329,7 +317,7 @@ async function loadLatest() {
 }
 
 async function loadArchetypes() {
-  const archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"];
+  const archetypes = ["sepa_vcp", "power_play", "qm_continuation"];
   for (const arch of archetypes) {
     const target = document.getElementById(`names-${arch}`);
     if (!target) continue;

@@ -59,13 +59,11 @@ FAMILY_THRESHOLDS = {
     "sepa_vcp":        7,   # 0-10 scale
     "power_play":      6,   # 0-8
     "qm_continuation": 6,   # 0-8
-    "expansion_tight": 6,   # 0-8
 }
 FAMILY_MAX_SCORES = {
     "sepa_vcp":        10,
     "power_play":      8,
     "qm_continuation": 8,
-    "expansion_tight": 8,
 }
 
 # ---------------------------- Universe ---------------------------------------
@@ -507,6 +505,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         distribution_days <= 2,
         not_extended_50ma,
     ])
+    support_score = int(close_in_upper_range) + int(accumulation_support) + int(distribution_days <= 2)
 
     sepa_vcp_score = sum([
         all_pass,
@@ -520,13 +519,14 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         accumulation_support,
         distribution_days <= 2,
     ])
+    power_play_digest = quiet_pullback or vol_dry_up or expansion["post_expansion_tight"]
     power_play_score = sum([
         not np.isnan(ret_6m) and ret_6m >= 85,
         not np.isnan(ret_15d) and -12 <= ret_15d <= 8,
         pct_from_hi >= -12,
         price > ma20,
-        tight_range or base["base_tightness_pct"] <= 12,
-        quiet_pullback or vol_dry_up,
+        tightness_score >= 2 or base["base_tightness_pct"] <= 12,
+        power_play_digest,
         not_extended_50ma,
         close_in_upper_range,
     ])
@@ -555,7 +555,7 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         candle_quality=candle_quality, abr21_pct=abr21_pct, candle_orderly=candle_orderly,
         atr50ma_ext=atr50ma_ext, not_extended_50ma=not_extended_50ma,
         ret_5d=ret_5d, compression_1w=compression_1w,
-        tightness_score=tightness_score,
+        tightness_score=tightness_score, support_score=support_score,
         avg_close_in_range=avg_close_in_range, close_in_upper_range=close_in_upper_range,
         up_down_vol_ratio=up_down_vol_ratio, accumulation_support=accumulation_support,
         distribution_days=distribution_days, quiet_pullback_weeks=quiet_pullback_weeks,
@@ -586,8 +586,9 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         # ADR% over last 20 days — Qullamaggie prefers ≥5% for tradeable volatility
         adr_pct = ((high - low) / close).tail(20).mean() * 100
         qm_adr_pct = adr_pct >= 5
-        # Tight consolidation proxy (reuse 5-day range tightness)
-        qm_consolidation = tight_range or quiet_pullback
+        # Tight consolidation proxy: require more than one compression signal
+        # rather than letting multiple overlapping "tight" checks each vote.
+        qm_consolidation = tightness_score >= 2 or quiet_pullback
         qm_score = sum([qm_momentum, qm_ema_ride, qm_adr_pct, qm_consolidation])
         qm_continuation_score = sum([
             qm_momentum,
@@ -607,17 +608,6 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
             qm_continuation_score=qm_continuation_score,
         ))
 
-    expansion_tight_score = sum([
-        expansion["recent_expansion"],
-        expansion["post_expansion_tight"],
-        pct_from_hi >= -12,
-        close_in_upper_range,
-        accumulation_support,
-        distribution_days <= 2,
-        not_extended_50ma,
-        breakout_ready or price > ma20,
-    ])
-
     # Multi-membership classification. Each setup family has a minimum score
     # to "qualify" as that archetype. A name can qualify for ZERO, ONE, or
     # MULTIPLE families — argmax-forcing each ticker into a single bucket is
@@ -627,7 +617,6 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         "sepa_vcp": sepa_vcp_score,
         "power_play": power_play_score,
         "qm_continuation": qm_continuation_score if use_qullamaggie else 0,
-        "expansion_tight": expansion_tight_score,
     }
     # Family_max differs (sepa_vcp is 0-10, others 0-8), so raw scores are
     # NOT directly comparable across families. Both normalizations exposed:
@@ -661,11 +650,9 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     best_family_pct = max(family_pct_max.values())
 
     out.update(dict(
-        expansion_tight_score=expansion_tight_score,
         sepa_vcp_qualifies=qualifies_as["sepa_vcp"],
         power_play_qualifies=qualifies_as["power_play"],
         qm_continuation_qualifies=qualifies_as["qm_continuation"],
-        expansion_tight_qualifies=qualifies_as["expansion_tight"],
         qualified_count=len(qualified),
         also_fits=",".join(also_fits) if also_fits else "",
         primary_setup=primary_setup,
@@ -919,10 +906,10 @@ def main():
             "best_family_excess", "best_family_pct",
             "price", "pct_from_hi", "pct_to_pivot",
             "base_length", "base_depth_pct", "base_tightness_pct",
-            "tightness_score",
+            "tightness_score", "support_score",
             "leadership_score", "entry_score", "setup_score",
             "sector_bonus",
-            "sepa_vcp_score", "power_play_score", "expansion_tight_score",
+            "sepa_vcp_score", "power_play_score",
             "breakout_ready", "quiet_pullback_weeks", "distribution_days",
             "avg_close_in_range", "up_down_vol_ratio", "vol_ratio",
             "rs_vs_spy", "rs_pct_rank"]

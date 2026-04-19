@@ -14,8 +14,9 @@ browser ──HTTP──▶ Cloudflare Worker ──GH API──▶ GitHub Actio
 
 - **Scanner** (`scanner/`): Python. Fetches Nasdaq Trader symbol directory,
   applies liquidity, then scores separate breakout families instead of one
-  blended momentum bucket: SEPA/VCP, power-play continuation, Qullamaggie
-  continuation, and recent expansion followed by tight digestion.
+  blended momentum bucket: SEPA/VCP, power-play continuation, and Qullamaggie
+  continuation. Recent expansion and tight digestion remain inputs, but not a
+  separate archetype.
 - **Workflow** (`.github/workflows/scan.yml`): `workflow_dispatch` with inputs,
   plus daily cron at 17:15 ET. Commits `public/results/latest/` back to `main`.
 - **Landing page** (`public/index.html`): form that posts thresholds to the Worker.
@@ -28,11 +29,12 @@ browser ──HTTP──▶ Cloudflare Worker ──GH API──▶ GitHub Actio
 |---|---|---|
 | Stock quality | Trend template, longer-term RS, distance from highs, orderly structure | Minervini + leadership filters |
 | Entry quality | Base quality, pivot proximity, quiet pullback, accumulation vs distribution | First-principles breakout logic |
-| Setup families | `sepa_vcp`, `power_play`, `qm_continuation`, `expansion_tight` | Minervini, Jeff Sun, Kullamägi |
+| Setup families | `sepa_vcp`, `power_play`, `qm_continuation` | Minervini, Jeff Sun, Kullamägi |
 | Regime filter | SPY/QQQ/IWM trend state changes minimum setup and entry thresholds | Breakout tape filter |
 
 The scanner no longer treats every trader input as one additive `setup_score`.
-Instead it identifies the best-fitting setup family for each ticker, then ranks
+Instead it classifies each ticker across the three setup families, allows
+multi-membership when a stock genuinely fits more than one playbook, then ranks
 within a regime-aware shortlist using:
 
 - `primary_setup`: best-fitting breakout archetype

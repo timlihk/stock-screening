@@ -205,7 +205,7 @@ jobs:
           checked_candidates = 0
           dropped_for_earnings = 0
           batch_size = 40
-          archetypes = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
+          archetypes = ["sepa_vcp", "power_play", "qm_continuation"]
 
           def enough_survivors(rows):
               if len(rows) < 20:
@@ -246,7 +246,7 @@ jobs:
               headline_score = row.get(headline_score_col, row.get("setup_score", 0))
               parts = [f"{headline_arch} {headline_score:.0f}"]
               # "also fits" → other archetypes this name qualifies for
-              all_arches = ["sepa_vcp", "power_play", "qm_continuation", "expansion_tight"]
+              all_arches = ["sepa_vcp", "power_play", "qm_continuation"]
               also = [a for a in all_arches
                       if a != headline_arch and row.get(f"{a}_qualifies", False)]
               if also:
@@ -324,7 +324,7 @@ jobs:
         env:
           DESC_CACHE: public/cache/descriptions.json
         run: |
-          for arch in sepa_vcp power_play qm_continuation expansion_tight; do
+          for arch in sepa_vcp power_play qm_continuation; do
             SHORTLIST="public/results/latest/shortlist_${arch}.txt"
             if [ -s "$SHORTLIST" ]; then
               rm -f /tmp/sepa-scan/charts_*.html
