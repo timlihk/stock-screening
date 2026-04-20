@@ -600,9 +600,6 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         support_score >= 2,
     ])
 
-    qm_breakout_score = 0
-    qm_episodic_pivot_score = 0
-
     out = dict(
         ticker=tkr, price=price,
         pct_from_hi=pct_from_hi, pct_above_lo=pct_above_lo,
@@ -628,7 +625,6 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         pivot_age=base["pivot_age"], breakout_ready=breakout_ready,
         leadership_score=leadership_score, entry_score=entry_score,
         sepa_vcp_score=sepa_vcp_score, power_play_score=power_play_score,
-        qm_breakout_score=qm_breakout_score, qm_episodic_pivot_score=qm_episodic_pivot_score,
         pct_to_pivot=pct_to_pivot, pivot=pivot,
     )
     return out
@@ -807,6 +803,11 @@ def main():
         else:
             print("  overlaying vendored Andy-Roger QM breakout / EP scan", file=sys.stderr)
             df = apply_vendor_qm_scores(df, liq["ticker"].tolist())
+    for col in ("qm_breakout_vendor_score", "qm_episodic_pivot_vendor_score"):
+        if col not in df.columns:
+            df[col] = 0.0
+        else:
+            df[col] = df[col].fillna(0.0)
     df = classify_setup_families(df, use_qullamaggie=args.use_qullamaggie and HAVE_QM_VENDOR)
 
     df["market_regime"] = regime["label"]
@@ -874,8 +875,10 @@ def main():
     # favor higher-ceiling archetypes.
     shortlist = passers.copy()
     sort_cols = ["best_family_excess", "entry_score", "leadership_score",
-                 "sector_bonus", "qualified_count", "rs_pct_rank"]
-    shortlist = shortlist.sort_values(sort_cols, ascending=[False, False, False, False, False, False])
+                 "sector_bonus", "qualified_count",
+                 "qm_breakout_vendor_score", "qm_episodic_pivot_vendor_score",
+                 "rs_pct_rank"]
+    shortlist = shortlist.sort_values(sort_cols, ascending=[False] * len(sort_cols))
 
     cols = ["ticker", "primary_setup", "also_fits", "qualified_count",
             "best_family_excess", "best_family_pct",

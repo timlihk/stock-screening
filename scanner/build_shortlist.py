@@ -102,10 +102,16 @@ def build_shortlist(results_dir: str, date: str) -> None:
     passers["net_income_yoy_growth"] = passers["ticker"].apply(lambda t: _fund(t, "net_income_yoy_growth", None))
     passers["earnings_accelerating"] = passers["ticker"].apply(lambda t: _fund(t, "earnings_accelerating", None))
     passers["revenue_accelerating"] = passers["ticker"].apply(lambda t: _fund(t, "revenue_accelerating", None))
+    for col in ("qm_breakout_vendor_score", "qm_episodic_pivot_vendor_score"):
+        if col not in passers.columns:
+            passers[col] = 0.0
+        else:
+            passers[col] = passers[col].fillna(0.0)
 
     rank_col = "rs_pct_rank" if "rs_pct_rank" in passers.columns else "rs_vs_spy"
     sort_cols = ["best_family_excess", "fundamental_score", "entry_score",
                  "leadership_score", "sector_bonus", "qualified_count",
+                 "qm_breakout_vendor_score", "qm_episodic_pivot_vendor_score",
                  rank_col]
     passers = passers.sort_values(sort_cols, ascending=[False] * len(sort_cols))
 
