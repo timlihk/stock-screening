@@ -1,5 +1,5 @@
 {
-  "run_id": "20260420T010126Z",
+  "run_id": "20260420T133101Z",
   "date": "2026-04-20",
   "inputs": {
     "exchanges": "nasdaq,nyse",
@@ -12,6 +12,6 @@
     "exclude_biotech": "false",
     "institutional_buying": "false"
   },
-  "triggered_by": "workflow_dispatch",
+  "triggered_by": "schedule",
   "actor": "timlihk"
 }

@@ -1,10 +1,10 @@
-FTI|power_play 7 · Entry 5 · Lead 8 · Tight 1/3 · RSpct 90 · Energy · RS +147
-SLAB|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 86 · Technology · Earn 16d · RS +100
+TS|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · RSpct 76 · RS +47
+FIX|power_play 7 · +sepa_vcp · Entry 5 · Lead 12 · Tight 2/3 · Fund 5/5 · RSpct 96 · Industrials · RS +341
+AEIS|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · RSpct 95 · RS +299
+TDW|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 87 · RS +112
+FTI|power_play 7 · Entry 5 · Lead 8 · Tight 0/3 · RSpct 89 · Energy · RS +142
 CASY|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 69 · Consumer Discretionary · Earn 51d · RS +29
-AROC|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 65 · Energy · RS +22
-CSCO|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 65 · Technology · Earn 17d · RS +22
-ROST|power_play 7 · +sepa_vcp · Entry 4 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 69 · Consumer Discretionary · Earn 33d · RS +29
-SATL|power_play 7 · Entry 4 · Lead 6 · Tight 0/3 · RSpct 72 · RS +37
-EA|power_play 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 55 · Communication Services · RS +7
-FCX|power_play 6 · Entry 5 · Lead 10 · Tight 2/3 · Fund 1/5 · RSpct 82 · Materials · RS +77
-CMI|power_play 6 · Entry 5 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 84 · Industrials · Earn 16d · RS +91
+WBS|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 70 · Financials · RS +31
+AROC|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 64 · Energy · RS +19
+TGT|power_play 7 · Entry 5 · Lead 7 · Tight 0/3 · Fund 1/5 · RSpct 56 · RS +7
+JCI|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 77 · RS +49
