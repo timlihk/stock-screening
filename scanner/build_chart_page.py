@@ -82,7 +82,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <h1>SEPA Finalists — __DATE__</h1>
-<p class="sub">1-year daily view · SMA 10 / 20 / 50 / 200 · ranked by buy-zone proximity + VCP quality</p>
+<p class="sub">1-year daily view · dark TradingView chart · SMA 10 / 20 / 50 / 200 overlays</p>
 
 <div id="container"></div>
 
@@ -151,31 +151,37 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       theme: "dark",
       style: "1",
       locale: "en",
+      toolbar_bg: "#0f1115",
       range: "12M",
       withdateranges: true,
       allow_symbol_change: true,
       hide_side_toolbar: false,
       save_image: false,
-      // 4 different MA types so studies_overrides can color each distinctly.
-      // TradingView's embed widget applies overrides globally per study-name,
-      // so 4 MASimple instances would all share one color. Using SMA/EMA/WMA/HMA
-      // gives 4 separate override keys. At these lookbacks the visual behavior
-      // of these MA flavors is near-identical to pure SMAs.
+      hideideas: true,
+      overrides: {
+        "paneProperties.background": "#0f1115",
+        "paneProperties.backgroundType": "solid",
+        "paneProperties.vertGridProperties.color": "#1f2632",
+        "paneProperties.horzGridProperties.color": "#1f2632",
+        "symbolWatermarkProperties.transparency": 92,
+        "scalesProperties.textColor": "#9aa0a6"
+      },
       studies: [
-        { id: "MASimple@tv-basicstudies", inputs: { length: 10 } },       // red
-        { id: "MAExponential@tv-basicstudies", inputs: { length: 20 } },  // orange
-        { id: "MAWeighted@tv-basicstudies", inputs: { length: 50 } },     // blue
-        { id: "MAHull@tv-basicstudies", inputs: { length: 200 } }         // purple
+        { id: "MASimple@tv-basicstudies", inputs: { length: 10 } },
+        { id: "MASimple@tv-basicstudies", inputs: { length: 20 } },
+        { id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
+        { id: "MASimple@tv-basicstudies", inputs: { length: 200 } }
       ],
       studies_overrides: {
-        "Moving Average.plot.color":              "#ef4444",  // SMA 10
-        "Moving Average.plot.linewidth":          1,
-        "Moving Average Exponential.plot.color":  "#f59e0b",  // EMA 20
-        "Moving Average Exponential.plot.linewidth": 1,
-        "Moving Average Weighted.plot.color":     "#3b82f6",  // WMA 50
-        "Moving Average Weighted.plot.linewidth": 2,
-        "Hull Moving Average.plot.color":         "#a855f7",  // HMA 200
-        "Hull Moving Average.plot.linewidth":     2
+        // TradingView namespaces duplicate studies as moving average, moving average_1, etc.
+        "moving average.ma.color": "#ef4444",
+        "moving average.ma.linewidth": 1,
+        "moving average_1.ma.color": "#f59e0b",
+        "moving average_1.ma.linewidth": 1,
+        "moving average_2.ma.color": "#22c55e",
+        "moving average_2.ma.linewidth": 2,
+        "moving average_3.ma.color": "#60a5fa",
+        "moving average_3.ma.linewidth": 2
       },
       support_host: "https://www.tradingview.com"
     });

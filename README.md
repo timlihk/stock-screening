@@ -14,11 +14,10 @@ browser ──HTTP──▶ Cloudflare Worker ──GH API──▶ GitHub Actio
 
 - **Scanner** (`scanner/`): Python. Fetches Nasdaq Trader symbol directory,
   applies liquidity, then scores separate breakout families instead of one
-  blended momentum bucket: SEPA/VCP, power-play continuation, and Qullamaggie
-  continuation. Recent expansion and tight digestion remain inputs, but not a
-  separate archetype.
+  blended momentum bucket: SEPA/VCP, power-play continuation, plus vendored
+  Andy-Roger Qullamaggie breakout and episodic-pivot scans.
 - **Workflow** (`.github/workflows/scan.yml`): `workflow_dispatch` with inputs,
-  plus daily cron at 17:15 ET. Commits `public/results/latest/` back to `main`.
+  plus daily cron at 8:00 AM EST. Commits `public/results/latest/` back to `main`.
 - **Landing page** (`public/index.html`): form that posts thresholds to the Worker.
 - **Worker** (`worker/`): thin API layer (`/api/scan`, `/api/runs`, `/api/run?id=`)
   that holds the GitHub PAT server-side, and serves the `public/` directory.
@@ -29,11 +28,11 @@ browser ──HTTP──▶ Cloudflare Worker ──GH API──▶ GitHub Actio
 |---|---|---|
 | Stock quality | Trend template, longer-term RS, distance from highs, orderly structure | Minervini + leadership filters |
 | Entry quality | Base quality, pivot proximity, quiet pullback, accumulation vs distribution | First-principles breakout logic |
-| Setup families | `sepa_vcp`, `power_play`, `qm_continuation` | Minervini, Jeff Sun, Kullamägi |
+| Setup families | `sepa_vcp`, `power_play`, `qm_breakout`, `qm_episodic_pivot` | Minervini, Jeff Sun, Kullamägi |
 | Regime filter | SPY/QQQ/IWM trend state changes minimum setup and entry thresholds | Breakout tape filter |
 
 The scanner no longer treats every trader input as one additive `setup_score`.
-Instead it classifies each ticker across the three setup families, allows
+Instead it classifies each ticker across the four setup families, allows
 multi-membership when a stock genuinely fits more than one playbook, then ranks
 within a regime-aware shortlist using:
 
@@ -54,6 +53,17 @@ python3 scanner/sepa_scan_universe.py \
     --use-qullamaggie \
     --min-setup-score 6
 ```
+
+## QM source
+
+The Qullamaggie families are not hand-rolled anymore. They are sourced from a
+vendored copy of Andy-Roger's [qullamaggie-scanner](https://github.com/Andy-Roger/qullamaggie-scanner):
+
+- `qm_breakout`: his breakout rules, mapped into this repo's 0-8 family score
+- `qm_episodic_pivot`: his premarket EP rules, also mapped into the 0-8 family score
+
+The raw Andy-Roger scores are still kept in the results CSV as
+`qm_breakout_vendor_score` and `qm_episodic_pivot_vendor_score`.
 
 ## Deploy (one-time setup)
 

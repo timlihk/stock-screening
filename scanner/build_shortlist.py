@@ -17,7 +17,7 @@ from sector_align import (
     sector_name_for,
 )
 
-ARCHETYPES = ["sepa_vcp", "power_play", "qm_continuation"]
+ARCHETYPES = ["sepa_vcp", "power_play", "qm_breakout", "qm_episodic_pivot"]
 
 
 def _write_empty_shortlists(results_dir: str) -> None:
@@ -43,8 +43,10 @@ def _format_note(row, rank_col: str, arch: str | None = None) -> str:
         parts.append(f"Tight {int(row['tightness_score'])}/3")
     if "fundamental_score" in row and pd.notna(row["fundamental_score"]) and int(row["fundamental_score"]) > 0:
         parts.append(f"Fund {int(row['fundamental_score'])}/5")
-    if "qm_score" in row and pd.notna(row["qm_score"]):
-        parts.append(f"QM {int(row['qm_score'])}")
+    if headline_arch == "qm_breakout" and pd.notna(row.get("qm_breakout_vendor_score")) and row["qm_breakout_vendor_score"] > 0:
+        parts.append(f"QMraw {row['qm_breakout_vendor_score']:.0f}")
+    if headline_arch == "qm_episodic_pivot" and pd.notna(row.get("qm_episodic_pivot_vendor_score")) and row["qm_episodic_pivot_vendor_score"] > 0:
+        parts.append(f"QMraw {row['qm_episodic_pivot_vendor_score']:.0f}")
     if rank_col in row and pd.notna(row[rank_col]):
         parts.append(f"{'RSpct' if rank_col == 'rs_pct_rank' else 'RS'} {int(row[rank_col]) if rank_col == 'rs_pct_rank' else f'{row[rank_col]:+.0f}'}")
     if row.get("sector_name") and str(row["sector_name"]) != "nan":
@@ -60,10 +62,11 @@ def _enough_survivors(rows: list[dict]) -> bool:
     if len(rows) < 20:
         return False
     survivors = pd.DataFrame(rows)
-    for arch in ARCHETYPES:
+    active_archetypes = [arch for arch in ARCHETYPES if f"{arch}_qualifies" in survivors.columns]
+    if not active_archetypes:
+        return False
+    for arch in active_archetypes:
         qual_col = f"{arch}_qualifies"
-        if qual_col not in survivors.columns:
-            return False
         if int(survivors[qual_col].sum()) < 10:
             return False
     return True

@@ -89,7 +89,7 @@
 <body>
 <div class="container">
   <h1>SEPA + Qullamaggie Screen</h1>
-  <p class="sub">Scan Nasdaq + NYSE for Minervini trend-template passers with VCP structure and Qullamaggie momentum. Auto-runs weekdays at <b>22:00 UTC (5pm EST / 6pm EDT)</b>. You can also queue an ad-hoc scan with the form below.</p>
+  <p class="sub">Scan Nasdaq + NYSE for Minervini trend-template passers plus vendored Andy-Roger Qullamaggie breakout / EP overlays. Auto-runs weekdays at <b>13:00 UTC (8:00 AM EST)</b>. You can also queue an ad-hoc scan with the form below.</p>
 
   <div class="card">
     <h2>Scan thresholds</h2>
@@ -115,9 +115,9 @@
           <div class="hint">50M = liquid mid/large cap. 10M = includes many small caps.</div>
         </div>
         <div>
-          <label>Min composite setup score (0-12)</label>
-          <input type="number" name="min_setup_score" value="5" min="0" max="12" />
-          <div class="hint">Now 12 max — added Jeff Sun's ATR-50MA + 1-week compression. 5 = solid, 7 = elite, 9+ = rare.</div>
+          <label>Min family setup score (0-8)</label>
+          <input type="number" name="min_setup_score" value="5" min="0" max="8" />
+          <div class="hint">Each family now tops out at 8. 5 = solid, 6 = strict, 7-8 = rare.</div>
         </div>
         <div>
           <label>Include Qullamaggie momentum signals</label>
@@ -206,16 +206,29 @@
         </div>
       </div>
 
-      <div class="archetype" data-arch="qm_continuation">
+      <div class="archetype" data-arch="qm_breakout">
         <div class="head">
-          <span class="title">🏄 QM Continuation</span>
+          <span class="title">🏄 QM Breakout</span>
           <span class="attrib">Kristjan Kullamägi</span>
         </div>
-        <div class="desc">Top-1-2% momentum riding the rising 10/20 EMA with tight consolidation. Entry on range-high break.</div>
-        <div class="pill-row names" id="names-qm_continuation"><span class="count">Loading…</span></div>
+        <div class="desc">Vendored from Andy-Roger's breakout scanner: 30%+ impulse, 7-40 day consolidation, near pivot, ADR-aware stop.</div>
+        <div class="pill-row names" id="names-qm_breakout"><span class="count">Loading…</span></div>
         <div class="actions">
-          <a href="/results/latest/charts_qm_continuation.html" target="_blank">Open charts →</a>
-          <a href="/results/latest/shortlist_qm_continuation.txt" target="_blank">Raw list</a>
+          <a href="/results/latest/charts_qm_breakout.html" target="_blank">Open charts →</a>
+          <a href="/results/latest/shortlist_qm_breakout.txt" target="_blank">Raw list</a>
+        </div>
+      </div>
+
+      <div class="archetype" data-arch="qm_episodic_pivot">
+        <div class="head">
+          <span class="title">⚡ QM Episodic Pivot</span>
+          <span class="attrib">Kristjan Kullamägi</span>
+        </div>
+        <div class="desc">Vendored from Andy-Roger's premarket EP scanner: 10%+ gap candidates, strong premarket volume, limited prior 3-month extension.</div>
+        <div class="pill-row names" id="names-qm_episodic_pivot"><span class="count">Loading…</span></div>
+        <div class="actions">
+          <a href="/results/latest/charts_qm_episodic_pivot.html" target="_blank">Open charts →</a>
+          <a href="/results/latest/shortlist_qm_episodic_pivot.txt" target="_blank">Raw list</a>
         </div>
       </div>
 
@@ -317,7 +330,7 @@ async function loadLatest() {
 }
 
 async function loadArchetypes() {
-  const archetypes = ["sepa_vcp", "power_play", "qm_continuation"];
+  const archetypes = ["sepa_vcp", "power_play", "qm_breakout", "qm_episodic_pivot"];
   for (const arch of archetypes) {
     const target = document.getElementById(`names-${arch}`);
     if (!target) continue;

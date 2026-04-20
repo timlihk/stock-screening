@@ -16,7 +16,7 @@ on:
         required: true
         default: "50000000"
       min_setup_score:
-        description: "Minimum composite setup score (0-12)"
+        description: "Minimum family setup score (0-8)"
         required: true
         default: "5"
       use_qullamaggie:
@@ -50,10 +50,10 @@ on:
         type: choice
         options: ["true", "false"]
   schedule:
-    # 22:00 UTC weekdays = 5pm EST (winter) / 6pm EDT (summer).
+    # 13:00 UTC weekdays = 8am EST.
     # All three screeners (SEPA shortlist, RS leaders, sector rotation) run
     # in the same job, so the daily run produces everything at once.
-    - cron: "0 22 * * 1-5"
+    - cron: "0 13 * * 1-5"
 
 permissions:
   contents: write
@@ -177,8 +177,10 @@ jobs:
           DESC_CACHE: public/cache/descriptions.json
         run: |
           rm -f public/results/latest/shortlist_expansion_tight.txt \
-                public/results/latest/charts_expansion_tight.html
-          for arch in sepa_vcp power_play qm_continuation; do
+                public/results/latest/charts_expansion_tight.html \
+                public/results/latest/shortlist_qm_continuation.txt \
+                public/results/latest/charts_qm_continuation.html
+          for arch in sepa_vcp power_play qm_breakout qm_episodic_pivot; do
             SHORTLIST="public/results/latest/shortlist_${arch}.txt"
             if [ -s "$SHORTLIST" ]; then
               rm -f /tmp/sepa-scan/charts_*.html

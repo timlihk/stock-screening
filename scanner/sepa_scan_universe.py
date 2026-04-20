@@ -7,8 +7,8 @@ Pipeline:
   3. Pass 1: batch yfinance (1mo), compute 20-day avg dollar volume,
      filter by min_price and min_adv_usd.
   4. Pass 2: batch yfinance (15mo) on survivors, run full SEPA trend template,
-     VCP-lite signals, Deepvue/Minervini extensions, and (optional) Qullamaggie
-     momentum layer.
+     VCP-lite signals, Deepvue/Minervini extensions, then overlay vendored
+     Andy-Roger breakout / episodic-pivot QM picks.
   5. Write results CSV + print the shortlist.
 
 Usage:
@@ -48,22 +48,30 @@ try:
 except ImportError:
     HAVE_SECTOR_ALIGN = False
 
+try:
+    from qm_strategies import apply_vendor_qm_scores
+    HAVE_QM_VENDOR = True
+except ImportError:
+    HAVE_QM_VENDOR = False
+
 BENCH = ["SPY", "QQQ", "IWM"]
 OUT_DIR_DEFAULT = "/tmp/sepa-scan"
 
 # Setup family calibration. Thresholds are the minimum score to "qualify" as
-# that archetype. family_max is the ceiling each score can hit (they differ
-# because each family has a different number of component signals). Both are
-# needed to normalize across families — raw scores are not directly comparable.
+# that archetype. The QM families are sourced from Andy-Roger's 0-100 scanner
+# scores and then mapped into this repo's 0-8 family frame so the regime gate
+# and unified shortlist can still compare families coherently.
 FAMILY_THRESHOLDS = {
     "sepa_vcp":        6,   # 0-8 scale
     "power_play":      6,   # 0-8
-    "qm_continuation": 6,   # 0-8
+    "qm_breakout":     6,   # 0-8
+    "qm_episodic_pivot": 6, # 0-8
 }
 FAMILY_MAX_SCORES = {
     "sepa_vcp":        8,
     "power_play":      8,
-    "qm_continuation": 8,
+    "qm_breakout":     8,
+    "qm_episodic_pivot": 8,
 }
 
 # ---------------------------- Universe ---------------------------------------
@@ -374,6 +382,79 @@ def base_structure(close, high, low):
         }
     return best
 
+
+def classify_setup_families(df, use_qullamaggie=True):
+    """Recompute family membership after QM scores have been merged in."""
+    if df.empty:
+        return df
+
+    stale_cols = [
+        "sepa_vcp_qualifies",
+        "power_play_qualifies",
+        "qm_breakout_qualifies",
+        "qm_episodic_pivot_qualifies",
+        "qualified_count",
+        "also_fits",
+        "primary_setup",
+        "primary_setup_score",
+        "setup_score",
+        "primary_setup_valid",
+        "best_family_excess",
+        "best_family_pct",
+    ]
+    df = df.drop(columns=[c for c in stale_cols if c in df.columns]).copy()
+
+    def _classify(row):
+        family_scores = {
+            "sepa_vcp": int(row.get("sepa_vcp_score", 0) or 0),
+            "power_play": int(row.get("power_play_score", 0) or 0),
+            "qm_breakout": int(row.get("qm_breakout_score", 0) or 0) if use_qullamaggie else 0,
+            "qm_episodic_pivot": int(row.get("qm_episodic_pivot_score", 0) or 0) if use_qullamaggie else 0,
+        }
+        family_excess = {
+            name: family_scores[name] - FAMILY_THRESHOLDS[name]
+            for name in FAMILY_THRESHOLDS
+        }
+        family_pct_max = {
+            name: family_scores[name] / FAMILY_MAX_SCORES[name]
+            for name in FAMILY_MAX_SCORES
+        }
+        qualifies_as = {
+            name: family_scores[name] >= FAMILY_THRESHOLDS[name]
+            for name in FAMILY_THRESHOLDS
+        }
+        qualified = [name for name, passes in qualifies_as.items() if passes]
+        if qualified:
+            primary_setup = max(
+                qualified,
+                key=lambda name: (family_excess[name], family_scores[name]),
+            )
+            also_fits = [name for name in qualified if name != primary_setup]
+        else:
+            primary_setup = "none"
+            also_fits = []
+        primary_setup_valid = primary_setup != "none"
+        setup_score = family_scores[primary_setup] if primary_setup_valid else 0
+        return pd.Series(
+            {
+                "sepa_vcp_qualifies": qualifies_as["sepa_vcp"],
+                "power_play_qualifies": qualifies_as["power_play"],
+                "qm_breakout_qualifies": qualifies_as["qm_breakout"],
+                "qm_episodic_pivot_qualifies": qualifies_as["qm_episodic_pivot"],
+                "qualified_count": len(qualified),
+                "also_fits": ",".join(also_fits) if also_fits else "",
+                "primary_setup": primary_setup,
+                "primary_setup_score": setup_score,
+                "setup_score": setup_score,
+                "primary_setup_valid": primary_setup_valid,
+                "best_family_excess": max(family_excess.values()),
+                "best_family_pct": max(family_pct_max.values()),
+            }
+        )
+
+    classified = df.apply(_classify, axis=1)
+    return pd.concat([df, classified], axis=1)
+
 def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
     if df is None or df.empty:
         return None
@@ -519,15 +600,8 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         support_score >= 2,
     ])
 
-    qm_score = 0
-    qm_momentum = False
-    qm_ema_ride = False
-    adr_pct = np.nan
-    qm_adr_pct = False
-    qm_consolidation = False
-    qm_continuation_score = 0
-    ret_1m = np.nan
-    ret_3m = np.nan
+    qm_breakout_score = 0
+    qm_episodic_pivot_score = 0
 
     out = dict(
         ticker=tkr, price=price,
@@ -554,104 +628,9 @@ def analyze(tkr, df, spy_ret_1y, use_qullamaggie=True):
         pivot_age=base["pivot_age"], breakout_ready=breakout_ready,
         leadership_score=leadership_score, entry_score=entry_score,
         sepa_vcp_score=sepa_vcp_score, power_play_score=power_play_score,
+        qm_breakout_score=qm_breakout_score, qm_episodic_pivot_score=qm_episodic_pivot_score,
         pct_to_pivot=pct_to_pivot, pivot=pivot,
     )
-
-    if use_qullamaggie:
-        # Qullamaggie-style momentum signals
-        ret_1m = (price / close.iloc[-22] - 1) * 100 if len(close) >= 22 else np.nan
-        ret_3m = (price / close.iloc[-63] - 1) * 100 if len(close) >= 63 else np.nan
-        # top-1-2% momentum gate: up ≥25% in 1mo OR ≥50% in 3mo OR ≥100% in 6mo
-        qm_momentum = any([(not np.isnan(ret_1m) and ret_1m >= 25),
-                           (not np.isnan(ret_3m) and ret_3m >= 50),
-                           (not np.isnan(ret_6m) and ret_6m >= 100)])
-        # 10/20 EMA ride: price > 10 EMA > 20 EMA and within 7% of 10 EMA
-        ema10 = close.ewm(span=10, adjust=False).mean().iloc[-1]
-        ema20 = close.ewm(span=20, adjust=False).mean().iloc[-1]
-        qm_ema_ride = (price > ema10 > ema20
-                       and abs(price - ema10) / price < 0.07)
-        # ADR% over last 20 days — Qullamaggie prefers ≥5% for tradeable volatility
-        adr_pct = ((high - low) / close).tail(20).mean() * 100
-        qm_adr_pct = adr_pct >= 5
-        # Tight consolidation proxy: require more than one compression signal
-        # rather than letting multiple overlapping "tight" checks each vote.
-        qm_consolidation = tightness_score >= 2 or quiet_pullback
-        qm_score = sum([qm_momentum, qm_ema_ride, qm_adr_pct, qm_consolidation])
-        qm_continuation_score = sum([
-            qm_momentum,
-            qm_ema_ride,
-            qm_adr_pct,
-            qm_consolidation,
-            support_score >= 2,
-            not_extended_50ma,
-            price > ma20,
-            pct_from_hi >= -12,
-        ])
-        out.update(dict(
-            ret_1m=ret_1m, ret_3m=ret_3m,
-            qm_momentum=qm_momentum, qm_ema_ride=qm_ema_ride,
-            adr_pct=adr_pct, qm_adr_pct=qm_adr_pct,
-            qm_consolidation=qm_consolidation, qm_score=qm_score,
-            qm_continuation_score=qm_continuation_score,
-        ))
-
-    # Multi-membership classification. Each setup family has a minimum score
-    # to "qualify" as that archetype. A name can qualify for ZERO, ONE, or
-    # MULTIPLE families — argmax-forcing each ticker into a single bucket is
-    # lossy. Keep primary_setup as a display headline (the family with the
-    # biggest excess above its threshold, if any).
-    family_scores = {
-        "sepa_vcp": sepa_vcp_score,
-        "power_play": power_play_score,
-        "qm_continuation": qm_continuation_score if use_qullamaggie else 0,
-    }
-    # Family_max differs across archetypes if their check counts diverge. Keep
-    # them explicit so cross-family ranking is normalized against each family's
-    # actual ceiling rather than assumed to be comparable raw.
-    # so raw scores are
-    # NOT directly comparable across families. Both normalizations exposed:
-    #   excess   = score - threshold  (zero-centered on "just passes")
-    #   pct_max  = score / family_max (absolute fill fraction)
-    family_excess = {name: family_scores[name] - FAMILY_THRESHOLDS[name]
-                     for name in FAMILY_THRESHOLDS}
-    family_pct_max = {name: family_scores[name] / FAMILY_MAX_SCORES[name]
-                      for name in FAMILY_MAX_SCORES}
-    qualifies_as = {name: family_scores[name] >= FAMILY_THRESHOLDS[name]
-                    for name in FAMILY_THRESHOLDS}
-    # Disable qm if caller opted out
-    if not use_qullamaggie:
-        qualifies_as["qm_continuation"] = False
-
-    qualified = [n for n, q in qualifies_as.items() if q]
-    also_fits = []
-    if qualified:
-        # Primary = qualifying family with biggest excess (ties: higher raw score)
-        primary_setup = max(
-            qualified,
-            key=lambda n: (family_excess[n], family_scores[n]),
-        )
-        also_fits = [n for n in qualified if n != primary_setup]
-    else:
-        primary_setup = "none"
-    primary_setup_valid = primary_setup != "none"
-    setup_score = family_scores[primary_setup] if primary_setup_valid else 0
-
-    best_family_excess = max(family_excess.values())
-    best_family_pct = max(family_pct_max.values())
-
-    out.update(dict(
-        sepa_vcp_qualifies=qualifies_as["sepa_vcp"],
-        power_play_qualifies=qualifies_as["power_play"],
-        qm_continuation_qualifies=qualifies_as["qm_continuation"],
-        qualified_count=len(qualified),
-        also_fits=",".join(also_fits) if also_fits else "",
-        primary_setup=primary_setup,
-        primary_setup_score=setup_score,
-        setup_score=setup_score,
-        primary_setup_valid=primary_setup_valid,
-        best_family_excess=best_family_excess,
-        best_family_pct=best_family_pct,
-    ))
     return out
 
 def full_scan(tickers, spy_ret_1y, use_qullamaggie=True, batch=400):
@@ -738,7 +717,7 @@ def parse_args():
                    help="Min 20-day avg dollar volume ($)")
     p.add_argument("--include-etf", action="store_true")
     p.add_argument("--min-setup-score", type=int, default=5,
-                   help="Minimum composite setup score (0-12). Default 5.")
+                   help="Minimum family setup score (0-8). Default 5.")
     p.add_argument("--use-qullamaggie", action="store_true", default=True)
     p.add_argument("--no-qullamaggie", dest="use_qullamaggie", action="store_false")
     p.add_argument("--max-tickers", type=int, default=0,
@@ -822,6 +801,14 @@ def main():
         df["rs_pct_rank"] = np.nan
         df["rs_top_20"] = False
 
+    if args.use_qullamaggie:
+        if not HAVE_QM_VENDOR:
+            print("  WARNING: vendored QM scanner unavailable; QM families disabled", file=sys.stderr)
+        else:
+            print("  overlaying vendored Andy-Roger QM breakout / EP scan", file=sys.stderr)
+            df = apply_vendor_qm_scores(df, liq["ticker"].tolist())
+    df = classify_setup_families(df, use_qullamaggie=args.use_qullamaggie and HAVE_QM_VENDOR)
+
     df["market_regime"] = regime["label"]
     df["regime_score"] = regime["score"]
     df["regime_eligible"] = (
@@ -897,30 +884,46 @@ def main():
             "tightness_score", "support_score",
             "leadership_score", "entry_score", "setup_score",
             "sector_bonus",
-            "sepa_vcp_score", "power_play_score",
+            "sepa_vcp_score", "power_play_score", "qm_breakout_score", "qm_episodic_pivot_score",
+            "qm_breakout_vendor_score", "qm_episodic_pivot_vendor_score",
             "breakout_ready", "quiet_pullback_weeks", "distribution_days",
             "avg_close_in_range", "up_down_vol_ratio", "vol_ratio",
             "rs_vs_spy", "rs_pct_rank"]
-    if args.use_qullamaggie:
-        cols += ["ret_1m", "ret_3m", "adr_pct", "qm_score", "qm_continuation_score"]
+    cols = [c for c in cols if c in shortlist.columns]
     print(f"\n=== BREAKOUT SHORTLIST ({regime['label']}, setup_score>={max(args.min_setup_score, regime['min_setup'])}): {len(shortlist)} ===\n")
     print(shortlist[cols].head(50).to_string(index=False, float_format=lambda x: f"{x:.2f}"))
 
-    # Qullamaggie-focused cut (independent of SEPA score)
-    if args.use_qullamaggie and "qm_score" in df.columns:
-        qm_only = df[
-            (df["qm_continuation_qualifies"] == True)
+    # Qullamaggie-focused cuts (independent of SEPA score)
+    if args.use_qullamaggie and HAVE_QM_VENDOR:
+        qm_breakouts = df[
+            (df["qm_breakout_qualifies"] == True)
             & (df["entry_score"] >= regime["min_entry"])
         ].copy()
-        qm_only = qm_only.sort_values(
-            ["qm_continuation_score", "leadership_score", "rs_pct_rank"],
-            ascending=[False, False, False],
+        qm_breakouts = qm_breakouts.sort_values(
+            ["qm_breakout_vendor_score", "qm_breakout_score", "leadership_score", "rs_pct_rank"],
+            ascending=[False, False, False, False],
         )
-        print(f"\n=== QULLAMAGGIE CONTINUATION CANDIDATES: {len(qm_only)} ===")
-        qm_cols = ["ticker", "price", "ret_1m", "ret_3m", "ret_6m",
-                   "adr_pct", "qm_momentum", "qm_ema_ride", "qm_consolidation",
-                   "qm_score", "qm_continuation_score", "entry_score", "pct_from_hi"]
-        print(qm_only[qm_cols].head(30).to_string(index=False, float_format=lambda x: f"{x:.2f}"))
+        print(f"\n=== QULLAMAGGIE BREAKOUT CANDIDATES: {len(qm_breakouts)} ===")
+        breakout_cols = ["ticker", "price", "ret_6m",
+                         "qm_breakout_vendor_score", "qm_breakout_score",
+                         "qm_breakout_entry_price", "qm_breakout_stop_price", "qm_breakout_stop_loss_pct",
+                         "entry_score", "pct_from_hi", "pct_to_pivot"]
+        print(qm_breakouts[breakout_cols].head(30).to_string(index=False, float_format=lambda x: f"{x:.2f}"))
+
+        qm_eps = df[
+            (df["qm_episodic_pivot_qualifies"] == True)
+            & (df["entry_score"] >= regime["min_entry"])
+        ].copy()
+        qm_eps = qm_eps.sort_values(
+            ["qm_episodic_pivot_vendor_score", "qm_episodic_pivot_score", "leadership_score", "rs_pct_rank"],
+            ascending=[False, False, False, False],
+        )
+        print(f"\n=== QULLAMAGGIE EPISODIC PIVOT CANDIDATES: {len(qm_eps)} ===")
+        ep_cols = ["ticker", "price", "ret_6m", "recent_expansion", "post_expansion_tight",
+                   "qm_episodic_pivot_vendor_score", "qm_episodic_pivot_score",
+                   "qm_episodic_pivot_entry_price", "qm_episodic_pivot_stop_price",
+                   "qm_episodic_pivot_stop_loss_pct", "entry_score", "pct_from_hi"]
+        print(qm_eps[ep_cols].head(30).to_string(index=False, float_format=lambda x: f"{x:.2f}"))
 
     elapsed = time.time() - t0
     print(f"\n=== Done in {elapsed/60:.1f} min · results at {args.output_dir}/results_universe_{date_tag}.csv ===")
