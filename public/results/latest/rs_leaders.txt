@@ -1,50 +1,50 @@
-AXTI|RSpct 100 · Setup 6 · QM 2 · 1y +6956%
-BW|RSpct 99 · Setup 7 · QM 4 · 1y +5284%
-SNDK|RSpct 99 · Setup 7 · QM 3 · 1y +2775%
-TERN|RSpct 99 · Setup 6 · QM 3 · 1y +2250%
-TNGX|RSpct 99 · Setup 0 · QM 2 · 1y +1981%
-ABVX|RSpct 99 · Setup 0 · QM 2 · 1y +1810%
-KOD|RSpct 99 · Setup 0 · QM 2 · 1y +1803%
-LITE|RSpct 99 · Setup 7 · QM 4 · 1y +1612%
-ERAS|RSpct 99 · Setup 0 · QM 2 · 1y +1525%
-AAOI|RSpct 99 · Setup 0 · QM 2 · 1y +1428%
-LWLG|RSpct 99 · Setup 0 · QM 2 · 1y +1278%
-HYMC|RSpct 99 · Setup 0 · QM 2 · 1y +1180%
-CELC|RSpct 99 · Setup 6 · QM 3 · 1y +1126%
-PL|RSpct 99 · Setup 6 · QM 3 · 1y +1106%
-BE|RSpct 99 · Setup 0 · QM 2 · 1y +1066%
-ONDS|RSpct 98 · Setup 0 · QM 2 · 1y +1057%
-PRAX|RSpct 98 · Setup 6 · QM 3 · 1y +1048%
-WDC|RSpct 98 · Setup 6 · QM 2 · 1y +950%
-AEHR|RSpct 98 · Setup 0 · QM 2 · 1y +928%
-LASR|RSpct 98 · Setup 6 · QM 3 · 1y +889%
-NKTR|RSpct 98 · Setup 6 · QM 3 · 1y +827%
-WULF|RSpct 98 · Setup 7 · QM 3 · 1y +797%
-IREN|RSpct 98 · Setup 0 · QM 2 · 1y +780%
-COGT|RSpct 98 · Setup 6 · QM 3 · 1y +772%
-CIEN|RSpct 98 · Setup 6 · QM 3 · 1y +762%
-CIFR|RSpct 98 · Setup 6 · QM 3 · 1y +733%
-AMPX|RSpct 98 · Setup 7 · QM 4 · 1y +730%
-ORKA|RSpct 98 · Setup 0 · QM 2 · 1y +700%
-APLD|RSpct 98 · Setup 0 · QM 1 · 1y +673%
-VSAT|RSpct 97 · Setup 0 · QM 2 · 1y +669%
-STX|RSpct 97 · Setup 0 · QM 2 · 1y +662%
-NBIS|RSpct 97 · Setup 0 · QM 3 · 1y +645%
-NVTS|RSpct 97 · Setup 0 · QM 3 · 1y +612%
-CAR|RSpct 97 · Setup 0 · QM 2 · 1y +579%
-HUT|RSpct 97 · Setup 6 · QM 2 · 1y +576%
-TTMI|RSpct 97 · Setup 0 · QM 2 · 1y +575%
-TSEM|RSpct 97 · Setup 6 · QM 2 · 1y +566%
-MU|RSpct 97 · Setup 7 · QM 3 · 1y +558%
-COHR|RSpct 97 · Setup 0 · QM 2 · 1y +522%
-ARWR|RSpct 97 · Setup 0 · QM 2 · 1y +512%
-SATS|RSpct 97 · Setup 0 · QM 2 · 1y +503%
-SYRE|RSpct 97 · Setup 0 · QM 2 · 1y +488%
-OPEN|RSpct 97 · Setup 0 · QM 2 · 1y +471%
-CRML|RSpct 97 · Setup 0 · QM 3 · 1y +458%
-ALM|RSpct 96 · Setup 6 · QM 2 · 1y +457%
-VISN|RSpct 96 · Setup 0 · QM 2 · 1y +455%
-SPHR|RSpct 96 · Setup 6 · QM 2 · 1y +440%
-TER|RSpct 96 · Setup 7 · QM 3 · 1y +437%
-FORM|RSpct 96 · Setup 0 · QM 2 · 1y +429%
-BKSY|RSpct 96 · Setup 0 · QM 2 · 1y +428%
+AXTI|RSpct 100 · Setup 0 · 1y +6956%
+BW|RSpct 99 · Setup 0 · 1y +5284%
+SNDK|RSpct 99 · Setup 0 · 1y +2775%
+TERN|RSpct 99 · Setup 6 · 1y +2250%
+TNGX|RSpct 99 · Setup 0 · 1y +1981%
+ABVX|RSpct 99 · Setup 0 · 1y +1810%
+KOD|RSpct 99 · Setup 0 · 1y +1803%
+LITE|RSpct 99 · Setup 0 · 1y +1612%
+ERAS|RSpct 99 · Setup 0 · 1y +1525%
+AAOI|RSpct 99 · Setup 0 · 1y +1428%
+LWLG|RSpct 99 · Setup 0 · 1y +1278%
+HYMC|RSpct 99 · Setup 0 · 1y +1180%
+CELC|RSpct 99 · Setup 0 · 1y +1126%
+PL|RSpct 99 · Setup 0 · 1y +1106%
+BE|RSpct 99 · Setup 0 · 1y +1066%
+ONDS|RSpct 98 · Setup 0 · 1y +1057%
+PRAX|RSpct 98 · Setup 0 · 1y +1048%
+WDC|RSpct 98 · Setup 6 · 1y +950%
+AEHR|RSpct 98 · Setup 0 · 1y +928%
+LASR|RSpct 98 · Setup 0 · 1y +889%
+NKTR|RSpct 98 · Setup 0 · 1y +827%
+WULF|RSpct 98 · Setup 0 · 1y +797%
+IREN|RSpct 98 · Setup 0 · 1y +780%
+COGT|RSpct 98 · Setup 6 · 1y +772%
+CIEN|RSpct 98 · Setup 0 · 1y +762%
+CIFR|RSpct 98 · Setup 0 · 1y +733%
+AMPX|RSpct 98 · Setup 0 · 1y +730%
+ORKA|RSpct 98 · Setup 0 · 1y +700%
+APLD|RSpct 98 · Setup 0 · 1y +673%
+VSAT|RSpct 97 · Setup 0 · 1y +669%
+STX|RSpct 97 · Setup 0 · 1y +662%
+NBIS|RSpct 97 · Setup 0 · 1y +645%
+NVTS|RSpct 97 · Setup 0 · 1y +612%
+CAR|RSpct 97 · Setup 0 · 1y +579%
+HUT|RSpct 97 · Setup 0 · 1y +576%
+TTMI|RSpct 97 · Setup 0 · 1y +575%
+TSEM|RSpct 97 · Setup 6 · 1y +566%
+MU|RSpct 97 · Setup 0 · 1y +558%
+COHR|RSpct 97 · Setup 0 · 1y +522%
+ARWR|RSpct 97 · Setup 0 · 1y +512%
+SATS|RSpct 97 · Setup 0 · 1y +503%
+SYRE|RSpct 97 · Setup 0 · 1y +488%
+OPEN|RSpct 97 · Setup 0 · 1y +471%
+CRML|RSpct 97 · Setup 0 · 1y +458%
+ALM|RSpct 96 · Setup 0 · 1y +457%
+VISN|RSpct 96 · Setup 0 · 1y +455%
+SPHR|RSpct 96 · Setup 6 · 1y +440%
+TER|RSpct 96 · Setup 7 · 1y +437%
+FORM|RSpct 96 · Setup 0 · 1y +429%
+BKSY|RSpct 96 · Setup 0 · 1y +428%
