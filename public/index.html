@@ -14,12 +14,34 @@
     line-height: 1.5;
   }
   .container { max-width: 920px; margin: 0 auto; }
-  h1 { font-size: 22px; margin: 0 0 4px; }
+  h1 { font-size: 24px; margin: 0 0 6px; }
   .sub { color: var(--muted); font-size: 13px; margin: 0 0 24px; }
   .card {
     background: var(--card); border: 1px solid var(--border);
     border-radius: 10px; padding: 20px 22px; margin-bottom: 20px;
   }
+  .hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(280px, 1fr); gap: 16px; margin-bottom: 20px; }
+  @media (max-width: 760px) { .hero { grid-template-columns: 1fr; } }
+  .hero-card {
+    background: linear-gradient(180deg, #171c25 0%, #12161e 100%);
+    border: 1px solid var(--border); border-radius: 12px; padding: 22px;
+  }
+  .eyebrow {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .9px;
+    color: var(--accent); margin-bottom: 10px; font-weight: 600;
+  }
+  .hero-card p { margin: 0; color: var(--muted); font-size: 13px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+  .link-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+  }
+  .link-tile {
+    display: block; padding: 12px 13px; border-radius: 8px;
+    background: #1b2029; border: 1px solid var(--border);
+    color: var(--text); font-size: 13px; line-height: 1.35;
+  }
+  .link-tile strong { display: block; font-size: 13px; margin-bottom: 2px; }
+  .link-tile span { color: var(--muted); font-size: 11px; }
   h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px;
        color: var(--muted); margin: 0 0 16px; font-weight: 600; }
   .grid {
@@ -84,18 +106,53 @@
   .pill.success { border-color: #2e5b3f; color: #9ed9a8; }
   .pill.fail { border-color: #5b2e2e; color: #f5c0c0; }
   .pill.running { border-color: #5b5b2e; color: #ddd89e; }
+  .stack { display: flex; flex-direction: column; gap: 14px; }
+  .scan-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px 16px;
+  }
+  @media (max-width: 820px) { .scan-grid { grid-template-columns: 1fr; } }
+  .field { display: flex; flex-direction: column; }
+  details.advanced {
+    margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border);
+  }
+  details.advanced > summary {
+    cursor: pointer; color: var(--muted); font-size: 13px; user-select: none;
+  }
+  details.advanced[open] > summary { margin-bottom: 14px; }
+  .mini { font-size: 12px; color: var(--muted); }
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>SEPA + Qullamaggie Screen</h1>
-  <p class="sub">Scan Nasdaq + NYSE for Minervini trend-template passers plus vendored Andy-Roger Qullamaggie breakout / EP overlays. Auto-runs weekdays at <b>13:00 UTC (8:00 AM EST)</b>. You can also queue an ad-hoc scan with the form below.</p>
+  <div class="hero">
+    <div class="hero-card">
+      <div class="eyebrow">Daily Breakout Dashboard</div>
+      <h1>SEPA + QM stock screen</h1>
+      <p>Latest shortlist first. Ad-hoc scan second. The page is for three jobs: open today’s outputs, check run status, or queue a tighter scan.</p>
+      <div class="hero-actions">
+        <button type="button" id="jumpToScan">Queue scan</button>
+        <button type="button" class="secondary" id="refreshBtn">Refresh runs</button>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="eyebrow">Latest Outputs</div>
+      <p id="latestInfo">Loading…</p>
+      <div class="link-grid" style="margin-top:16px;">
+        <a class="link-tile" id="chartsLink" href="/results/latest/charts.html" target="_blank"><strong>Unified top 20</strong><span>All archetypes, chart review page</span></a>
+        <a class="link-tile" id="rsChartsLink" href="/results/latest/rs_leaders_charts.html" target="_blank"><strong>RS leaders</strong><span>Momentum-only cut</span></a>
+        <a class="link-tile" id="sectorsLink" href="/results/latest/sectors.html" target="_blank"><strong>Sector rotation</strong><span>Strength / laggards dashboard</span></a>
+        <a class="link-tile" id="csvLink" href="#" target="_blank"><strong>Full CSV</strong><span>Raw scan output</span></a>
+      </div>
+    </div>
+  </div>
 
-  <div class="card">
-    <h2>Scan thresholds</h2>
+  <div class="card" id="scanCard">
+    <h2>Queue Scan</h2>
+    <p class="sub">Keep the visible inputs to the essentials. Everything else is tucked under advanced options.</p>
     <form id="scanForm">
-      <div class="grid">
-        <div>
+      <div class="stack">
+        <div class="field">
           <label>Exchanges</label>
           <div class="checks">
             <label><input type="checkbox" name="ex_nasdaq" checked /> Nasdaq</label>
@@ -105,61 +162,67 @@
             <label><input type="checkbox" name="ex_bats" /> BATS</label>
           </div>
         </div>
-        <div>
-          <label>Min share price (USD)</label>
-          <input type="number" name="min_price" value="5" step="0.5" min="0" />
+        <div class="scan-grid">
+          <div class="field">
+            <label>Min share price (USD)</label>
+            <input type="number" name="min_price" value="5" step="0.5" min="0" />
+          </div>
+          <div class="field">
+            <label>Min 20-day avg dollar volume (USD)</label>
+            <input type="number" name="min_adv_usd" value="50000000" step="10000000" min="0" />
+            <div class="hint">50M keeps the list liquid.</div>
+          </div>
+          <div class="field">
+            <label>Min family setup score (0-8)</label>
+            <input type="number" name="min_setup_score" value="5" min="0" max="8" />
+            <div class="hint">5 is broad. 6 is stricter.</div>
+          </div>
         </div>
-        <div>
-          <label>Min 20-day avg dollar volume (USD)</label>
-          <input type="number" name="min_adv_usd" value="50000000" step="10000000" min="0" />
-          <div class="hint">50M = liquid mid/large cap. 10M = includes many small caps.</div>
-        </div>
-        <div>
-          <label>Min family setup score (0-8)</label>
-          <input type="number" name="min_setup_score" value="5" min="0" max="8" />
-          <div class="hint">Each family now tops out at 8. 5 = solid, 6 = strict, 7-8 = rare.</div>
-        </div>
-        <div>
-          <label>Include Qullamaggie momentum signals</label>
-          <select name="use_qullamaggie">
-            <option value="true" selected>Yes</option>
-            <option value="false">No</option>
-          </select>
-        </div>
-        <div>
-          <label>Finviz pre-filter (fast path)</label>
-          <select name="use_finviz_prefilter">
-            <option value="true" selected>On — trims universe 3-10x</option>
-            <option value="false">Off — scan full universe</option>
-          </select>
-        </div>
-        <div>
-          <label>Universe source</label>
-          <select name="universe_source">
-            <option value="sec_edgar" selected>SEC EDGAR (authoritative)</option>
-            <option value="nasdaq_trader">Nasdaq Trader (legacy)</option>
-          </select>
-        </div>
-        <div>
-          <label>Exclude biotech (Jeff Sun rule)</label>
-          <select name="exclude_biotech">
-            <option value="false" selected>No — include biotechs</option>
-            <option value="true">Yes — exclude biotechs</option>
-          </select>
-          <div class="hint">Uses description cache; unknown names pass through.</div>
-        </div>
-        <div>
-          <label>Institutional buying filter</label>
-          <select name="institutional_buying">
-            <option value="false" selected>Off</option>
-            <option value="true">On — require positive inst. transactions</option>
-          </select>
-          <div class="hint">Adds Finviz <code>fa_insttrans_pos</code> token.</div>
-        </div>
+        <details class="advanced">
+          <summary>Advanced options</summary>
+          <div class="grid">
+            <div>
+              <label>Include QM breakout / EP overlays</label>
+              <select name="use_qullamaggie">
+                <option value="true" selected>Yes</option>
+                <option value="false">No</option>
+              </select>
+            </div>
+            <div>
+              <label>Exclude biotech</label>
+              <select name="exclude_biotech">
+                <option value="false" selected>No</option>
+                <option value="true">Yes</option>
+              </select>
+            </div>
+            <div>
+              <label>Finviz pre-filter</label>
+              <select name="use_finviz_prefilter">
+                <option value="true" selected>On</option>
+                <option value="false">Off</option>
+              </select>
+            </div>
+            <div>
+              <label>Institutional buying filter</label>
+              <select name="institutional_buying">
+                <option value="false" selected>Off</option>
+                <option value="true">On</option>
+              </select>
+            </div>
+            <div>
+              <label>Universe source</label>
+              <select name="universe_source">
+                <option value="sec_edgar" selected>SEC EDGAR</option>
+                <option value="nasdaq_trader">Nasdaq Trader</option>
+              </select>
+            </div>
+          </div>
+          <div class="hint">Finviz and institutional-buying only change the candidate funnel. QM overlays use the vendored Andy-Roger breakout / EP logic.</div>
+        </details>
       </div>
       <div class="row">
         <button type="submit">Queue scan</button>
-        <button type="button" class="secondary" id="refreshBtn">Refresh runs</button>
+        <span class="mini">Auto-run: weekdays at 13:00 UTC / 8:00 AM EST.</span>
       </div>
       <div class="status" id="status"></div>
     </form>
@@ -176,13 +239,13 @@
   </div>
 
   <div class="card">
-    <h2>Latest scan · screens by setup archetype</h2>
-    <p class="sub" id="latestInfo">Loading…</p>
+    <h2>Latest Scan By Archetype</h2>
+    <p class="sub">Each card shows the current shortlist for that setup family. Names can appear in more than one family.</p>
 
     <div class="archetype-grid">
       <div class="archetype" data-arch="sepa_vcp">
         <div class="head">
-          <span class="title">📘 SEPA / VCP</span>
+          <span class="title">SEPA / VCP</span>
           <span class="attrib">Minervini</span>
         </div>
         <div class="desc">Stage-2 uptrend with contracting volatility into a tight base. Enters on pivot break with volume.</div>
@@ -195,7 +258,7 @@
 
       <div class="archetype" data-arch="power_play">
         <div class="head">
-          <span class="title">🚀 Power Play</span>
+          <span class="title">Power Play</span>
           <span class="attrib">Minervini · Jeff Sun</span>
         </div>
         <div class="desc">6-month advance &gt; 85% followed by tight 15-day digestion within ±5/−15%. Explosive continuation pattern.</div>
@@ -208,7 +271,7 @@
 
       <div class="archetype" data-arch="qm_breakout">
         <div class="head">
-          <span class="title">🏄 QM Breakout</span>
+          <span class="title">QM Breakout</span>
           <span class="attrib">Kristjan Kullamägi</span>
         </div>
         <div class="desc">Vendored from Andy-Roger's breakout scanner: 30%+ impulse, 7-40 day consolidation, near pivot, ADR-aware stop.</div>
@@ -221,7 +284,7 @@
 
       <div class="archetype" data-arch="qm_episodic_pivot">
         <div class="head">
-          <span class="title">⚡ QM Episodic Pivot</span>
+          <span class="title">QM Episodic Pivot</span>
           <span class="attrib">Kristjan Kullamägi</span>
         </div>
         <div class="desc">Vendored from Andy-Roger's premarket EP scanner: 10%+ gap candidates, strong premarket volume, limited prior 3-month extension.</div>
@@ -235,10 +298,6 @@
     </div>
 
     <div class="row" style="gap:14px; flex-wrap:wrap; margin-top: 18px;">
-      <a id="chartsLink" href="/results/latest/charts.html" target="_blank">📈 Unified top-20 (all archetypes)</a>
-      <a id="rsChartsLink" href="/results/latest/rs_leaders_charts.html" target="_blank">🏆 RS leaders (momentum only)</a>
-      <a id="sectorsLink" href="/results/latest/sectors.html" target="_blank">🗺️ Sector rotation</a>
-      <a id="csvLink" href="#" target="_blank">📊 Full results CSV</a>
       <a id="rsCsvLink" href="/results/latest/rs_leaders.json" target="_blank">RS JSON</a>
       <a id="logLink" href="/results/latest/scan.log" target="_blank">Scan log</a>
     </div>
@@ -251,6 +310,7 @@ const statusEl = document.getElementById("status");
 const runsBody = document.querySelector("#runsTable tbody");
 const latestInfo = document.getElementById("latestInfo");
 const csvLink = document.getElementById("csvLink");
+const jumpToScan = document.getElementById("jumpToScan");
 
 function fmtInputs(fd) {
   const exchanges = ["nasdaq", "nyse", "amex", "arca", "bats"]
@@ -272,6 +332,10 @@ function showStatus(msg, kind) {
   statusEl.className = `status show ${kind || ""}`;
   statusEl.innerHTML = msg;
 }
+
+jumpToScan.addEventListener("click", () => {
+  document.getElementById("scanCard").scrollIntoView({ behavior: "smooth", block: "start" });
+});
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -322,7 +386,7 @@ async function loadLatest() {
     if (!r.ok) { latestInfo.textContent = "No scan results yet."; return; }
     const meta = await r.json();
     const i = meta.inputs || {};
-    latestInfo.innerHTML = `Scan from <b>${meta.date}</b> · exchanges=<code>${i.exchanges}</code> · min price=$${i.min_price} · ADV ≥ $${Number(i.min_adv_usd).toLocaleString()} · score ≥ ${i.min_setup_score} · QM=${i.use_qullamaggie}`;
+    latestInfo.innerHTML = `Latest run: <b>${meta.date}</b><br><span class="mini">${i.exchanges || "nasdaq,nyse"} · min price $${i.min_price} · ADV ≥ $${Number(i.min_adv_usd).toLocaleString()} · setup ≥ ${i.min_setup_score} · QM overlays ${i.use_qullamaggie === "false" ? "off" : "on"}</span>`;
     csvLink.href = `/results/latest/results_universe_${meta.date.replace(/-/g, "")}.csv`;
   } catch {
     latestInfo.textContent = "No scan results yet.";
