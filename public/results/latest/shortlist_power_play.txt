@@ -1,10 +1,10 @@
-FTI|power_play 8 · +sepa_vcp · Entry 6 · Lead 10 · Tight 2/3 · RSpct 90 · Energy · RS +161
-PLD|power_play 7 · +sepa_vcp · Entry 7 · Lead 6 · Tight 2/3 · RSpct 60 · Real Estate · RS +11
-LRCX|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 95 · Technology · RS +265
-TDW|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 1/3 · Fund 2/5 · RSpct 88 · Energy · RS +120
-BNS|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 67 · Earn 24d · RS +23
-AEIS|power_play 7 · Entry 4 · Lead 10 · Tight 2/3 · RSpct 95 · Industrials · RS +282
-CLH|power_play 7 · +sepa_vcp · Entry 4 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 61 · RS +12
-MSGS|power_play 7 · +sepa_vcp · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 73 · Communication Services · RS +40
-VALE|power_play 6 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · RSpct 80 · RS +65
-MU|power_play 6 · +sepa_vcp · Entry 5 · Lead 10 · Tight 1/3 · Fund 5/5 · RSpct 97 · Technology · Earn 44d · RS +523
+CLH|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 63 · Industrials · RS +15
+RY|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 66 · Earn 23d · RS +21
+PLD|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 62 · Real Estate · Earn 57d · RS +13
+ZION|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 61 · Earn 60d · RS +12
+TGT|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 58 · Consumer Staples · Earn 17d · RS +8
+BNS|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 69 · Financials · Earn 22d · RS +27
+FDX|power_play 6 · +sepa_vcp · Entry 6 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 79 · Earn 41d · RS +58
+CSCO|power_play 6 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 70 · Technology · Earn 12d · RS +29
+VICR|power_play 6 · Entry 5 · Lead 10 · Tight 0/3 · RSpct 96 · Earn 61d · RS +370
+AMAT|power_play 6 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · Fund 1/5 · RSpct 90 · Earn 13d · RS +141
