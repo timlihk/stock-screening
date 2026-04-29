@@ -120,6 +120,17 @@
     "summary": "APi Group Corporation provides fire and life safety, security, elevator and escalator, and specialty services worldwide. It operates in two segments, Safety Services and Specialty Services. The company offers fire protection solutions; electronic security systems; and elevators and escalators, including the design, installation, inspection, service, and monitoring of life safety systems to high tech services, advanced manufacturing, healthcare, fulfillment and distribution centers, and critical infrastructure end markets. It also provides various specialty contracting, fabrication and distribution, and infrastructure and utility services to critical infrastructure, high tech services, and healthcare end markets. The company was formerly known as J2 Acquisition Limited and changed its name to APi Group Corporation in October 2019. APi Group Corporation was founded in 1926 and is headquartered in New Brighton, Minnesota.",
     "website": "https://www.apigroupcorp.com"
   },
+  "APH": {
+    "_ts": 1777470141.92411,
+    "country": "United States",
+    "employees": 170000,
+    "industry": "Electronic Components",
+    "marketCap": 184512954368,
+    "name": "Amphenol Corporation",
+    "sector": "Technology",
+    "summary": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Communications Solutions, Harsh Environment Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including high speed, radio frequency, power, fiber optic and other interconnect products; busbars and power distribution systems; power interconnect products; and other products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; and other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, commercial aerospace, communications networks, defense, industrial, information technology and data communications, mobile devices markets. Additionally, the company provides telecommunication and IT networking solutions. The company was founded in 1932 and is headquartered in Wallingford, Connecticut.",
+    "website": "https://www.amphenol.com"
+  },
   "AROC": {
     "_ts": 1776526513.6243865,
     "country": "United States",
@@ -956,6 +967,17 @@
     "summary": "Enpro Inc., an industrial technology company, design, develops, manufactures, and markets proprietary, value-added products and solutions to safeguard critical environments in the United States, Europe, Asia Pacific, and internationally. It operates in two segments, Sealing Technologies and Advanced Surface Technologies. The Sealing Technologies segment offers single-use hygienic seals, tubing, components and assemblies for food and pharma markets; metallic, non-metallic and composite material gaskets; dynamic seals; compression packing; elastomeric components; custom-engineered mechanical seals; hydraulic components; expansion joints; and wall penetration products for chemical and petrochemical processing, nuclear energy, hydrogen, natural gas, food and biopharmaceutical processing, primary metal manufacturing, mining, water and waste treatment, commercial vehicle, aerospace, medical, filtration, and semiconductor fabrication industries. It offers its products under the Garlock, Gylon, Blue-Gard, ONE-UP, Bio-Pro, Tuf-Steel, Detectomer, and LINK-SEAL brand name. The Advanced Surface Technologies segment offers engineering, manufacturing and precision machining of complex front-end wafer processing sub-systems; cleaning, coating, testing, refurbishment, and verification services for critical components and assemblies used in semiconductor manufacturing equipment; optical filters and proprietary thin-film coatings for applications in the industrial technology, life sciences, and semiconductor markets; optical filters and thin-film coatings for applications in the industrial technology, life sciences, and semiconductor markets; and edge-welded metal bellows for the semiconductor equipment industry and applications in the space, aerospace, and defense markets. The company was formerly known as EnPro Industries, Inc. and changed its name to Enpro Inc. in December 2023. Enpro Inc. was incorporated in 2002 and is headquartered in Charlotte, North Carolina.",
     "website": "https://www.enpro.com"
   },
+  "NSC": {
+    "_ts": 1777470141.92411,
+    "country": "United States",
+    "employees": 19300,
+    "industry": "Railroads",
+    "marketCap": 70825721856,
+    "name": "Norfolk Southern Corporation",
+    "sector": "Industrials",
+    "summary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
+    "website": "https://www.norfolksouthern.com"
+  },
   "NUVL": {
     "_ts": 1776526513.6243865,
     "country": "United States",
@@ -1032,6 +1054,17 @@
     "sector": "Healthcare",
     "summary": "Vaxcyte, Inc., a clinical-stage vaccine innovation company, develops conjugate and novel protein vaccines to prevent or treat bacterial infectious diseases. Its lead vaccine candidate is VAX-24, a 24-valent carrier-sparing investigational pneumococcal conjugate vaccine (PCV) for the prevention of invasive pneumococcal disease (IPD) in infants. The company also develops VAX-31, a 31-valent, carrier-sparing investigational PCV for the prevention of IPD in adults and children; VAX-A1, a novel conjugate vaccine candidate to prevent disease caused by Group A Streptococcus; VAX-PG, a novel protein vaccine candidate targeting the keystone pathogen responsible for periodontitis; VAX-GI, a novel preclinical vaccine candidate for the treatment of dysentery and shigellosis, which is caused by Shigella bacteria; and VAX-XL, a third-generation pneumococcal conjugate vaccine. The company was formerly known as SutroVax, Inc. and changed its name to Vaxcyte, Inc. in May 2020. Vaxcyte, Inc. was incorporated in 2013 and is headquartered in San Carlos, California.",
     "website": "https://vaxcyte.com"
+  },
+  "PFG": {
+    "_ts": 1777470141.92411,
+    "country": "United States",
+    "employees": 19700,
+    "industry": "Asset Management",
+    "marketCap": 21584326656,
+    "name": "Principal Financial Group, Inc.",
+    "sector": "Financial Services",
+    "summary": "Principal Financial Group, Inc. provides retirement, asset management, and insurance products and services to businesses, individuals, and institutional clients worldwide. The company operates through Retirement and Income Solutions, Principal Asset Management, and Benefits and Protection segments. The Retirement and Income Solutions segment provides retirement, and related financial products and services. This segment offers products and services for defined contribution plans, including 401(k) and 403(b) plans, defined benefit plans, nonqualified executive benefit plans, employee stock ownership plans, equity compensation, and pension risk transfer services; individual retirement accounts; investment only products; and mutual funds, individual variable annuities, registered index-linked annuities, and bank products, as well as trust and custody services. The Principal Asset Management segment provides equity, fixed income, real estate, and other alternative investments, as well as fund offerings. This segment also offers pension accumulation products and services, mutual funds, asset management, income annuities, and life insurance accumulation products, as well as voluntary savings plans. The Benefits and Protection segment provides specialty benefits, such as specialty benefits group dental and vision insurance, group life and other insurance, and group and individual disability insurance, as well as administers group dental, disability, and vision benefits; and individual life insurance products comprising universal, variable universal, indexed universal, and term life insurance products. This segment serves insurance solutions for small and medium-sized businesses and their owners, as well as employees. The company was founded in 1879 and is based in Des Moines, Iowa.",
+    "website": "https://www.principal.com"
   },
   "PL": {
     "_ts": 1776693259.0321922,

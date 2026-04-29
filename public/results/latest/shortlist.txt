@@ -1,20 +1,20 @@
-CSCO|sepa_vcp 7 · +power_play · Entry 7 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 69 · Technology · Earn 11d · RS +28
-ROST|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 72 · Consumer Discretionary · Earn 17d · RS +33
-TGT|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 60 · Consumer Staples · Earn 16d · RS +9
-NOV|power_play 7 · Entry 4 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 75 · Earn 65d · RS +41
-JBHT|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 80 · Industrials · Earn 55d · RS +62
-RY|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 67 · Financials · Earn 22d · RS +21
-PLD|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 61 · Real Estate · Earn 56d · RS +11
-BK|sepa_vcp 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 76 · Earn 56d · RS +44
-ZION|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 63 · Financials · Earn 59d · RS +15
-STT|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 2/3 · RSpct 78 · Financials · Earn 55d · RS +51
-RBC|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 2/3 · RSpct 78 · Industrials · Earn 13d · RS +52
-C|sepa_vcp 7 · Entry 4 · Lead 8 · Tight 2/3 · RSpct 82 · Financials · Earn 55d · RS +66
-TD|sepa_vcp 7 · Entry 4 · Lead 8 · Tight 2/3 · RSpct 75 · Financials · Earn 22d · RS +41
-BMO|sepa_vcp 7 · Entry 4 · Lead 7 · Tight 2/3 · RSpct 72 · Financials · Earn 21d · RS +32
-NVDA|sepa_vcp 6 · Entry 4 · Lead 7 · Tight 0/3 · Fund 5/5 · RSpct 81 · Technology · Earn 16d · RS +64
-VSAT|sepa_vcp 6 · Entry 5 · Lead 7 · Tight 0/3 · Fund 3/5 · RSpct 97 · Earn 15d · RS +492
-AVGO|sepa_vcp 6 · Entry 5 · Lead 6 · Tight 2/3 · Fund 3/5 · RSpct 84 · Earn 26d · RS +81
-JBL|sepa_vcp 6 · Entry 4 · Lead 11 · Tight 2/3 · Fund 3/5 · RSpct 87 · Earn 35d · RS +101
-FDX|sepa_vcp 6 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · Fund 2/5 · RSpct 79 · Industrials · Earn 40d · RS +56
-WFRD|sepa_vcp 6 · Entry 4 · Lead 10 · Tight 0/3 · Fund 2/5 · RSpct 90 · Energy · Earn 60d · RS +137
+KEYS|power_play 8 · +sepa_vcp · Entry 4 · Lead 10 · Tight 1/3 · Fund 2/5 · RSpct 87 · Technology · Earn 14d · RS +100
+FDX|sepa_vcp 7 · +power_play · Entry 6 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 80 · Industrials · Earn 39d · RS +62
+SLB|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 75 · Energy · Earn 62d · RS +39
+ROST|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 72 · Consumer Discretionary · Earn 16d · RS +32
+NSC|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 1/3 · Fund 1/5 · RSpct 63 · Earn 65d · RS +14
+TGT|power_play 7 · +sepa_vcp · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 58 · Consumer Staples · Earn 15d · RS +6
+PBR-A|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 79 · Energy · RS +56
+JBHT|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 81 · Industrials · Earn 54d · RS +66
+PLD|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 61 · Real Estate · Earn 55d · RS +11
+PFG|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 60 · Earn 63d · RS +9
+BNS|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 70 · Financials · Earn 20d · RS +27
+ZION|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 63 · Financials · Earn 58d · RS +14
+RBC|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 2/3 · RSpct 78 · Industrials · Earn 12d · RS +51
+RY|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · RSpct 67 · Financials · Earn 21d · RS +20
+TD|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 75 · Financials · Earn 21d · RS +40
+STT|sepa_vcp 7 · Entry 4 · Lead 6 · Tight 2/3 · RSpct 77 · Financials · Earn 54d · RS +47
+FIX|sepa_vcp 6 · Entry 5 · Lead 10 · Tight 1/3 · Fund 5/5 · RSpct 96 · Industrials · Earn 61d · RS +313
+NVDA|sepa_vcp 6 · Entry 4 · Lead 7 · Tight 1/3 · Fund 5/5 · RSpct 81 · Technology · Earn 15d · RS +65
+APH|sepa_vcp 6 · Entry 5 · Lead 6 · Tight 1/3 · Fund 4/5 · RSpct 82 · RS +70
+VSAT|sepa_vcp 6 · Entry 5 · Lead 6 · Tight 0/3 · Fund 3/5 · RSpct 97 · Technology · Earn 14d · RS +482
