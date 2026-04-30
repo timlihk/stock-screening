@@ -1,10 +1,10 @@
-FDX|sepa_vcp 7 · +power_play · Entry 6 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 80 · Industrials · Earn 39d · RS +62
-SLB|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 75 · Energy · Earn 62d · RS +39
-PBR-A|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 79 · Energy · RS +56
-JBHT|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 81 · Industrials · Earn 54d · RS +66
-ROST|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 72 · Consumer Discretionary · Earn 16d · RS +32
-ZION|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 63 · Financials · Earn 58d · RS +14
-RBC|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 2/3 · RSpct 78 · Industrials · Earn 12d · RS +51
-RY|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · RSpct 67 · Financials · Earn 21d · RS +20
-STT|sepa_vcp 7 · Entry 4 · Lead 6 · Tight 2/3 · RSpct 77 · Financials · Earn 54d · RS +47
-TD|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 75 · Financials · Earn 21d · RS +40
+FIX|sepa_vcp 7 · Entry 6 · Lead 11 · Tight 1/3 · Fund 5/5 · RSpct 96 · Industrials · Earn 60d · RS +320
+SLB|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 75 · Energy · Earn 61d · RS +43
+PBR-A|sepa_vcp 7 · +power_play · Entry 5 · Lead 10 · Tight 2/3 · RSpct 80 · Energy · RS +62
+ZION|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 63 · Financials · RS +14
+SNX|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 83 · Technology · Earn 38d · RS +77
+APG|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 2/3 · RSpct 81 · Industrials · RS +66
+RBC|sepa_vcp 7 · +power_play · Entry 4 · Lead 9 · Tight 2/3 · RSpct 78 · Industrials · Earn 11d · RS +52
+CM|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · RSpct 76 · Financials · Earn 20d · RS +46
+ROST|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 73 · Consumer Discretionary · Earn 15d · RS +34
+RY|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 66 · Financials · Earn 20d · RS +19
