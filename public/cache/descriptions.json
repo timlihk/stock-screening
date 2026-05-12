@@ -32,6 +32,17 @@
     "summary": "Arcellx, Inc., together with its subsidiary, engages in the development of various immunotherapies for patients with cancer and other incurable diseases in the United States. The company's lead ddCAR product candidate is anitocabtagene autoleucel, which is in phase 2 clinical trial for the treatment of patients with relapsed or refractory multiple myeloma (rrMM). It also develops ACLX-001, a product candidate in Phase 1 clinical trials targeting BCMA to treat rrMM; and ACLX-002, which is in Phase 1 clinical trials that targets CD123 for treating relapsed or refractory acute myeloid leukemia (AML) and myelodysplastic syndrome (MDS). In addition, the company preclinical product includes ACLX-004 for the treatment of AML and MDS. Further, the company focuses on the development of product candidates for solid tumor programs. It has a strategic alliance with Kite Pharma, Inc. to co-develop and co-commercialize nito-cel and next-generation autologous and non-autologous CAR-T cell therapy products. The company was formerly known as Encarta Therapeutics, Inc. and changed its name to Arcellx, Inc. in January 2016. Arcellx, Inc. was incorporated in 2014 and is headquartered in Redwood City, California.",
     "website": "https://www.arcellx.com"
   },
+  "ADEA": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 150,
+    "industry": "Software - Application",
+    "marketCap": 3485271552,
+    "name": "Adeia Inc.",
+    "sector": "Technology",
+    "summary": "Adeia Inc., together with its subsidiaries, operates as a media and semiconductor intellectual property licensing platform company in the United States, Asia, Canada, Europe, the Middle East, and internationally. The company licenses its patent portfolios across various markets, including multichannel video programming distributors comprising cable, satellite, and telecommunications television providers that aggregate and distribute linear content over networks, as well as television providers that aggregate and stream linear content over broadband networks; over-the-top video service providers, such as subscription video-on-demand and free advertising-supported streaming service providers, providers that offer online services and devices that enable internet streaming and downloading of movies, television shows, music and other types of media content, as well as content providers, networks, and media companies. It also licenses consumer electronics manufacturers, which includes producers of smart televisions, streaming media devices, video game consoles, mobile devices, content storage devices, and other connected media devices; semiconductors, including providers of memory, logic, sensors, and radio frequency devices; and social media companies that allow users to stream and upload user-generated content. The company licenses its intellectual properties under the Adeia brand. The company was formerly known as Xperi Holding Corporation and changed its name to Adeia Inc. The company was incorporated in 2019 and is headquartered in San Jose, California.",
+    "website": "https://adeia.com"
+  },
   "ADI": {
     "_ts": 1777297685.5526693,
     "country": "United States",
@@ -42,6 +53,17 @@
     "sector": "Technology",
     "summary": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United States, rest of North and South America, Europe, Japan, China, and rest of Asia. It provides data converter products, which translate real-world analog signals into digital data, as well as translates digital data into analog signals; power management and reference products for power conversion, driver monitoring, sequencing, and energy management applications in the automotive, communications, industrial, and consumer markets; and power ICs that include performance, integration, and software design simulation tools for accurate power supply designs. The company also offers amplifiers to condition analog signals; and radio frequency and microwave ICs to support cellular infrastructure; and micro-electro-mechanical systems technology solutions, including accelerometers used to sense acceleration, gyroscopes for sense rotation, inertial measurement units to sense multiple degrees of freedom, and broadband switches for radio and instrument systems, as well as isolators. In addition, it provides digital signal processing and system products for numeric calculations. The company serves clients in the industrial, automotive, consumer, instrumentation, aerospace, defense and healthcare, and communications markets through a direct sales force, third-party distributors, and independent sales representatives, as well as online. The company was incorporated in 1965 and is headquartered in Wilmington, Massachusetts.",
     "website": "https://www.analog.com"
+  },
+  "AEHR": {
+    "_ts": 1778593689.4723847,
+    "country": "United States",
+    "employees": 136,
+    "industry": "Semiconductor Equipment & Materials",
+    "marketCap": 3199110400,
+    "name": "Aehr Test Systems, Inc.",
+    "sector": "Technology",
+    "summary": "Aehr Test Systems, Inc. provides test solutions for testing, burning-in, and semiconductor devices in wafer level, singulated die, package part form, and installed systems in the United States, Asia, and Europe. Its product portfolio includes FOX-XP and FOX-NP systems that are full wafer contact and singulated die/module test and burn-in systems that test, burn-in, and stabilize range of devices, including silicon carbide-based and other power semiconductors, 2D, and 3D sensors used in mobile phones, tablets and other computing devices, memory semiconductors, processors, microcontrollers, systems-on-a-chip, and photonics and integrated optical devices. The company offers FOX-CP system, a low-cost single-wafer compact test solution for logic, memory, and photonic devices; and FOX WaferPak Contactor, a full wafer contactor capable of testing wafers up to 300mm that enables integrated circuit manufacturers to perform test, burn-in, and stabilization of full wafers on the FOX-P systems. In addition, it provides FOX DiePak Carrier, which allows testing, burning in, and stabilization of singulated bare die and modules; and FOX DiePak Loader. The company was incorporated in 1977 and is headquartered in Fremont, California.",
+    "website": "https://www.aehr.com"
   },
   "AEIS": {
     "_ts": 1776693257.7392962,
@@ -384,6 +406,17 @@
     "summary": "Celcuity Inc., a clinical-stage biotechnology company, focuses on the development of targeted therapies for the treatment of various solid tumors in the United States. The company's lead drug candidate includes Gedatolisib, which selectively targets various Class I isoforms of phosphatidylinositol-3-kinase (PI3K) and the two mechanistic targets of rapamycin (mTOR) sub-complexes, mTORC1 and mTORC2 to treat patients with hormone receptor positive (HR+), human epidermal growth factor receptor 2 negative (HER2-) or HR+/HER2-, advanced or metastatic breast cancer (ABC), and patients with metastatic castration resistant prostate cancer (mCRPC). The company had a license agreement with Pfizer Inc. for the development and commercialization rights to Gedatolisib. Celcuity Inc. was incorporated in 2011 and is based in Minneapolis, Minnesota.",
     "website": "https://www.celcuity.com"
   },
+  "CGON": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 142,
+    "industry": "Biotechnology",
+    "marketCap": 6104933888,
+    "name": "CG Oncology, Inc.",
+    "sector": "Healthcare",
+    "summary": "CG Oncology, Inc., a late-stage clinical biopharmaceutical company, develops and commercializes cretostimogene grenadenorepvec for patients with bladder cancer in the United States. The company's product candidate is cretostimogene, an investigational oncolytic immunotherapy, which is in phase 2 clinical trials of cretostimogene in patients with high-risk NMIBC after BCG failure; a phase 3 clinical trials to evaluate the safety and efficacy of cretostimogene as monotherapy in the treatment of patients who have received adequate BCG therapy with high-risk BCG-unresponsive, CIS-containing NMIBC and BCG-unresponsive Ta, or T1 papillary tumors; phase 3 BOND-003 Cohort C trials as a single agent; phase 3 BOND-003 Cohort P as a single agent in patients with BCG-UR papillary-only NMIBC. It also develops cretostimogene monotherapy for intermediate-risk NMIBC following TURBT, which is in phase 3 PIVOT-006 clinical trials to assess the safety and efficacy of adjuvant cretostimogene; and cretostimogene monotherapy for high-risk NMIBC in phase 2 CORE-008 clinical trials to assess the safety and clinical outcomes of cretostimogene in treating patients with high-risk NMIBC, including BCG-exposed and BCG-na\u00efve NMIBC. The company was formerly known as Cold Genesys, Inc. and changed its name to CG Oncology, Inc. in June 2020. CG Oncology, Inc. was founded in 2010 and is headquartered in Irvine, California.",
+    "website": "https://cgoncology.com"
+  },
   "CLH": {
     "_ts": 1776951767.0232048,
     "country": "United States",
@@ -482,6 +515,17 @@
     "sector": "Industrials",
     "summary": "Curtiss-Wright Corporation, together with its subsidiaries, provides engineered products, solutions, and services mainly to aerospace and defense, commercial nuclear power, process, and industrial markets worldwide. It operates through three segments: Aerospace & Industrial, Defense Electronics, and Naval & Power. The Aerospace & Industrial segment offers industrial and specialty vehicle products, such as power management electronics, traction inverters, transmission shifters, and control systems; sensors, controls, and electro-mechanical actuation components used on commercial and military aircraft; and surface technology services including shot peening, laser peening, and engineered coatings. The Defense Electronics segment provides commercial off-the-shelf embedded computing board-level modules and processing equipment, data acquisition and flight test instrumentation equipment, integrated subsystems, instrumentation and control systems, tactical communications solutions; and electronic stabilization products, and weapons handling systems; avionics and electronics; flight test equipment; and aircraft data management solutions. The Naval & Power segment offers main coolant pumps, power-dense compact motors, generators, steam turbines, valves, and secondary propulsion systems; energy absorbers, retractable hook cable systems, net-stanchion systems and mobile systems to support fixed land-based arresting systems; hardware, valves, fastening systems, specialized containment doors, airlock hatches, and spent fuel management products; reactor coolant pumps and control rod drive mechanisms for commercial nuclear power plants, as well as various nuclear reactor technologies. This segment furnishes severe-service valve technologies and services, heat exchanger repair, and piping test and isolation products, and offers ship repair and maintenance for the U.S. navy. Curtiss-Wright Corporation was incorporated in 1929 and is headquartered in Davidson, North Carolina.",
     "website": "https://www.curtisswright.com"
+  },
+  "DAR": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 15000,
+    "industry": "Packaged Foods",
+    "marketCap": 10114137088,
+    "name": "Darling Ingredients Inc.",
+    "sector": "Consumer Defensive",
+    "summary": "Darling Ingredients Inc. develops, produces, and sells sustainable natural ingredients from edible and inedible bio-nutrients in North America, Europe, China, South America, and internationally. The Feed Ingredients segment collects and processes animal by-products into non-food grade oils and protein meals; bakery residuals into cookie meal used in poultry and swine rations; used cooking oil into non-food grade fats; and porcine and bovine blood into blood plasma powder and hemoglobin. This segment is also involved in the processing of selected portions of slaughtered animals into pet food, as well as of cattle hides and hog skins; production of organic fertilizers; rearing and processing of black soldier fly larvae into specialty proteins and fats for use in animal feed and pet food; and grease trap collection services to food service establishments. Its Food Ingredients segment engages in the purchase and processing of beef and pork bone chips, beef hides, and pig and fish skins into collagen; collection and processing of porcine and bovine intestines into natural casings; extraction and processing of porcine mucosa into crude heparin; collection and refining of animal fat into food grade fat; and processing of bones to bone chips and bone ash. The Fuel Ingredients segment is involved in the conversion of organic sludge and food waste into biogas; collection and conversion of fallen stock and certain animal by-products into low-grade energy sources; and processing of manure into natural bio-phosphate. It also provides environmental services, including disposal services; and yellow grease, fuel feedstock, and agriculture-based biofuels. The company sells its products under the Rendac, Sonac, FASA, Ecoson, Rousselot, Gelnex, and CTH brands. The company was formerly known as Darling International Inc. and changed its name to Darling Ingredients Inc. in May 2014. Darling Ingredients Inc. was founded in 1882 and is headquartered in Irving, Texas.",
+    "website": "https://www.darlingii.com"
   },
   "DBC": {
     "_ts": 1778508325.5744824,
@@ -603,6 +647,17 @@
     "sector": "Financial Services",
     "summary": "East West Bancorp, Inc. operates as the bank holding company for East West Bank that provides a range of personal and commercial banking services to businesses and individuals in the United States. The company operates through three segments: Consumer and Business Banking, Commercial Banking, and Treasury and Other. It accepts various deposit products, such as personal and business checking and savings accounts, money market, and time deposits. The company provides various loan products, such as mortgage and home equity, commercial and residential real estate, construction finance, commercial business lending, working capital lines of credit, trade finance, letters of credit, affordable housing lending, asset-based lending, asset-backed finance, project finance, equipment financing, loan syndication, and equipment loans, as well as financing services for clients to facilitate their business transactions between the United States and Asia. It also provides foreign exchange, treasury management, wealth management, and interest rate and commodity risk hedging services; and mobile, and online banking services. The company was founded in 1973 and is headquartered in Pasadena, California.",
     "website": "https://www.eastwestbank.com"
+  },
+  "FANG": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 1762,
+    "industry": "Oil & Gas E&P",
+    "marketCap": 55252750336,
+    "name": "Diamondback Energy, Inc.",
+    "sector": "Energy",
+    "summary": "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States. The company primarily focuses on the development of the Spraberry and Wolfcamp formations of the Midland Basin; and the Wolfcamp and Bone Spring formations of the Delaware Basin, both of which are part of the Permian Basin in West Texas and New Mexico. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas.",
+    "website": "https://www.diamondbackenergy.com"
   },
   "FCX": {
     "_ts": 1776597291.9278603,
@@ -813,6 +868,17 @@
     "summary": "Inhibrx Biosciences, Inc., a clinical-stage biopharmaceutical company, engages in the development of biologic therapeutics for people with life-threatening conditions. Its therapeutic candidates include INBRX-109, which is in phase 1, a tetravalent therapeutic candidate targeting death-receptor 5 to treat unresectable or metastatic conventional chondrosarcoma; and INBRX-106, a hexavalent sdAb-based therapeutic candidate targeting OX4 for the treatment of metastatic solid tumor, non-small cell lung cancer, melanoma, head non-small cell lung cancer cell carcinoma, gastric or gastroesophageal junction adenocarcinoma, renal cell carcinoma, and urothelial cell carcinoma. Inhibrx Biosciences, Inc. was incorporated in 2024 and is based in La Jolla, California.",
     "website": "https://inhibrx.com"
   },
+  "IRDM": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 975,
+    "industry": "Telecom Services",
+    "marketCap": 4355983360,
+    "name": "Iridium Communications Inc.",
+    "sector": "Communication Services",
+    "summary": "Iridium Communications Inc. provides mobile voice and data communications services and products to businesses, the United States and foreign governments, non-governmental organizations, and consumers in the United States, Canada, and internationally. The company offers mobile satellite communications services for land mobile end users and aviation sectors; broadband terminals, embedded devices, and handsets for merchant shipping, fishing, leisure and research vessels, and specialized watercraft; satellite-based IoT services; hosted payload and other data services; and other data services and engineering services. It also provides postpaid mobile voice and data satellite communications; prepaid mobile voice satellite communications; push-to-talk; broadband data; Internet of Things (IoT); and satellite time and location services. In addition, the company offers personnel tracking devices; asset tracking devices for equipment, vehicles, and aircrafts; beyond-line-of-sight aircraft communications applications; maritime communications applications; specialized communications solutions for high-value individuals; and mobile communications and data devices for the military and other government agencies, such as secure satellite handsets; and maintenance services for the U.S. government's dedicated gateway. Further, it provides satellite handsets, voice and data modems, broadband data devices, and IoT data devices; and various accessories for its devices that include batteries, holsters, earbud headphones, portable auxiliary antennas, antenna adaptors, USB data cables, and charging units. The company sells its products and services to commercial end users through a wholesale distribution network that include service providers, and value-added resellers and value-added manufacturers. The company was formerly known as Iridium Holdings LLC and changed its name to Iridium Communications Inc. in September 2009. Iridium Communications Inc. is headquartered in McLean, Virginia.",
+    "website": "https://www.iridium.com"
+  },
   "ITT": {
     "_ts": 1776564492.3977573,
     "country": "United States",
@@ -966,6 +1032,17 @@
     "sector": "Basic Materials",
     "summary": "Lightwave Logic, Inc. focuses on the development and commercialization of electro-optic polymer materials for data communications and other photonic application in the United States and internationally. The company sells electro-optic (EO) polymer materials for integration into silicon photonics and other photonic integrated circuit platforms under the Perkinamine name. It is also involved in intellectual property licensing; and royalty activities. The company serves semiconductor foundries, silicon photonics device designers, and optical module manufacturers, as well as system integrators serving artificial intelligence, cloud computing, data center, and telecommunications markets. The company was formerly known as Third-order Nanotechnologies, Inc. and changed its name to Lightwave Logic, Inc. in March 2008. Lightwave Logic, Inc. was founded in 1991 and is headquartered in Englewood, Colorado.",
     "website": "https://lightwavelogic.com"
+  },
+  "LYB": {
+    "_ts": 1778593677.5342884,
+    "country": "United Kingdom",
+    "employees": 18970,
+    "industry": "Specialty Chemicals",
+    "marketCap": 23806990336,
+    "name": "LyondellBasell Industries N.V.",
+    "sector": "Basic Materials",
+    "summary": "LyondellBasell Industries N.V. operates as a chemical company in the United States, Germany, China, Mexico, Italy, Japan, France, Poland, the Netherlands, and internationally. It operates in five segments: Olefins and Polyolefins\u0097Americas; Olefins and Polyolefins\u0097Europe, Asia, International; Intermediates and Derivatives; Advanced Polymer Solutions; and Technology. The company produces and markets olefins and co-products, such as ethylene, aromatics, propylene and butadiene; polyolefins; polyethylene; polypropylene homopolymers and copolymers; propylene oxide and derivatives; oxyfuels and related products; and intermediate chemicals, such as styrene monomer and acetyls. It also produces and markets compounding and solutions, including polypropylene compounds, engineered plastics, masterbatches, and engineered composites and colors. In addition, it develops and licenses chemical and polyolefin process technologies; and manufactures and sells polyolefin catalysts and serves food packaging, home furnishings, automotive components, and paints and coatings applications. LyondellBasell Industries N.V. was incorporated in 2009 and is headquartered in London, the United Kingdom.",
+    "website": "https://www.lyondellbasell.com"
   },
   "LYG": {
     "_ts": 1776482612.3358293,
@@ -1132,6 +1209,17 @@
     "summary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
     "website": "https://www.norfolksouthern.com"
   },
+  "NUE": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 33000,
+    "industry": "Steel",
+    "marketCap": 52672974848,
+    "name": "Nucor Corporation",
+    "sector": "Basic Materials",
+    "summary": "Nucor Corporation engages in the manufacture and sale of steel and steel products. The company operates in three segments: Steel Mills, Steel Products, and Raw Materials. The Steel Mills segment produces hot-rolled, cold-rolled, and galvanized sheet steel products; plate steel products; wide-flange beams, beam blanks, and H-piling and sheet piling structural steel products; and bar steel products, such as blooms, billets, concrete reinforcing and merchant bars, and engineered special bar quality products. This segment sells its products to steel service centers, fabricators, and manufacturers in the United States, Canada, and Mexico, as well as engages in the steel trading and rebar distribution businesses. The Steel Products segment offers steel joists and joist girders, steel decks, and galvanized torque tubes for use in solar arrays, hollow structural section steel tubing, electrical conduit, fabricated concrete reinforcing steel, cold finished steel, steel fasteners, steel grating and expanded metal, wire and wire mesh, metal building systems, insulated metal panels, steel racking, overhead doors, and utility towers and structures for communications and energy transmission. This segment is also involved in the piling distribution business. The Raw Materials segment produces direct reduced iron (DRI); brokers ferrous and nonferrous metals, pig iron, hot briquetted iron, and DRI; supplies ferro-alloys; processes ferrous and nonferrous scrap metal; and engages in the natural gas production and industrial gas business. This segment sells its ferrous scrap to electric arc furnace steel mills and foundries for manufacturing process; and nonferrous scrap metal to aluminum can producers, secondary aluminum smelters, steel mills and other processors, and consumers of various nonferrous metals. Nucor Corporation was founded in 1905 and is based in Charlotte, North Carolina.",
+    "website": "https://www.nucor.com"
+  },
   "NUVL": {
     "_ts": 1776526513.6243865,
     "country": "United States",
@@ -1197,6 +1285,17 @@
     "sector": "Technology",
     "summary": "Ondas Inc. provides private wireless, drone, and automated data solutions in the United States and internationally. It operates through the Ondas Networks and Ondas Autonomous Systems segments. The company offers Counter-UAS (CUAS) and site protection systems, including iron drone raider, a fully autonomous interceptor drone system for neutralizing small hostile drones; sentrycs CoRF, Cyber/RF-based CUAS platform for detection, identification, tracking, and mitigation of unauthorized drones; optimus system, fully autonomous drone platform for continuous security, surveillance, and mission-critical data collection; 4M defense, supporting missions related to demining and clearing land of unexploded ordnance; roboteam, UGVs and tactical ground robotics; apeiro motion, autonomy and mobility software for robotic platforms, enhancing navigation and operational effectiveness; and loitering munition systems, is a one way drone for a variety of missions including ISR defense and strike. It also offers FullMAX Software-Defined Radio Platform, a patented SDR platform for secure, private, wide-area broadband networks, enabling mission-critical communications; software and hardware maintenance agreements, extended software and hardware maintenance contracts, including ongoing support, security upgrades, and feature enhancements; licensing/royalties, licensing of FullMAX software and technology for integration into partner hardware and software platforms; and ancillary services, wireless network design, systems engineering, radio frequency planning, software configuration, product training, installation, onsite support, and engineering/product development. It serves rail, electric utilities, oil and gas, public safety, government, and other industrial applications. The company was formerly known as Ondas Holdings Inc. and changed its name to Ondas Inc. in January 2026. Ondas Inc. was incorporated in 2014 and is headquartered in West Palm Beach, Florida.",
     "website": "https://www.ondas.com"
+  },
+  "OVV": {
+    "_ts": 1778593677.5342884,
+    "country": "United States",
+    "employees": 1465,
+    "industry": "Oil & Gas E&P",
+    "marketCap": 16481623040,
+    "name": "Ovintiv Inc.",
+    "sector": "Energy",
+    "summary": "Ovintiv Inc., together with its subsidiaries, operates as an oil and natural gas exploration and production company in North America. The company operates through USA Operations and Canadian Operations segments. It is involved in the exploration, development, production, and marketing of oil, NGLs, natural gas and other related activities in the Permian in West Texas and Anadarko in West-central Oklahoma in the United States, as well as in northwest Alberta and northeast British Columbia. The company was formerly known as Encana Corporation and changed its name to Ovintiv Inc. in January 2020. Ovintiv Inc. was incorporated in 2020 and is based in Denver, Colorado.",
+    "website": "https://www.ovintiv.com"
   },
   "OXY": {
     "_ts": 1777902308.7778423,
@@ -1484,6 +1583,17 @@
     "summary": "Sensata Technologies Holding plc develops, manufactures, and sells sensors and sensor-rich solutions, electrical protection components and systems, and other products used in mission-critical systems and applications in the United States, Europe, Asia, and internationally. It operates through three segments: Automotive; Industrials; and Aerospace, Defense, and Commercial Equipment. The company offers sensors, contactors/fuses, switching and protection devices and solutions, distribution modules, bimetal electromechanical controls, circuit breakers, switches and relays, energy storage systems, rectifiers and frequency converters, power conversion systems, battery management system, charging inlet modules, and brushless DC motors. It offers its products for thermal management and air conditioning systems; powertrain; exhaust after-treatment; suspension, braking; tire management solutions; battery packs; electrical protection; electrical powertrain; battery packs; charging systems; motors, compressors, pumps; heating and cooling systems; home appliances; lighting; industrial; data and telecom equipment; medical equipment; motors, compressors, and pumps; hydraulic machinery; motion control systems; motor/platform controllers; grid harmonics and power delivery; commercial and military aircraft; and recreational vehicles. It serves automotive, on-road truck, and construction; and original equipment manufacturers in agriculture, control, appliance, medical, energy and charging infrastructure, data/telecom, and aerospace and defense industries, as well as systems integrators, aerospace, and motor and compressor distributors. Sensata Technologies Holding plc was founded in 1916 and is headquartered in Attleboro, Massachusetts.",
     "website": "https://www.sensata.com"
   },
+  "STM": {
+    "_ts": 1778593677.5342884,
+    "country": "Netherlands",
+    "employees": 48000,
+    "industry": "Semiconductors",
+    "marketCap": 51621163008,
+    "name": "STMicroelectronics N.V.",
+    "sector": "Technology",
+    "summary": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (\u0093EMP\u0094); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and current-sense amplifiers; micro-electro-mechanical systems (MEMS) sensors, including accelerometers, gyroscopes, magnetic sensors, pressure, temperature, presence detection, biosensors, machine learning, and edge AI processing smart sensors, as well as thermal and piezoelectric actuators; and optical sensing solutions. The company also provides silicon MOSFETs, SiC MOSFETs, IGBTs, thyristors, rectifiers, and power modules and bipolar transistors; microcontrollers, and automotive microcontrollers and secured; radio frequency (RF) communications and ASICs; car infotainment products; ultra-wide band and radar systems; and Connected Security Products; and automotive driver assistance systems. It serves automotive, industrial, personal electronics and communications equipment, and computers and peripherals markets. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Schiphol, the Netherlands.",
+    "website": "https://www.st.com/content/st_com/en.html"
+  },
   "STNG": {
     "_ts": 1776482612.3358293,
     "country": "Monaco",
@@ -1637,6 +1747,17 @@
     "sector": "Technology",
     "summary": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides various wafer fabrication processes, such as processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also involved in providing customer and engineering support services; manufacturing of masks; investment in technology start-up companies; research, designing, developing, manufacturing, packaging, testing, and sale of color filters; and investment activities. Its products are used in high performance computing, smartphones, Internet of things, automotive, and digital consumer electronics. Taiwan Semiconductor Manufacturing Company Limited was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.",
     "website": "https://www.tsmc.com"
+  },
+  "TTE": {
+    "_ts": 1778593677.5342884,
+    "country": "France",
+    "employees": 94847,
+    "industry": "Oil & Gas Integrated",
+    "marketCap": 202192257024,
+    "name": "TotalEnergies SE",
+    "sector": "Energy",
+    "summary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Brazil, India, and internationally. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.",
+    "website": "https://totalenergies.com"
   },
   "UNF": {
     "_ts": 1776524226.5328085,
