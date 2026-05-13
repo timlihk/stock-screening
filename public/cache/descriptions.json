@@ -560,6 +560,17 @@
     "summary": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.",
     "website": "https://www.dupont.com"
   },
+  "DK": {
+    "_ts": 1778680651.690984,
+    "country": "United States",
+    "employees": 1902,
+    "industry": "Oil & Gas Refining & Marketing",
+    "marketCap": 2803905024,
+    "name": "Delek US Holdings, Inc.",
+    "sector": "Energy",
+    "summary": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics. The Refining segment processes crude oil and other feedstock for the manufacture of various grades of gasoline, diesel fuel, aviation fuel, asphalt, and other petroleum-based products that are distributed through owned and third-party product terminals. It owns and operates refineries located in Tyler, Texas; El Dorado, Arkansas; Big Spring, Texas; and Krotz Springs, Louisiana. The Logistics segment gathers, transports, and stores crude oil and natural gas, intermediate, and refined products; and markets, distributes, transports, and stores refined products, as well as disposes and recycles water for third parties. It owns or leases crude oil transportation pipelines, refined product pipelines, crude oil gathering systems, and associated crude oil storage tanks; and owns and operates light product distribution terminals, as well as markets light products using third-party terminals. It serves oil companies, independent refiners and marketers, jobbers, distributors, utility and transportation companies, government, and independent retail fuel operators. Delek US Holdings, Inc. was founded in 2001 and is headquartered in Brentwood, Tennessee.",
+    "website": "https://www.delekus.com"
+  },
   "DOV": {
     "_ts": 1776526540.22005,
     "country": "United States",
@@ -731,6 +742,17 @@
     "employees": 194668,
     "industry": "Internet Content & Information",
     "marketCap": 4755023200256,
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
+    "website": "https://abc.xyz"
+  },
+  "GOOGL": {
+    "_ts": 1778680651.690984,
+    "country": "United States",
+    "employees": 194668,
+    "industry": "Internet Content & Information",
+    "marketCap": 4735321505792,
     "name": "Alphabet Inc.",
     "sector": "Communication Services",
     "summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
@@ -1132,6 +1154,17 @@
     "summary": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The company serves carrier infrastructure, which comprise long-haul/metro, 5G and 6G infrastructure, satellite communications, and fiber-to-the-X/passive optical network; industrial and defense, including military and commercial radar, RF jammers, electronic countermeasures, and communication data links, as well as multi-market applications, such as industrial, medical, test and measurement, and scientific applications; and data centers. It sells its products through direct sales force, applications engineering staff, independent sales representatives, resellers, and distributors. The company operates in the United States, China, Japan, Singapore, South Korea, Taiwan, and internationally. MACOM Technology Solutions Holdings, Inc. was formerly known as M/A-Com Technology Solutions Holdings, Inc. and changed its name to MACOM Technology Solutions Holdings, Inc. in 2016. MACOM Technology Solutions Holdings, Inc. was founded in 1950 and is based in Lowell, Massachusetts.",
     "website": "https://www.macom.com"
   },
+  "MTZ": {
+    "_ts": 1778680651.690984,
+    "country": "United States",
+    "employees": 37000,
+    "industry": "Engineering & Construction",
+    "marketCap": 32680495104,
+    "name": "MasTec, Inc.",
+    "sector": "Industrials",
+    "summary": "MasTec, Inc., an infrastructure engineering and construction company, provides engineering, building, installation, maintenance, and upgrade services for communications, energy, utility, and other infrastructure primarily in the United States and Canada. It operates through five segments: Communications, Clean Energy and Infrastructure, Power Delivery, Pipeline Infrastructure, and Other. The company builds infrastructure for wireless and wireline/fiber communications; clean energy infrastructure comprising renewable energy power generation; pipeline infrastructure, including natural gas, water, carbon capture sequestration, and other product transport; power delivery services, such as electrical and gas transmission, and distribution systems; industrial and heavy civil infrastructure, including roads, bridges, and rail; and water infrastructure. It also installs electrical and other gas distribution and transmission systems, power generation, civil and industrial facilities, pipelines, and fiber optic and other cables, as well as install-to-the-home services. In addition, the company offers maintenance and upgrade support services comprising maintenance of customers' distribution facilities, networks, and infrastructure, including communications, power generation, pipeline, electrical distribution and transmission, and civil and industrial infrastructure; emergency restoration services for natural disasters and accidents; and routine replacements and upgrades to overhauls. Its customers include wireless and wireline/fiber service providers, broadband operators, install-to-the-home service providers, public and private energy providers, including renewable and other energy providers, pipeline operators, civil, transportation, and water and wastewater pipeline installation services, industrial infrastructure providers, as well as government entities. MasTec, Inc. was founded in 1929 and is headquartered in Coral Gables, Florida.",
+    "website": "https://www.mastec.com"
+  },
   "MU": {
     "_ts": 1776778996.5811841,
     "country": "United States",
@@ -1164,6 +1197,17 @@
     "sector": "Energy",
     "summary": "Murphy Oil Corporation, together with its subsidiaries, operates as an oil and gas exploration and production company in the United States, Canada, and internationally. It explores for and produces crude oil, natural gas, and natural gas liquids. Murphy Oil Corporation was formerly known as Murphy Corporation and changed its name to Murphy Oil Corporation in 1964. The company was incorporated in 1950 and is headquartered in Houston, Texas.",
     "website": "https://www.murphyoilcorp.com"
+  },
+  "NE": {
+    "_ts": 1778680651.690984,
+    "country": "United States",
+    "employees": 4500,
+    "industry": "Oil & Gas Drilling",
+    "marketCap": 8184707072,
+    "name": "Noble Corporation plc",
+    "sector": "Energy",
+    "summary": "Noble Corporation plc operates as an offshore drilling contractor for the oil and gas industry worldwide. It provides contract drilling services through its fleet of mobile offshore drilling units. The company also operates drilling rigs, such as floaters and jackups. It serves its fleets in Africa, the Far East Asia, the North Sea, the Oceania, South America, and the United States Gulf of America. Noble Corporation plc was founded in 1921 and is headquartered in Houston, Texas.",
+    "website": "https://www.noblecorp.com"
   },
   "NEM": {
     "_ts": 1776482612.3358293,
@@ -1725,6 +1769,17 @@
     "sector": "Healthcare",
     "summary": "Tango Therapeutics, Inc., a precision oncology company, focuses on the discovery and development of drugs in defined patient populations with unmet medical need. The company develops methylthioadenosine -cooperative protein arginine methyltransferase 5 (PRMT5) inhibitors, including TNG462, which is in Phase 1/2 clinical trial for treating pancreatic and lung cancer; and TNG456, a brain-penetrant PRMT5 inhibitor for the treatment of glioblastoma. It is developing TNG260, a co-repressor of repressor element-1 silencing transcription inhibitor to reverse the immune evasion effect of serine-threonine kinase (STK) 11 loss-of-function mutations to treat lung cancer. The company was founded in 2017 and is headquartered in Boston, Massachusetts.",
     "website": "https://www.tangotx.com"
+  },
+  "TRGP": {
+    "_ts": 1778680651.690984,
+    "country": "United States",
+    "employees": 3570,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 54269493248,
+    "name": "Targa Resources Corp.",
+    "sector": "Energy",
+    "summary": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation. The company is involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products, including services to liquefied petroleum gas exporters; and gathering, storing, terminaling, purchasing, and selling crude oil. It is involved in the purchase and resale of NGL products; and sale of propane, as well as provision of related logistics services to multi-state retailers, independent retailers, and other end-users. In addition, the company offers NGL balancing services; and transportation services to refineries and petrochemical companies in the Gulf Coast area, as well as purchases, markets, and resells natural gas. The company also leased and owned railcars, tractors, vacuum trucks and pressurized NGL barges. Targa Resources Corp. was incorporated in 2005 and is headquartered in Houston, Texas.",
+    "website": "https://www.targaresources.com"
   },
   "TS": {
     "_ts": 1776693245.623913,
