@@ -1,20 +1,20 @@
-LBRT|power_play 8 · +sepa_vcp · Entry 5 · Lead 12 · Tight 0/3 · RSpct 91 · RS +153
-IBKR|sepa_vcp 8 · Entry 4 · Lead 6 · Tight 2/3 · RSpct 76 · Financials · RS +42
-PL|power_play 7 · Entry 4 · Lead 10 · Tight 0/3 · Fund 5/5 · RSpct 98 · Industrials · Earn 15d · RS +919
-WMB|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 62 · RS +7
-MPWR|sepa_vcp 7 · +power_play · Entry 4 · Lead 9 · Tight 1/3 · Fund 4/5 · RSpct 86 · RS +97
-EME|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 83 · RS +72
-LYB|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 3/5 · RSpct 62 · Materials · Earn 56d · RS +8
-GNRC|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 84 · RS +80
-BEN|sepa_vcp 7 · Entry 4 · Lead 8 · Tight 1/3 · Fund 3/5 · RSpct 71 · RS +26
-PTEN|sepa_vcp 7 · +power_play · Entry 5 · Lead 10 · Tight 0/3 · Fund 2/5 · RSpct 83 · Energy · RS +78
-OHI|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 66 · Real Estate · RS +15
-IESC|sepa_vcp 7 · Entry 4 · Lead 11 · Tight 1/3 · Fund 2/5 · RSpct 89 · Industrials · RS +130
-NOV|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 1/3 · Fund 1/5 · RSpct 74 · Energy · Earn 53d · RS +35
-FANG|power_play 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 65 · Energy · Earn 57d · RS +14
-IMO|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · RSpct 80 · Energy · RS +57
-TTE|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 73 · Energy · RS +33
-DBC|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 69 · RS +21
-NE|power_play 7 · Entry 5 · Lead 9 · Tight 1/3 · RSpct 86 · Energy · Earn 55d · RS +94
-GLNG|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 67 · Energy · RS +18
-SU|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 80 · Energy · RS +58
+MTZ|power_play 7 · Entry 4 · Lead 11 · Tight 1/3 · Fund 4/5 · RSpct 91 · Industrials · Earn 54d · RS +141
+YOU|power_play 7 · Entry 4 · Lead 8 · Tight 2/3 · Fund 4/5 · RSpct 89 · Earn 58d · RS +113
+SLAB|power_play 7 · +sepa_vcp · Entry 6 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 75 · Technology · RS +36
+BEN|sepa_vcp 7 · Entry 4 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 71 · RS +24
+DBRG|power_play 7 · Entry 4 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 61 · Earn 59d · RS +6
+PTEN|power_play 7 · +sepa_vcp · Entry 4 · Lead 10 · Tight 1/3 · Fund 2/5 · RSpct 85 · Energy · RS +84
+IESC|sepa_vcp 7 · +power_play · Entry 4 · Lead 10 · Tight 1/3 · Fund 2/5 · RSpct 90 · Industrials · RS +130
+FCFS|power_play 7 · Entry 4 · Lead 8 · Tight 2/3 · Fund 2/5 · RSpct 80 · RS +54
+NOV|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 1/3 · Fund 1/5 · RSpct 76 · Energy · Earn 52d · RS +38
+EPD|power_play 7 · Entry 5 · Lead 6 · Tight 1/3 · Fund 1/5 · RSpct 60 · Earn 52d · RS +3
+RVMD|power_play 7 · Entry 4 · Lead 10 · Tight 2/3 · Fund 1/5 · RSpct 95 · Earn 58d · RS +242
+GLNG|sepa_vcp 7 · +power_play · Entry 7 · Lead 8 · Tight 2/3 · RSpct 70 · Energy · RS +23
+TTE|sepa_vcp 7 · +power_play · Entry 7 · Lead 7 · Tight 2/3 · RSpct 75 · Energy · RS +34
+IMO|power_play 7 · +sepa_vcp · Entry 6 · Lead 9 · Tight 2/3 · RSpct 81 · Energy · RS +61
+NE|power_play 7 · Entry 6 · Lead 9 · Tight 2/3 · RSpct 87 · Energy · Earn 54d · RS +100
+CNQ|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 1/3 · RSpct 73 · RS +31
+KNTK|power_play 7 · Entry 6 · Lead 7 · Tight 0/3 · RSpct 53 · RS -6
+BK|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 72 · Financials · RS +27
+VLO|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 82 · Energy · RS +63
+SU|power_play 7 · Entry 5 · Lead 8 · Tight 1/3 · RSpct 82 · Energy · RS +64
