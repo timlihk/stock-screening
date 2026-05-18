@@ -11,11 +11,11 @@
     "website": "https://www.ao-inc.com"
   },
   "ABVX": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779115342.9882152,
     "country": "France",
     "employees": 69,
     "industry": "Biotechnology",
-    "marketCap": 9782765568,
+    "marketCap": 8915501056,
     "name": "ABIVAX Soci\u00e9t\u00e9 Anonyme",
     "sector": "Healthcare",
     "summary": "ABIVAX Soci\u00e9t\u00e9 Anonyme, a clinical-stage biotechnology company, develops therapeutics that harness the body's natural regulatory mechanisms to stabilize the immune response in patients with chronic inflammatory diseases. Its lead drug candidate includes obefazimod, which is in Phase 3 clinical development for the treatment of moderately to severely active UC, as well as Phase 2b clinical trials for Crohn's disease. The company was incorporated in 2013 and is headquartered in Paris, France.",
@@ -253,11 +253,11 @@
     "website": "https://www.axsome.com"
   },
   "AXTI": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 1541,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 4588569088,
+    "marketCap": 7314312192,
     "name": "AXT, Inc.",
     "sector": "Technology",
     "summary": "AXT, Inc. designs, develops, manufactures, and distributes compound and single element semiconductor substrates. The company provides indium phosphide for use in data center connectivity using light/lasers, high-speed data transfer in data centers, 5G communications, fiber optic lasers and detectors, consumer devices, passive optical networks, silicon photonics, photonic integrated circuits, thermo-photovoltaics, RF amplifier and switching, infrared light-emitting diode (LEDS) motion control, lidar for robotics and autonomous vehicles, and infrared thermal imaging. It also offers semi-insulating gallium arsenide (GaAs) substrates for use in Wi-Fi and IoT devices, transistors, direct broadcast television, power amplifiers, satellite communications, and solar cells; and semi-conducting GaAs substrates that are used in LEDs, screen displays using micro-LEDs, printer head lasers and LEDs, 3-D sensing using VCSELs, data center communication using VCSELs, sensors for industrial robotics/near-infrared sensors, laser machining, cutting and drilling, optical couplers, solar cells, night vision goggles, lidar for robotics and autonomous vehicles, and other lasers. In addition, the company provides germanium substrates for use in multi-junction solar cells for satellites, optical sensors and detectors, terrestrial concentrated photo voltaic cells, infrared detectors, and carrier wafer for LED. Further, it offers 6N+ and 7N+ purified gallium, boron trioxide, gallium-magnesium alloy, pyrolytic boron nitride (pBN) crucibles, and pBN insulating parts. It sells its products through direct salesforce in the United States, China, and Europe, as well as through independent sales representatives and distributors in Japan, Taiwan, Korea, and internationally. The company was formerly known as American Xtal Technology, Inc. and changed its name to AXT, Inc. in July 2000. AXT, Inc. was incorporated in 1986 and is headquartered in Fremont, California.",
@@ -318,6 +318,17 @@
     "summary": "Bank of Montreal engages in the provision of diversified financial services primarily in North America. The company operates through Canadian P&C, U.S P&C, BMO Wealth Management, and BMO Capital Markets segments. It's personal banking products and services include deposits, home lending, consumer credit, small business lending, credit cards, cash management, financial and investment advice, and other banking services; and commercial banking products and services comprise various of financing options and treasury and payment solutions, as well as risk management products. It also offers investing, banking, and wealth management advisory; digital investing services; financial solutions for individuals, families, and businesses; offers investment management services to institutional, retail, and high net worth investors; and diversified insurance, and wealth and pension de-risking solutions. In addition, the company provides individual life, critical illness and annuity products, as well as segregated funds, and group creditor and travel insurance to customers; debt and equity capital-raising, loan origination and syndication, balance sheet management, treasury management, mergers and acquisitions advice, restructurings and recapitalizations, trade finance, and risk mitigation services, as well as a range of banking and other operating services. Further, the company offers research and access to financial markets for institutional, corporate and retail clients through an integrated suite of sales and trading solutions related to debt, foreign exchange, interest rates, credit, equities, securitization, and commodities; provides new product development and origination services, as well as risk management and advisory services for hedging strategies, including in interest rates, foreign exchange rates and commodities prices; and funding and liquidity management services. Bank of Montreal was founded in 1817 and is headquartered in Montreal, Canada.",
     "website": "https://www.bmo.com"
   },
+  "BNO": {
+    "_ts": 1779115334.0604603,
+    "country": "",
+    "employees": 0,
+    "industry": "",
+    "marketCap": 0,
+    "name": "United States Brent Oil Fund, LP",
+    "sector": "",
+    "summary": "The Benchmark Futures Contract is the futures contract on Brent crude oil as traded on the Ice Futures Europe Exchange that is the near month contract to expire, except when the near month contract is within two weeks of expiration, in which case it will be measured by the futures contract that is the next month contract to expire.",
+    "website": ""
+  },
   "BNS": {
     "_ts": 1776951767.0232048,
     "country": "Canada",
@@ -328,6 +339,17 @@
     "sector": "Financial Services",
     "summary": "The Bank of Nova Scotia provides various banking products and services in Canada, the United States, Mexico, Peru, Chile, Colombia, the Caribbean and Central America, and internationally. It operates through Canadian Banking, International Banking, Global Wealth Management, and Global Banking and Markets segments. The company offers financial advice and solutions, and banking products, including debit and credit cards, chequing and saving accounts, investments, mortgages, loans, and insurance to individuals; and retail automotive financing solutions. It also provides business banking solutions comprising lending, deposit, cash management, and trade finance solutions to small, medium, and large businesses. In addition, it provides wealth management advice and solutions, including online brokerage, mobile investment, full-service brokerage, trust, private banking, and private investment counsel services; and retail mutual funds, exchange traded funds, liquid alternatives, and institutional funds. The company was founded in 1832 and is headquartered in Toronto, Canada.",
     "website": "https://www.scotiabank.com"
+  },
+  "BTE": {
+    "_ts": 1779115340.843864,
+    "country": "Canada",
+    "employees": 0,
+    "industry": "Oil & Gas E&P",
+    "marketCap": 3761752320,
+    "name": "Baytex Energy Corp.",
+    "sector": "Energy",
+    "summary": "Baytex Energy Corp., an energy company, engages in the acquisition, development, and production of crude oil and natural gas in the Western Canadian Sedimentary Basin. It offers light oil and condensate, heavy oil, natural gas liquids, and natural gas. The company also holds 100% interest in Duvernay and Peace River properties in Alberta; and Lloydminster property in Alberta and Saskatchewan. Baytex Energy Corp. was incorporated in 1993 and is headquartered in Calgary, Canada.",
+    "website": "https://www.baytexenergy.com"
   },
   "BTSG": {
     "_ts": 1776482612.3358293,
@@ -352,11 +374,11 @@
     "website": "https://www.burlington.com"
   },
   "BW": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 1600,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 2492219648,
+    "marketCap": 2699050752,
     "name": "Babcock & Wilcox Enterprises, Inc.",
     "sector": "Industrials",
     "summary": "Babcock & Wilcox Enterprises, Inc., together with its subsidiaries, provides energy and emissions control solutions to industrial, electrical utility, municipal, and other customers in the United States, Canada, the United Kingdom, Indonesia, and the Philippines. The company offers BrightLoop chemical looping technology, which produces steam, hydrogen, or syngas for applications in the energy, industrial, and agricultural sectors. It also provides steam generation equipment, including aftermarket parts, construction, maintenance, and field services; steam generation systems, such as package boilers, watertube and firetube waste heat boilers, and other boilers to medium and heavy industrial customers. The company was founded in 1867 and is headquartered in Akron, Ohio.",
@@ -427,6 +449,17 @@
     "sector": "Healthcare",
     "summary": "CG Oncology, Inc., a late-stage clinical biopharmaceutical company, develops and commercializes cretostimogene grenadenorepvec for patients with bladder cancer in the United States. The company's product candidate is cretostimogene, an investigational oncolytic immunotherapy, which is in phase 2 clinical trials of cretostimogene in patients with high-risk NMIBC after BCG failure; a phase 3 clinical trials to evaluate the safety and efficacy of cretostimogene as monotherapy in the treatment of patients who have received adequate BCG therapy with high-risk BCG-unresponsive, CIS-containing NMIBC and BCG-unresponsive Ta, or T1 papillary tumors; phase 3 BOND-003 Cohort C trials as a single agent; phase 3 BOND-003 Cohort P as a single agent in patients with BCG-UR papillary-only NMIBC. It also develops cretostimogene monotherapy for intermediate-risk NMIBC following TURBT, which is in phase 3 PIVOT-006 clinical trials to assess the safety and efficacy of adjuvant cretostimogene; and cretostimogene monotherapy for high-risk NMIBC in phase 2 CORE-008 clinical trials to assess the safety and clinical outcomes of cretostimogene in treating patients with high-risk NMIBC, including BCG-exposed and BCG-na\u00efve NMIBC. The company was formerly known as Cold Genesys, Inc. and changed its name to CG Oncology, Inc. in June 2020. CG Oncology, Inc. was founded in 2010 and is headquartered in Irvine, California.",
     "website": "https://cgoncology.com"
+  },
+  "CHRD": {
+    "_ts": 1779115334.0604603,
+    "country": "United States",
+    "employees": 676,
+    "industry": "Oil & Gas E&P",
+    "marketCap": 8348605440,
+    "name": "Chord Energy Corporation",
+    "sector": "Energy",
+    "summary": "Chord Energy Corporation operates as an independent exploration and production company in the United States. The company engages in the acquisition, exploration, development and production of crude oil, natural gas, and natural gas liquids in the Williston Basin. It sells its products to refiners, marketers, and other purchasers that have access to pipeline and rail facilities. The company was formerly known as Oasis Petroleum Inc. and changed its name to Chord Energy Corporation in July 2022. Chord Energy Corporation was founded in 2007 and is headquartered in Houston, Texas.",
+    "website": "https://www.chordenergy.com"
   },
   "CLH": {
     "_ts": 1776951767.0232048,
@@ -835,6 +868,17 @@
     "summary": "Globalstar, Inc. provides mobile satellite services in the United States, Canada, Europe, Central and South America, and internationally. It offers duplex two-way voice and data products, including mobile voice and data services and equipment for remote business continuity, recreational usage, safety, emergency preparedness and response, and other applications. The company also provides data transmissions using a mobile or fixed device that transmits the location of the device and other information to a central monitoring station, including commercial IoT products; communication and data transmissions using SPOT family of devices, such as SPOT X, SPOT Gen4, and SPOT Trace that emergency alerts, and transmit messages and the location of the device; and voice communication and data transmissions. In addition, it offers commercial IoT devices to track assets comprising cargo containers and rail cars, monitor utility meters, and monitor oil and gas assets; small satellite transmitter modules, such as the STX-3, ST-150 and ST100, and chips that enable an integrator's products to access its network; engineering and other communication services using MSS and terrestrial spectrum licenses; and hardware and software designs to develop specific applications operating over satellite network, as well as the installation of gateways and antennas. It distributes its products through retailers and sales force, as well as www.findmespot.com e-commerce website. The company serves forestry, maritime, government, oil and gas, mining, leisure, emergency services, construction, and transportation sectors. Globalstar, Inc. was founded in 1993 and is headquartered in Covington, Louisiana.",
     "website": "https://www.globalstar.com"
   },
+  "HAL": {
+    "_ts": 1779115334.0604603,
+    "country": "United States",
+    "employees": 46000,
+    "industry": "Oil & Gas Equipment & Services",
+    "marketCap": 35537235968,
+    "name": "Halliburton Company",
+    "sector": "Energy",
+    "summary": "Halliburton Company provides products and services to the energy industry worldwide. It operates in two segments, Completion and Production, and Drilling and Evaluation. The Completion and Production segment offers production enhancement services that include stimulation and sand control services; cementing services, such as well bonding and casing, and casing equipment; and completion tools that offer downhole solutions and services, including well completion products and services, intelligent well completions, liner hanger systems, sand control systems, multilateral systems, and service tools. This segment also provides electrical submersible pumps, as well as artificial lift services; production solutions comprising coiled tubing, hydraulic workover units, downhole tools, and pumping and nitrogen services; pipeline and process services, such as pre-commissioning, commissioning, maintenance, and decommissioning; and specialty chemicals and services. The Drilling and Evaluation segment offers drilling fluid systems, performance additives, completion fluids, solids control, specialized testing equipment, and waste management services; drilling systems and services; wireline and perforating services consisting of open-hole logging, and cased-hole and slickline; and drill bits and services comprising roller cone bits, fixed cutter bits, hole enlargement, and related downhole tools and services, as well as coring equipment and services. This segment also provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management; testing and subsea services, such as acquisition and analysis of reservoir information and optimization solutions; and project management and integrated asset management services. Halliburton Company was founded in 1919 and is based in Houston, Texas.",
+    "website": "https://www.halliburton.com"
+  },
   "HAS": {
     "_ts": 1776599364.0801227,
     "country": "United States",
@@ -891,11 +935,11 @@
     "website": "https://www.howmet.com"
   },
   "HYMC": {
-    "_ts": 1776482612.3358293,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 51,
     "industry": "Gold",
-    "marketCap": 4021594624,
+    "marketCap": 3202645760,
     "name": "Hycroft Mining Holding Corporation",
     "sector": "Basic Materials",
     "summary": "Hycroft Mining Holding Corporation, together with its subsidiaries, operates as a gold and silver exploration and development company in the United States. Its property, Hycroft Mine, consists of 25 patented claims covering approximately 1,855 acres and 3,249 unpatented lode and placer claims spanning 62,298 acres located 54 miles northwest of Winnemucca in Nevada. The company is based in Winnemucca, Nevada.",
@@ -1089,11 +1133,11 @@
     "website": "https://www.kymeratx.com"
   },
   "LITE": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 10562,
     "industry": "Communication Equipment",
-    "marketCap": 63836598272,
+    "marketCap": 67694555136,
     "name": "Lumentum Holdings Inc.",
     "sector": "Technology",
     "summary": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It operates through two segments, Cloud & Networking and Industrial Tech. The Cloud & Networking segment offers optical and photonic chips, components, modules, and subsystems supplied to cloud data center operators, AI/ML infrastructure providers, and network equipment manufacturer customers that are building cloud data centers and network infrastructures. Its Industrial Tech segment provides short-pulse solid-state lasers, kilowatt-class fiber lasers, diode lasers, and gas lasers that serves the semiconductor device, solar cell, display, and electric vehicle and battery manufacturing markets. The company was incorporated in 2015 and is headquartered in San Jose, California.",
@@ -1197,6 +1241,17 @@
     "sector": "Industrials",
     "summary": "Moog Inc. designs, manufactures, and integrates precision motion and fluid controls and controls systems for original equipment manufacturers and end users in the aerospace, defense, and industrial markets in the United States, Germany, and internationally. The company operates through four segments: Space and Defense, Military Aircraft, Commercial Aircraft, and Industrial. Its Space and Defense segment provides critical defense components and motion-control systems used in defense vehicle platforms, missile systems, naval ships and submarines; high-performance components and systems used for space launch vehicles, satellites and spacecraft vehicles. The Military Aircraft segment designs, manufacture and integrate primary and secondary flight controls, mission-critical actuation systems, and products for various military fixed-wing aircraft and rotorcraft for both original equipment manufacturers and aftermarket customers. The Commercial Aircraft segment designs, manufactures, and integrates flight-critical control systems and products for various commercial aircraft including widebody, narrowbody, business jets and regional jets. The company's Industrial segment provides customized and high-performance motion control components and systems for industrial automation, medical, simulation, and test and energy applications, including precision components used in heavy machinery, medical devices and components, power generation products, as well as simulation platforms for flight training and material testing applications. The company was formerly known as Moog Valve Company. Moog Inc. was incorporated in 1951 and is headquartered in East Aurora, New York.",
     "website": "https://www.moog.com"
+  },
+  "MPC": {
+    "_ts": 1779115334.0604603,
+    "country": "United States",
+    "employees": 18500,
+    "industry": "Oil & Gas Refining & Marketing",
+    "marketCap": 74557407232,
+    "name": "Marathon Petroleum Corporation",
+    "sector": "Energy",
+    "summary": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. The company sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio.",
+    "website": "https://www.marathonpetroleum.com"
   },
   "MSGS": {
     "_ts": 1776778965.732901,
@@ -1385,6 +1440,17 @@
     "summary": "Omega Healthcare Investors, Inc. is a Real Estate Investment Trust. The firm is providing financing and capital to the long-term healthcare industry in the United States and the United Kingdom with a focus on skilled nursing and assisted living facilities, including care homes in the United Kingdom. As of September 30, 2025, Omega has a portfolio of investments that includes 1,024 operating facilities located in 42 states, the District of Columbia and the United Kingdom/Jersey (290 facilities) and operated by 88 different operators. Additionally, Omega has investments in several unconsolidated entities that own 19 facilities. As a source of capital to the healthcare industry, Omega continually evaluates the opportunities, trends and challenges affecting the industry. Our goal is to identify long-term investments in quality healthcare properties with outstanding operators that provide the most favorable risk/reward ratio to our investors.",
     "website": "https://www.omegahealthcare.com"
   },
+  "OKE": {
+    "_ts": 1779115341.7335317,
+    "country": "United States",
+    "employees": 6326,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 58335748096,
+    "name": "ONEOK, Inc.",
+    "sector": "Energy",
+    "summary": "ONEOK, Inc. operates as a midstream service provider of gathering, processing, fractionation, transportation, storage, and marine export services in the United States. It operates in four segments: Natural Gas Gathering and Processing; Natural Gas Liquids; Natural Gas Pipelines; and Refined Products and Crude. The company owns natural gas gathering pipelines and processing plants in the Mid-Continent, Permian Basin, North Texas, Gulf Coast region, and Rocky Mountain regions; and provides midstream services to producers of NGLs. It also owns NGL gathering and distribution pipelines, fractionation, terminal and storage facilities; and transports refined products, including gasoline, diesel fuel, aviation fuel, kerosene, and heating oil. In addition, the company transports and stores natural gas through regulated interstate and intrastate natural gas transmission pipelines, and natural gas storage facilities; it owns and operates a parking garage in downtown Tulsa, Oklahoma; and leases buildings, warehouses, office space, land, and equipment, including pipeline equipment, pipeline capacity, rail cars, and information technology equipment. Further, the company transports, stores, and distributes refined products, purity NGLs, and crude oil, as well as conducts commodity-related activities, including liquids blending and marketing activities. It serves integrated and independent exploration and production companies; other NGL and natural gas gathering and processing companies; crude oil and natural gas production companies; utilities; industrial companies; natural gasoline distributors; propane distributors; municipalities; ethanol producers; petrochemical, refining, and marketing companies; and diluent users, refineries, and exporters. ONEOK, Inc. was founded in 1906 and is headquartered in Tulsa, Oklahoma.",
+    "website": "https://www.oneok.com/"
+  },
   "ON": {
     "_ts": 1776526513.6243865,
     "country": "United States",
@@ -1528,6 +1594,17 @@
     "summary": "Patterson-UTI Energy, Inc., through its subsidiaries, provides drilling and completion services to oil and natural gas exploration and production companies in the United States, Canada, Colombia, and internationally. It operates through three segments: Drilling Services, Completion Services, and Drilling Products. The Contract Drilling Services segment engages in the provision of contract and directional drilling, and measurement-while-drilling (MWD) services in onshore oil and natural gas basins; supply and rental of downhole performance motors, such as Mpact drilling motors, and Mpower MWD systems; electrical controls and automation to the energy, marine, and mining industries; rig fleet evaluation; and drilling technology service. This segment also provides software and services, such as MWD Survey Fault Detection, Isolation and Recovery (FDIR) services, a data analytics technology to analyze MWD survey data in real-time and identify the position of a well; HiFi Nav, which enhances FDIR by targeting improved vertical placement of the directional well within the reservoir; and HiFi Guidance that utilizes trajectory optimization to determine optimal steering recommendations and placement within the reservoir. The Completion Services segment offers services for hydraulic fracturing, wireline and pumping, completion support, equipment, materials, and cementing, as well as involved in the power solutions natural gas fueling, and last mile logistics and storage businesses. The Drilling Products segment engages in the design, manufacture, sale, and rental of matrix and steel-bodied polycrystalline diamond compact drill bits. It also rents oilfield tools; and offers specialized services for land-based oil and natural gas drilling, completion, and workover activities. The company was founded in 1978 and is headquartered in Houston, Texas.",
     "website": "https://www.patenergy.com"
   },
+  "PWR": {
+    "_ts": 1779115334.0604603,
+    "country": "United States",
+    "employees": 69500,
+    "industry": "Engineering & Construction",
+    "marketCap": 111454322688,
+    "name": "Quanta Services, Inc.",
+    "sector": "Industrials",
+    "summary": "Quanta Services, Inc. offers infrastructure solutions for the electric and gas utility, power generation, load center, manufacturing, communications, pipeline, and energy industries. The company's Electric Infrastructure Solutions segment engages in the design, procurement, construction, upgrade, repair, and maintenance of electric power transmission and distribution infrastructure and substation facilities; installation, maintenance, and upgrade of electric power infrastructure projects; installation of smart grid technologies on electric power networks; and design, installation, maintenance, and repair of commercial and industrial wirings. This segment offers aviation; emergency aerial firefighting services; emergency restoration; and other engineering and technical services; design and construction solutions to wireline and wireless communications, cable multi-system operators, technology companies, and other customers; engineering, procurement, new construction, and repair and maintenance services for renewable generation facilities; and training for electric workers, as well as training for the gas distribution and communications industries. Its Underground Utility and Infrastructure Solutions segment is involved in the transportation, distribution, storage, development, and processing of natural gas, oil, and other products, as well as owns and operates large load centers. This segment also engages in the design, engineering, procurement, construction, upgrade, and repair and maintenance services for natural gas systems; pipeline protection, integrity testing, rehabilitation, and replacement services; and catalyst replacement, high-pressure and critical-path turnaround, instrumentation and electrical, piping, fabrication, and storage tank services. The company was formerly known as Fabal Construction, Inc. and changed its name to Quanta Services, Inc. in November 1997. The company was incorporated in 1997 and is headquartered in Houston, Texas.",
+    "website": "https://www.quantaservices.com"
+  },
   "RBC": {
     "_ts": 1776564492.3977573,
     "country": "United States",
@@ -1661,22 +1738,22 @@
     "website": "https://www.silabs.com"
   },
   "SLB": {
-    "_ts": 1776482612.3358293,
+    "_ts": 1779115334.0604603,
     "country": "United States",
     "employees": 109000,
     "industry": "Oil & Gas Equipment & Services",
-    "marketCap": 79049678848,
+    "marketCap": 85487394816,
     "name": "SLB N.V.",
     "sector": "Energy",
     "summary": "SLB N.V. engages in the provision of technology for the energy industry worldwide. The company operates through four divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems. The company provides field development and hydrocarbon production, carbon management, and integration of adjacent energy systems; reservoir interpretation and data processing services for exploration data; and well construction and production improvement services and products. It also offers subsurface geology and fluids evaluation information; stimulation services to restore or enhance well productivity through hydraulic fracturing, matrix stimulation, and water treatment; and intervention services to oil and gas operators. In addition, the company offers mud logging, directional drilling, measurement-while-drilling, and logging-while-drilling services, as well as engineering support services; supplies drilling fluid systems; designs, manufactures, and markets roller cone and fixed cutter drill bits; bottom-hole-assembly and borehole enlargement technologies; well planning, well drilling, engineering, supervision, logistics, procurement, and contracting of third parties, as well as drilling rig management solutions; and drilling equipment and services, as well as land drilling rigs and related services. Further, it provides artificial lift; supplies packers, safety valves, sand control technology, and various intelligent systems; midstream production systems; valves, chokes, actuators, and surface trees; and OneSubsea, an integrated solutions, products, systems, and services, including wellheads, subsea trees, manifolds and flowline connectors, control systems, connectors, and services. SLB N.V. was formerly known as Schlumberger Limited and change its name to SLB N.V. in October 2025. The company was founded in 1926 and is based in Houston, Texas.",
     "website": "https://www.slb.com"
   },
   "SNDK": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 11000,
     "industry": "Computer Hardware",
-    "marketCap": 135939022848,
+    "marketCap": 195598450688,
     "name": "Sandisk Corporation",
     "sector": "Technology",
     "summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the United States, Europe, the Middle East, Africa, Asia, and internationally. The company offers solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
@@ -1815,14 +1892,14 @@
     "website": "https://www.te.com"
   },
   "TERN": {
-    "_ts": 1776482612.3358293,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 59,
     "industry": "Biotechnology",
-    "marketCap": 6076515328,
+    "marketCap": 6116845568,
     "name": "Terns Pharmaceuticals, Inc.",
     "sector": "Healthcare",
-    "summary": "Terns Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, develops small-molecule product candidates for the treatment of oncology and obesity. The company develops TERN-701, an allosteric BCR-ABL tyrosine kinase inhibitor (TKI) that is in Phase 1/2 clinical trial for chronic myeloid leukemia (CML), a form of cancer that starts in bone marrow. It also develops TERN-501, a thyroid hormone receptor beta agonist with enhanced metabolic stability and liver distribution that is in Phase IIa clinical trial for the treatment of metabolic dysfunction-associated steatohepatitis (MASH); and TERN-801 series of small-molecule glucose-dependent insulinotropic polypeptide receptor (GIPR) modulators for obesity. The company was incorporated in 2016 and is headquartered in Foster City, California.",
+    "summary": "Terns Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, develops small-molecule product candidates for the treatment of oncology and obesity. The company develops TERN-701, an allosteric BCR-ABL tyrosine kinase inhibitor (TKI) that is in Phase 1/2 clinical trial for chronic myeloid leukemia (CML), a form of cancer that starts in bone marrow. It also develops TERN-501, a thyroid hormone receptor beta agonist with enhanced metabolic stability and liver distribution that is in Phase IIa clinical trial for the treatment of metabolic dysfunction-associated steatohepatitis (MASH); and TERN-801 series of small-molecule glucose-dependent insulinotropic polypeptide receptor (GIPR) modulators for obesity. The company was incorporated in 2016 and is headquartered in Foster City, California. As of May 4, 2026, Terns Pharmaceuticals, Inc. operates as a subsidiary of Merck Sharp & Dohme LLC.",
     "website": "https://www.ternspharma.com"
   },
   "TGT": {
@@ -1848,11 +1925,11 @@
     "website": "https://www.timken.com"
   },
   "TNGX": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779115342.9882152,
     "country": "United States",
     "employees": 137,
     "industry": "Biotechnology",
-    "marketCap": 3801230848,
+    "marketCap": 3031821568,
     "name": "Tango Therapeutics, Inc.",
     "sector": "Healthcare",
     "summary": "Tango Therapeutics, Inc., a precision oncology company, focuses on the discovery and development of drugs in defined patient populations with unmet medical need. The company develops methylthioadenosine -cooperative protein arginine methyltransferase 5 (PRMT5) inhibitors, including TNG462, which is in Phase 1/2 clinical trial for treating pancreatic and lung cancer; and TNG456, a brain-penetrant PRMT5 inhibitor for the treatment of glioblastoma. It is developing TNG260, a co-repressor of repressor element-1 silencing transcription inhibitor to reverse the immune evasion effect of serine-threonine kinase (STK) 11 loss-of-function mutations to treat lung cancer. The company was founded in 2017 and is headquartered in Boston, Massachusetts.",
@@ -1912,6 +1989,17 @@
     "sector": "Industrials",
     "summary": "UniFirst Corporation provides workplace uniforms and protective work wear clothing in the United States, Europe, and Canada. It operates in three segments: Uniform & Facility Service Solutions; First Aid & Safety Solutions; and Other. The company offers uniforms, including shirts, pants, jackets, coveralls, lab coats, smocks, and aprons; specialized protective wear comprising flame resistant and high visibility garments; and first aid cabinet services and other safety supplies, as well as safety training services. It also engages in the rent and sale of non-garment items and services that include industrial wiping products, floor mats, dry and wet mops, and other textile products, as well as the wholesale distribution and pill packaging operations for non-prescription medicines. In addition, the company provides garment service options, including full-service rental and lease programs. Further, it offers restroom and cleaning supplies, such as air fresheners, paper products, gloves, masks, hand soaps, and sanitizers. Additionally, it provides specialized services, including decontamination and cleaning of work clothes and other items that have been exposed to radioactive materials and services special cleanroom protective wear. The company serves automobile service centers and dealers, delivery services, food and general merchandise retailers, manufacturers, maintenance facilities, restaurants and food-related businesses, business service companies, soft and durable goods wholesalers, transportation companies, energy producing operations, and healthcare providers, as well as others that require employee clothing on the job for image, identification, protection, or utility purposes. UniFirst Corporation was founded in 1936 and is headquartered in Wilmington, Massachusetts.",
     "website": "https://www.unifirst.com"
+  },
+  "USO": {
+    "_ts": 1779115334.0604603,
+    "country": "",
+    "employees": 0,
+    "industry": "",
+    "marketCap": 0,
+    "name": "United States Oil Fund, LP",
+    "sector": "",
+    "summary": "USO seeks to achieve its investment objective by investing primarily in futures contracts for light, sweet crude oil, other types of crude oil, diesel-heating oil, gasoline, natural gas, and other petroleum-based fuels.",
+    "website": ""
   },
   "VALE": {
     "_ts": 1776951767.0232048,
