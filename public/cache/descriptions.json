@@ -329,6 +329,17 @@
     "summary": "Franklin Resources, Inc. is a publicly owned asset investment manager. Through its subsidiaries, the firm provides its services to individuals, institutions, pension plans, trusts, and partnerships. It launches equity, fixed income, balanced, and multi-asset mutual funds through its subsidiaries. The firm invests in the public equity, fixed income, and alternative markets. Franklin Resources, Inc. was founded in 1947 and is based in San Mateo, California with an additional office in Calgary, Alberta; Dubai, United Arab Emirates; Edinburgh, Midlothian; Fort Lauderdale, Florida; Hyderabad, India; London, Greater London; Rancho Cordova, California; Shanghai, Shanghai Province; Singapore; Stamford, Connecticut; and Vienna.",
     "website": "https://www.franklinresources.com"
   },
+  "BHP": {
+    "_ts": 1779718269.5939367,
+    "country": "Australia",
+    "employees": 39369,
+    "industry": "Other Industrial Metals & Mining",
+    "marketCap": 214913187840,
+    "name": "BHP Group Limited",
+    "sector": "Basic Materials",
+    "summary": "BHP Group Limited operates as a resources company in Australia, Europe, China, Japan, India, South Korea, rest of Asia, North America, South America, and internationally. The company operates through Copper, Iron Ore, and Coal segments. It also engages in the mining of copper, uranium, gold, zinc, lead, molybdenum, silver, iron ore, cobalt, and metallurgical and energy coal. In addition, the company is involved in the mining, smelting, and refining of nickel, as well as potash development activities. Further, it provides towing, freight, marketing and trading, marketing support, finance, administrative, and other services. BHP Group Limited was founded in 1851 and is headquartered in Melbourne, Australia.",
+    "website": "https://www.bhp.com"
+  },
   "BIIB": {
     "_ts": 1778508325.5744824,
     "country": "United States",
@@ -394,6 +405,17 @@
     "sector": "Energy",
     "summary": "Baytex Energy Corp., an energy company, engages in the acquisition, development, and production of crude oil and natural gas in the Western Canadian Sedimentary Basin. It offers light oil and condensate, heavy oil, natural gas liquids, and natural gas. The company also holds 100% interest in Duvernay and Peace River properties in Alberta; and Lloydminster property in Alberta and Saskatchewan. Baytex Energy Corp. was incorporated in 1993 and is headquartered in Calgary, Canada.",
     "website": "https://www.baytexenergy.com"
+  },
+  "BTI": {
+    "_ts": 1779718276.3386855,
+    "country": "United Kingdom",
+    "employees": 47797,
+    "industry": "Tobacco",
+    "marketCap": 141341540352,
+    "name": "British American Tobacco p.l.c.",
+    "sector": "Consumer Defensive",
+    "summary": "British American Tobacco p.l.c. provides tobacco and nicotine products to consumers in the United States, Europe, Latin America, Canada, the Asia-Pacific, the Middle East, Central Asia, Caucasus, and Africa. The company offers vapour products; heated products, which consists of a battery-powered device and a plant-based substance consumable that is heated; modern oral products, such as nicotine pouches; combustibles, including cigarette sticks and other tobacco stick products; traditional oral products, such as snus and moist snuff; and fine cut/roll-your-own tobacco products. It sells its products under the Vuse, glo, Velo, Grizzly, Kodiak, Dunhill, Kent, Lucky Strike, Pall Mall, Rothmans, Newport, Natural American Spirit, and Camel Snus brands, as well as Vogue, Viceroy, Kool, Peter Stuyvesant, Craven A, and State Express 555 brands. The company distributes its products to retail outlets. British American Tobacco p.l.c. was founded in 1902 and is headquartered in London, the United Kingdom.",
+    "website": "https://www.bat.com"
   },
   "BTSG": {
     "_ts": 1776482612.3358293,
@@ -724,6 +746,17 @@
     "sector": "Basic Materials",
     "summary": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.",
     "website": "https://www.dupont.com"
+  },
+  "DINO": {
+    "_ts": 1779718269.5939367,
+    "country": "United States",
+    "employees": 5165,
+    "industry": "Oil & Gas Refining & Marketing",
+    "marketCap": 12603057152,
+    "name": "HF Sinclair Corporation",
+    "sector": "Energy",
+    "summary": "HF Sinclair Corporation operates as an independent energy company in the United States. It operates through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream. The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others. It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states. In addition, the company supplies fuels to 1,700 branded stations and licenses the use of the Sinclair brand at approximately 350 additional locations, as well as provision of other marketing activities. Further, the company produces base oils and other specialized lubricants; and provides petroleum product and crude oil transportation, terminalling, storage, and throughput services to the petroleum sector. Additionally, it offers hydrocarbon chemicals, including white oils, petrolatums, and waxes. The company also exports its products. HF Sinclair Corporation was incorporated in 1947 and is headquartered in Dallas, Texas.",
+    "website": "https://www.hfsinclair.com"
   },
   "DK": {
     "_ts": 1778680651.690984,
@@ -1330,6 +1363,17 @@
     "summary": "Lloyds Banking Group plc, together with its subsidiaries, provides a range of banking and financial products and services for retail and commercial customers in the United Kingdom. It operates in three segments: Retail; Commercial Banking; and Insurance, Pensions and Investments. The Retail segment offers a range of financial service products, including current accounts, savings, mortgages, credit cards, unsecured loans, motor finance, and leasing solutions to personal customers. Its Commercial Banking segment provides lending, transactional banking, working capital management, debt financing, and risk management services to small and medium businesses, corporates, and institutions. The Insurance, Pensions and Investments segment offers insurance, investment, and pension management products and services. It also provides life assurance; and digital banking services. The company offers its products and services under the Lloyds Bank, Halifax, Bank of Scotland, Scottish Widows, MBNA, Schroders Personal Wealth, Black Horse, Lex Autolease, Birmingham Midshires, LDC, AMC, Embark Group, Lloyds Living, Cavendish Online, Tusker, and HGP brands. The company was formerly known as Lloyds TSB Group plc and changed its name to Lloyds Banking Group plc in January 2009. Lloyds Banking Group plc was founded in 1695 and is headquartered in London, the United Kingdom.",
     "website": "https://www.lloydsbankinggroup.com"
   },
+  "MAR": {
+    "_ts": 1779718269.5939367,
+    "country": "United States",
+    "employees": 414000,
+    "industry": "Lodging",
+    "marketCap": 97340653568,
+    "name": "Marriott International, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Marriott International, Inc. engages in the operation, franchise, and licensing of hotel, residential, timeshare, and other lodging properties in the U.S. & Canada, Europe, Middle East & Africa, Greater China, and Asia Pacific, and internationally. It operates properties under JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le M\u00e9ridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, citizen, City Express by Marriott, and Four Points Flex by Sheraton brand names, as well as operates residences, timeshares, and yachts. The company was founded in 1927 and is headquartered in Bethesda, Maryland.",
+    "website": "https://www.marriott.com"
+  },
   "MFC": {
     "_ts": 1776564492.3977573,
     "country": "Canada",
@@ -1395,6 +1439,17 @@
     "sector": "Communication Services",
     "summary": "Madison Square Garden Sports Corp. operates as a professional sports company in the United States. The company owns and operates a portfolio of assets that consists of the New York Knickerbockers of the National Basketball Association (NBA) and the New York Rangers of the National Hockey League. Its other professional franchises include development league teams, the Hartford Wolf Pack of the American Hockey League and the Westchester Knicks of the NBA G League. It also operates the Madison Square Garden Training Center, a professional sports team performance center in Greenburgh. The company was formerly known as The Madison Square Garden Company. Madison Square Garden Sports Corp. was incorporated in 2015 and is based in New York, New York.",
     "website": "https://www.msgsports.com"
+  },
+  "MSM": {
+    "_ts": 1779718276.3386855,
+    "country": "United States",
+    "employees": 7000,
+    "industry": "Industrial Distribution",
+    "marketCap": 5946354176,
+    "name": "MSC Industrial Direct Co., Inc.",
+    "sector": "Industrials",
+    "summary": "MSC Industrial Direct Co., Inc., together with its subsidiaries, engages in the distribution of metalworking and maintenance, repair, and operations (MRO) products and services in the United States, Canada, Mexico, the United Kingdom, and internationally. The company's metalworking and MRO products include cutting tools, abrasives, machining fluids, measuring instruments, metalworking products, machinery and accessories, tooling components, fasteners, flat stock products, raw materials, machinery hand and power tools, safety and janitorial supplies, plumbing supplies, materials handling products, power transmission components, and electrical supplies. It also offers stock-keeping units through its catalogs and brochures; e-commerce channels, including its website; inventory management solutions; and customer care centers, customer fulfillment centers, regional inventory centers and warehouses. In addition, the company serves individual machine shops, manufacturing companies, and government agencies. MSC Industrial Direct Co., Inc. was founded in 1941 and is headquartered in Melville, New York.",
+    "website": "https://www.mscdirect.com"
   },
   "MT": {
     "_ts": 1776482612.3358293,
@@ -2100,6 +2155,17 @@
     "summary": "Terns Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, develops small-molecule product candidates for the treatment of oncology and obesity. The company develops TERN-701, an allosteric BCR-ABL tyrosine kinase inhibitor (TKI) that is in Phase 1/2 clinical trial for chronic myeloid leukemia (CML), a form of cancer that starts in bone marrow. It also develops TERN-501, a thyroid hormone receptor beta agonist with enhanced metabolic stability and liver distribution that is in Phase IIa clinical trial for the treatment of metabolic dysfunction-associated steatohepatitis (MASH); and TERN-801 series of small-molecule glucose-dependent insulinotropic polypeptide receptor (GIPR) modulators for obesity. The company was incorporated in 2016 and is headquartered in Foster City, California. As of May 4, 2026, Terns Pharmaceuticals, Inc. operates as a subsidiary of Merck Sharp & Dohme LLC.",
     "website": "https://www.ternspharma.com"
   },
+  "TFII": {
+    "_ts": 1779718269.5939367,
+    "country": "Canada",
+    "employees": 26354,
+    "industry": "Trucking",
+    "marketCap": 12168463360,
+    "name": "TFI International Inc.",
+    "sector": "Industrials",
+    "summary": "TFI International Inc., together with its subsidiaries, provides transportation and logistics services in the United States, Canada, and Mexico. It operates through Less-Than-Truckload (LTL), Truckload (TL), and Logistics segments. The Less-Than-Truckload segment is involved in the pickup, consolidation, transportation, and delivery of smaller loads. The Truckload segment offers expedited transportation, flatbed, tank, container, and dedicated services. This segment also carries full loads directly from the customer to the destination using a closed van or specialized equipment. The Logistics segment provides asset-light logistics services, including brokerage, freight forwarding, and transportation management, as well as small package parcel delivery. As of December 31, 2025, it operates 12,927 trucks, 40,687 trailers, and 6,194 independent contractors. The company was formerly known as TransForce Inc. and changed its name to TFI International Inc. in December 2016. TFI International Inc. was founded in 1957 and is headquartered in Saint-Laurent, Canada.",
+    "website": "https://www.tfiintl.com"
+  },
   "TGT": {
     "_ts": 1776693245.623913,
     "country": "United States",
@@ -2331,12 +2397,34 @@
     "summary": "Weatherford International plc, an energy services company, provides equipment and services for the drilling, evaluation, completion, production, and intervention of oil, geothermal, and natural gas wells worldwide. The company operates through three segments: Drilling and Evaluation; Well Construction and Completions; and Production and Intervention. It offers managed pressure drilling; directional drilling services, and logging and measurement services while drilling; services related to rotary-steerable systems, high temperature and high pressure sensors, drilling reamers, and circulation subs; open-hole and cased-hole logging services; wireline and drilling fluids; and intervention and remediation services. The company also provides tubular handling, management, and connection services; cementing products, including plugs, float and stage equipment, and torque-and-drag reduction technology for zonal isolation; completion tools, such as safety valves, production packers, downhole reservoir monitoring, flow control, isolation packers, multistage fracturing systems and sand-control technologies; liner hangers to suspend a casing string in high-temperature and high-pressure wells; and well Services. In addition, it offers re-entry, fishing, and well abandonment services, as well as patented downhole tools, tubular-handling equipment, pressure-control equipment, and drill pipe and tubulars; artificial lift systems, including reciprocating rod, progressing cavity pumping, and related automation and control systems, as well as gas, hydraulic, plunger, and hybrid lift systems, as well as related automation and control systems; and software, automation and flow measurement solutions. Further, it provides electrical and hydraulic power transmission to subsea equipment; and pressure pumping and reservoir stimulation services, such as acidizing, fracturing, cementing, and coiled-tubing intervention. The company was incorporated in 1972 and is based in Houston, Texas.",
     "website": "https://www.weatherford.com"
   },
+  "WMB": {
+    "_ts": 1779718269.5939367,
+    "country": "United States",
+    "employees": 5987,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 95968673792,
+    "name": "The Williams Companies, Inc.",
+    "sector": "Energy",
+    "summary": "The Williams Companies, Inc., together with its subsidiaries, operates as an energy infrastructure company primarily in the United States. It operates through Transmission, Power & Gulf, Northeast G&P, West, and Gas & NGL Marketing Services segments. The Transmission, Power & Gulf segment comprises Transco, NWP, and Mountain West interstate natural gas pipelines, and their related natural gas storage facilities, as well as natural gas gathering and processing; and crude oil production handling and transportation assets in the Gulf Coast region. The Northeast G&P segment engages in the midstream gathering, processing, and fractionation activities in the Marcellus Shale region primarily in Pennsylvania and New York, and the Utica Shale region of eastern Ohio. The West segment consists of gas gathering, processing, and treating operations in the Rocky Mountain region of Colorado and Wyoming, the Barnett Shale region of north-central Texas, the Eagle Ford Shale region of South Texas, the Haynesville Shale region of northwest Louisiana, the Mid-Continent region that includes the Anadarko and Permian basins, and the DJ Basin of Colorado; and operates natural gas liquid (NGL) fractionation and storage assets in central Kansas near Conway. The Gas & NGL Marketing Services segment provides wholesale marketing, trading, storage, and transportation of natural gas for natural gas utilities, municipalities, power generators, and producers; asset management services; and transports and markets NGLs. The company owns and operates approximately 32,000 miles of pipelines. The Williams Companies, Inc. was founded in 1908 and is headquartered in Tulsa, Oklahoma.",
+    "website": "https://www.williams.com"
+  },
+  "WST": {
+    "_ts": 1779718269.5939367,
+    "country": "United States",
+    "employees": 10800,
+    "industry": "Medical Instruments & Supplies",
+    "marketCap": 22354311168,
+    "name": "West Pharmaceutical Services, Inc.",
+    "sector": "Healthcare",
+    "summary": "West Pharmaceutical Services, Inc. designs, manufactures, and sells containment and delivery systems for injectable drugs and healthcare products in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Proprietary Products and Contract-Manufactured Products. The Proprietary Products segment offers stoppers and seals for injectable packaging systems; syringe and cartridge components, including custom solutions for the needs of injectable drug applications, as well as administration systems that enhance the safe delivery of drugs through advanced reconstitution, mixing, and transfer technologies; and films, coatings, washing, and vision inspection and sterilization processes and services to enhance the quality of packaging products. This segment also provides drug containment solutions in the form of vials, syringes, and cartridges; and self-injection devices; and a range of integrated solutions, including analytical lab services, pre-approval primary packaging support and engineering development, regulatory expertise, and after-sales technical support. This segment serves biologic, generic, and pharmaceutical drug companies. The Contract-Manufactured Products segment is involved in the design, manufacture, and automated assembly of devices used in surgical, diagnostic, ophthalmic, injectable, and other drug delivery systems, as well as consumer products. This segment primarily serves pharmaceutical, diagnostic, and medical device companies. It sells and distributes its products through its sales force and distribution network, contract sales agents, and regional distributors. West Pharmaceutical Services, Inc. was founded in 1923 and is headquartered in Exton, Pennsylvania.",
+    "website": "https://www.westpharma.com"
+  },
   "WULF": {
-    "_ts": 1776597291.9278603,
+    "_ts": 1779718269.5939367,
     "country": "United States",
     "employees": 141,
     "industry": "Capital Markets",
-    "marketCap": 10111370240,
+    "marketCap": 11308054528,
     "name": "TeraWulf Inc.",
     "sector": "Financial Services",
     "summary": "TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.",
