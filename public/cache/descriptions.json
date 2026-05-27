@@ -627,11 +627,11 @@
     "website": "https://www.cisco.com"
   },
   "CSTM": {
-    "_ts": 1777297685.5526693,
+    "_ts": 1779891933.4795802,
     "country": "France",
     "employees": 11500,
     "industry": "Aluminum",
-    "marketCap": 4260828160,
+    "marketCap": 4483434496,
     "name": "Constellium SE",
     "sector": "Basic Materials",
     "summary": "Constellium SE, together with its subsidiaries, engages in the design, manufacture, and sale of rolled and extruded aluminum products for the aerospace, packaging, automotive, commercial transportation, general industrial, and defense end-markets. It operates through three segments: Packaging & Automotive Rolled Products, Aerospace & Transportation, and Automotive Structures & Industry. The Packaging & Automotive Rolled Products segment produces and develops rolled aluminum products, including canstock and closure stock for the beverage and food industry, as well as foil stock for the flexible packaging market. This segment also supplies automotive body sheets, heat exchangers, and battery foil products for the automotive market. The Aerospace & Transportation segment provides aluminum products including plate, sheet, and extrusions to aerospace, space, commercial transportation, general industrial, and defense sectors. The Automotive Structures & Industry segment offers structural solutions for the automotive industry including crash management systems, body structures, side impact beams, and battery enclosure components; soft and hard alloy extrusions for automotive, transportation, and general industrial applications; and profiles for rail and general industrial applications. This segment also provides downstream technology and services, which include pre-machining, surface treatment, research and development, and technical support services. It sells its products directly or through distributors in France, Germany, the Czech Republic, the United Kingdom, Switzerland, and the United States, as well as South Korea, Japan and China. The company was incorporated in 2010 and is headquartered in Paris, France.",
@@ -847,11 +847,11 @@
     "website": "https://www.equinor.com"
   },
   "ERAS": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1779891952.6643417,
     "country": "United States",
     "employees": 103,
     "industry": "Biotechnology",
-    "marketCap": 5908299776,
+    "marketCap": 3902856192,
     "name": "Erasca, Inc.",
     "sector": "Healthcare",
     "summary": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's product pipeline includes ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-mutated solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-mutated solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGFR and RAS/MAPK solid tumors. It has license agreement with Guangzhou Joyo Pharmatech Co., Ltd to develop, manufacture, and commercialize certain pan-RAS inhibitors; Medshine Discovery Inc. to develop, manufacture, and commercialize certain pan-KRAS inhibitors; Novartis Pharma AG to develop, manufacture, use, and commercialize naporafenib; NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds; and Asana BioSciences, LLC to develop and commercialize ERAS-007 and certain other related compounds. The company has a clinical trial collaboration and supply agreement with Tango Therapeutics, Inc. for the evaluation of ERAS-0015. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
@@ -1418,6 +1418,17 @@
     "summary": "Marriott International, Inc. engages in the operation, franchise, and licensing of hotel, residential, timeshare, and other lodging properties in the U.S. & Canada, Europe, Middle East & Africa, Greater China, and Asia Pacific, and internationally. It operates properties under JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le M\u00e9ridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, citizen, City Express by Marriott, and Four Points Flex by Sheraton brand names, as well as operates residences, timeshares, and yachts. The company was founded in 1927 and is headquartered in Bethesda, Maryland.",
     "website": "https://www.marriott.com"
   },
+  "MDGL": {
+    "_ts": 1779891933.4795802,
+    "country": "United States",
+    "employees": 915,
+    "industry": "Biotechnology",
+    "marketCap": 12285785088,
+    "name": "Madrigal Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "summary": "Madrigal Pharmaceuticals, Inc., a biopharmaceutical company, focuses on delivering novel therapeutics for metabolic dysfunction-associated steatohepatitis (MASH) in the United States. It offers Rezdiffra, a liver-directed thyroid hormone receptor beta agonist for treating MASH. The company was founded in 2016 and is headquartered in West Conshohocken, Pennsylvania.",
+    "website": "https://www.madrigalpharma.com"
+  },
   "MFC": {
     "_ts": 1776564492.3977573,
     "country": "Canada",
@@ -1814,6 +1825,17 @@
     "summary": "Prologis, Inc. is a self-administered and self-managed REIT and is the sole general partner of Prologis, L.P. through which it holds substantially all of its assets. We operate Prologis, Inc. and Prologis, L.P. as one enterprise and, therefore, our discussion and analysis refer to Prologis, Inc. and its consolidated subsidiaries, including Prologis, L.P. We invest in real estate through wholly owned subsidiaries and other entities through which we co-invest with partners and investors (co-investment ventures). We have a significant ownership interest in the co-investment ventures, which are either consolidated or unconsolidated based on our level of control of the entity. Prologis, Inc. began operating as a fully integrated real estate company in 1997 and elected to be taxed as a REIT under the Internal Revenue Code of 1986, as amended (Internal Revenue Code or IRC). We believe the current organization and method of operation enable Prologis, Inc. to maintain its status as a REIT. Prologis, L.P. was also formed in 1997. We operate, manage and measure the operating performance of our properties on an owned and managed (O&M) basis. Our O&M portfolio includes our consolidated properties as well as properties owned by our unconsolidated co investment ventures, which we manage. We make operating decisions based on our total O&M portfolio as we manage the properties without regard to their ownership. Prologis, Inc. was incorporated in 1983 in Maryland, USA.",
     "website": "https://www.prologis.com"
   },
+  "POWI": {
+    "_ts": 1779891933.4795802,
+    "country": "United States",
+    "employees": 877,
+    "industry": "Semiconductors",
+    "marketCap": 4569038848,
+    "name": "Power Integrations, Inc.",
+    "sector": "Technology",
+    "summary": "Power Integrations, Inc. designs, develops, manufactures, and markets analog and mixed-signal integrated circuits, and other electronic components and circuitry used in high-voltage power conversion. It provides a range of alternating current to direct current power conversion products that address power supply up to approximately 500 watts of output for consumer appliances, utility meters, LCD monitors, tablets, smartphones, computers, TVs, consumer and industrial applications, and LED lightings; and power conversion in high-power applications comprising industrial motors, solar and wind-power systems, electric locomotives, and high-voltage DC transmission systems. The company also offers InnoSwitch IC for electric vehicles; high-voltage gate-driver products used to operate high-voltage switches, such as insulated-gate bipolar transistors and silicon-carbide MOSFETs under the SCALE and SCALE-2 product-family names; and SCALE-iDriver for use in powertrain and charging applications for electric vehicles. In addition, it provides motor-driver ICs for use in refrigerator compressors, ceiling fans, air purifiers, and circulation pumps, as well as pumps and fans used in appliances, such as dishwashers, laundry machines, and boilers. The company serves communications, computer, consumer, and industrial markets. It sells its products to original equipment manufacturers and merchant power supply manufacturers through direct sales staff, as well as a network of independent sales representatives and distributors in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Power Integrations, Inc. was incorporated in 1988 and is headquartered in San Jose, California.",
+    "website": "https://www.power.com"
+  },
   "POWL": {
     "_ts": 1776597291.9278603,
     "country": "United States",
@@ -2067,6 +2089,17 @@
     "summary": "TD SYNNEX Corporation operates as a distributor and solutions aggregator for the information technology (IT) ecosystem in the United States, Europe, and internationally. It offers endpoint solutions, including personal computing devices and peripherals, mobile phones and accessories, printers, and supplies; and advanced solutions comprising data center technologies, such as hybrid cloud, security, storage, networking, servers, software, converged and hyper-converged infrastructure, and hyperscale infrastructure. The company also provides design, integration, test and other production value-added solutions, such as thermal testing, power-draw efficiency testing, burn-in, quality, and logistics support; logistics and field services; depot repair and customer management services; and cloud services, including public cloud solutions in productivity and collaboration, infrastructure as a service, platform as a service, software as a service, security, mobility, AI, and other hybrid solutions. In addition, it offers online services; financing options, including net terms, third party leasing, floor plan financing and letters-of-credit backed financing and arrangements, as well lease products to reseller customers and their end-users and provides device-as-a-service to end-users; and marketing services comprising direct mail, external media advertising, reseller product training, targeted telemarketing campaigns, national and regional trade shows, trade groups, database analysis, print on demand services, and web-based marketing. It serves value-added resellers, corporate resellers, government resellers, system integrators, direct marketers, retailers, and managed service providers. The company was formerly known as SYNNEX Corporation and changed its name to TD SYNNEX Corporation in September 2021. TD SYNNEX Corporation was founded in 1980 and is headquartered in Fremont, California.",
     "website": "https://www.tdsynnex.com/na/us"
   },
+  "SPG": {
+    "_ts": 1779891933.4795802,
+    "country": "United States",
+    "employees": 3100,
+    "industry": "REIT - Retail",
+    "marketCap": 79014862848,
+    "name": "Simon Property Group, Inc.",
+    "sector": "Real Estate",
+    "summary": "Simon Property Group, Inc. is a self-administered and self-managed real estate investment trust (REIT). Simon Property Group, L.P., or the Operating Partnership, is our majority-owned partnership subsidiary that owns all of our real estate properties and other assets. In this package, the terms Simon, we, our, or the Company refer to Simon Property Group, Inc., the Operating Partnership, and its subsidiaries. We own, develop and manage premier shopping, dining, entertainment and mixed-use destinations, which consist primarily of malls, Premium Outlets, The Mills, and International Properties. At December 31, 2024, we owned or had an interest in 229 properties comprising 183 million square feet in North America, Asia and Europe. We also owned an 88% interest in The Taubman Realty Group, or TRG, which owns 22 regional, super-regional, and outlet malls in the U.S. and Asia. Additionally, at December 31, 2024, we had a 22.4% ownership interest in Klepierre, a publicly traded, Paris-based real estate company, which owns shopping centers in 14 European countries. Simon Property Group, Inc. was incorporated in 1960 and is based in Indiana, United States.",
+    "website": "https://www.simon.com"
+  },
   "SQM": {
     "_ts": 1776526513.6243865,
     "country": "Chile",
@@ -2254,6 +2287,17 @@
     "summary": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation. The company is involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products, including services to liquefied petroleum gas exporters; and gathering, storing, terminaling, purchasing, and selling crude oil. It is involved in the purchase and resale of NGL products; and sale of propane, as well as provision of related logistics services to multi-state retailers, independent retailers, and other end-users. In addition, the company offers NGL balancing services; and transportation services to refineries and petrochemical companies in the Gulf Coast area, as well as purchases, markets, and resells natural gas. The company also leased and owned railcars, tractors, vacuum trucks and pressurized NGL barges. Targa Resources Corp. was incorporated in 2005 and is headquartered in Houston, Texas.",
     "website": "https://www.targaresources.com"
   },
+  "TRP": {
+    "_ts": 1779891933.4795802,
+    "country": "Canada",
+    "employees": 6574,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 70923493376,
+    "name": "TC Energy Corporation",
+    "sector": "Energy",
+    "summary": "TC Energy Corporation operates as an energy infrastructure company in Canada, the United States, and Mexico. It operates through four segments: Canadian Natural Gas Pipelines; U.S. Natural Gas Pipelines; Mexico Natural Gas Pipelines; and Power and Energy Solutions. The company builds and operates a network of 94,171 kilometers of natural gas pipelines, which transports natural gas from supply basins to local distribution companies, power generation plants, industrial facilities, interconnecting pipelines, LNG export terminals, and other businesses. It also has regulated natural gas storage facilities with a total working gas capacity of 532 billion cubic feet. In addition, the company owns or has interests in power generation facilities with approximately 4,650 megawatts; and owns and operates approximately 118 billion cubic feet of non-regulated natural gas storage facilities in Alberta, Ontario, Qu\u00e9bec, and New Brunswick. The company was formerly known as TransCanada Corporation and changed its name to TC Energy Corporation in May 2019. TC Energy Corporation was founded in 1951 and is headquartered in Calgary, Canada.",
+    "website": "https://www.tcenergy.com"
+  },
   "TS": {
     "_ts": 1776693245.623913,
     "country": "Luxembourg",
@@ -2286,6 +2330,17 @@
     "sector": "Energy",
     "summary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Brazil, India, and internationally. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.",
     "website": "https://totalenergies.com"
+  },
+  "ULS": {
+    "_ts": 1779891933.4795802,
+    "country": "United States",
+    "employees": 14587,
+    "industry": "Specialty Business Services",
+    "marketCap": 20576571392,
+    "name": "UL Solutions Inc.",
+    "sector": "Industrials",
+    "summary": "UL Solutions Inc., together with its subsidiaries, provides testing, inspection and certification services and related software and advisory services worldwide. It operates through three segments: Industrial, Consumer, and Software and Advisory. The Industrial segment provides testing, inspection, and certification services across various end markets, including energy, industrial automation, engineered materials, and built environment, as well as stakeholders, such as manufacturers, building and asset owners, end users, and regulators. The Consumer segment offers safety certification testing, ongoing certification, global market access, testing for connectivity, performance and quality, and critical systems advisory and training services, as well as product market acceptance and risk mitigation services for customers in the consumer products end markets comprising consumer electronics, medical devices, information technologies, appliances, HVAC, lighting, and retail, as well as consumer applications, such as new mobility, smart products, and 5G. The Software and Advisory segment provide software and technical advisory services that enable customers to manage regulatory requirements, deliver supply chain transparency, and operationalize sustainability.\n It offers ULTRUS, a software that helps customers meet regulatory, supply chain, and sustainability challenges. UL Solutions Inc. was formerly known as UL Inc. and changed its name to UL Solutions Inc. in December 2021. The company was founded in 1894 and is headquartered in Northbrook, Illinois. UL Solutions Inc. operates as a subsidiary of ULSE Inc.",
+    "website": "https://www.ul.com"
   },
   "UNF": {
     "_ts": 1779804817.899272,
