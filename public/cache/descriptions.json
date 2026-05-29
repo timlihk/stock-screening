@@ -352,12 +352,12 @@
     "website": "https://www.biogen.com"
   },
   "BK": {
-    "_ts": 1777384093.9748628,
+    "_ts": 1780064276.6008756,
     "country": "United States",
     "employees": 47200,
     "industry": "Banks - Diversified",
-    "marketCap": 92578807808,
-    "name": "The Bank of New York Mellon Corporation",
+    "marketCap": 94143750144,
+    "name": "Bank of New York Mellon Corp",
     "sector": "Financial Services",
     "summary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
     "website": "https://www.bny.com"
@@ -385,15 +385,26 @@
     "website": ""
   },
   "BNS": {
-    "_ts": 1776951767.0232048,
+    "_ts": 1780064162.2107728,
     "country": "Canada",
-    "employees": 79740,
+    "employees": 80415,
     "industry": "Banks - Diversified",
-    "marketCap": 92994682880,
+    "marketCap": 97276870656,
     "name": "The Bank of Nova Scotia",
     "sector": "Financial Services",
     "summary": "The Bank of Nova Scotia provides various banking products and services in Canada, the United States, Mexico, Peru, Chile, Colombia, the Caribbean and Central America, and internationally. It operates through Canadian Banking, International Banking, Global Wealth Management, and Global Banking and Markets segments. The company offers financial advice and solutions, and banking products, including debit and credit cards, chequing and saving accounts, investments, mortgages, loans, and insurance to individuals; and retail automotive financing solutions. It also provides business banking solutions comprising lending, deposit, cash management, and trade finance solutions to small, medium, and large businesses. In addition, it provides wealth management advice and solutions, including online brokerage, mobile investment, full-service brokerage, trust, private banking, and private investment counsel services; and retail mutual funds, exchange traded funds, liquid alternatives, and institutional funds. The company was founded in 1832 and is headquartered in Toronto, Canada.",
     "website": "https://www.scotiabank.com"
+  },
+  "BNY": {
+    "_ts": 1780064260.6332018,
+    "country": "United States",
+    "employees": 47200,
+    "industry": "Banks - Diversified",
+    "marketCap": 96745119744,
+    "name": "The Bank of New York Mellon Cor",
+    "sector": "Financial Services",
+    "summary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
+    "website": "https://www.bny.com"
   },
   "BTE": {
     "_ts": 1779115340.843864,
@@ -615,6 +626,17 @@
     "summary": "Crescent Energy Company engages in the exploration and production of crude oil, natural gas, and natural gas liquids in the United States. The company's activities focused in Eagle Ford, Permian, and Uinta Basins. It owns minerals and royalty interests across the U.S. oil and natural gas basins. Crescent Energy Company was founded in 2011 and is headquartered in Houston, Texas.",
     "website": "https://crescentenergyco.com"
   },
+  "CRS": {
+    "_ts": 1780064162.2107728,
+    "country": "United States",
+    "employees": 4500,
+    "industry": "Metal Fabrication",
+    "marketCap": 23052756992,
+    "name": "Carpenter Technology Corporation",
+    "sector": "Industrials",
+    "summary": "Carpenter Technology Corporation engages in the manufacture, fabrication, and distribution of specialty metals in the United States, Europe, the Asia Pacific, Mexico, Canada, and internationally. It operates in two segments, Specialty Alloys Operations and Performance Engineered Products. The company offers specialty alloys, including titanium alloys, powder metals, stainless steels, alloy steels, and tool steels, as well as metal powders and parts. It serves the aerospace, defense, medical, transportation, energy, industrial, and consumer markets. The company was founded in 1889 and is headquartered in Philadelphia, Pennsylvania.",
+    "website": "https://www.carpentertechnology.com"
+  },
   "CSCO": {
     "_ts": 1776564492.3977573,
     "country": "United States",
@@ -779,6 +801,17 @@
     "sector": "Industrials",
     "summary": "Dover Corporation provides equipment and components, consumable supplies, aftermarket parts, software and digital solutions, and support services worldwide. The company's Engineered Products segment provides various equipment, component, software, solution, and services that are used in vehicle aftermarket, aerospace and defense, industrial winch and hoist, and fluid dispensing end-market. This segment offers software solutions and services used in light and heavy-duty vehicle lifts, wheel service equipment, vehicle diagnostics, and vehicle collision repair solutions; winches, hoists, bearings, drives, and electric monitoring system; and radio frequency and microwave filters and switches, and signal intelligence solutions, as well as soldering and fluid dispensing solutions. Its Clean Energy & Fueling segment offers component, equipment, and software and service solution enabling safe storage and transport of fuel, cryogenic gases, and hazardous fluids, as well as operation of retail fueling and vehicle wash establishment. The company's Imaging & Identification segment provides precision marking and coding, product traceability equipment, brand protection, and digital textile printing equipment and solution, as well as consumable, software, and service to packaged and consumer goods, pharmaceutical, industrial manufacturing, textile, and other end-market. Its Pumps & Process Solutions segment manufactures specialty pump, connector, flow meter, fluid connecting solution, plastics and polymer processing equipment, and engineered components for rotating and reciprocating machines. The company's Climate & Sustainability Technologies segment manufactures refrigeration system, refrigeration display case, commercial glass refrigerator and freezer door, and brazed plate heat exchanger for industrial heating and cooling, and residential climate control applications. Dover Corporation was incorporated in 1947 and is headquartered in Downers Grove, Illinois.",
     "website": "https://www.dovercorporation.com"
+  },
+  "DVA": {
+    "_ts": 1780064162.2107728,
+    "country": "United States",
+    "employees": 78000,
+    "industry": "Medical Care Facilities",
+    "marketCap": 12613636096,
+    "name": "DaVita Inc.",
+    "sector": "Healthcare",
+    "summary": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis dialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado.",
+    "website": "https://www.davita.com"
   },
   "DY": {
     "_ts": 1776778995.622686,
@@ -1231,6 +1264,17 @@
     "summary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the United States, Europe, the Asia Pacific, and internationally. It operates through four segments: Building Solutions North America, Building Solutions EMEA/LA, Building Solutions Asia Pacific, and Global Products. The company designs, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and fire protection and security products. It also provides energy efficiency solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven smart building solutions. In addition, the company offers access control software and software services. It sells its products and services to commercial, institutional, industrial, data center, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
     "website": "https://www.johnsoncontrols.com"
   },
+  "KALV": {
+    "_ts": 1780064260.6332018,
+    "country": "United States",
+    "employees": 275,
+    "industry": "Biotechnology",
+    "marketCap": 1426323456,
+    "name": "KalVista Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "summary": "KalVista Pharmaceuticals, Inc., a biopharmaceutical company, develops oral therapies for individuals for rare diseases with unmet needs. Its lead product candidate is EKTERLY, a fast-acting potent inhibitor of plasma kallikrein for the treatment of acute attacks of hereditary angioedema (HAE). The company is also developing is developing an orally disintegrating tablet formulation; KONFIDENT-KID for pediatric use with HAE; KONFIDENT; and KONFIDENT-S to evaluate sebetralstat and ODT formulation in adolescent and adult patients. KalVista Pharmaceuticals, Inc. is headquartered in Framingham, Massachusetts.",
+    "website": "https://www.kalvista.com"
+  },
   "KEYS": {
     "_ts": 1776951767.0232048,
     "country": "United States",
@@ -1638,6 +1682,17 @@
     "summary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
     "website": "https://www.norfolksouthern.com"
   },
+  "NTRS": {
+    "_ts": 1780064276.6008756,
+    "country": "United States",
+    "employees": 23600,
+    "industry": "Asset Management",
+    "marketCap": 31000967168,
+    "name": "Northern Trust Corporation",
+    "sector": "Financial Services",
+    "summary": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals. It operates in two segments, Asset Servicing and Wealth Management. The Asset Servicing segment offers asset servicing and related services, including custody, fund administration, investment operations outsourcing, investment management, investment risk and analytical, employee benefit, securities lending, foreign exchange, treasury management, brokerage, transition management, banking, and cash management services. It serves corporate and public retirement funds, foundations, endowments, fund managers, insurance companies, sovereign wealth funds, and other institutional investors. The Wealth Management segment offers trust, investment management, custody, and philanthropic; financial consulting; guardianship and estate administration; family business consulting; family financial education; brokerage; and private and business banking services. This segment also provides global custody; fiduciary; family office consulting; and technology solutions to high-net-worth individuals and families, business owners, executives, professionals, retirees, and established privately-held businesses. In addition, it offers asset management, and related services and other products comprising active and passive equity; active and passive fixed income; cash management; muti-asset and alternative asset classes which includes private equity and hedge funds of funds; and multi-manager advisory services and products through separately managed accounts, bank common and collective funds, registered investment companies, exchange traded funds, non-U.S. collective investment funds, and unregistered private investment funds. Further, the company provides overlay and other risk management services. The company was founded in 1889 and is headquartered in Chicago, Illinois.",
+    "website": "https://www.northerntrust.com"
+  },
   "NUE": {
     "_ts": 1778593677.5342884,
     "country": "United States",
@@ -1692,6 +1747,17 @@
     "sector": "Technology",
     "summary": "Nextpower Inc. provides solar tracker technologies and solutions for utility-scale and distributed generation solar applications in the United States and internationally. The company offers tracking solutions, including NX Horizon, a solar tracking solution; NX Horizon-XTR, a terrain-following tracker to expand the addressable market for trackers on sites with sloped, uneven, and challenging terrain; NX Horizon Hail Pro adds automatic stowing using weather service information; and NX Horizon Low Carbon, a solar tracker solution with a reduced carbon footprint. It also provides TrueCapture, an energy yield management system that addresses power production shortfalls; NX Anchor, a solar tracker foundation system to facilitate solar project development in challenging soil conditions; NX Truss Driver, an advanced installation equipment; and NX Navigator, which assists solar power plant owners and operators in monitoring, controlling, and protecting their solar projects. The company serves engineering, procurement, and construction firms, as well as solar project developers and owners. Nextpower Inc. was formerly known as Nextracker Inc. and changed its name to Nextpower Inc. in November 2025. The company was founded in 2013 and is headquartered in Fremont, California.",
     "website": "https://www.nextpower.com"
+  },
+  "ODFL": {
+    "_ts": 1780064260.6332018,
+    "country": "United States",
+    "employees": 20264,
+    "industry": "Trucking",
+    "marketCap": 46435160064,
+    "name": "Old Dominion Freight Line, Inc.",
+    "sector": "Industrials",
+    "summary": "Old Dominion Freight Line, Inc. operates as a less-than-truckload motor carrier in the United States and North America. The company offers regional, inter-regional, and national less-than-truckload services, as well as expedited transportation services. It also provides various value-added services, including container drayage, truckload brokerage, and supply chain consulting. In addition, the company operates fleet maintenance centers. As of December 31, 2025, it owned and operated 10,184 tractors, 30,824 linehaul trailers, and 14,313 pickup and delivery trailers. Old Dominion Freight Line, Inc. was founded in 1934 and is headquartered in Thomasville, North Carolina.",
+    "website": "https://www.odfl.com"
   },
   "OHI": {
     "_ts": 1778508325.5744824,
@@ -1824,6 +1890,17 @@
     "sector": "Real Estate",
     "summary": "Prologis, Inc. is a self-administered and self-managed REIT and is the sole general partner of Prologis, L.P. through which it holds substantially all of its assets. We operate Prologis, Inc. and Prologis, L.P. as one enterprise and, therefore, our discussion and analysis refer to Prologis, Inc. and its consolidated subsidiaries, including Prologis, L.P. We invest in real estate through wholly owned subsidiaries and other entities through which we co-invest with partners and investors (co-investment ventures). We have a significant ownership interest in the co-investment ventures, which are either consolidated or unconsolidated based on our level of control of the entity. Prologis, Inc. began operating as a fully integrated real estate company in 1997 and elected to be taxed as a REIT under the Internal Revenue Code of 1986, as amended (Internal Revenue Code or IRC). We believe the current organization and method of operation enable Prologis, Inc. to maintain its status as a REIT. Prologis, L.P. was also formed in 1997. We operate, manage and measure the operating performance of our properties on an owned and managed (O&M) basis. Our O&M portfolio includes our consolidated properties as well as properties owned by our unconsolidated co investment ventures, which we manage. We make operating decisions based on our total O&M portfolio as we manage the properties without regard to their ownership. Prologis, Inc. was incorporated in 1983 in Maryland, USA.",
     "website": "https://www.prologis.com"
+  },
+  "PLXS": {
+    "_ts": 1780064276.6008756,
+    "country": "United States",
+    "employees": 20000,
+    "industry": "Electronic Components",
+    "marketCap": 7240421376,
+    "name": "Plexus Corp.",
+    "sector": "Technology",
+    "summary": "Plexus Corp. provides electronic manufacturing services in the United States, the Asia-Pacific, Europe, the Middle East, and Africa. The company offers design, develop, supply chain, new product introduction, and manufacturing solutions, as well as sustaining services. It serves the aerospace/defense, healthcare/life sciences, and industrial/commercial sectors. Plexus Corp. was founded in 1979 and is headquartered in Neenah, Wisconsin.",
+    "website": "https://www.plexus.com"
   },
   "POWI": {
     "_ts": 1779891933.4795802,
@@ -2200,11 +2277,11 @@
     "website": "https://www.tdw.com"
   },
   "TECK": {
-    "_ts": 1776482612.3358293,
+    "_ts": 1780064260.6332018,
     "country": "Canada",
     "employees": 7429,
     "industry": "Other Industrial Metals & Mining",
-    "marketCap": 29089925120,
+    "marketCap": 32102772736,
     "name": "Teck Resources Limited",
     "sector": "Basic Materials",
     "summary": "Teck Resources Limited engages in research, exploration, development, processing, smelting, refining, and reclamation of mineral properties in Asia, the Americas, and Europe. It operates through Copper and Zinc segments. The company offers copper, zinc, and lead concentrates, as well as refined zinc, lead, and silver. It also produces lead, precious metals, molybdenum, fertilizers, and other metals; and sells refined metals or concentrates. In addition, it explores for gold. The company was formerly known as Teck Cominco Limited and changed its name to Teck Resources Limited in April 2009. Teck Resources Limited was founded in 1913 and is based in Vancouver, Canada.",
@@ -2486,11 +2563,11 @@
     "website": "https://www.wesco.com"
   },
   "WDC": {
-    "_ts": 1776951767.0232048,
+    "_ts": 1780064279.904344,
     "country": "United States",
     "employees": 40000,
     "industry": "Computer Hardware",
-    "marketCap": 134414295040,
+    "marketCap": 183374348288,
     "name": "Western Digital Corporation",
     "sector": "Technology",
     "summary": "Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer manufacturers, sales personnel, dealers, distributors, and retailers. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
