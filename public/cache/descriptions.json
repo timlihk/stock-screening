@@ -1,10 +1,10 @@
 {
   "AAOI": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1780410981.9744685,
     "country": "United States",
     "employees": 4691,
     "industry": "Communication Equipment",
-    "marketCap": 12382968832,
+    "marketCap": 15850353664,
     "name": "Applied Optoelectronics, Inc.",
     "sector": "Technology",
     "summary": "Applied Optoelectronics, Inc. engages in the design, manufacture, and sale of fiber-optic networking products in the United States, Taiwan, and China. The company offers optical modules, optical filters, lasers, laser components, subassemblies, transmitters and transceivers, turn-key equipment, headend, node, and distribution equipment, as well as amplifiers. It sells its products to internet data center operators, cable television, telecom equipment manufacturers, fiber-to-the-home, and internet service providers through its direct and indirect sales channels. Applied Optoelectronics, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas.",
@@ -143,11 +143,11 @@
     "website": "https://www.allisontransmission.com"
   },
   "AMAT": {
-    "_ts": 1777297698.6491394,
+    "_ts": 1780410971.7163908,
     "country": "United States",
-    "employees": 35500,
+    "employees": 36400,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 321681817600,
+    "marketCap": 381037019136,
     "name": "Applied Materials, Inc.",
     "sector": "Technology",
     "summary": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California.",
@@ -527,6 +527,17 @@
     "summary": "Celcuity Inc., a clinical-stage biotechnology company, focuses on the development of targeted therapies for the treatment of various solid tumors in the United States. The company's lead drug candidate includes Gedatolisib, which selectively targets various Class I isoforms of phosphatidylinositol-3-kinase (PI3K) and the two mechanistic targets of rapamycin (mTOR) sub-complexes, mTORC1 and mTORC2 to treat patients with hormone receptor positive (HR+), human epidermal growth factor receptor 2 negative (HER2-) or HR+/HER2-, advanced or metastatic breast cancer (ABC), and patients with metastatic castration resistant prostate cancer (mCRPC). The company had a license agreement with Pfizer Inc. for the development and commercialization rights to Gedatolisib. Celcuity Inc. was incorporated in 2011 and is based in Minneapolis, Minnesota.",
     "website": "https://www.celcuity.com"
   },
+  "CGNX": {
+    "_ts": 1780410971.7163908,
+    "country": "United States",
+    "employees": 2745,
+    "industry": "Scientific & Technical Instruments",
+    "marketCap": 11179227136,
+    "name": "Cognex Corporation",
+    "sector": "Technology",
+    "summary": "Cognex Corporation provides machine vision products that capture and analyze visual information to automate manufacturing and distribution tasks in the United States, Europe, Greater China, and internationally. Its machine vision products are used to automate the manufacture and distribution of discrete items, such as mobile phones, automotive components, and e-commerce packages, by locating, identifying, inspecting, and measuring them. The company offers VisionPro software, a suite of patented vision tools for traditional rule-based tools and deep learning-enabled tools for advanced programming; vision systems that combine smart cameras and software to perform a wide range of tasks, including part location, identification, measurement, assembly verification, and robotic guidance; OneVision, a cloud-based platform designed to transform how manufacturers build, train, and scale AI-powered vision applications; In-Sight product line of vision systems and sensors; QuickBuild, which allows customers to build vision applications with a graphical and flowchart-based programming interface; DataMan, an image-based barcode reader for fixed-mount and handheld models, as well as barcode verifiers; and vision accessories, such as industrial cameras, lenses, lighting, vision controllers, frame grabbers, and I/O cards. It sells its products to the automotive, logistics, packaging, consumer electronics, medical-related, semiconductor, and consumer products industries. The company was incorporated in 1981 and is headquartered in Natick, Massachusetts.",
+    "website": "https://www.cognex.com"
+  },
   "CGON": {
     "_ts": 1778593677.5342884,
     "country": "United States",
@@ -548,6 +559,17 @@
     "sector": "Energy",
     "summary": "Chord Energy Corporation operates as an independent exploration and production company in the United States. The company engages in the acquisition, exploration, development and production of crude oil, natural gas, and natural gas liquids in the Williston Basin. It sells its products to refiners, marketers, and other purchasers that have access to pipeline and rail facilities. The company was formerly known as Oasis Petroleum Inc. and changed its name to Chord Energy Corporation in July 2022. Chord Energy Corporation was founded in 2007 and is headquartered in Houston, Texas.",
     "website": "https://www.chordenergy.com"
+  },
+  "CHRW": {
+    "_ts": 1780410971.7163908,
+    "country": "United States",
+    "employees": 11705,
+    "industry": "Integrated Freight & Logistics",
+    "marketCap": 21081004032,
+    "name": "C.H. Robinson Worldwide, Inc.",
+    "sector": "Industrials",
+    "summary": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation and related logistics and supply chain services in the United States and internationally. It operates in two segments, North American Surface Transportation and Global Forwarding. The company offers transportation and logistics services, such as truckload; less than truckload transportation brokerage services, which include the shipment of single or multiple pallets of freight; intermodal transportation that comprises the shipment service of freight in containers or trailers by a combination of truck and rail; and non-vessel operating common carrier and freight forwarding services, as well as organizes indirect air carrier and freight forwarder providing door-to-door services. It also provides customs brokerage services; and other logistics services, such as fee-based managed, warehousing, supply chain consulting and optimization services, and other services. In addition, the company is involved in the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items under the Robinson Fresh trade name. Further, the company offers transportation management and other surface transportation services. It provides fresh produce to grocery retailers, restaurants, produce wholesalers. C.H. Robinson Worldwide, Inc. was founded in 1905 and is headquartered in Eden Prairie, Minnesota.",
+    "website": "https://www.chrobinson.com"
   },
   "CLH": {
     "_ts": 1776951767.0232048,
@@ -1407,6 +1429,17 @@
     "summary": "Kymera Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on discovering and developing small molecule therapeutics that selectively degrade disease-causing proteins by harnessing the body's own natural protein degradation system. It engages in developing KT-621, an oral STAT6 degrader in Phase 2b clinical trials for moderate to severe atopic dermatitis, asthma, COPD, EoE, CRSwNP, CSU, PN, BP, and others; KT-579, an oral IRF5 degrader in Phase 1 trials for autoimmune diseases such as systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, SSc, DM, and others; KT-485/SAR447971, IRAK4 program, which is in Phase II clinical trial for the treatment of immunology-inflammation diseases, including hidradenitis suppurativa and atopic dermatitis; and cyclin-dependent kinase 2 (CDK2) with broad oncology treatment potential, including in breast cancer and other solid tumors. The company has a strategic alliance with Sanofi S.A. for the development of drug candidates targeting IRAK4 outside the oncology and immuno-oncology fields. Kymera Therapeutics, Inc. was incorporated in 2015 and is headquartered in Watertown, Massachusetts.",
     "website": "https://www.kymeratx.com"
   },
+  "LEA": {
+    "_ts": 1780410971.7163908,
+    "country": "United States",
+    "employees": 164300,
+    "industry": "Auto Parts",
+    "marketCap": 7382264832,
+    "name": "Lear Corporation",
+    "sector": "Consumer Cyclical",
+    "summary": "Lear Corporation designs, develops, engineers, manufactures, assembles, and supplies automotive seating, and electrical distribution systems and related components for automotive original equipment manufacturers in North America, Europe, Africa, Asia, and South America. Its Seating segment offers seat systems, keyseat components, seat trim covers, seat mechanisms, thermal comfort systems such as seat heating, ventilation, active cooling, pneumatic lumbar and massage products, seat cushioning, and headrests, as well as surface materials, such as leather and fabric for light trucks, compact cars, pick-up trucks, and sport utility vehicles. The company's E-Systems segment provides electrical distribution and connection systems that route electrical signals and networks; and manage electrical power within the vehicle for various powertrains. This segment's products comprise wire harnesses, terminals and connectors, engineered components, and junction boxes; electronic system products, including body domain control modules, and high voltage switching and power control systems. It also offers software and connected services. In addition, this segment provides cybersecurity software. It offers its products and services under the GUILFORD, EAGLE OTTAWA, THAGORA, IGB AUTOMOTIVE, COMFORTFLEX BY LEARTM, LEAR, CONFIGURE+, FLEXAIR , INTU, RENEWKNIT, SOYFOAM, ProTec, and TeXstyle brands. The company was founded in 1917 and is headquartered in Southfield, Michigan.",
+    "website": "https://www.lear.com"
+  },
   "LFUS": {
     "_ts": 1779804817.899272,
     "country": "United States",
@@ -1727,11 +1760,11 @@
     "website": "https://www.nov.com"
   },
   "NPO": {
-    "_ts": 1776693245.623913,
+    "_ts": 1780410971.7163908,
     "country": "United States",
     "employees": 4000,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 5977487872,
+    "marketCap": 6593910272,
     "name": "Enpro Inc.",
     "sector": "Industrials",
     "summary": "Enpro Inc., an industrial technology company, design, develops, manufactures, and markets proprietary, value-added products and solutions to safeguard critical environments in the United States, Europe, Asia Pacific, and internationally. It operates in two segments, Sealing Technologies and Advanced Surface Technologies. The Sealing Technologies segment offers single-use hygienic seals, tubing, components and assemblies for food and pharma markets; metallic, non-metallic and composite material gaskets; dynamic seals; compression packing; elastomeric components; custom-engineered mechanical seals; hydraulic components; expansion joints; and wall penetration products for chemical and petrochemical processing, nuclear energy, hydrogen, natural gas, food and biopharmaceutical processing, primary metal manufacturing, mining, water and waste treatment, commercial vehicle, aerospace, medical, filtration, and semiconductor fabrication industries. It offers its products under the Garlock, Gylon, Blue-Gard, ONE-UP, Bio-Pro, Tuf-Steel, Detectomer, and LINK-SEAL brand name. The Advanced Surface Technologies segment offers engineering, manufacturing and precision machining of complex front-end wafer processing sub-systems; cleaning, coating, testing, refurbishment, and verification services for critical components and assemblies used in semiconductor manufacturing equipment; optical filters and proprietary thin-film coatings for applications in the industrial technology, life sciences, and semiconductor markets; optical filters and thin-film coatings for applications in the industrial technology, life sciences, and semiconductor markets; and edge-welded metal bellows for the semiconductor equipment industry and applications in the space, aerospace, and defense markets. The company was formerly known as EnPro Industries, Inc. and changed its name to Enpro Inc. in December 2023. Enpro Inc. was incorporated in 2002 and is headquartered in Charlotte, North Carolina.",
@@ -2090,11 +2123,11 @@
     "website": "https://www.deepwater.com"
   },
   "RIO": {
-    "_ts": 1777384101.4955447,
+    "_ts": 1780410971.7163908,
     "country": "United Kingdom",
     "employees": 56890,
     "industry": "Other Industrial Metals & Mining",
-    "marketCap": 161412907008,
+    "marketCap": 180774125568,
     "name": "Rio Tinto Group",
     "sector": "Basic Materials",
     "summary": "Rio Tinto Group engages in exploring, mining, and processing mineral resources worldwide. The company operates through Iron Ore; Aluminium and lithium; and  Copper segments. The Iron Ore segment engages in the iron ore mining, and salt and gypsum production in Western Australia. The Aluminum and lithium segment is involved in bauxite mining; alumina refining; and aluminium smelting, and recycling, as well as mining and processing of lithium. The Copper segment engages in mining and refining of copper, gold, silver, molybdenum, and other by-products and exploration activities. It also owns and operates open pit and underground mines; and refineries, smelters, processing plants and power, and shipping facilities. The company was founded in 1873 and is headquartered in London, the United Kingdom.",
@@ -2121,6 +2154,17 @@
     "sector": "Consumer Cyclical",
     "summary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California.",
     "website": "https://www.rossstores.com"
+  },
+  "RPRX": {
+    "_ts": 1780410971.7163908,
+    "country": "United States",
+    "employees": 100,
+    "industry": "Biotechnology",
+    "marketCap": 31354062848,
+    "name": "Royalty Pharma plc",
+    "sector": "Healthcare",
+    "summary": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases. The company was founded in 1996 and is based in New York, New York.",
+    "website": "https://www.royaltypharma.com"
   },
   "RSI": {
     "_ts": 1779285971.9089527,
@@ -2176,6 +2220,17 @@
     "sector": "Basic Materials",
     "summary": "Sigma Lithium Corporation engages in the exploration and development of lithium deposits in Brazil. It serves lithium-ion battery supply chain for electric vehicle industries. The company was formerly known as Sigma Lithium Resources Corporation and changed its name to Sigma Lithium Corporation in July 2021. Sigma Lithium Corporation is based in Toronto, Canada.",
     "website": "https://www.sigmalithiumresources.com"
+  },
+  "SIRI": {
+    "_ts": 1780410971.7163908,
+    "country": "United States",
+    "employees": 5119,
+    "industry": "Entertainment",
+    "marketCap": 9647526912,
+    "name": "Sirius XM Holdings Inc.",
+    "sector": "Communication Services",
+    "summary": "Sirius XM Holdings Inc. operates as an audio entertainment company in North America. It operates through two segments, Sirius XM, and Pandora and Off-platform. The Sirius XM segment provides music, sports, entertainment, comedy, and talk and news channels, as well as podcast and infotainment services on subscription fee basis; and live, curated, and exclusive and on demand programming services through satellite radio systems and streamed through applications for mobile and home devices, and other consumer electronic equipment. This segment also distributes satellite radios through automakers and retailers, as well as its website; offers advertising other ancillary services; sells radios and accessories; and offers location-based services through two-way wireless connectivity, including safety, security, convenience, maintenance and data, remote vehicles diagnostic, and stolen or parked vehicle locator services, as well as data services related to graphical weather and fuel prices. In addition, this segment provides music channels on the DISH Network satellite television service as a programming package; Travel Link, a suite of data services that include graphical weather, fuel prices, sports schedule and scores, and movie listings; graphic information related to road closings, traffic flow, and incident data for consumers with in-vehicle navigation systems; real-time weather services in vehicles, boats, and planes; music programming and commercial-free music services for office, restaurants, and other business; and wireless communications service. The Pandora and Off-platform segment operates music, comedy, and podcast streaming platform, which offers personalized experience for listener through mobile devices, vehicle speakers, and connected devices; and provides advertising services. The company was incorporated in 2013 and is headquartered in New York.",
+    "website": "https://www.siriusxm.com"
   },
   "SKM": {
     "_ts": 1779373540.405472,
@@ -2341,6 +2396,17 @@
     "sector": "Energy",
     "summary": "Tidewater Inc., together with its subsidiaries, provides offshore support vessels and marine support services to the offshore energy industry through the operation of a fleet of offshore marine service vessels worldwide. The company operates through five segments: Americas, Asia Pacific, Middle East, Europe/Mediterranean, and West Africa. It offers phases of offshore crude oil and natural gas exploration, field development, production, maintenance, and windfarm development and maintenance activities; towing and anchor handling for mobile offshore drilling units; transportation of supplies and personnel necessary to sustain drilling, workover, and production operations; and field abandonment, dismantlement, and restoration activities. The company also provides offshore construction; seismic and subsea support; various other specialized services, such as pipe laying, cable laying, and geotechnical survey support for windfarm construction. Its vessels consist of anchor handling towing supply vessels, platform supply vessels, and other specialty vessels, as well as crew boats, utility vessels, and offshore tugs. The company serves integrated and independent oil and gas exploration, development, and production companies; mid-sized and smaller independent exploration and production companies; foreign government-owned or government-controlled organizations engaged in the exploration, development, and production of oil and gas; offshore drilling contractors; and other companies that provide services to the offshore energy industry comprising offshore construction companies, windfarm development companies, diving companies, and well stimulation companies. Tidewater Inc. was incorporated in 1956 and is headquartered in Houston, Texas.",
     "website": "https://www.tdw.com"
+  },
+  "TE": {
+    "_ts": 1780410981.9744685,
+    "country": "United States",
+    "employees": 562,
+    "industry": "Electrical Equipment & Parts",
+    "marketCap": 3340085760,
+    "name": "T1 Energy Inc.",
+    "sector": "Industrials",
+    "summary": "T1 Energy Inc. provides energy solutions for solar modules and cells in the United States, Norway and internationally. It manufactures and sells photovoltaic solar modules. The company was formerly known as FREYR Battery, Inc. and changed its name to T1 Energy Inc. in February 2025. T1 Energy Inc. is headquartered in Austin, Texas.",
+    "website": "https://www.t1energy.com"
   },
   "TECK": {
     "_ts": 1780064260.6332018,
@@ -2541,11 +2607,11 @@
     "website": "https://vale.com"
   },
   "VICR": {
-    "_ts": 1777297698.6491394,
+    "_ts": 1780410971.7163908,
     "country": "United States",
     "employees": 1092,
     "industry": "Electronic Components",
-    "marketCap": 11787407360,
+    "marketCap": 14962097152,
     "name": "Vicor Corporation",
     "sector": "Technology",
     "summary": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally. The company offers a range of brick-format DC-DC converters; complementary components that provide AC line rectification, input filtering, power factor correction, and transient protection; and input and output voltage, and output power products, as well as sells electrical and mechanical accessories. It also designs, sells, and services custom power system solutions. It serves independent manufacturers of electronic devices, original equipment manufacturers, original design manufacturers, and their contract manufacturers in the aerospace and aviation, defense electronics, satellites, factory automation, instrumentation, test equipment, transportation, telecommunications and networking infrastructure, and vehicle markets. Vicor Corporation was incorporated in 1981 and is headquartered in Andover, Massachusetts.",
