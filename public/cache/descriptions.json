@@ -32,6 +32,17 @@
     "summary": "ABIVAX Soci\u00e9t\u00e9 Anonyme, a clinical-stage biotechnology company, develops therapeutics that harness the body's natural regulatory mechanisms to stabilize the immune response in patients with chronic inflammatory diseases. Its lead drug candidate includes obefazimod, which is in Phase 3 clinical development for the treatment of moderately to severely active UC, as well as Phase 2b clinical trials for Crohn's disease. The company was incorporated in 2013 and is headquartered in Paris, France.",
     "website": "https://www.abivax.com"
   },
+  "ACLS": {
+    "_ts": 1780497678.3155842,
+    "country": "United States",
+    "employees": 1465,
+    "industry": "Semiconductor Equipment & Materials",
+    "marketCap": 4927258624,
+    "name": "Axcelis Technologies, Inc.",
+    "sector": "Technology",
+    "summary": "Axcelis Technologies, Inc. designs, manufactures, and services ion implantation and other processing equipment used in the fabrication of semiconductor chips in the United States, Europe, and the Asia Pacific. The company provides high energy, high current, and medium current implanters for various application requirements. It also offers aftermarket lifecycle products and services, including used tools, spare parts, equipment upgrades, maintenance services, and customer training. The company sells its equipment and services to semiconductor chip manufacturers through its direct sales force. Axcelis Technologies, Inc. was founded in 1978 and is headquartered in Beverly, Massachusetts.",
+    "website": "https://www.axcelis.com"
+  },
   "ACLX": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -329,6 +340,17 @@
     "summary": "Franklin Resources, Inc. is a publicly owned asset investment manager. Through its subsidiaries, the firm provides its services to individuals, institutions, pension plans, trusts, and partnerships. It launches equity, fixed income, balanced, and multi-asset mutual funds through its subsidiaries. The firm invests in the public equity, fixed income, and alternative markets. Franklin Resources, Inc. was founded in 1947 and is based in San Mateo, California with an additional office in Calgary, Alberta; Dubai, United Arab Emirates; Edinburgh, Midlothian; Fort Lauderdale, Florida; Hyderabad, India; London, Greater London; Rancho Cordova, California; Shanghai, Shanghai Province; Singapore; Stamford, Connecticut; and Vienna.",
     "website": "https://www.franklinresources.com"
   },
+  "BFH": {
+    "_ts": 1780497678.3155842,
+    "country": "United States",
+    "employees": 6000,
+    "industry": "Credit Services",
+    "marketCap": 3639868416,
+    "name": "Bread Financial Holdings, Inc.",
+    "sector": "Financial Services",
+    "summary": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships. The company also manages and services the loans it originates for private label, co-brand, and general-purpose credit card programs, and installment loans and split-pay products; and provides marketing, and data and analytics services. In addition, it offers an enhanced digital suite that includes a unified software development kit, which provides access to its suite of products, as well as promotes credit payment options earlier in the shopping experience. Further, the company through Bread Pay, a digital payments platform and robust suite of application programming interfaces allows merchants and partners to integrate online point-of-sale financing and other digital payment products. Additionally, it offers retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including traditional and Roth Individual Retirement Accounts. The company offers its products under the Bread, Bread Financial, Bread Cashback, Bread Rewards, Bread Pay, and Bread Savings brands. The company was formerly known as Alliance Data Systems Corporation and changed its name to Bread Financial Holdings, Inc. in March 2022. Bread Financial Holdings, Inc. was incorporated in 1995 and is headquartered in Columbus, Ohio.",
+    "website": "https://www.breadfinancial.com"
+  },
   "BHP": {
     "_ts": 1779718269.5939367,
     "country": "Australia",
@@ -462,11 +484,11 @@
     "website": "https://www.babcock.com"
   },
   "C": {
-    "_ts": 1777297685.5526693,
+    "_ts": 1780497678.3155842,
     "country": "United States",
     "employees": 224000,
     "industry": "Banks - Diversified",
-    "marketCap": 224192741376,
+    "marketCap": 219601567744,
     "name": "Citigroup Inc.",
     "sector": "Financial Services",
     "summary": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and institutions. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. The Services segment includes treasury and trade solutions, which provides cash management, trade, and working capital solutions to multinational corporations, financial institutions, and public sector organizations; and securities services, such as cross-border support for clients, local market expertise, post-trade technologies, data solutions, and various securities services solutions. The Markets segment offers sales and trading services for equities, foreign exchange, rates, spread products, and commodities to corporate, institutional, and public sector clients; and market-making services, including asset classes, risk management solutions, financing, and prime brokerage. The Banking segment includes investment banking services comprising equity and debt capital markets-related strategic financing solutions; advisory services related to mergers and acquisitions, divestitures, restructurings, and corporate defense activities; and corporate lending consists of corporate and commercial banking. The U.S. Personal Banking segment provides proprietary and co-branded card portfolios; and traditional banking services to retail and small business customers. The Wealth segment offers financial services to high-net-worth clients through banking, lending, mortgages, investment, custody, and trust product offerings; professional industries, including law firms, consulting groups, accounting, and asset management; and affluent and high net worth clients. The company operates in North America, the United Kingdom, Japan, North and South Asia, Australia, Europe, the Middle East, and Africa. Citigroup Inc. was founded in 1812 and is headquartered in New York, New York.",
@@ -1914,11 +1936,11 @@
     "website": "https://www.ovintiv.com"
   },
   "OXY": {
-    "_ts": 1777902308.7778423,
+    "_ts": 1780497678.3155842,
     "country": "United States",
     "employees": 10412,
     "industry": "Oil & Gas E&P",
-    "marketCap": 58648850432,
+    "marketCap": 59558727680,
     "name": "Occidental Petroleum Corporation",
     "sector": "Energy",
     "summary": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. This segment also optimizes its transportation and storage capacity and invests in entities. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
@@ -1934,6 +1956,17 @@
     "sector": "Basic Materials",
     "summary": "Pan American Silver Corp. engages in the exploration, mine development, extraction, processing, refining, and reclamation of mines in Chile, Peru, Brazil, Mexico, Canada, Argentina, Bolivia, and Guatemala. The Silver segment includes the La Colorada, Juanicipio, Cerro Moro, Huaron, and San Vicente mines. The Gold segment comprises the Jacobina, El Pe\u00f1on, Timmins, Shahuindo, Minera Florida, and Dolores mines. It explores silver, gold, zinc, lead, and copper deposits. The company was formerly known as Pan American Minerals Corp. and changed its name to Pan American Silver Corp. in April 1995. Pan American Silver Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
     "website": "https://www.panamericansilver.com"
+  },
+  "PBA": {
+    "_ts": 1780497678.3155842,
+    "country": "Canada",
+    "employees": 2974,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 28560087040,
+    "name": "Pembina Pipeline Corporation",
+    "sector": "Energy",
+    "summary": "Pembina Pipeline Corporation provides energy transportation and midstream services. It operates through three segments: Pipelines, Facilities, and Marketing & New Ventures. The Pipelines segment operates conventional, oil sands and heavy oil, and transmission assets with a transportation capacity of 3.0 million of barrels of oil equivalent per day, and the ground storage capacity of 10 million of barrels serving markets and basins across North America. The Facilities segment offers infrastructure that provides customers with crude oil, natural gas, condensate, and natural gas liquids (NGLs), including ethane, propane, butane, and condensate; and includes 430 thousands of barrels of NGL fractionation capacity, 21 million of barrels of cavern storage capacity, and various oil batteries, associated pipeline, and rail terminalling facilities and a liquefied propane export facility. The Marketing & New Ventures segment buys and sells hydrocarbon liquids and natural gas originating in the Western Canadian sedimentary basin and other basins. Pembina Pipeline Corporation was incorporated in 1954 and is headquartered in Calgary, Canada.",
+    "website": "https://www.pembina.com"
   },
   "PBR-A": {
     "_ts": 1776778996.5811841,
@@ -2605,6 +2638,17 @@
     "sector": "Basic Materials",
     "summary": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil.",
     "website": "https://vale.com"
+  },
+  "VIAV": {
+    "_ts": 1780497678.3155842,
+    "country": "United States",
+    "employees": 3600,
+    "industry": "Communication Equipment",
+    "marketCap": 13414765568,
+    "name": "Viavi Solutions Inc.",
+    "sector": "Technology",
+    "summary": "Viavi Solutions Inc. provides network test, monitoring, and assurance solutions for telecommunications, cloud, enterprises, first responders, military, aerospace, and critical infrastructures in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It operates in two segments, Network and Service Enablement (NSE) and Optical Security and Performance Products (OSP). The NSE segment provides testing, monitoring, assurance, and security solutions that address lab and production environments, network management, service assurance, and AIOps for wireless, wireline, cloud, satellite, public safety, military, and infrastructure networks. This segment also offers instruments, microprobes, and perpetual software licenses that support the development, production, maintenance, and optimization of network systems, as well as product support and professional services comprising repair, calibration, software support, and technical assistance for its products. Its OSP segment leverages its core optical coating technologies and volume manufacturing capability to design, manufacture, and sell technologies for the anti-counterfeiting, 3D sensing, government and aerospace, automotive, and industrial markets. The company has a strategic partnership with QuNu Labs Pvt. Ltd. for the development of quantum security and advanced network intelligence technologies. The company was formerly known as JDS Uniphase Corporation. Viavi Solutions Inc. was founded in 1923 and is headquartered in Chandler, Arizona.",
+    "website": "https://www.viavisolutions.com"
   },
   "VICR": {
     "_ts": 1780410971.7163908,
