@@ -648,6 +648,17 @@
     "summary": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude oil, natural gas, and natural gas liquids (NGLs) in Western Canada, the United Kingdom sector of the North Sea, and Offshore Africa. The company offers synthetic crude oil (SCO), mining bitumen, light and medium crude oil and NGLs, thermal bitumen, primary heavy crude oil and Pelican Lake heavy crude oil. Its midstream assets include two crude oil pipeline systems; and a 50% working interest in an 84-megawatt cogeneration plant at Primrose. The company was formerly known as AEX Minerals Corporation and changed its name to Canadian Natural Resources Limited in December 1975. Canadian Natural Resources Limited was incorporated in 1973 and is headquartered in Calgary, Canada.",
     "website": "https://www.cnrl.com"
   },
+  "COHR": {
+    "_ts": 1780668809.0295565,
+    "country": "United States",
+    "employees": 30216,
+    "industry": "Scientific & Technical Instruments",
+    "marketCap": 79378702336,
+    "name": "Coherent Corp.",
+    "sector": "Technology",
+    "summary": "Coherent Corp. develops, manufactures, and markets engineered materials, optoelectronic components and devices, and laser systems for the use in the industrial, communications, electronics, and instrumentation markets worldwide. It operates through three segments: Networking, Materials, and Lasers. The Networking segment offers transceivers, systems, subsystems, modules, components, optics, and semiconductor devices for datacenter and communications applications. The Materials segment provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products; and vertical-cavity surface-emitting laser, edge-emitting laser, pump lasers, high-power lasers for materials processing, and integrated circuit. The Laser segment offers excimer lasers, solid-state lasers, CO2 lasers, and laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems. It markets its products and services through direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania.",
+    "website": "https://www.coherent.com"
+  },
   "COP": {
     "_ts": 1779285982.88279,
     "country": "United States",
@@ -724,6 +735,17 @@
     "sector": "Basic Materials",
     "summary": "Constellium SE, together with its subsidiaries, engages in the design, manufacture, and sale of rolled and extruded aluminum products for the aerospace, packaging, automotive, commercial transportation, general industrial, and defense end-markets. It operates through three segments: Packaging & Automotive Rolled Products, Aerospace & Transportation, and Automotive Structures & Industry. The Packaging & Automotive Rolled Products segment produces and develops rolled aluminum products, including canstock and closure stock for the beverage and food industry, as well as foil stock for the flexible packaging market. This segment also supplies automotive body sheets, heat exchangers, and battery foil products for the automotive market. The Aerospace & Transportation segment provides aluminum products including plate, sheet, and extrusions to aerospace, space, commercial transportation, general industrial, and defense sectors. The Automotive Structures & Industry segment offers structural solutions for the automotive industry including crash management systems, body structures, side impact beams, and battery enclosure components; soft and hard alloy extrusions for automotive, transportation, and general industrial applications; and profiles for rail and general industrial applications. This segment also provides downstream technology and services, which include pre-machining, surface treatment, research and development, and technical support services. It sells its products directly or through distributors in France, Germany, the Czech Republic, the United Kingdom, Switzerland, and the United States, as well as South Korea, Japan and China. The company was incorporated in 2010 and is headquartered in Paris, France.",
     "website": "https://www.constellium.com"
+  },
+  "CSX": {
+    "_ts": 1780668809.0295565,
+    "country": "United States",
+    "employees": 22200,
+    "industry": "Railroads",
+    "marketCap": 87090970624,
+    "name": "CSX Corporation",
+    "sector": "Industrials",
+    "summary": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada. It operates through two segments: rail and trucking. The company offers rail services; and transportation of intermodal containers and trailers, as well as other transportation services, such as rail-to-truck transfers and bulk commodity operations. It also transports chemicals, agricultural and food products, minerals, automotive, forest products, fertilizers, and metals and equipment; and coal, coke, and iron ore to electricity-generating power plants, steel manufacturers, and industrial plants, as well as exports coal to deep-water port facilities. In addition, the company provides intermodal services through a network of approximately 30 terminals transporting manufactured consumer goods in containers; and drayage services, including the pickup and delivery of intermodal shipments. It serves the automotive industry with distribution centers and storage locations, as well as connects non-rail served customers through transferring products, such as plastics and ethanol from rail to trucks. The company operates approximately 20,000 route mile rail network, which serves various population centers in 26 states east of the Mississippi River, the District of Columbia, and the Canadian provinces of Ontario and Quebec, as well as owns 3400 locomotives. It serves production and distribution facilities through track connections. CSX Corporation was incorporated in 1978 and is headquartered in Jacksonville, Florida.",
+    "website": "https://www.csx.com"
   },
   "CTRE": {
     "_ts": 1778508325.5744824,
@@ -2473,6 +2495,17 @@
     "sector": "Healthcare",
     "summary": "Terns Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, develops small-molecule product candidates for the treatment of oncology and obesity. The company develops TERN-701, an allosteric BCR-ABL tyrosine kinase inhibitor (TKI) that is in Phase 1/2 clinical trial for chronic myeloid leukemia (CML), a form of cancer that starts in bone marrow. It also develops TERN-501, a thyroid hormone receptor beta agonist with enhanced metabolic stability and liver distribution that is in Phase IIa clinical trial for the treatment of metabolic dysfunction-associated steatohepatitis (MASH); and TERN-801 series of small-molecule glucose-dependent insulinotropic polypeptide receptor (GIPR) modulators for obesity. The company was incorporated in 2016 and is headquartered in Foster City, California. As of May 4, 2026, Terns Pharmaceuticals, Inc. operates as a subsidiary of Merck Sharp & Dohme LLC.",
     "website": "https://www.ternspharma.com"
+  },
+  "TEVA": {
+    "_ts": 1780668783.95689,
+    "country": "Israel",
+    "employees": 31173,
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "marketCap": 40213487616,
+    "name": "Teva Pharmaceutical Industries Limited",
+    "sector": "Healthcare",
+    "summary": "Teva Pharmaceutical Industries Limited develops, manufactures, markets, and distributes generic and other medicines, and biopharmaceutical products in the United States, Europe, Israel, and internationally. It offers generic medicines in various dosage forms, such as tablets, capsules, injectables, inhalants, liquids, transdermal patches, ointments, and creams; sterile products, hormones, high-potency drugs, and cytotoxic substances in parenteral and solid dosage forms; and generic products with medical devices and combination products. The company also focuses on the central nervous system (CNS), respiratory, and oncology areas. It provides active pharmaceutical ingredients, as well as contract manufacturing services; and operates an out-licensing platform that offers a portfolio of products to other pharmaceutical companies. The company also offers BENDEKA and TREANDA injections for the treatment of chronic lymphocytic leukemia and indolent b-cell non-hodgkin's lymphoma; COPAXONE to treat patients with relapsing forms of multiple sclerosis; AJOVY for the preventive treatment of migraine in adults; AUSTEDO to treat neurodegenerative and movement disorders \u0096 chorea associated with Huntington's disease and tardive dyskinesia; UZEDY for the treatment of schizophrenia; ProAir RespiClick inhalation powder; QVAR RediHaler to treat asthma; BRALTUS, a long-acting muscarinic antagonist; CINQAIR/CINQAERO injection; DuoResp Spiromax budesonide and formoterol powder inhaler; and AirDuo RespiClick fluticasone propionate and salmeterol inhalation powder. The company offers its OTC products under the SUDOCREM, NasenDuo, DICLOX FORTE, OLFEN Max, and FLEGAMINA brand names. It has collaboration agreements with MedinCell S.A.; Sanofi; Alvotech; and Biolojic Design Ltd., as well as license agreement with MODAG GmbH. The company was founded in 1901 and is based in Tel Aviv-Yafo, Israel.",
+    "website": "https://www.tevapharm.com"
   },
   "TFII": {
     "_ts": 1779718269.5939367,
