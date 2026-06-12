@@ -88,11 +88,11 @@
     "website": "https://www.adm.com"
   },
   "AEHR": {
-    "_ts": 1778593689.4723847,
+    "_ts": 1781273870.707508,
     "country": "United States",
     "employees": 136,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 3199110400,
+    "marketCap": 3411419904,
     "name": "Aehr Test Systems, Inc.",
     "sector": "Technology",
     "summary": "Aehr Test Systems, Inc. provides test solutions for testing, burning-in, and semiconductor devices in wafer level, singulated die, package part form, and installed systems in the United States, Asia, and Europe. Its product portfolio includes FOX-XP and FOX-NP systems that are full wafer contact and singulated die/module test and burn-in systems that test, burn-in, and stabilize range of devices, including silicon carbide-based and other power semiconductors, 2D, and 3D sensors used in mobile phones, tablets and other computing devices, memory semiconductors, processors, microcontrollers, systems-on-a-chip, and photonics and integrated optical devices. The company offers FOX-CP system, a low-cost single-wafer compact test solution for logic, memory, and photonic devices; and FOX WaferPak Contactor, a full wafer contactor capable of testing wafers up to 300mm that enables integrated circuit manufacturers to perform test, burn-in, and stabilization of full wafers on the FOX-P systems. In addition, it provides FOX DiePak Carrier, which allows testing, burning in, and stabilization of singulated bare die and modules; and FOX DiePak Loader. The company was incorporated in 1977 and is headquartered in Fremont, California.",
@@ -802,6 +802,17 @@
     "summary": "Cytokinetics, Incorporated, a biopharmaceutical company, focuses on discovering, developing, and commercializing novel muscle activators and muscle inhibitors as potential treatments for debilitating diseases in the United States. The company markets MYQORZO, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of symptomatic oHCM. It also develops Aficamten, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of HCM; and omecamtiv mecarbil, a potential treatment across the continuum of care in heart failure with severely reduced ejection fraction. In addition, the company is involved in developing and Ulacamten, a novel, selective, oral, and small molecule cardiac myosin inhibitor designed to reduce the hypercontractility associated with heart failure with preserved ejection fraction in Phase 1 clinical trials; and CK-089, a fast skeletal muscle troponin activator in Phase 1 clinical trials. Cytokinetics, Incorporated was incorporated in 1997 and is headquartered in South San Francisco, California.",
     "website": "https://www.cytokinetics.com"
   },
+  "DAL": {
+    "_ts": 1781273864.7159073,
+    "country": "United States",
+    "employees": 103000,
+    "industry": "Airlines",
+    "marketCap": 53932535808,
+    "name": "Delta Air Lines, Inc.",
+    "sector": "Industrials",
+    "summary": "Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in the United States and internationally. The company operates through two segments, Airline and Refinery. Its domestic network centered on core hubs in Atlanta, Detroit, Minneapolis-St. Paul, and Salt Lake City, as well as coastal hub positions in Boston, Los Angeles, New York-LaGuardia, New York-JFK, and Seattle; and international network centered on hubs and market presence in Amsterdam, Bogota, Lima, Mexico City, London-Heathrow, Paris-Charles de Gaulle, Santiago (Chile), Sao Paulo, Seoul-Incheon, and Tokyo. It also provides aircraft maintenance and engineering support, repair, and overhaul services; and vacation packages. The company operates through a fleet of approximately 1,314 aircraft. Delta Air Lines, Inc. was founded in 1924 and is headquartered in Atlanta, Georgia.",
+    "website": "https://www.delta.com"
+  },
   "DAR": {
     "_ts": 1778593677.5342884,
     "country": "United States",
@@ -1011,6 +1022,17 @@
     "summary": "East West Bancorp, Inc. operates as the bank holding company for East West Bank that provides a range of personal and commercial banking services to businesses and individuals in the United States. The company operates through three segments: Consumer and Business Banking, Commercial Banking, and Treasury and Other. It accepts various deposit products, such as personal and business checking and savings accounts, money market, and time deposits. The company provides various loan products, such as mortgage and home equity, commercial and residential real estate, construction finance, commercial business lending, working capital lines of credit, trade finance, letters of credit, affordable housing lending, asset-based lending, asset-backed finance, project finance, equipment financing, loan syndication, and equipment loans, as well as financing services for clients to facilitate their business transactions between the United States and Asia. It also provides foreign exchange, treasury management, wealth management, and interest rate and commodity risk hedging services; and mobile, and online banking services. The company was founded in 1973 and is headquartered in Pasadena, California.",
     "website": "https://www.eastwestbank.com"
   },
+  "EXPD": {
+    "_ts": 1781273813.210227,
+    "country": "United States",
+    "employees": 20361,
+    "industry": "Integrated Freight & Logistics",
+    "marketCap": 21774761984,
+    "name": "Expeditors International of Washington, Inc.",
+    "sector": "Industrials",
+    "summary": "Expeditors International of Washington, Inc., together with its subsidiaries, provides logistics services in the Americas, North Asia, South Asia, Europe, and Middle East, Africa, and India. The company offers airfreight services, such as air freight consolidation and forwarding; ocean freight and ocean services, including ocean freight consolidation, direct ocean forwarding, and order management; customs brokerage and other services, import, intra-continental ground transportation and delivery, and warehousing and distribution services; and customs clearance, purchase order management, vendor consolidation, time-definite transportation services, temperature-controlled transit, cargo insurance, specialized cargo monitoring and tracking, and other logistics solutions. It also provides optimization, trade compliance consulting, cargo insurance, cargo security, and solutions. In addition, it acts as a freight consolidator or as an agent for the airline that carries the shipment. Further, the company provides ancillary services that include preparation of shipping and customs documentation, packing, crating, insurance services, and the preparation of documentation to comply with local export and import laws. The company was incorporated in 1979 and is headquartered in Bellevue, Washington.",
+    "website": "https://www.expeditors.com"
+  },
   "FANG": {
     "_ts": 1778593677.5342884,
     "country": "United States",
@@ -1054,6 +1076,17 @@
     "sector": "Industrials",
     "summary": "FedEx Corporation, together with its subsidiaries, provides transportation, e-commerce, and business services in the United States and internationally. It operates through Federal Express and FedEx Freight segments. The company offers transportation services, including express, freight, less-than-truckload freight, and time-specific freight-shipping; and small-package ground delivery services. It also provides e-commerce and digital solutions; dataworks; printing and shipping management, including digital printing, professional finishing, document creation, design solutions, direct mail, signs and graphics, custom-branded boxes, copying, computer rental, free Wi-Fi, corporate print solutions, shredding, expedited U.S. passport processing and renewal, and digital notarization; packing services, as well as packing supplies and boxes; document and business services; and retail access for package transportation. In addition, the company offers logistics services, air and ocean freight-forwarding and cargo transportation, specialty transportation, customs brokerage and clearance, trade management tools and data, and door-to-door solutions; and third party logistics and supply chain management solutions, such as inbound logistics, warehousing and distribution, fulfillment, contract packaging and product configuration, systems integration, returns process and disposition, test, repair, refurbishment, and product liquidation. Further, it provides sales, marketing, administrative, information technology, and back-office support services. FedEx Corporation was founded in 1971 and is headquartered in Memphis, Tennessee.",
     "website": "https://www.fedex.com"
+  },
+  "FFIV": {
+    "_ts": 1781273813.210227,
+    "country": "United States",
+    "employees": 6512,
+    "industry": "Software - Infrastructure",
+    "marketCap": 22440755200,
+    "name": "F5, Inc.",
+    "sector": "Technology",
+    "summary": "F5, Inc. provides multicloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region. The company's distributed cloud services enable its customers to deploy, secure, and operate applications in any architecture, from on-premises to the public cloud. It also offers unified, security, networking, and application management solutions, such as web app and API protection; multi-cloud networking; application delivery and deployment; domain name system; content delivery network; and application deployment and orchestration. In addition, the company provides application security and delivery products, including NGINX Plus; NGINX One Console; NGINX Ingress Controller; WAF for NGINX; BIG-IP Packaged Software; and BIG-IP Systems. Further, it provides a range of professional services, including maintenance, consulting, training, and other technical support services. The company sells its products to large enterprise businesses, public sector institutions, governments, and service providers through distributors, value-added resellers, managed service providers, systems integrators, and other indirect channel partners. It has partnerships with public cloud providers, such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. The company was formerly known as F5 Networks, Inc. and changed its name to F5, Inc. in November 2021. F5, Inc. was incorporated in 1996 and is headquartered in Seattle, Washington.",
+    "website": "https://www.f5.com"
   },
   "FIX": {
     "_ts": 1776526540.22005,
@@ -1243,14 +1276,14 @@
     "website": "https://www.ies-co.com"
   },
   "ILMN": {
-    "_ts": 1778508325.5744824,
+    "_ts": 1781273813.210227,
     "country": "United States",
     "employees": 8600,
     "industry": "Diagnostics & Research",
-    "marketCap": 21177460736,
+    "marketCap": 24731498496,
     "name": "Illumina, Inc.",
     "sector": "Healthcare",
-    "summary": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the Middle East, and Africa. The company offers sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparation; whole-genome sequencing kits, which sequence entire genomes of various size and complexity; and targeted resequencing kits, which sequence exomes, specific genes, and RNA or other genomic regions of interest. It also provides whole-genome sequencing, genotyping, noninvasive prenatal testing, and product support services. The company serves genomic research centers, academic institutions, government laboratories, and hospitals, as well as pharmaceutical, biotechnology, commercial molecular diagnostic laboratories, and consumer genomics companies. The company markets and distributes its products directly to customers, as well as through life-science distributors. The company has a collaboration with Labcorp Holdings Inc. for the development of oncology treatments through applications of sequencing solutions across the healthcare ecosystem. It also has a data partnership with Center for Data-Driven Discovery in Biomedicine to advance research in pediatric cancer and rare disease. Illumina, Inc. was incorporated in 1998 and is headquartered in San Diego, California.",
+    "summary": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the Middle East, and Africa. The company offers sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparation; whole-genome sequencing kits, which sequence entire genomes of various size and complexity; and targeted resequencing kits, which sequence exomes, specific genes, and RNA or other genomic regions of interest. It also provides whole-genome sequencing, genotyping, noninvasive prenatal testing, and product support services. The company serves genomic research centers, academic institutions, government laboratories, and hospitals, as well as pharmaceutical, biotechnology, commercial molecular diagnostic laboratories, and consumer genomics companies. The company markets and distributes its products directly to customers, as well as through life-science distributors. The company has a collaboration with Labcorp Holdings Inc. for the development of oncology treatments through applications of sequencing solutions across the healthcare ecosystem; and strategic collaboration with Integrated DNA Technologies to enable a DRAGEN, secondary analysis pipeline for IDT xGena, FFPE and cfDNA next generation sequencing (NGS) library preparation with custom panels, delivering an integrated, end-to-end solution for somatic oncology research. It also has a data partnership with Center for Data-Driven Discovery in Biomedicine to advance research in pediatric cancer and rare disease. Illumina, Inc. was incorporated in 1998 and is headquartered in San Diego, California.",
     "website": "https://www.illumina.com"
   },
   "IMO": {
@@ -1342,11 +1375,11 @@
     "website": "https://www.jbhunt.com"
   },
   "JBL": {
-    "_ts": 1777384093.9748628,
+    "_ts": 1781273813.210227,
     "country": "United States",
     "employees": 135000,
     "industry": "Electronic Components",
-    "marketCap": 35356037120,
+    "marketCap": 40513007616,
     "name": "Jabil Inc.",
     "sector": "Technology",
     "summary": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. The company offers electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and optical component applications; creates, develops, and connects concepts and specifications that optimize the function, value, and appearance of products for both consumers and manufacturing partners; design of plastic and metal components, enclosures, sub-assemblies, and systems, with advanced modeling and analysis of electronic, electro-mechanical, and optical assemblies; detail design, environmental applications, thermal and tooling management; develop solutions for virtual and/or augmented reality, light detection and ranging, 3D sensing, projection, and imaging; delivering PCBA design with CAD tools; and electrical and mechanical assemblies. The company also offers cloud data center server platforms; medical and consumer health devices; automotive assemblies; a digital commerce ecosystem; and smart controls and security for digital building and utilities. In addition, the company offers systems assembly, test, direct-order fulfillment, and configure-to-order services. It serves 5G, wireless and cloud, digital print and retail, industrial and semi-cap, networking and storage, automotive and transportation, connected devices, healthcare and packaging, and mobility industries. The company was formerly known as Jabil Circuit, Inc. Jabil Inc. was founded in 1966 and is based in Saint Petersburg, Florida.",
@@ -1529,11 +1562,11 @@
     "website": "https://www.lamresearch.com"
   },
   "LSTR": {
-    "_ts": 1778508325.5744824,
+    "_ts": 1781273813.210227,
     "country": "United States",
     "employees": 1300,
     "industry": "Integrated Freight & Logistics",
-    "marketCap": 6144398848,
+    "marketCap": 7641311232,
     "name": "Landstar System, Inc.",
     "sector": "Industrials",
     "summary": "Landstar System, Inc. provides transportation management solutions in the United States, Canada, Mexico, and internationally. It operates in two segments, Transportation Logistics and Insurance. The Transportation Logistics segment offers a range of transportation services, including truckload, less-than-truckload and other truck transportation, rail intermodal, air cargo, ocean cargo, expedited ground and air delivery of time-critical freight, heavy-haul/specialized, hazardous materials, cold chain/temperature-controlled, U.S.-Canada and U.S.-Mexico cross-border, intra-Mexico, intra-Canada, project cargo, and customs brokerage services, as well as transportation services to other transportation companies, such as third party logistics and less-than-truckload service providers. This segment serves the automotive parts and assemblies, consumer durables, building products, metals, chemicals, foodstuffs, heavy machinery, retail, electronics, military equipment and general commodities industries. The Insurance segment provides risk and claims management services; and reinsures risks of its independent contractors. The company markets its services through a network of agents, third party capacity providers, and employees. Landstar System, Inc. was founded in 1988 and is headquartered in Jacksonville, Florida.",
@@ -1738,11 +1771,11 @@
     "website": "https://www.mastec.com"
   },
   "MU": {
-    "_ts": 1776778996.5811841,
+    "_ts": 1781273870.707508,
     "country": "United States",
     "employees": 53000,
     "industry": "Semiconductors",
-    "marketCap": 510852235264,
+    "marketCap": 1141514829824,
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
     "summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
@@ -2023,6 +2056,17 @@
     "summary": "Principal Financial Group, Inc. provides retirement, asset management, and insurance products and services to businesses, individuals, and institutional clients worldwide. The company operates through Retirement and Income Solutions, Principal Asset Management, and Benefits and Protection segments. The Retirement and Income Solutions segment provides retirement, and related financial products and services. This segment offers products and services for defined contribution plans, including 401(k) and 403(b) plans, defined benefit plans, nonqualified executive benefit plans, employee stock ownership plans, equity compensation, and pension risk transfer services; individual retirement accounts; investment only products; and mutual funds, individual variable annuities, registered index-linked annuities, and bank products, as well as trust and custody services. The Principal Asset Management segment provides equity, fixed income, real estate, and other alternative investments, as well as fund offerings. This segment also offers pension accumulation products and services, mutual funds, asset management, income annuities, and life insurance accumulation products, as well as voluntary savings plans. The Benefits and Protection segment provides specialty benefits, such as specialty benefits group dental and vision insurance, group life and other insurance, and group and individual disability insurance, as well as administers group dental, disability, and vision benefits; and individual life insurance products comprising universal, variable universal, indexed universal, and term life insurance products. This segment serves insurance solutions for small and medium-sized businesses and their owners, as well as employees. The company was founded in 1879 and is based in Des Moines, Iowa.",
     "website": "https://www.principal.com"
   },
+  "PII": {
+    "_ts": 1781273864.7159073,
+    "country": "United States",
+    "employees": 14500,
+    "industry": "Recreational Vehicles",
+    "marketCap": 3999382016,
+    "name": "Polaris Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Polaris Inc. designs, engineers, manufactures, and markets powersports vehicles in the United States, Canada, and internationally. It operates through three segments: Off Road, On Road, and Marine. The company offers off-road vehicles (ORVs), including all-terrain vehicles and side-by-side vehicles; military and commercial ORVs; snowmobiles; motorcycles; moto-roadsters; quadricycles; and pontoon and deck boats. It also provides source parts, garments, and accessories, such as helmets, jackets, gloves, pants, and hats; and snowmobile accessories comprising covers, traction products, reverse kits, electric starters, tracks, pull-behinds, bags, and windshields, as well as gear and apparel for its snowmobiles consisting of helmets, jackets, goggles, gloves, boots, bibs, pants, and hats. In addition, the company offers ORV accessories, including winches, bumper/brushguards, plows, racks, wheels and tires, cab systems, lighting and audio systems, cargo box accessories, and tracks, as well as replacement parts and lubricants. Further, it provides motorcycle accessories, such as performance enhancements, saddle bags, handlebars, backrests, exhausts, windshields, seats, and various chrome accessories, as well as light duty hauling and passenger vehicles. The company sells its products through dealers and distributors, as well as online. The company was formerly known as Polaris Industries Inc. Polaris Inc. was founded in 1945 and is headquartered in Medina, Minnesota.",
+    "website": "https://www.polaris.com"
+  },
   "PL": {
     "_ts": 1779285993.7311447,
     "country": "United States",
@@ -2189,11 +2233,11 @@
     "website": "https://www.riotinto.com"
   },
   "ROK": {
-    "_ts": 1776526532.6262076,
+    "_ts": 1781273864.7159073,
     "country": "United States",
     "employees": 26000,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 46741848064,
+    "marketCap": 51409678336,
     "name": "Rockwell Automation, Inc.",
     "sector": "Industrials",
     "summary": "Rockwell Automation, Inc., together with its subsidiaries, provides industrial automation and digital transformation solutions in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. It operates in three segments: Intelligent Devices, Software & Control, and Lifecycle Services. The company offers drives, motion, advanced material handling, safety, sensing, industrial components, hardware, software, and configured-to-order products; and control and visualization software and hardware, digital twin, simulation and information software, network and security infrastructure, and custom-engineered systems. It also provides digital consulting, professional services, engineered-to-order solutions, recurring services, cybersecurity, safety, remote monitoring, customer technical support and repair, asset management and optimization consulting, and training, as well as spare parts. The company sells its products through independent distributors in relation to its direct sales force. It serves discrete end markets, including automotive, semiconductor, e-commerce, and warehouse automation; hybrid end markets, such as food and beverage, life sciences, and tire; and process end markets comprising energy, mining, and chemicals. The company was formerly known as Rockwell International Corporation and changed its name to Rockwell Automation, Inc. in February 2002. Rockwell Automation, Inc. was founded in 1903 and is headquartered in Milwaukee, Wisconsin.",
@@ -2606,6 +2650,17 @@
     "summary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Brazil, India, and internationally. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.",
     "website": "https://totalenergies.com"
   },
+  "TWST": {
+    "_ts": 1781273813.210227,
+    "country": "United States",
+    "employees": 979,
+    "industry": "Diagnostics & Research",
+    "marketCap": 4788352512,
+    "name": "Twist Bioscience Corporation",
+    "sector": "Healthcare",
+    "summary": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products. The company offers synthetic genes and gene fragments used in product development for therapeutics, diagnostics, chemicals/materials, food/agriculture, data storage, and various applications within academic research by biotech, pharma, industrial chemical, and agricultural companies, as well as academic labs; Oligo pools used in targeted NGS, CRISPR gene editing, mutagenesis experiments, DNA origami, DNA computing, data storage in DNA, and other applications; and immunoglobulin G proteins for customers focused on the pursuit of drug discovery and development. It also provides NGS tools comprising library preparation kits, human exome kits, and fixed and custom panels, as well as alliance panels used within diagnostic tests for various indications, population genetics research and biomarker discovery, translational research, microbiology, and applied markets research; and methylation detection kits for cancer, and rare and inherited disease study, as well as fast hybridization and full RNA sequencing workflow solution. In addition, it offers synthetic SARS-CoV-2 RNA reference sequences as positive controls to develop both NGS and reverse transcription-polymerase chain reaction assays; synthetic monkeypox controls; and various respiratory viral controls, including for influenzas, respiratory syncytial virus, rhinoviruses, SARS, MERS, and coronaviruses. Further, it offers SARS-CoV-2 Research Panels, such as the Twist Respiratory Virus Panel and the Pan-Viral Research Panel, for the detection of disease in a research setting; precision DNA libraries for antibody engineering, affinity maturation, and humanization; and antibody optimization solution to enable simultaneous optimization of multiple characteristics of a given antibody. The company has a strategic collaboration with bitBiome Inc. The company was incorporated in 2013 and is headquartered in South San Francisco, California.",
+    "website": "https://www.twistbioscience.com"
+  },
   "UCTT": {
     "_ts": 1780327173.0309377,
     "country": "United States",
@@ -2704,6 +2759,17 @@
     "sector": "Consumer Cyclical",
     "summary": "Viking Holdings Ltd focused on providing passenger cruises in North America, the United Kingdom, and internationally. It operates through the River and Ocean segments. The Group defines its products based on the type of cruise offering and language of the cruise service. The River segment provides river cruises outside the United States for English-speaking passengers. The Ocean segment provides ocean cruises for English-speaking passengers. The company provides expedition cruises for English-speaking passengers, Mississippi River cruises for English-speaking passengers and Viking Asia, which includes cruises in languages other than English provided. As of December 31, 2025, Viking Holdings Ltd operated a fleet of 103 ships, including 89 river vessels comprising 59 Longships, 12 smaller classes based on the Longship design,15 other river vessels, and three river vessel charters, including the Viking Saigon, Viking Mississippi, and the Viking Tonle; 12 ocean ships and 2 expedition ships. The company was formerly known as MISA Investments Limited and changed its name to Viking Holdings Ltd in November 2016. The company was founded in 1997 and is based in Pembroke, Bermuda.",
     "website": "https://www.viking.com"
+  },
+  "VISN": {
+    "_ts": 1781273869.3039892,
+    "country": "United States",
+    "employees": 4500,
+    "industry": "Communication Equipment",
+    "marketCap": 2878268672,
+    "name": "Vistance Networks, Inc.",
+    "sector": "Technology",
+    "summary": "Vistance Networks, Inc. provides infrastructure solutions for communications, data center, and entertainment networks in the United States, Europe, the Middle East, Africa, the Asia Pacific, Caribbean, and Latin America. The company operates in two segments: RUCKUS and Aurora Networks. The RUCKUS segment offers indoor cellular solutions, such as public key infrastructure solutions, indoor and outdoor Wi-Fi and long-term evolution access points, and access and aggregation switches; an Internet of Things suite; on-premises and cloud-based control and management systems; and software and software-as-a-service applications addressing security, location, reporting, and analytics. The Aurora Networks segment offers cable modem termination systems, video infrastructure, distribution and transmission equipment, and cloud solutions that enable facility-based service providers to construct residential and metro distribution network. It also provides technical support, and systems design and integration. The company serves telecommunications operators, data center managers, cable television providers, and multi-system operators. It offers its products and services through independent distributors, specialized resellers and distributors, wireless and wireline operators, original equipment manufacturers, and system integrators, as well as directly to customers. Vistance Networks, Inc. was formerly known as CommScope Holding Company, Inc. and changed its name to Vistance Networks, Inc. in January 2026. The company was founded in 1976 and is based in Richardson, Texas.",
+    "website": "https://www.vistancenetworks.com"
   },
   "VLO": {
     "_ts": 1777902308.7778423,
