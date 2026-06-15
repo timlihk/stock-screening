@@ -1,10 +1,10 @@
-PII|sepa_vcp 8 · +power_play · Entry 5 · Lead 7 · Tight 0/3 · Fund 2/5 · RSpct 78 · RS +52
-ROK|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 67 · Industrials · RS +20
-RPRX|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 73 · Health Care · RS +36
-CHRW|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 1/3 · Fund 1/5 · RSpct 85 · Industrials · RS +84
-XPO|sepa_vcp 6 · +power_play · Entry 7 · Lead 8 · Tight 0/3 · RSpct 81 · Industrials · RS +65
-DAL|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 1/3 · RSpct 77 · RS +46
-IESC|sepa_vcp 6 · Entry 5 · Lead 10 · Tight 0/3 · Fund 2/5 · RSpct 91 · Industrials · RS +155
-JBHT|sepa_vcp 6 · Entry 5 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 85 · Industrials · RS +84
-LSTR|sepa_vcp 6 · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 75 · Industrials · RS +41
-MSM|sepa_vcp 6 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 69 · Industrials · RS +23
+MSM|sepa_vcp 8 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 68 · Industrials · RS +21
+JBHT|sepa_vcp 7 · +power_play · Entry 7 · Lead 8 · Tight 2/3 · Fund 2/5 · RSpct 84 · Industrials · RS +78
+TPR|sepa_vcp 7 · Entry 6 · Lead 6 · Tight 0/3 · Fund 3/5 · RSpct 83 · RS +72
+RPRX|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 73 · Health Care · RS +33
+SNA|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 55 · RS +2
+PII|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 0/3 · Fund 2/5 · RSpct 80 · Consumer Discretionary · RS +57
+CHRW|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 84 · Industrials · RS +79
+ILMN|sepa_vcp 7 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 81 · Health Care · RS +63
+CROX|sepa_vcp 7 · Entry 4 · Lead 7 · Tight 1/3 · Fund 1/5 · RSpct 57 · RS +4
+URI|sepa_vcp 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 71 · RS +29
