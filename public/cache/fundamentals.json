@@ -415,7 +415,7 @@
     "sample_quarters": 5
   },
   "ASML": {
-    "_ts": 1778680586.8845985,
+    "_ts": 1781706148.777476,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -2632,16 +2632,16 @@
     "sample_quarters": 8
   },
   "IVZ": {
-    "_ts": 1778508132.014379,
-    "earnings_accelerating": false,
-    "fundamental_score": 0,
-    "latest_period": "Q4 2025",
-    "net_income_qoq_growth": -406.9424356378363,
-    "net_income_yoy_growth": -495.195530726257,
-    "revenue_accelerating": false,
-    "revenue_qoq_growth": 3.145574250182892,
-    "revenue_yoy_growth": 6.214689265536721,
-    "sample_quarters": 8
+    "_ts": 1781706148.777476,
+    "earnings_accelerating": true,
+    "fundamental_score": 1,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": 125.31335406653471,
+    "net_income_yoy_growth": 16.630481980026058,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 3.1028368794326244,
+    "revenue_yoy_growth": 14.079257127910028,
+    "sample_quarters": 9
   },
   "JAZZ": {
     "_ts": 1778508132.014379,
@@ -4663,6 +4663,18 @@
     "revenue_yoy_growth": -17.25898572941047,
     "sample_quarters": 8
   },
+  "SN": {
+    "_ts": 1781706148.777476,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 2
+  },
   "SNA": {
     "_ts": 1781100834.9610312,
     "earnings_accelerating": null,
@@ -5392,6 +5404,18 @@
     "revenue_qoq_growth": null,
     "revenue_yoy_growth": null,
     "sample_quarters": 0
+  },
+  "VECO": {
+    "_ts": 1781706148.777476,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": -102.7614420864229,
+    "net_income_yoy_growth": -101.4760147601476,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": -4.673577999325729,
+    "revenue_yoy_growth": -14.320886113621235,
+    "sample_quarters": 7
   },
   "VELO": {
     "_ts": 1779373332.1893647,
