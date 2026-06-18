@@ -272,6 +272,18 @@
     "revenue_yoy_growth": 13.444921156992319,
     "sample_quarters": 8
   },
+  "AMG": {
+    "_ts": 1781792113.9419508,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": -31.893892658852565,
+    "net_income_yoy_growth": -26.301735647530045,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": 3.9290482548159478,
+    "revenue_yoy_growth": 9.00180036007201,
+    "sample_quarters": 5
+  },
   "AMPG": {
     "_ts": 1781536444.9251688,
     "earnings_accelerating": null,
@@ -413,6 +425,18 @@
     "revenue_qoq_growth": null,
     "revenue_yoy_growth": 7335.454801464377,
     "sample_quarters": 5
+  },
+  "ASB": {
+    "_ts": 1781792113.9419508,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 0
   },
   "ASML": {
     "_ts": 1781706148.777476,
@@ -1681,15 +1705,16 @@
     "sample_quarters": 0
   },
   "ENS": {
-    "_ts": 1776597966.2045534,
-    "earnings_accelerating": false,
-    "fundamental_score": 0,
-    "latest_period": "Q3 2025",
-    "net_income_qoq_growth": 32.07406541373161,
-    "net_income_yoy_growth": -21.28610249799673,
-    "revenue_qoq_growth": -3.380686775585895,
-    "revenue_yoy_growth": 1.4317686215999048,
-    "sample_quarters": 7
+    "_ts": 1781792113.9419508,
+    "earnings_accelerating": true,
+    "fundamental_score": 1,
+    "latest_period": "Q4 2025",
+    "net_income_qoq_growth": 4199.715623029002,
+    "net_income_yoy_growth": 4.229246393146546,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 415.6328947282527,
+    "revenue_yoy_growth": 3.1986396717548216,
+    "sample_quarters": 8
   },
   "ENTG": {
     "_ts": 1778593555.865669,
@@ -2321,6 +2346,18 @@
     "revenue_yoy_growth": 2.120418848167538,
     "sample_quarters": 9
   },
+  "HGV": {
+    "_ts": 1781792113.9419508,
+    "earnings_accelerating": true,
+    "fundamental_score": 3,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": 37.5,
+    "net_income_yoy_growth": 488.2352941176471,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": -3.6009002250562694,
+    "revenue_yoy_growth": 11.933797909407673,
+    "sample_quarters": 9
+  },
   "HLT": {
     "_ts": 1780668685.9260569,
     "earnings_accelerating": true,
@@ -2478,16 +2515,16 @@
     "sample_quarters": 7
   },
   "ICHR": {
-    "_ts": 1779114495.2980013,
-    "earnings_accelerating": null,
-    "fundamental_score": 0,
-    "latest_period": null,
-    "net_income_qoq_growth": null,
-    "net_income_yoy_growth": null,
-    "revenue_accelerating": null,
-    "revenue_qoq_growth": null,
-    "revenue_yoy_growth": null,
-    "sample_quarters": 0
+    "_ts": 1781792113.9419508,
+    "earnings_accelerating": true,
+    "fundamental_score": 1,
+    "latest_period": "Q4 2025",
+    "net_income_qoq_growth": 30.15796613136131,
+    "net_income_yoy_growth": -304.79330459041336,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": -6.556733083712219,
+    "revenue_yoy_growth": -4.1514674805286145,
+    "sample_quarters": 8
   },
   "IDCC": {
     "_ts": 1776951670.143019,
@@ -2979,7 +3016,7 @@
     "sample_quarters": 9
   },
   "LION": {
-    "_ts": 1778766278.7660375,
+    "_ts": 1781792113.9419508,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -4437,6 +4474,18 @@
     "revenue_qoq_growth": null,
     "revenue_yoy_growth": null,
     "sample_quarters": 8
+  },
+  "RXT": {
+    "_ts": 1781792113.9419508,
+    "earnings_accelerating": true,
+    "fundamental_score": 3,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": 125.99388379204892,
+    "net_income_yoy_growth": 111.92145862552594,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": -0.6883421206795526,
+    "revenue_yoy_growth": 1.908626390141266,
+    "sample_quarters": 9
   },
   "RY": {
     "_ts": 1777297456.931321,
