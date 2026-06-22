@@ -1,10 +1,10 @@
-ZION|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 66 · Financials · RS +16
-ASML|power_play 7 · +sepa_vcp · Entry 5 · Lead 11 · Tight 2/3 · RSpct 89 · Technology · RS +129
-CVS|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 3/5 · RSpct 70 · RS +26
-ILMN|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 3/5 · RSpct 79 · Health Care · RS +51
-CORZ|power_play 7 · Entry 4 · Lead 12 · Tight 1/3 · Fund 3/5 · RSpct 89 · Technology · RS +116
-PLXS|power_play 7 · Entry 4 · Lead 11 · Tight 2/3 · RSpct 87 · Technology · RS +102
-CROX|power_play 7 · +sepa_vcp · Entry 4 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 54 · RS +0
-MAR|power_play 6 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 72 · Consumer Discretionary · RS +31
-CFG|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 76 · RS +42
-SPXC|power_play 6 · +sepa_vcp · Entry 5 · Lead 7 · Tight 1/3 · Fund 3/5 · RSpct 71 · RS +29
+CNTA|power_play 7 · +sepa_vcp · Entry 6 · Lead 10 · Tight 2/3 · RSpct 92 · Earn 36d · RS +195
+ZION|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 65 · Financials · RS +16
+YETI|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 1/3 · RSpct 74 · Earn 33d · RS +38
+FITB|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 64 · RS +15
+PLXS|power_play 7 · +sepa_vcp · Entry 4 · Lead 11 · Tight 2/3 · RSpct 87 · Technology · RS +105
+IVT|power_play 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 55 · Earn 26d · RS +2
+ASML|power_play 6 · +sepa_vcp · Entry 5 · Lead 11 · Tight 1/3 · RSpct 89 · Technology · RS +128
+LION|power_play 6 · Entry 5 · Lead 9 · Tight 0/3 · RSpct 89 · RS +137
+SN|power_play 6 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 69 · RS +26
+ORKA|power_play 6 · Entry 4 · Lead 12 · Tight 0/3 · RSpct 98 · RS +594
