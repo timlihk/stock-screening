@@ -340,6 +340,17 @@
     "summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
     "website": "https://www.bloomenergy.com"
   },
+  "BEAM": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 522,
+    "industry": "Biotechnology",
+    "marketCap": 3729032192,
+    "name": "Beam Therapeutics Inc.",
+    "sector": "Healthcare",
+    "summary": "Beam Therapeutics Inc., a biotechnology company, engages in the development of precision genetic medicines for patients suffering from serious diseases in the United States. Its programs in hematology and genetic disease portfolio include Ristoglogene autogetemcel, a patient-specific, autologous hematopoietic stem cell (HSC) therapy for the treatment of sickle cell disease; BEAM-302, a liver-targeting lipid nanoparticle (LNP) for the treatment of severe alpha-1 antitrypsin deficiency; BEAM-304, a liver-targeting LNP for the treatment of phenylketonuria; and BEAM-301, a liver-targeting LNP formulation for the treatment of glycogen storage disease type 1a. The company also develops the ESCAPE platform, which combines antibody-based conditioning with multiplex gene edited HSCs. In addition, it develops BEAM-103, an anti-CD117 monoclonal antibody that enables ESCAPE. The company has research collaboration agreement with Pfizer Inc., focusing on in vivo base editing programs for targets rare genetic diseases of the liver, muscle, and central nervous system; Verve Therapeutics, Inc., for cardiovascular disease treatments; and Orbital Therapeutics to design RNA for the prevention, treatment, or diagnosis of human disease. Beam Therapeutics Inc. was incorporated in 2017 and is based in Cambridge, Massachusetts.",
+    "website": "https://beamtx.com"
+  },
   "BEN": {
     "_ts": 1778853063.9123566,
     "country": "United States",
@@ -603,6 +614,17 @@
     "sector": "Industrials",
     "summary": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation and related logistics and supply chain services in the United States and internationally. It operates in two segments, North American Surface Transportation and Global Forwarding. The company offers transportation and logistics services, such as truckload; less than truckload transportation brokerage services, which include the shipment of single or multiple pallets of freight; intermodal transportation that comprises the shipment service of freight in containers or trailers by a combination of truck and rail; and non-vessel operating common carrier and freight forwarding services, as well as organizes indirect air carrier and freight forwarder providing door-to-door services. It also provides customs brokerage services; and other logistics services, such as fee-based managed, warehousing, supply chain consulting and optimization services, and other services. In addition, the company is involved in the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items under the Robinson Fresh trade name. Further, the company offers transportation management and other surface transportation services. It provides fresh produce to grocery retailers, restaurants, produce wholesalers. C.H. Robinson Worldwide, Inc. was founded in 1905 and is headquartered in Eden Prairie, Minnesota.",
     "website": "https://www.chrobinson.com"
+  },
+  "CIFR": {
+    "_ts": 1782223187.5069976,
+    "country": "United States",
+    "employees": 66,
+    "industry": "Information Technology Services",
+    "marketCap": 11469698048,
+    "name": "Cipher Digital Inc.",
+    "sector": "Technology",
+    "summary": "Cipher Digital Inc., together with its subsidiaries, develops and operates industrial-scale data centers for bitcoin mining and high-performance compute (HPC) hosting in the United States. It develops HPC data center facilities across various sites for hyperscaler tenants; operates power at one bitcoin mining data center; and maintains a pipeline across various sites. The company was formerly known as Cipher Mining Inc. and change its name to Cipher Digital Inc. in February 2026. The company was founded in 2021 and is headquartered in New York, New York.",
+    "website": "https://www.cipherdigital.com"
   },
   "CLH": {
     "_ts": 1776951767.0232048,
@@ -1055,6 +1077,17 @@
     "summary": "ESCO Technologies Inc. provides engineered components and systems for aviation, navy, defense, and industrial customers. The Aerospace & Defense segment designs and manufactures specialty filtration products, including hydraulic filter elements and fluid control devices used in commercial and defense aerospace applications; miniature electro-explosive devices for military aircraft ejection seats and missile arming devices; manufactures and sells mission-critical bushings, pins, sleeves, and precision-tolerance machined components for landing gear, rotor heads, engine mounts, flight controls, and actuation systems for the aerospace and defense industries; designs, develops and manufactures elastomeric-based signature reduction solutions for U.S. naval vessels; and provides mission-critical signature and power management solutions. The Utility Solutions Group segment develops, manufactures, and delivers diagnostic testing solutions; and designs and manufactures decision support tools for the renewable energy industry, primarily wind and solar. The RF Test & Measurement segment designs and manufactures products and systems to measure and control RF energy for research and development, regulatory compliance, and medical and security applications; and turnkey systems, such as RF test facilities and measurement systems, acoustic test enclosures, RF and magnetically shielded rooms, and secure communication facilities. This segment also supplies RF absorptive materials, filters, antennas, field probes, test cells, proprietary measurement software, and other test accessories; and offers calibration and product tests, feedthrough capacitors, high current power, telephone, data and control line filters, and high-altitude electromagnetic protection filters. It distributes its products through distributors, sales representatives, direct sales teams, and in-house sales personnel. The company was incorporated in 1990 and is based in Saint Louis, Missouri.",
     "website": "https://www.escotechnologies.com"
   },
+  "ETSY": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 2375,
+    "industry": "Internet Retail",
+    "marketCap": 7006189056,
+    "name": "Etsy, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Etsy, Inc., together with its subsidiaries, operates two-sided online marketplaces that connect buyers and sellers in the United States, the United Kingdom, and internationally. It operates through Etsy and Depop segments. The company operates Etsy marketplace that connects artisans with various consumers; and Depop, a fashion resale marketplace. It also provides marketplace activities, including transaction offsite advertising, payments processing, and listing fees, as well as from optional seller services, which include on-site advertising and shipping labels. The company was formerly known as Indieco, Inc changed its name to Etsy, Inc. in June 2006. Etsy, Inc. was founded in 2005 and is headquartered in Brooklyn, New York.",
+    "website": "https://www.etsy.com"
+  },
   "EVR": {
     "_ts": 1776526513.6243865,
     "country": "United States",
@@ -1100,11 +1133,11 @@
     "website": "https://www.diamondbackenergy.com"
   },
   "FCFS": {
-    "_ts": 1778853063.9123566,
+    "_ts": 1782223173.5340276,
     "country": "United States",
     "employees": 0,
     "industry": "Credit Services",
-    "marketCap": 10005724160,
+    "marketCap": 10165289984,
     "name": "FirstCash Holdings, Inc.",
     "sector": "Financial Services",
     "summary": "FirstCash Holdings, Inc., together with its subsidiaries, operates retail pawn stores in the United States, Mexico, rest of Latin America, and the United Kingdom. The company operates through four segments: U.S. Pawn, Latin America Pawn, U.K. Pawn, and Retail POS Payment Solutions segments. Its pawn stores lend money on the collateral of pledged personal property, including jewelry, electronics, tools, appliances, sporting goods, and musical instruments; and retails merchandise acquired through collateral forfeitures and over-the-counter purchases from customers. The company also provides retail POS payment solutions, which focuses on LTO products and facilitating other retail financing payment options across the network of traditional and e-commerce merchant partners. It serves cash and credit-constrained consumers. The company was formerly known as FirstCash, Inc and changed its name to FirstCash Holdings, Inc. in December 2021. FirstCash Holdings, Inc. was incorporated in 1988 and is headquartered in Fort Worth, Texas.",
@@ -1164,6 +1197,17 @@
     "sector": "Industrials",
     "summary": "Comfort Systems USA, Inc., together with its subsidiaries, provides mechanical and electrical installation, renovation, maintenance, repair, and replacement services for the mechanical and electrical services industry in the United States. The company operates through two segments: Mechanical and Electrical. It offers heating, ventilation, and air conditioning systems, as well as plumbing, electrical, piping and controls, off-site construction, monitoring, and fire protection. The company is also involved in the design, engineering, integration, installation, and start-up of mechanical, electrical, and plumbing (MEP) and related systems in new buildings; and renovation, expansion, maintenance, monitoring, repair, and replacement of systems in existing buildings. In addition, it provides remote monitoring of power usage, temperature, pressure, humidity and air flow for MEP and other building systems. The company serves building owners and developers, general contractors, architects, consulting engineers, and property managers in the commercial, industrial, and institutional markets. Comfort Systems USA, Inc. was founded in 1917 and is headquartered in Houston, Texas.",
     "website": "https://comfortsystemsusa.com"
+  },
+  "FLEX": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 149686,
+    "industry": "Electronic Components",
+    "marketCap": 54971338752,
+    "name": "Flex Ltd.",
+    "sector": "Technology",
+    "summary": "Flex Ltd. provides technology innovation, supply chain, and manufacturing solutions to data center, communications, enterprise, consumer, automotive, industrial, healthcare, industrial, and power industries in the Americas, Asia, and Europe. The company operates through three segments: Integrated Technology Solutions (ITS), Regulated Manufacturing Solutions (RMS), and Cloud and Power Infrastructure (CPI). The ITS segment offers flexible supply and manufacturing solutions for communications, including high-speed networking, enterprise, and satellite communications systems, as well as lifestyle solutions comprising products across commercial, home, and personal product categories. Its RMS segment includes industrial products, such as mission-critical automation, energy, and industrial infrastructure; automotive products, including compute and power electronics platforms and integrated systems; and healthcare products comprising regulated manufacturing for medical devices, drug delivery, and equipment. The CPI segment provides cloud and cooling products, such as integrated compute systems supporting power-dense digital infrastructure deployments and advanced liquid cooling solutions supporting higher-density, power-intensive rack architectures; and power products that include utility- and facility-level electrical infrastructure enabling power delivery and high-density rack- and board-level power systems. The company was formerly known as Flextronics International Ltd. and changed its name to Flex Ltd. in September 2016. Flex Ltd. was founded in 1969 and is headquartered in Austin, Texas.",
+    "website": "https://www.flex.com"
   },
   "FLS": {
     "_ts": 1776526513.6243865,
@@ -1252,6 +1296,17 @@
     "sector": "Communication Services",
     "summary": "Globalstar, Inc. provides mobile satellite services in the United States, Canada, Europe, Central and South America, and internationally. It offers duplex two-way voice and data products, including mobile voice and data services and equipment for remote business continuity, recreational usage, safety, emergency preparedness and response, and other applications. The company also provides data transmissions using a mobile or fixed device that transmits the location of the device and other information to a central monitoring station, including commercial IoT products; communication and data transmissions using SPOT family of devices, such as SPOT X, SPOT Gen4, and SPOT Trace that emergency alerts, and transmit messages and the location of the device; and voice communication and data transmissions. In addition, it offers commercial IoT devices to track assets comprising cargo containers and rail cars, monitor utility meters, and monitor oil and gas assets; small satellite transmitter modules, such as the STX-3, ST-150 and ST100, and chips that enable an integrator's products to access its network; engineering and other communication services using MSS and terrestrial spectrum licenses; and hardware and software designs to develop specific applications operating over satellite network, as well as the installation of gateways and antennas. It distributes its products through retailers and sales force, as well as www.findmespot.com e-commerce website. The company serves forestry, maritime, government, oil and gas, mining, leisure, emergency services, construction, and transportation sectors. Globalstar, Inc. was founded in 1993 and is headquartered in Covington, Louisiana.",
     "website": "https://www.globalstar.com"
+  },
+  "GVA": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 2500,
+    "industry": "Engineering & Construction",
+    "marketCap": 6568348672,
+    "name": "Granite Construction Incorporated",
+    "sector": "Industrials",
+    "summary": "Granite Construction Incorporated provides infrastructure solutions for public and private clients in the United States. It operates through Construction and Materials segments. The Construction segment engages in the construction and rehabilitation of roads, pavement preservation, bridges, rail lines, airports, marine ports, dams, reservoirs, aqueducts, infrastructure, and site development for use by the public and water-related construction for municipal agencies, commercial water suppliers, industrial facilities, and energy companies; and construction of various complex projects, including infrastructure and site development, mining, public safety, tunnel, solar, battery storage, and power related projects. The Materials segment produces and delivers aggregates, asphalt concrete, liquid asphalt, and recycled materials for internal use in construction projects and sale to third parties. It also provides site preparation, mining, and infrastructure services for railways, residential development, energy development, and commercial and industrial sites; produces construction materials; and provides construction management professional services, as well as owns and leases aggregate reserves and processing plants. The company serves federal agencies, state departments of transportation, local transit authorities, county and city public works departments, school districts and developers, utilities, contractors, landscapers, manufacturers of products requiring aggregate materials, retailers, homeowners, farmers, brokers, and private owners of industrial, commercial, and residential sites. Granite Construction Incorporated was incorporated in 1922 and is headquartered in Watsonville, California.",
+    "website": "https://www.graniteconstruction.com"
   },
   "HAL": {
     "_ts": 1779115334.0604603,
@@ -1527,6 +1582,17 @@
     "sector": "Technology",
     "summary": "Keel Infrastructure Corp. operates digital and energy infrastructure with focus on high-performance computing (HPC) and artificial intelligence (AI) workloads in North America, Canada, and the United States. It primarily owns and operates data centers housing computers to validate transactions on the bitcoin blockchain, as well as sells computational power used for hashing calculations for cryptocurrency mining. The company also provides electrician services to commercial and residential customers in Quebec, Canada. It also undertakes hosting of third-party mining hardware. The company was founded in 2017 and is based in New York, New York.",
     "website": "https://www.keelinfra.com"
+  },
+  "KEY": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 17469,
+    "industry": "Banks - Regional",
+    "marketCap": 24555638784,
+    "name": "KeyCorp",
+    "sector": "Financial Services",
+    "summary": "KeyCorp operates as the holding company for KeyBank National Association that provides various retail and commercial banking products and services in the United States. It operates in two segments, Consumer Bank and Commercial Bank. The company offers various deposits and investment products; personal finance and financial wellness, lending, student loan refinancing, mortgage and home equity, credit card, treasury, and business advisory; commercial leasing, investment management, consumer finance; and wealth management and investment services for institutional, non-profit, and high-net-worth clients. It also provides lending, cash management, equipment financing, and commercial mortgage loans; and capital market products and services, such as syndicated finance, debt and equity underwriting, fixed income and equity sales and trading, derivatives, foreign exchange, mergers and acquisition, other advisory services, and public finance to large corporate and institutional clients. In addition, the company offers personal and institutional trust custody services, personal financial and planning services, access to mutual funds, treasury services, and international banking services. Further, it provides community development financing, securities underwriting, brokerage, and investment banking services, as well as merchant services. The company was founded in 1849 and is headquartered in Cleveland, Ohio.",
+    "website": "https://www.key.com"
   },
   "KEYS": {
     "_ts": 1776951767.0232048,
@@ -2013,14 +2079,14 @@
     "website": "https://www.nucor.com"
   },
   "NUVL": {
-    "_ts": 1776526513.6243865,
+    "_ts": 1782223173.5340276,
     "country": "United States",
-    "employees": 228,
+    "employees": 234,
     "industry": "Biotechnology",
-    "marketCap": 8459975168,
+    "marketCap": 9771546624,
     "name": "Nuvalent, Inc.",
     "sector": "Healthcare",
-    "summary": "Nuvalent, Inc., a clinical-stage biopharmaceutical company, engages in the development of therapies for patients with cancer. Its lead product candidates are Zidesamtinib (NVL-520), a novel ROS1-selective inhibitor to address the clinical challenges of emergent treatment resistance, central nervous system (CNS)-related adverse events, and brain metastases that may limit the use of ROS1 tyrosine kinase inhibitors (TKIs) for patients with ROS proto-oncogene 1 (ROS1)-positive non-small cell lung cancer (NSCLC) which is under the Phase 2 portion of the ARROS-1 Phase 1/2 clinical trial; Neladalkib (NVL-655), a brain-penetrant ALK-selective inhibitor, to address the clinical challenges of emergent treatment resistance, CNS-related adverse events, and brain metastases that might limit the use of first-, second-, and third-generation ALK inhibitors that is under the Phase 2 portion of the ALKOVE-1 clinical trial; and NVL-330, a brain-penetrant human epidermal growth factor receptor 2 (HER2)-selective inhibitor designed to treat tumors driven by HER2ex20, brain metastases, and avoiding treatment-limiting adverse events including due to off-target inhibition of wild-type EGFR that is in Phase 1a/1b clinical trial. The company was incorporated in 2017 and is headquartered in Cambridge, Massachusetts.",
+    "summary": "Nuvalent, Inc., a clinical-stage biopharmaceutical company, engages in the development of therapies for patients with cancer. Its lead product candidates are Zidesamtinib (NVL-520), a novel ROS1-selective inhibitor to address the clinical challenges of emergent treatment resistance, central nervous system (CNS)-related adverse events, and brain metastases that may limit the use of ROS1 tyrosine kinase inhibitors (TKIs) for patients with ROS proto-oncogene 1 (ROS1)-positive non-small cell lung cancer (NSCLC) which is under the Phase 2 portion of the ARROS-1 Phase 1/2 clinical trial; Neladalkib (NVL-655), a brain-penetrant ALK-selective inhibitor, to address the clinical challenges of emergent treatment resistance, CNS-related adverse events, and brain metastases that might limit the use of first-, second-, and third-generation ALK inhibitors that is under the Phase 2 portion of the ALKOVE-1 clinical trial; and NVL-330, a brain-penetrant human epidermal growth factor receptor 2 (HER2)-selective inhibitor designed to treat tumors driven by HER2ex20, brain metastases, and avoiding treatment-limiting adverse events including due to off-target inhibition of wild-type EGFR that is in Phase 1a/1b clinical trial. Nuvalent, Inc. has a strategic partnership with Guardant Health, Inc. to develop companion diagnostics therapies. The company was incorporated in 2017 and is headquartered in Cambridge, Massachusetts.",
     "website": "https://nuvalent.com"
   },
   "NVDA": {
@@ -2332,14 +2398,14 @@
     "website": ""
   },
   "RBC": {
-    "_ts": 1776564492.3977573,
+    "_ts": 1782223186.103391,
     "country": "United States",
-    "employees": 5334,
+    "employees": 5816,
     "industry": "Tools & Accessories",
-    "marketCap": 18647914496,
+    "marketCap": 20056977408,
     "name": "RBC Bearings Incorporated",
     "sector": "Industrials",
-    "summary": "RBC Bearings Incorporated manufactures and markets engineered precision bearings, components, and systems in the United States and internationally. It operates through two segments, Aerospace/Defense and Industrial. The company produces plain bearings with self-lubricating or metal-to-metal designs, including rod end bearings, spherical plain bearings, and journal bearings; roller bearings, such as tapered roller bearings, needle roller bearings, and needle bearing track rollers and cam followers, which are anti-friction products that are used in industrial applications and military aircraft platforms; and ball bearings that include high precision aerospace, airframe control, thin section, and industrial ball bearings that utilize high precision ball elements to reduce friction in high-speed applications. In addition, it offers mounted bearing products include mounted ball bearings, mounted roller bearings, and mounted plain bearings; and enclosed gearing product lines, including quantis gearmotor, torque arm, tigear, magnagear and maxum, and controlled start transmission. Further, the company's power transmission components include mechanical drive components, couplings, and conveyor components; engineered hydraulics and valves for aircraft and submarine applications, and aerospace and defense aftermarket services; fasteners; precision mechanical components, which are used in various general industrial applications; and machine tool collets that are used for holding circulars or rod-like pieces. It serves commercial and defense aerospace,, construction, mining, forestry, energy, agricultural, food and beverage, metals and mining material handling, chemicals, oil and gas production, warehousing and logistics, semiconductor equipment, waste and water management, and rail and transportation applications through its direct sales force, and a network of industrial and aerospace distributors. The company was founded in 1919 and is based in Oxford, Connecticut.",
+    "summary": "RBC Bearings Incorporated manufactures and markets engineered precision bearings, components, and systems in the United States and internationally. It operates through two segments: Aerospace/Defense and Industrial. The company produces plain bearings with self-lubricating or metal-to-metal designs, including rod end bearings, spherical plain bearings, and journal bearings; roller bearings, such as tapered roller bearings, needle roller bearings, and needle bearing track rollers and cam followers, which are anti-friction products that are used in industrial applications and military aircraft platforms; and ball bearings that include high precision aerospace, airframe control, thin section, and industrial ball bearings that utilize high precision ball elements to reduce friction in high-speed applications. In addition, it offers mounted bearing products include mounted ball bearings, mounted roller bearings, and mounted plain bearings; and enclosed gearing product lines, including quantis gearmotor, torque arm, tigear, magnagear and maxum, and controlled start transmission. Further, the company's power transmission components include mechanical drive components, couplings, and conveyor components; engineered hydraulics and valves for aircraft and submarine applications, and aerospace and defense aftermarket services; fasteners; precision mechanical components, for use in various general industrial applications; and machine tool collets that are used for holding circulars or rod-like pieces. It serves commercial and defense aerospace,, construction, mining, forestry, energy, agricultural, food and beverage, metals and mining material handling, chemicals, oil and gas production, warehousing and logistics, semiconductor equipment, waste and water management, and rail and transportation applications through its direct sales force, and a network of industrial and aerospace distributors. The company was founded in 1919 and is based in Oxford, Connecticut.",
     "website": "https://www.rbcbearings.com"
   },
   "RGLD": {
@@ -2420,22 +2486,22 @@
     "website": "https://www.royaltypharma.com"
   },
   "RSI": {
-    "_ts": 1779285971.9089527,
+    "_ts": 1782223173.5340276,
     "country": "United States",
     "employees": 912,
     "industry": "Gambling",
-    "marketCap": 6416922624,
+    "marketCap": 7010679296,
     "name": "Rush Street Interactive, Inc.",
     "sector": "Consumer Cyclical",
     "summary": "Rush Street Interactive, Inc. operates as an online casino and sports betting company in the United States, Canada, and Latin America. The company provides real-money online casinos, online and retail sports betting, and social gaming services. It also offers full suite of games comprising bricks-and-mortar casinos, such as table games, slot machines, and poker games. The company offers its products under BetRivers, PlaySugarHouse, and RushBet brands. Rush Street Interactive, Inc. was founded in 2012 and is headquartered in Chicago, Illinois.",
     "website": "https://www.rushstreetinteractive.com"
   },
   "RVMD": {
-    "_ts": 1778853063.9123566,
+    "_ts": 1782223173.5340276,
     "country": "United States",
     "employees": 883,
     "industry": "Biotechnology",
-    "marketCap": 30905147392,
+    "marketCap": 35580145664,
     "name": "Revolution Medicines, Inc.",
     "sector": "Healthcare",
     "summary": "Revolution Medicines, Inc., a clinical-stage precision oncology company, develops novel targeted therapies for RAS-addicted cancers. The company's research and development pipeline consist of RAS(ON) inhibitors that binds RAS variants to be used as monotherapy in combination with other RAS(ON) inhibitors and/or in combination with RAS companion inhibitors or other therapeutic agents, and RAS companion inhibitors to suppress cooperating targets and pathways that sustain RAS-addicted cancers. Its RAS(ON) inhibitors include daraxonrasib (RMC-6236), elironrasib G12C (RMC-6291) which is in early clinical development for the treatment of solid tumors, and zoldonrasib G12D (RMC-9805), which are in phase 3 registrational trial evaluating the combination of daraxonrasib with zoldonrasib in patients with 1L PDAC; and development candidates comprise RMC-5127 (G12V) which is in clinical trial, RMC-0708 (Q61H), that is in clinical trial; and RMC-8839 (G13C). Revolution Medicines, Inc. was incorporated in 2014 and is headquartered in Redwood City, California.",
@@ -2497,11 +2563,11 @@
     "website": "https://www.sktelecom.com"
   },
   "SLAB": {
-    "_ts": 1779285971.9089527,
+    "_ts": 1782223173.5340276,
     "country": "United States",
     "employees": 1930,
     "industry": "Semiconductors",
-    "marketCap": 7149139968,
+    "marketCap": 7236047360,
     "name": "Silicon Laboratories Inc.",
     "sector": "Technology",
     "summary": "Silicon Laboratories Inc., a fabless semiconductor company, provides mixed-signal analog intensive products in the United States, China, Taiwan, and internationally. Its products are used in various electronic products in a range of applications for the industrial Internet of Things (IoT), including connected home and security, industrial automation and control, smart metering and agriculture, smart street lighting, renewable energy, electric vehicle supply equipment, industrial wearables and equipment, commercial building automation, consumer electronics, asset tracking, and medical instrumentation; and commercial IoT applications, including smart buildings and lighting, access controls, asset tracking, electronic shelf labels, theft protection, power tools, and enterprise access points. The company's smart home applications comprise smart home cameras, locks, gateways, residential lighting, window shades/blinds, heating, ventilation, air conditioning, switches, smoke/CO detectors, sensors, and home security panels; and connected health applications, including diabetes management, consumer health and fitness, elderly care, patient monitoring, and activity tracking, as well as provides wireless microcontrollers products. It sells its products through its direct sales force, as well as a network of independent sales representatives and distributors. The company was founded in 1996 and is headquartered in Austin, Texas.",
@@ -2870,6 +2936,17 @@
     "summary": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products. The company offers synthetic genes and gene fragments used in product development for therapeutics, diagnostics, chemicals/materials, food/agriculture, data storage, and various applications within academic research by biotech, pharma, industrial chemical, and agricultural companies, as well as academic labs; Oligo pools used in targeted NGS, CRISPR gene editing, mutagenesis experiments, DNA origami, DNA computing, data storage in DNA, and other applications; and immunoglobulin G proteins for customers focused on the pursuit of drug discovery and development. It also provides NGS tools comprising library preparation kits, human exome kits, and fixed and custom panels, as well as alliance panels used within diagnostic tests for various indications, population genetics research and biomarker discovery, translational research, microbiology, and applied markets research; and methylation detection kits for cancer, and rare and inherited disease study, as well as fast hybridization and full RNA sequencing workflow solution. In addition, it offers synthetic SARS-CoV-2 RNA reference sequences as positive controls to develop both NGS and reverse transcription-polymerase chain reaction assays; synthetic monkeypox controls; and various respiratory viral controls, including for influenzas, respiratory syncytial virus, rhinoviruses, SARS, MERS, and coronaviruses. Further, it offers SARS-CoV-2 Research Panels, such as the Twist Respiratory Virus Panel and the Pan-Viral Research Panel, for the detection of disease in a research setting; precision DNA libraries for antibody engineering, affinity maturation, and humanization; and antibody optimization solution to enable simultaneous optimization of multiple characteristics of a given antibody. The company has a strategic collaboration with bitBiome Inc. The company was incorporated in 2013 and is headquartered in South San Francisco, California.",
     "website": "https://www.twistbioscience.com"
   },
+  "TXG": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 1178,
+    "industry": "Health Information Services",
+    "marketCap": 4213041408,
+    "name": "10x Genomics, Inc.",
+    "sector": "Healthcare",
+    "summary": "10x Genomics, Inc. develops and sells instruments, consumables, and software for analyzing biological systems in the United States, rest of the Americas, Europe, the Middle East, Africa, China, and the rest of the Asia Pacific. The company offers Chromium platform, a single cell portfolio that enables analysis of individual biological components, as well as includes microfluidic chips and related consumables, Chromium X Series, and Chromium instruments; and QuantumScale single cell RNA and single cell methylation kits. It also provides Visium platform, a spatial analysis platform that uses high density DNA arrays to encode the physical location of biological analytes within a sample. This platform includes HD WT panel gene expression, and HD 3' gene expression assays, as well as the Visium CytAssist, an instrument designed to simplify and optimize the Visium solution workflow by facilitating the transfer of transcriptomic analytes from standard glass slides to Visium slides. In addition, the company offers Xenium Analyzer instrument enables researchers to detect and preserve the cellular location of hundreds of RNA targets directly in a fresh frozen or FFPE tissue section without the need for conventional sequencing; and slides and reagents. Further, it provides various software products comprising Cell Ranger, a scRNA-seq processing pipeline in scientific literature; Loupe Browser, which enables intuitive single-cell, spatial, and multiomic data visualization; and Xenium Explorer that enables intuitive in situ data visualization, which allows researchers to explore subcellular gene expression, spatial organization, and tissue-scale patterns. The company serves various academic, government, biopharmaceutical, biotechnology, and other institutions. The company was formerly known as 10X Technologies, Inc. and changed its name to 10x Genomics, Inc. in November 2014. 10x Genomics, Inc. was incorporated in 2012 and is headquartered in Pleasanton, California.",
+    "website": "https://www.10xgenomics.com"
+  },
   "UCTT": {
     "_ts": 1780327173.0309377,
     "country": "United States",
@@ -2924,6 +3001,17 @@
     "sector": "Industrials",
     "summary": "United Rentals, Inc., through its subsidiaries, operates as an equipment rental company in the United States, Canada, Europe, Australia, and New Zealand. It operates through two segments, General Rentals and Specialty. The General Rentals segment rents general construction and industrial equipment, such as backhoes, skid-steer loaders, forklifts, earthmoving equipment, and material handling equipment; aerial work platforms, including boom and scissor lifts; and general tools and light equipment comprising pressure washers, water pumps, and power tools for construction and industrial companies, manufacturers, utilities, municipalities, homeowners, and government entities. The specialty segment rents trench safety equipment consists of trench shields, aluminum hydraulic shoring systems, slide rails, crossing plates, construction lasers, and line testing equipment for underground work; power and heating, ventilating, and air conditioning equipment, such as portable diesel generators, electrical distribution equipment, and temperature control equipment; fluid solutions equipment for fluid containment, transfer, and treatment; surface protection mats; and mobile storage equipment and modular office space. This segment serves construction companies involved in infrastructure projects, and municipalities and industrial companies. The company also sells aerial lifts, reach forklifts, telehandlers, compressors, and generators; construction consumables, tools, small equipment, and safety supplies; and parts for equipment that is owned by its customers, as well as provides repair and maintenance services. It sells used equipment through its sales force, brokers, website, at auctions, and directly to manufacturers. United Rentals, Inc. was incorporated in 1997 and is headquartered in Stamford, Connecticut.",
     "website": "https://www.unitedrentals.com"
+  },
+  "USB": {
+    "_ts": 1782223173.5340276,
+    "country": "United States",
+    "employees": 70000,
+    "industry": "Banks - Regional",
+    "marketCap": 91711455232,
+    "name": "U.S. Bancorp",
+    "sector": "Financial Services",
+    "summary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional Banking; Consumer and Business Banking; Payment Services; and Treasury and Corporate Support segments. It offers depository services, including checking accounts, savings accounts, and time certificate contracts; and lending services, such as traditional credit products and credit card services, lease financing and import/export trade, agricultural finance, asset-backed lending, and other products. The company also provides cash management, capital markets, and trust and investment management services; and ancillary services comprising capital markets, treasury management, and receivable lock-box collection services to corporate and governmental entity customers. In addition, it offers asset management and fiduciary services for individuals, estates, foundations, business corporations, and charitable organizations; and investment and insurance products to its customers principally within its domestic markets, as well as fund administration services to mutual and other funds. Further, the company provides corporate and purchasing card, and corporate trust services; and credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing services. U.S. Bancorp was founded in 1863 and is headquartered in Minneapolis, Minnesota.",
+    "website": "https://www.usbank.com"
   },
   "USO": {
     "_ts": 1779115334.0604603,
