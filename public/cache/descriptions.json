@@ -561,11 +561,11 @@
     "website": "https://www.caseys.com"
   },
   "CELC": {
-    "_ts": 1779285993.7311447,
+    "_ts": 1782309174.3708835,
     "country": "United States",
     "employees": 155,
     "industry": "Biotechnology",
-    "marketCap": 6466897408,
+    "marketCap": 4654254592,
     "name": "Celcuity Inc.",
     "sector": "Healthcare",
     "summary": "Celcuity Inc., a clinical-stage biotechnology company, focuses on the development of targeted therapies for the treatment of various solid tumors in the United States. The company's lead drug candidate includes Gedatolisib, which selectively targets various Class I isoforms of phosphatidylinositol-3-kinase (PI3K) and the two mechanistic targets of rapamycin (mTOR) sub-complexes, mTORC1 and mTORC2 to treat patients with hormone receptor positive (HR+), human epidermal growth factor receptor 2 negative (HER2-) or HR+/HER2-, advanced or metastatic breast cancer (ABC), and patients with metastatic castration resistant prostate cancer (mCRPC). The company had a license agreement with Pfizer Inc. for the development and commercialization rights to Gedatolisib. Celcuity Inc. was incorporated in 2011 and is based in Minneapolis, Minnesota.",
@@ -867,6 +867,17 @@
     "sector": "Healthcare",
     "summary": "Cytokinetics, Incorporated, a biopharmaceutical company, focuses on discovering, developing, and commercializing novel muscle activators and muscle inhibitors as potential treatments for debilitating diseases in the United States. The company markets MYQORZO, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of symptomatic oHCM. It also develops Aficamten, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of HCM; and omecamtiv mecarbil, a potential treatment across the continuum of care in heart failure with severely reduced ejection fraction. In addition, the company is involved in developing and Ulacamten, a novel, selective, oral, and small molecule cardiac myosin inhibitor designed to reduce the hypercontractility associated with heart failure with preserved ejection fraction in Phase 1 clinical trials; and CK-089, a fast skeletal muscle troponin activator in Phase 1 clinical trials. Cytokinetics, Incorporated was incorporated in 1997 and is headquartered in South San Francisco, California.",
     "website": "https://www.cytokinetics.com"
+  },
+  "D": {
+    "_ts": 1782309146.6517544,
+    "country": "United States",
+    "employees": 15200,
+    "industry": "Utilities - Regulated Electric",
+    "marketCap": 60695158784,
+    "name": "Dominion Energy, Inc.",
+    "sector": "Utilities",
+    "summary": "Dominion Energy, Inc. provides regulated electricity and natural gas services in the United States. It operates through Dominion Energy Virginia, Dominion Energy South Carolina, and Contracted Energy segments. The Dominion Energy Virginia segment engages in the generation, distribution, and transmission of electricity to approximately 2.8 million residential, commercial, industrial, and governmental customers in Virginia and North Carolina. The Dominion Energy South Carolina segment generates, transmits, and distributes electricity to approximately 0.8 million customers in the central, southern, and southwestern portions of South Carolina; and distributes natural gas to approximately 0.5 million residential, commercial, and industrial customers in South Carolina. The Contracted Energy segment is involved in the nonregulated long-term contracted renewable electric generation fleet and renewable natural gas facilities. As of December 31, 2025, the company's portfolio of assets included approximately 30.7 GW of electric generating capacity, 10,800 miles of electric transmission lines, and 80,400 miles of electric distribution lines. The company was formerly known as Dominion Resources, Inc. Dominion Energy, Inc. was incorporated in 1983 and is headquartered in Richmond, Virginia.",
+    "website": "https://www.dominionenergy.com"
   },
   "DAL": {
     "_ts": 1781273864.7159073,
@@ -1220,6 +1231,17 @@
     "summary": "Flowserve Corporation designs, manufactures, distributes, and services industrial flow management equipment in the United States, Canada, Mexico, Europe, the Middle East, Africa, and the Asia Pacific. The company operates in two segments, Flowserve Pumps Division (FPD) and Flow Control Division (FCD). It offers custom engineered pumps, pre-configured industrial pumps, pump systems, mechanical seals, auxiliary systems, replacement parts, and related services; and manufactures gas-lubricated mechanical seals for gas pipelines and in the energy production and process markets. The company also provides equipment services, including installation, commissioning services, seal systems spare parts, repairs, advanced diagnostics, re-rate and upgrade solutions, retrofit programs, and machining and asset management solutions. In addition, it offers engineered-to-order and configured-to-order isolation valves, control valves, valve automation products and related services and equipment; and actuators, positioners, and switches used to control, direct and manage the flow of liquids, gases and multi-phase fluids, and are a part of any flow control system. Further, the company provides equipment maintenance services for flow control systems, including advanced diagnostics, repair, installation, commissioning, retrofit programs, and field machining capabilities. It sells its products under the Valtek, Argus, Worcester, Limitorque, and Durco brands. The company serves oil and gas, power generation, chemical, water management and general industries, including pharmaceuticals, mining, food and beverage, steel, and pulp and paper industries. It distributes its products through direct sales, distributors, and sales representatives. Flowserve Corporation was founded in 1790 and is headquartered in Irving, Texas.",
     "website": "https://www.flowserve.com"
   },
+  "FRT": {
+    "_ts": 1782309146.6517544,
+    "country": "United States",
+    "employees": 314,
+    "industry": "REIT - Retail",
+    "marketCap": 10836985856,
+    "name": "Federal Realty Investment Trust",
+    "sector": "Real Estate",
+    "summary": "Federal Realty Investment Trust is a recognized leader in the ownership, operation and redevelopment of high-quality retail-based properties. They are located primarily in major coastal markets and select underserved regions that have strong economic and demographic fundamentals. Federal Realty's mission is to deliver long-term, sustainable growth through investing in communities where retail demand exceeds supply. This includes a portfolio of open-air shopping centers and mixed-use destinations\u0097such as Santana Row, Pike & Rose, and Assembly Row, which together reflect the company's ability to create distinctive, high-performing environments that serve as vibrant destinations for their communities. Federal Realty's 104 properties include approximately 3,800 tenants in 29.0 million commercial square feet, and approximately 2,500 residential units. It is based in North Bethesda, Maryland. Federal Realty Investment Trust was incorporated in 1962 in Maryland.",
+    "website": "https://www.federalrealty.com"
+  },
   "FTI": {
     "_ts": 1776526513.6243865,
     "country": "United Kingdom",
@@ -1241,6 +1263,17 @@
     "sector": "Technology",
     "summary": "Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide. The company offers FortiOS, a unified operating system designed to address cybersecurity threats; FortiASIC application-specific integrated circuit (ASIC)-based security processing units; FortiCloud, a private cloud software as a service platform; FortiAI, which provides a dual-layered defense across the Fortinet Security Fabric; FortiEndpoint, which converges secure connectivity, endpoint protection, and capabilities into a single agent; and OT Security, which protect the engineered systems that underpin infrastructure and supply chains. It also provides secure networking solutions that focus on the convergence of networking and security; network firewall solutions comprising FortiGate data centers, hyperscale, and distributed firewalls; wireless local area network solutions; and secure connectivity solutions. In addition, the company offers the Fortinet Unified Secure Access Service Edge solutions that include firewall, software-defined wide-area network, secure web gateway, cloud access services broker, data loss prevention, and zero trust network access; and web application firewalls, cloud network security with virtualized firewalls, cloud-native firewalls, cloud-native application protection, and code security. Further, it provides AI-driven security operation solutions, which include a suite of cybersecurity solutions, as well as FortiEDR, FortiXDR, FortiNDR, FortiSandbox, FortiDeceptor, FortiDLP, and FortiRecon. Additionally, the company offers FortiGuard Labs, a cybersecurity threat intelligence and research organization; FortiGuard and Other Security Services, a suite of AI-powered security capabilities that consists of FortiGuard application, content, device, NOC/SOC, and web security services; and FortiCare technical support services. Fortinet, Inc. was incorporated in 2000 and is headquartered in Sunnyvale, California.",
     "website": "https://www.fortinet.com"
+  },
+  "GE": {
+    "_ts": 1782309146.6517544,
+    "country": "United States",
+    "employees": 57000,
+    "industry": "Aerospace & Defense",
+    "marketCap": 378207436800,
+    "name": "GE Aerospace",
+    "sector": "Industrials",
+    "summary": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and aircraft systems. The company operates through two segments, Commercial Engines & Services, and Defense & Propulsion Technologies. The Commercial Engines & Services segment designs, develops, manufactures, maintenance, repair, and overhaul (MRO) services of jet engines and sale of spare parts for commercial airframes, business aviation, and aeroderivative applications. The Defense & Propulsion Technologies designs, develops, manufactures, and services jet engines and avionics and power systems for governments, militaries, and commercial airframers, as well as MRO of engines and the sale of spare parts. This segment also offers aircraft components and systems, such as small turboprop engines, aeroengine mechanical transmissions, turbines, combustors and controls, additive manufacturing, propeller systems, ignition systems, sensors and engine accessories for fixed wing and rotorcraft applications for commercial and military end users under the Avio Aero, Unison, Dowty Propellers, and Colibrium Additive brands. The company operates in the United States, Europe, Asia, the Americas, the Middle East, and Africa. General Electric Company was incorporated in 1892 and is based in Evendale, Ohio.",
+    "website": "https://www.geaerospace.com"
   },
   "GLNG": {
     "_ts": 1779285971.9089527,
@@ -1308,6 +1341,17 @@
     "summary": "Granite Construction Incorporated provides infrastructure solutions for public and private clients in the United States. It operates through Construction and Materials segments. The Construction segment engages in the construction and rehabilitation of roads, pavement preservation, bridges, rail lines, airports, marine ports, dams, reservoirs, aqueducts, infrastructure, and site development for use by the public and water-related construction for municipal agencies, commercial water suppliers, industrial facilities, and energy companies; and construction of various complex projects, including infrastructure and site development, mining, public safety, tunnel, solar, battery storage, and power related projects. The Materials segment produces and delivers aggregates, asphalt concrete, liquid asphalt, and recycled materials for internal use in construction projects and sale to third parties. It also provides site preparation, mining, and infrastructure services for railways, residential development, energy development, and commercial and industrial sites; produces construction materials; and provides construction management professional services, as well as owns and leases aggregate reserves and processing plants. The company serves federal agencies, state departments of transportation, local transit authorities, county and city public works departments, school districts and developers, utilities, contractors, landscapers, manufacturers of products requiring aggregate materials, retailers, homeowners, farmers, brokers, and private owners of industrial, commercial, and residential sites. Granite Construction Incorporated was incorporated in 1922 and is headquartered in Watsonville, California.",
     "website": "https://www.graniteconstruction.com"
   },
+  "H": {
+    "_ts": 1782309146.6517544,
+    "country": "United States",
+    "employees": 50000,
+    "industry": "Lodging",
+    "marketCap": 18871879680,
+    "name": "Hyatt Hotels Corporation",
+    "sector": "Consumer Cyclical",
+    "summary": "Hyatt Hotels Corporation operates as a hospitality company in the United States and internationally. It operates through Management and Franchising, Owned and Leased, and Distribution segments. The company develops, owns, operates, manages, franchises, leases, and licenses a portfolio of properties, consisting of full-service hotels and resorts, select service hotels, and other properties, including timeshare, fractional, and other forms of residential and vacation units. It operates its properties under the Park Hyatt, Alila, Miraval, Impression by Secrets, The Unbound Collection by Hyatt, Andaz, Thompson Hotels, The Standard, Dream Hotels, The StandardX, Breathless Resorts & Spas, JdV by Hyatt, Bunkhouse Hotels, Me and All Hotels, Zo\u00ebtry Wellness & Spa Resorts, Hyatt Ziva, Hyatt Zilara, Secrets Resorts & Spas, Dreams Resorts & Spas, Hyatt Vivid Hotels & Resorts, Bahia Principe Hotels & Resorts, Alua Hotels & Resorts, Sunscape Resorts & Spas, Grand Hyatt, Hyatt Regency, Destination by Hyatt, Hyatt Centric, Hyatt Vacation Club, Hyatt, Caption by Hyatt, Unscripted by Hyatt, Hyatt Place, Hyatt House, Hyatt Studios, Hyatt Select, and UrCove brands. The company also offers Homes & Hideaways by World of Hyatt, a short-term vacation rental platform that features direct booking for short-term private home rentals in the United States, as well as distribution and destination management services; and World of Hyatt loyalty program, which allows rewards points to be redeemed for hotel nights and other rewards. It serves corporations; national, state, and regional associations; specialty market accounts, including social, government, military, educational, religious, and fraternal organizations; travel agency and luxury organizations; and a group of individual consumers. Hyatt Hotels Corporation was founded in 1957 and is headquartered in Chicago, Illinois.",
+    "website": "https://www.hyatt.com"
+  },
   "HAL": {
     "_ts": 1779115334.0604603,
     "country": "United States",
@@ -1340,6 +1384,17 @@
     "sector": "Basic Materials",
     "summary": "Hudbay Minerals Inc., a diversified mining company, focuses on the exploration, development, operation, and optimization of properties in North and South America. It primarily explores for copper concentrates containing copper, gold, zinc, molybdenum concentrates, and silver. It owns 100% interest in Copper Mountain mine located approximately 20 kilometers south of Princeton, British Columbia, in the Similkameen valley. Hudbay Minerals Inc. was formerly known as HudBay Minerals Inc. and changed its name to Hudbay Minerals Inc. in 2017. Hudbay Minerals Inc. was founded in 1927 and is based in Toronto, Canada.",
     "website": "https://www.hudbayminerals.com"
+  },
+  "HLT": {
+    "_ts": 1782309163.931395,
+    "country": "United States",
+    "employees": 182000,
+    "industry": "Lodging",
+    "marketCap": 79410577408,
+    "name": "Hilton Worldwide Holdings Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Hilton Worldwide Holdings Inc., a hospitality company, engages in managing, franchising, and leasing hotels and resorts. It operates in two segments, Management and Franchise, and Ownership. The company engages in the hotel management and licensing of its brand names, trademarks, and service marks. It operates a brand portfolio of luxury, lifestyle, full service, focused service, all-suites hotel, and timeshare under the Waldorf Astoria Hotels & Resorts, LXR Hotels & Resorts, Conrad Hotels & Resorts, Signia by Hilton, NoMad, Canopy by Hilton, Graduate by Hilton, Tempo by Hilton, Motto by Hilton, Hilton Hotels & Resorts, DoubleTree by Hilton, Curio Collection by Hilton, Tapestry Collection by Hilton, Outset Collection by Hilton, Embassy Suites by Hilton, Homewood Suites by Hilton, Home2 Suites by Hilton, LivSmart Studios by Hilton, Hilton Garden Inn, Hampton by Hilton, Tru by Hilton, Spark by Hilton, Hilton Grand Vacations, Small Luxury Hotels of the World, AutoCamp, and Hilton Honors brand names. The company has operations in North America, South America, and Central America, including various Caribbean nations; Europe, the Middle East, and Africa; and the Asia Pacific. Hilton Worldwide Holdings Inc. was founded in 1919 and is headquartered in McLean, Virginia.",
+    "website": "https://www.hilton.com"
   },
   "HSBC": {
     "_ts": 1779373460.4103787,
@@ -1617,11 +1672,11 @@
     "website": "https://www.kinross.com"
   },
   "KGS": {
-    "_ts": 1776693245.623913,
+    "_ts": 1782309146.6517544,
     "country": "United States",
     "employees": 1300,
     "industry": "Oil & Gas Equipment & Services",
-    "marketCap": 5563958784,
+    "marketCap": 7216711680,
     "name": "Kodiak Gas Services, Inc.",
     "sector": "Energy",
     "summary": "Kodiak Gas Services, Inc. operates and provides contract compression infrastructure for customers in the oil and gas industry in the United States. It operates in two segments, Contract Services and Other Services. The Contract Services segment operates company-owned and customer-owned compression, and gas treating and cooling infrastructure to enable the production, gathering, processing, and transportation of natural gas and oil. The Other Services segment provides a range of services to support the needs of customers, including station construction, maintenance and overhaul, freight and crane charges, parts sales, and other ancillary time and material-based offerings. The company was formerly known as Frontier TopCo, Inc. Kodiak Gas Services, Inc. was founded in 2010 and is headquartered in The Woodlands, Texas.",
@@ -2022,6 +2077,17 @@
     "sector": "Basic Materials",
     "summary": "Newmont Corporation operates as a gold producer. It also explores for copper, silver, lead, zinc, and other metals. It has operations and/or assets in the United States, Papua New Guinea, Australia, Ghana, Suriname, Argentina, Dominican Republic, Chile, Peru, Ecuador, Mexico, and Canada. The company was founded in 1916 and is headquartered in Denver, Colorado.",
     "website": "https://www.newmont.com"
+  },
+  "NLY": {
+    "_ts": 1782309146.6517544,
+    "country": "United States",
+    "employees": 212,
+    "industry": "REIT - Mortgage",
+    "marketCap": 16476474368,
+    "name": "Annaly Capital Management, Inc.",
+    "sector": "Real Estate",
+    "summary": "Annaly Capital Management, Inc., a diversified capital manager, engages in the residential mortgage finance business. The company invests in agency mortgage-backed securities collateralized by residential mortgages; non-agency residential whole loans and securitized products within the residential and commercial markets; mortgage servicing rights; agency commercial mortgage-backed securities; to-be-announced forward contracts; residential mortgage-backed securities; residential mortgage loans; and agency or private label credit risk transfer securities. It has elected to be taxed as a real estate investment trust (REIT). As a REIT, it is not subject to federal income tax to the extent that it distributes its taxable income to its shareholders. Annaly Capital Management, Inc. was incorporated in 1996 and is based in New York, New York.",
+    "website": "https://www.annaly.com"
   },
   "NOV": {
     "_ts": 1777384093.9748628,
@@ -2847,6 +2913,17 @@
     "sector": "Consumer Defensive",
     "summary": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home d\u00e9cor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, it sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. The company sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota.",
     "website": "https://corporate.target.com"
+  },
+  "TJX": {
+    "_ts": 1782309146.6517544,
+    "country": "United States",
+    "employees": 377000,
+    "industry": "Apparel Retail",
+    "marketCap": 182734667776,
+    "name": "The TJX Companies, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "The TJX Companies, Inc., together with its subsidiaries, operates as an off-price apparel and home fashions retailer worldwide. It operates through four segments: Marmaxx, HomeGoods, TJX Canada, and TJX International. The company provides family apparel comprising footwear; accessories, such as beauty and jewelry; home fashion products, including home basics, decorative accessories and giftware, as well as furniture, rugs, lighting, soft home, decorative accessories, tabletop, and cookware; pet and gourmet food; and other merchandise. It also offers home decor, furniture, and seasonal home merchandise. The company sells its products through stores and e-commerce sites. The TJX Companies, Inc. was incorporated in 1962 and is headquartered in Framingham, Massachusetts.",
+    "website": "https://www.tjx.com"
   },
   "TKR": {
     "_ts": 1776564492.3977573,
