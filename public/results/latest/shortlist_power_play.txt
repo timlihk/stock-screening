@@ -1,10 +1,10 @@
-ILMN|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 0/3 · Fund 3/5 · RSpct 83 · Health Care · Earn 26d · RS +67
-IVT|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 58 · Real Estate · Earn 24d · RS +7
-YETI|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 74 · Consumer Discretionary · Earn 31d · RS +36
-KGS|power_play 7 · +sepa_vcp · Entry 4 · Lead 8 · Tight 1/3 · RSpct 87 · Energy · Earn 30d · RS +91
-H|power_play 7 · +sepa_vcp · Entry 4 · Lead 6 · Tight 2/3 · RSpct 70 · Earn 31d · RS +25
-URI|power_play 6 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 69 · Industrials · Earn 20d · RS +24
-SN|power_play 6 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 69 · Consumer Discretionary · RS +23
-CNTA|power_play 6 · Entry 5 · Lead 10 · Tight 2/3 · RSpct 93 · Health Care · Earn 34d · RS +189
-MRX|power_play 6 · Entry 5 · Lead 10 · Tight 0/3 · RSpct 80 · Earn 35d · RS +52
-RBC|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 76 · Industrials · Earn 27d · RS +41
+DTM|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 1/3 · Fund 4/5 · RSpct 66 · Earn 25d · RS +21
+YETI|power_play 7 · Entry 4 · Lead 6 · Tight 1/3 · RSpct 76 · Consumer Discretionary · Earn 30d · RS +43
+TTMI|power_play 6 · Entry 5 · Lead 11 · Tight 1/3 · Fund 4/5 · RSpct 97 · Earn 24d · RS +417
+RSI|power_play 6 · +sepa_vcp · Entry 5 · Lead 10 · Tight 0/3 · Fund 4/5 · RSpct 86 · Consumer Discretionary · Earn 24d · RS +91
+ASML|power_play 6 · Entry 5 · Lead 9 · Tight 1/3 · RSpct 87 · Technology · Earn 14d · RS +101
+RBC|power_play 6 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 78 · Industrials · Earn 26d · RS +50
+IVT|power_play 6 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 60 · Real Estate · Earn 23d · RS +13
+COLB|power_play 6 · Entry 5 · Lead 7 · Tight 1/3 · RSpct 68 · Financials · Earn 25d · RS +23
+RVMD|power_play 6 · Entry 4 · Lead 12 · Tight 0/3 · RSpct 96 · Health Care · Earn 29d · RS +331
+SNEX|power_play 6 · Entry 4 · Lead 12 · Tight 2/3 · Fund 4/5 · RSpct 88 · Financials · Earn 28d · RS +113

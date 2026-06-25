@@ -538,6 +538,17 @@
     "summary": "Cardinal Health, Inc. operates as a healthcare services and products company in the United States and internationally. It operates in two segments: Pharmaceutical and Specialty Solutions, and Global Medical Products and Distribution. The company provides customized solutions for hospitals, healthcare systems, pharmacies, ambulatory surgery centers, clinical laboratories, physician offices, and patients in the home. It distributes branded and generic pharmaceutical, specialty pharmaceutical, and over-the-counter healthcare and consumer products. The company also provides services to pharmaceutical manufacturers and healthcare providers for specialty pharmaceutical products; pharmacy management services to hospitals; operates pharmacies, including pharmacies in community health centers; and repackages generic pharmaceuticals and over-the-counter healthcare products. In addition, it manufactures, sources, and distributes Cardinal Health branded medical, surgical, and laboratory products and devices that include exam and surgical gloves; needles, syringe, and sharps disposals; compression, incontinence, nutritional delivery, and wound care products; single-use surgical drapes, gowns, and apparel products; fluid suction and collection systems; urology products; operating room supply products; and electrode product lines. Further, the company distributes a range of national brand products, including medical, surgical, and laboratory products; provides supply chain services and solutions to hospitals, ambulatory surgery centers, clinical laboratories, and other healthcare providers; and assembles and sells sterile and non-sterile procedure kits. Additionally, it manufactures, prepares, and delivers radiopharmaceuticals; and optimizes direct shipments through integrated technology solutions. The company was incorporated in 1979 and is headquartered in Dublin, Ohio.",
     "website": "https://www.cardinalhealth.com"
   },
+  "CAKE": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 48000,
+    "industry": "Restaurants",
+    "marketCap": 3910237952,
+    "name": "The Cheesecake Factory Incorporated",
+    "sector": "Consumer Cyclical",
+    "summary": "The Cheesecake Factory Incorporated operates and licenses restaurants in the United States and Canada. It operates bakeries that produce cheesecakes and other baked products for its restaurants, international licensees, third-party bakery customers, external foodservice operators, retailers, and distributors. The company operates restaurants under the brands comprising The Cheesecake Factory, North Italia, Flower Child, and Fox Restaurant Concepts. The Cheesecake Factory Incorporated was founded in 1972 and is headquartered in Calabasas, California.",
+    "website": "https://www.thecheesecakefactory.com"
+  },
   "CAMT": {
     "_ts": 1776482612.3358293,
     "country": "Israel",
@@ -989,6 +1000,17 @@
     "summary": "Dover Corporation provides equipment and components, consumable supplies, aftermarket parts, software and digital solutions, and support services worldwide. The company's Engineered Products segment provides various equipment, component, software, solution, and services that are used in vehicle aftermarket, aerospace and defense, industrial winch and hoist, and fluid dispensing end-market. This segment offers software solutions and services used in light and heavy-duty vehicle lifts, wheel service equipment, vehicle diagnostics, and vehicle collision repair solutions; winches, hoists, bearings, drives, and electric monitoring system; and radio frequency and microwave filters and switches, and signal intelligence solutions, as well as soldering and fluid dispensing solutions. Its Clean Energy & Fueling segment offers component, equipment, and software and service solution enabling safe storage and transport of fuel, cryogenic gases, and hazardous fluids, as well as operation of retail fueling and vehicle wash establishment. The company's Imaging & Identification segment provides precision marking and coding, product traceability equipment, brand protection, and digital textile printing equipment and solution, as well as consumable, software, and service to packaged and consumer goods, pharmaceutical, industrial manufacturing, textile, and other end-market. Its Pumps & Process Solutions segment manufactures specialty pump, connector, flow meter, fluid connecting solution, plastics and polymer processing equipment, and engineered components for rotating and reciprocating machines. The company's Climate & Sustainability Technologies segment manufactures refrigeration system, refrigeration display case, commercial glass refrigerator and freezer door, and brazed plate heat exchanger for industrial heating and cooling, and residential climate control applications. Dover Corporation was incorporated in 1947 and is headquartered in Downers Grove, Illinois.",
     "website": "https://www.dovercorporation.com"
   },
+  "DTM": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 588,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 15184291840,
+    "name": "DT Midstream, Inc.",
+    "sector": "Energy",
+    "summary": "DT Midstream, Inc., together with its subsidiaries, provides integrated natural gas services in the United States. The company operates in two segments, Pipeline and Gathering. The Pipeline segment owns and operates interstate and intrastate natural gas pipelines, storage systems, and natural gas gathering lateral pipelines. This segment also engages in the transportation and storage of natural gas for intermediate and end-user customers. The Gathering segment owns and operates gas gathering systems. This segment is involved in the collection of natural gas for delivery to plants for treating, to gathering pipelines for further gathering, or to pipelines for transportation; and associated ancillary services, including compression, dehydration, gas treatment, water impoundment, water transportation, water disposal, and sand mining. It serves natural gas producers, local distribution companies, electric power generators, industrials, and national marketers. The company was incorporated in 2021 and is headquartered in Detroit, Michigan.",
+    "website": "https://www.dtmidstream.com"
+  },
   "DVA": {
     "_ts": 1780064162.2107728,
     "country": "United States",
@@ -1021,6 +1043,17 @@
     "sector": "Communication Services",
     "summary": "Electronic Arts Inc. develops, markets, publishes, and delivers games, content, and services for game consoles, PCs, and mobile phones worldwide. It develops and publishes games and services across various genres, such as sports, racing, first-person shooter, action, role-playing, and simulation; and live services offerings, including extra content and subscription offerings through its global football and American football franchises, such as EA SPORTS College Football and EA SPORTS Madden NFL, as well as based on its IP comprising The Sims, Apex Legends, and Battlefield. The company markets and sells its games and services through digital distribution and retail channels; and directly to mass market retailers, specialty stores, and distribution arrangements. Electronic Arts Inc. was incorporated in 1982 and is headquartered in Redwood City, California.",
     "website": "https://www.ea.com"
+  },
+  "EIX": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 13725,
+    "industry": "Utilities - Regulated Electric",
+    "marketCap": 28942276608,
+    "name": "Edison International",
+    "sector": "Utilities",
+    "summary": "Edison International, through its subsidiaries, engages in the generation and distribution of electric power. The company supplies and delivers through its electrical infrastructure to an approximately 50,000 square-mile area of southern, central, and coastal California. It serves residential, commercial, industrial, public authorities, agricultural, street lighting, and other sectors. The company's distribution network consists of approximately 13,000 circuit-miles of lines ranging from 55 kV to 500 kV and approximately 80 transmission substations; and approximately 38,000 circuit-miles of overhead lines, approximately 32,000 circuit-miles of underground lines, and approximately 730 distribution substations. Edison International was founded in 1886 and is based in Rosemead, California.",
+    "website": "https://www.edison.com"
   },
   "ENS": {
     "_ts": 1776564492.3977573,
@@ -1452,11 +1485,11 @@
     "website": "https://www.hycroftmining.com"
   },
   "IBKR": {
-    "_ts": 1777902308.7778423,
+    "_ts": 1782395736.0121927,
     "country": "United States",
-    "employees": 3182,
+    "employees": 3232,
     "industry": "Capital Markets",
-    "marketCap": 138123460608,
+    "marketCap": 158919065600,
     "name": "Interactive Brokers Group, Inc.",
     "sector": "Financial Services",
     "summary": "Interactive Brokers Group, Inc. operates as an automated electronic broker in the United States and internationally. The company engages in the execution, clearance, and settlement of trades in stocks, options, futures, foreign exchange instruments, bonds, precious metals, and cryptocurrencies; and the company provides custody, prime brokerage, securities, and margin lending services. It also offers custody and service accounts for hedge and mutual funds, ETFs, registered investment advisors, proprietary trading groups, introducing brokers, and individual investors. In addition, the company provides trading platforms, including IBKR Trader Workstation, IBKR Desktop, IBKR Mobile, and IBKR Client Portal platform, as well as IBKR GlobalTrader mobile application, and IBKR APIs, builds custom trading applications and automates any part of the trading process. Further, it offers IBKR Pro, IBKR Lite, IBKR Universal Account, insured bank deposit sweep program, investors' marketplace, mutual fund marketplace, bond marketplace, forecast and event contracts, fractional trading, no transaction fee program for exchange-traded funds, overnight trading hours, and karta visa infinite charge card. It serves institutional and individual customers through electronic exchanges and market centers. Interactive Brokers Group, Inc. was founded in 1977 and is headquartered in Greenwich, Connecticut.",
@@ -1472,6 +1505,17 @@
     "sector": "Industrials",
     "summary": "IES Holdings, Inc. designs and installs integrated electrical and technology systems and provides infrastructure products and services in the United States. The Communications segment designs, builds, and maintains communications infrastructure within data centers for co-location and managed hosting customers; corporate, educational, financial, hospitality, and healthcare buildings; e-commerce distribution centers; and high-tech manufacturing facilities. It also designs and installs audio/visual, telephone, fire, and wireless access and intrusion alarm systems; and engages in designing/building, servicing, and maintaining data network systems. The Residential segment offers electrical installations to single-family housing and multi-family apartments; heating, ventilation and air conditioning and plumbing installation services; and cable television installations to residential and light commercial applications, as well as installs residential solar power for new construction and existing residences. The Infrastructure Solutions segment maintains and repairs alternating and direct current electric motors and generators, and power generating and distribution equipment; manufactures custom-engineered metal enclosed bus duct solutions used in power distribution; manufactures custom commercial and industrial generator enclosures; manufactures, re-manufactures, and repairs industrial lifting magnets; and maintains and repairs railroad main and auxiliary generators, main alternators, and traction motors. The Commercial & Industrial segment offers electrical and mechanical design, construction, and maintenance services for office buildings, manufacturing facilities, data centers, wind farms, solar facilities, municipal infrastructures, and health care facilities. The company was formerly known as Integrated Electrical Services, Inc. and changed its name to IES Holdings, Inc. in May 2016. IES Holdings, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas.",
     "website": "https://www.ies-co.com"
+  },
+  "IEX": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 8700,
+    "industry": "Specialty Industrial Machinery",
+    "marketCap": 16805118976,
+    "name": "IDEX Corporation",
+    "sector": "Industrials",
+    "summary": "IDEX Corporation, together with its subsidiaries, provides applied solutions in the United States, North America, Europe, Asia, and internationally. It operates through three segments: Health & Science Technologies (HST), Fluid & Metering Technologies (FMT) and Fire & Safety/Diversified Products (FSDP). The HST segment designs, produces, and distributes a range of precision fluidics, positive displacement pumps, powder and liquid processing technologies, drying systems, micro-precision components, pneumatic components and sealing solutions, high performance molded and extruded sealing components, and custom mechanical and shaft seals. This segment also offers engineered hygienic mixers and valves, biocompatible medical devices and implantable products, air compressors and blowers, optical components and coatings, ultra-precision diamond tools, and laboratory and commercial equipment, as well as precision photonic solutions, technical ceramics, hermetic sealing products, porous material structures, and flow control solutions. The FMT segment designs, produces, and distributes positive displacement pumps, valves, small volume provers, flow meters, injectors, other fluid-handling pump modules, and systems; and provides flow monitoring and other services. The FSDP segment designs, produces, and distributes firefighting pumps, valves and controls, and rescue tools; lifting bags and other components and systems; engineered stainless steel banding and clamping devices; and precision equipment for dispensing, metering, and mixing colorants and paints. The company was incorporated in 1987 and is headquartered in Northbrook, Illinois.",
+    "website": "https://www.idexcorp.com"
   },
   "ILMN": {
     "_ts": 1781273813.210227,
@@ -1615,6 +1659,17 @@
     "sector": "Industrials",
     "summary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the United States, Europe, the Asia Pacific, and internationally. It operates through four segments: Building Solutions North America, Building Solutions EMEA/LA, Building Solutions Asia Pacific, and Global Products. The company designs, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and fire protection and security products. It also provides energy efficiency solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven smart building solutions. In addition, the company offers access control software and software services. It sells its products and services to commercial, institutional, industrial, data center, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
     "website": "https://www.johnsoncontrols.com"
+  },
+  "JNJ": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 138200,
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 593691934720,
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "summary": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey.",
+    "website": "https://www.jnj.com"
   },
   "KALV": {
     "_ts": 1780064260.6332018,
@@ -1802,6 +1857,17 @@
     "sector": "Healthcare",
     "summary": "LivaNova PLC, a medical technology company, designs, develops, manufactures, markets, and sells products, therapies, and services in the United States, the United Kingdom, Germany, France, Italy, the Netherlands, Spain, Belgium, Poland, Sweden, Switzerland, Austria, Norway, Portugal, Finland, Denmark, and internationally. The company operates in two segments, Cardiopulmonary and Neuromodulation. The Cardiopulmonary segment provides cardiopulmonary products, including heart-lung machines, oxygenators, autotransfusion systems, perfusion tubing systems, cannulae, and other related accessories, as well as services related products. The Neuromodulation segment offers VNS Therapy System, an implantable pulse generator and connective lead that stimulates the vagus nerve, surgical equipment to assist with the implant procedure, and equipment and instruction manuals; and devices that deliver neuromodulation therapy for treating drug-resistant epilepsy and difficult-to-treat depression. This segment also includes the development and clinical testing of LivaNova's aura6000 system for treating obstructive sleep apnea. It serves perfusionists, neurologists, neurosurgeons, and other healthcare professionals, hospitals, and other medical institutions and healthcare providers. The company sells its medical devices through a combination of direct sales representatives, agents, and independent distributors. LivaNova PLC was incorporated in 2015 and is headquartered in London, the United Kingdom.",
     "website": "https://www.livanova.com"
+  },
+  "LNTH": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 1193,
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "marketCap": 6948772352,
+    "name": "Lantheus Holdings, Inc.",
+    "sector": "Healthcare",
+    "summary": "Lantheus Holdings, Inc. develops, manufactures, and commercializes diagnostic and therapeutic products that assist clinicians in diagnosis and treatment of heart, cancer, and other diseases worldwide. The company offers DEFINITY, an injectable ultrasound enhancing agent used in echocardiography exams; TechneLite, a technetium generator for nuclear medicine procedures; Xenon-133, a radiopharmaceutical gas to assess pulmonary function; Neurolite, an injectable imaging agent to identify the area within the brain where blood flow has been blocked or reduced due to stroke; Cardiolite, an injectable Tc-99m-labeled imaging agent to assess blood flow to the muscle of the heart; and PYLARIFY, an F 18-labelled PSMA-targeted PET imaging agent used for imaging of PSMA positive-lesions in men with prostate cancer. It also provides Automated Bone Scan Index that calculates the disease burden of prostate cancer by detecting and classifying bone scan tracer uptakes as metastatic or benign lesions using an artificial neural network; RELISTOR for opioid-induced constipation; and aPROMISE, an artificial intelligence medical device software; PYLARIFY AI, an medical device software to perform quantitative assessment of PSMA PET/CT images in prostate cancer; and flurpiridaz used to assess blood flow to the heart. In addition, it develops PNT2002, a radiopharmaceutical therapy to treat mCRPC; PNT2003, an SSTR therapy to patients with SSTR-positive neuroendocrine tumors; MK-6240, a F 18-labeled PET imaging agent for Tau tangles in Alzheimer's disease; LNTH-2401, a novel radiodiagnostic targeting the gastrin-releasing peptide receptor; LNTH-2402; LNTH-2403; LNTH-2404; LNTH-250; LNTH-2515; and LNTH-1363S, an fibroblast activation protein, alpha, copper-64 labeled PET imaging agent. It has collaboration agreements with GE Healthcare; Curium Pharma; POINT; Regeneron; and Ratio Therapeutics LLC. The company was founded in 1956 and is based in Bedford, Massachusetts.",
+    "website": "https://www.lantheus.com"
   },
   "LRCX": {
     "_ts": 1779373534.2598412,
@@ -2286,6 +2352,17 @@
     "sector": "Basic Materials",
     "summary": "Pan American Silver Corp. engages in the exploration, mine development, extraction, processing, refining, and reclamation of mines in Chile, Peru, Brazil, Mexico, Canada, Argentina, Bolivia, and Guatemala. The Silver segment includes the La Colorada, Juanicipio, Cerro Moro, Huaron, and San Vicente mines. The Gold segment comprises the Jacobina, El Pe\u00f1on, Timmins, Shahuindo, Minera Florida, and Dolores mines. It explores silver, gold, zinc, lead, and copper deposits. The company was formerly known as Pan American Minerals Corp. and changed its name to Pan American Silver Corp. in April 1995. Pan American Silver Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
     "website": "https://www.panamericansilver.com"
+  },
+  "PANW": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 21491,
+    "industry": "Software - Infrastructure",
+    "marketCap": 234222862336,
+    "name": "Palo Alto Networks, Inc.",
+    "sector": "Technology",
+    "summary": "Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service edge solution; Strata Cloud Manager, a network security management solution; and Prisma AIRS to protect customers' entire AI ecosystem. It provides a comprehensive cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments. It provides security operation solutions through the Cortex platform that includes Cortex XSIAM, an AI-driven security operations platform; Cortex XDR to prevent, detect, and respond to cybersecurity attacks; and Cortex XSOAR for security orchestration, automation, and response; and Cortex Xpanse for attack surface management, as well as offers threat intelligence and advisory services under the Unit 42 name. It provides subscription services covering the areas of threat prevention, malware and persistent threat, URL filtering, laptop and mobile device protection, DNS security, Internet of Things security, SaaS security API, and SaaS security inline; and threat intelligence, data loss prevention, services to resolve network disruptions, and sensitive data protection. It offers professional services, including architecture design and planning, implementation, configuration, and firewall migration; education services, such as certifications, as well as online and in-classroom training; and support services. It sells its products and services through its channel partners, as well as directly to enterprises, service providers, and government entities operating in various industries, including education, energy, financial services, government entities, healthcare, Internet and media, manufacturing, public sector, and telecommunications. The company was incorporated in 2005 and is headquartered in Santa Clara, California.",
+    "website": "https://www.paloaltonetworks.com"
   },
   "PBA": {
     "_ts": 1780497678.3155842,
@@ -3002,6 +3079,17 @@
     "summary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Brazil, India, and internationally. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.",
     "website": "https://totalenergies.com"
   },
+  "TTMI": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 18200,
+    "industry": "Electronic Components",
+    "marketCap": 21306914816,
+    "name": "TTM Technologies, Inc.",
+    "sector": "Technology",
+    "summary": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally. It operates in three segments, A&D, Commercial, and RF&S Components. The company offers various engineered systems and RF and microwave assemblies; PCBs and IC substrates, custom assemblies and integrated systems, passive and advanced ceramic RF components, hi-reliability multi-chip modules, and beamforming and switching networks; and design-for-manufacturability, PCB layout design, simulation and testing, quick turnaround (QTA) production, and specialized RF assembly and testing. It also provides multi-mode surveillance and weather avoidance radar systems for fixed- and rotary-wing aircraft, Unmanned Aerial Vehicles, and shipboard platforms; AN/APS-153 multi-mode radar; communications suite within the MH-60R/S multi-mission helicopters; and supports maritime surveillance, counter UAS, and advanced air mobility end markets under MOSAIC brand. In addition, the company offers identification friend; monopulse secondary surveillance radars, and air traffic control systems; wired and wireless communication systems; designs, produces, and tests specialized multi-chip RF modules and components; and manufactures off-the-shelf surface mount microwave components. Further, it provides thick-film ceramic substrates, custom designed application specific integrated circuits, and conventional PCBs; custom electronic assemblies; QTA services; and thermal management. The company serves original equipment manufacturers, electronic manufacturing services providers, original design manufacturers, distributors, and government agencies; and aerospace and defense, data center computing, automotive, medical, industrial, instrumentation, and networking markets. TTM Technologies, Inc. was incorporated in 1978 and is headquartered in Santa Ana, California.",
+    "website": "https://www.ttm.com"
+  },
   "TWST": {
     "_ts": 1781273813.210227,
     "country": "United States",
@@ -3155,6 +3243,17 @@
     "sector": "Consumer Cyclical",
     "summary": "Viking Holdings Ltd focused on providing passenger cruises in North America, the United Kingdom, and internationally. It operates through the River and Ocean segments. The Group defines its products based on the type of cruise offering and language of the cruise service. The River segment provides river cruises outside the United States for English-speaking passengers. The Ocean segment provides ocean cruises for English-speaking passengers. The company provides expedition cruises for English-speaking passengers, Mississippi River cruises for English-speaking passengers and Viking Asia, which includes cruises in languages other than English provided. As of December 31, 2025, Viking Holdings Ltd operated a fleet of 103 ships, including 89 river vessels comprising 59 Longships, 12 smaller classes based on the Longship design,15 other river vessels, and three river vessel charters, including the Viking Saigon, Viking Mississippi, and the Viking Tonle; 12 ocean ships and 2 expedition ships. The company was formerly known as MISA Investments Limited and changed its name to Viking Holdings Ltd in November 2016. The company was founded in 1997 and is based in Pembroke, Bermuda.",
     "website": "https://www.viking.com"
+  },
+  "VIRT": {
+    "_ts": 1782395736.0121927,
+    "country": "United States",
+    "employees": 1027,
+    "industry": "Capital Markets",
+    "marketCap": 13542234112,
+    "name": "Virtu Financial, Inc.",
+    "sector": "Financial Services",
+    "summary": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally. It operates in two segments, Market Making and Execution Services. The company is involved in buying and selling securities to broker dealers, banks and institutions; trading direct to clients, exchanges, alternative trading systems, and other market centers; cash trading business; and pre- and post-trade services, data products, and compliance tools. It also provides agency execution services and trading venues for transparent trading in global equities, ETFs, fixed income, currencies, and commodities to institutions, banks, and broker dealers; agency-based and execution-only trading; workflow technology; trading analytics; foreign exchange, futures, and cryptocurrency products. The company was founded in 2008 and is headquartered in New York, New York.",
+    "website": "https://www.virtu.com"
   },
   "VISN": {
     "_ts": 1781273869.3039892,
