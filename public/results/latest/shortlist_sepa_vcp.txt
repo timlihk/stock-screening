@@ -1,10 +1,10 @@
-EIX|sepa_vcp 8 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · RSpct 73 · Utilities · Earn 23d · RS +36
-RL|sepa_vcp 8 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 70 · Consumer Discretionary · Earn 28d · RS +29
-KRG|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 61 · Real Estate · Earn 27d · RS +14
-KNTK|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 1/3 · RSpct 49 · Energy · Earn 27d · RS +0
-PEB|sepa_vcp 7 · Entry 5 · Lead 10 · Tight 2/3 · Fund 1/5 · RSpct 84 · Earn 22d · RS +74
-MO|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 1/3 · RSpct 60 · Earn 23d · RS +13
-TNL|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 72 · Earn 17d · RS +34
-HR|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 62 · Earn 23d · RS +16
-RSI|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 1/3 · Fund 4/5 · RSpct 87 · Consumer Discretionary · Earn 22d · RS +92
-NUVL|sepa_vcp 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 72 · Health Care · Earn 28d · RS +34
+GL|sepa_vcp 8 · Entry 4 · Lead 7 · Tight 2/3 · RSpct 69 · Earn 15d · RS +24
+ABCB|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 65 · Earn 18d · RS +16
+IRDM|sepa_vcp 7 · +power_play · Entry 5 · Lead 11 · Tight 0/3 · Fund 1/5 · RSpct 82 · Communication Services · Earn 21d · RS +62
+IMVT|sepa_vcp 7 · Entry 5 · Lead 10 · Tight 2/3 · RSpct 89 · Earn 28d · RS +119
+LIVN|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 81 · Health Care · Earn 25d · RS +59
+HXL|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 80 · Earn 16d · RS +53
+CAKE|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 56 · Consumer Discretionary · Earn 19d · RS +6
+GEO|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 51 · Earn 25d · RS +0
+BTSG|sepa_vcp 7 · Entry 4 · Lead 10 · Tight 2/3 · RSpct 93 · Health Care · Earn 22d · RS +188
+XMTR|sepa_vcp 7 · Entry 4 · Lead 10 · Tight 0/3 · Fund 5/5 · RSpct 92 · Earn 24d · RS +175
