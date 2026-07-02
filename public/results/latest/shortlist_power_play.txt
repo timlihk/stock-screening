@@ -1,10 +1,10 @@
-GTX|power_play 8 · Entry 5 · Lead 10 · Tight 2/3 · RSpct 93 · Earn 16d · RS +207
-KN|power_play 8 · Entry 4 · Lead 10 · Tight 1/3 · RSpct 88 · Earn 16d · RS +110
-COLB|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 65 · Financials · Earn 16d · RS +17
-ABCB|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 65 · Earn 18d · RS +16
-IVT|power_play 7 · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 62 · Real Estate · Earn 23d · RS +12
-AM|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 60 · Energy · Earn 20d · RS +10
-TIGO|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 1/3 · RSpct 91 · Earn 26d · RS +143
-OUT|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 86 · Earn 24d · RS +86
-HXL|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 80 · Earn 16d · RS +53
-VLY|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 77 · Earn 21d · RS +45
+TIGO|power_play 7 · +sepa_vcp · Entry 6 · Lead 11 · Tight 0/3 · RSpct 92 · Communication Services · Earn 25d · RS +149
+MAC|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 76 · Real Estate · Earn 27d · RS +39
+VLY|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 78 · Financials · Earn 20d · RS +43
+IDA|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 64 · Utilities · Earn 20d · RS +14
+KGS|power_play 7 · Entry 5 · Lead 9 · Tight 2/3 · RSpct 88 · Energy · Earn 24d · RS +100
+MPC|power_play 7 · +sepa_vcp · Entry 5 · Lead 9 · Tight 1/3 · Fund 3/5 · RSpct 74 · Energy · Earn 23d · RS +34
+IVT|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 61 · Real Estate · Earn 22d · RS +11
+FLG|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 66 · Earn 16d · RS +16
+YETI|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 72 · Consumer Discretionary · Earn 25d · RS +27
+PBI|power_play 7 · Entry 4 · Lead 8 · Tight 2/3 · Fund 2/5 · RSpct 76 · Industrials · Earn 25d · RS +40

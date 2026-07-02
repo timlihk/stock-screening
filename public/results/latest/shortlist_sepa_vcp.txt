@@ -1,10 +1,10 @@
-GL|sepa_vcp 8 · Entry 4 · Lead 7 · Tight 2/3 · RSpct 69 · Earn 15d · RS +24
-ABCB|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 65 · Earn 18d · RS +16
-IRDM|sepa_vcp 7 · +power_play · Entry 5 · Lead 11 · Tight 0/3 · Fund 1/5 · RSpct 82 · Communication Services · Earn 21d · RS +62
-IMVT|sepa_vcp 7 · Entry 5 · Lead 10 · Tight 2/3 · RSpct 89 · Earn 28d · RS +119
-LIVN|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 81 · Health Care · Earn 25d · RS +59
-HXL|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 80 · Earn 16d · RS +53
-CAKE|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 56 · Consumer Discretionary · Earn 19d · RS +6
-GEO|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 51 · Earn 25d · RS +0
-BTSG|sepa_vcp 7 · Entry 4 · Lead 10 · Tight 2/3 · RSpct 93 · Health Care · Earn 22d · RS +188
-XMTR|sepa_vcp 7 · Entry 4 · Lead 10 · Tight 0/3 · Fund 5/5 · RSpct 92 · Earn 24d · RS +175
+YOU|sepa_vcp 7 · Entry 7 · Lead 8 · Tight 0/3 · Fund 4/5 · RSpct 86 · Technology · Earn 24d · RS +79
+TIGO|sepa_vcp 7 · +power_play · Entry 6 · Lead 11 · Tight 0/3 · RSpct 92 · Communication Services · Earn 25d · RS +149
+LIVN|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 82 · Health Care · Earn 24d · RS +58
+CHEF|sepa_vcp 7 · Entry 4 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 72 · Consumer Staples · Earn 19d · RS +29
+NUVL|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 3/3 · Fund 1/5 · RSpct 73 · Health Care · Earn 25d · RS +32
+TTC|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 62 · Earn 45d · RS +11
+MAC|sepa_vcp 6 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 76 · Real Estate · Earn 27d · RS +39
+VLY|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 78 · Financials · Earn 20d · RS +43
+IDA|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 64 · Utilities · Earn 20d · RS +14
+IRDM|sepa_vcp 6 · +power_play · Entry 5 · Lead 11 · Tight 0/3 · Fund 1/5 · RSpct 83 · Communication Services · Earn 20d · RS +61
