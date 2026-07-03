@@ -1,10 +1,10 @@
-TIGO|power_play 7 · +sepa_vcp · Entry 6 · Lead 11 · Tight 0/3 · RSpct 92 · Communication Services · Earn 25d · RS +149
-MAC|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 76 · Real Estate · Earn 27d · RS +39
-VLY|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 78 · Financials · Earn 20d · RS +43
-IDA|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 64 · Utilities · Earn 20d · RS +14
-KGS|power_play 7 · Entry 5 · Lead 9 · Tight 2/3 · RSpct 88 · Energy · Earn 24d · RS +100
-MPC|power_play 7 · +sepa_vcp · Entry 5 · Lead 9 · Tight 1/3 · Fund 3/5 · RSpct 74 · Energy · Earn 23d · RS +34
-IVT|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 61 · Real Estate · Earn 22d · RS +11
-FLG|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 66 · Earn 16d · RS +16
-YETI|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 72 · Consumer Discretionary · Earn 25d · RS +27
-PBI|power_play 7 · Entry 4 · Lead 8 · Tight 2/3 · Fund 2/5 · RSpct 76 · Industrials · Earn 25d · RS +40
+UNF|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 76 · Industrials · RS +40
+AEP|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 67 · Earn 19d · RS +17
+EIX|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 73 · Utilities · RS +31
+VLY|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 77 · Financials · Earn 19d · RS +41
+IVT|power_play 7 · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 64 · Real Estate · Earn 21d · RS +13
+PECO|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 54 · Real Estate · Earn 14d · RS +3
+YETI|power_play 7 · Entry 6 · Lead 6 · Tight 2/3 · RSpct 72 · Consumer Discretionary · Earn 24d · RS +28
+EVRG|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 61 · RS +11
+ABCB|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 65 · Financials · Earn 16d · RS +14
+MO|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 61 · Consumer Staples · RS +10

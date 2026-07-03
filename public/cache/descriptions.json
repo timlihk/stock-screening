@@ -1198,6 +1198,17 @@
     "summary": "Evercore Inc., together with its subsidiaries, operates as an independent investment banking firm in the Americas, Europe, Middle East, Africa, and Asia-Pacific. The company operates through two segments, Investment Banking & Equities, and Investment Management. The Investment Banking & Equities segment offers strategic advisory services, such as mergers, and acquisitions, strategic, defense, and shareholder advisory, special committee assignments, and real estate strategic advisory; private capital advisory and fundraising, market risk management and hedging, private capital markets and debt advisory, liability management and restructuring, and equity capital markets execution and advisory services; and research, sales, and trading professionals services on a content-led platform to its institutional investor clients. The Investment Management segment provides wealth management services to high-net-worth individuals, foundations, and endowments. The company was formerly known as Evercore Partners Inc. and changed its name to Evercore Inc. in August 2017. Evercore Inc. was founded in 1995 and is headquartered in New York, New York.",
     "website": "https://www.evercore.com"
   },
+  "EVRG": {
+    "_ts": 1783091276.31049,
+    "country": "United States",
+    "employees": 4691,
+    "industry": "Utilities - Regulated Electric",
+    "marketCap": 20315111424,
+    "name": "Evergy, Inc.",
+    "sector": "Utilities",
+    "summary": "Evergy, Inc., together with its subsidiaries, engages in the generation, transmission, distribution, and sale of electricity in the United States. The company generates electricity through coal, landfill gas, uranium, and natural gas and oil sources, as well as solar, wind, and other renewable sources. It serves residences, commercial firms, industrials, municipalities, and other electric utilities. The company was incorporated in 2017 and is headquartered in Kansas City, Missouri.",
+    "website": "https://investors.evergy.com"
+  },
   "EWBC": {
     "_ts": 1777297685.5526693,
     "country": "United States",
@@ -1595,11 +1606,11 @@
     "website": "https://www.hyliion.com"
   },
   "HYMC": {
-    "_ts": 1779115342.9882152,
+    "_ts": 1783091329.7449477,
     "country": "United States",
     "employees": 51,
     "industry": "Gold",
-    "marketCap": 3202645760,
+    "marketCap": 2157937408,
     "name": "Hycroft Mining Holding Corporation",
     "sector": "Basic Materials",
     "summary": "Hycroft Mining Holding Corporation, together with its subsidiaries, operates as a gold and silver exploration and development company in the United States. Its property, Hycroft Mine, consists of 25 patented claims covering approximately 1,855 acres and 3,249 unpatented lode and placer claims spanning 62,298 acres located 54 miles northwest of Winnemucca in Nevada. The company is based in Winnemucca, Nevada.",
@@ -1956,6 +1967,17 @@
     "sector": "Healthcare",
     "summary": "Kymera Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on discovering and developing small molecule therapeutics that selectively degrade disease-causing proteins by harnessing the body's own natural protein degradation system. It engages in developing KT-621, an oral STAT6 degrader in Phase 2b clinical trials for moderate to severe atopic dermatitis, asthma, COPD, EoE, CRSwNP, CSU, PN, BP, and others; KT-579, an oral IRF5 degrader in Phase 1 trials for autoimmune diseases such as systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, SSc, DM, and others; KT-485/SAR447971, IRAK4 program, which is in Phase II clinical trial for the treatment of immunology-inflammation diseases, including hidradenitis suppurativa and atopic dermatitis; and cyclin-dependent kinase 2 (CDK2) with broad oncology treatment potential, including in breast cancer and other solid tumors. The company has a strategic alliance with Sanofi S.A. for the development of drug candidates targeting IRAK4 outside the oncology and immuno-oncology fields. Kymera Therapeutics, Inc. was incorporated in 2015 and is headquartered in Watertown, Massachusetts.",
     "website": "https://www.kymeratx.com"
+  },
+  "LAMR": {
+    "_ts": 1783091276.31049,
+    "country": "United States",
+    "employees": 3500,
+    "industry": "REIT - Specialty",
+    "marketCap": 15988417536,
+    "name": "Lamar Advertising Company",
+    "sector": "Real Estate",
+    "summary": "Lamar Advertising Company is one of the largest outdoor advertising companies in North America, with over 362,000 displays across the United States and Canada. Lamar offers advertisers a variety of billboards, interstate logo, transit and airport advertising formats, helping both local businesses and national brands reach broad audiences every day. In addition to its more traditional out-of-home inventory, Lamar is proud to offer its customers the largest network of digital billboards in the United States with over 5,400 displays. Lamar Advertising Company was founded and incorporated in 1902 in Delaware and is based in Baton Rouge, United States.",
+    "website": "https://www.lamar.com"
   },
   "LEA": {
     "_ts": 1780410971.7163908,
@@ -2429,6 +2451,17 @@
     "sector": "Technology",
     "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
     "website": "https://www.nvidia.com"
+  },
+  "NVS": {
+    "_ts": 1783091276.31049,
+    "country": "Switzerland",
+    "employees": 75267,
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 305103896576,
+    "name": "Novartis AG",
+    "sector": "Healthcare",
+    "summary": "Novartis AG researches, develops, manufactures, distributes, markets, and sells pharmaceutical medicines in Switzerland and internationally. The company offers Entresto, an angiotensin receptorneprilysin inhibitor to treat symptomatic chronic heart failure with reduced ejection fraction (HFrEF); Cosentyx to treat plaque psoriasis, pso riatic arthritis, ankylosing spondylitis, and nonradiographic axial spondy loarthritis; Kisqali, a selective oral cyclin dependent inhibitor of kinases 4 and 6 (CDK4/6); Promacta/Revolade to treat immune thrombocytopenia (ITP), thrombocytopenia, and patients with severe aplastic anemia (SAA); Tafinlar+Mekinist, an oral combination therapy to treat patients with certain types of cancers; and Jakavi for the treatment of myelofibrosis, polycythemia vera, and acute or chronic graftversushost disease (GvHD). It also provides Tasigna to treat philadelphia chromosomepositive chronic myeloid leukemia in the chronic and/or accelerated phase; Xolair for the treatment of allergic asthma and nasal polyps or severe chronic rhinosi nusitis with nasal polyps; Ilaris to treat fever syndromes, Still's disease, and acute gouty arthritis; Pluvicto to treat prostatespecific membrane anti genpositive metastatic castrationresistant prostate cancer; Sandostatin SC and Sandostatin LAR to treat acromegaly carcinoid tumors and other types of functional gastro intestinal and pancreatic neuroendocrine tumors; Zolgensma for the treatment of genetic root cause of spinal muscular atrophy; Lucentis; Leqvio to reduce LDL cholesterol; Lutathera; Scemblix; and Fabhalta. The company focuses on therapeutic areas, such as cardiovascular, renal and metabolic, immunology, neuroscience, oncology, and hematology. It has a license and collaboration agreement with Alnylam Pharmaceuticals, Inc. to develop, manufacture, and commercialize Leqvio (inclisiran), a therapy to reduce LDL cholesterol. Novartis AG was incorporated in 1996 and is headquartered in Basel, Switzerland.",
+    "website": "https://www.novartis.com"
   },
   "NVTS": {
     "_ts": 1779285993.7311447,
@@ -2980,6 +3013,17 @@
     "summary": "SLB N.V. engages in the provision of technology for the energy industry worldwide. The company operates through four divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems. The company provides field development and hydrocarbon production, carbon management, and integration of adjacent energy systems; reservoir interpretation and data processing services for exploration data; and well construction and production improvement services and products. It also offers subsurface geology and fluids evaluation information; stimulation services to restore or enhance well productivity through hydraulic fracturing, matrix stimulation, and water treatment; and intervention services to oil and gas operators. In addition, the company offers mud logging, directional drilling, measurement-while-drilling, and logging-while-drilling services, as well as engineering support services; supplies drilling fluid systems; designs, manufactures, and markets roller cone and fixed cutter drill bits; bottom-hole-assembly and borehole enlargement technologies; well planning, well drilling, engineering, supervision, logistics, procurement, and contracting of third parties, as well as drilling rig management solutions; and drilling equipment and services, as well as land drilling rigs and related services. Further, it provides artificial lift; supplies packers, safety valves, sand control technology, and various intelligent systems; midstream production systems; valves, chokes, actuators, and surface trees; and OneSubsea, an integrated solutions, products, systems, and services, including wellheads, subsea trees, manifolds and flowline connectors, control systems, connectors, and services. SLB N.V. was formerly known as Schlumberger Limited and change its name to SLB N.V. in October 2025. The company was founded in 1926 and is based in Houston, Texas.",
     "website": "https://www.slb.com"
   },
+  "SLS": {
+    "_ts": 1783091329.7449477,
+    "country": "United States",
+    "employees": 13,
+    "industry": "Biotechnology",
+    "marketCap": 2945555968,
+    "name": "SELLAS Life Sciences Group, Inc.",
+    "sector": "Healthcare",
+    "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
+    "website": "https://sellaslifesciences.com"
+  },
   "SN": {
     "_ts": 1782140712.5149386,
     "country": "United States",
@@ -3265,6 +3309,17 @@
     "sector": "Consumer Defensive",
     "summary": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home d\u00e9cor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, it sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. The company sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota.",
     "website": "https://corporate.target.com"
+  },
+  "TGTX": {
+    "_ts": 1783091276.31049,
+    "country": "United States",
+    "employees": 399,
+    "industry": "Biotechnology",
+    "marketCap": 8160886272,
+    "name": "TG Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "TG Therapeutics, Inc., a commercial stage biopharmaceutical company, focuses on the acquisition, development, and commercialization of novel treatments for B-cell mediated diseases in the United States and internationally. The company provides BRIUMVI, an anti-CD20 monoclonal antibody for the treatment of adult patients with relapsing forms of multiple sclerosis (RMS), including clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease in adults. The company's development pipeline comprises Ublituximab IV, glycoengineered anti-CD20 mAb for the treatment of relapsing MS; TG-1701 is an orally available and covalently bound Bruton's tyrosine kinase (BTK) inhibitor that exhibits selectivity to BTK in vitro kinase screening; and TG-1801, a bispecific CD47 and CD19 antibody. Its research pipeline includes various investigational medicines. The company has license agreements with LFB Biotechnologies S.A.S; GTC Biotherapeutics; LFB/GTC LLC; Ildong Pharmaceutical Co. Ltd.; and Jiangsu Hengrui Medicine Co. The company was incorporated in 1993 and is based in Morrisville, North Carolina.",
+    "website": "https://www.tgtherapeutics.com"
   },
   "TIGO": {
     "_ts": 1782914319.468015,
