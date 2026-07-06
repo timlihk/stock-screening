@@ -120,6 +120,17 @@
     "summary": "Advanced Energy Industries, Inc. provides precision power conversion, measurement, and control solutions in the United States, Asia, Europe, and internationally. The company's plasma power products offer solutions to enable innovation for semiconductor and thin film plasma processes, such as dry etch and deposition. It also provides high and low voltage power products used in a range of applications, such as semiconductor equipment, industrial production, medical and life science equipment, data centers computing, networking, and telecommunications. In addition, the company supplies sensing, controls, and instrumentation products for advanced measurement and calibration of power and temperature. Further, it provides calibration, conversions, upgrades, and refurbishments and used equipment to companies, as well as repair and maintenance services. The company offers its products through direct sales force, direct and indirect sales channels, and distributors, as well as provides warranty and non-warranty repair services. Advanced Energy Industries, Inc. was incorporated in 1981 and is headquartered in Denver, Colorado.",
     "website": "https://www.advancedenergy.com"
   },
+  "AEP": {
+    "_ts": 1783355186.4266393,
+    "country": "United States",
+    "employees": 17581,
+    "industry": "Utilities - Regulated Electric",
+    "marketCap": 73715343360,
+    "name": "American Electric Power Company, Inc.",
+    "sector": "Utilities",
+    "summary": "American Electric Power Company, Inc., an electric public utility holding company, engages in the generation, transmission, and distribution of electricity for sale to retail and wholesale customers in the United States. It operates through Vertically Integrated Utilities, Transmission and Distribution Utilities, AEP Transmission Holdco, and Generation & Marketing segments. The company generates electricity using coal and lignite, nuclear, natural gas, renewable, hydro, solar, wind, and other energy sources; owns, operates, maintains, and invests in transmission infrastructure; and engages in the retail supply, and wholesale energy trading and marketing businesses. It operates approximately 252,000 circuit miles of distribution lines; 38,000 circuit miles of transmission lines; and 25,000 MWs of regulated owned generating capacity. American Electric Power Company, Inc. was incorporated in 1906 and is headquartered in Columbus, Ohio.",
+    "website": "https://www.aep.com"
+  },
   "AGI": {
     "_ts": 1776482612.3358293,
     "country": "Canada",
@@ -251,6 +262,17 @@
     "sector": "Technology",
     "summary": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Communications Solutions, Harsh Environment Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including high speed, radio frequency, power, fiber optic and other interconnect products; busbars and power distribution systems; power interconnect products; and other products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; and other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, commercial aerospace, communications networks, defense, industrial, information technology and data communications, mobile devices markets. Additionally, the company provides telecommunication and IT networking solutions. The company was founded in 1932 and is headquartered in Wallingford, Connecticut.",
     "website": "https://www.amphenol.com"
+  },
+  "ARMK": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 278390,
+    "industry": "Specialty Business Services",
+    "marketCap": 14683327488,
+    "name": "Aramark",
+    "sector": "Industrials",
+    "summary": "Aramark provides food and facilities services to education, healthcare, business and industry, sports, leisure, and corrections clients in the United States and internationally. The company operates in two segments, Food and Support Services United States, and Food and Support Services International. It offers food-related managed services, including dining, catering, food service management, and convenience-oriented retail services; non-clinical food and food-related support services, such as patient food and nutrition, retail food, environmental services, and procurement services; and plant operations and maintenance, custodial/housekeeping, energy management, grounds keeping, and capital project management services. The company also provides on-site restaurants, catering, convenience stores, and executive dining services; beverage and vending services; and facility management services comprising landscaping, transportation, capital program management, payment services, and other facility consulting services relating to building operations. In addition, it offers concessions, banquet, and catering services; retail services and merchandise sale, recreational, and lodging services; and facility management services at sports, entertainment, and recreational facilities. Further, the company offers correctional food; and operates commissaries, laundry facilities, and property rooms. The company was formerly known as ARAMARK Holdings Corporation. Aramark was founded in 1959 and is based in Philadelphia, Pennsylvania.",
+    "website": "https://www.aramark.com"
   },
   "AROC": {
     "_ts": 1776526513.6243865,
@@ -791,6 +813,17 @@
     "summary": "Core Scientific, Inc. provides infrastructure for high-density colocation services and digital asset mining in the United States. It operates through three segments: Colocation, Digital Asset Self-Mining, and Digital Asset Hosted Mining. The company offers space, power, cooling, facilities operations, security, and other services to third-party customers to support workloads for machine learning and artificial intelligence; deployment, monitoring, troubleshooting, optimization, and maintenance of its customers' digital asset mining equipment; and electrical power, repair, and other infrastructure services for its customers to operate, maintain, and mine digital assets. It is also involved in the deployment and operation of its fleet of miners within its digital infrastructure as part of a pool of users that process transactions conducted on one or more blockchain networks to receive digital assets in the form of bitcoin. It also deploys and operates its fleet of miners within its digital infrastructure as part of a pool of users that process transactions conducted on one or more blockchain networks; and provides hosting services for digital asset mining customers, which include deployment, monitoring, trouble shooting, optimization, and maintenance of its customers' digital asset mining equipment. Core Scientific, Inc. was founded in 2017 and is headquartered in Dover, Delaware.",
     "website": "https://corescientific.com"
   },
+  "CPRX": {
+    "_ts": 1783355184.7211025,
+    "country": "United States",
+    "employees": 182,
+    "industry": "Biotechnology",
+    "marketCap": 3855537920,
+    "name": "Catalyst Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "summary": "Catalyst Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, focuses on developing and commercializing medicines for patients living with rare diseases in the United States. It offers Firdapse for the treatment of patients with lambert-eaton myasthenic syndrome (LEMS); Fycompa, a novel non-competitive selective antagonist at the postsynaptic ionotropic alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid glutamate receptor that is used to treat focal onset seizures, as well as tonic-clonic seizure; and AGAMREE, a corticosteroid for the treatment of duchenne muscular dystrophy. The company has license agreements with BioMarin Pharmaceutical Inc.; and a collaboration and license agreement with Endo Ventures Limited for the development and commercialization of generic Sabril tablets. Catalyst Pharmaceuticals, Inc. was founded in 2002 and is based in Coral Gables, Florida.",
+    "website": "https://catalystpharma.com"
+  },
   "CRGY": {
     "_ts": 1777902308.7778423,
     "country": "United States",
@@ -803,11 +836,11 @@
     "website": "https://crescentenergyco.com"
   },
   "CRS": {
-    "_ts": 1780064162.2107728,
+    "_ts": 1783355172.3029957,
     "country": "United States",
     "employees": 4500,
     "industry": "Metal Fabrication",
-    "marketCap": 23052756992,
+    "marketCap": 30600126464,
     "name": "Carpenter Technology Corporation",
     "sector": "Industrials",
     "summary": "Carpenter Technology Corporation engages in the manufacture, fabrication, and distribution of specialty metals in the United States, Europe, the Asia Pacific, Mexico, Canada, and internationally. It operates in two segments, Specialty Alloys Operations and Performance Engineered Products. The company offers specialty alloys, including titanium alloys, powder metals, stainless steels, alloy steels, and tool steels, as well as metal powders and parts. It serves the aerospace, defense, medical, transportation, energy, industrial, and consumer markets. The company was founded in 1889 and is headquartered in Philadelphia, Pennsylvania.",
@@ -913,11 +946,11 @@
     "website": "https://www.curtisswright.com"
   },
   "CYTK": {
-    "_ts": 1779373534.2598412,
+    "_ts": 1783355172.3029957,
     "country": "United States",
     "employees": 673,
     "industry": "Biotechnology",
-    "marketCap": 10684467200,
+    "marketCap": 11646401536,
     "name": "Cytokinetics, Incorporated",
     "sector": "Healthcare",
     "summary": "Cytokinetics, Incorporated, a biopharmaceutical company, focuses on discovering, developing, and commercializing novel muscle activators and muscle inhibitors as potential treatments for debilitating diseases in the United States. The company markets MYQORZO, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of symptomatic oHCM. It also develops Aficamten, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of HCM; and omecamtiv mecarbil, a potential treatment across the continuum of care in heart failure with severely reduced ejection fraction. In addition, the company is involved in developing and Ulacamten, a novel, selective, oral, and small molecule cardiac myosin inhibitor designed to reduce the hypercontractility associated with heart failure with preserved ejection fraction in Phase 1 clinical trials; and CK-089, a fast skeletal muscle troponin activator in Phase 1 clinical trials. Cytokinetics, Incorporated was incorporated in 1997 and is headquartered in South San Francisco, California.",
@@ -1109,6 +1142,17 @@
     "sector": "Utilities",
     "summary": "Edison International, through its subsidiaries, engages in the generation and distribution of electric power. The company supplies and delivers through its electrical infrastructure to an approximately 50,000 square-mile area of southern, central, and coastal California. It serves residential, commercial, industrial, public authorities, agricultural, street lighting, and other sectors. The company's distribution network consists of approximately 13,000 circuit-miles of lines ranging from 55 kV to 500 kV and approximately 80 transmission substations; and approximately 38,000 circuit-miles of overhead lines, approximately 32,000 circuit-miles of underground lines, and approximately 730 distribution substations. Edison International was founded in 1886 and is based in Rosemead, California.",
     "website": "https://www.edison.com"
+  },
+  "ELVN": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 61,
+    "industry": "Biotechnology",
+    "marketCap": 3654782464,
+    "name": "Enliven Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Enliven Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on the discovery and development of small molecule inhibitors to help patients with cancer. Its clinical programs comprise ELVN-001, a small molecule kinase inhibitor which is in Phase 1 clinical trial to treat adults with chronic myeloid leukemia; and ELVN-002, a central nervous system (CNS) penetrant and irreversible human epidermal growth factor receptor 2 inhibitor that is in Phase 1 clinical trial for the treatment of non-small cell lung cancer (NSCLC) and other HER2 mutant tumors. The company was founded in 2019 and is headquartered in Boulder, Colorado.",
+    "website": "https://www.enliventherapeutics.com"
   },
   "ENS": {
     "_ts": 1776564492.3977573,
@@ -1947,15 +1991,26 @@
     "website": "https://www.kiterealty.com"
   },
   "KRYS": {
-    "_ts": 1779804817.899272,
+    "_ts": 1783355172.3029957,
     "country": "United States",
     "employees": 295,
     "industry": "Biotechnology",
-    "marketCap": 8876354560,
+    "marketCap": 11085124608,
     "name": "Krystal Biotech, Inc.",
     "sector": "Healthcare",
     "summary": "Krystal Biotech, Inc., a commercial-stage biotechnology company, discovers, develops, manufactures, and commercializes genetic medicines to treat diseases with high unmet medical needs in the United States. The company commercializes VYJUVEK (beremagene geperpavec-svdt, or B-VEC) for the treatment of dystrophic epidermolysis bullosa (DEB). It also develops KB803 for ocular complications of dystrophic epidermolysis bullosa; KB801 for neurotrophic keratitis; KB407, which is in Phase 1 clinical trials for treating cystic fibrosis; KB111 for Hailey-Hailey disease; KB707 for solid tumors; KB304 for dynamic wrinkles; KB707 that is in Phase 1/2 clinical trials for the treatment of anti-PD-1 relapsed/refractory; KB408, which is in Phase 1 clinical trials for treating Alpha-1 antitrypsin deficiency; and KB301 that is in Phase 2 clinical trials for treating aesthetic skin conditions, as well as in open label study with ophthalmic B-VEC for treating for ocular complications of deb. Krystal Biotech, Inc. was founded in 2016 and is headquartered in Pittsburgh, Pennsylvania.",
     "website": "https://www.krystalbio.com"
+  },
+  "KTB": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 10600,
+    "industry": "Apparel Manufacturing",
+    "marketCap": 4742091776,
+    "name": "Kontoor Brands, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Kontoor Brands, Inc., a lifestyle apparel company, designs, manufactures, procures, sells, and licenses apparel, footwear, and accessories, primarily under the Wrangler, Lee, and Helly Hansen brands. The company operates through two segments: Wrangler and Lee. It licenses and sells apparel under the Musto, Chic, and Rock & Republic brand names. The company sells its products through mass merchants, outdoor and sporting goods stores, specialty stores, department stores, company-operated stores, business-to-business through workwear and uniform businesses, and online, including digital marketplaces, as well as through wholesale and direct-to-consumer channels. It operates in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific regions. Kontoor Brands, Inc. was incorporated in 2018 and is headquartered in Greensboro, North Carolina.",
+    "website": "https://www.kontoorbrands.com"
   },
   "KYMR": {
     "_ts": 1776526532.6262076,
@@ -2001,6 +2056,17 @@
     "summary": "Littelfuse, Inc. designs, manufactures, and sells electronic components, modules, and subassemblies. It operates through three segments: Electronics, Transportation, and Industrial. Its Electronics segment offers fuses and fuse accessories, coefficient resettable fuses, switches and interconnect solutions, polymer electrostatic discharge suppressors, varistors, reed switch based magnetic sensing, and gas discharge tubes; and discrete transient voltage suppressor diodes, TVS diode arrays, protection and switching thyristors, silicon and silicon carbide metal-oxide-semiconductor field effect transistors and diodes, and insulated gate bipolar transistors. This segment serves data center computing and communications infrastructure, industrial controls, building controls, aerospace and defense, appliances, consumer electronics solutions, healthcare solutions, industrial equipment, energy storage, diversified industrials, grid and utility infrastructure, passenger vehicles, and commercial vehicles. Its Transportation segment provides blade, resettable, high-current, and high-voltage fuses; battery cable protectors; circuit breakers, and power distribution modules; and sensor products. This segment serves heavy-duty truck and bus, construction, agriculture, off-road and recreational vehicles, material handling, passenger and commercial vehicles, and marine markets. Its Industrial segment offers industrial fuses, protection relays, contactors, transformers, residual current devices and monitors, ground fault circuit interrupters, arc fault detection devices, solid state switches, and temperature sensors for use in renewable energy and energy storage systems, electric vehicle infrastructure, HVAC systems, industrial safety, non-residential construction, MRO, mining, and factory automation applications. It sells its products through distributors, direct sales force, and manufacturers' representatives. The company was founded in 1927 and is headquartered in Rosemont, Illinois.",
     "website": "https://www.littelfuse.com"
   },
+  "LGND": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 47,
+    "industry": "Biotechnology",
+    "marketCap": 6381073408,
+    "name": "Ligand Pharmaceuticals Incorporated",
+    "sector": "Healthcare",
+    "summary": "Ligand Pharmaceuticals Incorporated, a biopharmaceutical company, develops and licenses biopharmaceutical assets worldwide. It offers Pradefovir, Posaconazole, Voriconazole, CAPVAXIVE, NOXAFIL, MenFive, and ZELSUVMI for infectious disease; EVOMELA and KYPROLIS for multiple myeloma; FILSPARI for the treatment of immunoglobulin a nephropathy; PNEUMOSIL, a pneumococcal conjugate vaccine to help fight against pneumococcal pneumonia in children; and QARZIBA to treat neuroblastoma. The company also provides Teriparatide injection product for osteoporosis; RYLAZE, a recombinant erwinia asparaginase for acute lymphoblastic leukemia or lymphoblastic lymphoma in adult and pediatric patients; TZIELD, a CD3-directed antibody indicated to delay the onset of Stage 3 type 1 diabetes in adults and children aged 8 years and older with Stage 2 T1D; and VAXNEUVANCE for the prevention of invasive disease caused by streptococcus pneumoniae serotypes. In addition, it offers Duavee for menopause; Frovatriptan to treat Neurology; FYCOMPA and SESQUIENT for CNS; MEKINIST for cardiology; Nexterone, a captisol-enabled formulation of amiodarone; VEKLURY, an antiviral treatment for COVID-19; and Viviant for osteoporosis. Further, the company develops ACLX-002, Ciforadenant, UGN-301, Viright, MB07133, BOT/BAL, and Lasofoxifene for oncology; Ensifentrine for respiratory disease; QTORIN for rare disease; Sparsentan for kidney disease; VK2809 for hepatology; ANEB-001 for acute cannabinoid intoxication; Reproxalap for opthamology; VK0214 for Rare Disease; and VK5211 for musculoskeletal disorder. The company was incorporated in 1987 and is based in Jupiter, Florida.",
+    "website": "https://www.ligand.com"
+  },
   "LION": {
     "_ts": 1782140730.0857189,
     "country": "",
@@ -2034,6 +2100,17 @@
     "summary": "LivaNova PLC, a medical technology company, designs, develops, manufactures, markets, and sells products, therapies, and services in the United States, the United Kingdom, Germany, France, Italy, the Netherlands, Spain, Belgium, Poland, Sweden, Switzerland, Austria, Norway, Portugal, Finland, Denmark, and internationally. The company operates in two segments, Cardiopulmonary and Neuromodulation. The Cardiopulmonary segment provides cardiopulmonary products, including heart-lung machines, oxygenators, autotransfusion systems, perfusion tubing systems, cannulae, and other related accessories, as well as services related products. The Neuromodulation segment offers VNS Therapy System, an implantable pulse generator and connective lead that stimulates the vagus nerve, surgical equipment to assist with the implant procedure, and equipment and instruction manuals; and devices that deliver neuromodulation therapy for treating drug-resistant epilepsy and difficult-to-treat depression. This segment also includes the development and clinical testing of LivaNova's aura6000 system for treating obstructive sleep apnea. It serves perfusionists, neurologists, neurosurgeons, and other healthcare professionals, hospitals, and other medical institutions and healthcare providers. The company sells its medical devices through a combination of direct sales representatives, agents, and independent distributors. LivaNova PLC was incorporated in 2015 and is headquartered in London, the United Kingdom.",
     "website": "https://www.livanova.com"
   },
+  "LLY": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 50000,
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 1072220930048,
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare",
+    "summary": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, such as Cyramza for the second-line treatment of gastric cancer or gastro-esophageal junction adenocarcinoma; Erbitux for colorectal cancers and head and neck cancers; Inluriyo for breast cancer; Jaypirca for chronic lymphocytic leukemia or small lymphocytic lymphoma; Retevmo for the treatment of metastatic NSCLC; TYVYT for classic hodgkin's lymphoma; and Verzenio for breast cancer. In addition, the company offers immunology products, which include Ebglyss for severe atopic dermatitis; Olumiant for rheumatoid arthritis, atopic dermatitis, severe alopecia areata, and COVID-19; Omvoh for ulcerative colitis; and Taltz for plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondylarthritis. Further, it provides Emgality for migraine prevention and episodic cluster headache, as well as Kisubla for symptomatic Alzheimer's disease. The company has collaborations with Boehringer Ingelheim Pharmaceuticals, Inc. for the Jardiance product family; and F. Hoffmann-La Roche Ltd and Genentech, Inc. for lebrikizumab, as well as license agreements with Almirall, S.A. for Ebglyss; and Chugai Pharmaceutical Co., Ltd for orforglipron; strategic collaboration with Ascidian Therapeutics for development of therapies for undisclosed monogenic kidney diseases; and BioArctic AB (publ) for new treatment. Eli Lilly and Company was founded in 1876 and is headquartered in Indianapolis, Indiana.",
+    "website": "https://www.lilly.com"
+  },
   "LNT": {
     "_ts": 1782743509.769063,
     "country": "United States",
@@ -2056,6 +2133,17 @@
     "summary": "Lantheus Holdings, Inc. develops, manufactures, and commercializes diagnostic and therapeutic products that assist clinicians in diagnosis and treatment of heart, cancer, and other diseases worldwide. The company offers DEFINITY, an injectable ultrasound enhancing agent used in echocardiography exams; TechneLite, a technetium generator for nuclear medicine procedures; Xenon-133, a radiopharmaceutical gas to assess pulmonary function; Neurolite, an injectable imaging agent to identify the area within the brain where blood flow has been blocked or reduced due to stroke; Cardiolite, an injectable Tc-99m-labeled imaging agent to assess blood flow to the muscle of the heart; and PYLARIFY, an F 18-labelled PSMA-targeted PET imaging agent used for imaging of PSMA positive-lesions in men with prostate cancer. It also provides Automated Bone Scan Index that calculates the disease burden of prostate cancer by detecting and classifying bone scan tracer uptakes as metastatic or benign lesions using an artificial neural network; RELISTOR for opioid-induced constipation; and aPROMISE, an artificial intelligence medical device software; PYLARIFY AI, an medical device software to perform quantitative assessment of PSMA PET/CT images in prostate cancer; and flurpiridaz used to assess blood flow to the heart. In addition, it develops PNT2002, a radiopharmaceutical therapy to treat mCRPC; PNT2003, an SSTR therapy to patients with SSTR-positive neuroendocrine tumors; MK-6240, a F 18-labeled PET imaging agent for Tau tangles in Alzheimer's disease; LNTH-2401, a novel radiodiagnostic targeting the gastrin-releasing peptide receptor; LNTH-2402; LNTH-2403; LNTH-2404; LNTH-250; LNTH-2515; and LNTH-1363S, an fibroblast activation protein, alpha, copper-64 labeled PET imaging agent. It has collaboration agreements with GE Healthcare; Curium Pharma; POINT; Regeneron; and Ratio Therapeutics LLC. The company was founded in 1956 and is based in Bedford, Massachusetts.",
     "website": "https://www.lantheus.com"
   },
+  "LQDA": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 216,
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "marketCap": 7132922368,
+    "name": "Liquidia Corporation",
+    "sector": "Healthcare",
+    "summary": "Liquidia Corporation, a biopharmaceutical company, develops, manufactures, and commercializes various products for rare cardiopulmonary diseases in the United States. The company's lead product candidates include YUTREPIA, an inhaled dry powder formulation of treprostinil for the treatment of pulmonary arterial hypertension (PAH) and pulmonary hypertension associated with interstitial lung disease (PH-ILD). It also provides Remodulin, a treprostinil injection administered through continuous intravenous and subcutaneous infusion; and develops L606, an investigational liposomal formulation of treprostinil which is in phase III clinical trial for the treatment of pulmonary arterial hypertension (PAH) and pulmonary hypertension associated with interstitial lung disease (PH-ILD). In addition, the company offers PRINT technology which allows to engineer and manufacture uniform drug particles with precise control over the size, three-dimensional geometric shape, and chemical composition of the particles. It has a license agreement with Pharmosa Biopharm Inc to develop and commercialize L606, an inhaled sustained-release formulation of Treprostinil for the treatment of PAH and PH-ILD; Vectura; The University of North Carolina at Chapel Hill; GlaxoSmithKline; Alcon Inc; and promotion Agreement with Sandoz. Liquidia Corporation was founded in 2004 and is based in Morrisville, North Carolina.",
+    "website": "https://www.liquidia.com"
+  },
   "LRCX": {
     "_ts": 1779373534.2598412,
     "country": "United States",
@@ -2077,6 +2165,17 @@
     "sector": "Industrials",
     "summary": "Landstar System, Inc. provides transportation management solutions in the United States, Canada, Mexico, and internationally. It operates in two segments, Transportation Logistics and Insurance. The Transportation Logistics segment offers a range of transportation services, including truckload, less-than-truckload and other truck transportation, rail intermodal, air cargo, ocean cargo, expedited ground and air delivery of time-critical freight, heavy-haul/specialized, hazardous materials, cold chain/temperature-controlled, U.S.-Canada and U.S.-Mexico cross-border, intra-Mexico, intra-Canada, project cargo, and customs brokerage services, as well as transportation services to other transportation companies, such as third party logistics and less-than-truckload service providers. This segment serves the automotive parts and assemblies, consumer durables, building products, metals, chemicals, foodstuffs, heavy machinery, retail, electronics, military equipment and general commodities industries. The Insurance segment provides risk and claims management services; and reinsures risks of its independent contractors. The company markets its services through a network of agents, third party capacity providers, and employees. Landstar System, Inc. was founded in 1988 and is headquartered in Jacksonville, Florida.",
     "website": "https://www.landstar.com"
+  },
+  "LTH": {
+    "_ts": 1783355184.7211025,
+    "country": "United States",
+    "employees": 45000,
+    "industry": "Leisure",
+    "marketCap": 9177042944,
+    "name": "Life Time Group Holdings, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Life Time Group Holdings, Inc., through its subsidiaries, provides health, fitness, and wellness experiences to a community of individual members in the United States and Canada. The company offers fitness floors with equipment, locker rooms, group fitness studios, cycle, yoga, pilates studios, bar and lounge, free weight and resistance equipment, cardiovascular equipment, steam room and sauna, cold plunges, racquetball and squash spaces, recovery spaces, indoor and outdoor pools and bistros, indoor and outdoor tennis and pickleball courts, basketball, volleyball courts, LifeSpa, LifeCafe, and childcare and kids academy learning spaces. It also provides dynamic personal training, dynamic stretch, small group training, weight loss coaching, nutrition coaching, medi-spa, physical therapy and chiropractic, assessments and lab testing, sport specific coaching, endurance coaching, swim lessons and team coaching, towel and locker service, experience life, and ARORA and MIORA community services. In addition, the company engages in athletic leagues and tournaments, athletic events, LT Games, social events, outdoor group runs, outdoor group cycle rides, and charity events; organizing kids' birthday parties, parents night out, summer and vacation camps for kids, sports training camps, swim meets, charity events; and providing nutritional supplements and apparels, as well as designing, building, and operating of sports and athletic, professional fitness, family recreation, and spa centers in a resort-like environment in suburban and urban locations of metropolitan areas. Further, its digital platform provides live streaming fitness classes, remote goal-based personal training, nutrition and weight loss support, curated award-winning health, and fitness and wellness content. The company was formerly known as LTF Holdings, Inc. and changed its name to Life Time Group Holdings, Inc. in June 21, 2021. The company was founded in 1992 and is headquartered in Chanhassen, Minnesota.",
+    "website": "https://www.lifetime.life"
   },
   "LWLG": {
     "_ts": 1779285993.7311447,
@@ -2112,14 +2211,14 @@
     "website": "https://www.lloydsbankinggroup.com"
   },
   "MAC": {
-    "_ts": 1780327173.0309377,
+    "_ts": 1783355172.3029957,
     "country": "United States",
     "employees": 596,
     "industry": "REIT - Retail",
-    "marketCap": 6653669888,
+    "marketCap": 7854007296,
     "name": "The Macerich Company",
     "sector": "Real Estate",
-    "summary": "The Macerich Company is a fully integrated, self-managed, self-administered real estate investment trust (REIT). As a leading owner, operator, and developer of high-quality retail real estate in densely populated and attractive U.S. markets, Macerich's portfolio is concentrated in California, the Pacific Northwest, Phoenix/Scottsdale, and the Metro New York to Washington, D.C. corridor. Developing and managing properties that serve as community cornerstones, Macerich currently owns 39 million square feet of real estate, consisting primarily of interests in 38 retail centers. Macerich is firmly dedicated to advancing environmental goals, social good and sound corporate governance. The Macerich Company was incorporated in 1964 and is based in Santa Monica, United States.",
+    "summary": "The Macerich Company is a fully integrated, self-managed, self-administered real estate investment trust (REIT). As a leading owner, operator, and developer of high-quality retail real estate in densely populated and attractive U.S. markets, Macerich's portfolio is concentrated in California, the Pacific Northwest, Phoenix/Scottsdale, and the Metro New York to Washington, D.C. corridor. Developing and managing properties that serve as community cornerstones, Macerich currently owns approximately 41 million square feet of real estate, consisting primarily of interests in 39 retail centers. The Macerich Company was incorporated in 1964 in Maryland and is based in Santa Monica, California.",
     "website": "https://www.macerich.com"
   },
   "MAR": {
@@ -2408,6 +2507,17 @@
     "summary": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals. It operates in two segments, Asset Servicing and Wealth Management. The Asset Servicing segment offers asset servicing and related services, including custody, fund administration, investment operations outsourcing, investment management, investment risk and analytical, employee benefit, securities lending, foreign exchange, treasury management, brokerage, transition management, banking, and cash management services. It serves corporate and public retirement funds, foundations, endowments, fund managers, insurance companies, sovereign wealth funds, and other institutional investors. The Wealth Management segment offers trust, investment management, custody, and philanthropic; financial consulting; guardianship and estate administration; family business consulting; family financial education; brokerage; and private and business banking services. This segment also provides global custody; fiduciary; family office consulting; and technology solutions to high-net-worth individuals and families, business owners, executives, professionals, retirees, and established privately-held businesses. In addition, it offers asset management, and related services and other products comprising active and passive equity; active and passive fixed income; cash management; muti-asset and alternative asset classes which includes private equity and hedge funds of funds; and multi-manager advisory services and products through separately managed accounts, bank common and collective funds, registered investment companies, exchange traded funds, non-U.S. collective investment funds, and unregistered private investment funds. Further, the company provides overlay and other risk management services. The company was founded in 1889 and is headquartered in Chicago, Illinois.",
     "website": "https://www.northerntrust.com"
   },
+  "NTST": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 29,
+    "industry": "REIT - Retail",
+    "marketCap": 2104359424,
+    "name": "NETSTREIT Corp.",
+    "sector": "Real Estate",
+    "summary": "NETSTREIT Corp. is an internally managed real estate investment trust based in Dallas, Texas that specializes in acquiring single-tenant net lease retail properties nationwide. The growing portfolio consists of high-quality properties leased to e-commerce resistant tenants with healthy balance sheets. Led by a management team of seasoned commercial real estate executives, NETSTREIT's strategy is to create the highest quality net lease retail portfolio in the country with the goal of generating consistent cash flows and dividends for its investors. NETSTREIT Corp. was incorporated in 2019 in Maryland and is based in Dallas, Texas.",
+    "website": "https://www.netstreit.com"
+  },
   "NUAI": {
     "_ts": 1782743523.6865664,
     "country": "United States",
@@ -2539,6 +2649,17 @@
     "sector": "Technology",
     "summary": "Ondas Inc. provides private wireless, drone, and automated data solutions in the United States and internationally. It operates through the Ondas Networks and Ondas Autonomous Systems segments. The company offers Counter-UAS (CUAS) and site protection systems, including iron drone raider, a fully autonomous interceptor drone system for neutralizing small hostile drones; sentrycs CoRF, Cyber/RF-based CUAS platform for detection, identification, tracking, and mitigation of unauthorized drones; optimus system, fully autonomous drone platform for continuous security, surveillance, and mission-critical data collection; 4M defense, supporting missions related to demining and clearing land of unexploded ordnance; roboteam, UGVs and tactical ground robotics; apeiro motion, autonomy and mobility software for robotic platforms, enhancing navigation and operational effectiveness; and loitering munition systems, is a one way drone for a variety of missions including ISR defense and strike. It also offers FullMAX Software-Defined Radio Platform, a patented SDR platform for secure, private, wide-area broadband networks, enabling mission-critical communications; software and hardware maintenance agreements, extended software and hardware maintenance contracts, including ongoing support, security upgrades, and feature enhancements; licensing/royalties, licensing of FullMAX software and technology for integration into partner hardware and software platforms; and ancillary services, wireless network design, systems engineering, radio frequency planning, software configuration, product training, installation, onsite support, and engineering/product development. It serves rail, electric utilities, oil and gas, public safety, government, and other industrial applications. The company was formerly known as Ondas Holdings Inc. and changed its name to Ondas Inc. in January 2026. Ondas Inc. was incorporated in 2014 and is headquartered in West Palm Beach, Florida.",
     "website": "https://www.ondas.com"
+  },
+  "OPEN": {
+    "_ts": 1783355187.581591,
+    "country": "United States",
+    "employees": 1042,
+    "industry": "Real Estate Services",
+    "marketCap": 5103360000,
+    "name": "Opendoor Technologies Inc.",
+    "sector": "Real Estate",
+    "summary": "Opendoor Technologies Inc. operates a digital platform for residential real estate transactions in the United States. It buys and sells homes through online e-commerce platform. The company also resells the home to a home buyer. In addition, it offers real estate brokerage, title insurance and settlement, and escrow services, as well as property and casualty insurance, real estate licenses, and construction services. The company was formerly known as Social Capital Hedosophia Holdings Corp. II and changed its name to Opendoor Technologies Inc. Opendoor Technologies Inc. was incorporated in 2013 and is based in Tempe, Arizona.",
+    "website": "https://www.opendoor.com"
   },
   "ORKA": {
     "_ts": 1782140730.0857189,
@@ -3387,6 +3508,17 @@
     "summary": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation. The company is involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products, including services to liquefied petroleum gas exporters; and gathering, storing, terminaling, purchasing, and selling crude oil. It is involved in the purchase and resale of NGL products; and sale of propane, as well as provision of related logistics services to multi-state retailers, independent retailers, and other end-users. In addition, the company offers NGL balancing services; and transportation services to refineries and petrochemical companies in the Gulf Coast area, as well as purchases, markets, and resells natural gas. The company also leased and owned railcars, tractors, vacuum trucks and pressurized NGL barges. Targa Resources Corp. was incorporated in 2005 and is headquartered in Houston, Texas.",
     "website": "https://www.targaresources.com"
   },
+  "TRNO": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 47,
+    "industry": "REIT - Industrial",
+    "marketCap": 7142795264,
+    "name": "Terreno Realty Corporation",
+    "sector": "Real Estate",
+    "summary": "Terreno Realty Corporation acquires, owns and operates industrial real estate in six major coastal U.S. markets. It includes New York City, Northern New Jersey, Los Angeles, Miami, San Francisco Bay Area, Seattle, and Washington, D.C. All square feet, acres, occupancy and number of properties disclosed in these condensed notes to the consolidated financial statements are unaudited. As of September 30, 2025, the Company owned 307 buildings (including one property consisting of two buildings held for sale) aggregating approximately 20.2 million square feet, 44 improved land parcels consisting of approximately 146.4 acres, six properties under development or redevelopment and approximately 10.7 acres of land for future development. The Company is an internally managed Maryland corporation and elected to be taxed as a real estate investment trust (REIT) under Sections 856 through 860 of the Internal Revenue Code of 1986, as amended, commencing with its taxable year ended December 31, 2010. Terreno Realty Corporation was incorporated on 6th November 2009 and is based in Bellevue, United States.",
+    "website": "https://www.terreno.com"
+  },
   "TRP": {
     "_ts": 1779891933.4795802,
     "country": "Canada",
@@ -3562,6 +3694,17 @@
     "sector": "Basic Materials",
     "summary": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil.",
     "website": "https://vale.com"
+  },
+  "VCYT": {
+    "_ts": 1783355172.3029957,
+    "country": "United States",
+    "employees": 755,
+    "industry": "Diagnostics & Research",
+    "marketCap": 4710958080,
+    "name": "Veracyte, Inc.",
+    "sector": "Healthcare",
+    "summary": "Veracyte, Inc. operates as a diagnostics company in the United States and internationally. The company offers Afirma Genomic Sequencing Classifier for cancerous thyroid nodules; Decipher Prostate Genomic Classifiers for prostate cancer diagnosis; Decipher Bladder Genomic Classifier for bladder cancer diagnosis; Prosigna Breast Cancer Assay for breast cancer diagnosis; and Percepta Nasal Swab Test for lung cancer diagnosis. It also provides the nCounter analysis system services. The company was formerly known as Calderome, Inc. and changed its name to Veracyte, Inc. in March 2008. Veracyte, Inc. was incorporated in 2006 and is headquartered in South San Francisco, California.",
+    "website": "https://www.veracyte.com"
   },
   "VIAV": {
     "_ts": 1780497678.3155842,

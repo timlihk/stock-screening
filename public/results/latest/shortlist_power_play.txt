@@ -1,10 +1,10 @@
-UNF|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 76 · Industrials · RS +40
-AEP|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 67 · Earn 19d · RS +17
-EIX|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 73 · Utilities · RS +31
-VLY|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 77 · Financials · Earn 19d · RS +41
-IVT|power_play 7 · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 64 · Real Estate · Earn 21d · RS +13
-PECO|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 54 · Real Estate · Earn 14d · RS +3
-YETI|power_play 7 · Entry 6 · Lead 6 · Tight 2/3 · RSpct 72 · Consumer Discretionary · Earn 24d · RS +28
-EVRG|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 61 · RS +11
-ABCB|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 65 · Financials · Earn 16d · RS +14
-MO|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 61 · Consumer Staples · RS +10
+MAC|power_play 7 · +sepa_vcp · Entry 7 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 76 · Real Estate · Earn 25d · RS +37
+VLY|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 76 · Financials · Earn 18d · RS +37
+IVT|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 64 · Real Estate · Earn 20d · RS +12
+AEP|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 64 · Earn 18d · RS +13
+NLY|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 63 · Real Estate · Earn 11d · RS +11
+NTST|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 60 · Earn 12d · RS +9
+KTB|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 5/5 · RSpct 53 · RS +1
+TRNO|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 52 · RS +1
+YETI|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 73 · Consumer Discretionary · Earn 23d · RS +30
+IDA|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 64 · Utilities · Earn 18d · RS +12

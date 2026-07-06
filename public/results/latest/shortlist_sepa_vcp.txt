@@ -1,10 +1,10 @@
-EIX|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 73 · Utilities · RS +31
-IMVT|sepa_vcp 7 · Entry 5 · Lead 10 · Tight 2/3 · RSpct 90 · Health Care · Earn 26d · RS +109
-HR|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 65 · Real Estate · RS +14
-MO|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 61 · Consumer Staples · RS +10
-CHEF|sepa_vcp 7 · Entry 4 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 73 · Consumer Staples · Earn 18d · RS +29
-RSI|sepa_vcp 6 · Entry 6 · Lead 10 · Tight 1/3 · Fund 4/5 · RSpct 88 · Consumer Discretionary · RS +91
-UNF|sepa_vcp 6 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 76 · Industrials · RS +40
-AEP|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 67 · Earn 19d · RS +17
-VLY|sepa_vcp 6 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 77 · Financials · Earn 19d · RS +41
-PECO|sepa_vcp 6 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 54 · Real Estate · Earn 14d · RS +3
+ELVN|sepa_vcp 8 · +power_play · Entry 6 · Lead 12 · Tight 1/3 · RSpct 91 · Earn 27d · RS +126
+MAC|sepa_vcp 7 · +power_play · Entry 7 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 76 · Real Estate · Earn 25d · RS +37
+VLY|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 76 · Financials · Earn 18d · RS +37
+CYTK|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 91 · Health Care · Earn 23d · RS +126
+MPC|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 1/3 · Fund 3/5 · RSpct 74 · Energy · Earn 21d · RS +34
+VCYT|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 1/3 · Fund 3/5 · RSpct 88 · Earn 22d · RS +94
+CPRX|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 3/3 · RSpct 71 · Earn 22d · RS +25
+LTH|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 68 · Earn 21d · RS +19
+ARMK|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 61 · Earn 26d · RS +11
+CHEF|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 71 · Consumer Staples · Earn 17d · RS +27
