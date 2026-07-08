@@ -142,6 +142,17 @@
     "summary": "Alamos Gold Inc. operates as a gold producer in Canada and Mexico. It primarily explores for gold deposits. The company was founded in 2003 and is based in Toronto, Canada.",
     "website": "https://www.alamosgold.com"
   },
+  "AGNC": {
+    "_ts": 1783523973.3882017,
+    "country": "United States",
+    "employees": 54,
+    "industry": "REIT - Mortgage",
+    "marketCap": 12535387136,
+    "name": "AGNC Investment Corp.",
+    "sector": "Real Estate",
+    "summary": "AGNC Investment Corp. provides private capital to housing market in the United States. It invests in residential mortgage pass-through securities and collateralized mortgage obligations for which the principal and interest payments are guaranteed by the United States government-sponsored enterprise or by the United States government agency. The company qualifies as a real estate investment trust for federal income tax purposes. It generally would not be subject to federal or state corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. The company was formerly known as American Capital Agency Corp. and changed its name to AGNC Investment Corp. in September 2016. AGNC Investment Corp. was incorporated in 2008 and is headquartered in Bethesda, Maryland.",
+    "website": "https://agnc.com"
+  },
   "AGX": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -891,14 +902,14 @@
     "website": "https://www.csx.com"
   },
   "CTRE": {
-    "_ts": 1778508325.5744824,
+    "_ts": 1783523973.3882017,
     "country": "United States",
     "employees": 43,
     "industry": "REIT - Healthcare Facilities",
-    "marketCap": 9770896384,
+    "marketCap": 9893741568,
     "name": "CareTrust REIT, Inc.",
     "sector": "Real Estate",
-    "summary": "CareTrust REIT, Inc. is a self-administered, publicly traded REIT engaged in the ownership, acquisition, financing, development and leasing of skilled nursing, senior housing and other healthcare-related properties. As of December 31, 2025, CareTrust REIT owned, directly or indirectly in consolidated joint ventures, and leased to independent operators, 407 skilled nursing facilities (each, a SNF), senior housing communities and other properties consisting of 37,628 operational beds and units located in 32 states and the United Kingdom, with the highest concentration of properties by rental income located in California, the U.K., Texas, and Tennessee. As of December 31, 2025, we also had other real estate related investments consisting of four preferred equity investments, 16 real estate secured loans receivable and five mezzanine loans receivable with a carrying value of 899.3 million US dollars and one financing receivable with a carrying value of 92.2 million US dollars. CareTrust REIT, Inc. was established and incorporated on October 29, 2013 in Maryland, USA",
+    "summary": "CareTrust REIT, Inc. is a self-administered, publicly traded real estate investment trust engaged in the ownership, acquisition, development and leasing of skilled nursing, senior housing and other healthcare-related properties. With a portfolio of long-term net-leased properties spanning the United States and United Kingdom, and a growing portfolio of quality operators leasing them, CareTrust is pursuing both external and organic growth opportunities across the United States and internationally. CareTrust REIT, Inc. was established and incorporated on October 29, 2013 and is based in Dana Point, United States.",
     "website": "https://www.caretrustreit.com"
   },
   "CVE": {
@@ -1032,6 +1043,17 @@
     "sector": "Basic Materials",
     "summary": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.",
     "website": "https://www.dupont.com"
+  },
+  "DELL": {
+    "_ts": 1783523973.3882017,
+    "country": "United States",
+    "employees": 97000,
+    "industry": "Computer Hardware",
+    "marketCap": 273208377344,
+    "name": "Dell Technologies Inc.",
+    "sector": "Technology",
+    "summary": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements and offers payment and consumption solutions and services, such utility, subscription, as-a-service, leases, and loans, as well as fixed-term leases and loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in March 2013. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas.",
+    "website": "https://www.dell.com"
   },
   "DINO": {
     "_ts": 1779718269.5939367,
@@ -1373,6 +1395,17 @@
     "sector": "Industrials",
     "summary": "Flowserve Corporation designs, manufactures, distributes, and services industrial flow management equipment in the United States, Canada, Mexico, Europe, the Middle East, Africa, and the Asia Pacific. The company operates in two segments, Flowserve Pumps Division (FPD) and Flow Control Division (FCD). It offers custom engineered pumps, pre-configured industrial pumps, pump systems, mechanical seals, auxiliary systems, replacement parts, and related services; and manufactures gas-lubricated mechanical seals for gas pipelines and in the energy production and process markets. The company also provides equipment services, including installation, commissioning services, seal systems spare parts, repairs, advanced diagnostics, re-rate and upgrade solutions, retrofit programs, and machining and asset management solutions. In addition, it offers engineered-to-order and configured-to-order isolation valves, control valves, valve automation products and related services and equipment; and actuators, positioners, and switches used to control, direct and manage the flow of liquids, gases and multi-phase fluids, and are a part of any flow control system. Further, the company provides equipment maintenance services for flow control systems, including advanced diagnostics, repair, installation, commissioning, retrofit programs, and field machining capabilities. It sells its products under the Valtek, Argus, Worcester, Limitorque, and Durco brands. The company serves oil and gas, power generation, chemical, water management and general industries, including pharmaceuticals, mining, food and beverage, steel, and pulp and paper industries. It distributes its products through direct sales, distributors, and sales representatives. Flowserve Corporation was founded in 1790 and is headquartered in Irving, Texas.",
     "website": "https://www.flowserve.com"
+  },
+  "FR": {
+    "_ts": 1783523973.3882017,
+    "country": "United States",
+    "employees": 151,
+    "industry": "REIT - Industrial",
+    "marketCap": 8871815168,
+    "name": "First Industrial Realty Trust, Inc.",
+    "sector": "Real Estate",
+    "summary": "First Industrial Realty Trust, Inc. is a leading U.S.-only owner, operator, developer and acquirer of logistics properties. Through our fully integrated operating and investing platform, we provide high quality facilities and industry-leading customer service to multinational corporations and regional firms that are essential for their supply chains. In total, we own and have under development approximately 71.6 million square feet of industrial space concentrated in 15 target MSAs as of March 31, 2026. First Industrial Realty Trust, Inc. was established on August 10, 1993 and is based in Chicago, United States.",
+    "website": "https://www.firstindustrial.com"
   },
   "FRT": {
     "_ts": 1782309146.6517544,
@@ -2321,11 +2354,11 @@
     "website": "https://www.marathonpetroleum.com"
   },
   "MSGS": {
-    "_ts": 1776778965.732901,
+    "_ts": 1783523973.3882017,
     "country": "United States",
     "employees": 514,
     "industry": "Entertainment",
-    "marketCap": 8029649920,
+    "marketCap": 9495737344,
     "name": "Madison Square Garden Sports Corp.",
     "sector": "Communication Services",
     "summary": "Madison Square Garden Sports Corp. operates as a professional sports company in the United States. The company owns and operates a portfolio of assets that consists of the New York Knickerbockers of the National Basketball Association (NBA) and the New York Rangers of the National Hockey League. Its other professional franchises include development league teams, the Hartford Wolf Pack of the American Hockey League and the Westchester Knicks of the NBA G League. It also operates the Madison Square Garden Training Center, a professional sports team performance center in Greenburgh. The company was formerly known as The Madison Square Garden Company. Madison Square Garden Sports Corp. was incorporated in 2015 and is based in New York, New York.",
@@ -2848,6 +2881,17 @@
     "summary": "Plexus Corp. provides electronic manufacturing services in the United States, the Asia-Pacific, Europe, the Middle East, and Africa. The company offers design, develop, supply chain, new product introduction, and manufacturing solutions, as well as sustaining services. It serves the aerospace/defense, healthcare/life sciences, and industrial/commercial sectors. Plexus Corp. was founded in 1979 and is headquartered in Neenah, Wisconsin.",
     "website": "https://www.plexus.com"
   },
+  "PNW": {
+    "_ts": 1783523973.3882017,
+    "country": "United States",
+    "employees": 6610,
+    "industry": "Utilities - Regulated Electric",
+    "marketCap": 13180316672,
+    "name": "Pinnacle West Capital Corporation",
+    "sector": "Utilities",
+    "summary": "Pinnacle West Capital Corporation, through its subsidiary, provides retail and wholesale electric services in the state of Arizona. The company engages in the generation, transmission, and distribution of electricity using nuclear, gas, oil, coal, and solar generating facilities. Its transmission facilities include overhead lines and underground lines; and distribution facilities consist of overhead lines and underground primary cables. The company also owns and maintains substations, including transmission and distribution yards; and owns energy storage facilities. Pinnacle West Capital Corporation was incorporated in 1985 and is headquartered in Phoenix, Arizona.",
+    "website": "https://www.pinnaclewest.com"
+  },
   "POWI": {
     "_ts": 1779891933.4795802,
     "country": "United States",
@@ -3232,6 +3276,17 @@
     "sector": "Basic Materials",
     "summary": "Sociedad Qu\u00edmica y Minera de Chile S.A. produces and sells specialty plant nutrients, and iodine and its derivatives worldwide. The company offers sodium potassium nitrate, specialty blends, and other specialty fertilizers under Ultrasol, Qrop, Speedfol, Allganic, Ultrasoline, Prop, and Prohydric brands. It also provides iodine and its derivatives for use in medical, agricultural, industrial, and human and animal nutrition products comprising x-ray contrast media, biocides, antiseptics and disinfectants, pharmaceutical intermediates, polarizing films for LCD and LED screens, chemicals, organic compounds, and pigments, as well as added to edible salt to prevent iodine deficiency disorders. In addition, the company produces lithium carbonate and lithium hydroxide which are used in the production of cathode material for, secondary batteries; lithium chloride; and basic lithium chemicals and lithium derivatives used in lubricating greases for heat-resistant glass, chips for the ceramic and glazing industry, and air conditioning chemicals, as well as other pharmaceutical syntheses and metal alloys. Further, it produces potassium sulfate; and potassium chloride which are used to nourish various crops. Additionally, the company produces and markets industrial chemicals, such as sodium nitrate mainly used in the production of glass and explosives, metal processing and recycling, and production of insulating materials and adhesives; potassium nitrate used as a raw material to produce frits and special glass, as well as in the enamel, metal treatment, and pyrotechnic sectors; solar salts used as a thermal storage medium in solar power generation plants; and potassium chloride as an additive in oil drilling and food processing sectors. Furthermore, it is involved in the sale of third-party fertilizers; and the exploration of copper, gold, and silver deposits. The company was founded in 1926 and is headquartered in Santiago, Chile.",
     "website": "https://www.sqm.com"
+  },
+  "SRE": {
+    "_ts": 1783523973.3882017,
+    "country": "United States",
+    "employees": 15938,
+    "industry": "Utilities - Diversified",
+    "marketCap": 62399639552,
+    "name": "Sempra",
+    "sector": "Utilities",
+    "summary": "Sempra engages in the regulated utilities business in the United States and Mexico. It operates through three segments: Sempra California, Sempra Texas Utilities, and Sempra Infrastructure. It also invests in and operates electric and gas utilities and other energy infrastructure that provides energy services to customers. The Sempra California segment provides natural gas and electric services to Southern California and part of central California. As of December 31, 2025, it offered electric services to approximately 3.6 million population and natural gas services to approximately 3.3 million population that covers 4,100 square miles. This segment owns and operates a natural gas distribution, transmission, and storage system that supplies natural gas. As of December 31, 2025, it served a population of 21.3 million covering an area of 24,000 square miles. The Sempra Texas Utilities segment engages in the regulated electricity transmission and distribution utility business. As of December 31, 2025, transmission system included approximately 18,418 circuit miles of transmission lines; 1,333 transmission and distribution substations; interconnection to 230 third-party generation facilities totaling 63,670 MW; and distribution system included more than 4.1 million points of delivery and consisted of 127,398 circuit miles of overhead and underground lines. The Sempra Infrastructure segment develops, constructs, operates, and invests in energy infrastructure to help enable the access to cleaner energy in markets in the United States, Mexico, and internationally. The company was formerly known as Sempra Energy and changed its name to Sempra in May 2023. Sempra was incorporated in 1996 and is headquartered in San Diego, California.",
+    "website": "https://www.sempra.com"
   },
   "SSD": {
     "_ts": 1782914304.0099163,

@@ -1,10 +1,10 @@
-UMBF|power_play 7 · +sepa_vcp · Entry 7 · Lead 7 · Tight 2/3 · RSpct 64 · Financials · Earn 15d · RS +14
-ARMK|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 61 · Industrials · Earn 25d · RS +11
-IVT|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 64 · Real Estate · Earn 19d · RS +15
-HR|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 66 · Real Estate · RS +17
-CAKE|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 53 · Consumer Discretionary · RS +2
-PEB|power_play 7 · +sepa_vcp · Entry 5 · Lead 9 · Tight 2/3 · Fund 1/5 · RSpct 83 · Real Estate · RS +58
-MAC|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 79 · Real Estate · Earn 24d · RS +44
-VLY|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 78 · Financials · Earn 17d · RS +41
-FR|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 64 · RS +14
-IDA|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 63 · Utilities · Earn 17d · RS +14
+ELVN|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 1/3 · RSpct 91 · Health Care · RS +123
+RSI|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 0/3 · Fund 4/5 · RSpct 89 · Consumer Discretionary · RS +90
+MO|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 63 · Consumer Staples · RS +11
+MSGS|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 87 · Communication Services · RS +73
+MAC|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 78 · Real Estate · RS +39
+LAMR|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 65 · Real Estate · RS +14
+AEP|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 66 · Utilities · Earn 16d · RS +16
+PECO|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 58 · Real Estate · RS +6
+TRNO|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 1/3 · Fund 4/5 · RSpct 56 · Real Estate · RS +4
+IDA|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 64 · Utilities · RS +13
