@@ -1,10 +1,10 @@
-CTRE|sepa_vcp 7 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 69 · Real Estate · RS +20
-MO|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 63 · Consumer Staples · RS +11
-HR|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 66 · Real Estate · RS +15
-PECO|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 58 · Real Estate · RS +6
-CVS|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 79 · Health Care · RS +42
-CPRX|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 3/3 · RSpct 74 · Health Care · Earn 20d · RS +31
-ARMK|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 64 · Industrials · Earn 24d · RS +12
-ELVN|sepa_vcp 6 · +power_play · Entry 5 · Lead 10 · Tight 1/3 · RSpct 91 · Health Care · RS +123
-RSI|sepa_vcp 6 · +power_play · Entry 5 · Lead 10 · Tight 0/3 · Fund 4/5 · RSpct 89 · Consumer Discretionary · RS +90
-VIRT|sepa_vcp 6 · +power_play · Entry 5 · Lead 9 · Tight 1/3 · Fund 5/5 · RSpct 73 · Financials · RS +31
+LIVN|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 82 · Health Care · RS +55
+RF|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 58 · RS +6
+ELVN|sepa_vcp 7 · +power_play · Entry 5 · Lead 11 · Tight 1/3 · RSpct 90 · Health Care · RS +111
+FTNT|sepa_vcp 7 · +power_play · Entry 5 · Lead 10 · Tight 2/3 · Fund 3/5 · RSpct 72 · Technology · RS +30
+MFC|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 67 · Financials · RS +18
+HR|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 65 · Real Estate · RS +14
+NTRA|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 81 · Earn 20d · RS +52
+PECO|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 57 · Real Estate · RS +5
+BTSG|sepa_vcp 7 · Entry 4 · Lead 11 · Tight 2/3 · RSpct 94 · Health Care · Earn 16d · RS +210
+KRYS|sepa_vcp 7 · +power_play · Entry 4 · Lead 9 · Tight 2/3 · Fund 4/5 · RSpct 91 · Health Care · Earn 17d · RS +125
