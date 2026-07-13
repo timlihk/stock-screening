@@ -11,14 +11,14 @@
     "website": "https://www.ao-inc.com"
   },
   "AAPL": {
-    "_ts": 1779285971.9089527,
+    "_ts": 1783957992.357885,
     "country": "United States",
     "employees": 166000,
     "industry": "Consumer Electronics",
-    "marketCap": 4401653612544,
+    "marketCap": 4653101088768,
     "name": "Apple Inc.",
     "sector": "Technology",
-    "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+    "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
     "website": "https://www.apple.com"
   },
   "ABCB": {
@@ -241,6 +241,17 @@
     "summary": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California.",
     "website": "https://www.appliedmaterials.com"
   },
+  "AMD": {
+    "_ts": 1783957992.357885,
+    "country": "United States",
+    "employees": 31000,
+    "industry": "Semiconductors",
+    "marketCap": 885823766528,
+    "name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology",
+    "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
+    "website": "https://www.amd.com"
+  },
   "AME": {
     "_ts": 1776526532.6262076,
     "country": "United States",
@@ -460,6 +471,17 @@
     "sector": "Financial Services",
     "summary": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships. The company also manages and services the loans it originates for private label, co-brand, and general-purpose credit card programs, and installment loans and split-pay products; and provides marketing, and data and analytics services. In addition, it offers an enhanced digital suite that includes a unified software development kit, which provides access to its suite of products, as well as promotes credit payment options earlier in the shopping experience. Further, the company through Bread Pay, a digital payments platform and robust suite of application programming interfaces allows merchants and partners to integrate online point-of-sale financing and other digital payment products. Additionally, it offers retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including traditional and Roth Individual Retirement Accounts. The company offers its products under the Bread, Bread Financial, Bread Cashback, Bread Rewards, Bread Pay, and Bread Savings brands. The company was formerly known as Alliance Data Systems Corporation and changed its name to Bread Financial Holdings, Inc. in March 2022. Bread Financial Holdings, Inc. was incorporated in 1995 and is headquartered in Columbus, Ohio.",
     "website": "https://www.breadfinancial.com"
+  },
+  "BFLY": {
+    "_ts": 1783957992.357885,
+    "country": "United States",
+    "employees": 220,
+    "industry": "Medical Devices",
+    "marketCap": 2144147200,
+    "name": "Butterfly Network, Inc.",
+    "sector": "Healthcare",
+    "summary": "Butterfly Network, Inc. develops, manufactures, and commercializes ultrasound imaging solutions in the United States and internationally. The company offers Butterfly iQ+ and iQ3 ultrasound devices that can perform whole-body imaging on a single handheld probe integrated with the clinical workflow, and accessible on a user's smartphone, tablet, and almost any hospital computer system; Butterfly Move, merging the mobility of a handheld with the stability of a full cart system; and iQ+ Bladder, a specialty product for bladder scanning market. It also provides Compass AI which offers one system to connect every device, workflow, and department; ScanLab, an AI-powered educational platform that provides written walkthroughs and reference imagery to guide real-time educational scanning; and Butterfly iQ+/iQ3 Vet, a third generation handheld ultrasound system. It sells and markets its products through a direct sales force, distributors, and e-commerce channels. Butterfly Network, Inc. was founded in 2011 and is headquartered in Burlington, Massachusetts.",
+    "website": "https://www.butterflynetwork.com"
   },
   "BHP": {
     "_ts": 1779718269.5939367,
@@ -891,11 +913,11 @@
     "website": "https://www.cirrus.com"
   },
   "CSCO": {
-    "_ts": 1776564492.3977573,
+    "_ts": 1783957992.357885,
     "country": "United States",
     "employees": 86200,
     "industry": "Communication Equipment",
-    "marketCap": 340781891584,
+    "marketCap": 471632084992,
     "name": "Cisco Systems, Inc.",
     "sector": "Technology",
     "summary": "Cisco Systems, Inc. designs, develops, and sells technologies that help to power, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company offers data center switching; network security, identity and access management, and secure access service edge; threat intelligence, detection, and response solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network assurance, monitoring and analytics, and observability suite; issue resolution, software support, and hardware replacement; professional services, such as planning, design, implementation, and high-value consulting; service and support packages, financing, and managed network services; and regional, national, and international wireline carriers, webscale products, internet, and cable. It also delivers connectivity to campus, data center, and branch networks; wireless products, including indoor and outdoor wireless coverage designed for seamless roaming use of voice, video, and data applications; end-to-end collaboration solutions through cloud, on-premise, or within hybrid cloud environments, transition collaboration solutions from on-premise to the cloud; and network assurance, monitoring and analytics, and observability suite. In addition, it offers technical support and advisory services. The company serves businesses, public institutions, governments, and service providers. It sells its products and services directly, through systems integrators, service providers, resellers, and distributors. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.",
@@ -1463,14 +1485,14 @@
     "website": "https://www.federalrealty.com"
   },
   "FTI": {
-    "_ts": 1776526513.6243865,
+    "_ts": 1783957998.4235253,
     "country": "United Kingdom",
-    "employees": 21975,
+    "employees": 22000,
     "industry": "Oil & Gas Equipment & Services",
-    "marketCap": 28225308672,
+    "marketCap": 29226842112,
     "name": "TechnipFMC plc",
     "sector": "Energy",
-    "summary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation. It provides subsea production systems; subsea processing systems; subsea umbilicals, risers and flowlines; vessels; drilling, installation, and intervention and plug and abandonment; maintenance, asset integrity, and production management; robotics; and subsea studio digital platform. The Surface Technologies segment designs, manufactures, and services products and systems used in land and shallow water exploration and production of oil and natural gas. This segment offers drilling; surface wellheads and production trees systems; iComplete, a pressure control system; fracturing tree systems, fracturing valve greasing systems, hydraulic or electric control units, service-less valves, fracturing manifold systems, and rigid and flexible flowlines; flexible pipes; safety and integrity systems, multiphase meter modules, in-line separation and processing systems, compact ball valves for manifolds, and standard pumps; well control and integrity systems; and skid solutions. It also offers planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservation, intervention, integrity, decommissioning, and abandonment; and supplies flowline products and services. TechnipFMC plc was founded in 1884 and is headquartered in Newcastle Upon Tyne, the United Kingdom.",
+    "summary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation. It provides subsea production systems; subsea processing systems; subsea umbilicals, risers and flowlines; vessels; drilling, installation, and intervention and plug and abandonment; maintenance, asset integrity, and production management; robotics; and subsea studio digital platform. The Surface Technologies segment designs, manufactures, and services products and systems used in land and shallow water exploration and production of oil and natural gas. This segment offers drilling; surface wellheads and production trees systems; iComplete, a pressure control system; fracturing tree systems, fracturing valve greasing systems, hydraulic or electric control units, service-less valves, fracturing manifold systems, and rigid and flexible flowlines; flexible pipes; safety and integrity systems, multiphase meter modules, in-line separation and processing systems, compact ball valves for manifolds, and standard pumps; well control and integrity systems; and skid solutions. It also offers planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservation, intervention, integrity, decommissioning, and abandonment; and supplies flowline products and services. TechnipFMC plc was founded in 1884 and is headquartered in Newcastle upon Tyne, the United Kingdom.",
     "website": "https://www.technipfmc.com"
   },
   "FTNT": {
@@ -1892,14 +1914,14 @@
     "website": "https://www.invesco.com/corporate/en/home.html"
   },
   "JAZZ": {
-    "_ts": 1778508325.5744824,
+    "_ts": 1783957992.357885,
     "country": "Ireland",
     "employees": 2890,
     "industry": "Biotechnology",
-    "marketCap": 14245129216,
+    "marketCap": 15002121216,
     "name": "Jazz Pharmaceuticals plc",
     "sector": "Healthcare",
-    "summary": "Jazz Pharmaceuticals plc identifies, develops, and commercializes pharmaceutical products in the United States, Europe, and internationally. The company offers Xywav to treat cataplexy or excessive daytime sleepiness (EDS) with narcolepsy and idiopathic hypersomnia (IH); Epidiolex for seizures associated with Lennox-Gastaut syndrome (LGS), Dravet syndrome (DS), or tuberous sclerosis complex (TSC); Rylaze for the treatment of acute lymphoblastic leukemia or lymphoblastic lymphoma; Enrylaze to treat acute lymphoblastic leukemia and lymphoblastic lymphoma; Zepzelca for the treatment of metastatic small cell lung cancer with disease progression on or after platinum-based chemotherapy; Ziihera to treat HER2-positive biliary tract cancers; Modeyso for the treatment of diffuse midline glioma harboring an H3 K27M mutation; and Defitelio to treat severe veno-occlusive disease. It also develops Zanidatamab in Phase 3 trial to treat HER2-positive gastroesophageal adenocarcinoma (GEA) and biliary tract cancers (BTC); Dordaviprone to treat H3 K27M-mutant diffuse glioma; and Vyxeos for the treatment of newly-diagnosed therapy-related acute myeloid leukemia. In addition, the company is developing Zanidatamab to treat neoadjuvant and adjuvant breast cancer; Vyxeos for the treatment of High-risk MDS, newly diagnosed untreated patients with high-risk AML, and De novo intermediate or adverse risk AML stratified by genomics; and JZP3507 to treat pheochromocytoma and paraganglioma that are in Phase 2 clinical trials. Further, it develops JZP815 to treat Raf and Ras mutant tumors; JZP898 for the IFN INDUKIN molecule in solid tumors; and JZP047 to treat absence epilepsy that are in Phase 1 clinical trials. The company has licensing and collaboration agreements with Redx Pharma plc, Autifony Therapeutics Limited, Zymeworks Inc., Sumitomo Pharma Co., Ltd., and Werewolf Therapeutics, Inc. Jazz Pharmaceuticals plc was founded in 2003 and is headquartered in Dublin, Ireland.",
+    "summary": "Jazz Pharmaceuticals plc identifies, develops, and commercializes pharmaceutical products in the United States, Europe, and internationally. The company offers Xywav to treat cataplexy or excessive daytime sleepiness (EDS) with narcolepsy and idiopathic hypersomnia (IH); Epidiolex for seizures associated with Lennox-Gastaut syndrome (LGS), Dravet syndrome (DS), or tuberous sclerosis complex (TSC); Rylaze for the treatment of acute lymphoblastic leukemia or lymphoblastic lymphoma; Enrylaze to treat acute lymphoblastic leukemia and lymphoblastic lymphoma; Zepzelca for the treatment of metastatic small cell lung cancer with disease progression on or after platinum-based chemotherapy; Ziihera to treat HER2-positive biliary tract cancers; Modeyso for the treatment of diffuse midline glioma harboring an H3 K27M mutation; and Defitelio to treat severe veno-occlusive disease. It also develops Zanidatamab in Phase 3 trial to treat HER2-positive gastroesophageal adenocarcinoma (GEA) and biliary tract cancers (BTC); Dordaviprone to treat H3 K27M-mutant diffuse glioma; and Vyxeos for the treatment of newly-diagnosed therapy-related acute myeloid leukemia. In addition, the company is developing Zanidatamab to treat neoadjuvant and adjuvant breast cancer; Vyxeos for the treatment of High-risk MDS, newly diagnosed untreated patients with high-risk AML, and De novo intermediate or adverse risk AML stratified by genomics; and JZP3507 to treat pheochromocytoma and paraganglioma that are in Phase 2 clinical trials. Further, it develops JZP815 to treat Raf and Ras mutant tumors; JZP898 for the IFN INDUKIN molecule in solid tumors; and JZP047 to treat absence epilepsy that are in Phase 1 clinical trials. The company collaboration agreements with Redx Pharma plc, Autifony Therapeutics Limited, Zymeworks Inc., Sumitomo Pharma Co., Ltd., Werewolf Therapeutics, Inc; and AbCellera Biologics Inc. Jazz Pharmaceuticals plc was founded in 2003 and is headquartered in Dublin, Ireland.",
     "website": "https://www.jazzpharma.com"
   },
   "JBHT": {
@@ -2464,11 +2486,11 @@
     "website": "https://www.mastec.com"
   },
   "MU": {
-    "_ts": 1781273870.707508,
+    "_ts": 1783958000.1050627,
     "country": "United States",
     "employees": 53000,
     "industry": "Semiconductors",
-    "marketCap": 1141514829824,
+    "marketCap": 1054491803648,
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
     "summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
@@ -3201,11 +3223,11 @@
     "website": "https://www.sigmalithiumresources.com"
   },
   "SIRI": {
-    "_ts": 1780410971.7163908,
+    "_ts": 1783957992.357885,
     "country": "United States",
     "employees": 5119,
     "industry": "Entertainment",
-    "marketCap": 9647526912,
+    "marketCap": 10463830016,
     "name": "Sirius XM Holdings Inc.",
     "sector": "Communication Services",
     "summary": "Sirius XM Holdings Inc. operates as an audio entertainment company in North America. It operates through two segments, Sirius XM, and Pandora and Off-platform. The Sirius XM segment provides music, sports, entertainment, comedy, and talk and news channels, as well as podcast and infotainment services on subscription fee basis; and live, curated, and exclusive and on demand programming services through satellite radio systems and streamed through applications for mobile and home devices, and other consumer electronic equipment. This segment also distributes satellite radios through automakers and retailers, as well as its website; offers advertising other ancillary services; sells radios and accessories; and offers location-based services through two-way wireless connectivity, including safety, security, convenience, maintenance and data, remote vehicles diagnostic, and stolen or parked vehicle locator services, as well as data services related to graphical weather and fuel prices. In addition, this segment provides music channels on the DISH Network satellite television service as a programming package; Travel Link, a suite of data services that include graphical weather, fuel prices, sports schedule and scores, and movie listings; graphic information related to road closings, traffic flow, and incident data for consumers with in-vehicle navigation systems; real-time weather services in vehicles, boats, and planes; music programming and commercial-free music services for office, restaurants, and other business; and wireless communications service. The Pandora and Off-platform segment operates music, comedy, and podcast streaming platform, which offers personalized experience for listener through mobile devices, vehicle speakers, and connected devices; and provides advertising services. The company was incorporated in 2013 and is headquartered in New York.",
