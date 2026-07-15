@@ -1,10 +1,10 @@
-ELVN|sepa_vcp 8 · +power_play · Entry 7 · Lead 11 · Tight 2/3 · RSpct 90 · Health Care · RS +102
-DAVE|sepa_vcp 8 · Entry 4 · Lead 10 · Tight 1/3 · RSpct 85 · RS +65
-IDA|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 63 · Utilities · RS +11
-NLY|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 64 · Real Estate · RS +12
-CLH|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 62 · Industrials · RS +10
-AGNC|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 67 · Real Estate · RS +16
-PNW|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 3/5 · RSpct 55 · Utilities · Earn 15d · RS +2
-FTI|sepa_vcp 7 · Entry 4 · Lead 8 · Tight 0/3 · RSpct 89 · Energy · RS +93
-MIRM|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 0/3 · Fund 2/5 · RSpct 90 · RS +102
-IVT|sepa_vcp 6 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 64 · Real Estate · RS +13
+ELVN|sepa_vcp 8 · +power_play · Entry 7 · Lead 11 · Tight 2/3 · RSpct 92 · Health Care · RS +118
+IVT|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 66 · Real Estate · RS +15
+ACHC|sepa_vcp 7 · +power_play · Entry 4 · Lead 10 · Tight 2/3 · RSpct 63 · Health Care · RS +11
+BURL|sepa_vcp 6 · +power_play · Entry 6 · Lead 6 · Tight 1/3 · Fund 2/5 · RSpct 65 · Consumer Discretionary · Earn 31d · RS +14
+ALKS|sepa_vcp 6 · +power_play · Entry 5 · Lead 8 · Tight 0/3 · Fund 2/5 · RSpct 82 · Health Care · RS +51
+GWW|sepa_vcp 6 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 61 · Industrials · RS +9
+DYN|sepa_vcp 6 · Entry 4 · Lead 9 · Tight 1/3 · Fund 1/5 · RSpct 94 · RS +164
+BFLY|sepa_vcp 6 · Entry 4 · Lead 7 · Tight 1/3 · Fund 3/5 · RSpct 98 · Health Care · Earn 12d · RS +301
+AHR|sepa_vcp 6 · Entry 4 · Lead 7 · Tight 2/3 · RSpct 72 · Earn 16d · RS +28
+VTR|sepa_vcp 6 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 70 · Real Estate · RS +23

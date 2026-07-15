@@ -110,11 +110,11 @@
     "website": "https://www.adm.com"
   },
   "AEHR": {
-    "_ts": 1781273870.707508,
+    "_ts": 1784127155.882447,
     "country": "United States",
     "employees": 136,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 3411419904,
+    "marketCap": 2950000640,
     "name": "Aehr Test Systems, Inc.",
     "sector": "Technology",
     "summary": "Aehr Test Systems, Inc. provides test solutions for testing, burning-in, and semiconductor devices in wafer level, singulated die, package part form, and installed systems in the United States, Asia, and Europe. Its product portfolio includes FOX-XP and FOX-NP systems that are full wafer contact and singulated die/module test and burn-in systems that test, burn-in, and stabilize range of devices, including silicon carbide-based and other power semiconductors, 2D, and 3D sensors used in mobile phones, tablets and other computing devices, memory semiconductors, processors, microcontrollers, systems-on-a-chip, and photonics and integrated optical devices. The company offers FOX-CP system, a low-cost single-wafer compact test solution for logic, memory, and photonic devices; and FOX WaferPak Contactor, a full wafer contactor capable of testing wafers up to 300mm that enables integrated circuit manufacturers to perform test, burn-in, and stabilization of full wafers on the FOX-P systems. In addition, it provides FOX DiePak Carrier, which allows testing, burning in, and stabilization of singulated bare die and modules; and FOX DiePak Loader. The company was incorporated in 1977 and is headquartered in Fremont, California.",
@@ -174,6 +174,17 @@
     "sector": "Industrials",
     "summary": "Argan, Inc., through its subsidiaries, provides engineering, procurement, construction, commissioning, maintenance, project development, and technical consulting services to the power generation market in the United States, Republic of Ireland, and the United Kingdom. It operates through three segments: Power, Industrial, and Teledata. Its Power segment offers engineering, procurement, and construction, as well as designing, building, and commissioning of large-scale energy projects; and design, construction, project management, start-up, and operation, as well as provides technical consulting services; and turbine, boiler, and large rotating equipment. This segment serves independent power producers, public utilities, power plant equipment suppliers, and other commercial firms. The company's Industrial segment provides field services that support new plant construction and additions; maintenance turnarounds; shutdowns and emergency mobilizations for industrial plants; and fabricates, delivers, and installation of metal components, such as piping systems and pressure vessels. Its Teledata segment offers trenchless directional boring and excavation for underground communication and power networks; aerial cabling; high and low voltage electric lines; and private area outdoor lighting systems, as well as installs buried cable. It also provides structured cabling, terminations, and connectivity that offers the physical transport for high-speed data, voice, video, and security networks; and utility construction services and comprehensive technology wiring solutions. This segment serves electricity cooperative, state and federal government agencies, counties and municipalities, and technology-oriented government contracting firms, as well as customers in the mid-Atlantic region of the United States. Argan, Inc. was incorporated in 1961 and is headquartered in Arlington, Virginia.",
     "website": "https://www.arganinc.com"
+  },
+  "AHR": {
+    "_ts": 1784127153.867274,
+    "country": "United States",
+    "employees": 121,
+    "industry": "REIT - Healthcare Facilities",
+    "marketCap": 11274634240,
+    "name": "American Healthcare REIT, Inc.",
+    "sector": "Real Estate",
+    "summary": "American Healthcare REIT, Inc., a Maryland-based self-managed REIT, owns and operates a diversified portfolio of clinical healthcare real estate across the U.S., U.K., and the Isle of Man. Its focus includes senior housing, skilled nursing facilities (SNFs), outpatient medical (OM) buildings, and other healthcare-related properties. The company utilizes a fully integrated management platform and operates senior housing under the RIDEA structure. In addition to owning and operating properties, it has originated and acquired secured loans and may pursue other real estate-related investments opportunistically. The REIT seeks income-generating assets and selectively develops healthcare properties. It has elected to be taxed as a REIT under the U.S. Internal Revenue Code and intends to maintain compliance with REIT requirements. American Healthcare REIT, Inc. is based in Irvine, United States.",
+    "website": "https://www.americanhealthcarereit.com"
   },
   "AIR": {
     "_ts": 1783613177.0435069,
@@ -594,11 +605,11 @@
     "website": "https://www.brightspringhealth.com"
   },
   "BURL": {
-    "_ts": 1776524226.5328085,
+    "_ts": 1784127144.4491315,
     "country": "United States",
     "employees": 17495,
     "industry": "Apparel Retail",
-    "marketCap": 21818441728,
+    "marketCap": 21555181568,
     "name": "Burlington Stores, Inc.",
     "sector": "Consumer Cyclical",
     "summary": "Burlington Stores, Inc. operates as a retailer of branded merchandise in the United States and Puerto Rico. The company offers fashion-focused merchandise, including women's ready-to-wear apparel, menswear, youth apparel, footwear, accessories, home furnishings, toys, gifts, and coats, as well as baby and beauty merchandise products. It operates stores under the Burlington Stores, and Cohoes Fashions brands in Washington D.C. and Puerto Rico. The company was founded in 1972 and is headquartered in Burlington, New Jersey.",
@@ -823,6 +834,17 @@
     "sector": "Healthcare",
     "summary": "Centessa Pharmaceuticals plc, together with its subsidiaries, discovers, develops, and delivers orexin-based neuroscience therapeutics in the United Kingdom and the United States. The company develops ORX750, an orexin receptor 2 agonist, which is in Phase IIa clinical trial for the treatment of central disorders of hypersomnolence, including narcolepsy type 1 and 2, as well as idiopathic hypersomnia. It also engages in the development of ORX142 which is in Phase I clinical trial for the treatment of neurological and neurodegenerative disorders; ORX489 which is in Phase I clinical trial for the treatment of neuropsychiatric disorders; and LockBody, an early-stage immuno-oncology program technology platform. The company was incorporated in 2020 and is headquartered in Altrincham, the United Kingdom.",
     "website": "https://centessa.com"
+  },
+  "COGT": {
+    "_ts": 1784127144.4491315,
+    "country": "United States",
+    "employees": 258,
+    "industry": "Biotechnology",
+    "marketCap": 6605756928,
+    "name": "Cogent Biosciences, Inc.",
+    "sector": "Healthcare",
+    "summary": "Cogent Biosciences, Inc., a clinical-stage biotechnology company, focuses on developing precision therapies for genetically defined diseases. Its lead product candidate includes bezuclastinib (CGT9486), a selective tyrosine kinase inhibitor in Phase 3 trial designed to target mutations within the KIT receptor tyrosine kinase, including KIT D816V mutation that drives systemic mastocytosis, as well as other mutations in KIT exon 17, which are found in patients with advanced gastrointestinal stromal tumors. The company also develops CGT4859, a reversible and selective fibroblast growth factor receptor 2 inhibitor in Phase 1 trial for patients with documented FGFR mutations, including advanced cholangiocarcinoma; CGT4255, a novel ErbB2 mutant program, which is focused on actionable and underserved mutations in a solid tumor systemic and CNS involved indications; and CGT6297, a Novel PI3Ka mutant-selective inhibitor. It has a licensing agreement with Plexxikon Inc. for the research, development, and commercialization of bezuclastinib. Cogent Biosciences, Inc. is headquartered in Waltham, Massachusetts.",
+    "website": "https://www.cogentbio.com"
   },
   "COHR": {
     "_ts": 1780668809.0295565,
@@ -1099,6 +1121,17 @@
     "summary": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements and offers payment and consumption solutions and services, such utility, subscription, as-a-service, leases, and loans, as well as fixed-term leases and loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in March 2013. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas.",
     "website": "https://www.dell.com"
   },
+  "DFTX": {
+    "_ts": 1784127155.882447,
+    "country": "United States",
+    "employees": 105,
+    "industry": "Biotechnology",
+    "marketCap": 6072339968,
+    "name": "Definium Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Definium Therapeutics, Inc., a clinical biopharmaceutical company, develops novel product candidates to treat brain health disorders. The company's lead product candidates DT120, which is in phase 3 for the treatment of generalized anxiety disorder, major depressive disorder, and other brain health disorders; and DT402, a R-enantiomer of 3,4-methylenedioxymethamphetamine, which is in phase 2a clinical trials for the treatment of autism spectrum disorder. The company was formerly known as Mind Medicine (MindMed) Inc. and changed its name to Definium Therapeutics, Inc. in January 2026. Definium Therapeutics, Inc. is headquartered in New York, New York.",
+    "website": "https://definiumtx.com"
+  },
   "DINO": {
     "_ts": 1779718269.5939367,
     "country": "United States",
@@ -1132,6 +1165,17 @@
     "summary": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics. The Refining segment processes crude oil and other feedstock for the manufacture of various grades of gasoline, diesel fuel, aviation fuel, asphalt, and other petroleum-based products that are distributed through owned and third-party product terminals. It owns and operates refineries located in Tyler, Texas; El Dorado, Arkansas; Big Spring, Texas; and Krotz Springs, Louisiana. The Logistics segment gathers, transports, and stores crude oil and natural gas, intermediate, and refined products; and markets, distributes, transports, and stores refined products, as well as disposes and recycles water for third parties. It owns or leases crude oil transportation pipelines, refined product pipelines, crude oil gathering systems, and associated crude oil storage tanks; and owns and operates light product distribution terminals, as well as markets light products using third-party terminals. It serves oil companies, independent refiners and marketers, jobbers, distributors, utility and transportation companies, government, and independent retail fuel operators. Delek US Holdings, Inc. was founded in 2001 and is headquartered in Brentwood, Tennessee.",
     "website": "https://www.delekus.com"
   },
+  "DNTH": {
+    "_ts": 1784127155.882447,
+    "country": "United States",
+    "employees": 92,
+    "industry": "Biotechnology",
+    "marketCap": 5460610048,
+    "name": "Dianthus Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Dianthus Therapeutics, Inc., a clinical-stage biotechnology company, engages in the development of therapies for patients with severe autoimmune diseases. Its lead clinical-stage candidate, claseprubart, a monoclonal antibody engineered with extended half-life, improved potency, and high selectivity for only the active C1s complement protein; and DNTH212, a bifunctional fusion protein that targets plasmacytoid dendritic cell (pDC) BDCA2 to reduce Type 1 interferon production, while simultaneously inhibiting BAFF/APRIL to suppress B cell function. Dianthus Therapeutics, Inc. was founded in 2019 and is headquartered in New York, New York.",
+    "website": "https://dianthustx.com"
+  },
   "DOV": {
     "_ts": 1776526540.22005,
     "country": "United States",
@@ -1155,11 +1199,11 @@
     "website": "https://www.dtmidstream.com"
   },
   "DVA": {
-    "_ts": 1780064162.2107728,
+    "_ts": 1784127144.4491315,
     "country": "United States",
     "employees": 78000,
     "industry": "Medical Care Facilities",
-    "marketCap": 12613636096,
+    "marketCap": 14655361024,
     "name": "DaVita Inc.",
     "sector": "Healthcare",
     "summary": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis dialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado.",
@@ -1175,6 +1219,17 @@
     "sector": "Industrials",
     "summary": "Dycom Industries, Inc. provides specialty contracting services to the digital infrastructure, telecommunications infrastructure, and utility industries in the United States. It operates through Communications and Building Systems segments. The company offers engineering services to telecommunications providers, including the planning and design of aerial, underground, and buried fiber optic, copper, and coaxial cable systems; placement of cables, related structures, and drop lines for telephone companies and cable multiple system operators; program and project management, and inspection personnel; and wireless networks in connection with the deployment of macro cell and new small cell sites. It also provides construction, maintenance, and installation services, such as placement and splicing of copper, fiber, and coaxial cables; tower construction, lines and antenna installation, foundation and equipment pad construction, and small cell site placement for wireless carriers, as well as equipment installation and material fabrication, and site testing services; underground facility locating services, including locating telephone, cable television, power, water, sewer, and gas lines for utility companies; installation and maintenance of customer premise equipment for electric and gas utilities, and other customers. Dycom Industries, Inc. was incorporated in 1969 and is based in West Palm Beach, Florida.",
     "website": "https://www.dycomind.com"
+  },
+  "DYN": {
+    "_ts": 1784127144.4491315,
+    "country": "United States",
+    "employees": 263,
+    "industry": "Biotechnology",
+    "marketCap": 3919589888,
+    "name": "Dyne Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Dyne Therapeutics, Inc., a clinical-stage neuromuscular disease company, focuses on discovering and developing therapeutics for neuromuscular diseases in the United States. The company is developing a portfolio of muscle disease therapeutics, including programs in myotonic dystrophy type 1; duchenne muscular dystrophy; facioscapulohumeral dystrophy; and Pompe disease, as well as rare skeletal muscle, and cardiac and metabolic muscle diseases using its FORCE platform that delivers disease-modifying therapeutics. Dyne Therapeutics, Inc. was incorporated in 2017 and is headquartered in Waltham, Massachusetts.",
+    "website": "https://www.dyne-tx.com"
   },
   "EA": {
     "_ts": 1776526540.22005,
@@ -1219,6 +1274,17 @@
     "sector": "Utilities",
     "summary": "Edison International, through its subsidiaries, engages in the generation and distribution of electric power. The company supplies and delivers through its electrical infrastructure to an approximately 50,000 square-mile area of southern, central, and coastal California. It serves residential, commercial, industrial, public authorities, agricultural, street lighting, and other sectors. The company's distribution network consists of approximately 13,000 circuit-miles of lines ranging from 55 kV to 500 kV and approximately 80 transmission substations; and approximately 38,000 circuit-miles of overhead lines, approximately 32,000 circuit-miles of underground lines, and approximately 730 distribution substations. Edison International was founded in 1886 and is based in Rosemead, California.",
     "website": "https://www.edison.com"
+  },
+  "ELAN": {
+    "_ts": 1784127144.4491315,
+    "country": "United States",
+    "employees": 9400,
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "marketCap": 12795897856,
+    "name": "Elanco Animal Health Incorporated",
+    "sector": "Healthcare",
+    "summary": "Elanco Animal Health Incorporated, an animal health company, innovates, develops, manufactures, and markets products for pets and farm animals worldwide. The company offers pet health products, such as parasiticides, vaccines, and therapeutics that protect pets from fleas, ticks, and internal parasites under the Seresto, K-9 Advantage, Advantix, and Advocate trademarks; prescription parasiticide products, an over-the-counter treatments for the prevention and elimination of fleas and ticks under the Credelio Family, Interceptor Plus, Drontal family, and Drontal Plus; vaccines portfolio that provides differentiated prevention coverage for a number of important pet health risks; and therapeutics portfolio for the treatment of pain, otitis, cardiovascular, and dermatology indications, as well as osteoarthritis for dogs and cats under the Galliprant trademark. It also provides farm animal products that help farmers improve animal health and wellbeing, and raise livestock, such as cattle, swine, and poultry. In addition, the company offers medicated feed additives, injectable antibiotics, vaccines, insecticides and enzymes, and others under the Rumensin, Baytril, and Experior trademarks for cattle; and under the Maxiban and Monteban trademarks for the control and prevention of intestinal disease in poultry. Further, it offers other pet health products for cats and dogs under the Atopica, Milbemax, Onsior, and Tru Family trademarks; and other farm animal products for poultry, cattle, and swine under the AviPro, Catosal, Denagard, Hemicell, Pulmotil, and Surmax tradmarks. The company sells its products to third-party distributors and independent retailers; and directly to farm animal producers and veterinarians. Elanco Animal Health Incorporated was founded in 1954 and is headquartered in Indianapolis, Indiana.",
+    "website": "https://www.elanco.com"
   },
   "ELVN": {
     "_ts": 1783355172.3029957,
@@ -2837,6 +2903,17 @@
     "summary": "Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service edge solution; Strata Cloud Manager, a network security management solution; and Prisma AIRS to protect customers' entire AI ecosystem. It provides a comprehensive cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments. It provides security operation solutions through the Cortex platform that includes Cortex XSIAM, an AI-driven security operations platform; Cortex XDR to prevent, detect, and respond to cybersecurity attacks; and Cortex XSOAR for security orchestration, automation, and response; and Cortex Xpanse for attack surface management, as well as offers threat intelligence and advisory services under the Unit 42 name. It provides subscription services covering the areas of threat prevention, malware and persistent threat, URL filtering, laptop and mobile device protection, DNS security, Internet of Things security, SaaS security API, and SaaS security inline; and threat intelligence, data loss prevention, services to resolve network disruptions, and sensitive data protection. It offers professional services, including architecture design and planning, implementation, configuration, and firewall migration; education services, such as certifications, as well as online and in-classroom training; and support services. It sells its products and services through its channel partners, as well as directly to enterprises, service providers, and government entities operating in various industries, including education, energy, financial services, government entities, healthcare, Internet and media, manufacturing, public sector, and telecommunications. The company was incorporated in 2005 and is headquartered in Santa Clara, California.",
     "website": "https://www.paloaltonetworks.com"
   },
+  "PARR": {
+    "_ts": 1784127144.4491315,
+    "country": "United States",
+    "employees": 1758,
+    "industry": "Oil & Gas Refining & Marketing",
+    "marketCap": 3615402240,
+    "name": "Par Pacific Holdings, Inc.",
+    "sector": "Energy",
+    "summary": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics. The Refining segment owns and operates refineries that convert crude oil into gasoline, distillate, asphalt, and other products. The Retail segment operates convenience stores and fuel retail outlets that sell gasoline, diesel, and retail merchandise, such as soft drinks, prepared food, and other sundries under the Hele, 76, and nomnom brands, as well as unattended cardlock stations. The Logistics segment owns and operates terminals, pipelines, trucking operations, marine vessels, storage facilities, loading and truck racks, and rail facilities for the movement of ethanol, petroleum, and refined products; and a jet fuel storage facility and pipeline that serves Ellsworth Air Force Base in South Dakota. The company also holds interest in crude storage tanks and a crude oil pipeline that provides access to crude oil from power river basin; and refined products pipeline. In addition, it owns and operates a single point mooring, a marine terminal, a unit train-capable rail loading terminal, manifest rail siding, a truck rack, and a proprietary jet fuel pipeline that serves Joint Base Lewis McChord. The company was formerly known as Par Petroleum Corporation and changed its name to Par Pacific Holdings, Inc. in October 2015. Par Pacific Holdings, Inc. was incorporated in 1984 and is headquartered in Houston, Texas.",
+    "website": "https://www.parpacific.com"
+  },
   "PBA": {
     "_ts": 1780497678.3155842,
     "country": "Canada",
@@ -3960,14 +4037,14 @@
     "website": "https://www.viasat.com"
   },
   "VTR": {
-    "_ts": 1779804817.899272,
+    "_ts": 1784127144.4491315,
     "country": "United States",
     "employees": 542,
     "industry": "REIT - Healthcare Facilities",
-    "marketCap": 42909339648,
+    "marketCap": 45052133376,
     "name": "Ventas, Inc.",
     "sector": "Real Estate",
-    "summary": "Ventas, Inc. is a leading S&P 500 real estate investment trust enabling exceptional environments that benefit a large and growing aging population. With approximately 1,400 properties in North America and the United Kingdom, Ventas occupies an essential role in the longevity economy. The Company's growth is fueled by its more than 850 senior housing communities, which provide valuable services to residents and enable them to thrive in supported environments. Ventas aims to deliver outsized performance by leveraging its operational expertise, data-driven insights from its Ventas OI platform, extensive relationships and strong financial position. The Ventas portfolio also includes outpatient medical buildings, research centers and healthcare facilities. Ventas's seasoned team of talented professionals shares a commitment to excellence, integrity and a common purpose of helping people live longer, healthier, happier lives. Ventas, Inc. was incorporated in 1983 and is based in Chicago, United States.",
+    "summary": "Ventas, Inc. is an S&P 500 company enabling exceptional environments that benefit a large and growing aging population. With more than 1,400 properties in North America and the United Kingdom, Ventas occupies an essential role in the longevity economy. The Company's growth is fueled by its approximately 900 senior housing communities, which provide valuable services to residents and enable them to thrive in supported environments. Ventas aims to deliver outsized performance by leveraging its operational expertise, data-driven insights from its Ventas OITM platform, extensive relationships and strong financial position. The Ventas portfolio also includes outpatient medical buildings, research centers and healthcare facilities. Ventas, Inc. was incorporated in 1983 and is based in Chicago, United States. The firm was incorporated in Delaware.",
     "website": "https://www.ventasreit.com"
   },
   "WBD": {
@@ -4013,6 +4090,17 @@
     "sector": "Technology",
     "summary": "Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer manufacturers, sales personnel, dealers, distributors, and retailers. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
     "website": "https://www.westerndigital.com"
+  },
+  "WELL": {
+    "_ts": 1784127144.4491315,
+    "country": "United States",
+    "employees": 712,
+    "industry": "REIT - Healthcare Facilities",
+    "marketCap": 165840470016,
+    "name": "Welltower Inc.",
+    "sector": "Real Estate",
+    "summary": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States, United Kingdom, and Canada. Their portfolio of 2,500+ seniors and wellness housing communities are positioned at the intersection of housing and hospitality, creating vibrant communities for mature renters and older adults. They believe our real estate portfolio is unmatched, located in highly attractive micro markets with stunning built environments. Yet, Welltower is an unusual real estate organization as they view themselves as an operating company in a real estate wrapper, driven by highly aligned partnerships and an unconventional culture. Through their disciplined approach to capital allocation powered by their Data Science platform and superior operating results driven by the Welltower Business System - their end-to-end operating platform - they aspire to deliver long-term compounding of per share growth for their existing investors, North Star. Welltower Inc. was incorporated in 1970 in Delaware and is based in Toledo, Ohio.",
+    "website": "https://www.welltower.com"
   },
   "WFRD": {
     "_ts": 1776951767.0232048,
