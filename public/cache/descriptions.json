@@ -2595,6 +2595,17 @@
     "summary": "Murphy Oil Corporation, together with its subsidiaries, operates as an oil and gas exploration and production company in the United States, Canada, and internationally. It explores for and produces crude oil, natural gas, and natural gas liquids. Murphy Oil Corporation was formerly known as Murphy Corporation and changed its name to Murphy Oil Corporation in 1964. The company was incorporated in 1950 and is headquartered in Houston, Texas.",
     "website": "https://www.murphyoilcorp.com"
   },
+  "MUSA": {
+    "_ts": 1784299645.5127728,
+    "country": "United States",
+    "employees": 5900,
+    "industry": "Specialty Retail",
+    "marketCap": 11413959680,
+    "name": "Murphy USA Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Murphy USA Inc., together with subsidiaries, engages in marketing of retail motor fuel products and convenience merchandise. The company operates retail stores under the Murphy USA, Murphy Express, and QuickChek brands, as well as operates non-fuel convenience stores. It operates retail gasoline stores principally in the Southeast, Southwest, and Midwest areas of the United States. Murphy USA Inc. was founded in 1996 and is headquartered in El Dorado, Arkansas.",
+    "website": "https://www.murphyusa.com"
+  },
   "MXL": {
     "_ts": 1782914321.7334335,
     "country": "United States",
@@ -3134,6 +3145,17 @@
     "summary": "Patterson-UTI Energy, Inc., through its subsidiaries, provides drilling and completion services to oil and natural gas exploration and production companies in the United States, Canada, Colombia, and internationally. It operates through three segments: Drilling Services, Completion Services, and Drilling Products. The Contract Drilling Services segment engages in the provision of contract and directional drilling, and measurement-while-drilling (MWD) services in onshore oil and natural gas basins; supply and rental of downhole performance motors, such as Mpact drilling motors, and Mpower MWD systems; electrical controls and automation to the energy, marine, and mining industries; rig fleet evaluation; and drilling technology service. This segment also provides software and services, such as MWD Survey Fault Detection, Isolation and Recovery (FDIR) services, a data analytics technology to analyze MWD survey data in real-time and identify the position of a well; HiFi Nav, which enhances FDIR by targeting improved vertical placement of the directional well within the reservoir; and HiFi Guidance that utilizes trajectory optimization to determine optimal steering recommendations and placement within the reservoir. The Completion Services segment offers services for hydraulic fracturing, wireline and pumping, completion support, equipment, materials, and cementing, as well as involved in the power solutions natural gas fueling, and last mile logistics and storage businesses. The Drilling Products segment engages in the design, manufacture, sale, and rental of matrix and steel-bodied polycrystalline diamond compact drill bits. It also rents oilfield tools; and offers specialized services for land-based oil and natural gas drilling, completion, and workover activities. The company was founded in 1978 and is headquartered in Houston, Texas.",
     "website": "https://www.patenergy.com"
   },
+  "PTGX": {
+    "_ts": 1784299645.5127728,
+    "country": "United States",
+    "employees": 131,
+    "industry": "Biotechnology",
+    "marketCap": 8887831552,
+    "name": "Protagonist Therapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Protagonist Therapeutics, Inc. operates as a discovery and development company in the United States. It develops Icotyde, a first-in-class investigational targeted oral peptide for the treatment of adults and pediatric patients 12 years of age and older with moderate-to-severe plaque psoriasis; and Rusfertide, a first-in-class investigational injectable mimetic of the natural hormone hepcidin in Phase 3 development for the treatment of the rare blood disorder polycythemia vera. The company is also developing PN-881, a potential best-in-class oral peptide IL-17 antagonist, for the treatment of immune-mediated skin diseases in Phase 1 clinical trials; PN-477 and PN-458, which are development candidates for the treatment of obesity; PN-8047, an orally administered hepcidin functional mimetic small molecule; L-4R alpha antagonist for the treatment of atopic dermatitis and moderate-to-severe asthma; and amylinR-based oral and subcutaneous mono- and poly-agonists for the treatment of obesity. Protagonist Therapeutics, Inc. was incorporated in 2006 and is headquartered in Newark, California.",
+    "website": "https://www.protagonist-inc.com"
+  },
   "PWR": {
     "_ts": 1779115334.0604603,
     "country": "United States",
@@ -3221,6 +3243,17 @@
     "sector": "Consumer Cyclical",
     "summary": "Ralph Lauren Corporation designs, markets, and distributes lifestyle products in North America, Europe, Asia, and internationally. The company offers apparel, including a range of men's, women's, and children's clothing; footwear and accessories, which comprise casual shoes, dress shoes, boots, sneakers, sandals, eyewear, watches, fashion and fine jewelry, scarves, hats, gloves, and umbrellas, as well as leather goods comprising handbags, luggage, small leather goods, and belts; home products, such as bed and bath lines, furniture, fabric and wall coverings, lighting, dining, floor coverings, decorative accessories, and giftware; and fragrances. The company sells apparel and accessories under the Ralph Lauren Collection, Ralph Lauren Purple Label, Polo Ralph Lauren, Double RL, Lauren Ralph Lauren, RLX Ralph Lauren, Polo Ralph Lauren Children, and Chaps brands; women's fragrances under the Ralph Lauren Collection, Woman by Ralph Lauren, Romance Collection, and Ralph Collection brand names; and men's fragrances under the Ralph's Club, Purple Label, Polo Blue, Polo Red, Polo Green, Polo Black, Polo 67, Safari, Polo Sport, and Big Pony Men's brand names. Its restaurant collection includes The Polo Bar in New York City; RL Restaurant in Chicago; Ralph's in Paris; The Bar at Ralph Lauren located in Milan; Ralph's Bar located in Chengdu, China; and Ralph's Coffee concept. The company sells its products to department stores, specialty stores, and golf and pro shops, as well as directly to consumers through its retail stores, concession-based shop-within-shops, and its digital commerce sites. It operates retail stores and concession-based shop-within-shops; and operates Ralph Lauren stores and shops through licensing partners. Ralph Lauren Corporation was founded in 1967 and is based in New York, New York.",
     "website": "https://www.ralphlauren.com"
+  },
+  "ROIV": {
+    "_ts": 1784299569.3053796,
+    "country": "United Kingdom",
+    "employees": 721,
+    "industry": "Biotechnology",
+    "marketCap": 24922720256,
+    "name": "Roivant Sciences Ltd.",
+    "sector": "Healthcare",
+    "summary": "Roivant Sciences Ltd., a clinical-stage biopharmaceutical company, focuses on the discovery, development, and commercialization of medicines and technologies. Its clinical product candidates include IMVT-1402, a fully human monoclonal antibody targeting FcRn in development across several IgG-mediated autoimmune indications; mosliciguat, an inhaled sGC activator in development for pulmonary hypertension associated with interstitial lung disease; neonatal fragment crystallizable receptor for the treatment of graves' disease, difficult-to-treat rheumatoid arthritis, sj\u00f6gren's disease, myasthenia gravis, chronic inflammatory demyelinating polyneuropathy, and cutaneous lupus erythematosus indications; batoclimab, a fully human monoclonal antibody for the treatment of thyroid eye disease; and brepocitinib, a potent small molecule inhibitor of TYK2 and JAK1 in development for the treatment of dermatomyositis, non-infectious uveitis, cutaneous sarcoidosis, and other immune-mediated diseases. The company's lead program consists of mosliciguat, an inhaled sGC activator for the treatment of pulmonary hypertension associated with interstitial lung disease and other cardiopulmonary diseases. In addition, the company offers delivery platforms comprising a lipid nanoparticle (LNP) platform and a ligand conjugate platform. Roivant Sciences Ltd. was founded in 2014 and is based in London, United Kingdom.",
+    "website": "https://roivant.com"
   },
   "ROK": {
     "_ts": 1781273864.7159073,
@@ -3872,11 +3905,11 @@
     "website": "https://www.ul.com"
   },
   "UMBF": {
-    "_ts": 1781536729.891409,
+    "_ts": 1784299647.1910708,
     "country": "United States",
     "employees": 5222,
     "industry": "Banks - Regional",
-    "marketCap": 10268524544,
+    "marketCap": 11140761600,
     "name": "UMB Financial Corporation",
     "sector": "Financial Services",
     "summary": "UMB Financial Corporation operates as a bank holding company that provides banking services and asset servicing in the United States and internationally. The company operates through three segments: Commercial Banking, Institutional Banking, and Personal Banking. The Commercial Banking segment provides commercial loans and credit cards; commercial real estate financing; letters of credit; loan syndication, and consultative services; various business solutions including asset-based lending, mezzanine debt, and minority equity investment; and treasury management service, such as depository service, account reconciliation, cash management tool, accounts payable and receivable solution, electronic fund transfer and automated payment, controlled disbursement, lockbox service, and remote deposit capture service. The Institutional Banking segment offers banking, fund, asset management, and healthcare services to institutional clients; fund administration and accounting, investor services and transfer agency, alternative investment services, fixed income sales, trading and underwriting, and corporate trust and escrow services, as well as institutional custody services. This segment also provides healthcare payment solutions, including custodial service for health saving accounts and private label, multipurpose debit cards to insurance carriers, third-party administrators, software companies, employers, and financial institutions. The Personal Banking segment offers deposit account, retail credit card, private banking, installment loan, home equity line of credit, residential mortgage, as well as internet banking, ATM network, private banking, brokerage and insurance service, and investment advisory, trust, and custody services. It operates through a network of branches and offices. The company was founded in 1913 and is headquartered in Kansas City, Missouri.",
