@@ -1,10 +1,7 @@
-ELVN|power_play 8 · Entry 5 · Lead 10 · Tight 1/3 · RSpct 91 · Health Care · RS +111
-FTNT|power_play 8 · Entry 4 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 75 · Technology · RS +35
-JAZZ|power_play 7 · +sepa_vcp · Entry 7 · Lead 8 · Tight 2/3 · Fund 4/5 · RSpct 90 · Health Care · RS +98
-IMVT|power_play 7 · +sepa_vcp · Entry 6 · Lead 9 · Tight 1/3 · RSpct 91 · Health Care · RS +104
-AIZ|power_play 7 · +sepa_vcp · Entry 6 · Lead 6 · Tight 2/3 · RSpct 73 · Financials · RS +30
-KYMR|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 1/3 · Fund 3/5 · RSpct 92 · Health Care · Earn 15d · RS +129
-RLAY|power_play 7 · +sepa_vcp · Entry 5 · Lead 9 · Tight 1/3 · RSpct 99 · RS +437
-OUT|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 87 · Real Estate · RS +75
-MAC|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 78 · Real Estate · RS +41
-MSM|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 73 · Industrials · RS +28
+DDOG|power_play 8 · +sepa_vcp · Entry 4 · Lead 9 · Tight 1/3 · Fund 3/5 · RSpct 87 · RS +59
+EIX|power_play 7 · Entry 4 · Lead 7 · Tight 2/3 · RSpct 81 · Utilities · RS +40
+XENE|power_play 6 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 93 · RS +90
+NTAP|power_play 6 · Entry 5 · Lead 7 · Tight 0/3 · Fund 1/5 · RSpct 77 · RS +37
+DFTX|power_play 6 · Entry 4 · Lead 9 · Tight 0/3 · RSpct 99 · Health Care · RS +318
+GEO|power_play 6 · Entry 4 · Lead 8 · Tight 1/3 · Fund 3/5 · RSpct 59 · Industrials · RS +7
+SBRA|power_play 6 · +sepa_vcp · Entry 4 · Lead 6 · Tight 0/3 · Fund 2/5 · RSpct 58 · RS +7
