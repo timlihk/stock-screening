@@ -550,11 +550,11 @@
     "website": ""
   },
   "BNS": {
-    "_ts": 1780064162.2107728,
+    "_ts": 1784732640.082939,
     "country": "Canada",
     "employees": 80415,
     "industry": "Banks - Diversified",
-    "marketCap": 97276870656,
+    "marketCap": 107337334784,
     "name": "The Bank of Nova Scotia",
     "sector": "Financial Services",
     "summary": "The Bank of Nova Scotia provides various banking products and services in Canada, the United States, Mexico, Peru, Chile, Colombia, the Caribbean and Central America, and internationally. It operates through Canadian Banking, International Banking, Global Wealth Management, and Global Banking and Markets segments. The company offers financial advice and solutions, and banking products, including debit and credit cards, chequing and saving accounts, investments, mortgages, loans, and insurance to individuals; and retail automotive financing solutions. It also provides business banking solutions comprising lending, deposit, cash management, and trade finance solutions to small, medium, and large businesses. In addition, it provides wealth management advice and solutions, including online brokerage, mobile investment, full-service brokerage, trust, private banking, and private investment counsel services; and retail mutual funds, exchange traded funds, liquid alternatives, and institutional funds. The company was founded in 1832 and is headquartered in Toronto, Canada.",
@@ -702,6 +702,17 @@
     "sector": "Healthcare",
     "summary": "Celcuity Inc., a clinical-stage biotechnology company, focuses on the development of targeted therapies for the treatment of various solid tumors in the United States. The company's lead drug candidate includes Gedatolisib, which selectively targets various Class I isoforms of phosphatidylinositol-3-kinase (PI3K) and the two mechanistic targets of rapamycin (mTOR) sub-complexes, mTORC1 and mTORC2 to treat patients with hormone receptor positive (HR+), human epidermal growth factor receptor 2 negative (HER2-) or HR+/HER2-, advanced or metastatic breast cancer (ABC), and patients with metastatic castration resistant prostate cancer (mCRPC). The company had a license agreement with Pfizer Inc. for the development and commercialization rights to Gedatolisib. Celcuity Inc. was incorporated in 2011 and is based in Minneapolis, Minnesota.",
     "website": "https://www.celcuity.com"
+  },
+  "CF": {
+    "_ts": 1784732640.082939,
+    "country": "United States",
+    "employees": 2900,
+    "industry": "Agricultural Inputs",
+    "marketCap": 19381870592,
+    "name": "CF Industries Holdings, Inc.",
+    "sector": "Basic Materials",
+    "summary": "CF Industries Holdings, Inc., together with its subsidiaries, engages in the production of ammonia in North America, Europe, and internationally. It operates through Ammonia, Granular Urea, UAN, AN, and Other segments. The company offers ammonia products; nitrogen products, such as granular urea, urea ammonium nitrate solution, and ammonium nitrate; diesel exhaust fluid, urea liquor, and nitric acid products. It serves cooperatives, retailers, independent fertilizer distributors, traders, wholesalers, and industrial users. The company was founded in 1946 and is headquartered in Northbrook, Illinois.",
+    "website": "https://www.cfindustries.com"
   },
   "CGNX": {
     "_ts": 1780410971.7163908,
@@ -1913,6 +1924,17 @@
     "summary": "Inhibrx Biosciences, Inc., a clinical-stage biopharmaceutical company, engages in the development of biologic therapeutics for people with life-threatening conditions. Its therapeutic candidates include INBRX-109, which is in phase 1, a tetravalent therapeutic candidate targeting death-receptor 5 to treat unresectable or metastatic conventional chondrosarcoma; and INBRX-106, a hexavalent sdAb-based therapeutic candidate targeting OX4 for the treatment of metastatic solid tumor, non-small cell lung cancer, melanoma, head non-small cell lung cancer cell carcinoma, gastric or gastroesophageal junction adenocarcinoma, renal cell carcinoma, and urothelial cell carcinoma. Inhibrx Biosciences, Inc. was incorporated in 2024 and is based in La Jolla, California.",
     "website": "https://inhibrx.com"
   },
+  "INCY": {
+    "_ts": 1784732640.082939,
+    "country": "United States",
+    "employees": 2844,
+    "industry": "Biotechnology",
+    "marketCap": 23479398400,
+    "name": "Incyte Corporation",
+    "sector": "Healthcare",
+    "summary": "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan. The company offers JAKAFI for the treatment of myelofibrosis (MF), polycythemia vera, and steroid-refractory acute graft-versus-host disease; ICLUSIG, a kinase inhibitor to treat chronic myeloid leukemia and Philadelphia-chromosome positive acute lymphoblastic leukemia; MONJUVI/ MINJUVI for the treatment of diffuse large B-cell lymphoma and Follicular Lymphoma; NIKTIMVO for the treatment of chronic graft-versus-host disease. It also provides INCA033989 for the treatment of essential thrombocythemia and MF;  INCA035784 for the treatment of anti-mutant calreticulin and myeloproliferative neoplasms (MPNs); INCB160058 for the treatment of MPNs; PEMAZYRE, a selective fibroblast growth factor receptor kinase inhibitor for the treatment of unresectable biliary tract cancer, metastatic cholangiocarcinoma, and myeloid/lymphoid neoplasms; ZYNYZ to treat adults with metastatic or recurrent locally advanced Merkel cell carcinoma. The company's clinical stage products include INCB123667 for ovarian cancer; INCB161734 for solid tumors; INCA33890 for cancers; Ruxolitinib cream for atopic dermatitis, hidradenitis suppurativa (HS), and prurigo nodularis; Povorcitinib for HS, nonsegmental vitiligo, prurigo nodularis, and asthma; and INCB00928 for the treatment of fibrodysplasia ossificans progressive. It has collaboration and license agreement with Novartis, Lilly, and Syndax. The company sells its products to specialty and retail pharmacies, hospital pharmacies, and distributors. The company was formerly known as Incyte Genomics Inc and changed its name to Incyte Corporation in March 2003. Incyte Corporation was incorporated in 1991 and is headquartered in Wilmington, Delaware.",
+    "website": "https://www.incyte.com"
+  },
   "ING": {
     "_ts": 1780327173.0309377,
     "country": "Netherlands",
@@ -1991,11 +2013,11 @@
     "website": "https://www.jazzpharma.com"
   },
   "JBHT": {
-    "_ts": 1779804817.899272,
+    "_ts": 1784732640.082939,
     "country": "United States",
     "employees": 31750,
     "industry": "Integrated Freight & Logistics",
-    "marketCap": 24903475200,
+    "marketCap": 27517392896,
     "name": "J.B. Hunt Transport Services, Inc.",
     "sector": "Industrials",
     "summary": "J.B. Hunt Transport Services, Inc. provides surface transportation, delivery, and logistic services in the United States. It operates through five segments: Intermodal, Dedicated Contract Services, Integrated Capacity Solutions, Final Mile Services, and Truckload. The JBI segment offers intermodal freight solutions. It operates 124,838 pieces of company-owned trailing equipment; owns and maintains its chassis fleet of 104,474 units; and manages a fleet of 5,880 company-owned tractors, 308 independent contractor trucks, and 8,704 company drivers. The DCS segment designs, develops, and executes supply chain solutions that support various transportation networks. As of December 31, 2025, it operated 11,878 company-owned trucks, 761 customer-owned trucks, and a contractor trucks. It operates 26,767 owned pieces of trailing equipment and 5,218 customer-owned trailers. The ICS segment provides freight brokerage and transportation logistics solutions; flatbed, refrigerated, expedited, and less-than-truckload, as well as dry-van and intermodal solutions; online multimodal marketplace; and logistics management services for customers to outsource their transportation functions. The FMS segment delivers services through 1,085 company-owned trucks, 169 customer-owned trucks, and 39 independent contractor trucks; and 1,091 owned pieces of trailing equipment and 98 customer-owned trailers. The JBT segment provides dry-van freight services by utilizing tractors and trailers operating over roads and highways through two company-owned tractors and 12,658 company-owned trailers. It transports or arranges for the transportation of freight, such as general merchandise, specialty consumer items, appliances, home furnishings, forest, paper, rubber, plastic products, food, beverages, building materials, apparel, accessories, soaps, cosmetics, automotive parts, agricultural products, electronics, and chemicals. The company was incorporated in 1961 and is headquartered in Lowell, Arkansas.",
@@ -2508,11 +2530,11 @@
     "website": "https://www.msgsports.com"
   },
   "MSM": {
-    "_ts": 1779718276.3386855,
+    "_ts": 1784732640.082939,
     "country": "United States",
-    "employees": 7000,
+    "employees": 7077,
     "industry": "Industrial Distribution",
-    "marketCap": 5946354176,
+    "marketCap": 7049478144,
     "name": "MSC Industrial Direct Co., Inc.",
     "sector": "Industrials",
     "summary": "MSC Industrial Direct Co., Inc., together with its subsidiaries, engages in the distribution of metalworking and maintenance, repair, and operations (MRO) products and services in the United States, Canada, Mexico, the United Kingdom, and internationally. The company's metalworking and MRO products include cutting tools, abrasives, machining fluids, measuring instruments, metalworking products, machinery and accessories, tooling components, fasteners, flat stock products, raw materials, machinery hand and power tools, safety and janitorial supplies, plumbing supplies, materials handling products, power transmission components, and electrical supplies. It also offers stock-keeping units through its catalogs and brochures; e-commerce channels, including its website; inventory management solutions; and customer care centers, customer fulfillment centers, regional inventory centers and warehouses. In addition, the company serves individual machine shops, manufacturing companies, and government agencies. MSC Industrial Direct Co., Inc. was founded in 1941 and is headquartered in Melville, New York.",
@@ -2617,6 +2639,17 @@
     "summary": "MaxLinear, Inc. provides communications systems-on-chip solutions in the United States, Asia, Europe, and internationally. Its products integrate various portions of a high-speed communication system, including radio frequency, high-performance analog, mixed-signal, digital signal processing, security engines, data compression and networking layers, and power management. Its products are used in various electronic devices, such as radio transceivers and modems for 4G/5G base-station and backhaul infrastructure; optical transceivers; wi-fi and wireline routers for home networking; broadband modems compliant with data over cable service interface specifications, passive optical fiber standards, and digital subscriber line, as well as power management and interface products. It serves electronics distributors, module makers, original equipment manufacturers, and original design manufacturers through a direct sales force, third-party sales representatives, and a network of distributors. The company has a strategic collaboration with Edgecore Networks Corporation for the development network infrastructure for enterprise and SMB applications. MaxLinear, Inc. has strategic partnership with GCT Semiconductor Holding, Inc. to develop 5G fixed wireless access (FWA) gateways and converged gateways for consumer and enterprise applications. The company was incorporated in 2003 and is headquartered in Carlsbad, California. The company was incorporated in 2003 and is headquartered in Carlsbad, California.",
     "website": "https://www.maxlinear.com"
   },
+  "NBIX": {
+    "_ts": 1784732640.082939,
+    "country": "United States",
+    "employees": 2000,
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "marketCap": 17910466560,
+    "name": "Neurocrine Biosciences, Inc.",
+    "sector": "Healthcare",
+    "summary": "Neurocrine Biosciences, Inc. discovers, develops, and commercialize pharmaceuticals for neurological, psychiatric, endocrine, and immunological disorders in the United States and internationally. The company's products include INGREZZA for tardive dyskinesia and chorea associated with Huntington's disease; Orilissa tablets for endometriosis; Oriahnn capsules to treat uterine fibroids; and CRENESSITY to treat congenital adrenal hyperplasia, as well as offers products under the name of ALKINDI and Efmody. Its product candidates in clinical development includes NBI-1076986 to treat movement disorders; Osavampator for inadequate response to treatment in major depressive disorder; NBI-1117568 for the treatment of schizophrenia and bipolar mania; NBI-1117567 for the treatment of Alzheimer's disease; NBI 921355 for the treatment of epilepsy; NBIP-01435 for the treatment of congenital adrenal hyperplasia; NBIP-2118 for the treatment of obesity and related metabolic diseases; and NBI-1070770 to treat major depressive disorder; and NBI-1117570, NBI-1117567, NBI-1117569, NBI-1140675, and NBI-1065890 for neuropsychiatric and neurological conditions. The company also has license and collaboration agreements with Nxera Pharma UK Limited; Takeda Pharmaceutical Company Limited; Xenon Pharmaceuticals Inc.; Voyager Therapeutics, Inc.; Sanofi S.A.; Tanabe Pharma Corporation; and AbbVie Inc. The company was incorporated in 1992 and is headquartered in San Diego, California.",
+    "website": "https://www.neurocrine.com"
+  },
   "NE": {
     "_ts": 1778680651.690984,
     "country": "United States",
@@ -2682,6 +2715,17 @@
     "sector": "Industrials",
     "summary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
     "website": "https://www.norfolksouthern.com"
+  },
+  "NTAP": {
+    "_ts": 1784732640.082939,
+    "country": "United States",
+    "employees": 11700,
+    "industry": "Software - Infrastructure",
+    "marketCap": 32697075712,
+    "name": "NetApp, Inc.",
+    "sector": "Technology",
+    "summary": "NetApp, Inc. provides a range of enterprise software, systems, and services that customers use to transform their data infrastructures in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Hybrid Cloud and Public Cloud. The company offers data management software, such as NetApp ONTAP, ONTAP One, NetApp Snapshot, NetApp SnapCenter Backup Management, NetApp SnapMirror Data Replication, and NetApp SnapLock Data Compliance; and storage infrastructure solutions, including NetApp AFF and ASA A-Series and C-Series, NetApp AFX, NetApp Fabric Attached Storage (FAS), NetApp E/EF series, and NetApp StorageGRID. It also provides cloud storage services comprising Azure NetApp Files, Amazon FSx for NetApp ONTAP, and Google Cloud NetApp Volumes, as well as NetApp Cloud Volumes ONTAP. In addition, the company offers operational services, such as NetApp Data Infrastructure Insights and Instaclustr; and professional and support services include storage-as-a-service (STaaS), strategic consulting, professional, managed, and support services, as well as assessment, design, implementation, migration, and proactive support services to help customers optimize the performance and efficiency of their on-premises and hybrid multicloud storage environments. Further, it offers ransomware protection, data backup and recovery, and disaster recovery. It serves various industries comprising energy, financial services, government, technology, internet, life sciences, healthcare services, manufacturing, media, entertainment, animation, video postproduction, and telecommunications through a direct sales force and an ecosystem of partners, including the cloud providers. The company has a strategic alliance with Commvault Systems, Inc. to develop an integrated solution for enterprise data protection and cyber resilience. NetApp, Inc. was incorporated in 1992 and is headquartered in San Jose, California.",
+    "website": "https://www.netapp.com"
   },
   "NTRA": {
     "_ts": 1783613183.996255,
@@ -3640,6 +3684,17 @@
     "summary": "T1 Energy Inc. provides energy solutions for solar modules and cells in the United States, Norway and internationally. It manufactures and sells photovoltaic solar modules. The company was formerly known as FREYR Battery, Inc. and changed its name to T1 Energy Inc. in February 2025. T1 Energy Inc. is headquartered in Austin, Texas.",
     "website": "https://www.t1energy.com"
   },
+  "TECH": {
+    "_ts": 1784732647.928425,
+    "country": "United States",
+    "employees": 3100,
+    "industry": "Biotechnology",
+    "marketCap": 11150589952,
+    "name": "Bio-Techne Corporation",
+    "sector": "Healthcare",
+    "summary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research, diagnostics, and bioprocessing markets worldwide. The company operates through two segments, Protein Sciences, and Diagnostics and Spatial Biology. The Protein Sciences segment develops and manufactures biological reagents used in various aspects of life science research, diagnostics, and cell and gene therapy, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera, and cell selection technologies. This segment also offers proteomic analytical tools for automated western blot and multiplexed ELISA workflow consists of manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. The Diagnostics and Genomics segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for regulated diagnostics market, exosome-based molecular diagnostic assays, advanced tissue-based in-situ hybridization assays for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications; and sells products for genetic carrier screening, oncology diagnostics, molecular controls, and research, as well as instruments and process control products for hematology, blood chemistry and gases, and coagulation controls and reagents used in various diagnostic applications. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was incorporated in 1976 and is headquartered in Minneapolis, Minnesota.",
+    "website": "https://www.bio-techne.com"
+  },
   "TECK": {
     "_ts": 1780064260.6332018,
     "country": "Canada",
@@ -4212,6 +4267,17 @@
     "summary": "TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.",
     "website": "https://www.terawulf.com"
   },
+  "XENE": {
+    "_ts": 1784732647.928425,
+    "country": "Canada",
+    "employees": 358,
+    "industry": "Biotechnology",
+    "marketCap": 6396359168,
+    "name": "Xenon Pharmaceuticals Inc.",
+    "sector": "Healthcare",
+    "summary": "Xenon Pharmaceuticals Inc., a neuroscience-focused biopharmaceutical company, engages in the discovery, development, and delivery of therapeutics to treat patients with neurological and psychiatric disorders. Its product candidates include Azetukalner, a novel, potent Kv7 potassium channel opener which is in Phase 3 clinical development for the treatment of epilepsy, including focal onset seizures, and primary generalized tonic-clonic seizures, as well as neuropsychiatric disorders, such as major depressive disorder and bipolar depression. In addition, the company's Phase 1 Single Ascending Dose/Multiple Ascending Dose products include XEN1701 targeting the sodium channel and XEN1120 targeting the Kv7 potassium channel for the treatment of pain. The company has a license and collaboration agreement with Neurocrine Biosciences, Inc. for the development of NBI-921355, a Nav1.2/1.6 sodium channel inhibitor that is in Phase 1 clinical trials for the treatment of certain types of epilepsy. Xenon Pharmaceuticals Inc. was incorporated in 1996 and is headquartered in Burnaby, Canada.",
+    "website": "https://www.xenon-pharma.com"
+  },
   "XMTR": {
     "_ts": 1782914304.0099163,
     "country": "United States",
@@ -4246,15 +4312,26 @@
     "website": "https://www.yeti.com"
   },
   "YOU": {
-    "_ts": 1778853063.9123566,
+    "_ts": 1784732640.082939,
     "country": "United States",
     "employees": 3301,
     "industry": "Software - Application",
-    "marketCap": 7805778944,
+    "marketCap": 7435577344,
     "name": "Clear Secure, Inc.",
     "sector": "Technology",
-    "summary": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States. It provides secure identity platform, a multi-layered infrastructure consisting of front-end, including enrollment, verification, and linking, as well as back-end. The company also offers CLEAR Plus, a consumer aviation subscription service, which enables access to predictable entry lanes in airport security checkpoints, as well as access to broader network; and CLEAR mobile app, which is used to enroll new members and improve the experience for existing members. In addition, it provides RESERVE powered by CLEAR to reservation spot for airport locations; Home to Gate, a feature to help travelers plan and time their trip to the airport; CLEAR1, a B2B offering that extends secure identity platform to partners to create friction-free experiences for their customers; CLEAR ID, a free and mobile digital ID that allow any traveler to verify their identity; CLEAR Concierge which enhances the CLEAR value proposition for high-frequency and premium travelers, as well as travelers requiring additional assistance, such as families and senior citizens; CLEAR Perks, a suite of added benefits that help CLEAR members get an even more seamless experience; TSA PreCheck Enrollment Provided by CLEAR, as well as online renewal services; Sora ID, a one-click know your customer that enables adding know your customer services to platform offerings; and a virtual queuing technology. The company was founded in 2010 and is headquartered in New York, New York. Clear Secure, Inc. is a subsidiary of Alclear Investments, Llc.",
+    "summary": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States. It provides secure identity platform, a multi-layered infrastructure consisting of front-end, including enrollment, verification, and linking, as well as back-end. The company also offers CLEAR Plus, a consumer aviation subscription service, which enables access to predictable entry lanes in airport security checkpoints, as well as access to broader network; and CLEAR mobile app, which is used to enroll new members and improve the experience for existing members. In addition, it provides RESERVE powered by CLEAR to reservation spot for airport locations; Home to Gate, a feature to help travelers plan and time their trip to the airport; CLEAR1, a B2B offering that extends secure identity platform to partners to create friction-free experiences for their customers; CLEAR ID, a free and mobile digital ID that allow any traveler to verify their identity; CLEAR Concierge which enhances the CLEAR value proposition for high-frequency and premium travelers, as well as travelers requiring additional assistance, such as families and senior citizens; CLEAR Perks, a suite of added benefits that help CLEAR members get an even more seamless experience; TSA PreCheck Enrollment Provided by CLEAR, as well as online renewal services; Sora ID, a one-click know your customer that enables adding know your customer services to platform offerings; and a virtual queuing technology. The company has a strategic collaboration with Samsung Electronics America, Inc. for the development of Samsung ID with CLEAR, a digital ID solution that allows users to add a US passport to Samsung Wallet and verify their identity. The company was founded in 2010 and is headquartered in New York, New York. Clear Secure, Inc. is a subsidiary of Alclear Investments, Llc.",
     "website": "https://www.clearme.com"
+  },
+  "YPF": {
+    "_ts": 1784732647.928425,
+    "country": "Argentina",
+    "employees": 0,
+    "industry": "Oil & Gas Integrated",
+    "marketCap": 20418045952,
+    "name": "YPF Sociedad An\u00f3nima",
+    "sector": "Energy",
+    "summary": "YPF Sociedad An\u00f3nima, an energy company, engages in the oil and gas upstream and downstream activities in South America and Argentina. The company operates through the Upstream, Midstream and Downstream, LNG and Integrated Gas, and New Energies segments. It is involved in the exploration and exploitation of hydrocarbon fields and production of crude oil and natural gas; the refining, transportation and commercialization of refined products; the production, transportation, and commercialization of petrochemical products; the transportation and commercialization of crude oil; and the commercialization of specialties for the agribusiness industry, and of grains and their by-products. The company also offers fertilizers and crop protection products; flours, oils, and grains; asphalts; naphtha; and petroleum coke. In addition, it engages in the natural gas transportation and commercialization to third parties and to the Midstream and Downstream segments; the separation of natural gas liquids and their fractionation, and storage and transportation to produce ethane, propane, butane, and gasoline, as well as its commercialization; the development of liquefied natural gas liquefaction capacity; and power generation activities. The company was incorporated in 1977 and is based in Buenos Aires, Argentina.",
+    "website": "https://www.ypf.com"
   },
   "ZION": {
     "_ts": 1782140712.5149386,
