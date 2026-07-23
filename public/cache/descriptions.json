@@ -197,6 +197,17 @@
     "summary": "AAR Corp. provides products and services to commercial aviation, government, and defense markets in North America, Europe, Africa, Asia, and internationally. It operates through four segments: Parts Supply, Repair & Engineering, Integrated Solutions, and Expeditionary Services. The company leases and sells aircraft components and replacement parts; and designs, manufactures, and repairs transportation pallets. The company also provides airframe maintenance services, such as airframe inspection, painting services, line maintenance, airframe modifications, structural repairs, avionics service and installation, exterior, and interior refurbishment services; component repair services, including maintenance, repair, and overhaul services, engine and airframe accessories, and interior refurbishment; and engineering services, such as integration, certification and procurement. In addition, it develops aircraft components and parts; designs proprietary designated engineering representative repairs; and provides integrated software solutions comprising Trax, a cloud-based electronic enterprise resource platform, as well as a suite of paperless mobility apps for automating workflows. Further, the company engages in the fleet management and operation of customer-owned aircraft; provision of supply chain logistics services, such as material planning, sourcing, logistics, information and program management, and parts and component repair and overhaul services, as well as engineering, design, and system integration services for specialized command and control systems; and flight hour component inventory and repair services. Additionally, it offers containers and shelters for military and humanitarian tactical deployment activities; and shelters, such as stationary and vehicle-mounted applications. AAR Corp. was founded in 1951 and is headquartered in Wood Dale, Illinois.",
     "website": "https://www.aarcorp.com"
   },
+  "AIT": {
+    "_ts": 1784819821.7054615,
+    "country": "United States",
+    "employees": 6859,
+    "industry": "Industrial Distribution",
+    "marketCap": 12703363072,
+    "name": "Applied Industrial Technologies, Inc.",
+    "sector": "Industrials",
+    "summary": "Applied Industrial Technologies, Inc. distributes industrial motion, power, control, and automation technology solutions in the United States, Canada, Mexico, Australia, New Zealand, Singapore, and Costa Rica. It operates in two segments, Service Center and Engineered Solutions. The Service Center segment distributes industrial bearings, power transmission, fluid power components and systems, specialty flow control, and advanced factory automation solutions, as well as general maintenance products; and motors, belting, drives, couplings, pumps, linear motion, hydraulic and pneumatic components, filtration supplies, hoses, and other related supplies. It also installs, modifies, and repairs conveyor belts and rubber linings, as well as hose assemblies. The Engineered Solutions segment is involved in distributing, engineering, designing, integrating, and repairing hydraulic and pneumatic fluid power technologies, engineered flow control products and services, and automation technologies; and provision of fluid power and industrial flow control products. Its fluid power products and solutions are used in off-highway mobile equipment, stationary industrial equipment and machines, marine and offshore equipment, factory automation, food processing equipment, packaging operations, and downstream energy process systems. This segment also offers pumps, valves, fittings, hoses, process instrumentation, actuators, and filtration supplies; and advanced automation technologies for the design, engineering, assembly, integration, and distribution of machine vision, collaborative robots, mobile robots, radio-frequency identification, industrial networking, motion control, and machine learning technologies for OEMs, machine builders, integrators, and other industrial and technology sectors. The company was formerly known as Bearings, Inc. and changed its to name to Applied Industrial Technologies, Inc. in 1997. The company was founded in 1923 and is headquartered in Cleveland, Ohio.",
+    "website": "https://www.applied.com"
+  },
   "AIZ": {
     "_ts": 1779373534.2598412,
     "country": "United States",
@@ -429,22 +440,22 @@
     "website": "https://www.axsome.com"
   },
   "AXTI": {
-    "_ts": 1782140732.2803874,
+    "_ts": 1784819831.8364587,
     "country": "United States",
     "employees": 1541,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 5637515776,
+    "marketCap": 3475933952,
     "name": "AXT, Inc.",
     "sector": "Technology",
     "summary": "AXT, Inc. designs, develops, manufactures, and distributes compound and single element semiconductor substrates. The company provides indium phosphide for use in data center connectivity using light/lasers, high-speed data transfer in data centers, 5G communications, fiber optic lasers and detectors, consumer devices, passive optical networks, silicon photonics, photonic integrated circuits, thermo-photovoltaics, RF amplifier and switching, infrared light-emitting diode (LEDS) motion control, lidar for robotics and autonomous vehicles, and infrared thermal imaging. It also offers semi-insulating gallium arsenide (GaAs) substrates for use in Wi-Fi and IoT devices, transistors, direct broadcast television, power amplifiers, satellite communications, and solar cells; and semi-conducting GaAs substrates that are used in LEDs, screen displays using micro-LEDs, printer head lasers and LEDs, 3-D sensing using VCSELs, data center communication using VCSELs, sensors for industrial robotics/near-infrared sensors, laser machining, cutting and drilling, optical couplers, solar cells, night vision goggles, lidar for robotics and autonomous vehicles, and other lasers. In addition, the company provides germanium substrates for use in multi-junction solar cells for satellites, optical sensors and detectors, terrestrial concentrated photo voltaic cells, infrared detectors, and carrier wafer for LED. Further, it offers 6N+ and 7N+ purified gallium, boron trioxide, gallium-magnesium alloy, pyrolytic boron nitride (pBN) crucibles, and pBN insulating parts. It sells its products through direct salesforce in the United States, China, and Europe, as well as through independent sales representatives and distributors in Japan, Taiwan, Korea, and internationally. The company was formerly known as American Xtal Technology, Inc. and changed its name to AXT, Inc. in July 2000. AXT, Inc. was incorporated in 1986 and is headquartered in Fremont, California.",
     "website": "https://www.axt.com"
   },
   "BE": {
-    "_ts": 1782140732.2803874,
+    "_ts": 1784819831.8364587,
     "country": "United States",
     "employees": 2000,
     "industry": "Electrical Equipment & Parts",
-    "marketCap": 96483360768,
+    "marketCap": 62062809088,
     "name": "Bloom Energy Corporation",
     "sector": "Industrials",
     "summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
@@ -527,6 +538,17 @@
     "summary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
     "website": "https://www.bny.com"
   },
+  "BKH": {
+    "_ts": 1784819821.7054615,
+    "country": "United States",
+    "employees": 2795,
+    "industry": "Utilities - Regulated Gas",
+    "marketCap": 5738157056,
+    "name": "Black Hills Corporation",
+    "sector": "Utilities",
+    "summary": "Black Hills Corporation, through its subsidiaries, operates as an electric and natural gas utility company in the United States. The company operates through the Electric Utilities and Gas Utilities segments. The Electric Utilities segment engages in the generation, transmission, and distribution of electricity to electric utility customers in Colorado, Montana, South Dakota, and Wyoming; ownership and operation of 1,386 megawatts of generation capacity, and 9,478 miles of electric transmission and distribution lines; sale of excess power to other utilities and marketing companies; and ownership and operation of non-regulated power generation and mining assets. Its Gas Utilities segment is involved in the distribution of natural gas to approximately 1,138,000 natural gas utility customers in Arkansas, Colorado, Iowa, Kansas, Nebraska, and Wyoming; ownership and operation of 4,581 miles of intrastate gas transmission pipelines; 44,840 miles of gas distribution mains and service lines; seven natural gas storage sites; and approximately 50,000 horsepower of compression and 494 miles of gathering lines. The company also provides non-regulated services to its retail customers, including Service Guard Comfort Plan, which provides home appliance repair services through on-going monthly service agreements to residential utility customers; Tech Services, which include construction and maintenance of customer-owned gas infrastructure facilities, as well as electrical system construction services; and HomeServe, which are additional home repair service plans for natural gas residential customers. In addition, the company produces electric power through wind, natural gas, and coal-fired generating plants, as well as coal at its coal mine located near Gillette, Wyoming. Black Hills Corporation was incorporated in 1941 and is headquartered in Rapid City, South Dakota.",
+    "website": "https://ir.blackhillscorp.com"
+  },
   "BMO": {
     "_ts": 1777297685.5526693,
     "country": "Canada",
@@ -561,11 +583,11 @@
     "website": "https://www.scotiabank.com"
   },
   "BNY": {
-    "_ts": 1780064260.6332018,
+    "_ts": 1784819821.7054615,
     "country": "United States",
-    "employees": 47200,
+    "employees": 46500,
     "industry": "Banks - Diversified",
-    "marketCap": 96745119744,
+    "marketCap": 108350308352,
     "name": "The Bank of New York Mellon Cor",
     "sector": "Financial Services",
     "summary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
@@ -616,11 +638,11 @@
     "website": "https://www.burlington.com"
   },
   "BW": {
-    "_ts": 1782140732.2803874,
+    "_ts": 1784819831.8364587,
     "country": "United States",
     "employees": 1600,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 2573435648,
+    "marketCap": 1579187456,
     "name": "Babcock & Wilcox Enterprises, Inc.",
     "sector": "Industrials",
     "summary": "Babcock & Wilcox Enterprises, Inc., together with its subsidiaries, provides energy and emissions control solutions to industrial, electrical utility, municipal, and other customers in the United States, Canada, the United Kingdom, Indonesia, and the Philippines. The company offers BrightLoop chemical looping technology, which produces steam, hydrogen, or syngas for applications in the energy, industrial, and agricultural sectors. It also provides steam generation equipment, including aftermarket parts, construction, maintenance, and field services; steam generation systems, such as package boilers, watertube and firetube waste heat boilers, and other boilers to medium and heavy industrial customers. The company was founded in 1867 and is headquartered in Akron, Ohio.",
@@ -1441,11 +1463,11 @@
     "website": "https://www.extremenetworks.com"
   },
   "FANG": {
-    "_ts": 1778593677.5342884,
+    "_ts": 1784819821.7054615,
     "country": "United States",
     "employees": 1762,
     "industry": "Oil & Gas E&P",
-    "marketCap": 55252750336,
+    "marketCap": 58683363328,
     "name": "Diamondback Energy, Inc.",
     "sector": "Energy",
     "summary": "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States. The company primarily focuses on the development of the Spraberry and Wolfcamp formations of the Midland Basin; and the Wolfcamp and Bone Spring formations of the Delaware Basin, both of which are part of the Permian Basin in West Texas and New Mexico. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas.",
@@ -1560,6 +1582,17 @@
     "sector": "Real Estate",
     "summary": "Federal Realty Investment Trust is a recognized leader in the ownership, operation and redevelopment of high-quality retail-based properties. They are located primarily in major coastal markets and select underserved regions that have strong economic and demographic fundamentals. Federal Realty's mission is to deliver long-term, sustainable growth through investing in communities where retail demand exceeds supply. This includes a portfolio of open-air shopping centers and mixed-use destinations\u0097such as Santana Row, Pike & Rose, and Assembly Row, which together reflect the company's ability to create distinctive, high-performing environments that serve as vibrant destinations for their communities. Federal Realty's 104 properties include approximately 3,800 tenants in 29.0 million commercial square feet, and approximately 2,500 residential units. It is based in North Bethesda, Maryland. Federal Realty Investment Trust was incorporated in 1962 in Maryland.",
     "website": "https://www.federalrealty.com"
+  },
+  "FSLY": {
+    "_ts": 1784819821.7054615,
+    "country": "United States",
+    "employees": 1140,
+    "industry": "Software - Application",
+    "marketCap": 3086179840,
+    "name": "Fastly, Inc.",
+    "sector": "Technology",
+    "summary": "Fastly, Inc. operates an edge cloud platform for processing, serving, and securing its customer's applications in the United States, the Asia Pacific, Europe, and internationally. The edge cloud is a category of Infrastructure as a Service that enables developers to build, secure, and deliver digital experiences at the edge of the internet. The company offers network services to speed up and optimize the delivery of web and application traffic; content delivery network, such as dynamic site acceleration, origin shield, instant purge, surrogate keys, programmatic control, content compression, reliability features, fanout, domainr, modern protocols and performance services; staging environment; and video/ streaming solutions and services, including live streaming, live event monitoring, video on demand, cache reservation, and media shield. It also provides security solutions, such as DDoS protection, next-gen WAF, bot management, API and ATO protection, advanced rate limiting, privacy, and compliance services; load balancing; image optimization; and origin connect. In addition, the company offers professional services comprising managed and response security services; managed CDN; and support plans services. It serves customers operating in ecommerce, streaming media, gaming, digital publishing, and high tech to financial services industries. The company was formerly known as SkyCache, Inc. and changed its name to Fastly, Inc. in May 2012. Fastly, Inc. was incorporated in 2011 and is headquartered in San Francisco, California.",
+    "website": "https://www.fastly.com"
   },
   "FTI": {
     "_ts": 1783957998.4235253,
@@ -2266,11 +2299,11 @@
     "website": ""
   },
   "LITE": {
-    "_ts": 1782140732.2803874,
+    "_ts": 1784819831.8364587,
     "country": "United States",
     "employees": 10562,
     "industry": "Communication Equipment",
-    "marketCap": 65507598336,
+    "marketCap": 64498536448,
     "name": "Lumentum Holdings Inc.",
     "sector": "Technology",
     "summary": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It operates through two segments, Cloud & Networking and Industrial Tech. The Cloud & Networking segment offers optical and photonic chips, components, modules, and subsystems supplied to cloud data center operators, AI/ML infrastructure providers, and network equipment manufacturer customers that are building cloud data centers and network infrastructures. Its Industrial Tech segment provides short-pulse solid-state lasers, kilowatt-class fiber lasers, diode lasers, and gas lasers that serves the semiconductor device, solar cell, display, and electric vehicle and battery manufacturing markets. The company was incorporated in 2015 and is headquartered in San Jose, California.",
@@ -2904,11 +2937,11 @@
     "website": "https://www.opendoor.com"
   },
   "ORKA": {
-    "_ts": 1782140730.0857189,
+    "_ts": 1784819831.8364587,
     "country": "United States",
     "employees": 68,
     "industry": "Biotechnology",
-    "marketCap": 5074659840,
+    "marketCap": 5591534592,
     "name": "Oruka Therapeutics, Inc.",
     "sector": "Healthcare",
     "summary": "Oruka Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on developing novel monoclonal antibody therapeutics for psoriasis (PsO), and other inflammatory and immunology (I&I) indications. Its lead products include ORKA-001 that targets p19 subunit of interleukin-23, which is in phase 2a trial for the treatment of PsO; and ORKA-002 that targets interleukin-17A and interleukin-17F, which is in phase 2 trial for the treatment of PsO, psoriatic arthritis, and other conditions. The company also develops ORKA-003 for targeting an undisclosed pathway; and ORKA-021, a sequential combination regimen of ORKA-002 and ORKA-001. Oruka Therapeutics, Inc. is headquartered in Menlo Park, California.",
@@ -2926,11 +2959,11 @@
     "website": "https://www.outfrontmedia.com"
   },
   "OVV": {
-    "_ts": 1778593677.5342884,
+    "_ts": 1784819821.7054615,
     "country": "United States",
     "employees": 1465,
     "industry": "Oil & Gas E&P",
-    "marketCap": 16481623040,
+    "marketCap": 17399267328,
     "name": "Ovintiv Inc.",
     "sector": "Energy",
     "summary": "Ovintiv Inc., together with its subsidiaries, operates as an oil and natural gas exploration and production company in North America. The company operates through USA Operations and Canadian Operations segments. It is involved in the exploration, development, production, and marketing of oil, NGLs, natural gas and other related activities in the Permian in West Texas and Anadarko in West-central Oklahoma in the United States, as well as in northwest Alberta and northeast British Columbia. The company was formerly known as Encana Corporation and changed its name to Ovintiv Inc. in January 2020. Ovintiv Inc. was incorporated in 2020 and is based in Denver, Colorado.",
@@ -3255,6 +3288,17 @@
     "summary": "Royal Gold, Inc., together with its subsidiaries, acquires and manages precious metal streams, royalties, and related interests in North America, South and Central America, Europe, the Middle East, Africa, and the Australia Pacific. It operates through Acquisition and Management of Stream Interests and Acquisition and Management of Royalty Interests segments. The company engages in the acquisition of existing stream and royalty interests; and the financing of projects that are in production, development, or in the exploration stage in exchange for stream or royalty interests, which consists of gold, silver, copper, nickel, zinc, lead, molybdenum, diamonds, uranium, iron, platinum, palladium, rhodium, lithium, titanium, cobalt, barite, tungsten, and coal. Its properties are located in Canada, Chile, the Dominican Republic, the United States, Zambia, Australia, Ghana, Brazil, Mexico, Bolivia, Argentina, Nicaragua, Macedonia, Botswana, Spain, and internationally. Royal Gold, Inc. was incorporated in 1981 and is based in Denver, Colorado.",
     "website": "https://www.royalgold.com"
   },
+  "RHP": {
+    "_ts": 1784819821.7054615,
+    "country": "United States",
+    "employees": 1012,
+    "industry": "REIT - Hotel & Motel",
+    "marketCap": 8195685888,
+    "name": "Ryman Hospitality Properties, Inc.",
+    "sector": "Real Estate",
+    "summary": "Ryman Hospitality Properties, Inc. is a leading lodging and hospitality real estate investment trust. It specializes in upscale convention center resorts and entertainment experiences. The Company's holdings include Gaylord Opryland Resort & Convention Center; Gaylord Palms Resort & Convention Center; Gaylord Texan Resort & Convention Center; Gaylord National Resort & Convention Center; and Gaylord Rockies Resort & Convention Center, five of the top seven largest non-gaming convention center hotels in the United States based on total indoor meeting space. The Company also owns JW Marriott Phoenix Desert Ridge Resort & Spa and JW Marriott San Antonio Hill Country Resort & Spa as well as two ancillary hotels adjacent to our Gaylord Hotels properties. The Company's hotel portfolio is managed by Marriott International and includes a combined total of 12,364 rooms as well as more than 3 million square feet of total indoor and outdoor meeting space in top convention and leisure destinations across the country. RHP also owns an approximate 70% controlling ownership interest in Opry Entertainment Group (OEG), which is composed of entities owning a growing collection of iconic and emerging country music brands, including the Grand Ole Opry, Ryman Auditorium, WSM 650 AM, Ole Red, Category 10, Nashville-area attractions; Block 21, a mixed-use entertainment, lodging, office and retail complex, including the W Austin Hotel and the ACL Live at the Moody Theater, located in downtown Austin, Texas. OEG manages select outdoor live music venues, including Ascend Federal Credit Union Amphitheater in Nashville and CCNB Amphitheatre in Simpsonville, South Carolina. OEG also has a majority interest in Southern Entertainment, a leading festival and events business. Ryman Hospitality Properties, Inc. was incorporated in 1991 in Delaware and is based in Nashville, Tennessee.",
+    "website": "https://www.rymanhp.com"
+  },
   "RIG": {
     "_ts": 1777902308.7778423,
     "country": "Switzerland",
@@ -3322,11 +3366,11 @@
     "website": "https://www.rossstores.com"
   },
   "RPRX": {
-    "_ts": 1780410971.7163908,
+    "_ts": 1784819821.7054615,
     "country": "United States",
     "employees": 100,
     "industry": "Biotechnology",
-    "marketCap": 31354062848,
+    "marketCap": 34181398528,
     "name": "Royalty Pharma plc",
     "sector": "Healthcare",
     "summary": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases. The company was founded in 1996 and is based in New York, New York.",
@@ -3465,11 +3509,11 @@
     "website": "https://www.snapon.com"
   },
   "SNDK": {
-    "_ts": 1782140732.2803874,
+    "_ts": 1784819831.8364587,
     "country": "United States",
     "employees": 11000,
     "industry": "Computer Hardware",
-    "marketCap": 346077626368,
+    "marketCap": 240533307392,
     "name": "Sandisk Corporation",
     "sector": "Technology",
     "summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the United States, Europe, the Middle East, Africa, Asia, and internationally. The company offers solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
@@ -3608,11 +3652,11 @@
     "website": "https://www.statestreet.com"
   },
   "STX": {
-    "_ts": 1782140732.2803874,
+    "_ts": 1784819831.8364587,
     "country": "Singapore",
     "employees": 30000,
     "industry": "Computer Hardware",
-    "marketCap": 247789846528,
+    "marketCap": 205813071872,
     "name": "Seagate Technology Holdings plc",
     "sector": "Technology",
     "summary": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
@@ -4004,7 +4048,7 @@
     "website": "https://www.usbank.com"
   },
   "USO": {
-    "_ts": 1779115334.0604603,
+    "_ts": 1784819821.7054615,
     "country": "",
     "employees": 0,
     "industry": "",
