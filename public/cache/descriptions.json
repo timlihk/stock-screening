@@ -714,12 +714,23 @@
     "summary": "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States. Its stores offer pizza, donuts, breakfast items, and sandwiches; and tobacco and nicotine products. The company's stores also provide soft drinks, energy, water, sports drinks, juices, coffee, and tea and dairy products; beer, wine, and spirits; snacks, candy, packaged bakery, and other food items; ice, ice cream, meals, and appetizers; health and beauty aids, automotive products, electronic accessories, and housewares; and breadsticks, wraps, chicken wings and tenders, breakfast croissants and biscuits, breakfast burritos, hash browns, burgers, cookies and brownies, and other seasonal items. In addition, its stores offer motor fuel for sale on a self-service basis; gasoline and diesel fuel; and ATM, lotto/lottery, and prepaid cards, as well as car wash services. The company also operates distribution centers. Casey's General Stores, Inc. was founded in 1959 and is headquartered in Ankeny, Iowa.",
     "website": "https://www.caseys.com"
   },
+  "CB": {
+    "_ts": 1784904707.9517546,
+    "country": "Switzerland",
+    "employees": 45000,
+    "industry": "Insurance - Property & Casualty",
+    "marketCap": 138751131648,
+    "name": "Chubb Limited",
+    "sector": "Financial Services",
+    "summary": "Chubb Limited provides insurance and reinsurance products worldwide. It operates in six segments: North America Commercial Property and Casualty (P&C) Insurance, North America Personal P&C Insurance, North America Agricultural Insurance, Overseas General Insurance, Global Reinsurance, and Life Insurance. The company offers property and general liability, workers' compensation, and umbrella; professional and management liability; environmental, health, and international coverages; and claims and risk management products and services, loss control, and engineering and complex claims management. It also provides homeowners, automobile and collector cars, valuable articles, and personal and excess liability insurance. In addition, the company offers multiple peril crop insurance and crop-hail insurance for farm, ranch, specialty (P&C), and commercial agriculture products; product and employer liability, business interruption, and specialty risk; property insurance products, including traditional commercial fire coverage, energy industry-related, marine, construction, and other technical coverages; personal accident and supplemental medical coverages, such as accidental death, business/holiday travel, specified disease, disability, medical and hospital indemnity, and income protection; and directors and officers, professional indemnity, cyber, surety, aviation, political risk, and specialty personal lines products. Further, it provides property catastrophe reinsurance; traditional and specialty P&C reinsurance; and protection and savings products, which includes individual and group term life, dental, critical illness, dementia, hospital cash, credit life, group employee benefits, whole life, universal life, unit linked contracts, endowment plans, and annuities. The company was formerly known as ACE Limited and changed its name to Chubb Limited in January 2016. Chubb Limited was incorporated in 1985 and is headquartered in Zurich, Switzerland.",
+    "website": "https://www.chubb.com"
+  },
   "CELC": {
-    "_ts": 1782309174.3708835,
+    "_ts": 1784904710.384615,
     "country": "United States",
     "employees": 155,
     "industry": "Biotechnology",
-    "marketCap": 4654254592,
+    "marketCap": 4159764480,
     "name": "Celcuity Inc.",
     "sector": "Healthcare",
     "summary": "Celcuity Inc., a clinical-stage biotechnology company, focuses on the development of targeted therapies for the treatment of various solid tumors in the United States. The company's lead drug candidate includes Gedatolisib, which selectively targets various Class I isoforms of phosphatidylinositol-3-kinase (PI3K) and the two mechanistic targets of rapamycin (mTOR) sub-complexes, mTORC1 and mTORC2 to treat patients with hormone receptor positive (HR+), human epidermal growth factor receptor 2 negative (HER2-) or HR+/HER2-, advanced or metastatic breast cancer (ABC), and patients with metastatic castration resistant prostate cancer (mCRPC). The company had a license agreement with Pfizer Inc. for the development and commercialization rights to Gedatolisib. Celcuity Inc. was incorporated in 2011 and is based in Minneapolis, Minnesota.",
