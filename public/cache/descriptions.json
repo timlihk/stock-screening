@@ -495,11 +495,11 @@
     "website": "https://www.franklinresources.com"
   },
   "BFH": {
-    "_ts": 1780497678.3155842,
+    "_ts": 1785338282.9880085,
     "country": "United States",
     "employees": 6000,
     "industry": "Credit Services",
-    "marketCap": 3639868416,
+    "marketCap": 4400935424,
     "name": "Bread Financial Holdings, Inc.",
     "sector": "Financial Services",
     "summary": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships. The company also manages and services the loans it originates for private label, co-brand, and general-purpose credit card programs, and installment loans and split-pay products; and provides marketing, and data and analytics services. In addition, it offers an enhanced digital suite that includes a unified software development kit, which provides access to its suite of products, as well as promotes credit payment options earlier in the shopping experience. Further, the company through Bread Pay, a digital payments platform and robust suite of application programming interfaces allows merchants and partners to integrate online point-of-sale financing and other digital payment products. Additionally, it offers retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including traditional and Roth Individual Retirement Accounts. The company offers its products under the Bread, Bread Financial, Bread Cashback, Bread Rewards, Bread Pay, and Bread Savings brands. The company was formerly known as Alliance Data Systems Corporation and changed its name to Bread Financial Holdings, Inc. in March 2022. Bread Financial Holdings, Inc. was incorporated in 1995 and is headquartered in Columbus, Ohio.",
@@ -1419,11 +1419,11 @@
     "website": "https://www.escotechnologies.com"
   },
   "ETSY": {
-    "_ts": 1782223173.5340276,
+    "_ts": 1785338282.9880085,
     "country": "United States",
     "employees": 2375,
     "industry": "Internet Retail",
-    "marketCap": 7006189056,
+    "marketCap": 8050047488,
     "name": "Etsy, Inc.",
     "sector": "Consumer Cyclical",
     "summary": "Etsy, Inc., together with its subsidiaries, operates two-sided online marketplaces that connect buyers and sellers in the United States, the United Kingdom, and internationally. It operates through Etsy and Depop segments. The company operates Etsy marketplace that connects artisans with various consumers; and Depop, a fashion resale marketplace. It also provides marketplace activities, including transaction offsite advertising, payments processing, and listing fees, as well as from optional seller services, which include on-site advertising and shipping labels. The company was formerly known as Indieco, Inc changed its name to Etsy, Inc. in June 2006. Etsy, Inc. was founded in 2005 and is headquartered in Brooklyn, New York.",
@@ -1461,6 +1461,17 @@
     "sector": "Financial Services",
     "summary": "East West Bancorp, Inc. operates as the bank holding company for East West Bank that provides a range of personal and commercial banking services to businesses and individuals in the United States. The company operates through three segments: Consumer and Business Banking, Commercial Banking, and Treasury and Other. It accepts various deposit products, such as personal and business checking and savings accounts, money market, and time deposits. The company provides various loan products, such as mortgage and home equity, commercial and residential real estate, construction finance, commercial business lending, working capital lines of credit, trade finance, letters of credit, affordable housing lending, asset-based lending, asset-backed finance, project finance, equipment financing, loan syndication, and equipment loans, as well as financing services for clients to facilitate their business transactions between the United States and Asia. It also provides foreign exchange, treasury management, wealth management, and interest rate and commodity risk hedging services; and mobile, and online banking services. The company was founded in 1973 and is headquartered in Pasadena, California.",
     "website": "https://www.eastwestbank.com"
+  },
+  "EXEL": {
+    "_ts": 1785338282.9880085,
+    "country": "United States",
+    "employees": 1077,
+    "industry": "Biotechnology",
+    "marketCap": 14116102144,
+    "name": "Exelixis, Inc.",
+    "sector": "Healthcare",
+    "summary": "Exelixis, Inc., an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States. The company offers CABOMETYX tablets for the treatment of patients with advanced renal cell carcinoma who received prior anti-angiogenic therapy; and COMETRIQ capsules for the treatment of progressive and metastatic medullary thyroid cancer. Its CABOMETYX and COMETRIQ are derived from cabozantinib, an inhibitor of multiple tyrosine kinases, including MET, AXL, RET, and VEGF receptors. The company also offers COTELLIC, an inhibitor of MEK as a combination regimen to treat specific forms of advanced melanoma; and MINNEBRO, an oral non-steroidal selective blocker of the mineralocorticoid receptor for the treatment of hypertension in Japan. It develops zanzalintinib, a novel, potent oral inhibitor of kinases, including the TAM kinases, MET, and VEGF receptors; XL309, a small molecule inhibitor of USP1, a synthetic lethal target in the context of BRCA-mutated tumors; XB010, an antibody-drug conjugates (ADC) consisting of a MMAE payload conjugated to a monoclonal antibody targeting the tumor antigen 5T4;  XB628, a first-in-class bispecific antibody that targets programmed cell death ligand 1and natural killer cell receptor group 2A; and XB371, a next-generation tissue factor targeting ADC with a topoisomerase inhibitor payload. It has research collaborations and license agreements with Ipsen Pharma SAS; Takeda Pharmaceutical Company Ltd.; F. Hoffmann-La Roche Ltd.; Catalent, Inc.; Iconic Therapeutics, Inc.; Adagene Inc.; Invenra, Inc.; Genentech, Inc.; Bristol-Myers Squibb Company; and Daiichi Sankyo Company, Limited, as well as business development activities and other collaborations. The company was formerly known as Exelixis Pharmaceuticals, Inc. and changed its name to Exelixis, Inc. in February 2000. Exelixis, Inc. was incorporated in 1994 and is headquartered in Alameda, California.",
+    "website": "https://www.exelixis.com"
   },
   "EXPD": {
     "_ts": 1781273813.210227,

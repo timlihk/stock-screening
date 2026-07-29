@@ -859,7 +859,7 @@
     "sample_quarters": 10
   },
   "BFH": {
-    "_ts": 1781100834.9610312,
+    "_ts": 1785338227.2258809,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -2439,7 +2439,7 @@
     "sample_quarters": 4
   },
   "ETSY": {
-    "_ts": 1782223101.1464965,
+    "_ts": 1785338227.2258809,
     "earnings_accelerating": true,
     "fundamental_score": 3,
     "latest_period": "Q1 2026",
@@ -2473,6 +2473,18 @@
     "revenue_qoq_growth": null,
     "revenue_yoy_growth": null,
     "sample_quarters": 0
+  },
+  "EXEL": {
+    "_ts": 1785338227.2258809,
+    "earnings_accelerating": true,
+    "fundamental_score": 3,
+    "latest_period": "Q4 2025",
+    "net_income_qoq_growth": 26.32013968529481,
+    "net_income_yoy_growth": 74.83644475586475,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 0.15190169885654914,
+    "revenue_yoy_growth": 5.62994592019479,
+    "sample_quarters": 8
   },
   "EXPD": {
     "_ts": 1782999541.2498372,
