@@ -142,6 +142,17 @@
     "summary": "American Electric Power Company, Inc., an electric public utility holding company, engages in the generation, transmission, and distribution of electricity for sale to retail and wholesale customers in the United States. It operates through Vertically Integrated Utilities, Transmission and Distribution Utilities, AEP Transmission Holdco, and Generation & Marketing segments. The company generates electricity using coal and lignite, nuclear, natural gas, renewable, hydro, solar, wind, and other energy sources; owns, operates, maintains, and invests in transmission infrastructure; and engages in the retail supply, and wholesale energy trading and marketing businesses. It operates approximately 252,000 circuit miles of distribution lines; 38,000 circuit miles of transmission lines; and 25,000 MWs of regulated owned generating capacity. American Electric Power Company, Inc. was incorporated in 1906 and is headquartered in Columbus, Ohio.",
     "website": "https://www.aep.com"
   },
+  "AER": {
+    "_ts": 1785772129.3914568,
+    "country": "Ireland",
+    "employees": 668,
+    "industry": "Rental & Leasing Services",
+    "marketCap": 24119109632,
+    "name": "AerCap Holdings N.V.",
+    "sector": "Industrials",
+    "summary": "AerCap Holdings N.V. engages in the lease, financing, sale, and management of commercial flight equipment in the United States, China, and internationally. The company engages in aircraft and engine asset management services, such as remarketing aircraft and engines for lease or sale; collecting rental and supplemental maintenance rent payments, monitoring aircraft maintenance, monitoring and enforcing contract compliance, and accepting delivery and redelivery of aircraft and engines; conducting ongoing lessee financial performance reviews. Its aircraft and engine asset management services also include periodically inspecting the leased aircraft and engines; coordinating technical modifications to aircraft to meet new lessee requirements; conducting restructuring negotiations in connection with lease defaults; repossessing aircraft and engines; arranging and monitoring insurance coverage; registering and de-registering aircraft; arranging for aircraft and engine valuations; and providing market research services. In addition, the company provides corporate administrative services comprising accounting, and corporate secretarial services consisting of the preparation of budgets and financial statements; and cash management services, including treasury services, such as the financing, refinancing, hedging, and ongoing cash management of companies. Further, it offers airframe and engine parts and supply chain solutions to airlines; maintenance, repair, and overhaul service providers; and aircraft parts distributors. The company has a portfolio of owned, managed, or on order aircraft, consisting of 3,500 aircraft, engines, and helicopters. AerCap Holdings N.V. was founded in 1995 and is headquartered in Dublin, Ireland.",
+    "website": "https://www.aercap.com"
+  },
   "AGI": {
     "_ts": 1776482612.3358293,
     "country": "Canada",
@@ -637,6 +648,17 @@
     "summary": "BrightSpring Health Services, Inc. operates as a home and community-based healthcare services platform in the United States. The company operates through two segments, Pharmacy Solutions and Provider Services. Its platform focuses on delivering pharmacy and provider services, including clinical and supportive care in home and community settings to Medicare, Medicaid, and insured populations. It also offers infused, injectable, and oral medication services; and patient-centric, highly skilled, and compassionate clinical home health care, as well as rehabilitation services, including physical, speech and occupational therapy and applied behavioral analysis. The company was formerly known as Phoenix Parent Holdings Inc. and changed its name to BrightSpring Health Services, Inc. in May 2021. BrightSpring Health Services, Inc. was founded in 1974 and is headquartered in Louisville, Kentucky.",
     "website": "https://www.brightspringhealth.com"
   },
+  "BUD": {
+    "_ts": 1785772129.3914568,
+    "country": "Belgium",
+    "employees": 137000,
+    "industry": "Beverages - Brewers",
+    "marketCap": 166515785728,
+    "name": "Anheuser-Busch InBev SA/NV",
+    "sector": "Consumer Defensive",
+    "summary": "Anheuser-Busch InBev SA/NV produces and sells beer in North America, Middle Americas, South America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through North America, Middle Americas, South America, EMEA, Asia Pacific, and Global Export and Holding Companies segments. The company also offers flavored malt beverages, soft drinks, spirit-based ready-to-drink cocktails and beverages, and energy drinks. In addition, it operates BEES, a business-to-business digital commerce platform; on-demand delivery platforms under the Z\u00e9 Delivery and TaDa Delivery brands; and premium at-home draft system under the PerfectDraft brand. The company provides a portfolio of approximately 500 beer brands, which primarily include Budweiser, Corona Extra, Michelob Ultra, and Stella Artois; Aguila, Brahma, Carling Black Label, Cass Fresh, Jupiler, Quilmes, SKOL, and Victoria; Beck's, Hoegaarden, and Leffe; Antarctica, Bud Light, Castle, Castle Lite, Cristal, Harbin, Modelo Especial, Sedrin, and Skol brands, as well as non-beer brands comprising Brutal Fruit, Cutwater, and N\u00dcTRL brands. The company was formerly known as InBev SA and changed its name to Anheuser-Busch InBev SA/NV in November 2008. Anheuser-Busch InBev SA/NV was founded in 1366 and is headquartered in Leuven, Belgium.",
+    "website": "https://www.ab-inbev.com"
+  },
   "BURL": {
     "_ts": 1784127144.4491315,
     "country": "United States",
@@ -823,6 +845,17 @@
     "sector": "Technology",
     "summary": "Cipher Digital Inc., together with its subsidiaries, develops and operates industrial-scale data centers for bitcoin mining and high-performance compute (HPC) hosting in the United States. It develops HPC data center facilities across various sites for hyperscaler tenants; operates power at one bitcoin mining data center; and maintains a pipeline across various sites. The company was formerly known as Cipher Mining Inc. and change its name to Cipher Digital Inc. in February 2026. The company was founded in 2021 and is headquartered in New York, New York.",
     "website": "https://www.cipherdigital.com"
+  },
+  "CLBK": {
+    "_ts": 1785772144.7905354,
+    "country": "United States",
+    "employees": 749,
+    "industry": "Banks - Regional",
+    "marketCap": 1118105728,
+    "name": "Columbia Financial, Inc.",
+    "sector": "Financial Services",
+    "summary": "Columbia Financial, Inc. operates as a bank holding company for Columbia Bank that provides banking and other financial services to businesses and consumers in the United States. The company offers commercial loans, including multifamily and commercial real estate, commercial business, and construction loans; residential loans, such as one-to-four family residential real estate and one-to-four family residential loans; and consumer loans, which includes home equity loans and advances, as well as automobile, personal, unsecured, and overdraft lines of credit, as well as securities activities. It also provides deposit products, including non-interest and interest-bearing demand accounts, savings and club deposits, money market accounts, and certificates of deposit; and borrowings. In addition, the company offers title insurance products; wealth management services; and cash management services comprising remote deposit, lockbox service, sweep accounts, and escrow services. The company operates full-service banking offices in New Jersey. Columbia Financial, Inc. was founded in 1926 and is based in Fair Lawn, New Jersey. Columbia Financial, Inc. operates as a subsidiary of Columbia Bank MHC.",
+    "website": "https://www.columbiabankonline.com"
   },
   "CLH": {
     "_ts": 1784214179.8976445,
@@ -1176,6 +1209,17 @@
     "summary": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements and offers payment and consumption solutions and services, such utility, subscription, as-a-service, leases, and loans, as well as fixed-term leases and loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in March 2013. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas.",
     "website": "https://www.dell.com"
   },
+  "DFNS": {
+    "_ts": 1785772146.8055189,
+    "country": "United States",
+    "employees": 112,
+    "industry": "Aerospace & Defense",
+    "marketCap": 50216548,
+    "name": "T3 Defense Inc.",
+    "sector": "Industrials",
+    "summary": "T3 Defense Inc. acquires and operates aerospace and defense businesses in the United States and Israel. It engages in supplying generators for iron dome launchers and defense systems; defense and aerospace applications, including GPS-denied navigation, 3D mapping, simulation systems, and AI training platforms; design and manufacture of motion control systems for military and civilian use; and distribution of advanced drone payload systems for defense and homeland security markets. The company also offers unmanned arial systems and services; design, development, production, and manufacturing of serial, fully integrated electro-mechanical machines, and sophisticated assembly lines. In addition, it is involved in aviation and defense infrastructure, such as logistics hubs, maintenance, repair, and operations facilities, and aircraft modernization capabilities. The company was formerly known as Nukkleus Inc. and changed its name to T3 Defense Inc. in February 2026. T3 Defense Inc. was founded in 2013 and is headquartered in New York, New York.",
+    "website": "https://www.t3dfns.com"
+  },
   "DFTX": {
     "_ts": 1784127155.882447,
     "country": "United States",
@@ -1188,11 +1232,11 @@
     "website": "https://definiumtx.com"
   },
   "DINO": {
-    "_ts": 1779718269.5939367,
+    "_ts": 1785772129.3914568,
     "country": "United States",
     "employees": 5165,
     "industry": "Oil & Gas Refining & Marketing",
-    "marketCap": 12603057152,
+    "marketCap": 16325909504,
     "name": "HF Sinclair Corporation",
     "sector": "Energy",
     "summary": "HF Sinclair Corporation operates as an independent energy company in the United States. It operates through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream. The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others. It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states. In addition, the company supplies fuels to 1,700 branded stations and licenses the use of the Sinclair brand at approximately 350 additional locations, as well as provision of other marketing activities. Further, the company produces base oils and other specialized lubricants; and provides petroleum product and crude oil transportation, terminalling, storage, and throughput services to the petroleum sector. Additionally, it offers hydrocarbon chemicals, including white oils, petrolatums, and waxes. The company also exports its products. HF Sinclair Corporation was incorporated in 1947 and is headquartered in Dallas, Texas.",
@@ -1397,11 +1441,11 @@
     "website": "https://www.equinor.com"
   },
   "ERAS": {
-    "_ts": 1782743523.6865664,
+    "_ts": 1785772146.8055189,
     "country": "United States",
     "employees": 103,
     "industry": "Biotechnology",
-    "marketCap": 5146793984,
+    "marketCap": 6171925504,
     "name": "Erasca, Inc.",
     "sector": "Healthcare",
     "summary": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's product pipeline includes ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-mutated solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-mutated solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGFR and RAS/MAPK solid tumors. It has license agreement with Guangzhou Joyo Pharmatech Co., Ltd to develop, manufacture, and commercialize certain pan-RAS inhibitors; Medshine Discovery Inc. to develop, manufacture, and commercialize certain pan-KRAS inhibitors; Novartis Pharma AG to develop, manufacture, use, and commercialize naporafenib; NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds; and Asana BioSciences, LLC to develop and commercialize ERAS-007 and certain other related compounds. The company has a clinical trial collaboration and supply agreement with Tango Therapeutics, Inc. for the evaluation of ERAS-0015. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
@@ -1683,11 +1727,11 @@
     "website": "https://www.geogroup.com"
   },
   "GL": {
-    "_ts": 1782914304.0099163,
+    "_ts": 1785772129.3914568,
     "country": "United States",
     "employees": 3695,
     "industry": "Insurance - Life",
-    "marketCap": 14026525696,
+    "marketCap": 14411643904,
     "name": "Globe Life Inc.",
     "sector": "Financial Services",
     "summary": "Globe Life Inc., through its subsidiaries, provides various life and supplemental health insurance products to lower middle- and middle-income families in the United States. It operates in three segments: Life Insurance, Supplemental Health Insurance, and Investments. The company offers whole, term, and other life insurance products, as well as life insurance for children; Medicare supplement and limited-benefit supplemental health insurance products, such as accident, cancer, critical illness, heart, intensive care, and other health products; and final expense, accidental death, mortgage protection, and hospital insurance products. It sells its products through direct-to-consumer channels, exclusive independent agents, general agency independent agents, and brokers. The company was formerly known as Torchmark Corporation and changed its name to Globe Life Inc. in August 2019. Globe Life Inc. was founded in 1900 and is headquartered in McKinney, Texas.",
@@ -1703,6 +1747,17 @@
     "sector": "Energy",
     "summary": "Golar LNG Limited designs, converts, owns, and operates marine infrastructure for the liquefaction of natural gas. The company operates in two segments, FLNG, and Corporate and Other. It engages in the regasification, storage, and liquefied natural gas (LNG) carrier transportation operations; operation of floating liquefaction natural gas (FLNG) vessels or projects; transportation of LNG carriers; and vessel management activities. The company was founded in 1946 and is headquartered in Hamilton, Bermuda.",
     "website": "https://www.golarlng.com"
+  },
+  "GM": {
+    "_ts": 1785772129.3914568,
+    "country": "United States",
+    "employees": 156000,
+    "industry": "Auto Manufacturers",
+    "marketCap": 79573647360,
+    "name": "General Motors Company",
+    "sector": "Consumer Cyclical",
+    "summary": "General Motors Company designs, builds, and sells trucks, crossovers, cars, and automobile parts worldwide. It operates through GM North America, GM International, and GM Financial segments. The company markets its vehicles primarily under the Buick, Cadillac, Chevrolet, GMC, Baojun, and Wuling brand names. In addition, it sells trucks, crossovers, cars, and automobile parts through retail dealers, distributors and dealers, as well as to fleet customers, including daily rental car companies, commercial fleet customers, leasing companies, and governments. Further, the company offers various range of after-sale services through dealer network, such as maintenance, light repairs, collision repairs, vehicle accessories, and extended service warranties. Additionally, it provides automotive financing; and software-enabled services and subscriptions. General Motors Company was founded in 1908 and is based in Detroit, Michigan.",
+    "website": "https://www.gm.com"
   },
   "GNRC": {
     "_ts": 1779804817.899272,
@@ -1958,11 +2013,11 @@
     "website": "https://www.idexcorp.com"
   },
   "ILMN": {
-    "_ts": 1781273813.210227,
+    "_ts": 1785772129.3914568,
     "country": "United States",
     "employees": 8600,
     "industry": "Diagnostics & Research",
-    "marketCap": 24731498496,
+    "marketCap": 30597398528,
     "name": "Illumina, Inc.",
     "sector": "Healthcare",
     "summary": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the Middle East, and Africa. The company offers sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparation; whole-genome sequencing kits, which sequence entire genomes of various size and complexity; and targeted resequencing kits, which sequence exomes, specific genes, and RNA or other genomic regions of interest. It also provides whole-genome sequencing, genotyping, noninvasive prenatal testing, and product support services. The company serves genomic research centers, academic institutions, government laboratories, and hospitals, as well as pharmaceutical, biotechnology, commercial molecular diagnostic laboratories, and consumer genomics companies. The company markets and distributes its products directly to customers, as well as through life-science distributors. The company has a collaboration with Labcorp Holdings Inc. for the development of oncology treatments through applications of sequencing solutions across the healthcare ecosystem; and strategic collaboration with Integrated DNA Technologies to enable a DRAGEN, secondary analysis pipeline for IDT xGena, FFPE and cfDNA next generation sequencing (NGS) library preparation with custom panels, delivering an integrated, end-to-end solution for somatic oncology research. It also has a data partnership with Center for Data-Driven Discovery in Biomedicine to advance research in pediatric cancer and rare disease. Illumina, Inc. was incorporated in 1998 and is headquartered in San Diego, California.",
@@ -2474,6 +2529,17 @@
     "summary": "Lloyds Banking Group plc, together with its subsidiaries, provides a range of banking and financial products and services for retail and commercial customers in the United Kingdom. It operates in three segments: Retail; Commercial Banking; and Insurance, Pensions and Investments. The Retail segment offers a range of financial service products, including current accounts, savings, mortgages, credit cards, unsecured loans, motor finance, and leasing solutions to personal customers. Its Commercial Banking segment provides lending, transactional banking, working capital management, debt financing, and risk management services to small and medium businesses, corporates, and institutions. The Insurance, Pensions and Investments segment offers insurance, investment, and pension management products and services. It also provides life assurance; and digital banking services. The company offers its products and services under the Lloyds Bank, Halifax, Bank of Scotland, Scottish Widows, MBNA, Schroders Personal Wealth, Black Horse, Lex Autolease, Birmingham Midshires, LDC, AMC, Embark Group, Lloyds Living, Cavendish Online, Tusker, and HGP brands. The company was formerly known as Lloyds TSB Group plc and changed its name to Lloyds Banking Group plc in January 2009. Lloyds Banking Group plc was founded in 1695 and is headquartered in London, the United Kingdom.",
     "website": "https://www.lloydsbankinggroup.com"
   },
+  "M": {
+    "_ts": 1785772129.3914568,
+    "country": "United States",
+    "employees": 90134,
+    "industry": "Department Stores",
+    "marketCap": 6796900864,
+    "name": "Macy's, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Macy's, Inc., an omni-channel retail organization, operates stores, websites, and mobile applications in the United States. The company sells various merchandise, such as apparel and accessories for men, women, and kids; cosmetics; home furnishings; and other consumer goods under the Macy's, Bloomingdale's, and Bluemercury brands. It also operates in Dubai, the United Arab Emirates, and Al Zahra, Kuwait under the license agreements. The company was formerly known as Federated Department Stores, Inc. and changed its name to Macy's, Inc. in June 2007. Macy's, Inc. was founded in 1830 and is based in New York, New York.",
+    "website": "https://www.macysinc.com"
+  },
   "MAC": {
     "_ts": 1783355172.3029957,
     "country": "United States",
@@ -2618,11 +2684,11 @@
     "website": "https://www.mscdirect.com"
   },
   "MT": {
-    "_ts": 1776482612.3358293,
+    "_ts": 1785772129.3914568,
     "country": "Luxembourg",
     "employees": 125554,
     "industry": "Steel",
-    "marketCap": 47561080832,
+    "marketCap": 53657612288,
     "name": "ArcelorMittal S.A.",
     "sector": "Basic Materials",
     "summary": "ArcelorMittal S.A., together with its subsidiaries, operates as integrated steel and mining companies in the Americas, Europe, Asia, and Africa. It offers semi-finished flat products, including slabs; finished flat products comprising plates, hot- and cold-rolled coils and sheets, hot-dipped and electro-galvanized coils and sheets, tinplate, and color coated coils and sheets; semi-finished long products, such as blooms and billets; finished long products consisting of bars, wire-rods, structural sections, rails, sheet piles, and wire-products; and seamless and welded pipes and tubes. The company also provides mining products, such as iron ore lumps, fines, concentrate, pellets, and sinter feeds; and coking coal. It sells its products to various customers in the automotive, appliance, engineering, construction, energy, and machinery industries through a centralized marketing organization, and distributors. The company operates iron ore mining activities in Brazil, Bosnia, Liberia, Mexico, South Africa, and Ukraine, as well as in India and in Canada. ArcelorMittal S.A. was founded in 1976 and is headquartered in Luxembourg, Luxembourg.",
@@ -3189,6 +3255,17 @@
     "summary": "Plexus Corp. provides electronic manufacturing services in the United States, the Asia-Pacific, Europe, the Middle East, and Africa. The company offers design, develop, supply chain, new product introduction, and manufacturing solutions, as well as sustaining services. It serves the aerospace/defense, healthcare/life sciences, and industrial/commercial sectors. Plexus Corp. was founded in 1979 and is headquartered in Neenah, Wisconsin.",
     "website": "https://www.plexus.com"
   },
+  "PNFP": {
+    "_ts": 1785772129.3914568,
+    "country": "United States",
+    "employees": 3709,
+    "industry": "Banks - Regional",
+    "marketCap": 16205320192,
+    "name": "Pinnacle Financial Partners, Inc.",
+    "sector": "Financial Services",
+    "summary": "Pinnacle Financial Partners, Inc. operates as the bank holding company for Pinnacle Bank that provides various banking products and services to individuals, businesses, and professional entities in the United States. It accepts various deposits, including savings, noninterest-bearing and interest-bearing checking, money market, and certificate of deposit accounts; and provides treasury management services, such as online wire origination, enhanced ACH origination, positive pay, zero balance and sweep accounts, automated bill pay services, electronic receivables processing, lockbox processing, and merchant card acceptance services, small business and commercial credit cards corporate purchasing cards, and virtual accounting/deposit escrow solutions. The company also offers equipment and working capital loans; commercial real estate loans, such as investment properties and business loan; secured and unsecured loans comprising installment and term, lines of credit, and residential first mortgage, as well as home equity loans and home equity lines of credit; and credit cards for consumers and businesses. In addition, the company provides investment products; brokerage and investment advisory programs; and fiduciary and investment services, including personal trust, investment management, estate administration, endowments, foundations, individual retirement accounts, escrow services, and custody. Further, it offers insurance agency services in the property and casualty area; investment, merger and acquisition advisory services, private debt, equity and mezzanine placement services, and other middle-market advisory services; and other banking services, including telephone and online banking, mobile banking, debit cards, direct deposit and remote deposit capture, mobile deposit option, automated teller machine, and cash management services. Pinnacle Financial Partners, Inc. was incorporated in 2000 and is headquartered in Atlanta, Georgia.",
+    "website": "https://www.pnfp.com"
+  },
   "PNW": {
     "_ts": 1783523973.3882017,
     "country": "United States",
@@ -3410,11 +3487,11 @@
     "website": "https://www.rockwellautomation.com"
   },
   "ROST": {
-    "_ts": 1782140712.5149386,
+    "_ts": 1785772129.3914568,
     "country": "United States",
     "employees": 111000,
     "industry": "Apparel Retail",
-    "marketCap": 77082091520,
+    "marketCap": 81196105728,
     "name": "Ross Stores, Inc.",
     "sector": "Consumer Cyclical",
     "summary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California.",
@@ -3430,6 +3507,17 @@
     "sector": "Healthcare",
     "summary": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases. The company was founded in 1996 and is based in New York, New York.",
     "website": "https://www.royaltypharma.com"
+  },
+  "RS": {
+    "_ts": 1785772129.3914568,
+    "country": "United States",
+    "employees": 15700,
+    "industry": "Steel",
+    "marketCap": 20644931584,
+    "name": "Reliance, Inc.",
+    "sector": "Basic Materials",
+    "summary": "Reliance, Inc. operates as a diversified metal solutions provider and metals service center company primarily in the United States and Canada. The company distributes metal products, including alloy, aluminum, brass, copper, carbon steel, stainless steel, titanium, and other specialty steel products; and provides metals processing services to consumer products, general manufacturing, non-residential construction, transportation, aerospace, energy, electronics and semiconductor fabrication, industrial machinery, and heavy industries. It sells its products directly to original equipment manufacturers, which primarily include small machine shops and fabricators. The company was formerly known as Reliance Steel & Aluminum Co. and changed its name to Reliance, Inc. in February 2024. Reliance, Inc. was founded in 1939 and is based in Phoenix, Arizona.",
+    "website": "https://reliance.com"
   },
   "RSI": {
     "_ts": 1782223173.5340276,
@@ -3531,11 +3619,11 @@
     "website": "https://www.slb.com"
   },
   "SLS": {
-    "_ts": 1783091329.7449477,
+    "_ts": 1785772146.8055189,
     "country": "United States",
     "employees": 13,
     "industry": "Biotechnology",
-    "marketCap": 2945555968,
+    "marketCap": 2113800192,
     "name": "SELLAS Life Sciences Group, Inc.",
     "sector": "Healthcare",
     "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
@@ -3661,6 +3749,17 @@
     "sector": "Technology",
     "summary": "Sensata Technologies Holding plc develops, manufactures, and sells sensors and sensor-rich solutions, electrical protection components and systems, and other products used in mission-critical systems and applications in the United States, Europe, Asia, and internationally. It operates through three segments: Automotive; Industrials; and Aerospace, Defense, and Commercial Equipment. The company offers sensors, contactors/fuses, switching and protection devices and solutions, distribution modules, bimetal electromechanical controls, circuit breakers, switches and relays, energy storage systems, rectifiers and frequency converters, power conversion systems, battery management system, charging inlet modules, and brushless DC motors. It offers its products for thermal management and air conditioning systems; powertrain; exhaust after-treatment; suspension, braking; tire management solutions; battery packs; electrical protection; electrical powertrain; battery packs; charging systems; motors, compressors, pumps; heating and cooling systems; home appliances; lighting; industrial; data and telecom equipment; medical equipment; motors, compressors, and pumps; hydraulic machinery; motion control systems; motor/platform controllers; grid harmonics and power delivery; commercial and military aircraft; and recreational vehicles. It serves automotive, on-road truck, and construction; and original equipment manufacturers in agriculture, control, appliance, medical, energy and charging infrastructure, data/telecom, and aerospace and defense industries, as well as systems integrators, aerospace, and motor and compressor distributors. Sensata Technologies Holding plc was founded in 1916 and is headquartered in Attleboro, Massachusetts.",
     "website": "https://www.sensata.com"
+  },
+  "STLD": {
+    "_ts": 1785772129.3914568,
+    "country": "United States",
+    "employees": 14400,
+    "industry": "Steel",
+    "marketCap": 36208975872,
+    "name": "Steel Dynamics, Inc.",
+    "sector": "Basic Materials",
+    "summary": "Steel Dynamics, Inc., together with its subsidiaries, operates as a steel producer and metal recycler in the United States. It operates through four segments: Steel Operations, Metals Recycling Operations, Steel Fabrication Operations, and Aluminum Operations. The Steel Operations segment offers hot rolled, cold rolled, and coated steel products; parallel flange beams and channel sections, large unequal leg angles, and reinforcing steel bars, standard strength carbon, intermediate alloy hardness, and premium grade rail products; engineered special-bar-quality products, merchant-bar-quality products, and other engineered round steel bars; channels, angles, flats, merchant rounds, and reinforcing steel bars; and specialty shapes and light structural steel products. This segment also engages in turning, polishing, straightening, chamfering, precision saw-cutting, and heat treating of bar products. Its products are used in construction, automotive, manufacturing, transportation, heavy and agricultural equipment, energy, and pipe and tube markets. The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services. Its ferrous products include heavy melting steel, busheling, bundled scrap, shredded scrap, steel turnings, and cast-iron products; and nonferrous products comprise aluminum, brass, copper, stainless steel, and other nonferrous metals. The Steel Fabrication Operations segment produces steel non-residential building components, such as steel joists, joist girders, and steel deck products for non-residential steel fabricators, metal building companies, general construction contractors, developers, property owners, brokers, and governmental entities. The Aluminum Operations segment offers recycled aluminum flat rolled products. The company also exports its products. Steel Dynamics, Inc. was incorporated in 1993 and is headquartered in Fort Wayne, Indiana.",
+    "website": "https://www.steeldynamics.com"
   },
   "STM": {
     "_ts": 1778593677.5342884,
@@ -3850,11 +3949,11 @@
     "website": "https://www.tfiintl.com"
   },
   "TGT": {
-    "_ts": 1779804817.899272,
+    "_ts": 1785772129.3914568,
     "country": "United States",
     "employees": 415000,
     "industry": "Discount Stores",
-    "marketCap": 56751747072,
+    "marketCap": 0,
     "name": "Target Corporation",
     "sector": "Consumer Defensive",
     "summary": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home d\u00e9cor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, it sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. The company sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota.",
@@ -4301,11 +4400,11 @@
     "website": "https://www.wesco.com"
   },
   "WDC": {
-    "_ts": 1782743523.6865664,
+    "_ts": 1785772146.8055189,
     "country": "United States",
     "employees": 40000,
     "industry": "Computer Hardware",
-    "marketCap": 211593478144,
+    "marketCap": 0,
     "name": "Western Digital Corporation",
     "sector": "Technology",
     "summary": "Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer manufacturers, sales personnel, dealers, distributors, and retailers. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
@@ -4433,11 +4532,11 @@
     "website": "https://www.ypf.com"
   },
   "ZION": {
-    "_ts": 1782140712.5149386,
+    "_ts": 1785772129.3914568,
     "country": "United States",
-    "employees": 9090,
+    "employees": 9039,
     "industry": "Banks - Regional",
-    "marketCap": 9854416896,
+    "marketCap": 10284321792,
     "name": "Zions Bancorporation, National Association",
     "sector": "Financial Services",
     "summary": "Zions Bancorporation, National Association provides various banking products and related services primarily in the states of Arizona, California, Colorado, Idaho, Nevada, New Mexico, Oregon, Texas, Utah, Washington, and Wyoming. The company operates through Zions Bank, California Bank & Trust, Amegy Bank, National Bank of Arizona, Nevada State Bank, Vectra Bank Colorado, and The Commerce Bank of Washington segments. It offers commercial and small business banking services to small- and medium-sized businesses, such as commercial, industrial, and owner-occupied lending and leasing; municipal and public finance services; depository account and cash management services; commercial and small business cards; merchant processing services; corporate trust services; and correspondent banking and international lending services. The company also provides capital markets and investment banking services, including loan syndications, foreign exchange services, interest rate derivatives, fixed income securities underwriting, mergers and acquisitions advisory services, advisory and capital raising, commercial mortgage-backed security conduit lending, and power and project financing; and commercial real estate lending services consisting of term and construction/land development financing for commercial and residential purposes. In addition, it offers retail banking services comprising residential mortgages lending, home equity lines of credit, personal lines of credit, installment consumer loans, depository account services, consumer cards, and personal trust services; and wealth management services consisting of investment management, fiduciary and estate, and advanced business succession and estate planning services. The company was formerly known as ZB, National Association and changed its name to Zions Bancorporation, National Association in September 2018. Zions Bancorporation, National Association was founded in 1873 and is headquartered in Salt Lake City, Utah.",
