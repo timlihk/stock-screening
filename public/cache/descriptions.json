@@ -791,6 +791,17 @@
     "summary": "Citizens Financial Group, Inc. operates as the bank holding company that provides retail and commercial banking products and services to individuals, small businesses, middle-market companies, large corporations, and institutions in the United States. The company operates through two segments, Consumer Banking and Commercial Banking. The Consumer Banking segment offers deposit products, mortgage and home equity lending products, credit cards, business loans, and wealth management services; and education and point-of-sale finance loans, as well as digital deposit products. This segment serves its customers through telephone service centers, as well as through its online and mobile platforms. The Commercial Banking segment provides various financial products and solutions, including lending and leasing, deposit and treasury management services, foreign exchange, and interest rate and commodity risk management solutions, as well as syndicated loans, corporate finance, mergers and acquisitions, and debt and equity capital markets services. The company serves customers and small businesses, high- and ultra-high-net-worth individuals and families, as well as investors, entrepreneurs, and companies and institutions, as well as multifamily, office, industrial, retail, healthcare, and hospitality sectors. The company was formerly known as RBS Citizens Financial Group, Inc. and changed its name to Citizens Financial Group, Inc. in April 2014. Citizens Financial Group, Inc. was founded in 1828 and is headquartered in Providence, Rhode Island.",
     "website": "https://www.citizensbank.com"
   },
+  "CFR": {
+    "_ts": 1786029605.54881,
+    "country": "United States",
+    "employees": 6008,
+    "industry": "Banks - Regional",
+    "marketCap": 10262318080,
+    "name": "Cullen/Frost Bankers, Inc.",
+    "sector": "Financial Services",
+    "summary": "Cullen/Frost Bankers, Inc. operates as the bank holding company for Frost Bank that provides commercial and consumer banking services in Texas. The company offers commercial banking services to corporations, including financing for industrial and commercial properties, interim construction related to industrial and commercial properties, equipment, inventories and accounts receivables, and acquisitions; and treasury management services. It also provides consumer banking services, such as checking accounts, automated-teller machines (ATMs), overdraft facilities, installment and real estate loans, first mortgage loans, home equity loans and lines of credit, drive-in and night deposit services, safe deposit facilities, and brokerage services. In addition, the company offers international banking services comprising deposits, loans, letters of credit, foreign collections, funds transmitting, and foreign exchange services; correspondent banking activities, including check clearing, transfer of funds, fixed income security services, and securities custody and clearance services. Further, it offers trust, investment, agency, and custodial services for individual and corporate clients; capital market services that include sales and trading, new issue underwriting, money market trading, advisory, and securities safekeeping and clearance; and support for international business activities, including foreign exchange, letters of credit, export-import financing, and other related activities. Additionally, the company offers insurance and securities brokerage services; holding of securities for investment purposes; and investment management services for mutual funds, institutions, and individuals. It serves energy, manufacturing, services, construction, retail, telecommunications, healthcare, military, and transportation industries. Cullen/Frost Bankers, Inc. was founded in 1868 and is headquartered in San Antonio, Texas.",
+    "website": "https://www.frostbank.com"
+  },
   "CGNX": {
     "_ts": 1780410971.7163908,
     "country": "United States",
@@ -1131,6 +1142,17 @@
     "sector": "Healthcare",
     "summary": "Cytokinetics, Incorporated, a biopharmaceutical company, focuses on discovering, developing, and commercializing novel muscle activators and muscle inhibitors as potential treatments for debilitating diseases in the United States. The company markets MYQORZO, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of symptomatic oHCM. It also develops Aficamten, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of HCM; and omecamtiv mecarbil, a potential treatment across the continuum of care in heart failure with severely reduced ejection fraction. In addition, the company is involved in developing and Ulacamten, a novel, selective, oral, and small molecule cardiac myosin inhibitor designed to reduce the hypercontractility associated with heart failure with preserved ejection fraction in Phase 1 clinical trials; and CK-089, a fast skeletal muscle troponin activator in Phase 1 clinical trials. Cytokinetics, Incorporated was incorporated in 1997 and is headquartered in South San Francisco, California.",
     "website": "https://www.cytokinetics.com"
+  },
+  "CZR": {
+    "_ts": 1786029605.54881,
+    "country": "United States",
+    "employees": 50000,
+    "industry": "Resorts & Casinos",
+    "marketCap": 6141150720,
+    "name": "Caesars Entertainment, Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Caesars Entertainment, Inc. operates as a gaming and hospitality company. It owns, leases, brands, or manages domestic properties in 18 states with slot machines, video lottery terminals and e-tables, and hotel rooms, as well as table games, including poker. The company also operates and conducts online gaming, retail and online sports wagering across 42 jurisdictions in North America, and iGaming in five jurisdictions in North America; sports betting from retail and online sportsbooks; and other games, such as keno. In addition, it operates casinos, dining venues, bars, nightclubs, lounges, hotels, and entertainment venues; and provides staffing and management services. The company was founded in 1937 and is based in Reno, Nevada.",
+    "website": "https://www.caesars.com"
   },
   "D": {
     "_ts": 1782309146.6517544,
@@ -1804,11 +1826,11 @@
     "website": "https://abc.xyz"
   },
   "GSAT": {
-    "_ts": 1776526532.6262076,
+    "_ts": 1786029605.54881,
     "country": "United States",
     "employees": 477,
     "industry": "Telecom Services",
-    "marketCap": 10289861632,
+    "marketCap": 10744216576,
     "name": "Globalstar, Inc.",
     "sector": "Communication Services",
     "summary": "Globalstar, Inc. provides mobile satellite services in the United States, Canada, Europe, Central and South America, and internationally. It offers duplex two-way voice and data products, including mobile voice and data services and equipment for remote business continuity, recreational usage, safety, emergency preparedness and response, and other applications. The company also provides data transmissions using a mobile or fixed device that transmits the location of the device and other information to a central monitoring station, including commercial IoT products; communication and data transmissions using SPOT family of devices, such as SPOT X, SPOT Gen4, and SPOT Trace that emergency alerts, and transmit messages and the location of the device; and voice communication and data transmissions. In addition, it offers commercial IoT devices to track assets comprising cargo containers and rail cars, monitor utility meters, and monitor oil and gas assets; small satellite transmitter modules, such as the STX-3, ST-150 and ST100, and chips that enable an integrator's products to access its network; engineering and other communication services using MSS and terrestrial spectrum licenses; and hardware and software designs to develop specific applications operating over satellite network, as well as the installation of gateways and antennas. It distributes its products through retailers and sales force, as well as www.findmespot.com e-commerce website. The company serves forestry, maritime, government, oil and gas, mining, leisure, emergency services, construction, and transportation sectors. Globalstar, Inc. was founded in 1993 and is headquartered in Covington, Louisiana.",
@@ -2013,11 +2035,11 @@
     "website": "https://www.ies-co.com"
   },
   "IEX": {
-    "_ts": 1782395736.0121927,
+    "_ts": 1786029605.54881,
     "country": "United States",
     "employees": 8700,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 16805118976,
+    "marketCap": 17327124480,
     "name": "IDEX Corporation",
     "sector": "Industrials",
     "summary": "IDEX Corporation, together with its subsidiaries, provides applied solutions in the United States, North America, Europe, Asia, and internationally. It operates through three segments: Health & Science Technologies (HST), Fluid & Metering Technologies (FMT) and Fire & Safety/Diversified Products (FSDP). The HST segment designs, produces, and distributes a range of precision fluidics, positive displacement pumps, powder and liquid processing technologies, drying systems, micro-precision components, pneumatic components and sealing solutions, high performance molded and extruded sealing components, and custom mechanical and shaft seals. This segment also offers engineered hygienic mixers and valves, biocompatible medical devices and implantable products, air compressors and blowers, optical components and coatings, ultra-precision diamond tools, and laboratory and commercial equipment, as well as precision photonic solutions, technical ceramics, hermetic sealing products, porous material structures, and flow control solutions. The FMT segment designs, produces, and distributes positive displacement pumps, valves, small volume provers, flow meters, injectors, other fluid-handling pump modules, and systems; and provides flow monitoring and other services. The FSDP segment designs, produces, and distributes firefighting pumps, valves and controls, and rescue tools; lifting bags and other components and systems; engineered stainless steel banding and clamping devices; and precision equipment for dispensing, metering, and mixing colorants and paints. The company was incorporated in 1987 and is headquartered in Northbrook, Illinois.",
@@ -2518,6 +2540,17 @@
     "summary": "Lightwave Logic, Inc. focuses on the development and commercialization of electro-optic polymer materials for data communications and other photonic application in the United States and internationally. The company sells electro-optic (EO) polymer materials for integration into silicon photonics and other photonic integrated circuit platforms under the Perkinamine name. It is also involved in intellectual property licensing; and royalty activities. The company serves semiconductor foundries, silicon photonics device designers, and optical module manufacturers, as well as system integrators serving artificial intelligence, cloud computing, data center, and telecommunications markets. The company was formerly known as Third-order Nanotechnologies, Inc. and changed its name to Lightwave Logic, Inc. in March 2008. Lightwave Logic, Inc. was founded in 1991 and is headquartered in Englewood, Colorado.",
     "website": "https://lightwavelogic.com"
   },
+  "LXP": {
+    "_ts": 1786029605.54881,
+    "country": "United States",
+    "employees": 58,
+    "industry": "REIT - Industrial",
+    "marketCap": 3571631104,
+    "name": "LXP Industrial Trust",
+    "sector": "Real Estate",
+    "summary": "LXP Industrial Trust is a publicly traded real estate investment trust (REIT) focused on Class A warehouse and distribution investments in 12 target markets across the Sunbelt and lower Midwest. LXP seeks to expand its warehouse and distribution portfolio through acquisitions, build-to-suit transactions, sale-leaseback transactions, development projects and other transactions. LXP Industrial Trust was incorporated in 1993 and is based in West Palm Beach, United States.",
+    "website": "https://www.lxp.com"
+  },
   "LYB": {
     "_ts": 1778593677.5342884,
     "country": "United Kingdom",
@@ -2561,6 +2594,17 @@
     "sector": "Real Estate",
     "summary": "The Macerich Company is a fully integrated, self-managed, self-administered real estate investment trust (REIT). As a leading owner, operator, and developer of high-quality retail real estate in densely populated and attractive U.S. markets, Macerich's portfolio is concentrated in California, the Pacific Northwest, Phoenix/Scottsdale, and the Metro New York to Washington, D.C. corridor. Developing and managing properties that serve as community cornerstones, Macerich currently owns approximately 41 million square feet of real estate, consisting primarily of interests in 39 retail centers. The Macerich Company was incorporated in 1964 in Maryland and is based in Santa Monica, California.",
     "website": "https://www.macerich.com"
+  },
+  "MAN": {
+    "_ts": 1786029605.54881,
+    "country": "United States",
+    "employees": 25400,
+    "industry": "Staffing & Employment Services",
+    "marketCap": 2554183168,
+    "name": "ManpowerGroup Inc.",
+    "sector": "Industrials",
+    "summary": "ManpowerGroup Inc. provides workforce solutions and services under the Manpower, the Experis, and the Talent Solutions brands in the Americas, Southern Europe, Northern Europe, and the Asia Pacific/the Middle East. The company offers recruitment services, including permanent, temporary, and contract recruitment of professionals, as well as administrative, industrial, and information technology professional positions; assessment, upskilling, reskilling, training and development, career management, and workforce consulting services; and outsourcing services related to human resources functions primarily in the areas of large-scale recruiting and workforce-intensive initiatives. It also offers contingent staffing and permanent recruitment services; information technology professional resourcing and project services; and recruitment process outsourcing solutions; and right management services, as well as TAPFIN, a managed service provider solution. ManpowerGroup Inc. was incorporated in 1948 and is headquartered in Milwaukee, Wisconsin.",
+    "website": "https://www.manpowergroup.com"
   },
   "MAR": {
     "_ts": 1779718269.5939367,
@@ -2627,6 +2671,17 @@
     "sector": "Technology",
     "summary": "MKS Inc. provides foundational technology solutions to semiconductor manufacturing, electronics and packaging, and specialty industrial applications in the United States, China, South Korea, Japan, Taiwan, Singapore, and internationally. The company operates through Vacuum Solutions Division (VSD), Photonics Solutions Division (PSD), and Material Solutions Division (MSD) segments. Its VSD segment provides foundational technology solutions, including pressure measurement and control, flow measurement and control, gas and vapor delivery, gas composition analysis, electronic control technology, reactive gas generation and delivery, power generation and delivery, and fiber optic temperature and position sensing. The PSD segment offers range of solutions, which include lasers, photonics, optics, precision motion control, and vibration control. Its MSD segment develops, process, and manufactures technologies comprising advanced surface modification, electroless and electrolytic plating, and surface finishing for chemistry, equipment, and services markets, as well as high-technology applications. In addition, the company sells its products and services through direct sales, network of independent distributors, and sales representatives, as well as websites, including product catalogs. MKS Inc. was formerly known as MKS Instruments, Inc. and changed its name to MKS Inc. in May 2025. The company was incorporated in 1961 and is based in Andover, Massachusetts.",
     "website": "https://www.mks.com"
+  },
+  "MLI": {
+    "_ts": 1786029605.54881,
+    "country": "United States",
+    "employees": 4832,
+    "industry": "Metal Fabrication",
+    "marketCap": 15392012288,
+    "name": "Mueller Industries, Inc.",
+    "sector": "Industrials",
+    "summary": "Mueller Industries, Inc. manufactures and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle East, and Mexico. It operates through three segments: Piping Systems, Industrial Metals, and Climate. The Piping Systems segment offers copper tubes, fittings, line sets, and pipe nipples; resells steel pipe, brass and plastic plumbing valves, malleable iron fittings, faucets, and plumbing specialties. This segment sells its products to wholesalers in the plumbing and refrigeration markets, distributors to the manufactured housing and recreational vehicle industries, building material retailers, and air-conditioning original equipment manufacturers (OEMs). The Industrial Metals segment offers brass, bronze, and copper alloy rods; brass rod, bar, and shapes; cold-form aluminum and copper products; high-volume machining of aluminum, steel, brass, and cast-iron impacts and castings for automotive applications; brass and aluminum forgings; brass, aluminum, and stainless steel valves; fluid control solutions; and gas train assembles; specialty copper, copper alloy, and aluminum tube to OEMs in the industrial, construction, plumbing, refrigeration, utility, telecommunication, and electrical transmission and distribution markets, as well as heating, ventilation, and air-conditioning (HVAC) markets. The Climate segment provides valves, protection devices, and brass fittings; and coaxial heat exchangers and twisted tubes to wholesalers and OEMs in the HVAC and refrigeration markets. This segment also manufactures and distributes high-pressure components and accessories, as well as insulated HVAC flexible duct systems. Mueller Industries, Inc. was founded in 1917 and is headquartered in Collierville, Tennessee.",
+    "website": "https://www.muellerindustries.com"
   },
   "MNST": {
     "_ts": 1780327173.0309377,
@@ -3023,6 +3078,17 @@
     "sector": "Real Estate",
     "summary": "Omega Healthcare Investors, Inc. is a real estate investment trust that invests in the long-term healthcare industry, primarily in skilled nursing and assisted living facilities. Its portfolio of assets is operated by a diverse group of healthcare companies, predominantly in a triple-net lease structure. The assets span all regions within the US, as well as in the UK and Canada. Omega Healthcare Investors, Inc. is based in Hunt Valley, United States. The firm is incorporated in Maryland.",
     "website": "https://www.omegahealthcare.com"
+  },
+  "OII": {
+    "_ts": 1786029605.54881,
+    "country": "United States",
+    "employees": 11100,
+    "industry": "Oil & Gas Equipment & Services",
+    "marketCap": 4930698752,
+    "name": "Oceaneering International, Inc.",
+    "sector": "Energy",
+    "summary": "Oceaneering International, Inc. provides engineered services and products and robotic solutions to the offshore energy, defense, aerospace, and manufacturing industries in the United States, Africa, the United Kingdom, Norway, Brazil, Asia, Australia, and internationally. It operates through five segments: Subsea Robotics, Manufactured Products, Offshore Projects Group, Integrity Management & Digital Solutions, and Aerospace and Defense Technologies. The Subsea Robotics segment offers remotely operated vehicles (ROVs) for drill support and vessel-based services, including subsea hardware installation, construction, pipeline inspection, survey and facilities inspection, maintenance, and repair; ROV tooling; and survey services comprising hydrographic survey and positioning services and autonomous underwater vehicles for geoscience. Its Manufactured Products segment provides distribution and connection systems, such as production control umbilicals and field development hardware and pipeline connection and repair systems; connectors and subsea and topside control valves primarily to the energy industry; and autonomous mobile robotic technology to various industries. The Offshore Projects Group segment offers subsea installation and intervention, including riserless light well intervention services, inspection, maintenance and repair services; installation and workover control systems and ROV workover control systems; diving services; project management and engineering; and drill pipe riser services and systems and wellhead load relief solutions. Its Integrity Management & Digital Solution segment provides asset integrity management services, as well as software, digital, and connectivity solutions for the energy industry. The Aerospace and Defense Technologies segment offers services and products, such as engineering and related manufacturing in defense and space exploration activities. The company was founded in 1964 and is headquartered in Houston, Texas.",
+    "website": "https://www.oceaneering.com"
   },
   "OKE": {
     "_ts": 1779115341.7335317,
@@ -4233,6 +4299,17 @@
     "sector": "Financial Services",
     "summary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional Banking; Consumer and Business Banking; Payment Services; and Treasury and Corporate Support segments. It offers depository services, including checking accounts, savings accounts, and time certificate contracts; and lending services, such as traditional credit products and credit card services, lease financing and import/export trade, agricultural finance, asset-backed lending, and other products. The company also provides cash management, capital markets, and trust and investment management services; and ancillary services comprising capital markets, treasury management, and receivable lock-box collection services to corporate and governmental entity customers. In addition, it offers asset management and fiduciary services for individuals, estates, foundations, business corporations, and charitable organizations; and investment and insurance products to its customers principally within its domestic markets, as well as fund administration services to mutual and other funds. Further, the company provides corporate and purchasing card, and corporate trust services; and credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing services. U.S. Bancorp was founded in 1863 and is headquartered in Minneapolis, Minnesota.",
     "website": "https://www.usbank.com"
+  },
+  "USFD": {
+    "_ts": 1786029613.082436,
+    "country": "United States",
+    "employees": 30000,
+    "industry": "Food Distribution",
+    "marketCap": 23696953344,
+    "name": "US Foods Holding Corp.",
+    "sector": "Consumer Defensive",
+    "summary": "US Foods Holding Corp., together with its subsidiaries, markets, sells, and distributes fresh, frozen, and dry food and non-food products to foodservice customers in the United States. The company also provides MOXe, an all-in-one foodservice business application. Its customers include independently owned single and multi-unit restaurants, regional concepts, national restaurant chains, hospitals, nursing homes, hotels and motels, country clubs, government and military organizations, colleges and universities, and retail locations. The company was formerly known as USF Holding Corp. and changed its name to US Foods Holding Corp. in February 2016. US Foods Holding Corp. was incorporated in 2007 and is headquartered in Rosemont, Illinois.",
+    "website": "https://www.usfoods.com"
   },
   "USO": {
     "_ts": 1784819821.7054615,

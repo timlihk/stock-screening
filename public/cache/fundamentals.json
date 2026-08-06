@@ -931,7 +931,7 @@
     "sample_quarters": 9
   },
   "BHP": {
-    "_ts": 1779373332.1893647,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -1697,7 +1697,7 @@
     "sample_quarters": 9
   },
   "CPAY": {
-    "_ts": 1785857127.463963,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -1935,6 +1935,18 @@
     "revenue_qoq_growth": 9.011546043368067,
     "revenue_yoy_growth": 1125.7758074730843,
     "sample_quarters": 9
+  },
+  "CZR": {
+    "_ts": 1786029545.5738952,
+    "earnings_accelerating": true,
+    "fundamental_score": 2,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 36.734693877551024,
+    "net_income_yoy_growth": 24.390243902439025,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 4.285714285714293,
+    "revenue_yoy_growth": 2.958376332989343,
+    "sample_quarters": 10
   },
   "D": {
     "_ts": 1781188137.100566,
@@ -2975,6 +2987,18 @@
     "revenue_yoy_growth": null,
     "sample_quarters": 0
   },
+  "GGB": {
+    "_ts": 1786029545.5738952,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 0
+  },
   "GKOS": {
     "_ts": 1782743309.9613972,
     "earnings_accelerating": true,
@@ -3084,16 +3108,16 @@
     "sample_quarters": 0
   },
   "GSAT": {
-    "_ts": 1778508132.014379,
-    "earnings_accelerating": true,
-    "fundamental_score": 4,
-    "latest_period": "Q4 2025",
-    "net_income_qoq_growth": -1165.8715596330276,
-    "net_income_yoy_growth": 76.86532985523408,
-    "revenue_accelerating": true,
-    "revenue_qoq_growth": -2.551289863904127,
-    "revenue_yoy_growth": 17.62753976167515,
-    "sample_quarters": 8
+    "_ts": 1786029545.5738952,
+    "earnings_accelerating": false,
+    "fundamental_score": 1,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": -49.93974866586331,
+    "net_income_yoy_growth": -0.5135306675898679,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": -2.6361501368797002,
+    "revenue_yoy_growth": 16.711087420042638,
+    "sample_quarters": 9
   },
   "GSK": {
     "_ts": 1776692907.9442577,
@@ -3479,7 +3503,7 @@
     "sample_quarters": 10
   },
   "IEX": {
-    "_ts": 1782395660.6860354,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": true,
     "fundamental_score": 2,
     "latest_period": "Q1 2026",
@@ -4269,6 +4293,18 @@
     "revenue_yoy_growth": -3.083972651109046,
     "sample_quarters": 9
   },
+  "MAN": {
+    "_ts": 1786029545.5738952,
+    "earnings_accelerating": true,
+    "fundamental_score": 2,
+    "latest_period": "Q4 2025",
+    "net_income_qoq_growth": 67.77777777777779,
+    "net_income_yoy_growth": 34.22222222222222,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 1.6981702054203351,
+    "revenue_yoy_growth": 7.123212946337243,
+    "sample_quarters": 8
+  },
   "MAR": {
     "_ts": 1779457973.7715743,
     "earnings_accelerating": false,
@@ -4318,7 +4354,7 @@
     "sample_quarters": 0
   },
   "MFC": {
-    "_ts": 1785771934.0247338,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -4546,7 +4582,7 @@
     "sample_quarters": 10
   },
   "MT": {
-    "_ts": 1783355039.23368,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -5407,7 +5443,7 @@
     "sample_quarters": 9
   },
   "PFG": {
-    "_ts": 1783355039.23368,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -7872,7 +7908,7 @@
     "sample_quarters": 0
   },
   "YETI": {
-    "_ts": 1782140613.7831964,
+    "_ts": 1786029545.5738952,
     "earnings_accelerating": false,
     "fundamental_score": 0,
     "latest_period": "Q1 2026",
