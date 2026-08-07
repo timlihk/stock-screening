@@ -1,10 +1,10 @@
 {
   "AAOI": {
-    "_ts": 1780410981.9744685,
+    "_ts": 1786112191.922078,
     "country": "United States",
     "employees": 4691,
     "industry": "Communication Equipment",
-    "marketCap": 15850353664,
+    "marketCap": 11303508992,
     "name": "Applied Optoelectronics, Inc.",
     "sector": "Technology",
     "summary": "Applied Optoelectronics, Inc. engages in the design, manufacture, and sale of fiber-optic networking products in the United States, Taiwan, and China. The company offers optical modules, optical filters, lasers, laser components, subassemblies, transmitters and transceivers, turn-key equipment, headend, node, and distribution equipment, as well as amplifiers. It sells its products to internet data center operators, cable television, telecom equipment manufacturers, fiber-to-the-home, and internet service providers through its direct and indirect sales channels. Applied Optoelectronics, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas.",
@@ -1923,6 +1923,17 @@
     "sector": "Consumer Cyclical",
     "summary": "Hilton Worldwide Holdings Inc., a hospitality company, engages in managing, franchising, and leasing hotels and resorts. It operates in two segments, Management and Franchise, and Ownership. The company engages in the hotel management and licensing of its brand names, trademarks, and service marks. It operates a brand portfolio of luxury, lifestyle, full service, focused service, all-suites hotel, and timeshare under the Waldorf Astoria Hotels & Resorts, LXR Hotels & Resorts, Conrad Hotels & Resorts, Signia by Hilton, NoMad, Canopy by Hilton, Graduate by Hilton, Tempo by Hilton, Motto by Hilton, Hilton Hotels & Resorts, DoubleTree by Hilton, Curio Collection by Hilton, Tapestry Collection by Hilton, Outset Collection by Hilton, Embassy Suites by Hilton, Homewood Suites by Hilton, Home2 Suites by Hilton, LivSmart Studios by Hilton, Hilton Garden Inn, Hampton by Hilton, Tru by Hilton, Spark by Hilton, Hilton Grand Vacations, Small Luxury Hotels of the World, AutoCamp, and Hilton Honors brand names. The company has operations in North America, South America, and Central America, including various Caribbean nations; Europe, the Middle East, and Africa; and the Asia Pacific. Hilton Worldwide Holdings Inc. was founded in 1919 and is headquartered in McLean, Virginia.",
     "website": "https://www.hilton.com"
+  },
+  "HPQ": {
+    "_ts": 1786112156.7029693,
+    "country": "United States",
+    "employees": 55000,
+    "industry": "Computer Hardware",
+    "marketCap": 26310817792,
+    "name": "HP Inc.",
+    "sector": "Technology",
+    "summary": "HP Inc. provides personal computing, printing, 3D printing, hybrid work, gaming, and other related technologies in the United States and internationally. The company operates through three segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops and notebooks, workstations, thin clients, retail point-of-sale systems, displays, software, hybrid systems, and endpoint security and services, as well as lifecycle services, including support and deployment, configurations, and extended warranty services. The Printing segment provides consumer and commercial printer hardware, supplies, and solutions, as well as office and home printing solutions; and focuses on graphics, 3D printing, and personalization solutions for the commercial and industrial markets. The Corporate Investments segment is involved in the business incubation and investment projects. It serves small- and medium-sized businesses, public sector, and enterprises. The company was formerly known as Hewlett-Packard Company and changed its name to HP Inc. in October 2015. HP Inc. was founded in 1939 and is headquartered in Palo Alto, California.",
+    "website": "https://www.hp.com"
   },
   "HR": {
     "_ts": 1782743509.769063,
