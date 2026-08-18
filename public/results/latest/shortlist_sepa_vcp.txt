@@ -1,10 +1,10 @@
-CNI|sepa_vcp 8 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 66 · Earn 56d · RS +16
-ATAI|sepa_vcp 7 · +power_play · Entry 5 · Lead 11 · Tight 3/3 · RSpct 85 · Earn 65d · RS +57
-MAN|sepa_vcp 7 · +power_play · Entry 5 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 70 · Industrials · Earn 45d · RS +23
-BFH|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 86 · Financials · Earn 50d · RS +62
-DGX|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 64 · Health Care · Earn 48d · RS +13
-PFG|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 73 · Financials · Earn 52d · RS +30
-BCS|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 70 · Earn 50d · RS +22
-MT|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 91 · Materials · Earn 60d · RS +98
-EBC|sepa_vcp 7 · Entry 4 · Lead 7 · Tight 2/3 · RSpct 77 · Earn 50d · RS +37
-SEIC|sepa_vcp 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 50 · Earn 49d · RS -1
+RS|sepa_vcp 8 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 74 · Materials · Earn 46d · RS +31
+USFD|sepa_vcp 8 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 67 · Consumer Staples · Earn 57d · RS +20
+SEIC|sepa_vcp 8 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 52 · Earn 46d · RS +1
+FITB|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 67 · Financials · Earn 44d · RS +20
+FNB|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 56 · Earn 42d · RS +7
+ROIV|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 1/5 · RSpct 95 · Health Care · Earn 59d · RS +188
+BFH|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 86 · Financials · Earn 47d · RS +67
+JNJ|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 76 · Health Care · Earn 40d · RS +35
+USB|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 71 · Financials · Earn 42d · RS +27
+IMO|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 1/3 · Fund 5/5 · RSpct 80 · Energy · Earn 53d · RS +46
