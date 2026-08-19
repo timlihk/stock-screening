@@ -1,10 +1,10 @@
-RS|sepa_vcp 8 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 74 · Materials · Earn 46d · RS +31
-USFD|sepa_vcp 8 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 67 · Consumer Staples · Earn 57d · RS +20
-SEIC|sepa_vcp 8 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 52 · Earn 46d · RS +1
-FITB|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 67 · Financials · Earn 44d · RS +20
-FNB|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 56 · Earn 42d · RS +7
-ROIV|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 1/5 · RSpct 95 · Health Care · Earn 59d · RS +188
-BFH|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 86 · Financials · Earn 47d · RS +67
-JNJ|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 76 · Health Care · Earn 40d · RS +35
-USB|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 71 · Financials · Earn 42d · RS +27
-IMO|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 1/3 · Fund 5/5 · RSpct 80 · Energy · Earn 53d · RS +46
+CGON|sepa_vcp 7 · +power_play · Entry 7 · Lead 10 · Tight 2/3 · RSpct 95 · Health Care · Earn 58d · RS +181
+TEVA|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · RSpct 89 · Health Care · Earn 55d · RS +87
+BHP|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 83 · Materials · Earn 131d · RS +54
+JNJ|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 1/3 · Fund 1/5 · RSpct 77 · Health Care · Earn 39d · RS +36
+IMO|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 1/3 · Fund 5/5 · RSpct 81 · Energy · Earn 52d · RS +47
+CHRD|sepa_vcp 7 · Entry 5 · Lead 7 · Tight 0/3 · RSpct 73 · Energy · Earn 54d · RS +28
+WAT|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 67 · Earn 52d · RS +19
+APGE|sepa_vcp 7 · +power_play · Entry 4 · Lead 11 · Tight 3/3 · RSpct 96 · Health Care · Earn 58d · RS +232
+IMAX|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 1/3 · Fund 1/5 · RSpct 88 · Earn 51d · RS +80
+CNI|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 67 · Earn 52d · RS +20
