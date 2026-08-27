@@ -2116,6 +2116,18 @@
     "revenue_yoy_growth": 13.410621303427694,
     "sample_quarters": 9
   },
+  "CXW": {
+    "_ts": 1787870962.7765484,
+    "earnings_accelerating": true,
+    "fundamental_score": 5,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": 42.87436882960283,
+    "net_income_yoy_growth": 50.981563333731536,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 1.7842448005060074,
+    "revenue_yoy_growth": 25.807415472333695,
+    "sample_quarters": 9
+  },
   "CYTK": {
     "_ts": 1782743309.9613972,
     "earnings_accelerating": false,
@@ -3225,6 +3237,18 @@
     "revenue_accelerating": true,
     "revenue_qoq_growth": -2.555634190453726,
     "revenue_yoy_growth": 24.743305818401453,
+    "sample_quarters": 9
+  },
+  "GEN": {
+    "_ts": 1787870962.7765484,
+    "earnings_accelerating": false,
+    "fundamental_score": 2,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": -58.0078125,
+    "net_income_yoy_growth": 59.25925925925925,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 4.130943102104445,
+    "revenue_yoy_growth": 6.284805091487677,
     "sample_quarters": 9
   },
   "GEO": {
@@ -6512,7 +6536,7 @@
     "sample_quarters": 8
   },
   "RIO": {
-    "_ts": 1779718220.7269588,
+    "_ts": 1787870962.7765484,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -6584,7 +6608,7 @@
     "sample_quarters": 9
   },
   "RNR": {
-    "_ts": 1782743309.9613972,
+    "_ts": 1787870962.7765484,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
