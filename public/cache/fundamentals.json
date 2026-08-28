@@ -560,6 +560,18 @@
     "revenue_yoy_growth": -5.935688473989309,
     "sample_quarters": 8
   },
+  "ARGX": {
+    "_ts": 1787957709.8069508,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 0
+  },
   "ARM": {
     "_ts": 1778680586.8845985,
     "earnings_accelerating": null,
@@ -2811,7 +2823,7 @@
     "sample_quarters": 8
   },
   "EXEL": {
-    "_ts": 1785338227.2258809,
+    "_ts": 1787957709.8069508,
     "earnings_accelerating": true,
     "fundamental_score": 3,
     "latest_period": "Q4 2025",
@@ -6511,6 +6523,18 @@
     "revenue_yoy_growth": null,
     "sample_quarters": 0
   },
+  "RGEN": {
+    "_ts": 1787957709.8069508,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": -39.90159606384255,
+    "net_income_yoy_growth": -66.31239069016547,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 5.082494659082126,
+    "revenue_yoy_growth": 11.933145432810942,
+    "sample_quarters": 10
+  },
   "RHP": {
     "_ts": 1787579643.611688,
     "earnings_accelerating": true,
@@ -7815,16 +7839,16 @@
     "sample_quarters": 8
   },
   "TWLO": {
-    "_ts": 1784214031.8944714,
-    "earnings_accelerating": true,
-    "fundamental_score": 4,
-    "latest_period": "Q1 2026",
-    "net_income_qoq_growth": 296.57827016181795,
-    "net_income_yoy_growth": 350.31223460058953,
-    "revenue_accelerating": true,
-    "revenue_qoq_growth": 2.9999341108255972,
-    "revenue_yoy_growth": 19.99585487985549,
-    "sample_quarters": 9
+    "_ts": 1787957709.8069508,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q4 2025",
+    "net_income_qoq_growth": -223.10459621993127,
+    "net_income_yoy_growth": -267.7145148356054,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 5.039057153095738,
+    "revenue_yoy_growth": 14.319550398172144,
+    "sample_quarters": 8
   },
   "TWST": {
     "_ts": 1786458266.20508,
