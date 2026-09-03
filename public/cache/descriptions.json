@@ -1617,11 +1617,11 @@
     "website": "https://www.equinor.com"
   },
   "ERAS": {
-    "_ts": 1785772146.8055189,
+    "_ts": 1788454605.4359446,
     "country": "United States",
     "employees": 103,
     "industry": "Biotechnology",
-    "marketCap": 6171925504,
+    "marketCap": 5683633152,
     "name": "Erasca, Inc.",
     "sector": "Healthcare",
     "summary": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's product pipeline includes ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-mutated solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-mutated solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGFR and RAS/MAPK solid tumors. It has license agreement with Guangzhou Joyo Pharmatech Co., Ltd to develop, manufacture, and commercialize certain pan-RAS inhibitors; Medshine Discovery Inc. to develop, manufacture, and commercialize certain pan-KRAS inhibitors; Novartis Pharma AG to develop, manufacture, use, and commercialize naporafenib; NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds; and Asana BioSciences, LLC to develop and commercialize ERAS-007 and certain other related compounds. The company has a clinical trial collaboration and supply agreement with Tango Therapeutics, Inc. for the evaluation of ERAS-0015. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
@@ -2969,6 +2969,17 @@
     "summary": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. The company sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio.",
     "website": "https://www.marathonpetroleum.com"
   },
+  "MRNA": {
+    "_ts": 1788454605.4359446,
+    "country": "United States",
+    "employees": 4700,
+    "industry": "Biotechnology",
+    "marketCap": 57180565504,
+    "name": "Moderna, Inc.",
+    "sector": "Healthcare",
+    "summary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
+    "website": "https://www.modernatx.com"
+  },
   "MSGS": {
     "_ts": 1783523973.3882017,
     "country": "United States",
@@ -3927,11 +3938,11 @@
     "website": "https://www.rushstreetinteractive.com"
   },
   "RVMD": {
-    "_ts": 1782223173.5340276,
+    "_ts": 1788454605.4359446,
     "country": "United States",
     "employees": 883,
     "industry": "Biotechnology",
-    "marketCap": 35580145664,
+    "marketCap": 45333225472,
     "name": "Revolution Medicines, Inc.",
     "sector": "Healthcare",
     "summary": "Revolution Medicines, Inc., a clinical-stage precision oncology company, develops novel targeted therapies for RAS-addicted cancers. The company's research and development pipeline consist of RAS(ON) inhibitors that binds RAS variants to be used as monotherapy in combination with other RAS(ON) inhibitors and/or in combination with RAS companion inhibitors or other therapeutic agents, and RAS companion inhibitors to suppress cooperating targets and pathways that sustain RAS-addicted cancers. Its RAS(ON) inhibitors include daraxonrasib (RMC-6236), elironrasib G12C (RMC-6291) which is in early clinical development for the treatment of solid tumors, and zoldonrasib G12D (RMC-9805), which are in phase 3 registrational trial evaluating the combination of daraxonrasib with zoldonrasib in patients with 1L PDAC; and development candidates comprise RMC-5127 (G12V) which is in clinical trial, RMC-0708 (Q61H), that is in clinical trial; and RMC-8839 (G13C). Revolution Medicines, Inc. was incorporated in 2014 and is headquartered in Redwood City, California.",
@@ -4037,11 +4048,11 @@
     "website": "https://www.slb.com"
   },
   "SLS": {
-    "_ts": 1785772146.8055189,
+    "_ts": 1788454605.4359446,
     "country": "United States",
     "employees": 13,
     "industry": "Biotechnology",
-    "marketCap": 2113800192,
+    "marketCap": 2839356672,
     "name": "SELLAS Life Sciences Group, Inc.",
     "sector": "Healthcare",
     "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
