@@ -1,10 +1,10 @@
-TWLO|power_play 8 · +sepa_vcp · Entry 5 · Lead 9 · Tight 1/3 · RSpct 92 · Technology · Earn 40d · RS +106
-HUM|power_play 8 · Entry 4 · Lead 10 · Tight 1/3 · RSpct 66 · Earn 46d · RS +14
-INCY|power_play 7 · +sepa_vcp · Entry 7 · Lead 8 · Tight 2/3 · Fund 3/5 · RSpct 77 · Health Care · Earn 38d · RS +30
-BMY|power_play 7 · +sepa_vcp · Entry 7 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 77 · Health Care · Earn 40d · RS +32
-STT|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · RSpct 85 · Financials · Earn 29d · RS +54
-PSNL|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · RSpct 97 · Earn 43d · RS +208
-HZO|power_play 7 · +sepa_vcp · Entry 5 · Lead 9 · Tight 3/3 · Fund 3/5 · RSpct 90 · Consumer Discretionary · Earn 50d · RS +79
-KYMR|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 4/5 · RSpct 95 · Health Care · Earn 43d · RS +161
-OVV|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 80 · Energy · Earn 44d · RS +39
-QSR|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 66 · Earn 40d · RS +14
+HUM|power_play 8 · Entry 4 · Lead 9 · Tight 2/3 · RSpct 65 · Earn 45d · RS +13
+BMY|power_play 7 · +sepa_vcp · Entry 7 · Lead 6 · Tight 2/3 · Fund 3/5 · RSpct 75 · Health Care · Earn 39d · RS +28
+INCY|power_play 7 · Entry 6 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 75 · Health Care · Earn 37d · RS +27
+PSNL|power_play 7 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · RSpct 96 · Earn 42d · RS +201
+HZO|power_play 7 · +sepa_vcp · Entry 5 · Lead 9 · Tight 3/3 · Fund 3/5 · RSpct 89 · Consumer Discretionary · Earn 49d · RS +77
+SOLV|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · RSpct 59 · Earn 44d · RS +6
+CLH|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 2/3 · Fund 2/5 · RSpct 66 · Industrials · Earn 43d · RS +14
+MRX|power_play 7 · +sepa_vcp · Entry 4 · Lead 12 · Tight 0/3 · RSpct 92 · Earn 44d · RS +104
+CXW|power_play 7 · +sepa_vcp · Entry 4 · Lead 10 · Tight 1/3 · Fund 5/5 · RSpct 85 · Earn 43d · RS +55
+RVMD|power_play 7 · Entry 4 · Lead 9 · Tight 2/3 · Fund 1/5 · RSpct 99 · Health Care · Earn 43d · RS +395
