@@ -110,11 +110,11 @@
     "website": "https://www.analog.com"
   },
   "ADM": {
-    "_ts": 1779285971.9089527,
+    "_ts": 1788887001.5643077,
     "country": "United States",
     "employees": 40798,
     "industry": "Farm Products",
-    "marketCap": 37448019968,
+    "marketCap": 40595197952,
     "name": "Archer-Daniels-Midland Company",
     "sector": "Consumer Defensive",
     "summary": "Archer-Daniels-Midland Company provides human and animal nutrition ingredients and solutions in the United States, Switzerland, the Cayman Islands, Brazil, Mexico, Canada, the United Kingdom, and internationally. It operates in three segments: Ag Services and Oilseeds; Carbohydrate Solutions; and Nutrition. The company engages in the origination, merchandising, transportation, and storage of agricultural raw materials, as well as the crushing and processing of oilseeds, including soybeans and soft seeds, such as cottonseed, sunflower seed, canola, rapeseed, and flaxseed; produces and markets vegetable oils and oilseed protein meals used by food, feed, energy, and industrial customers; sale of crude and partially refined vegetable oils; supplies peanuts and peanut-derived ingredients; and manufactures cotton cellulose pulp. It is also involved in the grain sourcing, handling, and multimodal transportation network supporting import, export, and distribution activities; structured trade finance activities; corn and wheat wet and dry milling and related processing activities; production of distillers' grains, corn gluten feed, and corn gluten meal for use as animal feed ingredients; and carbon capture and sequestration and other emissions-reduction initiatives. In addition, the company engages in the creation, manufacturing, sale, and distribution of an array of ingredients and solutions comprising plant-based proteins, flavors and colors derived from nature, flavor systems, emulsifiers, soluble fiber, polyols, hydrocolloids, probiotics, prebiotics, postbiotics, enzymes, botanical extracts, and other specialty food and feed ingredients and systems. Further, it is involved in the derivatives and commodity exchanges and clearing houses; and insurance coverage for certain property, casualty, marine, medical, and other miscellaneous risks. The company was founded in 1902 and is based in Chicago, Illinois.",
@@ -835,6 +835,17 @@
     "summary": "Chubb Limited provides insurance and reinsurance products worldwide. It operates in six segments: North America Commercial Property and Casualty (P&C) Insurance, North America Personal P&C Insurance, North America Agricultural Insurance, Overseas General Insurance, Global Reinsurance, and Life Insurance. The company offers property and general liability, workers' compensation, and umbrella; professional and management liability; environmental, health, and international coverages; and claims and risk management products and services, loss control, and engineering and complex claims management. It also provides homeowners, automobile and collector cars, valuable articles, and personal and excess liability insurance. In addition, the company offers multiple peril crop insurance and crop-hail insurance for farm, ranch, specialty (P&C), and commercial agriculture products; product and employer liability, business interruption, and specialty risk; property insurance products, including traditional commercial fire coverage, energy industry-related, marine, construction, and other technical coverages; personal accident and supplemental medical coverages, such as accidental death, business/holiday travel, specified disease, disability, medical and hospital indemnity, and income protection; and directors and officers, professional indemnity, cyber, surety, aviation, political risk, and specialty personal lines products. Further, it provides property catastrophe reinsurance; traditional and specialty P&C reinsurance; and protection and savings products, which includes individual and group term life, dental, critical illness, dementia, hospital cash, credit life, group employee benefits, whole life, universal life, unit linked contracts, endowment plans, and annuities. The company was formerly known as ACE Limited and changed its name to Chubb Limited in January 2016. Chubb Limited was incorporated in 1985 and is headquartered in Zurich, Switzerland.",
     "website": "https://www.chubb.com"
   },
+  "CBZ": {
+    "_ts": 1788887001.5643077,
+    "country": "United States",
+    "employees": 9500,
+    "industry": "Specialty Business Services",
+    "marketCap": 2968267008,
+    "name": "CBIZ, Inc.",
+    "sector": "Industrials",
+    "summary": "CBIZ, Inc. provides financial, insurance, and advisory services in the United States and Canada. It operates through Financial Services, Benefits and Insurance Services, and National Practices segments. The Financial Services segment offers accounting and tax, financial advisory, national technology, and government healthcare consulting services. The Benefits and Insurance Services segment provides employee benefits consulting, payroll/human capital management, property and casualty insurance, and retirement and investment services. The National Practices segment offers information technology managed networking and hardware services. The company primarily serves small and medium-sized businesses, as well as individuals, governmental entities, and not-for-profit enterprises. CBIZ, Inc. was incorporated in 1987 and is headquartered in Independence, Ohio.",
+    "website": "https://www.cbiz.com"
+  },
   "CELC": {
     "_ts": 1784904710.384615,
     "country": "United States",
@@ -1309,11 +1320,11 @@
     "website": "https://www.delta.com"
   },
   "DAR": {
-    "_ts": 1778593677.5342884,
+    "_ts": 1788887001.5643077,
     "country": "United States",
     "employees": 15000,
     "industry": "Packaged Foods",
-    "marketCap": 10114137088,
+    "marketCap": 10541235200,
     "name": "Darling Ingredients Inc.",
     "sector": "Consumer Defensive",
     "summary": "Darling Ingredients Inc. develops, produces, and sells sustainable natural ingredients from edible and inedible bio-nutrients in North America, Europe, China, South America, and internationally. The Feed Ingredients segment collects and processes animal by-products into non-food grade oils and protein meals; bakery residuals into cookie meal used in poultry and swine rations; used cooking oil into non-food grade fats; and porcine and bovine blood into blood plasma powder and hemoglobin. This segment is also involved in the processing of selected portions of slaughtered animals into pet food, as well as of cattle hides and hog skins; production of organic fertilizers; rearing and processing of black soldier fly larvae into specialty proteins and fats for use in animal feed and pet food; and grease trap collection services to food service establishments. Its Food Ingredients segment engages in the purchase and processing of beef and pork bone chips, beef hides, and pig and fish skins into collagen; collection and processing of porcine and bovine intestines into natural casings; extraction and processing of porcine mucosa into crude heparin; collection and refining of animal fat into food grade fat; and processing of bones to bone chips and bone ash. The Fuel Ingredients segment is involved in the conversion of organic sludge and food waste into biogas; collection and conversion of fallen stock and certain animal by-products into low-grade energy sources; and processing of manure into natural bio-phosphate. It also provides environmental services, including disposal services; and yellow grease, fuel feedstock, and agriculture-based biofuels. The company sells its products under the Rendac, Sonac, FASA, Ecoson, Rousselot, Gelnex, and CTH brands. The company was formerly known as Darling International Inc. and changed its name to Darling Ingredients Inc. in May 2014. Darling Ingredients Inc. was founded in 1882 and is headquartered in Irving, Texas.",
@@ -2607,11 +2618,11 @@
     "website": "https://www.kiterealty.com"
   },
   "KRYS": {
-    "_ts": 1783355172.3029957,
+    "_ts": 1788887001.5643077,
     "country": "United States",
     "employees": 295,
     "industry": "Biotechnology",
-    "marketCap": 11085124608,
+    "marketCap": 10450200576,
     "name": "Krystal Biotech, Inc.",
     "sector": "Healthcare",
     "summary": "Krystal Biotech, Inc., a commercial-stage biotechnology company, discovers, develops, manufactures, and commercializes genetic medicines to treat diseases with high unmet medical needs in the United States. The company commercializes VYJUVEK (beremagene geperpavec-svdt, or B-VEC) for the treatment of dystrophic epidermolysis bullosa (DEB). It also develops KB803 for ocular complications of dystrophic epidermolysis bullosa; KB801 for neurotrophic keratitis; KB407, which is in Phase 1 clinical trials for treating cystic fibrosis; KB111 for Hailey-Hailey disease; KB707 for solid tumors; KB304 for dynamic wrinkles; KB707 that is in Phase 1/2 clinical trials for the treatment of anti-PD-1 relapsed/refractory; KB408, which is in Phase 1 clinical trials for treating Alpha-1 antitrypsin deficiency; and KB301 that is in Phase 2 clinical trials for treating aesthetic skin conditions, as well as in open label study with ophthalmic B-VEC for treating for ocular complications of deb. Krystal Biotech, Inc. was founded in 2016 and is headquartered in Pittsburgh, Pennsylvania.",
@@ -3267,11 +3278,11 @@
     "website": "https://www.netapp.com"
   },
   "NTRA": {
-    "_ts": 1783613183.996255,
+    "_ts": 1788887001.5643077,
     "country": "United States",
     "employees": 6135,
     "industry": "Diagnostics & Research",
-    "marketCap": 40164036608,
+    "marketCap": 47385956352,
     "name": "Natera, Inc.",
     "sector": "Healthcare",
     "summary": "Natera, Inc., a diagnostics company, engages in the development and commercialization of molecular testing services worldwide. It offers Signatera, a personalized ctDNA blood test for MRD assessment, early recurrence monitoring, and evaluation of treatment response in patients previously diagnosed with cancer; Latitude, a blood-based MRD test for colorectal cancer; Altera, a tissue based comprehensive genomic profiling test; and Empower, a hereditary cancer screening test. The company also provides Panorama, a non-invasive prenatal test; Horizon, a carrier screening test; Fetal Focus, a single-gene NIPT, or sgNIPT, that screens for 21 single-gene inherited conditions; and Vistara, a single-gene NIPT, which screens for 25 single-gene conditions. In addition, it offers Anora, which tests and analyzes miscarriage tissue from women who have experienced one or more pregnancy losses; Empower, a hereditary cancer screening test; Prospera, a test to assess active rejection in patients who have undergone solid organ transplantation; Renasight, a kidney gene panel test; and Constellation software, a cloud-based distribution model. Further, the company provides NateraCore, a platform to support the patient and provider experience; phlebotomy services; and EMR integration services. The company serves independent laboratories, national and regional reference laboratories, medical centers and physician practices for its screening tests, research laboratories, and pharmaceutical companies through its direct sales force and laboratory distribution partners, as well as Constellation licensees under its cloud-based distribution model. It has a partnership agreement with BGI Genomics Co., Ltd. to develop, manufacture, and commercialize NGS-based genetic testing assays for clinical and commercial use. The company has a collaboration with Diakonos Oncology Corp. to assess molecular response in patients with refractory melanoma. The company was formerly known as Gene Security Network, LLC and changed its name to Natera, Inc. in January 2012. Natera, Inc. was founded in 2003 and is headquartered in Austin, Texas.",
@@ -4124,6 +4135,28 @@
     "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
     "website": "https://sellaslifesciences.com"
   },
+  "SM": {
+    "_ts": 1788887001.5643077,
+    "country": "United States",
+    "employees": 1241,
+    "industry": "Oil & Gas E&P",
+    "marketCap": 8886227968,
+    "name": "SM Energy Company",
+    "sector": "Energy",
+    "summary": "SM Energy Company, an independent energy company, engages in the acquisition, exploration, development, and production of oil, gas, and natural gas liquids in the United States. The company holds working interests in oil and gas producing wells in the Midland Basin, South Texas, Uinta Basin, and DJ Basin. The company was formerly known as St. Mary Land & Exploration Company and changed its name to SM Energy Company in May 2010. SM Energy Company was founded in 1908 and is headquartered in Denver, Colorado.",
+    "website": "https://www.sm-energy.com"
+  },
+  "SMTC": {
+    "_ts": 1788887001.5643077,
+    "country": "United States",
+    "employees": 1920,
+    "industry": "Semiconductors",
+    "marketCap": 15161681920,
+    "name": "Semtech Corporation",
+    "sector": "Technology",
+    "summary": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base station optical transceivers, and interface applications; and video products for broadcast applications, as well as video-over-IP technology for professional audio video applications. The company also offers analog mixed signal and wireless products; protection devices, such as filter and termination devices which protect electronic systems from voltage spikes; and designs, develops, manufactures, and markets radio frequency products used in industrial, medical, and communications applications, as well as specialized sensing products. In addition, it provides switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wireless charging related products. Further, the company offers a portfolio of IoT systems and connectivity solutions, such as modules, gateways, routers, and connected services, including wireless connectivity and cloud-based services for industrial, medical, and communications applications. It serves original equipment manufacturers, solution providers, commercial applications, infrastructure, high-end consumer, and industrial end markets. The company sells its products through direct sales personnel, independent sales representative firms, and independent distributors. Semtech Corporation was incorporated in 1960 and is headquartered in Camarillo, California.",
+    "website": "https://www.semtech.com"
+  },
   "SN": {
     "_ts": 1782140712.5149386,
     "country": "United States",
@@ -4653,11 +4686,11 @@
     "website": "https://www.twistbioscience.com"
   },
   "TXG": {
-    "_ts": 1782223173.5340276,
+    "_ts": 1788887001.5643077,
     "country": "United States",
     "employees": 1178,
-    "industry": "Health Information Services",
-    "marketCap": 4213041408,
+    "industry": "Medical Devices",
+    "marketCap": 8476091904,
     "name": "10x Genomics, Inc.",
     "sector": "Healthcare",
     "summary": "10x Genomics, Inc. develops and sells instruments, consumables, and software for analyzing biological systems in the United States, rest of the Americas, Europe, the Middle East, Africa, China, and the rest of the Asia Pacific. The company offers Chromium platform, a single cell portfolio that enables analysis of individual biological components, as well as includes microfluidic chips and related consumables, Chromium X Series, and Chromium instruments; and QuantumScale single cell RNA and single cell methylation kits. It also provides Visium platform, a spatial analysis platform that uses high density DNA arrays to encode the physical location of biological analytes within a sample. This platform includes HD WT panel gene expression, and HD 3' gene expression assays, as well as the Visium CytAssist, an instrument designed to simplify and optimize the Visium solution workflow by facilitating the transfer of transcriptomic analytes from standard glass slides to Visium slides. In addition, the company offers Xenium Analyzer instrument enables researchers to detect and preserve the cellular location of hundreds of RNA targets directly in a fresh frozen or FFPE tissue section without the need for conventional sequencing; and slides and reagents. Further, it provides various software products comprising Cell Ranger, a scRNA-seq processing pipeline in scientific literature; Loupe Browser, which enables intuitive single-cell, spatial, and multiomic data visualization; and Xenium Explorer that enables intuitive in situ data visualization, which allows researchers to explore subcellular gene expression, spatial organization, and tissue-scale patterns. The company serves various academic, government, biopharmaceutical, biotechnology, and other institutions. The company was formerly known as 10X Technologies, Inc. and changed its name to 10x Genomics, Inc. in November 2014. 10x Genomics, Inc. was incorporated in 2012 and is headquartered in Pleasanton, California.",
