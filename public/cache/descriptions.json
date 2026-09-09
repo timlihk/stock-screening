@@ -406,6 +406,17 @@
     "summary": "ARMOUR Residential REIT, Inc. invests in residential mortgage-backed securities (MBS) in the United States. Its securities portfolio primarily consists of the United States Government-sponsored entity's (GSE) and the Government National Mortgage Administration's issued or guaranteed securities backed by fixed rate, hybrid adjustable rate, and adjustable-rate home loans; and unsecured notes and bonds issued by the GSE and the United States treasuries, as well as money market instruments. The company has elected to be taxed as a real estate investment trust. ARMOUR Residential REIT, Inc. was incorporated in 2008 and is based in Vero Beach, Florida.",
     "website": "https://www.armourreit.com"
   },
+  "ARW": {
+    "_ts": 1788973541.7536423,
+    "country": "United States",
+    "employees": 22230,
+    "industry": "Electronics & Computer Distribution",
+    "marketCap": 10974700544,
+    "name": "Arrow Electronics, Inc.",
+    "sector": "Technology",
+    "summary": "Arrow Electronics, Inc. sources and engineers technology for manufacturers, service providers, and users of enterprise computing solutions in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Global Components and Global Enterprise Computing Solutions. The Global Components segment markets and distributes electronic components, including semiconductor products and related services; interconnect, passive, and electromechanical products comprising capacitors, resistors, potentiometers, power supplies, relays, switches, and connectors; and computing and memory products, as well as other products and services. Its Global Enterprise Computing Solutions segment offers computing solutions, such as datacenter, cloud, security, and analytics solutions, as well as engineering and integration support, warehousing and logistics, marketing resources, and authorized hardware and software training services. The company serves original equipment manufacturers, value-added resellers, managed service providers, contract manufacturers, and other commercial customers. Arrow Electronics, Inc. was founded in 1935 and is based in Centennial, Colorado.",
+    "website": "https://www.arrow.com"
+  },
   "ARWR": {
     "_ts": 1787871000.075635,
     "country": "United States",
@@ -845,6 +856,17 @@
     "sector": "Industrials",
     "summary": "CBIZ, Inc. provides financial, insurance, and advisory services in the United States and Canada. It operates through Financial Services, Benefits and Insurance Services, and National Practices segments. The Financial Services segment offers accounting and tax, financial advisory, national technology, and government healthcare consulting services. The Benefits and Insurance Services segment provides employee benefits consulting, payroll/human capital management, property and casualty insurance, and retirement and investment services. The National Practices segment offers information technology managed networking and hardware services. The company primarily serves small and medium-sized businesses, as well as individuals, governmental entities, and not-for-profit enterprises. CBIZ, Inc. was incorporated in 1987 and is headquartered in Independence, Ohio.",
     "website": "https://www.cbiz.com"
+  },
+  "CDNA": {
+    "_ts": 1788973541.7536423,
+    "country": "United States",
+    "employees": 761,
+    "industry": "Diagnostics & Research",
+    "marketCap": 2622925312,
+    "name": "CareDx, Inc.",
+    "sector": "Healthcare",
+    "summary": "CareDx, Inc. provides solutions for improving outcomes for transplant patients and advancing organ health in the United States and internationally. The company provides AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients; AlloMap Heart, a gene expression profiling solution for heart transplant patients; AlloSure Heart, a dd-cfDNA solution for heart transplant patients; and AlloSure Lung, a dd-cfDNA solution for lung transplant patients. It also offers HeartCare, which provides information about distinct biological processes, such as immune quiescence, active injury, acute cellular rejection, and antibody mediated rejection; HistoMap Kidney, a solution that identifies allograft rejection and type of rejection in kidney transplant biopsy tissue; and AlloHeme, a monitoring test that predicts relapse in patients with acute myeloid leukemia and myelodysplastic syndromes. In addition, the company provides QTYPE that enables precision in human leukocyte antigen (HLA) typing; Olerup SSP, which is used to type HLA alleles based on sequence specific primer technology; and Ottr, a transplant patient management software. Further, it offers AlloSeq Tx, a high-resolution HLA typing solution; AlloSeq cfDNA, a surveillance solution to measure dd-cfDNA in blood; AlloSeq HCT, a solution for chimerism testing for stem cell transplant recipients; Allocell, a solution that monitors the pharmacokinetics of engraftment and persistence of cells for patients who have received allogeneic cell therapy; and XynQAPI, MedActionPlan, CareDx pharmacy, AlloHome, and HLA Data Systems software solutions. It has a license agreement with Illumina, Inc. for the distribution, development, and commercialization of NGS products and technologies. The company was formerly known as XDx, Inc. and changed its name to CareDx, Inc. in March 2014. The company was incorporated in 1998 and is headquartered in Brisbane, California.",
+    "website": "https://caredx.com"
   },
   "CELC": {
     "_ts": 1784904710.384615,
@@ -1628,11 +1650,11 @@
     "website": "https://www.eogresources.com"
   },
   "EPD": {
-    "_ts": 1778853063.9123566,
+    "_ts": 1788973541.7536423,
     "country": "United States",
     "employees": 0,
     "industry": "Oil & Gas Midstream",
-    "marketCap": 85392334848,
+    "marketCap": 84327587840,
     "name": "Enterprise Products Partners L.P.",
     "sector": "Energy",
     "summary": "Enterprise Products Partners L.P. provides midstream energy services to producers and consumers of natural gas, natural gas liquids (NGLs), crude oil, petrochemicals, and refined products. It operates in four segments: NGL Pipelines & Services; Crude Oil Pipelines & Services; Natural Gas Pipelines & Services; and Petrochemical & Refined Products Services. The NGL Pipelines & Services segment offers natural gas processing and related NGL marketing activities. This segment operates natural gas processing facilities located in Colorado, Louisiana, Mississippi, New Mexico, Texas, and Wyoming; NGL pipelines; NGL fractionation facilities; NGL and related product storage facilities; and NGL marine terminals. The Crude Oil Pipelines & Services segment operates crude oil pipelines; and crude oil storage and marine terminals, which include a fleet of approximately 200 tractor-trailer tank trucks that are used to transport crude oil. It also engages in crude oil marketing activities. The Natural Gas Pipelines & Services segment operates natural gas pipeline systems to gather, treat, and transport natural gas. It leases underground salt dome natural gas storage facilities in Napoleonville, Louisiana; owns an underground salt dome storage cavern in Wharton County, Texas; and transports, stores, and markets natural gas. The Petrochemical & Refined Products Services segment operates propylene fractionation facilities, including propylene fractionation units and propane dehydrogenation facilities, and related marketing activities; butane isomerization complex and related deisobutanizer operations; and octane enhancement, isobutane dehydrogenation, and high purity isobutylene production facilities. It also operates refined products pipelines and terminals; and ethylene export terminals; and provides refined products marketing and marine transportation services. The company was founded in 1968 and is headquartered in Houston, Texas.",
@@ -2134,11 +2156,11 @@
     "website": "https://www.hingehealth.com"
   },
   "HPQ": {
-    "_ts": 1786112156.7029693,
+    "_ts": 1788973541.7536423,
     "country": "United States",
     "employees": 55000,
     "industry": "Computer Hardware",
-    "marketCap": 26310817792,
+    "marketCap": 28519139328,
     "name": "HP Inc.",
     "sector": "Technology",
     "summary": "HP Inc. provides personal computing, printing, 3D printing, hybrid work, gaming, and other related technologies in the United States and internationally. The company operates through three segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops and notebooks, workstations, thin clients, retail point-of-sale systems, displays, software, hybrid systems, and endpoint security and services, as well as lifecycle services, including support and deployment, configurations, and extended warranty services. The Printing segment provides consumer and commercial printer hardware, supplies, and solutions, as well as office and home printing solutions; and focuses on graphics, 3D printing, and personalization solutions for the commercial and industrial markets. The Corporate Investments segment is involved in the business incubation and investment projects. It serves small- and medium-sized businesses, public sector, and enterprises. The company was formerly known as Hewlett-Packard Company and changed its name to HP Inc. in October 2015. HP Inc. was founded in 1939 and is headquartered in Palo Alto, California.",
@@ -4323,11 +4345,11 @@
     "website": "https://www.st.com/content/st_com/en.html"
   },
   "STNG": {
-    "_ts": 1776482612.3358293,
+    "_ts": 1788973541.7536423,
     "country": "Monaco",
     "employees": 24,
     "industry": "Oil & Gas Midstream",
-    "marketCap": 3791936256,
+    "marketCap": 4163012352,
     "name": "Scorpio Tankers Inc.",
     "sector": "Energy",
     "summary": "Scorpio Tankers Inc., together with its subsidiaries, engages in the seaborne transportation of crude oil and refined petroleum products worldwide. As of March 19, 2026, its fleet consisted of 90 wholly owned tankers, including 34 LR2, 42MR, and 14 Handymax. Scorpio Tankers Inc. was incorporated in 2009 and is headquartered in Monaco.",
@@ -4356,14 +4378,14 @@
     "website": "https://www.statestreet.com"
   },
   "STX": {
-    "_ts": 1784819831.8364587,
+    "_ts": 1788973541.7536423,
     "country": "Singapore",
     "employees": 30000,
     "industry": "Computer Hardware",
-    "marketCap": 205813071872,
+    "marketCap": 207157936128,
     "name": "Seagate Technology Holdings plc",
     "sector": "Technology",
-    "summary": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
+    "summary": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally. The company offers External and internal hard drives; external and internal solid-state drives (SSDs); enterprise hard drives and SSDs; data storage systems; network attached storage (NAS) hard drives; video and analytics hard drives; and hyperscale and cloud solution. It offers its products for Healthcare, Media & Entertainment, Surveillance & Security, and telecommunication industry. The company sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
     "website": "https://www.seagate.com"
   },
   "SU": {
@@ -4433,14 +4455,14 @@
     "website": "https://www.t1energy.com"
   },
   "TECH": {
-    "_ts": 1784732647.928425,
+    "_ts": 1788973541.7536423,
     "country": "United States",
-    "employees": 3100,
+    "employees": 3000,
     "industry": "Biotechnology",
-    "marketCap": 11150589952,
+    "marketCap": 11338742784,
     "name": "Bio-Techne Corporation",
     "sector": "Healthcare",
-    "summary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research, diagnostics, and bioprocessing markets worldwide. The company operates through two segments, Protein Sciences, and Diagnostics and Spatial Biology. The Protein Sciences segment develops and manufactures biological reagents used in various aspects of life science research, diagnostics, and cell and gene therapy, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera, and cell selection technologies. This segment also offers proteomic analytical tools for automated western blot and multiplexed ELISA workflow consists of manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. The Diagnostics and Genomics segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for regulated diagnostics market, exosome-based molecular diagnostic assays, advanced tissue-based in-situ hybridization assays for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications; and sells products for genetic carrier screening, oncology diagnostics, molecular controls, and research, as well as instruments and process control products for hematology, blood chemistry and gases, and coagulation controls and reagents used in various diagnostic applications. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was incorporated in 1976 and is headquartered in Minneapolis, Minnesota.",
+    "summary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research, diagnostics, and bioprocessing markets worldwide. It operates through two segments, Protein Sciences, and Diagnostics and Spatial Biology. The Protein Sciences segment develops and manufactures biological reagents used in various aspects of life science research, diagnostics, and cell and gene therapy, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera, and cell selection technologies. This segment also offers proteomic analytical tools for automated western blot and multiplexed ELISA workflow consists of manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. Its Diagnostics and Genomics segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for regulated diagnostics market, advanced tissue-based in-situ hybridization assays for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications; and sells products for genetic carrier screening, oncology diagnostics, molecular controls, and research, as well as instruments and process control products for hematology, blood chemistry and gases, and coagulation controls and reagents used in various diagnostic applications. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was incorporated in 1976 and is headquartered in Minneapolis, Minnesota.",
     "website": "https://www.bio-techne.com"
   },
   "TECK": {
@@ -4741,11 +4763,11 @@
     "website": "https://www.unifirst.com"
   },
   "UNM": {
-    "_ts": 1786371618.005221,
+    "_ts": 1788973541.7536423,
     "country": "United States",
     "employees": 10684,
     "industry": "Insurance - Life",
-    "marketCap": 14485314560,
+    "marketCap": 14796144640,
     "name": "Unum Group",
     "sector": "Financial Services",
     "summary": "Unum Group, together with its subsidiaries, provides financial protection benefit solutions in the United States, the United Kingdom, and Poland. It operates through Unum US, Unum International, Colonial Life, and Closed Block segments. The company offers group long-term and short-term disability, group life, and accidental death and dismemberment products; supplemental and voluntary products, such as voluntary benefits, individual disability, and dental and vision products; and accident, sickness, disability, life, and cancer and critical illness products. It also provides group pensions, individual life and corporate-owned life insurance, reinsurance pools and management operations, and other miscellaneous products. The company sells its products to employers for the benefit of employees. It sells its products through field sales personnel, independent brokers, consultants, and independent contractor agent sales force and brokers. Unum Group was formerly known as UnumProvident Corporation and changed its name to Unum Group in March 2007. The company was founded in 1848 and is based in Chattanooga, Tennessee.",
@@ -4884,11 +4906,11 @@
     "website": "https://www.viking.com"
   },
   "VIRT": {
-    "_ts": 1782395736.0121927,
+    "_ts": 1788973541.7536423,
     "country": "United States",
     "employees": 1027,
     "industry": "Capital Markets",
-    "marketCap": 13542234112,
+    "marketCap": 5628285440,
     "name": "Virtu Financial, Inc.",
     "sector": "Financial Services",
     "summary": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally. It operates in two segments, Market Making and Execution Services. The company is involved in buying and selling securities to broker dealers, banks and institutions; trading direct to clients, exchanges, alternative trading systems, and other market centers; cash trading business; and pre- and post-trade services, data products, and compliance tools. It also provides agency execution services and trading venues for transparent trading in global equities, ETFs, fixed income, currencies, and commodities to institutions, banks, and broker dealers; agency-based and execution-only trading; workflow technology; trading analytics; foreign exchange, futures, and cryptocurrency products. The company was founded in 2008 and is headquartered in New York, New York.",
@@ -4906,11 +4928,11 @@
     "website": "https://www.vistancenetworks.com"
   },
   "VLO": {
-    "_ts": 1777902308.7778423,
+    "_ts": 1788973541.7536423,
     "country": "United States",
     "employees": 9785,
     "industry": "Oil & Gas Refining & Marketing",
-    "marketCap": 73892339712,
+    "marketCap": 110791606272,
     "name": "Valero Energy Corporation",
     "sector": "Energy",
     "summary": "Valero Energy Corporation manufactures, markets, and sells petroleum-based and low-carbon liquid transportation fuels and petrochemical products in the United States, Canada, the United Kingdom, Ireland, Latin America, Mexico, Peru, and internationally. It operates through three segments: Refining, Renewable Diesel, and Ethanol. The company produces California Reformulated Gasoline Blendstock for Oxygenate Blending (CARBOB) and Conventional Blendstock for Oxygenate Blending (CBOB) gasolines, CARB diesel, diesel, jet fuel, heating oil, and asphalt; feedstocks; aromatics; sulfur and residual fuel oil; intermediate oils; and sulfur, sweet, and sour crude oils. It sells its refined products through wholesale rack and bulk markets; and through outlets under the Valero, Beacon, Diamond Shamrock, Shamrock, Ultramar, and Texaco brands. The company also owns and operates renewable diesel and ethanol plants, as well as produces and sells renewable diesel, renewable naphtha, and neat sustainable aviation fuel under the Diamond Green Diesel brand name. In addition, it offers ethanol and various co-products, including dry distillers grains, syrup, and inedible distillers corn oil to animal feed customers. The company was formerly known as Valero Refining and Marketing Company and changed its name to Valero Energy Corporation in August 1997. Valero Energy Corporation was founded in 1980 and is headquartered in San Antonio, Texas.",
@@ -5038,14 +5060,14 @@
     "website": "https://www.wesco.com"
   },
   "WDC": {
-    "_ts": 1785772146.8055189,
+    "_ts": 1788973552.7838783,
     "country": "United States",
     "employees": 40000,
     "industry": "Computer Hardware",
-    "marketCap": 0,
+    "marketCap": 177746673664,
     "name": "Western Digital Corporation",
     "sector": "Technology",
-    "summary": "Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer manufacturers, sales personnel, dealers, distributors, and retailers. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
+    "summary": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
     "website": "https://www.westerndigital.com"
   },
   "WELL": {
