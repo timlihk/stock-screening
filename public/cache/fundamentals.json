@@ -96,16 +96,16 @@
     "sample_quarters": 8
   },
   "ACA": {
-    "_ts": 1786458266.20508,
-    "earnings_accelerating": true,
-    "fundamental_score": 3,
-    "latest_period": "Q4 2025",
-    "net_income_qoq_growth": -28.63013698630137,
-    "net_income_yoy_growth": 776.6233766233765,
-    "revenue_accelerating": false,
-    "revenue_qoq_growth": -10.165455001253443,
-    "revenue_yoy_growth": 7.580306214350041,
-    "sample_quarters": 8
+    "_ts": 1789059408.5696871,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 4
   },
   "ACHC": {
     "_ts": 1782914095.1399958,
