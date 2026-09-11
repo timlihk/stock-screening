@@ -770,11 +770,11 @@
     "website": ""
   },
   "C": {
-    "_ts": 1780497678.3155842,
+    "_ts": 1789146108.5644815,
     "country": "United States",
-    "employees": 224000,
+    "employees": 219000,
     "industry": "Banks - Diversified",
-    "marketCap": 219601567744,
+    "marketCap": 233314680832,
     "name": "Citigroup Inc.",
     "sector": "Financial Services",
     "summary": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and institutions. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. The Services segment includes treasury and trade solutions, which provides cash management, trade, and working capital solutions to multinational corporations, financial institutions, and public sector organizations; and securities services, such as cross-border support for clients, local market expertise, post-trade technologies, data solutions, and various securities services solutions. The Markets segment offers sales and trading services for equities, foreign exchange, rates, spread products, and commodities to corporate, institutional, and public sector clients; and market-making services, including asset classes, risk management solutions, financing, and prime brokerage. The Banking segment includes investment banking services comprising equity and debt capital markets-related strategic financing solutions; advisory services related to mergers and acquisitions, divestitures, restructurings, and corporate defense activities; and corporate lending consists of corporate and commercial banking. The U.S. Personal Banking segment provides proprietary and co-branded card portfolios; and traditional banking services to retail and small business customers. The Wealth segment offers financial services to high-net-worth clients through banking, lending, mortgages, investment, custody, and trust product offerings; professional industries, including law firms, consulting groups, accounting, and asset management; and affluent and high net worth clients. The company operates in North America, the United Kingdom, Japan, North and South Asia, Australia, Europe, the Middle East, and Africa. Citigroup Inc. was founded in 1812 and is headquartered in New York, New York.",
@@ -1132,6 +1132,17 @@
     "summary": "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids. It operates in five segments: Alaska; Lower 48; Canada; Europe, Middle East and North Africa; and Asia Pacific. The company's portfolio includes unconventional plays in North America; conventional assets in North America, Europe, Asia, and Australia; global LNG developments; oil sands assets in Canada; and an inventory of global exploration prospects. It serves in the United States, Canada, China, Equatorial Guinea, Libya, Malaysia, Norway, Singapore, the United Kingdom, and internationally. ConocoPhillips was founded in 1917 and is headquartered in Houston, Texas.",
     "website": "https://www.conocophillips.com"
   },
+  "CORT": {
+    "_ts": 1789146108.5644815,
+    "country": "United States",
+    "employees": 730,
+    "industry": "Biotechnology",
+    "marketCap": 11941629952,
+    "name": "Corcept Therapeutics Incorporated",
+    "sector": "Healthcare",
+    "summary": "Corcept Therapeutics Incorporated, a biopharmaceutical company, engages in the discovery and development of medications to treat severe endocrinologic, oncologic, metabolic, and neurologic disorders in the United States. The company offers Korlym, an oral medication for the treatment of hyperglycemia secondary to hypercortisolism in adult patients with endogenous Cushing's syndrome who have type 2 diabetes mellitus or glucose intolerance and have failed surgery or are not candidates for surgery. It also develops relacorilant, a selective cortisol modulator for patients with hypercortisolism; a selective cortisol modulator miricorilant, which is in Phase 1b trial for metabolic dysfunction-associated steatohepatitis; and a portfolio of proprietary selective cortisol modulators, such as relacorilant, nenocorilant, miricorilant, and dazucorilant for the treatment of Lou Gehrig's disease. The company was incorporated in 1998 and is headquartered in Redwood City, California.",
+    "website": "https://www.corcept.com"
+  },
   "CORZ": {
     "_ts": 1780327173.0309377,
     "country": "United States",
@@ -1452,11 +1463,11 @@
     "website": "https://www.hfsinclair.com"
   },
   "DIOD": {
-    "_ts": 1782140712.5149386,
+    "_ts": 1789146108.5644815,
     "country": "United States",
     "employees": 7989,
     "industry": "Semiconductors",
-    "marketCap": 5675553280,
+    "marketCap": 4373530624,
     "name": "Diodes Incorporated",
     "sector": "Technology",
     "summary": "Diodes Incorporated, together with its subsidiaries, provides semiconductor products in Asia, the Americas, and Europe. The company offers MOSFET and SiC MOSFET discrete semiconductor products; data line protection, power line protection, thyrister, USB Type-C protection, and transient voltage suppressor protection devices; Schottky diodes, small signal switching diodes, Zener diodes, and SiC diodes; and bridges, super barrier rectifiers, Schottky rectifiers, Schottky bridge rectifiers, and fast and ultra-fast rectifiers. It also provides avalanche transistors, gate driver transistors, and pre-bias transistors; power management devices, such as AC-DC and DC-DC converters, digital isolators and isolated gate drivers, USB power switches, low dropout, photocoupler, and linear voltage regulators; standard linear devices, such as operational amplifiers and comparators, current monitors, voltage references, and reset generators; LED lighting drivers; audio amplifiers; and sensor products, including Hall-effect sensors and motor drivers. In addition, the company offers mixed-signal products comprising high speed mux/demux, digital switches, interface, redrivers, universal level shifters/voltage translators, clock ICs, and packet switches; low-voltage complementary metal-oxide-semiconductor (CMOS) and CMOS devices, as well as ultra-low power CMOS logic and analog switches; and multichip products, co-packaged discrete, analog, and mixed-signal silicon in miniature packages. Further, it provides silicon and silicon epitaxial wafers; frequency control products; and contact image sensors. The company serves industrial, automotive, computing, consumer, and communications end-markets through direct sales, marketing personnel, independent sales representatives, and distributors. Diodes Incorporated was incorporated in 1959 and is headquartered in Plano, Texas.",
@@ -2209,6 +2220,17 @@
     "sector": "Healthcare",
     "summary": "Humana Inc. provides medical and specialty insurance products in the United States. It operates in two segments, Insurance and CenterWell. The Insurance segment offers individual Medicare Advantage products, including health insurance benefits, including wellness programs, chronic care management, and care coordination; individual Medicare stand-alone prescription drug products (PDP); group Medicare advantage and Medicare stand-alone PDP; Medicare supplements; specialty and ancillary insurance comprising dental, vision, life and disability; and administrative services to arrange health care services for active-duty and retired military personnel and dependents, as well as pharmacy benefit managers. Its CenterWell segment operates full-service, value-based senior focused primary care centers under the Conviva Senior Primary Care and CenterWell Senior Primary Care brands; a management services organization; CenterWell Home Health, a home health provider; and OneHome, which manages post-acute patient needs, as well as provides pharmacy and hospice solutions. The company was formerly known as Extendicare Inc. and changed its name to Humana Inc. in April 1974. Humana Inc. was founded in 1961 and is headquartered in Louisville, Kentucky.",
     "website": "https://www.humana.com"
+  },
+  "HUT": {
+    "_ts": 1789146113.876248,
+    "country": "United States",
+    "employees": 248,
+    "industry": "Capital Markets",
+    "marketCap": 12340739072,
+    "name": "Hut 8 Corp.",
+    "sector": "Financial Services",
+    "summary": "Hut 8 Corp., together with its subsidiaries, operates as an energy infrastructure platform that integrates power, digital infrastructure, and compute at scale to fuel energy-intensive use cases in the United States and Canada. It operates through Power, Digital Infrastructure, Compute, and Other segments. The company offers managed services for energy infrastructure development, such as site design, procurement, and construction management; software automation, process design, personnel hiring, and team training; utilities contracts, hosting operations, and customer management; energy portfolio optimization and strategic initiatives; and finance, accounting, and safety services. It also engages in the operation of compute infrastructure; and provision, hosting, monitoring, troubleshooting, repair, maintenance, and sale of mining equipment. In addition, the company offers Bitcoin mining; data center and cloud infrastructure services, including colocation services; and ASIC compute, traditional cloud, and AI cloud services. Hut 8 Corp. was founded in 2020 and is based in Miami, Florida.",
+    "website": "https://www.hut8.com"
   },
   "HWM": {
     "_ts": 1776564492.3977573,
@@ -4454,6 +4476,17 @@
     "summary": "T1 Energy Inc. provides energy solutions for solar modules and cells in the United States, Norway and internationally. It manufactures and sells photovoltaic solar modules. The company was formerly known as FREYR Battery, Inc. and changed its name to T1 Energy Inc. in February 2025. T1 Energy Inc. is headquartered in Austin, Texas.",
     "website": "https://www.t1energy.com"
   },
+  "TEAM": {
+    "_ts": 1789146108.5644815,
+    "country": "Australia",
+    "employees": 13301,
+    "industry": "Software - Application",
+    "marketCap": 45104271360,
+    "name": "Atlassian Corporation",
+    "sector": "Technology",
+    "summary": "Atlassian Corporation provides a collaboration software that enables organizations to connect all teams through a system of work that unlocks productivity at scale worldwide. The company's product portfolio includes Jira, Confluence, Loom, Jira Service Management, Rovo, Bitbucket, Compass, Jira Product Discovery, Focus, Talent, Trello, and Guard. It also offers Collections, a curated sets of apps and agents built on the Atlassian cloud platform and designed to solve cross-functional customer workflows, including teamwork, service, strategy, software, and product collections. The company was founded in 2002 and is headquartered in Sydney, Australia.",
+    "website": "https://www.atlassian.com"
+  },
   "TECH": {
     "_ts": 1788973541.7536423,
     "country": "United States",
@@ -4532,11 +4565,11 @@
     "website": "https://corporate.target.com"
   },
   "TGTX": {
-    "_ts": 1783091276.31049,
+    "_ts": 1789146108.5644815,
     "country": "United States",
     "employees": 399,
     "industry": "Biotechnology",
-    "marketCap": 8160886272,
+    "marketCap": 8294068736,
     "name": "TG Therapeutics, Inc.",
     "sector": "Healthcare",
     "summary": "TG Therapeutics, Inc., a commercial stage biopharmaceutical company, focuses on the acquisition, development, and commercialization of novel treatments for B-cell mediated diseases in the United States and internationally. The company provides BRIUMVI, an anti-CD20 monoclonal antibody for the treatment of adult patients with relapsing forms of multiple sclerosis (RMS), including clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease in adults. The company's development pipeline comprises Ublituximab IV, glycoengineered anti-CD20 mAb for the treatment of relapsing MS; TG-1701 is an orally available and covalently bound Bruton's tyrosine kinase (BTK) inhibitor that exhibits selectivity to BTK in vitro kinase screening; and TG-1801, a bispecific CD47 and CD19 antibody. Its research pipeline includes various investigational medicines. The company has license agreements with LFB Biotechnologies S.A.S; GTC Biotherapeutics; LFB/GTC LLC; Ildong Pharmaceutical Co. Ltd.; and Jiangsu Hengrui Medicine Co. The company was incorporated in 1993 and is based in Morrisville, North Carolina.",
@@ -4972,11 +5005,11 @@
     "website": "https://www.viperenergy.com"
   },
   "VOYA": {
-    "_ts": 1786371618.005221,
+    "_ts": 1789146113.876248,
     "country": "United States",
     "employees": 11000,
     "industry": "Financial Conglomerates",
-    "marketCap": 9307803648,
+    "marketCap": 9350449152,
     "name": "Voya Financial, Inc.",
     "sector": "Financial Services",
     "summary": "Voya Financial, Inc. provides workplace benefits, and savings solutions and technologies in the United States and internationally. The company operates through three segments: Retirement, Investment Management and Employee Benefits. The Retirement segment offers full-service retirement products; recordkeeping services; stable value and fixed general account investment products; non-qualified plan administration services; and tools, guidance, and services to promote the financial well-being and retirement security of employees. This segment also provides wealth management services, such as individual retirement, managed, and brokerage accounts, as well as financial guidance and advisory services. This segment serves corporate, public and private school systems, higher education institutions, hospitals and healthcare facilities, other non-profit organizations, and state and local governments, as well as institutional clients and individual customers. The Employee Benefits segment offers various insurance products comprising stop loss, group life, group disability, whole and term life, critical illness, accident, and hospital indemnity insurance. This segment also provides worksite employee benefits, health account solutions, leave management, benefits administration, health plan enrollment, financial wellness, and decision support products and services to mid-size and large corporate employers and professional associations. The Investment Management segment provides fixed income, equity, multi-asset, and alternative products and solutions to individual investors, financial intermediaries, and institutional clients through its direct sales force, consultant channel, intermediary partners, banks, broker-dealers, and independent financial advisers. The company was formerly known as ING U.S., Inc. and changed its name to Voya Financial, Inc. in April 2014. Voya Financial, Inc. was founded in 1975 and is based in New York, New York.",
