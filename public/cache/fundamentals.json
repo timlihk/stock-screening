@@ -3062,16 +3062,16 @@
     "sample_quarters": 1
   },
   "FFIV": {
-    "_ts": 1786630940.4116893,
+    "_ts": 1789493696.5699618,
     "earnings_accelerating": true,
-    "fundamental_score": 1,
+    "fundamental_score": 3,
     "latest_period": "Q3 2026",
     "net_income_qoq_growth": 40.91435146018747,
-    "net_income_yoy_growth": 9.63393571759552,
-    "revenue_accelerating": false,
+    "net_income_yoy_growth": 44.50960931155825,
+    "revenue_accelerating": true,
     "revenue_qoq_growth": 6.575951706295435,
-    "revenue_yoy_growth": 10.854722759716552,
-    "sample_quarters": 11
+    "revenue_yoy_growth": 24.382921516330104,
+    "sample_quarters": 7
   },
   "FHN": {
     "_ts": 1787060387.823983,
@@ -3288,16 +3288,16 @@
     "sample_quarters": 5
   },
   "FTNT": {
-    "_ts": 1783439185.724037,
-    "earnings_accelerating": true,
-    "fundamental_score": 3,
-    "latest_period": "Q1 2026",
-    "net_income_qoq_growth": 5.632411067193677,
-    "net_income_yoy_growth": 23.327180433779414,
+    "_ts": 1789493696.5699618,
+    "earnings_accelerating": false,
+    "fundamental_score": 2,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": -281.6276894293733,
+    "net_income_yoy_growth": -13.743409490333919,
     "revenue_accelerating": true,
-    "revenue_qoq_growth": -2.9081364829396272,
-    "revenue_yoy_growth": 20.127297525491983,
-    "sample_quarters": 9
+    "revenue_qoq_growth": 23.36180795847751,
+    "revenue_yoy_growth": 27.050503925608325,
+    "sample_quarters": 10
   },
   "FULT": {
     "_ts": 1784127111.0202258,
@@ -5338,7 +5338,7 @@
     "sample_quarters": 11
   },
   "MUFG": {
-    "_ts": 1779373332.1893647,
+    "_ts": 1789493696.5699618,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -7849,6 +7849,18 @@
     "revenue_qoq_growth": 10.828082808280826,
     "revenue_yoy_growth": 7.980356046654391,
     "sample_quarters": 9
+  },
+  "TMO": {
+    "_ts": 1789493696.5699618,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 5.208964264082372,
+    "net_income_yoy_growth": 12.209302325581394,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 8.986824170831431,
+    "revenue_yoy_growth": 13.784270942035871,
+    "sample_quarters": 6
   },
   "TNGX": {
     "_ts": 1783439185.724037,
