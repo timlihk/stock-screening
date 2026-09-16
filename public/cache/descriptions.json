@@ -297,11 +297,11 @@
     "website": "https://www.appliedmaterials.com"
   },
   "AMD": {
-    "_ts": 1783957992.357885,
+    "_ts": 1789579687.351282,
     "country": "United States",
     "employees": 31000,
     "industry": "Semiconductors",
-    "marketCap": 885823766528,
+    "marketCap": 852168278016,
     "name": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
     "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
@@ -1066,6 +1066,17 @@
     "summary": "Cinemark Holdings, Inc., together with its subsidiaries, engages in the theatrical exhibition business. It operates theatres in the United States and Latin America. Cinemark Holdings, Inc. was founded in 1984 and is headquartered in Plano, Texas.",
     "website": "https://www.cinemark.com"
   },
+  "CNO": {
+    "_ts": 1789579687.351282,
+    "country": "United States",
+    "employees": 3200,
+    "industry": "Insurance - Life",
+    "marketCap": 5186803200,
+    "name": "CNO Financial Group, Inc.",
+    "sector": "Financial Services",
+    "summary": "CNO Financial Group, Inc., through its subsidiaries, develops, markets, and administers health insurance, annuity, individual life insurance and other insurance products, and financial services for middle-income pre-retiree and retired Americans in the United States. It offers Medicare supplement, supplemental health, and long-term care insurance policies; life insurance; and annuities, as well as Medicare advantage plans to individual consumers through phone, virtually, online, and face-to-face with agents. The company also focuses on sale of voluntary benefit life and health insurance products for businesses, associations, and other membership groups by interacting with customers at their place of employment. In addition, it provides fixed indexed annuities; fixed interest annuities, including fixed rate single-premium deferred annuities; flexible premium deferred annuities; single premium immediate annuities; supplemental health products, such as specified disease, accident, and hospital indemnity products; and long-term care plans primarily to retirees, lesser degree, and older self-employed individuals in the middle-income market. Further, the company offers universal life and other interest-sensitive life products; and traditional life policies that include whole life, graded benefit life, term life, and single premium whole life products, as well as graded benefit life insurance products. It markets its products under the Bankers Life, Washington National, and Colonial Penn brand names. The company was founded in 1979 and is headquartered in Carmel, Indiana.",
+    "website": "https://www.cnoinc.com"
+  },
   "CNQ": {
     "_ts": 1786458366.6908264,
     "country": "Canada",
@@ -1208,6 +1219,17 @@
     "sector": "Technology",
     "summary": "Cirrus Logic, Inc., a fabless semiconductor company, develops mixed-signal processing solutions and audio products in China, the United States, and internationally. The company offers audio products, including amplifiers; codecs components that integrate analog-to-digital converters (ADCs) and digital-to-analog converters (DACs) into a single integrated circuit (IC); smart codecs, a codec with integrated digital signal processing; standalone digital signal processors; and SoundClear technology for use in smartphones, PCs, tablets, AR/VR headsets, wearables, home theatre systems, automotive entertainment systems, and professional audio systems. It also provides camera controllers, haptic and sensing solutions, and battery and power ICs for smartphones, as well as products for automotive, industrial, and imaging applications. The company markets and sells its products through direct sales force, external sales representatives, and distributors. Cirrus Logic, Inc. was incorporated in 1984 and is headquartered in Austin, Texas.",
     "website": "https://www.cirrus.com"
+  },
+  "CRWD": {
+    "_ts": 1789579687.351282,
+    "country": "United States",
+    "employees": 11706,
+    "industry": "Software - Infrastructure",
+    "marketCap": 248155717632,
+    "name": "CrowdStrike Holdings, Inc.",
+    "sector": "Technology",
+    "summary": "CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corporate endpoint and cloud workload security, managed security, security and vulnerability management, IT operations management, identity protection, threat intelligence, data protection, SaaS security posture management, and AI powered workflow automation, and securing generative AI workload services, as well as security orchestration, automation, and response; and security information and event management, and log management services. It primarily sells subscriptions to its Falcon platform and cloud modules. The company has a strategic alliance with Cognizant Technology Solutions Corporation to help enterprises secure artificial intelligence across its lifecycle, from the AI agents and models to the foundational infrastructure that supports the entire AI ecosystem and with Snowflake to bring AI-native security and enterprise data at scale. Additionally, it has a partnership with Fortanix Inc. to combine its Falcon platform with Fortanix Confidential AI to provide an integrated solution for end-to-end AI security. The company was incorporated in 2011 and is headquartered in Austin, Texas.",
+    "website": "https://www.crowdstrike.com"
   },
   "CSCO": {
     "_ts": 1783957992.357885,
@@ -1857,6 +1879,17 @@
     "sector": "Financial Services",
     "summary": "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management. The Commercial Banking segment offers credit intermediation, cash management, and financial services; lending and depository products; and cash management, foreign exchange and international trade finance, derivatives and capital markets services, asset-based lending, real estate finance, public finance, commercial leasing, and syndicated finance for business, government, and professional customers. Its Consumer and Small Banking segment engages in the provision of a range of deposit and loan products to individuals and small businesses; residential mortgage activities, including the origination, retention and servicing of residential mortgage loans, sales and securitizations of loans, and associated hedging activities; home equity loans and lines of credit, credit cards, automobile and other indirect lending, and other consumer lending services; and home improvement and solar energy installation loans through contractors and installers. The Wealth and Asset Management segment provides various wealth management services, such as wealth planning, investment management, banking, insurance, trust, and estate services for for individuals, companies, and not-for-profit organizations; retail brokerage services for individual clients; and advisory services for institutional clients. Fifth Third Bancorp was founded in 1858 and is headquartered in Cincinnati, Ohio.",
     "website": "https://www.53.com"
+  },
+  "FIVN": {
+    "_ts": 1789579687.351282,
+    "country": "United States",
+    "employees": 2910,
+    "industry": "Software - Infrastructure",
+    "marketCap": 2562269952,
+    "name": "Five9, Inc.",
+    "sector": "Technology",
+    "summary": "Five9, Inc., together with its subsidiaries, provides intelligent cloud software for contact centers in the United States and internationally. It offers CX platform that delivers a suite of applications, which enables the breadth of customer service, sales, and marketing functions. The company's platform comprises AI agents, agent assist, workflow automation, AI insights, AI summaries, workforce engagement management, and revenue execution, as well as allows simultaneous management and optimization of customer interactions across voice, chat, email, web, social media and mobile channels, through our application programming interfaces. It also matches each customer interaction with an agent resource and delivers customer data to the agent in real-time through integrations with adjacent enterprise applications, such as CRM software, to optimize customer experience and enhance agent productivity, as well as offers software-as-a-service business model. The company serves customers in various industries, such as banking and financial services, business process outsourcers, retail, healthcare, technology, and education. Five9, Inc. was incorporated in 2001 and is headquartered in San Ramon, California.",
+    "website": "https://www.five9.com"
   },
   "FIX": {
     "_ts": 1776526540.22005,
@@ -2958,6 +2991,17 @@
     "summary": "Madrigal Pharmaceuticals, Inc., a biopharmaceutical company, focuses on delivering novel therapeutics for metabolic dysfunction-associated steatohepatitis (MASH) in the United States. It offers Rezdiffra, a liver-directed thyroid hormone receptor beta agonist for treating MASH. The company was founded in 2016 and is headquartered in West Conshohocken, Pennsylvania.",
     "website": "https://www.madrigalpharma.com"
   },
+  "MET": {
+    "_ts": 1789579687.351282,
+    "country": "United States",
+    "employees": 46000,
+    "industry": "Insurance - Life",
+    "marketCap": 62286270464,
+    "name": "MetLife, Inc.",
+    "sector": "Financial Services",
+    "summary": "MetLife, Inc., a financial services company, provides insurance, annuities, employee benefits, and asset management services worldwide. It operates in six segments: Group Benefits; Retirement and Income Solutions; Asia; Latin America; Europe, the Middle East and Africa; and MetLife Holdings. The company offers life, dental, group short-and long-term disability, paid family and medical leave, individual disability, accidental death and dismemberment, accident and health, vision, and pet insurance, as well as prepaid legal plans; administrative services-only arrangements to employers; and general and separate account, and synthetic guaranteed interest contracts, as well as private floating rate funding agreements. It also provides pension risk transfers, institutional income annuities, structured settlements, and capital markets investment products; and other products and services, such as life insurance products and funding agreements for funding postretirement benefits, as well as company, bank, or trust-owned life insurance used to finance nonqualified benefit programs for executives. In addition, it offers fixed, indexed-linked, and variable annuities; pension products; regular savings products; whole and term life, endowments, universal and variable life, and group life products; longevity and funded reinsurance solutions; credit insurance products; accident & health products covering hospitalization, cancer, critical illness, income protection, and scheduled medical reimbursement plans; and protection against long-term health care services. The company was incorporated in 1999 and is based in New York, New York.",
+    "website": "https://www.metlife.com"
+  },
   "MFC": {
     "_ts": 1783613177.0435069,
     "country": "Canada",
@@ -3674,11 +3718,11 @@
     "website": "https://www.phillipsedison.com"
   },
   "PFG": {
-    "_ts": 1785251996.0419576,
+    "_ts": 1789579687.351282,
     "country": "United States",
     "employees": 19700,
     "industry": "Asset Management",
-    "marketCap": 24647012352,
+    "marketCap": 25401374720,
     "name": "Principal Financial Group, Inc.",
     "sector": "Financial Services",
     "summary": "Principal Financial Group, Inc. provides retirement, asset management, and insurance products and services to businesses, individuals, and institutional clients worldwide. The company operates through Retirement and Income Solutions, Principal Asset Management, and Benefits and Protection segments. The Retirement and Income Solutions segment provides retirement, and related financial products and services. This segment offers products and services for defined contribution plans, including 401(k) and 403(b) plans, defined benefit plans, nonqualified executive benefit plans, employee stock ownership plans, equity compensation, and pension risk transfer services; individual retirement accounts; investment only products; and mutual funds, individual variable annuities, registered index-linked annuities, and bank products, as well as trust and custody services. The Principal Asset Management segment provides equity, fixed income, real estate, and other alternative investments, as well as fund offerings. This segment also offers pension accumulation products and services, mutual funds, asset management, income annuities, and life insurance accumulation products, as well as voluntary savings plans. The Benefits and Protection segment provides specialty benefits, such as specialty benefits group dental and vision insurance, group life and other insurance, and group and individual disability insurance, as well as administers group dental, disability, and vision benefits; and individual life insurance products comprising universal, variable universal, indexed universal, and term life insurance products. This segment serves insurance solutions for small and medium-sized businesses and their owners, as well as employees. The company was founded in 1879 and is based in Des Moines, Iowa.",
