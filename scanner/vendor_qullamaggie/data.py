@@ -45,15 +45,19 @@ class NasdaqClient:
             )
         return result
 
-    def fetch_extended_trading(self, symbol: str, assetclass: str = "stocks") -> ExtendedTradingSnapshot:
+    def fetch_extended_trading(self, symbol: str, assetclass: str = "stocks") -> ExtendedTradingSnapshot | None:
         response = self.session.get(
             f"https://api.nasdaq.com/api/quote/{symbol}/extended-trading?assetclass={assetclass}&markettype=pre",
             timeout=30,
             headers={"referer": f"https://www.nasdaq.com/market-activity/{assetclass}/{symbol.lower()}"},
         )
         response.raise_for_status()
-        payload = response.json()["data"]
-        info_row = payload["infoTable"]["rows"][0]
+        try:
+            payload = response.json()["data"]
+            rows = payload["infoTable"]["rows"]
+            info_row = rows[0]
+        except (KeyError, IndexError, TypeError, ValueError):
+            return None
         return ExtendedTradingSnapshot(
             symbol=symbol,
             consolidated_price=parse_money(info_row["consolidated"]),

@@ -802,7 +802,20 @@ def main():
             print("  WARNING: vendored QM scanner unavailable; QM families disabled", file=sys.stderr)
         else:
             print("  overlaying vendored Andy-Roger QM breakout / EP scan", file=sys.stderr)
-            df = apply_vendor_qm_scores(df, liq["ticker"].tolist())
+            df, qm_diag = apply_vendor_qm_scores(df, liq["ticker"].tolist(), return_diagnostics=True)
+            print(
+                "  QM diagnostics:"
+                f" requested={qm_diag['symbols_requested']},"
+                f" vendor_universe={qm_diag['vendor_common_rows']},"
+                f" histories={qm_diag['history_rows']},"
+                f" metrics={qm_diag['metric_rows']},"
+                f" breakout_picks={qm_diag['breakout_picks']},"
+                f" ep_gap_candidates={qm_diag['ep_gap_candidates']},"
+                f" ep_history_ready={qm_diag['ep_history_ready']},"
+                f" ep_snapshot_missing={qm_diag['ep_snapshot_missing']},"
+                f" ep_picks={qm_diag['ep_picks']}",
+                file=sys.stderr,
+            )
     for col in ("qm_breakout_vendor_score", "qm_episodic_pivot_vendor_score"):
         if col not in df.columns:
             df[col] = 0.0

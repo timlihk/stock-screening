@@ -181,6 +181,7 @@ def _scan_episodic_pivots(
     metrics: dict[str, dict[str, float]],
     settings: Settings,
     nasdaq: NasdaqClient,
+    diagnostics: dict[str, int] | None = None,
 ) -> list[TradePlan]:
     candidates = [
         row
@@ -190,15 +191,21 @@ def _scan_episodic_pivots(
         and row.market_cap >= settings.min_market_cap
     ]
     candidates = sorted(candidates, key=lambda row: row.pct_change, reverse=True)[: max(settings.ep_top_n * 5, 25)]
+    if diagnostics is not None:
+        diagnostics["ep_gap_candidates"] = len(candidates)
     plans: list[TradePlan] = []
     for row in candidates:
         df = histories.get(row.symbol)
         stat = metrics.get(row.symbol)
         if df is None or stat is None or len(df) < 130:
             continue
-        plan = _build_ep_plan(row, df, stat, settings, nasdaq)
+        if diagnostics is not None:
+            diagnostics["ep_history_ready"] = diagnostics.get("ep_history_ready", 0) + 1
+        plan = _build_ep_plan(row, df, stat, settings, nasdaq, diagnostics)
         if plan is not None:
             plans.append(plan)
+    if diagnostics is not None:
+        diagnostics["ep_picks"] = len(plans)
     return sorted(plans, key=lambda item: item.score, reverse=True)
 
 
@@ -208,6 +215,7 @@ def _build_ep_plan(
     stat: dict[str, float],
     settings: Settings,
     nasdaq: NasdaqClient,
+    diagnostics: dict[str, int] | None = None,
 ) -> TradePlan | None:
     del stat
     close = df["close"]
@@ -221,6 +229,10 @@ def _build_ep_plan(
         return None
 
     snapshot = nasdaq.fetch_extended_trading(row.symbol)
+    if snapshot is None:
+        if diagnostics is not None:
+            diagnostics["ep_snapshot_missing"] = diagnostics.get("ep_snapshot_missing", 0) + 1
+        return None
     avg_volume20 = float(df["volume"].rolling(20).mean().iloc[-1])
     if avg_volume20 <= 0:
         return None
