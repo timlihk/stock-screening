@@ -1,10 +1,10 @@
-HNGE|power_play 8 · +sepa_vcp · Entry 5 · Lead 11 · Tight 0/3 · Fund 5/5 · RSpct 86 · Health Care · Earn 32d · RS +52
-TWLO|power_play 8 · Entry 5 · Lead 10 · Tight 0/3 · RSpct 93 · Technology · Earn 29d · RS +110
-UNM|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · RSpct 66 · Financials · Earn 32d · RS +12
-TGTX|power_play 7 · Entry 5 · Lead 8 · Tight 0/3 · Fund 2/5 · RSpct 87 · Health Care · Earn 31d · RS +59
-AVT|power_play 7 · Entry 5 · Lead 8 · Tight 1/3 · Fund 4/5 · RSpct 88 · Technology · Earn 28d · RS +63
-MET|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 65 · Financials · Earn 36d · RS +10
-CDNA|power_play 6 · Entry 5 · Lead 12 · Tight 0/3 · Fund 5/5 · RSpct 98 · Health Care · Earn 32d · RS +251
-SBLK|power_play 6 · +sepa_vcp · Entry 5 · Lead 9 · Tight 2/3 · RSpct 87 · Industrials · Earn 43d · RS +59
-YPF|power_play 6 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 93 · Energy · Earn 29d · RS +108
-EXEL|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 77 · Health Care · Earn 27d · RS +28
+FTNT|power_play 8 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 92 · Technology · Earn 32d · RS +89
+AVTR|power_play 8 · Entry 4 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 60 · Earn 27d · RS +3
+SBLK|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · RSpct 87 · Industrials · Earn 42d · RS +56
+TD|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 83 · Financials · Earn 53d · RS +42
+ING|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · RSpct 80 · Financials · Earn 28d · RS +34
+EXPD|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 4/5 · RSpct 84 · Industrials · Earn 31d · RS +44
+YPF|power_play 7 · Entry 5 · Lead 7 · Tight 0/3 · RSpct 93 · Energy · Earn 28d · RS +106
+PFG|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 79 · Financials · Earn 25d · RS +30
+ABBV|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 62 · Earn 28d · RS +5
+FNGU|power_play 7 · Entry 5 · Lead 7 · Tight 0/3 · RSpct 54 · RS -3

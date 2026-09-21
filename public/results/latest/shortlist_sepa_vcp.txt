@@ -1,3 +1,10 @@
-UNM|sepa_vcp 8 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 66 · Financials · Earn 32d · RS +12
-SBLK|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 87 · Industrials · Earn 43d · RS +59
-HNGE|sepa_vcp 6 · +power_play · Entry 5 · Lead 11 · Tight 0/3 · Fund 5/5 · RSpct 86 · Health Care · Earn 32d · RS +52
+SBLK|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · RSpct 87 · Industrials · Earn 42d · RS +56
+CRWD|sepa_vcp 7 · +power_play · Entry 5 · Lead 11 · Tight 1/3 · Fund 2/5 · RSpct 91 · Technology · Earn 51d · RS +80
+TD|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 83 · Financials · Earn 53d · RS +42
+ING|sepa_vcp 7 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 80 · Financials · Earn 28d · RS +34
+PFG|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 79 · Financials · Earn 25d · RS +30
+ABBV|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 62 · Earn 28d · RS +5
+UNM|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 65 · Financials · Earn 31d · RS +9
+UCO|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 2/3 · RSpct 93 · RS +113
+USO|sepa_vcp 6 · Entry 6 · Lead 7 · Tight 0/3 · RSpct 91 · RS +84
+FTNT|sepa_vcp 6 · +power_play · Entry 5 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 92 · Technology · Earn 32d · RS +89
