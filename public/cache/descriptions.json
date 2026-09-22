@@ -21,6 +21,17 @@
     "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
     "website": "https://www.apple.com"
   },
+  "ABBV": {
+    "_ts": 1790098720.5070617,
+    "country": "United States",
+    "employees": 57000,
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 468586528768,
+    "name": "AbbVie Inc.",
+    "sector": "Healthcare",
+    "summary": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox Cosmetic for the treatment of glabellar lines, crow's feet, forehead lines, and platysma bands; Juvederm Collection to treat volume loss in the temples, undereye, cheeks, chin, lips and lower face; Vraylar to treat schizophrenia, bipolar disorder, and depressive disorder; Duodopa to treat Parkinson's disease; Ubrelvy to treat migraine; Qulipta for episodic and chronic migraine; and Vyalev for the treatment of motor fluctuations, as well as Botox Therapeutic to treat chronic migraine, overactive bladder, spasticity, cervical dystonia, and other conditions. In addition, the company offers Ozurdex for visual impairment; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; and other eye care products, including Refresh/Optive, Xen, Durysta, and Restasis. Further, it provides Mavyret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; and Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois.",
+    "website": "https://www.abbvie.com"
+  },
   "ABCB": {
     "_ts": 1782914316.5682335,
     "country": "United States",
@@ -527,6 +538,17 @@
     "summary": "Avnet, Inc., engages in the distribution of electronic component technology in the Americas, Europe, the Middle East, Africa, and Asia/Pacific. The company operates through two segments, Electronic Components and Farnell. It markets, sells, and distributes semiconductors; interconnect, passive, and electromechanical components; and other integrated and embedded components from electronic component manufacturers. The company also offers design support that provides engineers with technical design solutions; engineering and technical resources to support product design, bill of materials development, and technical education and training; and supply chain solutions which provides support, warehousing, and logistics services to original equipment manufacturers, electronic manufacturing service providers, and electronic component manufacturers. In addition, it provides embedded solutions, such as technical design, integration, and assembly of embedded products, systems, and solutions, as well as embedded display solutions comprising touch and passive displays; and develops and produces standard board and industrial subsystems, and application-specific devices that enable it to produce systems tailored to specific customer requirements. The company serves various markets, such as engineering, product prototyping, integration, and other value-added services in the medical, telecommunications, industrial, and digital editing. Further, it distributes kits, tools, and electronic and industrial automation components, as well as test and measurement products to engineers and entrepreneurs. The company was founded in 1921 and is headquartered in Phoenix, Arizona.",
     "website": "https://www.avnet.com"
   },
+  "AVTR": {
+    "_ts": 1790098720.5070617,
+    "country": "United States",
+    "employees": 13500,
+    "industry": "Medical Instruments & Supplies",
+    "marketCap": 10240072704,
+    "name": "Avantor, Inc.",
+    "sector": "Healthcare",
+    "summary": "Avantor, Inc. engages in the provision of mission-critical products and services to customers in the biopharma, healthcare, education and government, advanced technologies, and applied materials industries in the Americas, Europe, Asia, the Middle East, and Africa. The company offers materials and consumables, such as purity chemicals and reagents, lab products and supplies, formulated silicone materials, customized excipients, customized single-use assemblies, process chromatography resins and columns, analytical sample prep kits, education and microbiology products, clinical trial kits, and fluid handling tips. It also provides equipment and instrumentation products, including filtration systems, virus inactivation systems, incubators, analytical instruments, evaporators, ultra-low-temperature freezers, biological safety cabinets, peristaltic pumps, and critical environment supplies. In addition, the company offers services and specialty procurements comprising onsite lab and production, equipment, procurement and sourcing, and biopharmaceutical material scale-up and development services. Further, it provides scientific research support services, such as DNA extraction, bioreactor servicing, clinical and biorepository, compound management, cleanroom control, monitoring, maintenance, and sanitization services. The company was founded in 1904 and is headquartered in Radnor, Pennsylvania.",
+    "website": "https://www.avantorsciences.com"
+  },
   "AXSM": {
     "_ts": 1776564492.3977573,
     "country": "United States",
@@ -770,7 +792,7 @@
     "website": "https://www.babcock.com"
   },
   "BWET": {
-    "_ts": 1787147528.4072576,
+    "_ts": 1790098735.6308463,
     "country": "",
     "employees": 0,
     "industry": "",
@@ -1560,6 +1582,17 @@
     "sector": "Healthcare",
     "summary": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis dialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado.",
     "website": "https://www.davita.com"
+  },
+  "DXCM": {
+    "_ts": 1790098720.5070617,
+    "country": "United States",
+    "employees": 11000,
+    "industry": "Medical Devices",
+    "marketCap": 33920958464,
+    "name": "DexCom, Inc.",
+    "sector": "Healthcare",
+    "summary": "DexCom, Inc., a medical device company, focuses on the design, development, and commercialization of continuous glucose monitoring (CGM) systems for the management of diabetes and metabolic health in the United States and internationally. The company offers Dexcom G7 and G7 15 Day, an integrated continuous glucose monitoring system; Dexcom G6, a CGM system; Dexcom ONE+ to replace fingerstick blood glucose testing for diabetes treatment decisions; Stelo, a biosensor designed for adults with prediabetes and Type 2 diabetes who do not use insulin; Dexcom Share, a remote monitoring system; and Dexcom Follow application. It markets its products directly to endocrinologists, physicians, and diabetes educators. The company was incorporated in 1999 and is headquartered in San Diego, California.",
+    "website": "https://www.dexcom.com"
   },
   "DY": {
     "_ts": 1776778995.622686,
@@ -3190,11 +3223,11 @@
     "website": "https://www.msgsports.com"
   },
   "MSM": {
-    "_ts": 1784732640.082939,
+    "_ts": 1790098720.5070617,
     "country": "United States",
     "employees": 7077,
     "industry": "Industrial Distribution",
-    "marketCap": 7049478144,
+    "marketCap": 0,
     "name": "MSC Industrial Direct Co., Inc.",
     "sector": "Industrials",
     "summary": "MSC Industrial Direct Co., Inc., together with its subsidiaries, engages in the distribution of metalworking and maintenance, repair, and operations (MRO) products and services in the United States, Canada, Mexico, the United Kingdom, and internationally. The company's metalworking and MRO products include cutting tools, abrasives, machining fluids, measuring instruments, metalworking products, machinery and accessories, tooling components, fasteners, flat stock products, raw materials, machinery hand and power tools, safety and janitorial supplies, plumbing supplies, materials handling products, power transmission components, and electrical supplies. It also offers stock-keeping units through its catalogs and brochures; e-commerce channels, including its website; inventory management solutions; and customer care centers, customer fulfillment centers, regional inventory centers and warehouses. In addition, the company serves individual machine shops, manufacturing companies, and government agencies. MSC Industrial Direct Co., Inc. was founded in 1941 and is headquartered in Melville, New York.",
@@ -3245,11 +3278,11 @@
     "website": "https://www.mastec.com"
   },
   "MU": {
-    "_ts": 1787147528.4072576,
+    "_ts": 1790098735.6308463,
     "country": "United States",
     "employees": 53000,
     "industry": "Semiconductors",
-    "marketCap": 0,
+    "marketCap": 1221630754816,
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
     "summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
@@ -3353,6 +3386,17 @@
     "sector": "Energy",
     "summary": "National Energy Services Reunited Corp. provides oilfield services in the Middle East and North Africa. The company's Production Services segment offers hydraulic fracturing services; coiled tubing services, including nitrogen lifting, fishing, milling, clean-out, scale removal, and other well applications; stimulation and pumping services; primary and remedial cementing services; nitrogen services; filtration services, as well as frac tanks and pumping units; and pipeline and industrial services, such as water filling and hydro testing, nitrogen purging, and de-gassing and pressure testing, as well as cutting/welding and cooling down piping/vessels systems. This segment also provides production assurance chemicals; integrated production management projects; artificial lift services; and surface and subsurface safety systems, high-pressure packer systems, flow controls, service tools, expandable liner technology, vacuum insulated tubing technology for steam applications, and engineering capabilities with manufacturing capacity and testing facilities, as well as sources and treats water for oil and gas, municipal, and industrial use. The Drilling and Evaluation Services segment offers drilling and workover rigs; rigs and integrated services; fishing and remediation solutions; directional and turbines drilling; drilling fluid systems and related technologies; wireline logging; slickline services, descaling, wax and sand cleanout, plug setting, gas lift valve changeout, fishing and other complex well applications; and well testing services to measure solids, gas, and oil and water produced from well, as well as drilling tools and machine shop services. This segment also provides oilfield solutions for thru-tubing intervention; tubular running services; and a range of wellhead products, flow control equipment, and frac equipment. National Energy Services Reunited Corp. was incorporated in 2017 and is headquartered in Houston, Texas.",
     "website": "https://www.nesr.com"
+  },
+  "NET": {
+    "_ts": 1790098733.933209,
+    "country": "United States",
+    "employees": 5156,
+    "industry": "Software - Infrastructure",
+    "marketCap": 126451023872,
+    "name": "Cloudflare, Inc.",
+    "sector": "Technology",
+    "summary": "Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide. The company provides a cloud-based security solution to secure a range of combination of platforms, including public and private cloud, on-premises, software-as-a-service applications, and Internet of things (IoT) devices; and application security products comprising web application firewall, bot management, distributed denial of service mitigation, API security, SSL/TLS encryption, client-side security, and security center products. It also offers application performance solutions, such as content delivery, load balancing, DNS, smart shield, video stream delivery, web optimization, cloudfare waiting room, and cloudfare data localization suite; SASE platform that combines network services and Zero Trust and workplace security products that provides a cloud-based network and security-as-a-service; network services, including magic WAN, magic transit, magic firewall, cloudflare network interconnect, and spectrum. In addition, the company provides zero trust security services which include cloudflare zero trust network access, secure web gateway, and one client; and remote browser isolation, cloud access security broker, cloud email security, digital experience monitoring, and data loss prevention products. Further, it provides developer-based solutions comprising workers AI, vectorize, AI gateway, cloudflare workers, cloudflare pages, R2 object storage, workers KV, durable objects, D1, hyperdrive, queues, cloudfare stream, cloudfare images, and cloudflare realtime; and consumer offerings, such as 1.1.1.1 DNS and with WARPm and cloudfare registrar that offers secure registration and management of domain names. The company serves customers in technology, healthcare, financial services, consumer and retail, industrial, and non-profit industries, as well as government. The company was incorporated in 2009 and is headquartered in San Francisco, California.",
+    "website": "https://www.cloudflare.com"
   },
   "NLY": {
     "_ts": 1782309146.6517544,
@@ -3685,11 +3729,11 @@
     "website": "https://www.panamericansilver.com"
   },
   "PANW": {
-    "_ts": 1782395736.0121927,
+    "_ts": 1790098720.5070617,
     "country": "United States",
-    "employees": 21491,
+    "employees": 21921,
     "industry": "Software - Infrastructure",
-    "marketCap": 234222862336,
+    "marketCap": 305956552704,
     "name": "Palo Alto Networks, Inc.",
     "sector": "Technology",
     "summary": "Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service edge solution; Strata Cloud Manager, a network security management solution; and Prisma AIRS to protect customers' entire AI ecosystem. It provides a comprehensive cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments. It provides security operation solutions through the Cortex platform that includes Cortex XSIAM, an AI-driven security operations platform; Cortex XDR to prevent, detect, and respond to cybersecurity attacks; and Cortex XSOAR for security orchestration, automation, and response; and Cortex Xpanse for attack surface management, as well as offers threat intelligence and advisory services under the Unit 42 name. It provides subscription services covering the areas of threat prevention, malware and persistent threat, URL filtering, laptop and mobile device protection, DNS security, Internet of Things security, SaaS security API, and SaaS security inline; and threat intelligence, data loss prevention, services to resolve network disruptions, and sensitive data protection. It offers professional services, including architecture design and planning, implementation, configuration, and firewall migration; education services, such as certifications, as well as online and in-classroom training; and support services. It sells its products and services through its channel partners, as well as directly to enterprises, service providers, and government entities operating in various industries, including education, energy, financial services, government entities, healthcare, Internet and media, manufacturing, public sector, and telecommunications. The company was incorporated in 2005 and is headquartered in Santa Clara, California.",
@@ -4003,6 +4047,17 @@
     "summary": "uniQure N.V. develops treatments for patients suffering from rare and other devastating diseases in the United States. The company offers HEMGENIX that allows people living with hemophilia B to produce factor IX, which can lower the risk of bleeding. Its lead product candidate is AMT-130, a gene therapy candidate, which is in Phase I/II clinical study for the treatment of Huntington's disease. The company also develops AMT-260, which is in Phase I/IIa clinical trial for the treatment of mesial temporal lobe epilepsy; AMT-162, which is in Phase I/IIa clinical trial to treat superoxide dismutase enzyme-amyotrophic lateral sclerosis; and AMT-191, an investigational gene therapy candidate which is in phase I/IIa clinical trial for the treatment of fabry disease. It has a licensing agreement with Apic Bio to develop, manufacture, and commercialize intrathecally administered investigational gene therapy for ALS caused by mutations in SOD-1; and development and commercial supply agreement with CLS Bhering. uniQure N.V. was founded in 1998 and is headquartered in Amsterdam, the Netherlands.",
     "website": "https://www.uniqure.com"
   },
+  "RAL": {
+    "_ts": 1790098720.5070617,
+    "country": "United States",
+    "employees": 7000,
+    "industry": "Electronic Components",
+    "marketCap": 7724332544,
+    "name": "Ralliant Corporation",
+    "sector": "Technology",
+    "summary": "Ralliant Corporation engages in the design, development, manufacture, sale, and service of precision instruments and engineered products in the United States, China, and internationally. It operates through two segments, Test and Measurement; and Sensors and Safety Systems. The Test and Measurement segment provides precision test and measurement instruments, systems, software, and services markets under the TEKTRONIX, KEITHLEY INSTRUMENTS, SONIX, and EA ELECTRO-AUTOMATIK brand names. This segment offers a portfolio of industry solutions, including oscilloscopes, probes, source measuring units, semiconductor test systems, high-power bi-directional power supplies, and measurement analysis software packages. The Sensors and Safety Systems segment provides power grid monitoring solutions, safety systems for mission critical defense and space applications, and sensing solutions for critical environments, as well as sensing products encompassing liquid level, flow, and pressure sensors, motion sensors and components, and hygienic sensors. This segment markets its products under the QUALITROL, GEMS SENSORS, SETRA SYSTEMS, HENGSTLER DYNAPAR, ANDERSON-NEGELE, DOVER MOTION, SPECIALTY PRODUCT TECHNOLOGIES, and PACIFIC SCIENTIFIC ENERGETIC MATERIALS COMPANY. It serves semiconductor, diversified electronics, communications, utilities, defense and space, industrial manufacturing, and other industries. The company was formerly known as New Precision Technologies Company. Ralliant Corporation was incorporated in 2024 and is based in Raleigh, North Carolina.",
+    "website": "https://ralliant.com"
+  },
   "RBC": {
     "_ts": 1782223186.103391,
     "country": "United States",
@@ -4257,11 +4312,11 @@
     "website": "https://www.sktelecom.com"
   },
   "SLAB": {
-    "_ts": 1782223173.5340276,
+    "_ts": 1790098720.5070617,
     "country": "United States",
     "employees": 1930,
     "industry": "Semiconductors",
-    "marketCap": 7236047360,
+    "marketCap": 7402416128,
     "name": "Silicon Laboratories Inc.",
     "sector": "Technology",
     "summary": "Silicon Laboratories Inc., a fabless semiconductor company, provides mixed-signal analog intensive products in the United States, China, Taiwan, and internationally. Its products are used in various electronic products in a range of applications for the industrial Internet of Things (IoT), including connected home and security, industrial automation and control, smart metering and agriculture, smart street lighting, renewable energy, electric vehicle supply equipment, industrial wearables and equipment, commercial building automation, consumer electronics, asset tracking, and medical instrumentation; and commercial IoT applications, including smart buildings and lighting, access controls, asset tracking, electronic shelf labels, theft protection, power tools, and enterprise access points. The company's smart home applications comprise smart home cameras, locks, gateways, residential lighting, window shades/blinds, heating, ventilation, air conditioning, switches, smoke/CO detectors, sensors, and home security panels; and connected health applications, including diabetes management, consumer health and fitness, elderly care, patient monitoring, and activity tracking, as well as provides wireless microcontrollers products. It sells its products through its direct sales force, as well as a network of independent sales representatives and distributors. The company was founded in 1996 and is headquartered in Austin, Texas.",
@@ -4277,6 +4332,17 @@
     "sector": "Energy",
     "summary": "SLB N.V. engages in the provision of technology for the energy industry worldwide. The company operates through four divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems. The company provides field development and hydrocarbon production, carbon management, and integration of adjacent energy systems; reservoir interpretation and data processing services for exploration data; and well construction and production improvement services and products. It also offers subsurface geology and fluids evaluation information; stimulation services to restore or enhance well productivity through hydraulic fracturing, matrix stimulation, and water treatment; and intervention services to oil and gas operators. In addition, the company offers mud logging, directional drilling, measurement-while-drilling, and logging-while-drilling services, as well as engineering support services; supplies drilling fluid systems; designs, manufactures, and markets roller cone and fixed cutter drill bits; bottom-hole-assembly and borehole enlargement technologies; well planning, well drilling, engineering, supervision, logistics, procurement, and contracting of third parties, as well as drilling rig management solutions; and drilling equipment and services, as well as land drilling rigs and related services. Further, it provides artificial lift; supplies packers, safety valves, sand control technology, and various intelligent systems; midstream production systems; valves, chokes, actuators, and surface trees; and OneSubsea, an integrated solutions, products, systems, and services, including wellheads, subsea trees, manifolds and flowline connectors, control systems, connectors, and services. SLB N.V. was formerly known as Schlumberger Limited and change its name to SLB N.V. in October 2025. The company was founded in 1926 and is based in Houston, Texas.",
     "website": "https://www.slb.com"
+  },
+  "SLF": {
+    "_ts": 1790098720.5070617,
+    "country": "Canada",
+    "employees": 32151,
+    "industry": "Insurance - Diversified",
+    "marketCap": 44860145664,
+    "name": "Sun Life Financial Inc.",
+    "sector": "Financial Services",
+    "summary": "Sun Life Financial Inc., a financial services company, provides asset management, wealth, insurance and health solutions to individual and institutional customers in Canada, the United States, the United Kingdom, Ireland, Hong Kong, the Philippines, Japan, Indonesia, India, China, Australia, Singapore, Vietnam, Malaysia, and Bermuda. It offers various insurance products, such as term and permanent life; personal health, which includes prescription drugs, dental, and vision care; critical illness; long-term care; and disability. The company also provides investments products, such as mutual funds, segregated funds, annuities, and guaranteed investment products; financial planning services; and asset management products, including pooled funds, institutional portfolios and pension funds. The company was formerly known as Sun Life Financial Services of Canada Inc. and changed its name to Sun Life Financial Inc. in July 2003. Sun Life Financial Inc. was founded in 1871 and is headquartered in Toronto, Canada.",
+    "website": "https://www.sunlife.com"
   },
   "SLS": {
     "_ts": 1788454605.4359446,
@@ -4554,11 +4620,11 @@
     "website": "https://www.spyre.com"
   },
   "TD": {
-    "_ts": 1777297685.5526693,
+    "_ts": 1790098720.5070617,
     "country": "Canada",
-    "employees": 104841,
+    "employees": 105005,
     "industry": "Banks - Diversified",
-    "marketCap": 176374890496,
+    "marketCap": 200996143104,
     "name": "The Toronto-Dominion Bank",
     "sector": "Financial Services",
     "summary": "The Toronto-Dominion Bank, together with its subsidiaries, provides various financial products and services in Canada, the United States, and internationally. It operates through four segments: Canadian Personal and Commercial Banking; U.S. Retail; Wealth Management and Insurance; and Wholesale Banking. The company offers personal deposits, such as chequing, savings, and investment products; financing, investment, cash management, international trade, and banking services to businesses; and financing options to customers at point of sale for automotive and recreational vehicle purchases. It also provides credit cards and payments; real estate secured lending, auto finance, and consumer lending services; point-of-sale payment solutions for large and small businesses; wealth and asset management products, and advice to retail and institutional clients through direct investing, advice-based, and asset management businesses; and property and casualty insurance, as well as life and health insurance products. The company also provides capital markets, and corporate and investment banking products and services, including underwriting and distribution of new debt and equity issues; advice on strategic acquisitions and divestitures; and trading, funding, and investment services to corporations, governments, and institutions. The Toronto-Dominion Bank was founded in 1855 and is headquartered in Toronto, Canada.",
@@ -4740,6 +4806,17 @@
     "summary": "Tango Therapeutics, Inc., a precision oncology company, focuses on the discovery and development of drugs in defined patient populations with unmet medical need. The company develops methylthioadenosine -cooperative protein arginine methyltransferase 5 (PRMT5) inhibitors, including TNG462, which is in Phase 1/2 clinical trial for treating pancreatic and lung cancer; and TNG456, a brain-penetrant PRMT5 inhibitor for the treatment of glioblastoma. It is developing TNG260, a co-repressor of repressor element-1 silencing transcription inhibitor to reverse the immune evasion effect of serine-threonine kinase (STK) 11 loss-of-function mutations to treat lung cancer. The company was founded in 2017 and is headquartered in Boston, Massachusetts.",
     "website": "https://www.tangotx.com"
   },
+  "TNK": {
+    "_ts": 1790098720.5070617,
+    "country": "Bermuda",
+    "employees": 2130,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 3313684736,
+    "name": "Teekay Tankers Ltd.",
+    "sector": "Energy",
+    "summary": "Teekay Tankers Ltd., together with its subsidiaries, provides marine transportation services to oil industries in Bermuda and internationally. The company operates in two segments: Tankers and Marine Servies. It offers voyage and time charter services; offshore ship-to-ship transfer of commodities primarily crude oil and refined oil products; and tanker commercial and technical management services. In addition, the company is involved in the vessels management, procurement, and equipment rental businesses. It serves energy and utility companies, oil traders, oil consumers and petroleum product producers, government agencies, and various other entities that depend upon marine transportation. The company was incorporated in 2007 and is based in Hamilton, Bermuda.",
+    "website": "https://www.teekay.com"
+  },
   "TNL": {
     "_ts": 1782743509.769063,
     "country": "United States",
@@ -4871,6 +4948,17 @@
     "sector": "Healthcare",
     "summary": "10x Genomics, Inc. develops and sells instruments, consumables, and software for analyzing biological systems in the United States, rest of the Americas, Europe, the Middle East, Africa, China, and the rest of the Asia Pacific. The company offers Chromium platform, a single cell portfolio that enables analysis of individual biological components, as well as includes microfluidic chips and related consumables, Chromium X Series, and Chromium instruments; and QuantumScale single cell RNA and single cell methylation kits. It also provides Visium platform, a spatial analysis platform that uses high density DNA arrays to encode the physical location of biological analytes within a sample. This platform includes HD WT panel gene expression, and HD 3' gene expression assays, as well as the Visium CytAssist, an instrument designed to simplify and optimize the Visium solution workflow by facilitating the transfer of transcriptomic analytes from standard glass slides to Visium slides. In addition, the company offers Xenium Analyzer instrument enables researchers to detect and preserve the cellular location of hundreds of RNA targets directly in a fresh frozen or FFPE tissue section without the need for conventional sequencing; and slides and reagents. Further, it provides various software products comprising Cell Ranger, a scRNA-seq processing pipeline in scientific literature; Loupe Browser, which enables intuitive single-cell, spatial, and multiomic data visualization; and Xenium Explorer that enables intuitive in situ data visualization, which allows researchers to explore subcellular gene expression, spatial organization, and tissue-scale patterns. The company serves various academic, government, biopharmaceutical, biotechnology, and other institutions. The company was formerly known as 10X Technologies, Inc. and changed its name to 10x Genomics, Inc. in November 2014. 10x Genomics, Inc. was incorporated in 2012 and is headquartered in Pleasanton, California.",
     "website": "https://www.10xgenomics.com"
+  },
+  "UCO": {
+    "_ts": 1790098720.5070617,
+    "country": "",
+    "employees": 0,
+    "industry": "",
+    "marketCap": 0,
+    "name": "ProShares Ultra Bloomberg Crude Oil",
+    "sector": "",
+    "summary": "The fund seeks to meet its investment objective by investing, under normal market conditions, in any one of, or combinations of, Financial Instruments (including swap agreements, futures contracts, forward contracts, and option contracts) based on WTI sweet, light crude oil. It will not invest directly in oil.",
+    "website": ""
   },
   "UCTT": {
     "_ts": 1780327173.0309377,
@@ -5170,11 +5258,11 @@
     "website": "https://www.viatris.com"
   },
   "WAT": {
-    "_ts": 1787147517.1878428,
+    "_ts": 1790098720.5070617,
     "country": "United States",
     "employees": 16000,
     "industry": "Diagnostics & Research",
-    "marketCap": 40791314432,
+    "marketCap": 41996546048,
     "name": "Waters Corporation",
     "sector": "Healthcare",
     "summary": "Waters Corporation provides analytical workflow solutions in Asia, the Americas, and Europe. The company operates through two segments, Waters and TA. The company designs, manufactures, sells, and services liquid chromatography, as well as mass spectrometry (MS) technology systems and supports products, including chromatography columns, and other consumable products. It also designs, manufactures, sells, and services thermal analysis, rheometry, and calorimetry instruments for use in predicting the suitability and stability of fine chemicals, pharmaceuticals, water, polymers, metals, and viscous liquids for various industrial, consumer goods, and healthcare products, as well as for life science research; and develops and supplies software-based products that interface with its instruments, as well as other manufacturers' instruments. In addition, the company offers MS technology, which is used in drug discovery and development comprising clinical trial testing, the analysis of proteins in disease processes, nutritional safety analysis, and environmental testing. Its products are used by clinical, pharmaceutical, biochemical, industrial, nutritional safety, environmental, academic, and governmental customers working in research and development, quality assurance, and other laboratory applications. The company was founded in 1958 and is headquartered in Milford, Massachusetts.",
@@ -5377,6 +5465,17 @@
     "sector": "Energy",
     "summary": "YPF Sociedad An\u00f3nima, an energy company, engages in the oil and gas upstream and downstream activities in South America and Argentina. The company operates through the Upstream, Midstream and Downstream, LNG and Integrated Gas, and New Energies segments. It is involved in the exploration and exploitation of hydrocarbon fields and production of crude oil and natural gas; the refining, transportation and commercialization of refined products; the production, transportation, and commercialization of petrochemical products; the transportation and commercialization of crude oil; and the commercialization of specialties for the agribusiness industry, and of grains and their by-products. The company also offers fertilizers and crop protection products; flours, oils, and grains; asphalts; naphtha; and petroleum coke. In addition, it engages in the natural gas transportation and commercialization to third parties and to the Midstream and Downstream segments; the separation of natural gas liquids and their fractionation, and storage and transportation to produce ethane, propane, butane, and gasoline, as well as its commercialization; the development of liquefied natural gas liquefaction capacity; and power generation activities. The company was incorporated in 1977 and is based in Buenos Aires, Argentina.",
     "website": "https://www.ypf.com"
+  },
+  "ZCSH": {
+    "_ts": 1790098735.6308463,
+    "country": "",
+    "employees": 0,
+    "industry": "",
+    "marketCap": 0,
+    "name": "The Zcash ETF",
+    "sector": "",
+    "summary": "The Trust\u2019s investment objective is for the Shares (based on ZEC per Share) to reflect the value of the ZEC held by the Trust, determined by reference to the index Price, less the Trust\u2019s expenses and other liabilities.",
+    "website": ""
   },
   "ZION": {
     "_ts": 1785772129.3914568,
