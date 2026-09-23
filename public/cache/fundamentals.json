@@ -442,16 +442,16 @@
     "sample_quarters": 5
   },
   "AME": {
-    "_ts": 1782140613.7831964,
-    "earnings_accelerating": true,
+    "_ts": 1790185557.2765288,
+    "earnings_accelerating": null,
     "fundamental_score": 1,
     "latest_period": "Q1 2026",
-    "net_income_qoq_growth": 0.1896633475580778,
-    "net_income_yoy_growth": 13.531746257370125,
-    "revenue_accelerating": false,
-    "revenue_qoq_growth": -3.5032685363842297,
-    "revenue_yoy_growth": 11.343492471871652,
-    "sample_quarters": 9
+    "net_income_qoq_growth": 3.124540034137535,
+    "net_income_yoy_growth": 28.434150310507068,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": 9.470640927973516,
+    "revenue_yoy_growth": 11.073563800988385,
+    "sample_quarters": 5
   },
   "AMG": {
     "_ts": 1781792113.9419508,
@@ -7159,16 +7159,16 @@
     "sample_quarters": 0
   },
   "SANM": {
-    "_ts": 1779804673.9522977,
-    "earnings_accelerating": false,
-    "fundamental_score": 0,
-    "latest_period": "Q4 2025",
-    "net_income_qoq_growth": -29.949282966072055,
-    "net_income_yoy_growth": -21.692380378292953,
-    "revenue_accelerating": false,
-    "revenue_qoq_growth": 2.6856887030616727,
-    "revenue_yoy_growth": 3.91012661678658,
-    "sample_quarters": 8
+    "_ts": 1790185557.2765288,
+    "earnings_accelerating": true,
+    "fundamental_score": 4,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 90.00527533173721,
+    "net_income_yoy_growth": 45.8478694243708,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 25.81997703227239,
+    "revenue_yoy_growth": 102.27364823999032,
+    "sample_quarters": 10
   },
   "SATL": {
     "_ts": 1779200261.2911496,
@@ -8223,7 +8223,7 @@
     "sample_quarters": 10
   },
   "TTE": {
-    "_ts": 1787060387.823983,
+    "_ts": 1790185557.2765288,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -9217,7 +9217,7 @@
     "sample_quarters": 0
   },
   "ZETA": {
-    "_ts": 1787060387.823983,
+    "_ts": 1790185557.2765288,
     "earnings_accelerating": true,
     "fundamental_score": 4,
     "latest_period": "Q1 2026",
