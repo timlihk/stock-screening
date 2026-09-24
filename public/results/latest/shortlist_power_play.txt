@@ -1,10 +1,10 @@
-FTNT|power_play 8 · +sepa_vcp · Entry 5 · Lead 10 · Tight 2/3 · Fund 2/5 · RSpct 92 · Technology · Earn 30d · RS +92
-TEAM|power_play 7 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 5/5 · RSpct 54 · Technology · Earn 26d · RS -2
-DXCM|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 65 · Health Care · Earn 26d · RS +10
-SLF|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 74 · Financials · Earn 30d · RS +22
-YPF|power_play 7 · Entry 5 · Lead 6 · Tight 0/3 · RSpct 91 · Energy · Earn 26d · RS +82
-ABBV|power_play 7 · +sepa_vcp · Entry 4 · Lead 7 · Tight 2/3 · RSpct 63 · Health Care · Earn 26d · RS +6
-TNK|power_play 7 · Entry 4 · Lead 7 · Tight 1/3 · RSpct 89 · Energy · Earn 30d · RS +67
-FNGU|power_play 7 · Entry 4 · Lead 7 · Tight 0/3 · RSpct 53 · RS -2
-BNO|power_play 6 · +sepa_vcp · Entry 6 · Lead 6 · Tight 1/3 · RSpct 91 · RS +84
-CRWD|power_play 6 · +sepa_vcp · Entry 5 · Lead 11 · Tight 0/3 · Fund 2/5 · RSpct 92 · Technology · Earn 49d · RS +95
+TEAM|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · Fund 5/5 · RSpct 58 · Technology · Earn 25d · RS -0
+ADPT|power_play 7 · Entry 5 · Lead 10 · Tight 2/3 · Fund 4/5 · RSpct 92 · Health Care · Earn 29d · RS +90
+YPF|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 91 · Energy · Earn 25d · RS +78
+WAT|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 5/5 · RSpct 77 · Health Care · Earn 26d · RS +26
+AME|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 1/3 · Fund 1/5 · RSpct 70 · Industrials · Earn 25d · RS +15
+TNK|power_play 7 · Entry 4 · Lead 7 · Tight 0/3 · RSpct 88 · Energy · Earn 29d · RS +61
+AVTR|power_play 7 · Entry 4 · Lead 6 · Tight 1/3 · Fund 1/5 · RSpct 64 · Health Care · Earn 24d · RS +6
+MET|power_play 7 · +sepa_vcp · Entry 4 · Lead 6 · Tight 2/3 · RSpct 66 · Financials · Earn 32d · RS +8
+DVN|power_play 7 · Entry 4 · Lead 6 · Tight 2/3 · Fund 5/5 · RSpct 79 · Earn 29d · RS +29
+PANW|power_play 6 · +sepa_vcp · Entry 5 · Lead 11 · Tight 1/3 · Fund 3/5 · RSpct 91 · Technology · Earn 40d · RS +76
