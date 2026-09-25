@@ -680,7 +680,7 @@
     "sample_quarters": 6
   },
   "ASML": {
-    "_ts": 1781706148.777476,
+    "_ts": 1790358413.3818126,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -979,16 +979,16 @@
     "sample_quarters": 0
   },
   "BDX": {
-    "_ts": 1787060387.823983,
+    "_ts": 1790358413.3818126,
     "earnings_accelerating": false,
     "fundamental_score": 0,
     "latest_period": "Q2 2026",
     "net_income_qoq_growth": -181.6272965879265,
-    "net_income_yoy_growth": -200.32258064516125,
-    "revenue_accelerating": true,
+    "net_income_yoy_growth": -157.9143389199255,
+    "revenue_accelerating": false,
     "revenue_qoq_growth": -10.243716679360249,
-    "revenue_yoy_growth": 5.223214285714284,
-    "sample_quarters": 10
+    "revenue_yoy_growth": -6.560951437066398,
+    "sample_quarters": 6
   },
   "BE": {
     "_ts": 1788886903.9248078,
@@ -1243,7 +1243,7 @@
     "sample_quarters": 0
   },
   "BNS": {
-    "_ts": 1783091229.3695102,
+    "_ts": 1790358413.3818126,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -2717,6 +2717,18 @@
   },
   "ELVN": {
     "_ts": 1786371453.7740238,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 0
+  },
+  "EMBJ": {
+    "_ts": 1790358413.3818126,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -4990,7 +5002,7 @@
     "sample_quarters": 9
   },
   "LXP": {
-    "_ts": 1785857127.463963,
+    "_ts": 1790358413.3818126,
     "earnings_accelerating": false,
     "fundamental_score": 0,
     "latest_period": "Q4 2025",
@@ -5566,16 +5578,16 @@
     "sample_quarters": 9
   },
   "NDSN": {
-    "_ts": 1785251968.9461622,
-    "earnings_accelerating": true,
-    "fundamental_score": 2,
-    "latest_period": "Q4 2025",
-    "net_income_qoq_growth": 20.551103478979837,
-    "net_income_yoy_growth": 24.119245628969942,
+    "_ts": 1790358413.3818126,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": -12.045103537208924,
+    "net_income_yoy_growth": 4.369951247286563,
     "revenue_accelerating": false,
-    "revenue_qoq_growth": 1.3905427985364982,
-    "revenue_yoy_growth": 0.9856517686122723,
-    "sample_quarters": 8
+    "revenue_qoq_growth": 10.663205175506874,
+    "revenue_yoy_growth": 8.47939344420723,
+    "sample_quarters": 10
   },
   "NE": {
     "_ts": 1777297456.931321,
@@ -7255,15 +7267,16 @@
     "sample_quarters": 10
   },
   "SCCO": {
-    "_ts": 1776597966.2045534,
+    "_ts": 1790358413.3818126,
     "earnings_accelerating": true,
     "fundamental_score": 5,
-    "latest_period": "Q4 2025",
-    "net_income_qoq_growth": 18.091541030965065,
-    "net_income_yoy_growth": 64.74811083123426,
-    "revenue_qoq_growth": 14.582654783406856,
-    "revenue_yoy_growth": 38.98146817985921,
-    "sample_quarters": 8
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 5.930107185894595,
+    "net_income_yoy_growth": 71.60176718380767,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 0.8844145457966857,
+    "revenue_yoy_growth": 40.57686004588659,
+    "sample_quarters": 10
   },
   "SCHW": {
     "_ts": 1787579643.611688,
@@ -8235,16 +8248,16 @@
     "sample_quarters": 8
   },
   "TTC": {
-    "_ts": 1787579643.611688,
-    "earnings_accelerating": false,
-    "fundamental_score": 0,
-    "latest_period": "Q2 2026",
-    "net_income_qoq_growth": 157.73195876288662,
-    "net_income_yoy_growth": 3.9192399049881255,
+    "_ts": 1790358413.3818126,
+    "earnings_accelerating": true,
+    "fundamental_score": 2,
+    "latest_period": "Q3 2026",
+    "net_income_qoq_growth": -28.060522696011002,
+    "net_income_yoy_growth": 24.970131421744334,
     "revenue_accelerating": true,
-    "revenue_qoq_growth": 37.47949435491653,
-    "revenue_yoy_growth": 8.103801502390162,
-    "sample_quarters": 10
+    "revenue_qoq_growth": -13.960833859759948,
+    "revenue_yoy_growth": 8.35322195704058,
+    "sample_quarters": 11
   },
   "TTE": {
     "_ts": 1790185557.2765288,
