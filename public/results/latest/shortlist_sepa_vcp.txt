@@ -1,10 +1,10 @@
-FNGU|sepa_vcp 6 · +power_play · Entry 5 · Lead 9 · Tight 1/3 · RSpct 63 · RS +6
-KEYS|sepa_vcp 6 · Entry 5 · Lead 8 · Tight 0/3 · Fund 2/5 · RSpct 92 · Technology · Earn 42d · RS +94
-BNS|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 78 · Financials · Earn 48d · RS +29
-LXP|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 3/3 · RSpct 75 · Real Estate · Earn 24d · RS +23
-ASML|sepa_vcp 6 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 89 · Technology · Earn 13d · RS +66
-NVDA|sepa_vcp 6 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 66 · Technology · Earn 37d · RS +8
-JNJ|sepa_vcp 6 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 82 · Health Care · Earn 12d · RS +37
-MSGS|sepa_vcp 6 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 88 · Communication Services · Earn 25d · RS +63
-HNGE|sepa_vcp 6 · +power_play · Entry 4 · Lead 11 · Tight 2/3 · Fund 5/5 · RSpct 89 · Health Care · Earn 27d · RS +67
-TGTX|sepa_vcp 6 · +power_play · Entry 4 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 86 · Health Care · Earn 26d · RS +47
+ASML|sepa_vcp 8 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 89 · Technology · Earn 12d · RS +71
+JNJ|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 83 · Health Care · Earn 11d · RS +38
+ABBV|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 65 · Health Care · Earn 23d · RS +8
+NTAP|sepa_vcp 7 · +power_play · Entry 4 · Lead 10 · Tight 2/3 · Fund 1/5 · RSpct 87 · Technology · Earn 46d · RS +57
+RBRK|sepa_vcp 7 · +power_play · Entry 4 · Lead 9 · Tight 1/3 · RSpct 74 · Earn 48d · RS +21
+RAL|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 85 · Technology · Earn 20d · RS +45
+MSM|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 76 · Industrials · Earn 18d · RS +23
+CRWD|sepa_vcp 6 · +power_play · Entry 6 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 93 · Technology · Earn 46d · RS +99
+GILD|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 75 · Health Care · Earn 23d · RS +22
+LXP|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 3/3 · RSpct 77 · Real Estate · Earn 23d · RS +25
