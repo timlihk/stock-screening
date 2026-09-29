@@ -319,11 +319,11 @@
     "website": "https://www.amd.com"
   },
   "AME": {
-    "_ts": 1776526532.6262076,
+    "_ts": 1790706687.9378924,
     "country": "United States",
     "employees": 22500,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 54118993920,
+    "marketCap": 57510187008,
     "name": "AMETEK, Inc.",
     "sector": "Industrials",
     "summary": "AMETEK, Inc. manufactures and sells electronic instruments (EIG) and electromechanical (EMG) devices in the United States and internationally. It operates through EIG and EMG segments. The company offers advanced instruments for the process, aerospace, power, and industrial markets; process and analytical instruments for the oil and gas, petrochemical, pharmaceutical, semiconductor, automation, and food and beverage industries; instruments to the laboratory equipment, ultra-precision manufacturing, medical, and test and measurement markets; power quality monitoring and metering devices, uninterruptible power supplies, programmable power and electromagnetic compatibility test equipment, and gas turbines sensors; dashboard instruments for heavy trucks and other vehicles; instrumentation and controls for food and beverage industries; and aircraft and engine sensors, embedded computing, monitoring, power supplies, fuel and fluid measurement, and data acquisition systems for aerospace and defense industry. It also provides engineered medical components and devices, automation solutions, thermal management systems, specialty metals, and electrical interconnects; single-use and consumable surgical instruments, implantable components, and drug delivery systems; engineered electrical connectors and electronics packaging; precision motion control products for data storage, medical devices, business equipment, automation, and other application; high-purity powdered metals, strips and foils, specialty clad metals, and metal matrix composites; motor-blower systems and heat exchangers for thermal management, military and commercial aircraft, and military ground vehicles; and motors used in commercial appliances, food and beverage machines, hydraulic pumps, and industrial blowers, as well as operates a network of aviation maintenance, repair, and overhaul facilities. AMETEK, Inc. was incorporated in 1930 and is headquartered in Berwyn, Pennsylvania.",
@@ -460,6 +460,17 @@
     "sector": "Healthcare",
     "summary": "Ascendis Pharma A/S, operates as a biopharmaceutical company that focuses on developing TransCon-based therapies for unmet medical needs in Europe, the United States, and internationally. The company offers SKYTROFA for treating pediatric patients with growth hormone deficiency; and YORVIPATH, a once-daily subcutaneous injection for the treatment of adults with chronic hypoparathyroidism. It is also developing a pipeline of three independent endocrinology rare disease product candidates in clinical development, as well as focuses on advancing oncology therapeutic candidates. The company was incorporated in 2006 and is based in Hellerup, Denmark.",
     "website": "https://ascendispharma.com"
+  },
+  "ASX": {
+    "_ts": 1790706687.9378924,
+    "country": "Taiwan",
+    "employees": 114179,
+    "industry": "Semiconductors",
+    "marketCap": 118037168128,
+    "name": "ASE Technology Holding Co., Ltd.",
+    "sector": "Technology",
+    "summary": "ASE Technology Holding Co., Ltd., together with its subsidiaries, provides semiconductor manufacturing services in the United States, Taiwan, rest of Asia, Europe, and internationally. It operates through Packaging, Testing, and EMS. The company offers semiconductor packaging, interconnect materials production, front-end engineering testing, wafer probing, and final testing services, as well as integrated solutions for EMS (electronic manufacturing services) in relation to computing, peripherals, communications, industrial, automotive, and server applications. It also provides turnkey services, such as packaging, testing, and direct shipment of semiconductors to end users; wire bonding, including lead frame and substrate-based packages; advanced packages; heterogeneous integration; and other test-related services. In addition, the company engages in the leasing of properties; development, construction, sale, and management of real estate properties; management of parking lot; leasing of properties for shopping center; and management of commercial complex services and department store trading activities, as well as offers social, marketing and sales, information software, leasing and investing, and after-sales and sales support services. Further, it engages in the substrates production; investment advisory and warehousing management; design and manufacturing of electronic components and new electronic applications; technical advisory; management, training, and consulting of organization and human resources; projection of plastic; manufacture and sale of antennas, RF amplifiers and wave straps, PCBs, and tuners; and research and development activities. ASE Technology Holding Co., Ltd. was founded in 1984 and is based in Kaohsiung, Taiwan.",
+    "website": "https://www.aseglobal.com"
   },
   "ATAI": {
     "_ts": 1787871000.075635,
@@ -1704,6 +1715,17 @@
     "summary": "Enliven Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on the discovery and development of small molecule inhibitors to help patients with cancer. Its clinical programs comprise ELVN-001, a small molecule kinase inhibitor which is in Phase 1 clinical trial to treat adults with chronic myeloid leukemia; and ELVN-002, a central nervous system (CNS) penetrant and irreversible human epidermal growth factor receptor 2 inhibitor that is in Phase 1 clinical trial for the treatment of non-small cell lung cancer (NSCLC) and other HER2 mutant tumors. The company was founded in 2019 and is headquartered in Boulder, Colorado.",
     "website": "https://www.enliventherapeutics.com"
   },
+  "EMBJ": {
+    "_ts": 1790706687.9378924,
+    "country": "Brazil",
+    "employees": 21122,
+    "industry": "Aerospace & Defense",
+    "marketCap": 13756172288,
+    "name": "Embraer S.A.",
+    "sector": "Industrials",
+    "summary": "Embraer S.A., together with its subsidiaries, engages in the design, development, manufacture, and sale of aircraft and systems worldwide. The company operates through Commercial Aviation; Defense & Security; Executive Aviation; Services & Support; and Other segments. The Commercial Aviation segment develops, produces, and sells commercial jets. The Defense & Security segment develops and produces military aircraft; and is involved in research and development of software and integrated information systems, communications, border monitoring and surveillance, space systems/satellites, and aircraft modernization services and services support, as well as command, control, communications, computer, intelligence, surveillance, and reconnaissance systems. The Executive Aviation segment develops, produces, and sells executive jets. The Service & Support segment provides field and technical support, flight operations solutions, aircraft modification, materials management, maintenance solutions, and training programs. The Other segment engages in the supply of structural parts and hydraulic systems; production of agricultural crop-spraying aircraft; development and certification of eVTOLs; creation of a maintenance and service network, and air traffic control system for eVTOLs; development and manufacture of electrical propulsion systems; cybersecurity; and software and technical products. Additionally, the company is involved in leasing of used aircraft; pilot, mechanic, and crew training; engineering services; retail trade, maintenance, and repair of computer products; information technology consulting, data processing, application service providers, and internet hosting; and fabrication of aircraft interiors. The company was formerly known as Embraer-Empresa Brasileira de Aeron\u00e1utica S.A. and changed its name to Embraer S.A. in November 2010. Embraer S.A. was founded in 1969 and is headquartered in S\u00e3o Paulo, Brazil.",
+    "website": "https://embraer.com"
+  },
   "EMR": {
     "_ts": 1786458366.6908264,
     "country": "United States",
@@ -2077,6 +2099,17 @@
     "sector": "Basic Materials",
     "summary": "Gerdau S.A., together with its subsidiaries, operates as a steel producer company. It operates through Brazil Business, North America Business, and South America Business segments. The company offers rebars, bars, wires, thick plates, hot rolled coils, billets, blooms, plates, wire rods, and structural profiles. It also provides special steel products for agricultural, automotive, construction, distribution, energy, industrial, and mining markets. In addition, it operates mines that produce iron ore located in Brazil. The company was founded in 1901 and is headquartered in S\u00e3o Paulo, Brazil.",
     "website": "https://www2.gerdau.com"
+  },
+  "GH": {
+    "_ts": 1790706687.9378924,
+    "country": "United States",
+    "employees": 2490,
+    "industry": "Diagnostics & Research",
+    "marketCap": 23584976896,
+    "name": "Guardant Health, Inc.",
+    "sector": "Healthcare",
+    "summary": "Guardant Health, Inc., a precision oncology company, provides blood and tissue tests, and data sets in the United States and internationally. The company offers Guardant360 CDx test, a liquid biopsy test for tumor mutation profiling; Guardant360 Liquid test, which measures 740+ genes and supports all guideline-recommended biomarkers; Guardant Reveal test, a blood test that utilizes circulating tumor DNA to detect cancer at the molecular level; and Guardant360 Tissue test, a molecular profiling test for tumor tissue that provides genomic, transcriptomic, and epigenomic insights. It also provides Shield blood test for colorectal cancer screening in adults. In addition, the company offers GuardantINFINITY test that provides insights into the complexities of tumor molecular profiles and immune response to advance cancer research and therapy development; GuardantOMNI test covers 500 genes, including genes associated with homologous recombination repair deficiency and biomarkers for immuno-oncology applications; GuardantINFORM, which provides longitudinal biological insight into tumor evolution alongside longitudinal clinical outcomes; and GuardantConnect, an integrated software-based solution designed for clinical and biopharmaceutical customers to connect patients tested with assays with actionable alterations with potentially relevant clinical studies. Further, it provides Smart Platform, which delivers multiomic insights leveraging genomic, epigenomic, and RNA-based data that are scalable from research to the clinic. Additionally, the company offers development services, including companion diagnostic development and regulatory approval, clinical study setup, monitoring and maintenance, testing development and support, technologies licensing, and kit fulfillment and delivery of Shield screening tests. It has a strategic collaboration with Nuvalent, Inc. for oncology drug development. The company was incorporated in 2011 and is headquartered in Palo Alto, California.",
+    "website": "https://guardanthealth.com"
   },
   "GILD": {
     "_ts": 1789666427.8512232,
@@ -2540,6 +2573,17 @@
     "summary": "ING Groep N.V. provides various banking products and services in the Netherlands, Belgium, Germany, rest of Europe, and internationally. The company operates through five segments: Retail Netherlands, Retail Belgium, Retail Germany, Retail Other, and Wholesale Banking. It accepts current and savings accounts; and time deposits. The company also offers business lending products; SME loans; consumer lending products, such as residential mortgage loans and other consumer lending loans; and mortgages. In addition, it provides working capital solutions; debt and equity market solutions; various loans; payments; and cash management, trade and corporate finance, and treasury services, as well as savings, investment, insurance, and digital banking services. The company serves individual customers, corporate clients, and financial institutions. ING Groep N.V. was founded in 1762 and is headquartered in Amsterdam, the Netherlands.",
     "website": "https://www.ing.com"
   },
+  "INSW": {
+    "_ts": 1790706697.0180602,
+    "country": "United States",
+    "employees": 2837,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 5444481536,
+    "name": "International Seaways, Inc.",
+    "sector": "Energy",
+    "summary": "International Seaways, Inc. owns and operates a fleet of oceangoing vessels for the transportation of crude oil and petroleum products in the international flag trade. The company operates in two segments: Crude Tankers and Product Carriers. It operates fleet of 70 vessels of VLCCs, Suezmaxes, and Aframaxes, as well as MRs, LR1, and LR2 product carrier. The company provides ship-to-ship (STS) lightering support services, such as hoses and fenders; and full-service STS lightering that includes lightering vessels. It also offers MR product carriers, including IMO III compliant for carrying edible oils, such as palm and vegetable oil, increasing flexibility when switching between cargo grades. The company serves independent and state-owned oil companies, oil traders, refinery operators, and international government entities. The company was formerly known as OSG International, Inc. and changed its name to International Seaways, Inc. in October 2016. International Seaways, Inc. was incorporated in 1999 and is headquartered in New York, New York.",
+    "website": "https://intlseas.com"
+  },
   "INTC": {
     "_ts": 1790358458.0466,
     "country": "United States",
@@ -2550,6 +2594,17 @@
     "sector": "Technology",
     "summary": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services. It also provides driving assistance and self-driving solutions; and develops and manufactures multi-beam mask writing tools. The company sells its products through sales organizations, distributors, resellers, retailers, and OEM partners. It serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. Intel Corporation has a strategic collaboration with Infosys Limited to develop a multi-layer AI fabric that unifies infrastructure, models, data, applications, and workflows into a composable and agent-ready ecosystem. The company was incorporated in 1968 and is headquartered in Santa Clara, California.",
     "website": "https://www.intel.com"
+  },
+  "IOVA": {
+    "_ts": 1790706698.798711,
+    "country": "United States",
+    "employees": 975,
+    "industry": "Biotechnology",
+    "marketCap": 6719831040,
+    "name": "Iovance Biotherapeutics, Inc.",
+    "sector": "Healthcare",
+    "summary": "Iovance Biotherapeutics, Inc., a commercial-stage biopharmaceutical company, develops and commercializes cell therapies using autologous tumor infiltrating lymphocyte for the treatment of metastatic melanoma and other solid tumor cancers in the United States and internationally. The company offers Amtagvi, an individualized T cell therapy for solid tumor cancer and for the treatment of adult patients with previously treated advanced, or unresectable or metastatic melanomal; and Proleukin, an interleukin-2 product for the treatment of patients with metastatic melanoma and metastatic renal cell carcinoma. It also develops lifileucel for the treatment of melanoma, cervical cancer, non-small cell lung cancer (NSCLC), endometrial cancer, and head and neck squamous cell carcinoma (HNSCC); LN-145-S1 to treat melanoma and HNSCC; LN-145 Gen 3 and core biopsy for the treatment of NSCLC; LN-145 Gen 3 to treat melanoma and HNSCC; IOV-2001 to treat chronic lymphocytic leukemia and small lymphocytic lymphoma; IOV-4001 for the treatment of melanoma and NSCLC; and IOV-3001 for use in the TIL therapy treatment regimen. The company has collaborations and licensing agreements with National Institutes of Health; the National Cancer Institute; Cellectis S.A.; Novartis Pharma AG; and Boehringer Ingelheim Biopharmaceuticals GmbH. The company was formerly known as Lion Biotechnologies, Inc. and changed its name to Iovance Biotherapeutics, Inc. in June 2017. Iovance Biotherapeutics, Inc. was incorporated in 2007 and is headquartered in San Carlos, California.",
+    "website": "https://www.iovance.com"
   },
   "IQV": {
     "_ts": 1788368868.5000339,
@@ -2662,14 +2717,14 @@
     "website": "https://www.jabil.com"
   },
   "JCI": {
-    "_ts": 1776693245.623913,
+    "_ts": 1790706687.9378924,
     "country": "Ireland",
     "employees": 87000,
     "industry": "Building Products & Equipment",
-    "marketCap": 86466592768,
+    "marketCap": 90821844992,
     "name": "Johnson Controls International plc",
     "sector": "Industrials",
-    "summary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the United States, Europe, the Asia Pacific, and internationally. It operates through four segments: Building Solutions North America, Building Solutions EMEA/LA, Building Solutions Asia Pacific, and Global Products. The company designs, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and fire protection and security products. It also provides energy efficiency solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven smart building solutions. In addition, the company offers access control software and software services. It sells its products and services to commercial, institutional, industrial, data center, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
+    "summary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company designs, manufactures, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and digital solutions. It also provides energy solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven building solutions. It sells its products and services to commercial, residential security, institutional, industrial, data center, marine, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
     "website": "https://www.johnsoncontrols.com"
   },
   "JNJ": {
@@ -3377,11 +3432,11 @@
     "website": "https://www.neurocrine.com"
   },
   "NDSN": {
-    "_ts": 1785251996.0419576,
+    "_ts": 1790706687.9378924,
     "country": "United States",
     "employees": 8200,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 16824311808,
+    "marketCap": 18321192960,
     "name": "Nordson Corporation",
     "sector": "Industrials",
     "summary": "Nordson Corporation engineers, manufactures, and markets products and systems to dispense, apply, and control adhesives, coatings, polymers, sealants, biomaterials, medical components, and other fluids. The Industrial Precision Solutions segment provides dispensing, coating, and laminating systems for adhesives, lotions, liquids, and fibers to disposable products and roll goods; automated adhesive dispensing systems; components and systems for thermoplastic and biopolymer melt stream; fluid components, such as nozzles, pumps, and filters; smart components that measure and control the flow, quantity and location of dispensed fluid; control systems; and product assembly solutions. It also offers automated and manual dispensing products and systems for cold materials, container coating, liquid finishing, and powder coating, as well as ultraviolet equipment. The Medical and Fluid Solutions segment offers precision manual and semi-automated dispensers, plastic molded syringes, cartridges, tips, and fluid connection components; interventional solutions for engineered shafts and interventional delivery systems, medical tubing, balloons, balloon inflators, nitinol devices, cardiovascular cannula, and biomaterial delivery; medical fluid components; and microplegia myocardial protection devices and related consumables. The Advanced Technology Solutions segment provides automated dispensing systems for high-speed, precise application of various attachment, protection, and coating fluids, and related gas plasma treatment systems; destructive and non-destructive testing technologies, such as bond testers and automated optical, acoustic microscopy, and x-ray inspection systems used in the semiconductor and printed circuit board industries; and precision measurement and control technologies. The company markets its products through direct sales force, distributors, and sales representatives. Nordson Corporation was founded in 1909 and is headquartered in Westlake, Ohio.",
@@ -3476,11 +3531,11 @@
     "website": "https://www.norfolksouthern.com"
   },
   "NTAP": {
-    "_ts": 1784732640.082939,
+    "_ts": 1790706687.9378924,
     "country": "United States",
     "employees": 11700,
     "industry": "Software - Infrastructure",
-    "marketCap": 32697075712,
+    "marketCap": 40954347520,
     "name": "NetApp, Inc.",
     "sector": "Technology",
     "summary": "NetApp, Inc. provides a range of enterprise software, systems, and services that customers use to transform their data infrastructures in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Hybrid Cloud and Public Cloud. The company offers data management software, such as NetApp ONTAP, ONTAP One, NetApp Snapshot, NetApp SnapCenter Backup Management, NetApp SnapMirror Data Replication, and NetApp SnapLock Data Compliance; and storage infrastructure solutions, including NetApp AFF and ASA A-Series and C-Series, NetApp AFX, NetApp Fabric Attached Storage (FAS), NetApp E/EF series, and NetApp StorageGRID. It also provides cloud storage services comprising Azure NetApp Files, Amazon FSx for NetApp ONTAP, and Google Cloud NetApp Volumes, as well as NetApp Cloud Volumes ONTAP. In addition, the company offers operational services, such as NetApp Data Infrastructure Insights and Instaclustr; and professional and support services include storage-as-a-service (STaaS), strategic consulting, professional, managed, and support services, as well as assessment, design, implementation, migration, and proactive support services to help customers optimize the performance and efficiency of their on-premises and hybrid multicloud storage environments. Further, it offers ransomware protection, data backup and recovery, and disaster recovery. It serves various industries comprising energy, financial services, government, technology, internet, life sciences, healthcare services, manufacturing, media, entertainment, animation, video postproduction, and telecommunications through a direct sales force and an ecosystem of partners, including the cloud providers. The company has a strategic alliance with Commvault Systems, Inc. to develop an integrated solution for enterprise data protection and cyber resilience. NetApp, Inc. was incorporated in 1992 and is headquartered in San Jose, California.",
@@ -4123,6 +4178,17 @@
     "sector": "Industrials",
     "summary": "RBC Bearings Incorporated manufactures and markets engineered precision bearings, components, and systems in the United States and internationally. It operates through two segments: Aerospace/Defense and Industrial. The company produces plain bearings with self-lubricating or metal-to-metal designs, including rod end bearings, spherical plain bearings, and journal bearings; roller bearings, such as tapered roller bearings, needle roller bearings, and needle bearing track rollers and cam followers, which are anti-friction products that are used in industrial applications and military aircraft platforms; and ball bearings that include high precision aerospace, airframe control, thin section, and industrial ball bearings that utilize high precision ball elements to reduce friction in high-speed applications. In addition, it offers mounted bearing products include mounted ball bearings, mounted roller bearings, and mounted plain bearings; and enclosed gearing product lines, including quantis gearmotor, torque arm, tigear, magnagear and maxum, and controlled start transmission. Further, the company's power transmission components include mechanical drive components, couplings, and conveyor components; engineered hydraulics and valves for aircraft and submarine applications, and aerospace and defense aftermarket services; fasteners; precision mechanical components, for use in various general industrial applications; and machine tool collets that are used for holding circulars or rod-like pieces. It serves commercial and defense aerospace,, construction, mining, forestry, energy, agricultural, food and beverage, metals and mining material handling, chemicals, oil and gas production, warehousing and logistics, semiconductor equipment, waste and water management, and rail and transportation applications through its direct sales force, and a network of industrial and aerospace distributors. The company was founded in 1919 and is based in Oxford, Connecticut.",
     "website": "https://www.rbcbearings.com"
+  },
+  "RBRK": {
+    "_ts": 1790706687.9378924,
+    "country": "United States",
+    "employees": 3797,
+    "industry": "Software - Infrastructure",
+    "marketCap": 23600304128,
+    "name": "Rubrik, Inc.",
+    "sector": "Technology",
+    "summary": "Rubrik, Inc. provides data security solutions to individuals and businesses worldwide. The company offers enterprise data protection, unstructured data protection, cloud data protection, SaaS data protection solutions, and identity provider services protection; data threat analytics; data security posture; identity recovery and resilience services; and cyber recovery solutions. It also provides RUBY, an AI agent for cyber resilience designed to scale data security operations through automation; SENTRYAI, a proprietary AI deep learning-based platform for system health monitoring; and RUBRIK UNIVERSITY, which includes instructor-led training with hands-on labs, on-demand e-learning courses, and certification exams, as well as offers cloud services. It serves financial, retail, trade, transportation, energy, industrial, healthcare and life science, education, technology, media, communications, services, and public sectors. Rubrik, Inc. has strategic collaboration with MEDITECH to offer native cyber resilience to MEDITECH self-hosted cloud and on-premises solutions. Rubrik, Inc. was formerly known as Scaledata, Inc. and changed its name to Rubrik, Inc. in October 2014. The company was incorporated in 2013 and is based in Palo Alto, California.",
+    "website": "https://www.rubrik.com"
   },
   "RF": {
     "_ts": 1783613177.0435069,
@@ -5203,11 +5269,11 @@
     "website": "https://www.viavisolutions.com"
   },
   "VICR": {
-    "_ts": 1780410971.7163908,
+    "_ts": 1790706698.798711,
     "country": "United States",
     "employees": 1092,
     "industry": "Electronic Components",
-    "marketCap": 14962097152,
+    "marketCap": 13337986048,
     "name": "Vicor Corporation",
     "sector": "Technology",
     "summary": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally. The company offers a range of brick-format DC-DC converters; complementary components that provide AC line rectification, input filtering, power factor correction, and transient protection; and input and output voltage, and output power products, as well as sells electrical and mechanical accessories. It also designs, sells, and services custom power system solutions. It serves independent manufacturers of electronic devices, original equipment manufacturers, original design manufacturers, and their contract manufacturers in the aerospace and aviation, defense electronics, satellites, factory automation, instrumentation, test equipment, transportation, telecommunications and networking infrastructure, and vehicle markets. Vicor Corporation was incorporated in 1981 and is headquartered in Andover, Massachusetts.",
@@ -5489,11 +5555,11 @@
     "website": "https://www.xenon-pharma.com"
   },
   "XMTR": {
-    "_ts": 1782914304.0099163,
+    "_ts": 1790706687.9378924,
     "country": "United States",
     "employees": 1174,
     "industry": "Industrial Distribution",
-    "marketCap": 5338406912,
+    "marketCap": 6016681984,
     "name": "Xometry, Inc.",
     "sector": "Industrials",
     "summary": "Xometry, Inc. operates an artificial intelligence (AI) powered online manufacturing marketplace in the United States and internationally. The company's marketplace uses AI to assist buyers to source custom-manufactured parts and assemblies and attain instant pricing and lead times. It operates Xometry marketplace, an AI powered online marketplace that connects buyers with suppliers of manufacturing services; Xometry instant quoting engine, which prices transactions based on volume, manufacturing process, material, and location; and Thomasnet, an industrial sourcing platform that features an online directory of industrial suppliers, products, and services, as well as digital marketing services and insights to manufacturers and industrial services providers. The company also provides cloud-based systems, such as Workcenter, a financial service product that facilitates payments and a cloud-based manufacturing execution system; and Teamspace, a cloud-based solution within the Xometry platform that enables customers to collaborate with other users on projects and custom part orders. In addition, it offers computer numerical control (\u0093CNC\u0094) machining, injection molding, 3D printing, sheet forming and cutting, die casting, urethane casting, tube cutting, and tube bending, as well as finishing, rapid prototyping, and production services. It serves the aerospace, industrial, medical devices, automotive, consumer goods, defense, government, energy, education, and robotics industries. The company was formerly known as NextLine Manufacturing Corp. and changed its name to Xometry, Inc. in June 2015. Xometry, Inc. was incorporated in 2013 and is headquartered in North Bethesda, Maryland.",

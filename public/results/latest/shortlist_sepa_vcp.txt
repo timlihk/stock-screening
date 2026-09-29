@@ -1,10 +1,10 @@
-ASML|sepa_vcp 8 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · RSpct 89 · Technology · Earn 12d · RS +71
-JNJ|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 83 · Health Care · Earn 11d · RS +38
-ABBV|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 65 · Health Care · Earn 23d · RS +8
-NTAP|sepa_vcp 7 · +power_play · Entry 4 · Lead 10 · Tight 2/3 · Fund 1/5 · RSpct 87 · Technology · Earn 46d · RS +57
-RBRK|sepa_vcp 7 · +power_play · Entry 4 · Lead 9 · Tight 1/3 · RSpct 74 · Earn 48d · RS +21
-RAL|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 85 · Technology · Earn 20d · RS +45
-MSM|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · RSpct 76 · Industrials · Earn 18d · RS +23
-CRWD|sepa_vcp 6 · +power_play · Entry 6 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 93 · Technology · Earn 46d · RS +99
-GILD|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 3/5 · RSpct 75 · Health Care · Earn 23d · RS +22
-LXP|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 3/3 · RSpct 77 · Real Estate · Earn 23d · RS +25
+NTAP|sepa_vcp 8 · +power_play · Entry 6 · Lead 11 · Tight 1/3 · Fund 1/5 · RSpct 88 · Technology · Earn 45d · RS +63
+RBRK|sepa_vcp 8 · +power_play · Entry 5 · Lead 10 · Tight 1/3 · RSpct 75 · Earn 47d · RS +21
+CRWD|sepa_vcp 7 · +power_play · Entry 7 · Lead 11 · Tight 2/3 · Fund 2/5 · RSpct 93 · Technology · Earn 45d · RS +97
+ABBV|sepa_vcp 7 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 63 · Health Care · Earn 22d · RS +5
+RAL|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · RSpct 85 · Technology · Earn 19d · RS +47
+XMTR|sepa_vcp 7 · +power_play · Entry 4 · Lead 11 · Tight 1/3 · Fund 5/5 · RSpct 89 · Industrials · Earn 25d · RS +72
+LXP|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 3/3 · RSpct 78 · Real Estate · Earn 22d · RS +26
+NDSN|sepa_vcp 6 · +power_play · Entry 6 · Lead 6 · Tight 2/3 · RSpct 80 · Industrials · Earn 51d · RS +30
+INSW|sepa_vcp 6 · Entry 5 · Lead 11 · Tight 0/3 · Fund 5/5 · RSpct 96 · Earn 27d · RS +160
+GH|sepa_vcp 6 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 2/5 · RSpct 96 · Earn 21d · RS +168
