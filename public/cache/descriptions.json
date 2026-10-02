@@ -4774,11 +4774,11 @@
     "website": "https://www.seagate.com"
   },
   "SU": {
-    "_ts": 1778508325.5744824,
+    "_ts": 1790964980.390295,
     "country": "Canada",
     "employees": 15424,
     "industry": "Oil & Gas Integrated",
-    "marketCap": 76819283968,
+    "marketCap": 82232999936,
     "name": "Suncor Energy Inc.",
     "sector": "Energy",
     "summary": "Suncor Energy Inc. operates as an integrated energy company in Canada, the United States, and internationally. The company operates through Oil Sands; Exploration and Production; and Refining and Marketing segments. The Oil Sands segment produces bitumen; and markets, supplies, and transports and manages crude oil, power, and byproducts. The Exploration and Production segment is involved in the offshore operations on the east coast of Canada, and onshore assets in Libya and Syria; and marketing and risk management of crude oil. The Refining and Marketing segment refines and supplies crude oil and intermediate feedstock into a range of petroleum and petrochemical products, as well as sells refined petroleum products to retail customers. This segment is also involved in the trading of crude oil and refined products, natural gas, and power. The company was formerly known as Suncor Inc. and changed its name to Suncor Energy Inc. in April 1997. Suncor Energy Inc. was founded in 1917 and is headquartered in Calgary, Canada.",
@@ -5674,6 +5674,17 @@
     "sector": "Energy",
     "summary": "YPF Sociedad An\u00f3nima, an energy company, engages in the oil and gas upstream and downstream activities in South America and Argentina. The company operates through the Upstream, Midstream and Downstream, LNG and Integrated Gas, and New Energies segments. It is involved in the exploration and exploitation of hydrocarbon fields and production of crude oil and natural gas; the refining, transportation and commercialization of refined products; the production, transportation, and commercialization of petrochemical products; the transportation and commercialization of crude oil; and the commercialization of specialties for the agribusiness industry, and of grains and their by-products. The company also offers fertilizers and crop protection products; flours, oils, and grains; asphalts; naphtha; and petroleum coke. In addition, it engages in the natural gas transportation and commercialization to third parties and to the Midstream and Downstream segments; the separation of natural gas liquids and their fractionation, and storage and transportation to produce ethane, propane, butane, and gasoline, as well as its commercialization; the development of liquefied natural gas liquefaction capacity; and power generation activities. The company was incorporated in 1977 and is based in Buenos Aires, Argentina.",
     "website": "https://www.ypf.com"
+  },
+  "ZBRA": {
+    "_ts": 1790964980.390295,
+    "country": "United States",
+    "employees": 10700,
+    "industry": "Communication Equipment",
+    "marketCap": 17877278720,
+    "name": "Zebra Technologies Corporation",
+    "sector": "Technology",
+    "summary": "Zebra Technologies Corporation, together with its subsidiaries, operates in the automatic identification and data capture solutions industry worldwide. It operates in two segments, Connected Frontline, and Asset Visibility and Automation. The company designs, manufactures, and sells printers that produce labels, wristbands, tickets, receipts, and plastic cards; dye-sublimination thermal card printers that produce images, which are used for personal identification, access control, and financial transactions; radio frequency identification device (RFID) printers that encode data into passive RFID transponders; accessories and options for printers, including carrying cases, vehicle mounts, and battery chargers; stock and customized thermal labels, receipts, ribbons, plastic cards, and RFID tags for printers; and electronic sensors and temperature-monitoring labels. It also provides various maintenance, technical support, repair, and managed and professional services; fixed readers, RFID enabled mobile computers, and RFID sleds; tags, sensors, exciters, middleware software, and application software; and physical inventory management solutions; rugged and enterprise-grade mobile computing products and accessories, as well as real-time location systems and services. In addition, the company offers barcode scanners and imagers, RFID readers, industrial machine vision cameras, and fixed industrial scanners; point-of-sale solutions, self-serve kiosks, and interactive touchscreen displays; workflow optimization solutions, such as workforce management, workflow execution and task management, and prescriptive analytics, and communications and collaboration solutions; and cloud-based software. The company serves retail and e-commerce, manufacturing, transportation and logistics, healthcare, public sector, and other industries through direct sales force and network of channel partners. The company was founded in 1969 and is headquartered in Lincolnshire, Illinois.",
+    "website": "https://www.zebra.com"
   },
   "ZCSH": {
     "_ts": 1790098735.6308463,
