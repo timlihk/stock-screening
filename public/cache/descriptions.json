@@ -1067,11 +1067,11 @@
     "website": "https://www.cleanharbors.com"
   },
   "CLMT": {
-    "_ts": 1787579835.597489,
+    "_ts": 1791312802.2817805,
     "country": "United States",
     "employees": 1540,
     "industry": "Specialty Chemicals",
-    "marketCap": 4207248896,
+    "marketCap": 4977676800,
     "name": "Calumet, Inc.",
     "sector": "Basic Materials",
     "summary": "Calumet, Inc. manufactures, formulates, and markets a slate of specialty branded products and renewable fuels in North America and internationally. It operates through Specialty Products and Solutions; Performance Brands; and Montana/Renewables segments. The Specialty Products and Solutions segment manufactures and markets various solvents, waxes, customized lubricating oils, white oils, petrolatums, gels, esters, and other products. The Montana/Renewables segment processes geographically advantaged renewable feedstocks into renewable diesel, aviation fuel, and renewable naphtha. This segment also engages in the process of Canadian crude oil into conventional gasoline, diesel, jet fuel, and specialty grades of asphalt. The Performance Brands segment blends, packages, and markets high performance products through Royal Purple, Bel-Ray, and TruFuel brands. It serves wholesale distributors and retail chains. Calumet, Inc. was founded in 1919 and is headquartered in Indianapolis, Indiana.",
@@ -1309,14 +1309,14 @@
     "website": "https://www.crowdstrike.com"
   },
   "CSCO": {
-    "_ts": 1783957992.357885,
+    "_ts": 1791312802.2817805,
     "country": "United States",
-    "employees": 86200,
+    "employees": 82400,
     "industry": "Communication Equipment",
-    "marketCap": 471632084992,
+    "marketCap": 462409826304,
     "name": "Cisco Systems, Inc.",
     "sector": "Technology",
-    "summary": "Cisco Systems, Inc. designs, develops, and sells technologies that help to power, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company offers data center switching; network security, identity and access management, and secure access service edge; threat intelligence, detection, and response solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network assurance, monitoring and analytics, and observability suite; issue resolution, software support, and hardware replacement; professional services, such as planning, design, implementation, and high-value consulting; service and support packages, financing, and managed network services; and regional, national, and international wireline carriers, webscale products, internet, and cable. It also delivers connectivity to campus, data center, and branch networks; wireless products, including indoor and outdoor wireless coverage designed for seamless roaming use of voice, video, and data applications; end-to-end collaboration solutions through cloud, on-premise, or within hybrid cloud environments, transition collaboration solutions from on-premise to the cloud; and network assurance, monitoring and analytics, and observability suite. In addition, it offers technical support and advisory services. The company serves businesses, public institutions, governments, and service providers. It sells its products and services directly, through systems integrators, service providers, resellers, and distributors. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.",
+    "summary": "Cisco Systems, Inc. designs, develops, and sells technologies to power, help, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company provides data center switching; network security, identity and access management, and secure access service edge; identity and agentic security solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network assurance and observability suite; accelerated issue resolution, software support, and hardware replacement; professional services, such as planning, design, implementation, and high-value consulting; service and support packages, financing, and managed network services; and regional, national, and international wireline carriers, webscale products, internet, and cable. It also provides wireless products, including indoor and outdoor coverage designed for seamless roaming use of voice, video, and data applications; end-to-end collaboration solutions through cloud, on-premise, or within hybrid cloud environments. In addition, it offers technical support services. The company serves businesses, public institutions, governments, and service providers. It sells its products and services directly, through systems integrators, service providers, and other thirdy-party resellers, and distributors. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.",
     "website": "https://www.cisco.com"
   },
   "CSTM": {
@@ -1506,6 +1506,17 @@
     "summary": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.",
     "website": "https://www.dupont.com"
   },
+  "DDOG": {
+    "_ts": 1791312802.2817805,
+    "country": "United States",
+    "employees": 8100,
+    "industry": "Software - Application",
+    "marketCap": 99370418176,
+    "name": "Datadog, Inc.",
+    "sector": "Technology",
+    "summary": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, observability pipelines, synthetics, real user monitoring, product analytics, continuous profiler, database monitoring, data observability, LLM observability, error tracking, network monitoring, incident response, workflow automation and App builder, event management, bits AI SRE, cloud cost management, cloud security, code security, cloud SIEM, threat management, sensitive data scanner, and CI visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York.",
+    "website": "https://www.datadoghq.com"
+  },
   "DELL": {
     "_ts": 1789666427.8512232,
     "country": "United States",
@@ -1551,11 +1562,11 @@
     "website": "https://www.questdiagnostics.com"
   },
   "DINO": {
-    "_ts": 1785772129.3914568,
+    "_ts": 1791312802.2817805,
     "country": "United States",
     "employees": 5165,
     "industry": "Oil & Gas Refining & Marketing",
-    "marketCap": 16325909504,
+    "marketCap": 20574035968,
     "name": "HF Sinclair Corporation",
     "sector": "Energy",
     "summary": "HF Sinclair Corporation operates as an independent energy company in the United States. It operates through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream. The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others. It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states. In addition, the company supplies fuels to 1,700 branded stations and licenses the use of the Sinclair brand at approximately 350 additional locations, as well as provision of other marketing activities. Further, the company produces base oils and other specialized lubricants; and provides petroleum product and crude oil transportation, terminalling, storage, and throughput services to the petroleum sector. Additionally, it offers hydrocarbon chemicals, including white oils, petrolatums, and waxes. The company also exports its products. HF Sinclair Corporation was incorporated in 1947 and is headquartered in Dallas, Texas.",
@@ -1815,11 +1826,11 @@
     "website": "https://www.equinor.com"
   },
   "ERAS": {
-    "_ts": 1788454605.4359446,
+    "_ts": 1791312814.4124432,
     "country": "United States",
     "employees": 103,
     "industry": "Biotechnology",
-    "marketCap": 5683633152,
+    "marketCap": 5003346432,
     "name": "Erasca, Inc.",
     "sector": "Healthcare",
     "summary": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's product pipeline includes ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-mutated solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-mutated solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGFR and RAS/MAPK solid tumors. It has license agreement with Guangzhou Joyo Pharmatech Co., Ltd to develop, manufacture, and commercialize certain pan-RAS inhibitors; Medshine Discovery Inc. to develop, manufacture, and commercialize certain pan-KRAS inhibitors; Novartis Pharma AG to develop, manufacture, use, and commercialize naporafenib; NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds; and Asana BioSciences, LLC to develop and commercialize ERAS-007 and certain other related compounds. The company has a clinical trial collaboration and supply agreement with Tango Therapeutics, Inc. for the evaluation of ERAS-0015. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
@@ -2871,11 +2882,11 @@
     "website": "https://www.kinetik.com"
   },
   "KOD": {
-    "_ts": 1776482631.8091784,
+    "_ts": 1791312814.4124432,
     "country": "United States",
-    "employees": 124,
+    "employees": 141,
     "industry": "Biotechnology",
-    "marketCap": 2776969472,
+    "marketCap": 5954672128,
     "name": "Kodiak Sciences Inc.",
     "sector": "Healthcare",
     "summary": "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Its lead product candidate is tarcocimab tedromer (KSI-301), an anti-vascular endothelial growth factor (VEGF) antibody biopolymer that has complete Phase 3 clinical study to treat high prevalence retinal vascular diseases; and in Phase 3 clinical study for the treatment of diabetic retinopathy, wet age-related macular degeneration (AMD), retinal vein occlusion, and diabetic macular edema, as well as in Phase 2/3 clinical study to treat wet AMD. The company's preclinical stage product candidate includes KSI-501, an anti- interleukin-6 (IL-6) and VEGF-trap bispecific antibody biopolymer conjugate for high prevalence retinal vascular diseases; and KSI-101 (KSI-501P), a bispecific protein targeting IL-6 and VEGF developed for patients who have retinal fluid and inflammation. The company was formerly known as Oligasis, LLC and changed its name to Kodiak Sciences Inc. in September 2015. Kodiak Sciences Inc. was incorporated in 2009 and is based in Palo Alto, California.",
@@ -3311,11 +3322,11 @@
     "website": "https://www.marathonpetroleum.com"
   },
   "MRNA": {
-    "_ts": 1788454605.4359446,
+    "_ts": 1791312814.4124432,
     "country": "United States",
     "employees": 4700,
     "industry": "Biotechnology",
-    "marketCap": 57180565504,
+    "marketCap": 76018507776,
     "name": "Moderna, Inc.",
     "sector": "Healthcare",
     "summary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
@@ -3333,7 +3344,7 @@
     "website": "https://www.marvell.com"
   },
   "MRX": {
-    "_ts": 1788540731.8806086,
+    "_ts": 1791312811.4438572,
     "country": "United Kingdom",
     "employees": 3347,
     "industry": "Capital Markets",
@@ -3584,6 +3595,17 @@
     "sector": "Technology",
     "summary": "NetApp, Inc. provides a range of enterprise software, systems, and services that customers use to transform their data infrastructures in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Hybrid Cloud and Public Cloud. The company offers data management software, such as NetApp ONTAP, ONTAP One, NetApp Snapshot, NetApp SnapCenter Backup Management, NetApp SnapMirror Data Replication, and NetApp SnapLock Data Compliance; and storage infrastructure solutions, including NetApp AFF and ASA A-Series and C-Series, NetApp AFX, NetApp Fabric Attached Storage (FAS), NetApp E/EF series, and NetApp StorageGRID. It also provides cloud storage services comprising Azure NetApp Files, Amazon FSx for NetApp ONTAP, and Google Cloud NetApp Volumes, as well as NetApp Cloud Volumes ONTAP. In addition, the company offers operational services, such as NetApp Data Infrastructure Insights and Instaclustr; and professional and support services include storage-as-a-service (STaaS), strategic consulting, professional, managed, and support services, as well as assessment, design, implementation, migration, and proactive support services to help customers optimize the performance and efficiency of their on-premises and hybrid multicloud storage environments. Further, it offers ransomware protection, data backup and recovery, and disaster recovery. It serves various industries comprising energy, financial services, government, technology, internet, life sciences, healthcare services, manufacturing, media, entertainment, animation, video postproduction, and telecommunications through a direct sales force and an ecosystem of partners, including the cloud providers. The company has a strategic alliance with Commvault Systems, Inc. to develop an integrated solution for enterprise data protection and cyber resilience. NetApp, Inc. was incorporated in 1992 and is headquartered in San Jose, California.",
     "website": "https://www.netapp.com"
+  },
+  "NTNX": {
+    "_ts": 1791312802.2817805,
+    "country": "United States",
+    "employees": 8350,
+    "industry": "Software - Infrastructure",
+    "marketCap": 19826030592,
+    "name": "Nutanix, Inc.",
+    "sector": "Technology",
+    "summary": "Nutanix, Inc. provides a cloud and artificial intelligence platform (AI) in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. It offers hyperconverged infrastructure software (HCI); Nutanix Cloud Platform for building hybrid multicloud infrastructure; Nutanix cloud infrastructure, a distributed HCI for enterprise IT applications, including Nutanix AOS, Nutanix AHV, Nutanix data services for Kubernetes, flow network security, flow virtual networking, Nutanix Cloud Clusters, Nutanix central, and Nutanix prism; and Nutanix Cloud Manager, is a unified management solution, such as NCM Intelligent Operations, NCM Self-Service and Orchestration, NCM Cost Governance, and Nutanix Security Central unifies cloud security operations. The company also offers Nutanix Kubernetes Platform, an enterprise Kubernetes platform for deploying and managing modern, containerized applications across hybrid multicloud environments; Nutanix Enterprise AI, a centralized fine-tuning and inferencing platform; Nutanix Agent Gateway for governing interactions between agents, LLMs, and tools; Nutanix Private Inferencing that helps organizations to build adaptive AI factories; Nutanix Unified Storage, a software-defined platform that consolidates file, object, and block storage into one intelligent data fabric; Nutanix Files Storage, a software-defined scale-out file storage solution; Nutanix Objects Storage, a scale-out S3-compatible object storage solution; Nutanix Volumes Block Storage, a software-defined storage solution; and Nutanix Data Lens, a cloud-based cyber resilience service. In addition, it provides product support, and consulting and implementation services. The company serves financial services, retail, manufacturing, public sector, automotive and other transportation, consumer goods, education, energy, healthcare, media, technology, and telecommunications industries. The company was incorporated in 2009 and is headquartered in San Jose, California.",
+    "website": "https://www.nutanix.com"
   },
   "NTR": {
     "_ts": 1789666427.8512232,
@@ -4036,6 +4058,17 @@
     "summary": "Plexus Corp. provides electronic manufacturing services in the United States, the Asia-Pacific, Europe, the Middle East, and Africa. The company offers design, develop, supply chain, new product introduction, and manufacturing solutions, as well as sustaining services. It serves the aerospace/defense, healthcare/life sciences, and industrial/commercial sectors. Plexus Corp. was founded in 1979 and is headquartered in Neenah, Wisconsin.",
     "website": "https://www.plexus.com"
   },
+  "PM": {
+    "_ts": 1791312811.4438572,
+    "country": "United States",
+    "employees": 84900,
+    "industry": "Tobacco",
+    "marketCap": 295617691648,
+    "name": "Philip Morris International Inc.",
+    "sector": "Consumer Defensive",
+    "summary": "Philip Morris International Inc. operates as a tobacco company. The company offers cigarettes and smoke-free products, including heat-not-burn, e-vapor, and oral nicotine products under the IQOS, VEEV, and ZYN brands; and consumer accessories, such as lighters and matches. It also offers wellness products. The company was incorporated in 1987 and is headquartered in Stamford, Connecticut.",
+    "website": "https://www.pmi.com"
+  },
   "PNFP": {
     "_ts": 1785772129.3914568,
     "country": "United States",
@@ -4125,11 +4158,11 @@
     "website": "https://www.personalis.com"
   },
   "PSX": {
-    "_ts": 1779285971.9089527,
+    "_ts": 1791312802.2817805,
     "country": "United States",
     "employees": 12600,
     "industry": "Oil & Gas Refining & Marketing",
-    "marketCap": 73521455104,
+    "marketCap": 108877905920,
     "name": "Phillips 66",
     "sector": "Energy",
     "summary": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally. It operates through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels. The Midstream segment provides crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and natural gas liquids (NGL) gathering, processing, transportation, fractionation, storage and marketing services. It also exports liquefied petroleum gas. The Chemicals segment produces and markets ethylene and other olefin products; aromatics and styrenics products, such as benzene, cyclohexane, styrene, and polystyrene; various specialty chemical products, including organosulfur chemicals, solvents, catalysts, and chemicals used in drilling and mining; and petrochemicals and plastics. The Refining segment refines crude oil and other feedstocks into petroleum products, such as gasolines and distillates, including aviation fuels. The M&S segment purchases for resale and markets refined products, including gasolines, distillates, and aviation fuels. This segment also manufactures and markets specialty products, such as automotive, commercial, industrial, and specialty lubricants, as well as base oils. The Renewable Fuels segment processes renewable feedstocks into renewable products, as well as supplies sustainable aviation fuel. This segment also procures renewable feedstocks, manages certain regulatory credits, and markets renewable diesel, renewable jet fuel, and other renewable fuels. The company markets its products under the Phillips 66, Conoco and 76, JET, Kendall, Red Line, and other private label brands. Phillips 66 was founded in 1875 and is headquartered in Houston, Texas.",
@@ -4432,6 +4465,17 @@
     "summary": "Saia, Inc., together with its subsidiaries, operates as a transportation company in North America. The company provides less-than-truckload services for shipments between 100 and 10,000 pounds. It also offers other value-added services, including brokered truckload, expedited transportation, and other logistics services. As of December 31, 2025, it operated 213 owned and leased terminals; and owned approximately 7,700 tractors and 26,500 trailers. The company was formerly known as SCS Transportation, Inc. and changed its name to Saia, Inc. in July 2002. Saia, Inc. was founded in 1924 and is headquartered in Johns Creek, Georgia.",
     "website": "https://www.saia.com"
   },
+  "SANM": {
+    "_ts": 1791312802.2817805,
+    "country": "United States",
+    "employees": 35000,
+    "industry": "Electronic Components",
+    "marketCap": 12255571968,
+    "name": "Sanmina Corporation",
+    "sector": "Technology",
+    "summary": "Sanmina Corporation provides integrated manufacturing solutions, components, products and repair, logistics, and after-market services in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company operates through two businesses: Integrated Manufacturing Solutions; and Components, Products and Services. The company offers product design and engineering, including concept development, detailed design, prototyping, validation, preproduction, manufacturing design release, and product industrialization; assembly and test services; direct order fulfillment and logistics services; after-market product service and support; and supply chain management services, as well as engaging in the manufacture of components, subassemblies, and complete systems; and direct order fulfilment and logistics services. In addition, the company provides components, such as printed circuit boards, backplane fabrication and backplane assemblies, cable assemblies, fabricated metal parts, precision machined parts, and plastic injected molded parts; memory solutions; storage platforms; optical, radio frequency, and microelectronic solutions; defense and aerospace products, design, manufacturing, repair, and refurbishment services; and cloud-based manufacturing execution software. It offers its products and services primarily to original equipment manufacturers in the industrial, medical, defense and aerospace, automotive, communications networks, and cloud infrastructure industries. The company was formerly known as Sanmina-SCI Corp. Sanmina Corporation was incorporated in 1980 and is headquartered in San Jose, California.",
+    "website": "https://www.sanmina.com"
+  },
   "SBLK": {
     "_ts": 1789666438.4482157,
     "country": "Greece",
@@ -4532,11 +4576,11 @@
     "website": "https://www.sunlife.com"
   },
   "SLS": {
-    "_ts": 1788454605.4359446,
+    "_ts": 1791312814.4124432,
     "country": "United States",
     "employees": 13,
     "industry": "Biotechnology",
-    "marketCap": 2839356672,
+    "marketCap": 2312278272,
     "name": "SELLAS Life Sciences Group, Inc.",
     "sector": "Healthcare",
     "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
@@ -5147,6 +5191,17 @@
     "summary": "10x Genomics, Inc. develops and sells instruments, consumables, and software for analyzing biological systems in the United States, rest of the Americas, Europe, the Middle East, Africa, China, and the rest of the Asia Pacific. The company offers Chromium platform, a single cell portfolio that enables analysis of individual biological components, as well as includes microfluidic chips and related consumables, Chromium X Series, and Chromium instruments; and QuantumScale single cell RNA and single cell methylation kits. It also provides Visium platform, a spatial analysis platform that uses high density DNA arrays to encode the physical location of biological analytes within a sample. This platform includes HD WT panel gene expression, and HD 3' gene expression assays, as well as the Visium CytAssist, an instrument designed to simplify and optimize the Visium solution workflow by facilitating the transfer of transcriptomic analytes from standard glass slides to Visium slides. In addition, the company offers Xenium Analyzer instrument enables researchers to detect and preserve the cellular location of hundreds of RNA targets directly in a fresh frozen or FFPE tissue section without the need for conventional sequencing; and slides and reagents. Further, it provides various software products comprising Cell Ranger, a scRNA-seq processing pipeline in scientific literature; Loupe Browser, which enables intuitive single-cell, spatial, and multiomic data visualization; and Xenium Explorer that enables intuitive in situ data visualization, which allows researchers to explore subcellular gene expression, spatial organization, and tissue-scale patterns. The company serves various academic, government, biopharmaceutical, biotechnology, and other institutions. The company was formerly known as 10X Technologies, Inc. and changed its name to 10x Genomics, Inc. in November 2014. 10x Genomics, Inc. was incorporated in 2012 and is headquartered in Pleasanton, California.",
     "website": "https://www.10xgenomics.com"
   },
+  "TXN": {
+    "_ts": 1791312802.2817805,
+    "country": "United States",
+    "employees": 33000,
+    "industry": "Semiconductors",
+    "marketCap": 272293937152,
+    "name": "Texas Instruments Incorporated",
+    "sector": "Technology",
+    "summary": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the rest of Asia, Europe, the Middle East, Africa, Japan, and internationally. It operates through Analog and Embedded Processing segments. The Analog segment offers power products to manage power requirements across various voltage levels, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated controllers and converters, power switches, linear regulators, voltage references, multiphase controllers and power stages, and lighting products. This segment also provides signal chain products that sense, condition, and measure real-world signals and convert them into data to be transferred or converted for further processing and control, such as amplifiers, data converters, interface products, motor drives, clocks, and logic and sensing products. The Embedded Processing segment offers microcontrollers, processors, wireless connectivity, and radar products; and applications processors for specific computing activity. It also provides DLP products primarily for use in projecting high-definition images; calculators; and application-specific integrated circuits. Its products are used in various markets, such as industrial, automotive, personal electronics, communications equipment, enterprise systems, calculators, and others. The company markets and sells its semiconductor products through direct sales and distributors, as well as through its website. Texas Instruments Incorporated was founded in 1930 and is headquartered in Dallas, Texas.",
+    "website": "https://www.ti.com"
+  },
   "UCO": {
     "_ts": 1790098720.5070617,
     "country": "",
@@ -5577,11 +5632,11 @@
     "website": "https://www.williams-sonomainc.com"
   },
   "WST": {
-    "_ts": 1786371618.005221,
+    "_ts": 1791312802.2817805,
     "country": "United States",
     "employees": 10800,
     "industry": "Medical Instruments & Supplies",
-    "marketCap": 25037234176,
+    "marketCap": 26357833728,
     "name": "West Pharmaceutical Services, Inc.",
     "sector": "Healthcare",
     "summary": "West Pharmaceutical Services, Inc. designs, manufactures, and sells containment and delivery systems for injectable drugs and healthcare products in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Proprietary Products and Contract-Manufactured Products. The Proprietary Products segment offers stoppers and seals for injectable packaging systems; syringe and cartridge components, including custom solutions for the needs of injectable drug applications, as well as administration systems that enhance the safe delivery of drugs through advanced reconstitution, mixing, and transfer technologies; and films, coatings, washing, and vision inspection and sterilization processes and services to enhance the quality of packaging products. This segment also provides drug containment solutions in the form of vials, syringes, and cartridges; and self-injection devices; and a range of integrated solutions, including analytical lab services, pre-approval primary packaging support and engineering development, regulatory expertise, and after-sales technical support. This segment serves biologic, generic, and pharmaceutical drug companies. The Contract-Manufactured Products segment is involved in the design, manufacture, and automated assembly of devices used in surgical, diagnostic, ophthalmic, injectable, and other drug delivery systems, as well as consumer products. This segment primarily serves pharmaceutical, diagnostic, and medical device companies. It sells and distributes its products through its sales force and distribution network, contract sales agents, and regional distributors. West Pharmaceutical Services, Inc. was founded in 1923 and is headquartered in Exton, Pennsylvania.",
