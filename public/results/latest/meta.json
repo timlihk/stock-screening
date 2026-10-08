@@ -1,6 +1,6 @@
 {
-  "run_id": "20261007T190652Z",
-  "date": "2026-10-07",
+  "run_id": "20261008T190311Z",
+  "date": "2026-10-08",
   "inputs": {
     "exchanges": "nasdaq,nyse",
     "min_price": "5",

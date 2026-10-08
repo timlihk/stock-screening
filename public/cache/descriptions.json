@@ -758,6 +758,17 @@
     "summary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
     "website": "https://www.bny.com"
   },
+  "BOX": {
+    "_ts": 1791486864.3659127,
+    "country": "United States",
+    "employees": 2912,
+    "industry": "Software - Infrastructure",
+    "marketCap": 4955389952,
+    "name": "Box, Inc.",
+    "sector": "Technology",
+    "summary": "Box, Inc. provides a cloud content management platform that enables organizations of various sizes to manage cloud content from anywhere and on any device in Poland, Australia, Canada, the European Union, France, Israel, Japan, Singapore, Switzerland, the United Kingdom, and the United States. The company's Software-as-a-Service platform enables users to work with their content as they need from secure external collaboration, workspaces to e-signature processes, and content workflows improving employee productivity and accelerating business processes. It offers web, mobile, and desktop applications of its solutions on a platform, as well as the ability to develop custom applications. The company has a partnership with OpenAI to reimagine AI- and content-powered enterprise work that allows users to securely browse, access, and work with Box content directly in ChatGPT. The company was formerly known as Box.net, Inc. and changed its name to Box, Inc. in November 2011. Box, Inc. was incorporated in 2005 and is headquartered in Redwood City, California.",
+    "website": "https://www.box.com"
+  },
   "BTE": {
     "_ts": 1779115340.843864,
     "country": "Canada",
@@ -1857,6 +1868,17 @@
     "sector": "Technology",
     "summary": "ESCO Technologies Inc. provides engineered components and systems for aviation, navy, defense, and industrial customers. The Aerospace & Defense segment designs and manufactures specialty filtration products, including hydraulic filter elements and fluid control devices used in commercial and defense aerospace applications; miniature electro-explosive devices for military aircraft ejection seats and missile arming devices; manufactures and sells mission-critical bushings, pins, sleeves, and precision-tolerance machined components for landing gear, rotor heads, engine mounts, flight controls, and actuation systems for the aerospace and defense industries; designs, develops and manufactures elastomeric-based signature reduction solutions for U.S. naval vessels; and provides mission-critical signature and power management solutions. The Utility Solutions Group segment develops, manufactures, and delivers diagnostic testing solutions; and designs and manufactures decision support tools for the renewable energy industry, primarily wind and solar. The RF Test & Measurement segment designs and manufactures products and systems to measure and control RF energy for research and development, regulatory compliance, and medical and security applications; and turnkey systems, such as RF test facilities and measurement systems, acoustic test enclosures, RF and magnetically shielded rooms, and secure communication facilities. This segment also supplies RF absorptive materials, filters, antennas, field probes, test cells, proprietary measurement software, and other test accessories; and offers calibration and product tests, feedthrough capacitors, high current power, telephone, data and control line filters, and high-altitude electromagnetic protection filters. It distributes its products through distributors, sales representatives, direct sales teams, and in-house sales personnel. The company was incorporated in 1990 and is based in Saint Louis, Missouri.",
     "website": "https://www.escotechnologies.com"
+  },
+  "ESTC": {
+    "_ts": 1791486864.3659127,
+    "country": "Netherlands",
+    "employees": 3834,
+    "industry": "Software - Application",
+    "marketCap": 9898052608,
+    "name": "Elastic N.V.",
+    "sector": "Technology",
+    "summary": "Elastic N.V., a search artificial intelligence (AI) company, provides software platforms to run in hybrid, public or private clouds, and multi-cloud environments in the United States and internationally. It primarily offers Elasticsearch Platform, a set of software products that ingest and store data from various sources and formats, as well as performs search, analysis, and visualization on that data. The company also provides Elastic search product a distributed, real-time vector database and analytics engine and data store for all types of data, including textual, numerical, geospatial, structured, and unstructured; Kibana, a user interface, management, and configuration interface for the platforms; Search & AI, a platform with retrieval algorithms and the ability to integrate with large language models; and elastic security, a security solution that provides unified protection to prevent, detect, and respond to threats. In addition, it offers Elastic Observability, a solution that brings unified datastore, including Logs analytics to search, analyze, and visualize petabytes of structured and unstructured logs; infrastructure monitoring to gain visibility across cloud, on-premises, Kubernetes, serverless, and hosts; Application Performance Monitoring to support native production-grade; digital experience monitoring; large language models; and Elastic Cloud, a cloud-based subscription offering such as Elastic Cloud Hosted and Elastic Cloud Serverless. The company was incorporated in 2012 and is based in Amsterdam, the Netherlands.",
+    "website": "https://www.elastic.co"
   },
   "ETSY": {
     "_ts": 1785338282.9880085,
@@ -3926,6 +3948,17 @@
     "summary": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics. The Refining segment owns and operates refineries that convert crude oil into gasoline, distillate, asphalt, and other products. The Retail segment operates convenience stores and fuel retail outlets that sell gasoline, diesel, and retail merchandise, such as soft drinks, prepared food, and other sundries under the Hele, 76, and nomnom brands, as well as unattended cardlock stations. The Logistics segment owns and operates terminals, pipelines, trucking operations, marine vessels, storage facilities, loading and truck racks, and rail facilities for the movement of ethanol, petroleum, and refined products; and a jet fuel storage facility and pipeline that serves Ellsworth Air Force Base in South Dakota. The company also holds interest in crude storage tanks and a crude oil pipeline that provides access to crude oil from power river basin; and refined products pipeline. In addition, it owns and operates a single point mooring, a marine terminal, a unit train-capable rail loading terminal, manifest rail siding, a truck rack, and a proprietary jet fuel pipeline that serves Joint Base Lewis McChord. The company was formerly known as Par Petroleum Corporation and changed its name to Par Pacific Holdings, Inc. in October 2015. Par Pacific Holdings, Inc. was incorporated in 1984 and is headquartered in Houston, Texas.",
     "website": "https://www.parpacific.com"
   },
+  "PAYC": {
+    "_ts": 1791486864.3659127,
+    "country": "United States",
+    "employees": 5770,
+    "industry": "Software - Application",
+    "marketCap": 10312837120,
+    "name": "Paycom Software, Inc.",
+    "sector": "Technology",
+    "summary": "Paycom Software, Inc. provides cloud-based human capital management (HCM) solution delivered as software-as-a-service for small to mid-sized companies in the United States. The company offers functionality and data analytics that businesses need to manage the employment life cycle from recruitment to retirement. The company's HCM solution offers payroll applications comprising better employee transaction interface, payroll and payroll tax management, payroll card, Everyday, Paycom pay, Client Action Center, expense management, garnishment administration, and GL concierge applications; talent acquisition, including applicant tracking, background checks, on-boarding, e-verify, and tax credit services; and talent management applications that include employee self-service, compensation budgeting, performance management, position management, Paycom learning, certification management. The company also offers time and labor management, such as time and attendance, scheduling, time-off requests, and labor allocation solutions. Its HCM solution provides manager on-the-go that gives supervisors and managers the ability to perform a variety of tasks, such as approving time-off requests and expense reimbursements; direct data exchange; ask here, a tool for direct line of communication to ask work-related questions; document and checklist; government and compliance; benefits administration; COBRA administration; personnel action and performance discussion forms; Paycom surveys; retirement reporting; report center; and affordable care act applications, as well as Clue, which securely collects, tracks, and manages the vaccination and testing data of the workforce; and MyCom is a communications tool that provides organizations with a central place to share information with employees. Paycom Software, Inc. was founded in 1998 and is based in Oklahoma City, Oklahoma.",
+    "website": "https://www.paycom.com"
+  },
   "PBA": {
     "_ts": 1780497678.3155842,
     "country": "Canada",
@@ -4475,6 +4508,17 @@
     "sector": "Financial Services",
     "summary": "Royal Bank of Canada operates as a diversified financial service company worldwide. Its Personal Banking segment offers home equity financing, personal lending, chequing and savings accounts, private banking, auto financing, mutual funds, GICs, credit cards, and payment products and solutions. The company's Commercial Banking segments provides lending, deposit and transaction banking products and services. Its Wealth Management segment provides a suite of wealth, investment, trust, banking, credit, and other solutions to clients; asset management products to institutional and individual clients; and asset and investor services to financial institutions, asset managers, and asset owners. The company's Insurance segment offers life, health, travel, wealth, annuities, property and casualty, and reinsurance advice and solutions; digital platforms; and independent brokers and partners, as well as client-led advice and solutions. The company's Capital Markets segment offers advisory and origination, sales and trading, lending and financing, and transaction banking services to corporations, institutional clients, asset managers, private equity firms, and governments. The company was founded in 1864 and is based in Toronto, Canada.",
     "website": "https://www.rbc.com"
+  },
+  "S": {
+    "_ts": 1791486864.3659127,
+    "country": "United States",
+    "employees": 2800,
+    "industry": "Software - Infrastructure",
+    "marketCap": 8749955072,
+    "name": "SentinelOne, Inc.",
+    "sector": "Technology",
+    "summary": "SentinelOne, Inc. operates as a cybersecurity provider in the United States and internationally. The company's Singularity Platform delivers an artificial intelligence-powered autonomous threat prevention, detection, and response capabilities across an organization's endpoints, cloud workloads, and identify credentials, which enables seamless and autonomous protection against a spectrum of cyber threats. It also offers generative AI-security agent (Purple AI), security information and event management, endpoint security, cloud security, identity security, exposure and vulnerability management, and threat services. The company has a collaboration with Amazon Web Services (AWS) to deliver unified AI governance for customers building on Amazon Bedrock. The company was formerly known as Sentinel Labs, Inc. and changed its name to SentinelOne, Inc. in March 2021. SentinelOne, Inc. was incorporated in 2013 and is headquartered in Mountain View, California.",
+    "website": "https://www.sentinelone.com"
   },
   "SAIA": {
     "_ts": 1776526513.6243865,
@@ -5203,11 +5247,11 @@
     "website": "https://www.twistbioscience.com"
   },
   "TXG": {
-    "_ts": 1788887001.5643077,
+    "_ts": 1791486872.0110123,
     "country": "United States",
     "employees": 1178,
     "industry": "Medical Devices",
-    "marketCap": 8476091904,
+    "marketCap": 9928839168,
     "name": "10x Genomics, Inc.",
     "sector": "Healthcare",
     "summary": "10x Genomics, Inc. develops and sells instruments, consumables, and software for analyzing biological systems in the United States, rest of the Americas, Europe, the Middle East, Africa, China, and the rest of the Asia Pacific. The company offers Chromium platform, a single cell portfolio that enables analysis of individual biological components, as well as includes microfluidic chips and related consumables, Chromium X Series, and Chromium instruments; and QuantumScale single cell RNA and single cell methylation kits. It also provides Visium platform, a spatial analysis platform that uses high density DNA arrays to encode the physical location of biological analytes within a sample. This platform includes HD WT panel gene expression, and HD 3' gene expression assays, as well as the Visium CytAssist, an instrument designed to simplify and optimize the Visium solution workflow by facilitating the transfer of transcriptomic analytes from standard glass slides to Visium slides. In addition, the company offers Xenium Analyzer instrument enables researchers to detect and preserve the cellular location of hundreds of RNA targets directly in a fresh frozen or FFPE tissue section without the need for conventional sequencing; and slides and reagents. Further, it provides various software products comprising Cell Ranger, a scRNA-seq processing pipeline in scientific literature; Loupe Browser, which enables intuitive single-cell, spatial, and multiomic data visualization; and Xenium Explorer that enables intuitive in situ data visualization, which allows researchers to explore subcellular gene expression, spatial organization, and tissue-scale patterns. The company serves various academic, government, biopharmaceutical, biotechnology, and other institutions. The company was formerly known as 10X Technologies, Inc. and changed its name to 10x Genomics, Inc. in November 2014. 10x Genomics, Inc. was incorporated in 2012 and is headquartered in Pleasanton, California.",
@@ -5368,11 +5412,11 @@
     "website": "https://vale.com"
   },
   "VCTR": {
-    "_ts": 1787579835.597489,
+    "_ts": 1791486864.3659127,
     "country": "United States",
     "employees": 699,
     "industry": "Asset Management",
-    "marketCap": 7176014336,
+    "marketCap": 6889072128,
     "name": "Victory Capital Holdings, Inc.",
     "sector": "Financial Services",
     "summary": "Victory Capital Holdings, Inc., together with its subsidiaries, operates as an asset management company in the United States and internationally. It offers specialized investment strategies to institutions, intermediaries, retirement platforms, and individual investors. The company also provides various investment products, including actively and passively managed mutual funds, rules-based and active exchange traded funds (ETF), institutional separate accounts, variable insurance products, alternative investments, private closed end funds, and a 529 education savings plan; and third-party investment products, such as mutual funds, third-party ETF model strategies, retail separately managed accounts, unified managed accounts, collective investment trusts, undertakings for the collective investment in transferable securities, and other pooled vehicles. In addition, it offers investment management services, fund administration services, fund transfer agent services, and fund distribution services. Victory Capital Holdings, Inc. was incorporated in 2013 and is based in San Antonio, Texas.",
@@ -5522,11 +5566,11 @@
     "website": "https://www.ventasreit.com"
   },
   "VTRS": {
-    "_ts": 1788540731.8806086,
+    "_ts": 1791486864.3659127,
     "country": "United States",
     "employees": 30000,
     "industry": "Drug Manufacturers - Specialty & Generic",
-    "marketCap": 19520303104,
+    "marketCap": 20106082304,
     "name": "Viatris Inc.",
     "sector": "Healthcare",
     "summary": "Viatris Inc., together with its subsidiaries, operates as a healthcare company in North America, Europe, China, Taiwan, Hong Kong, Japan, Australia, New Zealand, rest of Asia, Africa, Latin America, and the Middle East. It operates in four segments: Developed Markets, Greater China, JANZ, and Emerging Markets. The company offers prescription brand drugs, generic drugs, complex generic drugs, and biosimilars. It also provides drugs in various therapeutic areas covering various noncommunicable and infectious diseases, including cardiovascular, CNS and anesthesia, dermatology, diabetes and metabolism, eye care, gastroenterology, immunology, oncology, and respiratory and allergy, as well as support services, such as diagnostic clinics, educational seminars, and digital tools to help patients better manage their health. In addition, the company offers medicines in the form of oral solid doses, injectables, and complex dosage forms to retail and pharmacy establishments, wholesalers and distributors, payers, insurers and governments, and institutions. It distributes its products through pharmaceutical wholesalers/distributors, pharmaceutical retailers, institutional pharmacies, mail-order and e-commerce pharmacies, and specialty pharmacies under the Lyrica, Lipitor, Celebrex, Viagra, Creon, Influvac, Wixela Inhub, EpiPen Auto-Injector, Fraxiparine, Yupelri, Norvasc, Amitiza, Effexor, Lipacreon, Zoloft, Xalabrands, Dymista, Xanax, and Breyna brands. The company has collaboration agreements with Mapi Pharma Ltd. to develop and commercialize long-acting glatiramer acetate depot products and additional products; Revance Therapeutics, Inc. to develop, manufacture, and commercialize a biosimilar to the branded biologic product, BOTOX; and Theravance Biopharma, Inc. to develop and commercialize revefenacin. Viatris Inc. was founded in 1961 and is headquartered in Canonsburg, Pennsylvania.",
