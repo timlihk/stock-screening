@@ -728,7 +728,7 @@
     "sample_quarters": 4
   },
   "ASX": {
-    "_ts": 1788886903.9248078,
+    "_ts": 1791571471.447988,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -4881,6 +4881,18 @@
     "revenue_yoy_growth": 8.022130013831251,
     "sample_quarters": 10
   },
+  "LFST": {
+    "_ts": 1791571471.447988,
+    "earnings_accelerating": false,
+    "fundamental_score": 4,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 65.77968124692832,
+    "net_income_yoy_growth": 722.8435768926405,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 7.900841685750826,
+    "revenue_yoy_growth": 26.075914175916793,
+    "sample_quarters": 10
+  },
   "LFUS": {
     "_ts": 1779373332.1893647,
     "earnings_accelerating": true,
@@ -8127,6 +8139,18 @@
     "revenue_yoy_growth": 21.715328467153295,
     "sample_quarters": 9
   },
+  "TENB": {
+    "_ts": 1791571471.447988,
+    "earnings_accelerating": true,
+    "fundamental_score": 3,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 169.0947666195191,
+    "net_income_yoy_growth": 125.87379300965593,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 2.461287195964257,
+    "revenue_yoy_growth": 8.578014112699407,
+    "sample_quarters": 10
+  },
   "TER": {
     "_ts": 1780497592.2843647,
     "earnings_accelerating": true,
@@ -8222,6 +8246,18 @@
     "revenue_qoq_growth": 17.283498765359795,
     "revenue_yoy_growth": 70.27162977867204,
     "sample_quarters": 10
+  },
+  "THC": {
+    "_ts": 1791571471.447988,
+    "earnings_accelerating": true,
+    "fundamental_score": 2,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": 321.5633423180593,
+    "net_income_yoy_growth": 42.18181818181819,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 4.595621494481628,
+    "revenue_yoy_growth": 10.683515221137284,
+    "sample_quarters": 9
   },
   "THG": {
     "_ts": 1786371453.7740238,
@@ -8834,6 +8870,18 @@
     "revenue_qoq_growth": -4.673577999325729,
     "revenue_yoy_growth": -14.320886113621235,
     "sample_quarters": 7
+  },
+  "VEEV": {
+    "_ts": 1791571471.447988,
+    "earnings_accelerating": false,
+    "fundamental_score": 1,
+    "latest_period": "Q1 2026",
+    "net_income_qoq_growth": 6.851648621644202,
+    "net_income_yoy_growth": 14.350322100004377,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 5.621980235683677,
+    "revenue_yoy_growth": 16.32384463067309,
+    "sample_quarters": 9
   },
   "VELO": {
     "_ts": 1779373332.1893647,

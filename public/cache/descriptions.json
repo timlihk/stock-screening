@@ -1814,6 +1814,17 @@
     "summary": "EnerSys engages in the provision of stored energy solutions for industrial applications worldwide. The company operates in four segments: Energy Systems, Motive Power, Specialty, and New Ventures. The Energy Systems segment offers uninterruptible power systems (UPS) applications for computer and computer-controlled systems, as well as telecommunications systems; switchgear and electrical control systems used in industrial facilities and electric utilities, large-scale energy storage, and energy pipelines; integrated power solutions and services to broadband, telecom, data center, and renewable and industrial customers; and thermally managed cabinets and enclosures for electronic equipment and batteries. The Motive Power segment provides power solutions for electric industrial forklifts, automated guided vehicles used in manufacturing, warehousing operations as well as equipment used in floor care, mining, rail and airport ground support applications. The Specialty offers starting, lighting, and ignition applications in transportation, energy solutions for satellites, spacecraft, commercial aircraft, military, aircraft, submarines, ships, other tactical vehicles, defense applications and portable power solutions for soldiers in the field, as well as medical devices and equipment. The New Venture segment provides energy storage and management systems for demand charge reduction, utility back-up power, and dynamic fast charging for electric vehicles. It also offers battery chargers, power equipment, battery accessories, and outdoor cabinet enclosures, as well as related after-market and customer-support services for industrial batteries. It sells its products through a network of distributors, independent representatives, and internal sales forces. The company was formerly known as Yuasa, Inc. and changed its name to EnerSys in January 2001. EnerSys was founded in 1991 and is headquartered in Reading, Pennsylvania.",
     "website": "https://www.enersys.com"
   },
+  "ENTG": {
+    "_ts": 1791571508.5659564,
+    "country": "United States",
+    "employees": 7700,
+    "industry": "Semiconductor Equipment & Materials",
+    "marketCap": 25186023424,
+    "name": "Entegris, Inc.",
+    "sector": "Technology",
+    "summary": "Entegris, Inc. provides advanced materials and process solutions for the semiconductor and other high-technology industries in North America, Taiwan, South Korea, Japan, China, Europe, and Southeast Asia. It operates in two segments, Materials Solutions (MS) and Advanced Purity Solutions (APS). The MS segment provides materials-based solutions, such as chemical vapor and atomic layer deposition materials, chemical mechanical planarization slurries and pads, ion implantation specialty gases, formulated etch and clean materials, and other specialty materials. The APS segment offers filtration, purification, and contamination-control solutions for the semiconductor manufacturing processes, semiconductor ecosystem, and other high-technology industries. The company's customers include logic and memory semiconductor device manufacturers, semiconductor equipment makers, gas and chemical manufacturing companies, and wafer grower companies; and outsourced semiconductor assembly and test facilities, flat panel display equipment makers, and manufacturers of hard disk drive components and devices. It serves manufacturers and suppliers in the solar and life science industries, electrical discharge machining customers, glass manufacturers, aerospace manufacturers, and manufacturers of biomedical implantation devices. Entegris, Inc. was founded in 1966 and is headquartered in Billerica, Massachusetts.",
+    "website": "https://www.entegris.com"
+  },
   "EOG": {
     "_ts": 1779373460.4103787,
     "country": "United States",
@@ -3002,6 +3013,17 @@
     "summary": "Lear Corporation designs, develops, engineers, manufactures, assembles, and supplies automotive seating, and electrical distribution systems and related components for automotive original equipment manufacturers in North America, Europe, Africa, Asia, and South America. Its Seating segment offers seat systems, keyseat components, seat trim covers, seat mechanisms, thermal comfort systems such as seat heating, ventilation, active cooling, pneumatic lumbar and massage products, seat cushioning, and headrests, as well as surface materials, such as leather and fabric for light trucks, compact cars, pick-up trucks, and sport utility vehicles. The company's E-Systems segment provides electrical distribution and connection systems that route electrical signals and networks; and manage electrical power within the vehicle for various powertrains. This segment's products comprise wire harnesses, terminals and connectors, engineered components, and junction boxes; electronic system products, including body domain control modules, and high voltage switching and power control systems. It also offers software and connected services. In addition, this segment provides cybersecurity software. It offers its products and services under the GUILFORD, EAGLE OTTAWA, THAGORA, IGB AUTOMOTIVE, COMFORTFLEX BY LEARTM, LEAR, CONFIGURE+, FLEXAIR , INTU, RENEWKNIT, SOYFOAM, ProTec, and TeXstyle brands. The company was founded in 1917 and is headquartered in Southfield, Michigan.",
     "website": "https://www.lear.com"
   },
+  "LFST": {
+    "_ts": 1791571505.6419148,
+    "country": "United States",
+    "employees": 8542,
+    "industry": "Medical Care Facilities",
+    "marketCap": 4713911296,
+    "name": "LifeStance Health Group, Inc.",
+    "sector": "Healthcare",
+    "summary": "LifeStance Health Group, Inc., through its subsidiaries, provides outpatient mental health services to children, adolescents, adults, and geriatrics in the United States. The company offers patients a multidisciplinary suite of mental health services, psychiatric evaluations and treatment, psychological, and neuropsychological testing, as well as individual, family, and group therapy. It also treats a range of mental health conditions, including anxiety, depression, bipolar disorder, eating disorders, psychotic disorders, and post-traumatic stress disorder. In addition, the company operates an outpatient mental health platform, as well as offers patient care virtually through its online delivery platform or in-person at its centers. LifeStance Health Group, Inc. was founded in 2017 and is headquartered in Scottsdale, Arizona.",
+    "website": "https://lifestance.com"
+  },
   "LFUS": {
     "_ts": 1779804817.899272,
     "country": "United States",
@@ -3353,6 +3375,17 @@
     "sector": "Energy",
     "summary": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. The company sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio.",
     "website": "https://www.marathonpetroleum.com"
+  },
+  "MRK": {
+    "_ts": 1791571505.6419148,
+    "country": "United States",
+    "employees": 73000,
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 360416772096,
+    "name": "Merck & Co., Inc.",
+    "sector": "Healthcare",
+    "summary": "Merck & Co., Inc. operates as a healthcare company worldwide. It offers human health pharmaceutical for various areas under the Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, Capvaxive, RotaTeq, Pneumovax 23, Bridion, Prevymis, Dificid, Zerbaxa, Winrevair, Adempas/ Verquvo, Ohtuvayre, Lagevrio, Isentress/Isentress HD, Delstrigo, Pifeltro, Belsomra, Januvia, and Janumet brands. The company also provides veterinary pharmaceuticals, vaccines and health management solutions and services, such as livestock products under the Nuflor, Bovilis/Vista, Bovilis Cryptium, Banamine, Estrumate, Matrix, Resflor, Zuprevo, Revalor, Safe-Guard, M+Pac, Porcilis, Circumvent, Nobilis/Innovax, Paracox and Coccivac, Exzolt, Slice, Imvixa, Clynav, Aquavac/Norvax, Aquaflor, Flexolt brands; Allflex Livestock Intelligence solutions; and companion animal products under the Bravecto One-Month, Bravecto Injectable/Quantum, Bravecto TriUNO, Bravecto Plus, Sentinel Spectrum, Sentinel Flavor Tabs, Numelvi, Optimmune, Nobivac NXT, GilvetMab, Otomax, Mometamax, Mometamax Ultra, Posatex, Caninsulin/Vetsulin, Panacur, Safeguard, Regumate, Prestige, Scalibor/Exspot, Sure Petcare, and Home Again brands. It has development and commercialization agreement for three of Daiichi Sankyo's deruxtecan ADC candidates; AstraZeneca PLC to co-development and co-commercialize AstraZeneca's Lynparza products for multiple cancer types; licensed to develop, manufacture and commercialize LM-299, a novel investigational PD-1/VEGF bispecific antibody from LaNova; and collaboration agreement with Eisai Co., Ltd., Bayer AG, and Ridgeback Biotherapeutics LP, as well Moderna, Inc. Merck & Co., Inc. has strategic collaboration with Infinimmune, Inc. to discover and develop antibodies against multiple therapeutic targets. The company was founded in 1891 and is headquartered in Rahway, New Jersey.",
+    "website": "https://www.merck.com"
   },
   "MRNA": {
     "_ts": 1791312814.4124432,
@@ -5005,11 +5038,11 @@
     "website": "https://www.ternspharma.com"
   },
   "TEVA": {
-    "_ts": 1787147390.8195086,
+    "_ts": 1791571505.6419148,
     "country": "Israel",
     "employees": 31173,
     "industry": "Drug Manufacturers - Specialty & Generic",
-    "marketCap": 43342606336,
+    "marketCap": 48371982336,
     "name": "Teva Pharmaceutical Industries Limited",
     "sector": "Healthcare",
     "summary": "Teva Pharmaceutical Industries Limited develops, manufactures, markets, and distributes generic and other medicines, and biopharmaceutical products in the United States, Europe, Israel, and internationally. It offers generic medicines in various dosage forms, such as tablets, capsules, injectables, inhalants, liquids, transdermal patches, ointments, and creams; sterile products, hormones, high-potency drugs, and cytotoxic substances in parenteral and solid dosage forms; and generic products with medical devices and combination products. The company also focuses on the central nervous system (CNS), respiratory, oncology, and other areas. It provides active pharmaceutical ingredients, as well as contract manufacturing services; and operates an out-licensing platform that offers a portfolio of products to other pharmaceutical companies. The company also offers BENDEKA and TREANDA injections for the treatment of chronic lymphocytic leukemia and indolent b-cell non-hodgkin's lymphoma; COPAXONE, glatiramer acetate injection to treat patients with relapsing forms of multiple sclerosis; AJOVY for the preventive treatment of migraine in adults; AUSTEDO for the treatment of tardive dyskinesia, chorea associated with Huntington's disease and tardive dyskinesia; UZEDY for the treatment of schizophrenia; QVAR RediHaler to treat asthma; BRALTUS, a long-acting muscarinic antagonist; CINQAIR/CINQAERO injection; DuoResp Spiromax budesonide and formoterol powder inhaler; AirDuo RespiClick fluticasone propionate and salmeterol inhalation powder; and ProAir RespiClick inhalation powder. It offers its OTC products under the SUDOCREM, NasenDuo, DICLOX FORTE, OLFEN Max, and FLEGAMINA brand names. The company has collaboration agreements with MedinCell S.A.; Sanofi; Alvotech; and Biolojic Design Ltd., as well as license agreement with MODAG GmbH. Teva Pharmaceutical Industries Limited was founded in 1901 and is based in Tel Aviv-Yafo, Israel.",

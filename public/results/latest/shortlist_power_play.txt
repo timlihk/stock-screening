@@ -1,10 +1,10 @@
-RNG|power_play 8 · Entry 5 · Lead 11 · Tight 2/3 · Fund 2/5 · RSpct 96 · Technology · Earn 20d · RS +172
-NTNX|power_play 7 · Entry 5 · Lead 8 · Tight 2/3 · Fund 4/5 · RSpct 44 · Technology · Earn 34d · RS -13
-XOM|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · RSpct 82 · Energy · Earn 16d · RS +37
-BOX|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 52 · Earn 38d · RS -7
-LXP|power_play 7 · +sepa_vcp · Entry 5 · Lead 6 · Tight 3/3 · RSpct 76 · Real Estate · Earn 15d · RS +22
-DELL|power_play 7 · Entry 4 · Lead 11 · Tight 1/3 · Fund 4/5 · RSpct 98 · Technology · Earn 36d · RS +237
-PSX|power_play 7 · Entry 4 · Lead 11 · Tight 0/3 · Fund 5/5 · RSpct 94 · Energy · Earn 14d · RS +105
-CLMT|power_play 7 · Entry 4 · Lead 10 · Tight 0/3 · RSpct 97 · Materials · Earn 21d · RS +196
-CRWD|power_play 7 · Entry 4 · Lead 9 · Tight 1/3 · Fund 2/5 · RSpct 93 · Technology · Earn 38d · RS +90
-S|power_play 7 · Entry 4 · Lead 9 · Tight 2/3 · Fund 1/5 · RSpct 77 · Earn 40d · RS +24
+LFST|power_play 8 · +sepa_vcp · Entry 5 · Lead 9 · Tight 2/3 · Fund 4/5 · RSpct 94 · Earn 19d · RS +114
+PAYC|power_play 8 · Entry 5 · Lead 6 · Tight 1/3 · Fund 1/5 · RSpct 57 · Technology · Earn 18d · RS -1
+AVTR|power_play 8 · Entry 5 · Lead 6 · Tight 1/3 · Fund 1/5 · RSpct 57 · Health Care · Earn 13d · RS -1
+EXEL|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · RSpct 83 · Health Care · Earn 12d · RS +39
+CAKE|power_play 7 · +sepa_vcp · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 92 · Consumer Discretionary · Earn 12d · RS +90
+ESTC|power_play 7 · Entry 6 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 61 · Technology · Earn 29d · RS +3
+NTNX|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 49 · Technology · Earn 33d · RS -9
+MRK|power_play 7 · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 87 · Earn 14d · RS +55
+RNG|power_play 7 · Entry 4 · Lead 12 · Tight 2/3 · Fund 2/5 · RSpct 96 · Technology · Earn 19d · RS +168
+TEVA|power_play 7 · Entry 4 · Lead 9 · Tight 1/3 · RSpct 92 · Health Care · Earn 17d · RS +90
