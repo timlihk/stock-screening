@@ -1,10 +1,10 @@
-CAKE|sepa_vcp 7 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 92 · Consumer Discretionary · Earn 12d · RS +90
-XMTR|sepa_vcp 7 · +power_play · Entry 5 · Lead 11 · Tight 0/3 · Fund 3/5 · RSpct 93 · Industrials · Earn 17d · RS +98
-EXEL|sepa_vcp 6 · +power_play · Entry 6 · Lead 8 · Tight 2/3 · RSpct 83 · Health Care · Earn 12d · RS +39
-DDOG|sepa_vcp 6 · +power_play · Entry 5 · Lead 10 · Tight 1/3 · RSpct 89 · Technology · Earn 19d · RS +60
-RAL|sepa_vcp 6 · Entry 5 · Lead 9 · Tight 2/3 · RSpct 87 · Technology · Earn 11d · RS +53
-LFST|sepa_vcp 6 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 4/5 · RSpct 94 · Earn 19d · RS +114
-MRX|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 1/3 · RSpct 94 · Financials · Earn 19d · RS +114
-ENTG|sepa_vcp 6 · Entry 5 · Lead 6 · Tight 2/3 · RSpct 88 · Earn 14d · RS +58
-DELL|sepa_vcp 6 · +power_play · Entry 4 · Lead 12 · Tight 1/3 · Fund 4/5 · RSpct 98 · Technology · Earn 35d · RS +264
-ZBRA|sepa_vcp 6 · Entry 4 · Lead 9 · Tight 2/3 · Fund 4/5 · RSpct 68 · Technology · Earn 17d · RS +12
+GSAT|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 90 · Communication Services · Earn 18d · RS +71
+MRX|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 1/3 · RSpct 94 · Financials · Earn 18d · RS +123
+AME|sepa_vcp 7 · +power_play · Entry 5 · Lead 6 · Tight 2/3 · Fund 1/5 · RSpct 73 · Industrials · Earn 13d · RS +20
+ASX|sepa_vcp 7 · Entry 4 · Lead 11 · Tight 2/3 · RSpct 98 · Technology · Earn 13d · RS +313
+ZBRA|sepa_vcp 7 · Entry 4 · Lead 9 · Tight 2/3 · Fund 4/5 · RSpct 74 · Technology · Earn 16d · RS +20
+KEYS|sepa_vcp 7 · +power_play · Entry 4 · Lead 8 · Tight 2/3 · Fund 2/5 · RSpct 94 · Technology · Earn 31d · RS +116
+ADI|sepa_vcp 7 · +power_play · Entry 4 · Lead 6 · Tight 2/3 · Fund 4/5 · RSpct 88 · Technology · Earn 31d · RS +62
+EXEL|sepa_vcp 6 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 81 · Health Care · Earn 11d · RS +36
+CAKE|sepa_vcp 6 · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 92 · Consumer Discretionary · Earn 11d · RS +93
+XOM|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · RSpct 82 · Energy · Earn 14d · RS +40
