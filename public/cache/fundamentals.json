@@ -4990,16 +4990,16 @@
     "sample_quarters": 9
   },
   "LLY": {
-    "_ts": 1783355039.23368,
-    "earnings_accelerating": true,
-    "fundamental_score": 5,
+    "_ts": 1792085609.518747,
+    "earnings_accelerating": null,
+    "fundamental_score": 4,
     "latest_period": "Q1 2026",
-    "net_income_qoq_growth": 11.424137879084629,
-    "net_income_yoy_growth": 168.06814063066327,
-    "revenue_accelerating": true,
-    "revenue_qoq_growth": 2.6280323450134757,
-    "revenue_yoy_growth": 55.542462094430036,
-    "sample_quarters": 9
+    "net_income_qoq_growth": 67.7173567962266,
+    "net_income_yoy_growth": 229.75166079629054,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": 46.30055197996023,
+    "revenue_yoy_growth": 125.80976277372264,
+    "sample_quarters": 5
   },
   "LLYVK": {
     "_ts": 1783355039.23368,
