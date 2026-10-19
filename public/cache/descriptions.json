@@ -1660,6 +1660,17 @@
     "summary": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis dialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado.",
     "website": "https://www.davita.com"
   },
+  "DVN": {
+    "_ts": 1792436565.6933584,
+    "country": "United States",
+    "employees": 2200,
+    "industry": "Oil & Gas E&P",
+    "marketCap": 55984611328,
+    "name": "Devon Energy Corporation",
+    "sector": "Energy",
+    "summary": "Devon Energy Corporation, an independent energy company, engages in the exploration, development, and production of oil, natural gas, and natural gas liquids in the United States. The company operates in Delaware Basin located in southeast New Mexico and west Texas, Eagle Ford located in North America, Anadarko Basin located in western Oklahoma, Williston Basin located in North Dakota, and Powder River Basin located in Wyoming. Devon Energy Corporation was founded in 1971 and is headquartered in Houston, Texas.",
+    "website": "https://www.devonenergy.com"
+  },
   "DXCM": {
     "_ts": 1790098720.5070617,
     "country": "United States",
@@ -2574,11 +2585,11 @@
     "website": "https://www.idexcorp.com"
   },
   "IFF": {
-    "_ts": 1788368868.5000339,
+    "_ts": 1792436565.6933584,
     "country": "United States",
     "employees": 21500,
     "industry": "Specialty Chemicals",
-    "marketCap": 22422579200,
+    "marketCap": 23241609216,
     "name": "International Flavors & Fragrances Inc.",
     "sector": "Basic Materials",
     "summary": "International Flavors & Fragrances Inc., together with its subsidiaries, manufactures and markets food, beverage, health and biosciences, scent, and complementary adjacent products in the United States, and internationally. It operates in through Taste, Food Ingredients, Health & Biosciences, and Scent segments. The Taste segment offers savory products such as soups, sauces, meat, fish, poultry, snacks; beverages consists of juice drinks, carbonated or flavored beverages, spirits; sweets comprising, bakery products, candy, cereal, chewing gum; and dairy products, such as yogurt, ice cream, cheese, and other products, as well as spices and seasoning ingredients for meat, food service, convenience, alternative protein and culinary products. The Food Ingredients segment provides natural, artificial, and plant-based specialty food ingredients; natural antioxidants and anti-microbials used for natural food preservation and shelf-life extension for beverages, cosmetic and healthcare products, pet food and feed additives; and savory solutions, such as spices, marinades, and mixtures, and inclusion products comprising  combining flavorings with fruit, vegetables and other natural ingredients, as well as soy and pea protein with value-added formulations, emulsifiers and sweeteners. The Health & Biosciences segment offers enzymes, food cultures, probiotics and specialty ingredients for food and non-food applications, as well as engages in health, food biosciences, home and personal care, animal nutrition and grain processing businesses. The Scent segment creates fragrance compounds, and fragrance ingredients. International Flavors & Fragrances Inc. was incorporated in 1909 and is headquartered in New York, New York.",
@@ -3243,6 +3254,17 @@
     "sector": "Consumer Cyclical",
     "summary": "Marriott International, Inc. engages in the operation, franchise, and licensing of hotel, residential, timeshare, and other lodging properties in the U.S. & Canada, Europe, Middle East & Africa, Greater China, and Asia Pacific, and internationally. It operates properties under JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le M\u00e9ridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, citizen, City Express by Marriott, and Four Points Flex by Sheraton brand names, as well as operates residences, timeshares, and yachts. The company was founded in 1927 and is headquartered in Bethesda, Maryland.",
     "website": "https://www.marriott.com"
+  },
+  "MATX": {
+    "_ts": 1792436565.6933584,
+    "country": "United States",
+    "employees": 4170,
+    "industry": "Marine Shipping",
+    "marketCap": 6971692032,
+    "name": "Matson, Inc.",
+    "sector": "Industrials",
+    "summary": "Matson, Inc., together with its subsidiaries, engages in the provision of ocean transportation and logistics services. It operates through two segments, Ocean Transportation and Logistics. The company offers ocean freight transportation services to the domestic non-contiguous economies of Hawaii, Alaska and Guam, and to other island economies in Micronesia; and transports dry containers of mixed commodities, refrigerated commodities, food products, beverages, building materials, automobiles, household goods, livestock, seafood, general sustenance cargo, e-commerce related goods, garments, consumer electronics, footwear, retail merchandise, and other merchandise. It also operates an expedited service from China to Long Beach, California, and various islands in the South Pacific, as well as Okinawa, Japan; and provides stevedoring, refrigerated cargo, inland transportation, container equipment maintenance, and other terminal services on the Hawaiian islands of Oahu, Hawaii, Maui, and Kauai, as well as in the Alaska terminal locations of Anchorage, Kodiak, and Dutch Harbor. In addition, the company provides multimodal transportation brokerage of domestic and international rail intermodal, long-haul and regional highway trucking, specialized hauling, flat-bed and project, less-than-truckload (LCL), and expedited freight services; LCL consolidation and freight forwarding services; warehousing, trans-loading, value-added packaging and distribution services; purchase order management, booking services, and non-vessel operating common carrier freight forwarding services. It serves the U.S. military, freight forwarders and non-vessel owning common carriers, retailers and consumer goods manufacturers, and other customers. The company was formerly known as Alexander & Baldwin Holdings, Inc. and changed its name to Matson, Inc. in June 2012. Matson, Inc. was founded in 1882 and is headquartered in Honolulu, Hawaii.",
+    "website": "https://www.matson.com"
   },
   "MDGL": {
     "_ts": 1779891933.4795802,
@@ -4455,11 +4477,11 @@
     "website": "https://www.rockwellautomation.com"
   },
   "ROKU": {
-    "_ts": 1787579785.5501375,
+    "_ts": 1792436565.6933584,
     "country": "United States",
     "employees": 3600,
     "industry": "Entertainment",
-    "marketCap": 23506597888,
+    "marketCap": 23080779776,
     "name": "Roku, Inc.",
     "sector": "Communication Services",
     "summary": "Roku, Inc., together with its subsidiaries, operates a TV streaming platform in the United States and internationally. The company operates in two segments, Platform and Devices. Its streaming platform allows users to find and access TV shows, movies, news, sports, and others, as well as offers digital advertising services. The company also sells streaming players, Roku-branded TVs, smart home products and services, audio products, and related accessories. Roku, Inc. was incorporated in 2002 and is headquartered in San Jose, California.",
@@ -5269,14 +5291,14 @@
     "website": "https://www.twilio.com"
   },
   "TWST": {
-    "_ts": 1789493733.8036973,
+    "_ts": 1792436571.726066,
     "country": "United States",
     "employees": 979,
     "industry": "Biotechnology",
-    "marketCap": 9052762112,
+    "marketCap": 9176745984,
     "name": "Twist Bioscience Corporation",
     "sector": "Healthcare",
-    "summary": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products. The company offers synthetic genes and gene fragments used in product development for therapeutics, diagnostics, chemicals/materials, food/agriculture, data storage, and various applications within academic research by biotech, pharma, industrial chemical, and agricultural companies, as well as academic labs; Oligo pools used in targeted NGS, CRISPR gene editing, mutagenesis experiments, DNA origami, DNA computing, data storage in DNA, and other applications; and immunoglobulin G proteins for customers focused on the pursuit of drug discovery and development. It also provides NGS tools comprising library preparation kits, human exome kits, and fixed and custom panels, as well as alliance panels used within diagnostic tests for various indications, population genetics research and biomarker discovery, translational research, microbiology, and applied markets research; and methylation detection kits for cancer, and rare and inherited disease study, as well as fast hybridization and full RNA sequencing workflow solution. In addition, it offers synthetic SARS-CoV-2 RNA reference sequences as positive controls to develop both NGS and reverse transcription-polymerase chain reaction assays; synthetic monkeypox controls; and various respiratory viral controls, including for influenzas, respiratory syncytial virus, rhinoviruses, SARS, MERS, and coronaviruses. Further, it offers SARS-CoV-2 Research Panels, such as the Twist Respiratory Virus Panel and the Pan-Viral Research Panel, for the detection of disease in a research setting; precision DNA libraries for antibody engineering, affinity maturation, and humanization; and antibody optimization solution to enable simultaneous optimization of multiple characteristics of a given antibody. The company has a strategic collaboration with bitBiome Inc. The company was incorporated in 2013 and is headquartered in South San Francisco, California.",
+    "summary": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products. It offers synthetic genes and gene fragments used in product development for therapeutics, diagnostics, chemicals/materials, food/agriculture, data storage, and various applications within academic research by biotech, pharma, industrial chemical, and agricultural companies, as well as academic labs; Oligo pools used in targeted NGS, CRISPR gene editing, mutagenesis experiments, DNA origami, DNA computing, data storage in DNA, and other applications; and immunoglobulin G proteins for customers focused on the pursuit of drug discovery and development. It provides NGS tools comprising library preparation kits, human exome kits, and fixed and custom panels, as well as alliance panels used within diagnostic tests for various indications, population genetics research and biomarker discovery, translational research, microbiology, and applied markets research; and methylation detection kits for cancer, and rare and inherited disease study, as well as fast hybridization and full RNA sequencing workflow solution. In addition, it offers synthetic SARS-CoV-2 RNA reference sequences as positive controls to develop both NGS and reverse transcription-polymerase chain reaction assays; synthetic monkeypox controls; and various respiratory viral controls, including for influenzas, respiratory syncytial virus, rhinoviruses, SARS, MERS, and coronaviruses. Further, it offers SARS-CoV-2 Research Panels, such as the Twist Respiratory Virus Panel and the Pan-Viral Research Panel, for the detection of disease in a research setting; precision DNA libraries for antibody engineering, affinity maturation, and humanization; and antibody optimization solution to enable simultaneous optimization of multiple characteristics of a given antibody. The company has a strategic collaboration with bitBiome Inc and Lilly TuneLab. The company was incorporated in 2013 and is headquartered in South San Francisco, California.",
     "website": "https://www.twistbioscience.com"
   },
   "TXG": {
@@ -5412,7 +5434,7 @@
     "website": "https://www.usfoods.com"
   },
   "USO": {
-    "_ts": 1788368868.5000339,
+    "_ts": 1792436565.6933584,
     "country": "",
     "employees": 0,
     "industry": "",

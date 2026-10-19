@@ -1,2 +1,4 @@
-A|sepa_vcp 6 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · RSpct 68 · Earn 29d · RS +10
-AMGN|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 0/3 · Fund 3/5 · RSpct 83 · Earn 13d · RS +35
+USO|sepa_vcp 7 · Entry 5 · Lead 9 · Tight 0/3 · RSpct 95 · RS +119
+DVN|sepa_vcp 7 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 5/5 · RSpct 86 · Earn 13d · RS +48
+MATX|sepa_vcp 6 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · Fund 3/5 · RSpct 96 · Earn 12d · RS +132
+IFF|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 1/3 · Fund 2/5 · RSpct 79 · Materials · Earn 11d · RS +29
