@@ -2,12 +2,12 @@
 
 [2/4] Fetching universe (source=sec_edgar, exchanges=nasdaq, nyse)...
   fetching SEC EDGAR universe (UA: stock-screening tim@timli.net)...
-  base universe (sec_edgar): 7649
+  base universe (sec_edgar): 7645
   Finviz filter: f=sh_price_o5,sh_avgvol_o200,ta_sma50_pa
   Finviz returned 403 on page 1; stopping
   Finviz candidates: 0
   too few Finviz candidates; using full base universe
-  universe size: 7649
+  universe size: 7645
 
 [3/4] Liquidity pass (price >= $5.00, ADV >= $50,000,000)...
   liquidity batch 1/20: 400 tickers
@@ -32,39 +32,46 @@
 1 Failed download:
 ['UCFIW']: YFPricesMissingError('possibly delisted; no price data found  (period=2mo)')
   liquidity batch 19/20: 400 tickers
-  liquidity batch 20/20: 49 tickers
-  liquid survivors: 1464
+  liquidity batch 20/20: 45 tickers
+  liquid survivors: 1450
 
-[4/4] Full SEPA scan on 1464 survivors (Qullamaggie=True)...
+[4/4] Full SEPA scan on 1450 survivors (Qullamaggie=True)...
   scan batch 1/4: 400 tickers
   scan batch 2/4: 400 tickers
   scan batch 3/4: 400 tickers
-  scan batch 4/4: 264 tickers
+  scan batch 4/4: 250 tickers
   overlaying vendored Andy-Roger QM breakout / EP scan
-  QM diagnostics: requested=1464, vendor_universe=1291, histories=1291, metrics=1279, breakout_picks=0, ep_gap_candidates=1, ep_history_ready=1, ep_snapshot_missing=0, ep_picks=0
+  QM diagnostics: requested=1450, vendor_universe=1282, histories=1282, metrics=1271, breakout_picks=0, ep_gap_candidates=6, ep_history_ready=6, ep_snapshot_missing=0, ep_picks=0
   sector bonus applied to local shortlist summary
 
 === MARKET ENVIRONMENT ===
-SPY: price=767.60  50MA=767.33  200MA=722.33  above200=True  above50=True  1y=+16.8%
-QQQ: price=719.41  50MA=726.27  200MA=674.20  above200=True  above50=False  1y=+19.7%
-IWM: price=271.19  50MA=288.08  200MA=276.67  above200=False  above50=False  1y=+12.5%
+SPY: price=769.52  50MA=767.27  200MA=722.78  above200=True  above50=True  1y=+15.9%
+QQQ: price=719.21  50MA=726.23  200MA=674.73  above200=True  above50=False  1y=+18.2%
+IWM: price=275.79  50MA=287.61  200MA=276.82  above200=False  above50=False  1y=+12.3%
 Regime: mixed (score=5/7, min_setup=6, min_entry=5, min_leadership=7)
 
-=== TREND-TEMPLATE PASS RATE: 209/1435 ===
-=== REGIME-ELIGIBLE SETUPS: 8/1435 ===
-Eligible setup mix: {'sepa_vcp': 5, 'power_play': 6, 'qm_breakout': 0, 'qm_episodic_pivot': 0}
+=== TREND-TEMPLATE PASS RATE: 227/1421 ===
+=== REGIME-ELIGIBLE SETUPS: 15/1421 ===
+Eligible setup mix: {'sepa_vcp': 9, 'power_play': 14, 'qm_breakout': 0, 'qm_episodic_pivot': 0}
 
-=== BREAKOUT SHORTLIST (mixed, setup_score>=6): 8 ===
+=== BREAKOUT SHORTLIST (mixed, setup_score>=6): 15 ===
 
 ticker primary_setup  also_fits  qualified_count  best_family_excess  best_family_pct  price  pct_from_hi  pct_to_pivot  base_length  base_depth_pct  base_tightness_pct  tightness_score  support_score  leadership_score  entry_score  setup_score  sector_bonus  sepa_vcp_score  power_play_score  qm_breakout_score  qm_episodic_pivot_score  qm_breakout_vendor_score  qm_episodic_pivot_vendor_score  breakout_ready  quiet_pullback_weeks  distribution_days  avg_close_in_range  up_down_vol_ratio  vol_ratio  rs_vs_spy  rs_pct_rank
-  MATX    power_play   sepa_vcp                2                   1             0.88 233.13        -2.29         -3.21        55.00           16.80                8.63                2              2                 9            5            7          0.00               6                 7                  0                        0                      0.00                            0.00           False                     3                  2                0.51               1.37       0.34     132.25        96.50
-   USO      sepa_vcp                           1                   1             0.88 160.58        -0.79         -1.70        35.00           18.96               13.22                0              1                 9            5            7          0.00               7                 5                  0                        0                      0.00                            0.00            True                     2                  2                0.57               1.00       0.63     119.44        95.45
-   IFF    power_play   sepa_vcp                2                   1             0.88  91.08         0.00         -0.87        55.00           14.37                9.73                1              3                 7            5            7          0.16               6                 7                  0                        0                      0.00                            0.00            True                     0                  2                0.63               2.01       0.46      29.27        79.62
-   DVN      sepa_vcp power_play                2                   1             0.88  50.88        -0.96         -1.33        55.00           18.99                7.39                2              2                 7            5            7          0.00               7                 6                  0                        0                      0.00                            0.00            True                     1                  1                0.54               1.60       0.37      47.59        86.69
-   TTC    power_play                           1                   1             0.88 100.52        -0.30         -2.41        65.00           12.73                7.61                2              2                 7            5            7         -0.28               5                 7                  0                        0                      0.00                            0.00            True                     2                  2                0.59               2.66       0.39      21.21        74.86
-  MRNA    power_play                           1                   0             0.75 226.46        -4.24           NaN          NaN             NaN                 NaN                0              3                11            5            6          0.94               4                 6                  0                        0                      0.00                            0.00           False                     2                  2                0.61               3.45       0.79     753.90        99.79
-  ROKU    power_play                           1                   0             0.75 155.29        -2.79         -2.87        65.00           11.66                4.16                2              1                 7            5            6          0.04               4                 6                  0                        0                      0.00                            0.00            True                     3                  1                0.52               0.57       0.25      48.06        87.04
-   XOM      sepa_vcp                           1                   0             0.75 178.77        -0.11         -0.29        55.00           17.38                9.15                2              3                 7            5            6          0.00               6                 5                  0                        0                      0.00                            0.00            True                     2                  1                0.60               3.90       0.53      47.11        86.48
+  MATX    power_play   sepa_vcp                2                   1             0.88 238.79         0.00         -0.86        55.00           16.30                7.79                2              2                10            6            7         -0.38               6                 7                  0                        0                      0.00                            0.00            True                     2                  1                0.55               1.59       0.43     139.26        97.03
+  ZBRA      sepa_vcp power_play                2                   1             0.88 383.09        -1.30         -1.97        55.00           15.69                6.25                2              3                 8            6            7          0.25               7                 7                  0                        0                      0.00                            0.00            True                     0                  2                0.62               1.52       0.28      11.21        67.07
+  CAKE    power_play                           1                   1             0.88 116.68        -0.52         -1.64        25.00           20.31               11.21                2              3                11            5            7         -0.09               5                 7                  0                        0                      0.00                            0.00            True                     1                  2                0.63               2.43       0.20     102.53        94.70
+   IFF    power_play   sepa_vcp                2                   1             0.88  91.48         0.00         -0.59        55.00           14.05                9.84                2              3                 7            5            7          0.13               6                 7                  0                        0                      0.00                            0.00            True                     0                  2                0.62               2.02       0.32      28.80        79.29
+  KVUE    power_play   sepa_vcp                2                   1             0.88  19.19        -0.96         -0.70        45.00           11.22                9.30                1              2                 7            5            7          0.00               6                 7                  0                        0                      0.00                            0.00            True                     0                  5                0.72               1.85       0.43      20.22        73.99
+   MFC    power_play   sepa_vcp                2                   1             0.88  44.35        -0.53         -1.33        55.00            8.17                8.18                2              2                 7            5            7         -0.11               6                 7                  0                        0                      0.00                            0.00            True                     1                  3                0.65               1.45       0.41      27.28        78.73
+   TTC    power_play                           1                   1             0.88 102.16         0.00         -0.82        65.00           12.73                7.49                2              3                 7            5            7         -0.38               5                 7                  0                        0                      0.00                            0.00            True                     1                  2                0.63               2.62       0.30      23.47        76.61
+   TRV      sepa_vcp power_play                2                   0             0.75 393.24        -0.66         -1.03        65.00           10.96               10.01                1              3                 7            7            6          0.00               6                 6                  0                        0                      0.00                            0.00            True                     2                  2                0.69               2.13       0.54      34.65        81.48
+   CAH      sepa_vcp power_play                2                   0             0.75 254.79         0.00         -1.13        55.00           16.11               10.10                1              3                 7            6            6          0.78               6                 6                  0                        0                      0.00                            0.00            True                     1                  2                0.65               1.34       0.27      47.67        86.86
+   COP    power_play                           1                   0             0.75 145.57        -0.65         -1.08        25.00           16.10               12.69                2              2                 8            5            6          0.96               5                 6                  0                        0                      0.00                            0.00            True                     2                  3                0.68               1.63       0.36      56.60        88.98
+   USO      sepa_vcp                           1                   0             0.75 160.05        -1.12         -2.02        35.00           16.69               12.82                2              1                 8            5            6          0.00               6                 5                  0                        0                      0.00                            0.00            True                     2                  2                0.54               1.05       1.22     120.09        95.83
+   EOG    power_play                           1                   0             0.75 156.87        -0.72         -1.78        55.00           17.00               11.37                2              2                 7            5            6          0.96               5                 6                  0                        0                      0.00                            0.00            True                     2                  2                0.55               1.46       0.33      36.25        82.26
+   CVX    power_play                           1                   0             0.75 224.43        -0.25         -1.20        55.00           18.88                9.94                2              2                 7            5            6          0.96               5                 6                  0                        0                      0.00                            0.00            True                     2                  2                0.53               2.03       0.43      35.14        81.55
+  CCEP      sepa_vcp power_play                2                   0             0.75 112.86         0.00         -0.71        65.00           12.91               11.24                1              2                 7            5            6          0.00               6                 6                  0                        0                      0.00                            0.00            True                     1                  2                0.64               1.03       0.64      11.77        67.42
+  ROKU    power_play                           1                   0             0.75 157.10        -1.66         -1.74        65.00           11.66                4.61                2              1                 7            5            6         -0.07               4                 6                  0                        0                      0.00                            0.00            True                     3                  1                0.56               0.72       0.48      47.31        86.78
 
 === QULLAMAGGIE BREAKOUT CANDIDATES: 0 ===
 Empty DataFrame
@@ -76,4 +83,4 @@ Empty DataFrame
 Columns: [ticker, price, ret_6m, recent_expansion, post_expansion_tight, qm_episodic_pivot_vendor_score, qm_episodic_pivot_score, qm_episodic_pivot_entry_price, qm_episodic_pivot_stop_price, qm_episodic_pivot_stop_loss_pct, entry_score, pct_from_hi]
 Index: []
 
-=== Done in 10.2 min · results at public/results/latest/results_universe_20261019.csv ===
+=== Done in 8.7 min · results at public/results/latest/results_universe_20261020.csv ===

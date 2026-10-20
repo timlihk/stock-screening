@@ -1495,7 +1495,7 @@
     "sample_quarters": 9
   },
   "CAH": {
-    "_ts": 1783523920.0205998,
+    "_ts": 1792518289.8465943,
     "earnings_accelerating": true,
     "fundamental_score": 3,
     "latest_period": "Q3 2026",
@@ -1612,6 +1612,18 @@
     "revenue_qoq_growth": 18.055555555555557,
     "revenue_yoy_growth": 3.925353925353936,
     "sample_quarters": 6
+  },
+  "CCEP": {
+    "_ts": 1792518289.8465943,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 0
   },
   "CCK": {
     "_ts": 1785857127.463963,
@@ -2273,7 +2285,7 @@
     "sample_quarters": 8
   },
   "CVX": {
-    "_ts": 1787752773.1902478,
+    "_ts": 1792518289.8465943,
     "earnings_accelerating": false,
     "fundamental_score": 0,
     "latest_period": "Q1 2026",
@@ -2884,7 +2896,7 @@
     "sample_quarters": 9
   },
   "EOG": {
-    "_ts": 1787060387.823983,
+    "_ts": 1792518289.8465943,
     "earnings_accelerating": true,
     "fundamental_score": 5,
     "latest_period": "Q2 2026",
@@ -4821,6 +4833,18 @@
     "revenue_yoy_growth": 44.99303784151812,
     "sample_quarters": 9
   },
+  "KVUE": {
+    "_ts": 1792518289.8465943,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": -3.797468354430378,
+    "net_income_yoy_growth": 8.571428571428562,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 1.1767715528268052,
+    "revenue_yoy_growth": 3.021620213597287,
+    "sample_quarters": 10
+  },
   "KYMR": {
     "_ts": 1786544369.1115487,
     "earnings_accelerating": true,
@@ -5290,7 +5314,7 @@
     "sample_quarters": 0
   },
   "MFC": {
-    "_ts": 1788804404.8407674,
+    "_ts": 1792518289.8465943,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
@@ -8452,7 +8476,7 @@
     "sample_quarters": 0
   },
   "TRV": {
-    "_ts": 1786371453.7740238,
+    "_ts": 1792518289.8465943,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
