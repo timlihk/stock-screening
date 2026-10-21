@@ -901,6 +901,17 @@
     "summary": "Camtek Ltd., together with its subsidiaries, develops, manufactures, and sells inspection and metrology equipment for semiconductor industry in the United States, China, Korea, Europe, and the Asia Pacific. The company offers Hawk, a platform engineered for advanced packaging; Eagle G5 for enhanced detection and metrology; Eagle-i/Plus, a system that delivers 2D inspection and metrology capabilities; Eagle-AP/Plus, which addresses the advanced packaging market using software and hardware technologies that deliver 2D and 3D inspection and metrology capabilities on the same platform; and Golden Eagle for the inspection and metrology of standard panel sizes. It also develops MicroProf AP, a wafer metrology tool for applications at 3D packaging process steps; MicroProf DI, an optical inspection tool that enables inspection of structured and unstructured wafers; MicroProf FE, a 2D/3D wafer metrology tool; MicroProf FS, a wafer metrology tool configurable; MicroProf PT for hybrid metrology applications to common panel sizes; MicroProf MHU metrology tool, a material handling unit for the semiconductor, MEMS, sapphire, and LED industries; MicroProf TL, an optical surface measurement tool for fully automatic 3D surface measurements; MicroProf 200, a measuring device for contactless and non-destructive characterization of surfaces and films; and MicroProf 300, a SurfaceSens technology for quality assurance, development, and manufacturing. The company serves semiconductor manufacturers, outsourced semiconductor assembly and test, integrated device manufacturers, and wafer level packaging subcontractors. Camtek Ltd. was incorporated in 1987 and is headquartered in Migdal HaEmek, Israel.",
     "website": "https://www.camtek.com"
   },
+  "CART": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 3600,
+    "industry": "Internet Retail",
+    "marketCap": 12108750848,
+    "name": "Maplebear Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Maplebear Inc., doing business as Instacart, operates as a technology and enablement partner for the grocery industry in the United States and internationally. The company offers Instacart Marketplace which helps retailers serve customers' needs by supporting fulfillment options, shopping occasions, and categories; Instacart Enterprise platform, an end-to-end technology solution for retailers across all aspects of business; and Instacart Ads, enables brands to learn more about general consumer behavior from discovery to purchase, offering insights about how to optimize advertising spend. It also provides advertising solutions, including sponsored product ads, display ads, coupons, and brand pages; and software-as-a-service. The company's services can be provided through company's mobile application or website. Maplebear Inc., was incorporated in 2012 and is headquartered in San Francisco, California.",
+    "website": "https://www.instacart.com"
+  },
   "CASY": {
     "_ts": 1776482612.3358293,
     "country": "United States",
@@ -2001,6 +2012,17 @@
     "summary": "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States. The company primarily focuses on the development of the Spraberry and Wolfcamp formations of the Midland Basin; and the Wolfcamp and Bone Spring formations of the Delaware Basin, both of which are part of the Permian Basin in West Texas and New Mexico. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas.",
     "website": "https://www.diamondbackenergy.com"
   },
+  "FAST": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 21749,
+    "industry": "Industrial Distribution",
+    "marketCap": 60541972480,
+    "name": "Fastenal Company",
+    "sector": "Industrials",
+    "summary": "Fastenal Company, together with its subsidiaries, engages in the wholesale distribution of industrial and construction supplies in the United States, Canada, Mexico, and internationally. It offers fasteners, and related industrial and construction supplies under the Fastenal name. The company's fastener products include threaded fasteners, bolts, nuts, screws, studs, and related washers that are used in manufactured products and construction projects, as well as in the maintenance and repair of machines. It offers miscellaneous supplies and hardware, including pins, machinery keys, concrete anchors, metal framing systems, wire ropes, strut products, rivets, and related accessories. The company serves the manufacturing market comprising original equipment manufacturers; maintenance, repair, and operations customers; non-residential construction market; farmers, truckers, railroads, mining companies, schools, and retail trades; and oil exploration, production, and refinement companies, as well as federal, state, and local governmental entities. Fastenal Company was founded in 1967 and is headquartered in Winona, Minnesota.",
+    "website": "https://www.fastenal.com"
+  },
   "FBRX": {
     "_ts": 1787871000.075635,
     "country": "United States",
@@ -2319,6 +2341,17 @@
     "sector": "Communication Services",
     "summary": "Globalstar, Inc. provides mobile satellite services in the United States, Canada, Europe, Central and South America, and internationally. It offers duplex two-way voice and data products, including mobile voice and data services and equipment for remote business continuity, recreational usage, safety, emergency preparedness and response, and other applications. The company also provides data transmissions using a mobile or fixed device that transmits the location of the device and other information to a central monitoring station, including commercial IoT products; communication and data transmissions using SPOT family of devices, such as SPOT X, SPOT Gen4, and SPOT Trace that emergency alerts, and transmit messages and the location of the device; and voice communication and data transmissions. In addition, it offers commercial IoT devices to track assets comprising cargo containers and rail cars, monitor utility meters, and monitor oil and gas assets; small satellite transmitter modules, such as the STX-3, ST-150 and ST100, and chips that enable an integrator's products to access its network; engineering and other communication services using MSS and terrestrial spectrum licenses; and hardware and software designs to develop specific applications operating over satellite network, as well as the installation of gateways and antennas. It distributes its products through retailers and sales force, as well as www.findmespot.com e-commerce website. The company serves forestry, maritime, government, oil and gas, mining, leisure, emergency services, construction, and transportation sectors. Globalstar, Inc. was founded in 1993 and is headquartered in Covington, Louisiana.",
     "website": "https://www.globalstar.com"
+  },
+  "GTLB": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 2580,
+    "industry": "Software - Infrastructure",
+    "marketCap": 9242967040,
+    "name": "GitLab Inc.",
+    "sector": "Technology",
+    "summary": "GitLab Inc., together with its subsidiaries, develops software for the software development lifecycle in the United States, Europe, and the Asia Pacific. The company provides GitLab, an intelligent orchestration platform for DevSecOps, which is a single application offering the entire software development lifecycle, including software, project plans, code, security scans, compliance checks, and deployment configurations. It also offers the GitLab Duo Agent Platform, which enables intelligent orchestration of teams and AI agents to execute tasks autonomously across planning, development, security, and deployment. This platform combines conversational AI assistance, purpose-built agents for specialized tasks, workflow automation, and enterprise controls. In addition, it offers related training and professional services. The company was formerly known as GitLab B.V. and changed its name to GitLab Inc. in July 2015. GitLab Inc. was founded in 2011 and is based in San Francisco, California.",
+    "website": "https://about.gitlab.com"
   },
   "GTX": {
     "_ts": 1782914304.0099163,
@@ -3695,6 +3728,17 @@
     "summary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
     "website": "https://www.norfolksouthern.com"
   },
+  "NSIT": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 14505,
+    "industry": "Electronics & Computer Distribution",
+    "marketCap": 5002217984,
+    "name": "Insight Enterprises, Inc.",
+    "sector": "Technology",
+    "summary": "Insight Enterprises, Inc., together with its subsidiaries, provides information technology, hardware, software, and services in the United States, rest of North America, Europe, Middle East, Africa, and the Asia-Pacific. It offers multicloud solutions that manages and supports cloud and data center platforms, modern networks, and edge technologies; cybersecurity solutions automates and securely connects modern platforms, including networks, security systems, and automation tools; data and artificial intelligence solutions; digital workplace and device solutions; and intelligent application solutions. The company provides software maintenance solutions that offers clients to obtain software upgrades, bug fixes, help desk, and other support services; vendor direct support services contracts; and cloud/software-as-a-service subscription products. In addition, it designs, procures, deploys, implements, and manages solutions that combine hardware, software, and services to help businesses. The company serves construction, esports, financial services, health care and life sciences, manufacturing, retail and restaurant, service providers, small to medium business, and travel and tourism industries. The company was founded in 1988 and is headquartered in Chandler, Arizona.",
+    "website": "https://www.insight.com"
+  },
   "NTAP": {
     "_ts": 1790706687.9378924,
     "country": "United States",
@@ -3729,11 +3773,11 @@
     "website": "https://www.nutrien.com"
   },
   "NTRA": {
-    "_ts": 1788887001.5643077,
+    "_ts": 1792605234.3422353,
     "country": "United States",
     "employees": 6135,
     "industry": "Diagnostics & Research",
-    "marketCap": 47385956352,
+    "marketCap": 60107399168,
     "name": "Natera, Inc.",
     "sector": "Healthcare",
     "summary": "Natera, Inc., a diagnostics company, engages in the development and commercialization of molecular testing services worldwide. It offers Signatera, a personalized ctDNA blood test for MRD assessment, early recurrence monitoring, and evaluation of treatment response in patients previously diagnosed with cancer; Latitude, a blood-based MRD test for colorectal cancer; Altera, a tissue based comprehensive genomic profiling test; and Empower, a hereditary cancer screening test. The company also provides Panorama, a non-invasive prenatal test; Horizon, a carrier screening test; Fetal Focus, a single-gene NIPT, or sgNIPT, that screens for 21 single-gene inherited conditions; and Vistara, a single-gene NIPT, which screens for 25 single-gene conditions. In addition, it offers Anora, which tests and analyzes miscarriage tissue from women who have experienced one or more pregnancy losses; Empower, a hereditary cancer screening test; Prospera, a test to assess active rejection in patients who have undergone solid organ transplantation; Renasight, a kidney gene panel test; and Constellation software, a cloud-based distribution model. Further, the company provides NateraCore, a platform to support the patient and provider experience; phlebotomy services; and EMR integration services. The company serves independent laboratories, national and regional reference laboratories, medical centers and physician practices for its screening tests, research laboratories, and pharmaceutical companies through its direct sales force and laboratory distribution partners, as well as Constellation licensees under its cloud-based distribution model. It has a partnership agreement with BGI Genomics Co., Ltd. to develop, manufacture, and commercialize NGS-based genetic testing assays for clinical and commercial use. The company has a collaboration with Diakonos Oncology Corp. to assess molecular response in patients with refractory melanoma. The company was formerly known as Gene Security Network, LLC and changed its name to Natera, Inc. in January 2012. Natera, Inc. was founded in 2003 and is headquartered in Austin, Texas.",
@@ -3982,15 +4026,26 @@
     "website": "https://www.ovintiv.com"
   },
   "OXY": {
-    "_ts": 1780497678.3155842,
+    "_ts": 1792605234.3422353,
     "country": "United States",
     "employees": 10412,
     "industry": "Oil & Gas E&P",
-    "marketCap": 59558727680,
+    "marketCap": 62477434880,
     "name": "Occidental Petroleum Corporation",
     "sector": "Energy",
     "summary": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. This segment also optimizes its transportation and storage capacity and invests in entities. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
     "website": "https://www.oxy.com"
+  },
+  "PAA": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 3900,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 18241716224,
+    "name": "Plains All American Pipeline, L.P.",
+    "sector": "Energy",
+    "summary": "Plains All American Pipeline, L.P., through its subsidiaries, engages in the pipeline transportation, terminalling, storage, and gathering of crude oil and natural gas liquids (NGL) in the United States and Canada. The company operates through two segments, Crude Oil and NGL. The Crude Oil segment offers gathering and transporting crude oil through pipelines, trucks, and on barges or railcars. This segment provides terminalling, storage, and other related services, as well as merchant activities. The NGL segment is involved in natural gas processing and NGL fractionation, storage, transportation, and terminaling. This segment also includes ethane, propane, normal butane, iso-butane, and natural gasoline derived from natural gas production and processing activities, as well as crude oil refining processes. Its NGL components are used for various applications, such as heating, engine, and industrial fuels. The company was founded in 1981 and is headquartered in Houston, Texas. Plains All American Pipeline, L.P. operates as a subsidiary of Plains GP Holdings, L.P.",
+    "website": "https://www.plains.com"
   },
   "PAAS": {
     "_ts": 1776482612.3358293,
@@ -4002,6 +4057,17 @@
     "sector": "Basic Materials",
     "summary": "Pan American Silver Corp. engages in the exploration, mine development, extraction, processing, refining, and reclamation of mines in Chile, Peru, Brazil, Mexico, Canada, Argentina, Bolivia, and Guatemala. The Silver segment includes the La Colorada, Juanicipio, Cerro Moro, Huaron, and San Vicente mines. The Gold segment comprises the Jacobina, El Pe\u00f1on, Timmins, Shahuindo, Minera Florida, and Dolores mines. It explores silver, gold, zinc, lead, and copper deposits. The company was formerly known as Pan American Minerals Corp. and changed its name to Pan American Silver Corp. in April 1995. Pan American Silver Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
     "website": "https://www.panamericansilver.com"
+  },
+  "PAGP": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 0,
+    "industry": "Oil & Gas Midstream",
+    "marketCap": 6499547136,
+    "name": "Plains GP Holdings, L.P.",
+    "sector": "Energy",
+    "summary": "Plains GP Holdings, L.P., through its subsidiary, Plains All American Pipeline, L.P., owns and operates midstream infrastructure systems in the United States and Canada. It operates through Crude Oil and Natural Gas Liquids (NGLs) segments. The company engages in the gathering and transporting crude oil using pipelines, trucks, and barges or railcars. It also provides terminalling, storage, and other related services. In addition, the company is involved in the natural gas processing and NGL fractionation, storage, transportation, and terminalling activities. PAA GP Holdings LLC operates as a general partner of the company. Plains GP Holdings, L.P. was incorporated in 2013 and is headquartered in Houston, Texas.",
+    "website": "https://www.plains.com"
   },
   "PANW": {
     "_ts": 1790098720.5070617,
@@ -4079,6 +4145,17 @@
     "sector": "Energy",
     "summary": "Petr\u00f3leo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. The Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. The company also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, it engages in the research, development, production, transportation, distribution, and trading of energy. The company was incorporated in 1953 and is headquartered in Rio de Janeiro, Brazil.",
     "website": "https://petrobras.com.br"
+  },
+  "PCRX": {
+    "_ts": 1792605234.3422353,
+    "country": "United States",
+    "employees": 825,
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "marketCap": 1451208448,
+    "name": "Pacira BioSciences, Inc.",
+    "sector": "Healthcare",
+    "summary": "Pacira BioSciences, Inc. engages in the development, manufacture, marketing, distribution, and sale of non-opioid pain management and regenerative health solutions to healthcare practitioners in the United States. The company offers EXPAREL, a bupivacaine liposome injectable suspension for postsurgical pain management; ZILRETTA, a triamcinolone acetonide extended-release injectable suspension indicated for the management of osteoarthritis and knee pain; and iovera system, a non-opioid handheld cryoanalgesia device used to deliver controlled doses of cold temperature to targeted nerves to produce neurolytic block that interrupts the pain-transmitting signals of a peripheral nerve. It also develops PCRX-201, a novel gene therapy vector platform enabling local administration of genetic medicines with the potential to treat large prevalent diseases like osteoarthritis. It has a development and commercialization, and supply agreement with Aratana Therapeutics, Inc. for NOCITA, a bupivacaine liposome injectable suspension product for use in animals. The company was formerly known as Pacira Pharmaceuticals, Inc. and changed its name to Pacira BioSciences, Inc. in April 2019. Pacira BioSciences, Inc. was incorporated in 2006 and is headquartered in Brisbane, California.",
+    "website": "https://www.pacira.com"
   },
   "PCVX": {
     "_ts": 1787871000.075635,
@@ -5159,11 +5236,11 @@
     "website": "https://www.timken.com"
   },
   "TMO": {
-    "_ts": 1789493726.0563958,
+    "_ts": 1792605234.3422353,
     "country": "United States",
     "employees": 125000,
     "industry": "Diagnostics & Research",
-    "marketCap": 235556765696,
+    "marketCap": 256632356864,
     "name": "Thermo Fisher Scientific Inc.",
     "sector": "Healthcare",
     "summary": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services internationally. It operates through four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services. The Life Sciences Solutions segment includes reagents, instruments, and consumables for biological and medical research; discovery and production of drugs and vaccines; and diagnosis of infections and diseases. Its Analytical Instruments segment provides instruments, consumables, software, and services for pharmaceutical, biotechnology, academic, government, environmental, and other research and industrial markets, as well as clinical laboratories. The Specialty Diagnostics segment offers clinical diagnostics products, such as liquid ready-to-use and lyophilized immunodiagnostic reagent kits, calibrators, controls, protein detection assays, and instruments; immunodiagnostic offerings comprising developing, manufacturing, and marketing of complete blood-test systems for the clinical diagnosis and monitoring of allergy, asthma and autoimmune diseases; microbiology offerings, such as dehydrated and prepared culture media, collection and transport systems, instrumentation and consumables to detect pathogens in blood, diagnostic and rapid direct specimen tests, quality-control products, and associated products; transplant diagnostics products, including human leukocyte antigen typing and testing for the organ transplant market; and healthcare market channel offerings. Its Laboratory Products and Biopharma Services segment provides laboratory products, research and safety market channel, and pharma services and clinical research. Thermo Fisher Scientific Inc. was founded in 1956 and is headquartered in Waltham, Massachusetts.",
