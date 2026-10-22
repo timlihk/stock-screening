@@ -836,7 +836,7 @@
     "website": "https://www.babcock.com"
   },
   "BWET": {
-    "_ts": 1790098735.6308463,
+    "_ts": 1792691608.5974321,
     "country": "",
     "employees": 0,
     "industry": "",
@@ -2341,6 +2341,17 @@
     "sector": "Communication Services",
     "summary": "Globalstar, Inc. provides mobile satellite services in the United States, Canada, Europe, Central and South America, and internationally. It offers duplex two-way voice and data products, including mobile voice and data services and equipment for remote business continuity, recreational usage, safety, emergency preparedness and response, and other applications. The company also provides data transmissions using a mobile or fixed device that transmits the location of the device and other information to a central monitoring station, including commercial IoT products; communication and data transmissions using SPOT family of devices, such as SPOT X, SPOT Gen4, and SPOT Trace that emergency alerts, and transmit messages and the location of the device; and voice communication and data transmissions. In addition, it offers commercial IoT devices to track assets comprising cargo containers and rail cars, monitor utility meters, and monitor oil and gas assets; small satellite transmitter modules, such as the STX-3, ST-150 and ST100, and chips that enable an integrator's products to access its network; engineering and other communication services using MSS and terrestrial spectrum licenses; and hardware and software designs to develop specific applications operating over satellite network, as well as the installation of gateways and antennas. It distributes its products through retailers and sales force, as well as www.findmespot.com e-commerce website. The company serves forestry, maritime, government, oil and gas, mining, leisure, emergency services, construction, and transportation sectors. Globalstar, Inc. was founded in 1993 and is headquartered in Covington, Louisiana.",
     "website": "https://www.globalstar.com"
+  },
+  "GSG": {
+    "_ts": 1792691602.718438,
+    "country": "",
+    "employees": 0,
+    "industry": "",
+    "marketCap": 0,
+    "name": "iShares S&P GSCI Commodity-Indexed Trust",
+    "sector": "",
+    "summary": "The Trust holds long positions in index futures that have settlement values at expiration based on the level of the S&P GSCI-ER at that time, and earning interest on its non-cash Collateral Assets used to satisfy applicable margin requirements on those index futures positions. The index reflects the return of the S&P GSCI-ER, together with the return on specified U.S. Treasury securities that are deemed to have been held to collateralize a hypothetical long position in the futures contracts comprising the S&P GSCI\u2122.",
+    "website": ""
   },
   "GTLB": {
     "_ts": 1792605234.3422353,
@@ -4134,6 +4145,17 @@
     "sector": "Industrials",
     "summary": "Pitney Bowes Inc. provides digital shipping solutions, mailing innovation, and financial services worldwide. It operates through SendTech Solutions and Presort Services segments. The SendTech Solutions segment offers physical and digital shipping and mailing technology solutions and other applications for sending, tracking, and receiving of letters, parcels and flats, as well as supplies and maintenance services. This segment also provides financing alternatives to finance other manufacturers' equipment and product purchases. The Presort Services segment operates as a workshare partner of the United States Postal Service; and offers mail sortation services. It markets its products, solutions, and services through direct and inside sales force, partner channels, direct mailings, and digital channels. The company was formerly known as Pitney Bowes Postage Meter Company. Pitney Bowes Inc. was incorporated in 1920 and is headquartered in Shelton, Connecticut.",
     "website": "https://www.pitneybowes.com"
+  },
+  "PBR": {
+    "_ts": 1792691602.718438,
+    "country": "Brazil",
+    "employees": 43199,
+    "industry": "Oil & Gas Integrated",
+    "marketCap": 165111119872,
+    "name": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+    "sector": "Energy",
+    "summary": "Petr\u00f3leo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petr\u00f3leo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil.",
+    "website": "https://petrobras.com.br"
   },
   "PBR-A": {
     "_ts": 1776778996.5811841,
@@ -5973,7 +5995,7 @@
     "website": "https://www.zebra.com"
   },
   "ZCSH": {
-    "_ts": 1790098735.6308463,
+    "_ts": 1792691608.5974321,
     "country": "",
     "employees": 0,
     "industry": "",
