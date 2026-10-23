@@ -7542,6 +7542,18 @@
     "revenue_yoy_growth": 0.12675042334642228,
     "sample_quarters": 8
   },
+  "SAIC": {
+    "_ts": 1792777443.6745794,
+    "earnings_accelerating": null,
+    "fundamental_score": 0,
+    "latest_period": null,
+    "net_income_qoq_growth": null,
+    "net_income_yoy_growth": null,
+    "revenue_accelerating": null,
+    "revenue_qoq_growth": null,
+    "revenue_yoy_growth": null,
+    "sample_quarters": 4
+  },
   "SAN": {
     "_ts": 1789666338.2934425,
     "earnings_accelerating": null,

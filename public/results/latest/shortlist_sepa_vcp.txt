@@ -1,3 +1,0 @@
-PBR|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 95 · Earn 13d · RS +112
-PAGP|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 5/5 · RSpct 89 · Energy · Earn 11d · RS +57
-PAA|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 5/5 · RSpct 88 · Energy · Earn 11d · RS +54

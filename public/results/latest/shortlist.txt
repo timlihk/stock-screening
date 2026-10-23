@@ -1,6 +1,2 @@
-PAGP|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 5/5 · RSpct 89 · Energy · Earn 11d · RS +57
-TTC|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 79 · Industrials · Earn 40d · RS +29
-PBR|sepa_vcp 7 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 95 · Earn 13d · RS +112
-PAA|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 2/3 · Fund 5/5 · RSpct 88 · Energy · Earn 11d · RS +54
-CCEP|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 65 · Consumer Staples · Earn 86d · RS +11
-GSG|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 85 · RS +46
+TTC|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 79 · Industrials · Earn 39d · RS +29
+SAIC|power_play 6 · Entry 5 · Lead 8 · Tight 0/3 · RSpct 80 · Earn 29d · RS +32
