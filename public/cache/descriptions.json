@@ -362,6 +362,17 @@
     "summary": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, government agencies, media and entertainment, healthcare, oil and gas, education, manufacturing, industrial, and others. It markets and sells its products through distributors, system integrators, value-added resellers, and original equipment manufacturer partners, as well as through its direct sales force. Arista Networks, Inc. was formerly known as Arastra, Inc. and changed its name to Arista Networks, Inc. in October 2008. The company was incorporated in 2004 and is headquartered in Santa Clara, California.",
     "website": "https://www.arista.com"
   },
+  "ANF": {
+    "_ts": 1793385054.4008806,
+    "country": "United States",
+    "employees": 6600,
+    "industry": "Apparel Retail",
+    "marketCap": 6931655680,
+    "name": "Abercrombie & Fitch Co.",
+    "sector": "Consumer Cyclical",
+    "summary": "Abercrombie & Fitch Co., through its subsidiaries, operates as an omnichannel retailer in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. It offers an assortment of apparel, personal care products, and accessories for men, women, and kids under the Abercrombie & Fitch, abercrombie kids, Your Personal Best, Hollister, and Gilly Hicks brands. The company sells products through its stores, various wholesale, franchise, and licensing arrangements, as well as e-commerce platforms. Abercrombie & Fitch Co. was founded in 1892 and is headquartered in New Albany, Ohio.",
+    "website": "https://corporate.abercrombie.com"
+  },
   "APG": {
     "_ts": 1776526513.6243865,
     "country": "United States",
@@ -2056,6 +2067,17 @@
     "summary": "Freeport-McMoRan Inc. engages in the mining of mineral properties in North America, South America, and Indonesia. It primarily explores for copper, gold, molybdenum, silver, and other metals. The company's assets include the Grasberg minerals district in Indonesia; Morenci, Bagdad, Safford, Sierrita, and Miami in Arizona; Chino and Tyrone in New Mexico; and Henderson and Climax in Colorado, North America, as well as Cerro Verde in Peru and El Abra in Chile. Freeport-McMoRan Inc. was formerly known as Freeport-McMoRan Copper & Gold Inc. and changed its name to Freeport-McMoRan Inc. in July 2014. The company was incorporated in 1987 and is headquartered in Phoenix, Arizona.",
     "website": "https://fcx.com"
   },
+  "FDS": {
+    "_ts": 1793385054.4008806,
+    "country": "United States",
+    "employees": 12444,
+    "industry": "Financial Data & Stock Exchanges",
+    "marketCap": 11681557504,
+    "name": "FactSet Research Systems Inc.",
+    "sector": "Financial Services",
+    "summary": "FactSet Research Systems Inc., together with its subsidiaries, operates as a global data and artificial intelligence solutions provider for the financial markets in the Americas, Europe, the Middle East, Africa, and Asia Pacific. It offers data, products, and analytical applications; and workstations, portfolio analytics, and enterprise data solutions, as well as managed services for supporting data, performance, risk and reporting, and AI-enabled workflows. The company also provides financial data and market intelligence on securities, companies, industries, and people that enable clients to research advisory, dealmaking and investment ideas, as well as analyze, monitor, and manage portfolios; and solutions covering investment lifecycle of investment research, portfolio construction and analysis, trade execution, performance measurement, risk management, and reporting. In addition, it offers banking solutions that supports company and market research; wealth solutions which supports home office, advisory, and client engagement workflows; and data and technology offerings, including desktop and mobile platform, data solutions, cloud-based digital solutions, application programming interfaces, and model context protocol servers. The company serves professionals, including institutional asset managers, bankers, wealth managers, asset owners, partners, hedge funds, corporate users, private equity and venture capital professionals. FactSet Research Systems Inc. was founded in 1978 and is headquartered in Norwalk, Connecticut.",
+    "website": "https://www.factset.com"
+  },
   "FDX": {
     "_ts": 1777297685.5526693,
     "country": "United States",
@@ -2673,14 +2695,14 @@
     "website": "https://www.imax.com"
   },
   "IMO": {
-    "_ts": 1787147517.1878428,
+    "_ts": 1793385054.4008806,
     "country": "Canada",
     "employees": 5000,
     "industry": "Oil & Gas Integrated",
     "marketCap": 0,
     "name": "Imperial Oil Limited",
     "sector": "Energy",
-    "summary": "Imperial Oil Limited engages in exploration, production, and sale of crude oil and natural gas in Canada. The company operates in three segments: Upstream, Downstream and Chemical segments. The Upstream segment explores and produces crude oil, natural gas, synthetic crude oil, and bitumen. The Downstream segment transports and refines crude oil; blends refined products; and distributes and markets refined products. This segment also transports crude oil production and third-party crude oil to refineries by contracted and common carrier pipelines; owns and operates refineries; maintains a distribution system to move petroleum products to market by pipeline, tanker, rail, and road transport; owns and operates fuel terminals, natural gas liquids, and products pipelines in Alberta, Manitoba, and Ontario; markets petroleum products under the Esso and Mobil brands; and sells petroleum products, including fuel, asphalt, and lubricants to industrial and transportation customers, independent marketers, resellers, and other refiners, as well as the agriculture, residential heating, and commercial markets through branded fuel and lubricant resellers. The Chemical segment manufactures and markets aliphatic solvents, plasticizer intermediates, and polyethylene resins; and markets refinery grade propylene. It also provides petrochemicals. The company was incorporated in 1880 and is headquartered in Calgary, Canada. Imperial Oil Limited operates as a subsidiary of Exxon Mobil Corporation.",
+    "summary": "Imperial Oil Limited engages in exploration, production, and sale of crude oil and natural gas in Canada. The company operates in three segments: Upstream, Downstream and Chemical segments. The Upstream segment explores and produces crude oil, natural gas, synthetic crude oil, and bitumen. The Downstream segment transports and refines crude oil; blends refined products; and distributes and markets refined products. This segment also transports crude oil production and third-party crude oil to refineries by contracted and common carrier pipelines; owns and operates refineries; maintains a distribution system to move petroleum products to market by pipeline, tanker, rail, and road transport; owns and operates fuel terminals, natural gas liquids, and products pipelines in Alberta, Manitoba, and Ontario; markets petroleum products under the Esso and Mobil brands; and sells petroleum products, including fuel, asphalt, and lubricants to industrial and transportation customers, independent marketers, resellers, and other refiners, as well as the agriculture, residential heating, and commercial markets through branded fuel and lubricant resellers. The Chemical segment manufactures and markets aliphatic solvents, plasticizer intermediates, and polyethylene resins; and markets refinery grade propylene. It also provides petrochemicals. The company was incorporated in 1880 and is headquartered in Calgary, Canada. Imperial Oil Limited operates as a subsidiary of ExxonMobil Holdings Corporation.",
     "website": "https://www.imperialoil.ca"
   },
   "IMVT": {
@@ -2990,6 +3012,17 @@
     "sector": "Energy",
     "summary": "Kinetik Holdings Inc., through its subsidiaries, operates as a midstream company in the Texas Delaware Basin. The company operates through two segments, Midstream Logistics and Pipeline Transportation. It offers gathering, compression, processing, stabilization, treating, and storage services; transportation services through pipelines; and water gathering and disposal services for companies that produce natural gas, natural gas liquids (NGL), and crude oil. The company also sells condensates, natural gas residue, and NGLs. Kinetik Holdings Inc. was founded in 2017 and is headquartered in Midland, Texas.",
     "website": "https://www.kinetik.com"
+  },
+  "KO": {
+    "_ts": 1793385054.4008806,
+    "country": "United States",
+    "employees": 65900,
+    "industry": "Beverages - Non-Alcoholic",
+    "marketCap": 406486745088,
+    "name": "The Coca-Cola Company",
+    "sector": "Consumer Defensive",
+    "summary": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glac\u00e9au smartwater, glac\u00e9au vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia.",
+    "website": "https://www.coca-colacompany.com"
   },
   "KOD": {
     "_ts": 1791312814.4124432,

@@ -1,6 +1,3 @@
-FAST|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 68 · Industrials · Earn 58d · RS +18
-MO|power_play 7 · +sepa_vcp · Entry 5 · Lead 7 · Tight 2/3 · Fund 4/5 · RSpct 68 · Consumer Staples · RS +18
-USO|power_play 6 · +sepa_vcp · Entry 7 · Lead 8 · Tight 2/3 · RSpct 96 · RS +120
-DGX|power_play 6 · Entry 6 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 79 · Health Care · Earn 73d · RS +34
-PM|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 79 · Consumer Staples · Earn 70d · RS +34
-TD|power_play 6 · Entry 5 · Lead 7 · Tight 2/3 · RSpct 84 · Financials · Earn 25d · RS +46
+KO|power_play 7 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 77 · Earn 72d · RS +28
+ANF|power_play 7 · +sepa_vcp · Entry 5 · Lead 11 · Tight 2/3 · RSpct 96 · Earn 17d · RS +114
+DGX|power_play 6 · Entry 6 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 80 · Health Care · Earn 72d · RS +33

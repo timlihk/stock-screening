@@ -3266,6 +3266,18 @@
     "revenue_yoy_growth": -7.293590081772616,
     "sample_quarters": 10
   },
+  "FDS": {
+    "_ts": 1793385034.3483038,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q4 2026",
+    "net_income_qoq_growth": -70.08790950415383,
+    "net_income_yoy_growth": -48.825645838920174,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 1.8910996310910866,
+    "revenue_yoy_growth": 12.89802147683956,
+    "sample_quarters": 8
+  },
   "FDX": {
     "_ts": 1787060387.823983,
     "earnings_accelerating": false,
@@ -4391,16 +4403,16 @@
     "sample_quarters": 10
   },
   "IMO": {
-    "_ts": 1792605021.7155044,
-    "earnings_accelerating": true,
-    "fundamental_score": 5,
-    "latest_period": "Q2 2026",
-    "net_income_qoq_growth": 130.822469864847,
-    "net_income_yoy_growth": 130.82305406236378,
-    "revenue_accelerating": true,
-    "revenue_qoq_growth": 27.85910125613662,
-    "revenue_yoy_growth": 43.03548962631527,
-    "sample_quarters": 10
+    "_ts": 1793385034.3483038,
+    "earnings_accelerating": false,
+    "fundamental_score": 0,
+    "latest_period": "Q4 2025",
+    "net_income_qoq_growth": -9.595611255031155,
+    "net_income_yoy_growth": -59.56644145079684,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": -7.501141697955738,
+    "revenue_yoy_growth": -10.019172524256847,
+    "sample_quarters": 8
   },
   "IMVT": {
     "_ts": 1784040862.948167,
@@ -4858,16 +4870,16 @@
     "sample_quarters": 9
   },
   "KO": {
-    "_ts": 1792605021.7155044,
-    "earnings_accelerating": null,
+    "_ts": 1793385034.3483038,
+    "earnings_accelerating": true,
     "fundamental_score": 1,
     "latest_period": "Q1 2026",
-    "net_income_qoq_growth": 78.76993166287016,
-    "net_income_yoy_growth": 23.512747875354112,
-    "revenue_accelerating": null,
-    "revenue_qoq_growth": 8.038808038808032,
-    "revenue_yoy_growth": 10.371681415929213,
-    "sample_quarters": 5
+    "net_income_qoq_growth": 72.78731836195509,
+    "net_income_yoy_growth": 17.83783783783783,
+    "revenue_accelerating": true,
+    "revenue_qoq_growth": 5.498223650820511,
+    "revenue_yoy_growth": 12.067571210351336,
+    "sample_quarters": 9
   },
   "KRG": {
     "_ts": 1782743309.9613972,
