@@ -1,4 +1,2 @@
-PEB|sepa_vcp 7 · +power_play · Entry 5 · Lead 9 · Tight 2/3 · RSpct 96 · Real Estate · Earn 82d · RS +99
-DOCU|sepa_vcp 6 · +power_play · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 47 · Earn 23d · RS +0
-HNGE|sepa_vcp 6 · +power_play · Entry 5 · Lead 11 · Tight 2/3 · Fund 3/5 · RSpct 97 · Health Care · RS +121
-VRTX|sepa_vcp 6 · +power_play · Entry 5 · Lead 7 · Tight 0/3 · RSpct 68 · RS +19
+SIG|sepa_vcp 8 · +power_play · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 62 · Earn 20d · RS +12
+VSXY|sepa_vcp 7 · +power_play · Entry 5 · Lead 10 · Tight 0/3 · RSpct 98 · Earn 22d · RS +169

@@ -4850,6 +4850,17 @@
     "summary": "Sigma Lithium Corporation engages in the exploration and development of lithium deposits in Brazil. It serves lithium-ion battery supply chain for electric vehicle industries. The company was formerly known as Sigma Lithium Resources Corporation and changed its name to Sigma Lithium Corporation in July 2021. Sigma Lithium Corporation is based in Toronto, Canada.",
     "website": "https://www.sigmalithiumresources.com"
   },
+  "SIG": {
+    "_ts": 1793736006.599841,
+    "country": "Bermuda",
+    "employees": 27097,
+    "industry": "Luxury Goods",
+    "marketCap": 4589064704,
+    "name": "Signet Jewelers Limited",
+    "sector": "Consumer Cyclical",
+    "summary": "Signet Jewelers Limited operates as a diamond jewelry retailer in the United States, Canada, the United Kingdom, and Republic of Irland. It operates through three segments: North America, International, and other. The North America segment operates jewelry stores in malls, mall-based kiosks, and off-mall locations in the United States and Canada primarily under the Kay, Zales, Jared Jewelers, Diamonds Direct, Banter by Piercing Pagoda, Peoples Jewellers, and Rocksbox brands, as well as operates online through its digital brands, James Allen and Blue Nile. The International segment operates stores in shopping malls, off-mall locations, and online primarily under the H.Samuel and Ernest Jones brands in the United Kingdom and the Republic of Ireland. The Other segment engages in the purchase and conversion of rough diamonds to polished stones, as well as offers diamond polishing services. Signet Jewelers Limited was founded in 1862 and is based in Hamilton, Bermuda.",
+    "website": "https://www.signetjewelers.com"
+  },
   "SIRI": {
     "_ts": 1783957992.357885,
     "country": "United States",
@@ -5170,11 +5181,11 @@
     "website": "https://www.sensient.com"
   },
   "SYRE": {
-    "_ts": 1787579843.7401862,
+    "_ts": 1793736009.8700228,
     "country": "United States",
     "employees": 125,
     "industry": "Biotechnology",
-    "marketCap": 9304094720,
+    "marketCap": 9272310784,
     "name": "Spyre Therapeutics, Inc.",
     "sector": "Healthcare",
     "summary": "Spyre Therapeutics, Inc., a clinical stage biotechnology company, focuses on developing therapeutics for patients living with inflammatory bowel disease (IBD) and rheumatic diseases. The company develops SPY001, a humanized monoclonal immunoglobulin G1 antibody that is in phase-2 clinical stage designed to bind selectively to the a4\u00df7 integrin being developed for the treatment of IBD (ulcerative colitis and Crohn's disease); and SPY002 and SPY072 \u0096 anti-TL1A mAbs designed to bind to tumor necrosis factor-like ligand 1A (TL1A). It is also developing SPY003, a clinical-stage program, which is in phase-2 clinical stage designed to bind to interleukin 23 (IL-23); SPY120, a combination of anti-a4\u00df7 and anti-TL1A mAbs; SPY130, a combination anti-a4\u00df7 and anti-IL-23 mAbs; and SPY230, a combination anti-TL1A and anti-IL-23 mAbs. The company was formerly known as Aeglea BioTherapeutics, Inc. and changed its name to Spyre Therapeutics, Inc. in November 2023. The company was incorporated in 2013 and is based in Waltham, Massachusetts.",
@@ -5861,6 +5872,17 @@
     "sector": "Technology",
     "summary": "Viasat, Inc. provides broadband and communications products and services in the United States and internationally. It operates through Communication Services; and Defense and Advanced Technologies segments. The company offers satellite-based broadband and narrowband communications solutions; broadband services, including broadband internet access and voice over internet protocol; fixed and mobile broadband and narrowband services; develops and sells satellite, wireless products, and terminals; and design, develop, and produce space system solutions for geostationary, medium, and low earth orbit. It also provides in-flight connectivity, narrowband safety operational data, and other complementary services; multimedia connectivity for military and government; tactical and beyond-line-of-sight communications; intelligence surveillance and reconnaissance; L-band advanced communications element terminals; enterprise connectivity solutions; Internet-of-Things; and L-band managed, energy, and prepaid internet services. In addition, the company offers networking, cybersecurity, and information assurance products and services; high assurance internet protocol encryption solutions; MOJO expeditionary tactical gateway; government satellite communication systems, mobile and fixed broadband modems, ground and airborne terminals, antennas and gateways, Ka-band earth stations, and other multi-band/multi-function antennas, as well as design products for manpacks, aircraft, unmanned aerial vehicles, seagoing vessels, ground-mobile vehicles, space-based systems, and fixed applications. Further, it designs and develops GEO, LEO, and MEO satellites, payload, antenna technologies, and other small satellite platforms; develops commercial communication satellite product, orchestration of sovereign and multi-orbit solutions, and direct-to-device; and licenses intellectual property. Viasat, Inc. was incorporated in 1986 and is headquartered in Carlsbad, California.",
     "website": "https://www.viasat.com"
+  },
+  "VSXY": {
+    "_ts": 1793736006.599841,
+    "country": "United States",
+    "employees": 30000,
+    "industry": "Apparel Retail",
+    "marketCap": 8065340928,
+    "name": "Victorias Secret & Co.",
+    "sector": "Consumer Cyclical",
+    "summary": "Victoria's Secret & Co. operates as a specialty retailer of women's intimate, and other apparel and beauty products worldwide. The company offers bras, panties, lingerie, casual sleepwear, apparel, lounge, sport, and swim products, as well as prestige fragrances and body care products; and accessories and beauty products under the Victoria's Secret, PINK, and Adore Me brands. It provides its products through its retail stores; websites, such as VictoriasSecret.com, PINK.com, AdoreMe.com, and DailyLook.com; and other digital channels. The company also operates stores under the franchise, license, and wholesale arrangements. Victoria's Secret & Co. was incorporated in 2021 and is based in Reynoldsburg, Ohio.",
+    "website": "https://www.victoriassecretandco.com"
   },
   "VTR": {
     "_ts": 1784127144.4491315,

@@ -1,7 +1,6 @@
-HNGE|power_play 7 · +sepa_vcp · Entry 5 · Lead 11 · Tight 2/3 · Fund 3/5 · RSpct 97 · Health Care · RS +121
-DGX|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 80 · Health Care · Earn 71d · RS +33
-CTAS|power_play 6 · Entry 6 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 62 · Earn 33d · RS +12
-DOCU|power_play 6 · +sepa_vcp · Entry 6 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 47 · Earn 23d · RS +0
-PEB|power_play 6 · +sepa_vcp · Entry 5 · Lead 9 · Tight 2/3 · RSpct 96 · Real Estate · Earn 82d · RS +99
-KSS|power_play 6 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 85 · Earn 16d · RS +41
-VRTX|power_play 6 · +sepa_vcp · Entry 5 · Lead 7 · Tight 0/3 · RSpct 68 · RS +19
+HNGE|power_play 7 · Entry 5 · Lead 12 · Tight 2/3 · Fund 3/5 · RSpct 97 · Health Care · RS +120
+PM|power_play 7 · Entry 5 · Lead 7 · Tight 2/3 · Fund 1/5 · RSpct 82 · Consumer Staples · Earn 67d · RS +38
+CTAS|power_play 6 · Entry 6 · Lead 7 · Tight 2/3 · Fund 2/5 · RSpct 62 · Industrials · Earn 32d · RS +13
+VSXY|power_play 6 · +sepa_vcp · Entry 5 · Lead 10 · Tight 0/3 · RSpct 98 · Earn 22d · RS +169
+SIG|power_play 6 · +sepa_vcp · Entry 5 · Lead 8 · Tight 2/3 · Fund 1/5 · RSpct 62 · Earn 20d · RS +12
+KSS|power_play 6 · Entry 5 · Lead 8 · Tight 2/3 · RSpct 82 · Consumer Discretionary · Earn 15d · RS +37

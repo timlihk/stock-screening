@@ -4139,16 +4139,16 @@
     "sample_quarters": 0
   },
   "HRB": {
-    "_ts": 1787752773.1902478,
+    "_ts": 1793735989.5139656,
     "earnings_accelerating": true,
-    "fundamental_score": 1,
+    "fundamental_score": 2,
     "latest_period": "Q3 2026",
     "net_income_qoq_growth": 450.13214076294776,
-    "net_income_yoy_growth": 17.384159594645098,
+    "net_income_yoy_growth": 22.75308836793164,
     "revenue_accelerating": false,
     "revenue_qoq_growth": 1105.8969652779524,
-    "revenue_yoy_growth": 5.3138987064271115,
-    "sample_quarters": 11
+    "revenue_yoy_growth": 9.761519639478333,
+    "sample_quarters": 7
   },
   "HSBC": {
     "_ts": 1788454224.63994,
@@ -7889,6 +7889,18 @@
     "revenue_yoy_growth": null,
     "sample_quarters": 0
   },
+  "SIG": {
+    "_ts": 1793735989.5139656,
+    "earnings_accelerating": true,
+    "fundamental_score": 1,
+    "latest_period": "Q2 2026",
+    "net_income_qoq_growth": 4884.858044164038,
+    "net_income_yoy_growth": 3.5517693315858523,
+    "revenue_accelerating": false,
+    "revenue_qoq_growth": 96.7173017507724,
+    "revenue_yoy_growth": -0.45599635202918654,
+    "sample_quarters": 10
+  },
   "SIMO": {
     "_ts": 1790880300.5599656,
     "earnings_accelerating": null,
@@ -9447,7 +9459,7 @@
     "sample_quarters": 6
   },
   "VSXY": {
-    "_ts": 1790964946.525544,
+    "_ts": 1793735989.5139656,
     "earnings_accelerating": null,
     "fundamental_score": 0,
     "latest_period": null,
