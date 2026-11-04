@@ -22,11 +22,11 @@
     "website": "https://www.apple.com"
   },
   "ABBV": {
-    "_ts": 1790098720.5070617,
+    "_ts": 1793823631.366943,
     "country": "United States",
     "employees": 57000,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 468586528768,
+    "marketCap": 516342841344,
     "name": "AbbVie Inc.",
     "sector": "Healthcare",
     "summary": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox Cosmetic for the treatment of glabellar lines, crow's feet, forehead lines, and platysma bands; Juvederm Collection to treat volume loss in the temples, undereye, cheeks, chin, lips and lower face; Vraylar to treat schizophrenia, bipolar disorder, and depressive disorder; Duodopa to treat Parkinson's disease; Ubrelvy to treat migraine; Qulipta for episodic and chronic migraine; and Vyalev for the treatment of motor fluctuations, as well as Botox Therapeutic to treat chronic migraine, overactive bladder, spasticity, cervical dystonia, and other conditions. In addition, the company offers Ozurdex for visual impairment; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; and other eye care products, including Refresh/Optive, Xen, Durysta, and Restasis. Further, it provides Mavyret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; and Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois.",
@@ -141,6 +141,17 @@
     "sector": "Consumer Defensive",
     "summary": "Archer-Daniels-Midland Company provides human and animal nutrition ingredients and solutions in the United States, Switzerland, the Cayman Islands, Brazil, Mexico, Canada, the United Kingdom, and internationally. It operates in three segments: Ag Services and Oilseeds; Carbohydrate Solutions; and Nutrition. The company engages in the origination, merchandising, transportation, and storage of agricultural raw materials, as well as the crushing and processing of oilseeds, including soybeans and soft seeds, such as cottonseed, sunflower seed, canola, rapeseed, and flaxseed; produces and markets vegetable oils and oilseed protein meals used by food, feed, energy, and industrial customers; sale of crude and partially refined vegetable oils; supplies peanuts and peanut-derived ingredients; and manufactures cotton cellulose pulp. It is also involved in the grain sourcing, handling, and multimodal transportation network supporting import, export, and distribution activities; structured trade finance activities; corn and wheat wet and dry milling and related processing activities; production of distillers' grains, corn gluten feed, and corn gluten meal for use as animal feed ingredients; and carbon capture and sequestration and other emissions-reduction initiatives. In addition, the company engages in the creation, manufacturing, sale, and distribution of an array of ingredients and solutions comprising plant-based proteins, flavors and colors derived from nature, flavor systems, emulsifiers, soluble fiber, polyols, hydrocolloids, probiotics, prebiotics, postbiotics, enzymes, botanical extracts, and other specialty food and feed ingredients and systems. Further, it is involved in the derivatives and commodity exchanges and clearing houses; and insurance coverage for certain property, casualty, marine, medical, and other miscellaneous risks. The company was founded in 1902 and is based in Chicago, Illinois.",
     "website": "https://www.adm.com"
+  },
+  "ADP": {
+    "_ts": 1793823643.8220348,
+    "country": "United States",
+    "employees": 67000,
+    "industry": "Software - Application",
+    "marketCap": 120362147840,
+    "name": "Automatic Data Processing, Inc.",
+    "sector": "Technology",
+    "summary": "Automatic Data Processing, Inc. provides cloud-based human capital management (HCM) solutions worldwide. It operates in two segments, Employer Services and Professional Employer Organization (PEO). The Employer Services segment offers strategic, cloud-based platforms, and human resources (HR) outsourcing solutions. This segment's offerings include RUN Powered by ADP, a software platform for small business payroll, HR, and compliance; ADP Workforce Now, a HCM solution used across mid-sized and large businesses to manage employees; and ADP Lyric HCM, a solution for HR management, payroll, workforce management, talent, and data analytics. Its PEO Services segment provides HR outsourcing solutions under ADP TotalSource name to businesses through a co-employment model. This segment also provides guidance, user-friendly technology, comprehensive employee benefits, and a risk management, safety, and workers' compensation program. The company was founded in 1949 and is headquartered in Roseland, New Jersey.",
+    "website": "https://www.adp.com"
   },
   "ADPT": {
     "_ts": 1790358458.0466,
@@ -614,6 +625,17 @@
     "sector": "Technology",
     "summary": "AXT, Inc. designs, develops, manufactures, and distributes compound and single element semiconductor substrates. The company provides indium phosphide for use in data center connectivity using light/lasers, high-speed data transfer in data centers, 5G communications, fiber optic lasers and detectors, consumer devices, passive optical networks, silicon photonics, photonic integrated circuits, thermo-photovoltaics, RF amplifier and switching, infrared light-emitting diode (LEDS) motion control, lidar for robotics and autonomous vehicles, and infrared thermal imaging. It also offers semi-insulating gallium arsenide (GaAs) substrates for use in Wi-Fi and IoT devices, transistors, direct broadcast television, power amplifiers, satellite communications, and solar cells; and semi-conducting GaAs substrates that are used in LEDs, screen displays using micro-LEDs, printer head lasers and LEDs, 3-D sensing using VCSELs, data center communication using VCSELs, sensors for industrial robotics/near-infrared sensors, laser machining, cutting and drilling, optical couplers, solar cells, night vision goggles, lidar for robotics and autonomous vehicles, and other lasers. In addition, the company provides germanium substrates for use in multi-junction solar cells for satellites, optical sensors and detectors, terrestrial concentrated photo voltaic cells, infrared detectors, and carrier wafer for LED. Further, it offers 6N+ and 7N+ purified gallium, boron trioxide, gallium-magnesium alloy, pyrolytic boron nitride (pBN) crucibles, and pBN insulating parts. It sells its products through direct salesforce in the United States, China, and Europe, as well as through independent sales representatives and distributors in Japan, Taiwan, Korea, and internationally. The company was formerly known as American Xtal Technology, Inc. and changed its name to AXT, Inc. in July 2000. AXT, Inc. was incorporated in 1986 and is headquartered in Fremont, California.",
     "website": "https://www.axt.com"
+  },
+  "BBY": {
+    "_ts": 1793823631.366943,
+    "country": "United States",
+    "employees": 82000,
+    "industry": "Specialty Retail",
+    "marketCap": 21147891712,
+    "name": "Best Buy Co., Inc.",
+    "sector": "Consumer Cyclical",
+    "summary": "Best Buy Co., Inc. offers technology products and solutions in the United States, Canada, and internationally. The company provides computing and mobile phone products, such as desktops, notebooks, and peripherals; mobile phones comprising related mobile network carrier commissions; networking products; tablets covering e-readers; smartwatches; and consumer electronics consisting of digital imaging, health and fitness products, portable audio comprising headphones and portable speakers, and smart home products, as well as home theaters that includes home theater accessories, soundbars, and televisions. It also offers appliances, such as dishwashers, laundry, ovens, refrigerators, blenders, coffee makers, vacuums, and personal care; entertainment products consisting of drones, peripherals, gaming, toys, and virtual reality, as well as hardware and software, and augmented reality glasses and other software products; and other products, such as baby, food and beverage, luggage, and outdoor living products. In addition, the company provides delivery, installation, marketplace commissions, memberships, repair, set-up, technical support, health-related, and warranty-related services. It offers its products through stores and websites under the Best Buy, Best Buy Ads, Best Buy Business, Best Buy Essentials, Best Buy Health, Best Buy Marketplace, Geek Squad, Imagine That, Insignia, Lively, Jitterbug, My Best Buy, My Best Buy Memberships, Pacific Kitchen, Home, TechLiquidators, and Yardbird brand names, as well as domain names comprising bestbuy.com, lively.com, techliquidators.com, yardbird.com, bestbuy.ca, and techliquidators.ca. The company was formerly known as Sound of Music, Inc. Best Buy Co., Inc. was incorporated in 1966 and is headquartered in Richfield, Minnesota.",
+    "website": "https://corporate.bestbuy.com"
   },
   "BE": {
     "_ts": 1784819831.8364587,
@@ -1133,11 +1155,11 @@
     "website": "https://www.celestica.com"
   },
   "CM": {
-    "_ts": 1776564492.3977573,
+    "_ts": 1793823643.8220348,
     "country": "Canada",
-    "employees": 50469,
+    "employees": 51711,
     "industry": "Banks - Diversified",
-    "marketCap": 100557447168,
+    "marketCap": 108906848256,
     "name": "Canadian Imperial Bank of Commerce",
     "sector": "Financial Services",
     "summary": "Canadian Imperial Bank of Commerce, a diversified financial institution, provides various financial products and services to personal, business, public sector, and institutional clients in Canada, the United States, and internationally. The company operates through Canadian Personal and Business Banking; Canadian Commercial Banking and Wealth Management; U.S. Commercial Banking and Wealth Management; Capital Markets and Direct Financial Services; and Corporate and Other segments. It offers checking, savings, agriculture, and business accounts; mortgages; business, car, education, home, and other loans; lines of credit and agriculture loans; and cash management, small business financing, and overdraft protection services. The company also provides investment and insurance services; healthcare banking; credit cards; private banking, wealth planning, investment management, and estate planning and trust; and ATMs, as well as mobile, online, and global money and wire transfer services. Canadian Imperial Bank of Commerce was founded in 1867 and is headquartered in Toronto, Canada.",
@@ -1177,11 +1199,11 @@
     "website": "https://www.cn.ca"
   },
   "CNK": {
-    "_ts": 1786371618.005221,
+    "_ts": 1793823631.366943,
     "country": "United States",
     "employees": 8451,
     "industry": "Entertainment",
-    "marketCap": 4245851392,
+    "marketCap": 4637914624,
     "name": "Cinemark Holdings, Inc.",
     "sector": "Communication Services",
     "summary": "Cinemark Holdings, Inc., together with its subsidiaries, engages in the theatrical exhibition business. It operates theatres in the United States and Latin America. Cinemark Holdings, Inc. was founded in 1984 and is headquartered in Plano, Texas.",
@@ -1582,6 +1604,17 @@
     "sector": "Technology",
     "summary": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, observability pipelines, synthetics, real user monitoring, product analytics, continuous profiler, database monitoring, data observability, LLM observability, error tracking, network monitoring, incident response, workflow automation and App builder, event management, bits AI SRE, cloud cost management, cloud security, code security, cloud SIEM, threat management, sensitive data scanner, and CI visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York.",
     "website": "https://www.datadoghq.com"
+  },
+  "DE": {
+    "_ts": 1793823631.366943,
+    "country": "United States",
+    "employees": 73100,
+    "industry": "Farm & Heavy Construction Machinery",
+    "marketCap": 182377316352,
+    "name": "Deere & Company",
+    "sector": "Industrials",
+    "summary": "Deere & Company manufactures and distributes various equipment worldwide. It operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment; and application equipment, such as sprayers and nutrient management, soil preparation machinery, and related attachments and service parts. The Small Agriculture and Turf segment offers specialty, utility, and compact tractors; self-propelled forage harvesters and attachments; rotary mowers, hay and forage equipment, and utility vehicles; turf and utility equipment, including riding lawn, commercial mowing, and golf course equipment, and utility vehicles, as well as implements for mowing, tilling, snow and debris handling, aerating, residential, commercial, golf, and sports turf care applications. The Construction and Forestry segment provides backhoe loaders, crawler dozers and loaders, loaders, excavators, motor graders, articulated dump trucks, skid-steer loaders, milling machines, recyclers, slipform and asphalt pavers, surface miners, compactors, tandem, static rollers, mobile crushers and screens, mobile and stationary asphalt plants, and log harvesters; and road building and rehabilitation equipment. The Financial Services segment finances sales and leases agriculture and turf, and construction and forestry equipment. It also offers wholesale financing to dealers of the foregoing equipment; and extended equipment warranties. It has a strategic partnership with Tarter USA to develop and produce flex wing rotary cutters. It also has strategic partnership with Yamaha Motor Corporation, Usa to co-develop future side-by-side vehicles. The company was founded in 1837 and is headquartered in Moline, Illinois.",
+    "website": "https://www.deere.com"
   },
   "DELL": {
     "_ts": 1789666427.8512232,
@@ -2176,6 +2209,17 @@
     "sector": "Industrials",
     "summary": "Flowserve Corporation designs, manufactures, distributes, and services industrial flow management equipment in the United States, Canada, Mexico, Europe, the Middle East, Africa, and the Asia Pacific. The company operates in two segments, Flowserve Pumps Division (FPD) and Flow Control Division (FCD). It offers custom engineered pumps, pre-configured industrial pumps, pump systems, mechanical seals, auxiliary systems, replacement parts, and related services; and manufactures gas-lubricated mechanical seals for gas pipelines and in the energy production and process markets. The company also provides equipment services, including installation, commissioning services, seal systems spare parts, repairs, advanced diagnostics, re-rate and upgrade solutions, retrofit programs, and machining and asset management solutions. In addition, it offers engineered-to-order and configured-to-order isolation valves, control valves, valve automation products and related services and equipment; and actuators, positioners, and switches used to control, direct and manage the flow of liquids, gases and multi-phase fluids, and are a part of any flow control system. Further, the company provides equipment maintenance services for flow control systems, including advanced diagnostics, repair, installation, commissioning, retrofit programs, and field machining capabilities. It sells its products under the Valtek, Argus, Worcester, Limitorque, and Durco brands. The company serves oil and gas, power generation, chemical, water management and general industries, including pharmaceuticals, mining, food and beverage, steel, and pulp and paper industries. It distributes its products through direct sales, distributors, and sales representatives. Flowserve Corporation was founded in 1790 and is headquartered in Irving, Texas.",
     "website": "https://www.flowserve.com"
+  },
+  "FMX": {
+    "_ts": 1793823631.366943,
+    "country": "Mexico",
+    "employees": 385014,
+    "industry": "Beverages - Brewers",
+    "marketCap": 44203421696,
+    "name": "Fomento Econ\u00f3mico Mexicano, S.A.B. de C.V.",
+    "sector": "Consumer Defensive",
+    "summary": "Fomento Econ\u00f3mico Mexicano, S.A.B. de C.V., through its subsidiaries, operates as a franchise bottler of Coca-Cola trademark beverages worldwide. The company operates through Coca-Cola FEMSA, Proximity Americas Division, Proximity Europe Division, Health Division, Fuel Division, and Others segments. It produces, markets, and distributes Coca-Cola trademark beverages in Mexico, Guatemala, Nicaragua, Costa Rica, Panama, Colombia, Venezuela, Brazil, Argentina, and Uruguay. The company also operates small-box retail chain stores in Mexico, Colombia, Peru, Chile, Brazil, and the United States under the OXXO name; retail service stations for fuels, motor oils, lubricants, and car care products under the OXXO GAS name in Mexico; and drugstores in Chile, Colombia, Ecuador, and Mexico under the Cruz Verde, Fybeca, Sana Sana, YZA, La Moderna, and Farmacon names. In addition, the company provides transport logistics and maintenance services in Mexico, Brazil, and Colombia; processes electronic transactions for small and medium-sized businesses under the Spin name; and engages in the proximity discount grocery business under the Bara name. Further, it operates small-box retail and foodvenience chain stores in Switzerland, Germany, Austria, Luxembourg, and the Netherlands under the k kiosk, Brezelk\u00f6nig, BackWerk, Ditsch, Press & Books, avec, Caff\u00e8 Spettacolo, and ok.\u0096 brands. Fomento Econ\u00f3mico Mexicano, S.A.B. de C.V. was founded in 1890 and is headquartered in Monterrey, Mexico.",
+    "website": "https://www.femsa.com"
   },
   "FNGU": {
     "_ts": 1790358477.7255383,
@@ -2936,6 +2980,17 @@
     "summary": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey.",
     "website": "https://www.jnj.com"
   },
+  "JXN": {
+    "_ts": 1793823631.366943,
+    "country": "United States",
+    "employees": 3090,
+    "industry": "Insurance - Life",
+    "marketCap": 9455948800,
+    "name": "Jackson Financial Inc.",
+    "sector": "Financial Services",
+    "summary": "Jackson Financial Inc., through its subsidiaries, provides suite of annuities to retail investors in the United States. It operates through three segments: Retail Annuities, Institutional Products, and Closed Life and Annuity Blocks. The Retail Annuities segment offers various retirement income and savings products, including variable, fixed index, fixed, and payout annuities, as well as registered index-linked annuities and lifetime income solutions. The Institutional Products segment provides traditional guaranteed investment contracts; funding agreements backed by commercial paper; funding agreements comprising agreements issued in conjunction with its participation in the U.S. federal home loan bank program; and medium-term funding agreement-backed notes. The Closed Life and Annuity Blocks segment offers various protection products, such as whole life, universal life, variable universal life, and term life insurance products, as well as fixed, fixed index, and payout annuities. The company also provides investment management services. It sells its products through a distribution network that includes independent broker-dealers, wirehouses, regional broker-dealers, banks, independent registered investment advisors, third-party platforms, and insurance agents. The company was formerly known as Brooke (Holdco1) Inc. and changed its name to Jackson Financial Inc. in July 2020. Jackson Financial Inc. was incorporated in 2006 and is headquartered in Lansing, Michigan.",
+    "website": "https://www.jackson.com"
+  },
   "KALV": {
     "_ts": 1780064260.6332018,
     "country": "United States",
@@ -3223,14 +3278,14 @@
     "website": "https://www.livanova.com"
   },
   "LLY": {
-    "_ts": 1783355172.3029957,
+    "_ts": 1793823631.366943,
     "country": "United States",
     "employees": 50000,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 1072220930048,
+    "marketCap": 1262515257344,
     "name": "Eli Lilly and Company",
     "sector": "Healthcare",
-    "summary": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, such as Cyramza for the second-line treatment of gastric cancer or gastro-esophageal junction adenocarcinoma; Erbitux for colorectal cancers and head and neck cancers; Inluriyo for breast cancer; Jaypirca for chronic lymphocytic leukemia or small lymphocytic lymphoma; Retevmo for the treatment of metastatic NSCLC; TYVYT for classic hodgkin's lymphoma; and Verzenio for breast cancer. In addition, the company offers immunology products, which include Ebglyss for severe atopic dermatitis; Olumiant for rheumatoid arthritis, atopic dermatitis, severe alopecia areata, and COVID-19; Omvoh for ulcerative colitis; and Taltz for plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondylarthritis. Further, it provides Emgality for migraine prevention and episodic cluster headache, as well as Kisubla for symptomatic Alzheimer's disease. The company has collaborations with Boehringer Ingelheim Pharmaceuticals, Inc. for the Jardiance product family; and F. Hoffmann-La Roche Ltd and Genentech, Inc. for lebrikizumab, as well as license agreements with Almirall, S.A. for Ebglyss; and Chugai Pharmaceutical Co., Ltd for orforglipron; strategic collaboration with Ascidian Therapeutics for development of therapies for undisclosed monogenic kidney diseases; and BioArctic AB (publ) for new treatment. Eli Lilly and Company was founded in 1876 and is headquartered in Indianapolis, Indiana.",
+    "summary": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, such as Cyramza for the second-line treatment of gastric cancer or gastro-esophageal junction adenocarcinoma; Erbitux for colorectal cancers and head and neck cancers; Inluriyo for breast cancer; Jaypirca for chronic lymphocytic leukemia or small lymphocytic lymphoma; Retevmo for the treatment of metastatic NSCLC; TYVYT for classic hodgkin's lymphoma; and Verzenio for breast cancer. In addition, the company offers immunology products, which include Ebglyss; Olumiant; Omvoh; and Taltz. Further, it provides Emgality for migraine prevention and episodic cluster headache; and Kisubla for symptomatic Alzheimer's disease. The company has collaborations with Boehringer Ingelheim Pharmaceuticals, Inc. for the Jardiance product family; and F. Hoffmann-La Roche Ltd and Genentech, Inc. for lebrikizumab, as well as license agreements with Almirall, S.A. for Ebglyss; and Chugai Pharmaceutical Co., Ltd for orforglipron; strategic collaboration with Ascidian Therapeutics for development of therapies for undisclosed monogenic kidney diseases; BioArctic AB (publ) for new treatment; QurCan Therapeutics Inc for development of PLNP-enabled genetic medicine therapeutics for the treatment of central nervous system and peripheral nervous system; and Abbisko Therapeutics for discovery and development of medicines across multiple targets. The company was founded in 1876 and is headquartered in Indianapolis, Indiana.",
     "website": "https://www.lilly.com"
   },
   "LNT": {
@@ -3694,6 +3749,17 @@
     "sector": "Technology",
     "summary": "MaxLinear, Inc. provides communications systems-on-chip solutions in the United States, Asia, Europe, and internationally. Its products integrate various portions of a high-speed communication system, including radio frequency, high-performance analog, mixed-signal, digital signal processing, security engines, data compression and networking layers, and power management. Its products are used in various electronic devices, such as radio transceivers and modems for 4G/5G base-station and backhaul infrastructure; optical transceivers; wi-fi and wireline routers for home networking; broadband modems compliant with data over cable service interface specifications, passive optical fiber standards, and digital subscriber line, as well as power management and interface products. It serves electronics distributors, module makers, original equipment manufacturers, and original design manufacturers through a direct sales force, third-party sales representatives, and a network of distributors. The company has a strategic collaboration with Edgecore Networks Corporation for the development network infrastructure for enterprise and SMB applications. MaxLinear, Inc. has strategic partnership with GCT Semiconductor Holding, Inc. to develop 5G fixed wireless access (FWA) gateways and converged gateways for consumer and enterprise applications. The company was incorporated in 2003 and is headquartered in Carlsbad, California.",
     "website": "https://www.maxlinear.com"
+  },
+  "NAVN": {
+    "_ts": 1793823631.366943,
+    "country": "United States",
+    "employees": 3700,
+    "industry": "Software - Application",
+    "marketCap": 7063634944,
+    "name": "Navan, Inc.",
+    "sector": "Technology",
+    "summary": "Navan, Inc. operates an AI-powered software platform to simplify the travel and expense experience, benefiting users, customers, and suppliers. The company offers AI-powered travel, payments, and expense management solutions to streamline the travel lifecycle, from booking and policy enforcement to payment processing, expense reconciliation, and reporting. It serves finance, human resources, travel managers, inventory, and other markets. It has partnership with OpenTable Partner for AI-Powered Business Travel Planning. Navan, Inc. was formerly known as TripActions, Inc. and changed its name to Navan, Inc. in February 2023. The company was incorporated in 2015 and is based in Palo Alto, California.",
+    "website": "https://navan.com"
   },
   "NBIX": {
     "_ts": 1784732640.082939,
@@ -4697,11 +4763,11 @@
     "website": "https://www.rossstores.com"
   },
   "RPRX": {
-    "_ts": 1788368868.5000339,
+    "_ts": 1793823631.366943,
     "country": "United States",
     "employees": 100,
     "industry": "Biotechnology",
-    "marketCap": 36120494080,
+    "marketCap": 38859436032,
     "name": "Royalty Pharma plc",
     "sector": "Healthcare",
     "summary": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases. The company was founded in 1996 and is based in New York, New York.",
@@ -4752,11 +4818,11 @@
     "website": "https://www.revvity.com"
   },
   "RY": {
-    "_ts": 1777297685.5526693,
+    "_ts": 1793823643.8220348,
     "country": "Canada",
-    "employees": 97469,
+    "employees": 101269,
     "industry": "Banks - Diversified",
-    "marketCap": 244285931520,
+    "marketCap": 290287222784,
     "name": "Royal Bank of Canada",
     "sector": "Financial Services",
     "summary": "Royal Bank of Canada operates as a diversified financial service company worldwide. Its Personal Banking segment offers home equity financing, personal lending, chequing and savings accounts, private banking, auto financing, mutual funds, GICs, credit cards, and payment products and solutions. The company's Commercial Banking segments provides lending, deposit and transaction banking products and services. Its Wealth Management segment provides a suite of wealth, investment, trust, banking, credit, and other solutions to clients; asset management products to institutional and individual clients; and asset and investor services to financial institutions, asset managers, and asset owners. The company's Insurance segment offers life, health, travel, wealth, annuities, property and casualty, and reinsurance advice and solutions; digital platforms; and independent brokers and partners, as well as client-led advice and solutions. The company's Capital Markets segment offers advisory and origination, sales and trading, lending and financing, and transaction banking services to corporations, institutional clients, asset managers, private equity firms, and governments. The company was founded in 1864 and is based in Toronto, Canada.",
@@ -5268,6 +5334,17 @@
     "summary": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the Asia\u0096Pacific, and the Americas. The company operates through two reportable segments, Transportation Solutions and Industrial Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, back shells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, microfluidic devices, and sensor manufacturing services as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland.",
     "website": "https://www.te.com"
   },
+  "TENB": {
+    "_ts": 1793823631.366943,
+    "country": "United States",
+    "employees": 1995,
+    "industry": "Software - Infrastructure",
+    "marketCap": 5012307968,
+    "name": "Tenable Holdings, Inc.",
+    "sector": "Technology",
+    "summary": "Tenable Holdings, Inc. provides cyber exposure management solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. Its platforms include Tenable AI Exposure, a solution that helps organizations identify, assess, and reduce security risks associated with the use of artificial intelligence technologies; Tenable Vulnerability Management, a cloud-delivered software as a service that provides organizations with a risk-based view of traditional and modern attack surfaces; Tenable Cloud Security, a cloud security solution for use in exposing and closing priority security gaps caused by misconfigurations, risky entitlements, and vulnerabilities; Tenable Identity Exposure, a solution for end-to-end protection from identity-based threats; and Tenable Web App Scanning, which provides configuration and management of web app scans. The company also provides Tenable Attack Surface Management, an external attack surface management solution; Tenable Security Center, an on-premises vulnerability management solution; and Tenable OT Security, a unified security solution for converged OT/IoT environments that provide threat detection, asset tracking, vulnerability management, and configuration control capabilities to protect OT environments, including industrial networks. In addition, it offers Nessus, a vulnerability assessment solution for cybersecurity industry and enterprise platform; and Nessus Expert, which enables users to programmatically detect cloud infrastructure misconfigurations and vulnerabilities in the design and build phase of the software development lifecycle. Tenable Holdings, Inc. was founded in 2002 and is headquartered in Columbia, Maryland.",
+    "website": "https://www.tenable.com"
+  },
   "TERN": {
     "_ts": 1779115342.9882152,
     "country": "United States",
@@ -5621,11 +5698,11 @@
     "website": "https://www.unum.com"
   },
   "UNP": {
-    "_ts": 1787871000.075635,
+    "_ts": 1793823631.366943,
     "country": "United States",
-    "employees": 28716,
+    "employees": 28658,
     "industry": "Railroads",
-    "marketCap": 182779215872,
+    "marketCap": 182963388416,
     "name": "Union Pacific Corporation",
     "sector": "Industrials",
     "summary": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States. It offers transportation services for grain and grain products, fertilizers, food and refrigerated products, and coal and renewables to grain processors, animal feeders, and ethanol and renewable biofuel producers; and construction products, industrial chemicals, plastics, forest products, specialized products, metals and ores, petroleum, liquid petroleum gases, soda ash, and sand, as well as finished automobiles, automotive parts, and merchandise in intermodal containers. The company was founded in 1862 and is headquartered in Omaha, Nebraska.",
@@ -5830,11 +5907,11 @@
     "website": "https://www.viperenergy.com"
   },
   "VOYA": {
-    "_ts": 1789146113.876248,
+    "_ts": 1793823643.8220348,
     "country": "United States",
     "employees": 11000,
     "industry": "Financial Conglomerates",
-    "marketCap": 9350449152,
+    "marketCap": 9431079936,
     "name": "Voya Financial, Inc.",
     "sector": "Financial Services",
     "summary": "Voya Financial, Inc. provides workplace benefits, and savings solutions and technologies in the United States and internationally. The company operates through three segments: Retirement, Investment Management and Employee Benefits. The Retirement segment offers full-service retirement products; recordkeeping services; stable value and fixed general account investment products; non-qualified plan administration services; and tools, guidance, and services to promote the financial well-being and retirement security of employees. This segment also provides wealth management services, such as individual retirement, managed, and brokerage accounts, as well as financial guidance and advisory services. This segment serves corporate, public and private school systems, higher education institutions, hospitals and healthcare facilities, other non-profit organizations, and state and local governments, as well as institutional clients and individual customers. The Employee Benefits segment offers various insurance products comprising stop loss, group life, group disability, whole and term life, critical illness, accident, and hospital indemnity insurance. This segment also provides worksite employee benefits, health account solutions, leave management, benefits administration, health plan enrollment, financial wellness, and decision support products and services to mid-size and large corporate employers and professional associations. The Investment Management segment provides fixed income, equity, multi-asset, and alternative products and solutions to individual investors, financial intermediaries, and institutional clients through its direct sales force, consultant channel, intermediary partners, banks, broker-dealers, and independent financial advisers. The company was formerly known as ING U.S., Inc. and changed its name to Voya Financial, Inc. in April 2014. Voya Financial, Inc. was founded in 1975 and is based in New York, New York.",
@@ -5906,6 +5983,17 @@
     "summary": "Viatris Inc., together with its subsidiaries, operates as a healthcare company in North America, Europe, China, Taiwan, Hong Kong, Japan, Australia, New Zealand, rest of Asia, Africa, Latin America, and the Middle East. It operates in four segments: Developed Markets, Greater China, JANZ, and Emerging Markets. The company offers prescription brand drugs, generic drugs, complex generic drugs, and biosimilars. It also provides drugs in various therapeutic areas covering various noncommunicable and infectious diseases, including cardiovascular, CNS and anesthesia, dermatology, diabetes and metabolism, eye care, gastroenterology, immunology, oncology, and respiratory and allergy, as well as support services, such as diagnostic clinics, educational seminars, and digital tools to help patients better manage their health. In addition, the company offers medicines in the form of oral solid doses, injectables, and complex dosage forms to retail and pharmacy establishments, wholesalers and distributors, payers, insurers and governments, and institutions. It distributes its products through pharmaceutical wholesalers/distributors, pharmaceutical retailers, institutional pharmacies, mail-order and e-commerce pharmacies, and specialty pharmacies under the Lyrica, Lipitor, Celebrex, Viagra, Creon, Influvac, Wixela Inhub, EpiPen Auto-Injector, Fraxiparine, Yupelri, Norvasc, Amitiza, Effexor, Lipacreon, Zoloft, Xalabrands, Dymista, Xanax, and Breyna brands. The company has collaboration agreements with Mapi Pharma Ltd. to develop and commercialize long-acting glatiramer acetate depot products and additional products; Revance Therapeutics, Inc. to develop, manufacture, and commercialize a biosimilar to the branded biologic product, BOTOX; and Theravance Biopharma, Inc. to develop and commercialize revefenacin. Viatris Inc. was founded in 1961 and is headquartered in Canonsburg, Pennsylvania.",
     "website": "https://www.viatris.com"
   },
+  "WAB": {
+    "_ts": 1793823631.366943,
+    "country": "United States",
+    "employees": 31000,
+    "industry": "Railroads",
+    "marketCap": 49309573120,
+    "name": "Westinghouse Air Brake Technologies Corporation",
+    "sector": "Industrials",
+    "summary": "Westinghouse Air Brake Technologies Corporation provides locomotives, equipment, systems, and services for the freight rail and passenger transit industries worldwide. It operates in two segments, Freight and Transit. It offers diesel-electric and liquid natural gas-powered locomotives; engines, electric motors, and propulsion systems; and marine and mining products. The company also offers positive train control equipment; electronically controlled pneumatic braking products; railway electronics; signal design and engineering services; distributed locomotive power, and train cruise and remote controls; industrial/mobile Internet of Things hardware and software, edge-to-cloud, on and off-board analytics and rules, and asset performance management solutions; rail and shipper transportation management, and port visibility and optimization solutions; and network optimization solutions. In addition, it provides freight car trucks, braking equipment, and related components; air compressors and dryers, as well as heating, ventilation, and air conditioning (HVAC) systems; heat transfer components and systems; custom engineered burners and combustion systems; rail gear, signaling, and switch products; and turbochargers. Further, it offers freight locomotive overhauls, modernizations, and refurbishment; locomotive and car maintenance; transit locomotive and car overhaul; unit exchange of locomotive components; long-term parts arrangements; and way equipment maintenance services. Additionally, it provides railway and freight braking equipment and related components; brake shoes, discs, and pads; HVAC equipment; access and platform screen doors; pantographs; power converters and battery chargers; passenger information systems and closed-circuit television; signaling and railway electric relays; and doors, window assemblies, accessibility lifts, ramps, and electric charging solutions for buses. The company was founded in 1869 and is headquartered in Pittsburgh, Pennsylvania.",
+    "website": "https://www.wabteccorp.com"
+  },
   "WAT": {
     "_ts": 1790098720.5070617,
     "country": "United States",
@@ -5962,11 +6050,11 @@
     "website": "https://www.westerndigital.com"
   },
   "WELL": {
-    "_ts": 1784127144.4491315,
+    "_ts": 1793823631.366943,
     "country": "United States",
     "employees": 712,
     "industry": "REIT - Healthcare Facilities",
-    "marketCap": 165840470016,
+    "marketCap": 181344698368,
     "name": "Welltower Inc.",
     "sector": "Real Estate",
     "summary": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States, United Kingdom, and Canada. Their portfolio of 2,500+ seniors and wellness housing communities are positioned at the intersection of housing and hospitality, creating vibrant communities for mature renters and older adults. They believe our real estate portfolio is unmatched, located in highly attractive micro markets with stunning built environments. Yet, Welltower is an unusual real estate organization as they view themselves as an operating company in a real estate wrapper, driven by highly aligned partnerships and an unconventional culture. Through their disciplined approach to capital allocation powered by their Data Science platform and superior operating results driven by the Welltower Business System - their end-to-end operating platform - they aspire to deliver long-term compounding of per share growth for their existing investors, North Star. Welltower Inc. was incorporated in 1970 in Delaware and is based in Toledo, Ohio.",
