@@ -1958,11 +1958,11 @@
     "website": "https://www.equinor.com"
   },
   "ERAS": {
-    "_ts": 1791312814.4124432,
+    "_ts": 1793995059.927824,
     "country": "United States",
     "employees": 103,
     "industry": "Biotechnology",
-    "marketCap": 5003346432,
+    "marketCap": 4879180288,
     "name": "Erasca, Inc.",
     "sector": "Healthcare",
     "summary": "Erasca, Inc., a clinical-stage precision oncology company, focuses on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. The company's product pipeline includes ERAS-0015, a pan-RAS molecular glue for the treatment of patients with RAS-mutated solid tumors; ERAS-4001, a pan-KRAS inhibitor for the treatment of patients with KRAS-mutated solid tumors; and ERAS-12, an investigational EGFR D2/D3 biparatopic antibody (bpAb) for the treatment of EGFR and RAS/MAPK solid tumors. It has license agreement with Guangzhou Joyo Pharmatech Co., Ltd to develop, manufacture, and commercialize certain pan-RAS inhibitors; Medshine Discovery Inc. to develop, manufacture, and commercialize certain pan-KRAS inhibitors; Novartis Pharma AG to develop, manufacture, use, and commercialize naporafenib; NiKang Therapeutics, Inc. to develop and commercialize ERAS-601 and certain other related compounds; and Asana BioSciences, LLC to develop and commercialize ERAS-007 and certain other related compounds. The company has a clinical trial collaboration and supply agreement with Tango Therapeutics, Inc. for the evaluation of ERAS-0015. Erasca, Inc. was incorporated in 2018 and is headquartered in San Diego, California.",
@@ -2694,6 +2694,17 @@
     "summary": "Interactive Brokers Group, Inc. operates as an automated electronic broker in the United States and internationally. The company engages in the execution, clearance, and settlement of trades in stocks, options, futures, foreign exchange instruments, bonds, precious metals, and cryptocurrencies; and the company provides custody, prime brokerage, securities, and margin lending services. It also offers custody and service accounts for hedge and mutual funds, ETFs, registered investment advisors, proprietary trading groups, introducing brokers, and individual investors. In addition, the company provides trading platforms, including IBKR Trader Workstation, IBKR Desktop, IBKR Mobile, and IBKR Client Portal platform, as well as IBKR GlobalTrader mobile application, and IBKR APIs, builds custom trading applications and automates any part of the trading process. Further, it offers IBKR Pro, IBKR Lite, IBKR Universal Account, insured bank deposit sweep program, investors' marketplace, mutual fund marketplace, bond marketplace, forecast and event contracts, fractional trading, no transaction fee program for exchange-traded funds, overnight trading hours, and karta visa infinite charge card. It serves institutional and individual customers through electronic exchanges and market centers. Interactive Brokers Group, Inc. was founded in 1977 and is headquartered in Greenwich, Connecticut.",
     "website": "https://www.interactivebrokers.com"
   },
+  "IBRX": {
+    "_ts": 1793995059.927824,
+    "country": "United States",
+    "employees": 684,
+    "industry": "Biotechnology",
+    "marketCap": 9045702656,
+    "name": "ImmunityBio, Inc.",
+    "sector": "Healthcare",
+    "summary": "ImmunityBio, Inc., a biotechnology company, focuses on innovating, developing, and commercializing next-generation immunotherapies designed to activate the patient's immune system and deliver durable protection against cancer and infectious diseases. Its platforms for the development of biologic products and product candidates that include cytokine fusion proteins, DNA and vaccine vectors, and cell therapies. The company's platform has generated first-in-human therapeutic agents that are planned to be studied in clinical trials in liquid and solid tumors. Its lead biologic product candidate includes Anktiva, an FDA-approved immunotherapy in combination with bacillus calmette-gu\u00e9rin (BCG) for the treatment of adult patients with BCG unresponsive non-muscle invasive bladder cancer with carcinoma in situ, with or without papillary tumors; and 3M-052, a synthetic TLR7/8 agonist and 3M-052 formulations and related technology. The company has collaboration agreements with National Cancer Institute; Serum Institute of India Private Limited; and BeOne Medicines Ltd. It has license agreement with 3M Innovative Properties Company and Access to Advanced Health Institute. ImmunityBio, Inc. is based in San Diego, California.",
+    "website": "https://immunitybio.com"
+  },
   "IDA": {
     "_ts": 1782743509.769063,
     "country": "United States",
@@ -3102,11 +3113,11 @@
     "website": "https://www.coca-colacompany.com"
   },
   "KOD": {
-    "_ts": 1791312814.4124432,
+    "_ts": 1793995059.927824,
     "country": "United States",
     "employees": 141,
     "industry": "Biotechnology",
-    "marketCap": 5954672128,
+    "marketCap": 6211411968,
     "name": "Kodiak Sciences Inc.",
     "sector": "Healthcare",
     "summary": "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Its lead product candidate is tarcocimab tedromer (KSI-301), an anti-vascular endothelial growth factor (VEGF) antibody biopolymer that has complete Phase 3 clinical study to treat high prevalence retinal vascular diseases; and in Phase 3 clinical study for the treatment of diabetic retinopathy, wet age-related macular degeneration (AMD), retinal vein occlusion, and diabetic macular edema, as well as in Phase 2/3 clinical study to treat wet AMD. The company's preclinical stage product candidate includes KSI-501, an anti- interleukin-6 (IL-6) and VEGF-trap bispecific antibody biopolymer conjugate for high prevalence retinal vascular diseases; and KSI-101 (KSI-501P), a bispecific protein targeting IL-6 and VEGF developed for patients who have retinal fluid and inflammation. The company was formerly known as Oligasis, LLC and changed its name to Kodiak Sciences Inc. in September 2015. Kodiak Sciences Inc. was incorporated in 2009 and is based in Palo Alto, California.",
@@ -3597,11 +3608,11 @@
     "website": "https://www.merck.com"
   },
   "MRNA": {
-    "_ts": 1791312814.4124432,
+    "_ts": 1793995059.927824,
     "country": "United States",
     "employees": 4700,
     "industry": "Biotechnology",
-    "marketCap": 76018507776,
+    "marketCap": 105198657536,
     "name": "Moderna, Inc.",
     "sector": "Healthcare",
     "summary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
@@ -4983,11 +4994,11 @@
     "website": "https://www.sunlife.com"
   },
   "SLS": {
-    "_ts": 1791312814.4124432,
+    "_ts": 1793995059.927824,
     "country": "United States",
     "employees": 13,
     "industry": "Biotechnology",
-    "marketCap": 2312278272,
+    "marketCap": 1656964608,
     "name": "SELLAS Life Sciences Group, Inc.",
     "sector": "Healthcare",
     "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
