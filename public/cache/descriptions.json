@@ -5312,6 +5312,17 @@
     "summary": "Spyre Therapeutics, Inc., a clinical stage biotechnology company, focuses on developing therapeutics for patients living with inflammatory bowel disease (IBD) and rheumatic diseases. The company develops SPY001, a humanized monoclonal immunoglobulin G1 antibody that is in phase-2 clinical stage designed to bind selectively to the a4\u00df7 integrin being developed for the treatment of IBD (ulcerative colitis and Crohn's disease); and SPY002 and SPY072 \u0096 anti-TL1A mAbs designed to bind to tumor necrosis factor-like ligand 1A (TL1A). It is also developing SPY003, a clinical-stage program, which is in phase-2 clinical stage designed to bind to interleukin 23 (IL-23); SPY120, a combination of anti-a4\u00df7 and anti-TL1A mAbs; SPY130, a combination anti-a4\u00df7 and anti-IL-23 mAbs; and SPY230, a combination anti-TL1A and anti-IL-23 mAbs. The company was formerly known as Aeglea BioTherapeutics, Inc. and changed its name to Spyre Therapeutics, Inc. in November 2023. The company was incorporated in 2013 and is based in Waltham, Massachusetts.",
     "website": "https://www.spyre.com"
   },
+  "TBBB": {
+    "_ts": 1795035942.7573295,
+    "country": "Mexico",
+    "employees": 29202,
+    "industry": "Discount Stores",
+    "marketCap": 8217559040,
+    "name": "BBB Foods Inc.",
+    "sector": "Consumer Defensive",
+    "summary": "BBB Foods Inc., through its subsidiaries, operates a chain of grocery retail stores in Mexico. The company provides spot products comprising food and non-food products, such as clothing, electronics, household goods, and others. It also provides branded and private label products. The company serves low-to-middle income households. BBB Foods Inc. was incorporated in 2004 and is headquartered in Mexico City, Mexico.",
+    "website": "https://tiendas3b.com"
+  },
   "TD": {
     "_ts": 1793212922.7288368,
     "country": "Canada",
@@ -5654,14 +5665,14 @@
     "website": "https://www.twilio.com"
   },
   "TWST": {
-    "_ts": 1792436571.726066,
+    "_ts": 1795035944.6039195,
     "country": "United States",
-    "employees": 979,
+    "employees": 1080,
     "industry": "Biotechnology",
-    "marketCap": 9176745984,
+    "marketCap": 7932590080,
     "name": "Twist Bioscience Corporation",
     "sector": "Healthcare",
-    "summary": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products. It offers synthetic genes and gene fragments used in product development for therapeutics, diagnostics, chemicals/materials, food/agriculture, data storage, and various applications within academic research by biotech, pharma, industrial chemical, and agricultural companies, as well as academic labs; Oligo pools used in targeted NGS, CRISPR gene editing, mutagenesis experiments, DNA origami, DNA computing, data storage in DNA, and other applications; and immunoglobulin G proteins for customers focused on the pursuit of drug discovery and development. It provides NGS tools comprising library preparation kits, human exome kits, and fixed and custom panels, as well as alliance panels used within diagnostic tests for various indications, population genetics research and biomarker discovery, translational research, microbiology, and applied markets research; and methylation detection kits for cancer, and rare and inherited disease study, as well as fast hybridization and full RNA sequencing workflow solution. In addition, it offers synthetic SARS-CoV-2 RNA reference sequences as positive controls to develop both NGS and reverse transcription-polymerase chain reaction assays; synthetic monkeypox controls; and various respiratory viral controls, including for influenzas, respiratory syncytial virus, rhinoviruses, SARS, MERS, and coronaviruses. Further, it offers SARS-CoV-2 Research Panels, such as the Twist Respiratory Virus Panel and the Pan-Viral Research Panel, for the detection of disease in a research setting; precision DNA libraries for antibody engineering, affinity maturation, and humanization; and antibody optimization solution to enable simultaneous optimization of multiple characteristics of a given antibody. The company has a strategic collaboration with bitBiome Inc and Lilly TuneLab. The company was incorporated in 2013 and is headquartered in South San Francisco, California.",
+    "summary": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products. It offers synthetic genes and gene fragments used in product development for therapeutics, diagnostics, chemicals/materials, food/agriculture, data storage, and various applications within academic research by biotech, pharma, industrial chemical, and agricultural companies, as well as academic labs; and Oligo pools used in targeted NGS, CRISPR gene editing, mutagenesis experiments, DNA origami, and other applications. It provides NGS tools comprising library preparation kits, human exome kits, and fixed and custom panels, as well as alliance panels used within diagnostic tests for various indications, population genetics research and biomarker discovery, translational research, microbiology, and applied markets research; and methylation detection kits for cancer, and rare and inherited disease study, as well as fast hybridization and full RNA sequencing workflow solution. In addition, it offers synthetic SARS-CoV-2 RNA reference sequences as positive controls to develop both NGS and reverse transcription-polymerase chain reaction assays. Further, it offers SARS-CoV-2 Research Panels, such as the Twist Respiratory Virus Panel and the Pan-Viral Research Panel, for the detection of disease in a research setting; precision DNA libraries for antibody engineering, affinity maturation, and humanization; and antibody optimization solution to enable simultaneous optimization of multiple characteristics of a given antibody. The company was incorporated in 2013 and is headquartered in South San Francisco, California.",
     "website": "https://www.twistbioscience.com"
   },
   "TXG": {
